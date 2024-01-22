@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ColorSceneFrameBuilder
+ | BP.AdventureFramework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ColorSceneFrameBuilder
+ | BP.AdventureFramework ">
+      
+      <meta name="description" content="Provides a builder for color scene frames.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ben-pollard-uk/adventure-framework/new/docfx/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
+            BP.AdventureFramework
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder">
+
+
+
+  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder" class="text-break">
+    Class ColorSceneFrameBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.html">Color</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>BP.AdventureFramework.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides a builder for color scene frames.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ColorSceneFrameBuilder : ISceneFrameBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ColorSceneFrameBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.ISceneFrameBuilder.html">ISceneFrameBuilder</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder__ctor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.#ctor*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder__ctor_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Rendering_FrameBuilders_IRoomMapBuilder_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.#ctor(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder,BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder)">
+  ColorSceneFrameBuilder(GridStringBuilder, IRoomMapBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the ColorSceneFrameBuilder class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColorSceneFrameBuilder(GridStringBuilder gridStringBuilder, IRoomMapBuilder roomMapBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gridStringBuilder</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html">GridStringBuilder</a></dt>
+    <dd><p>A builder to use for the string layout.</p>
+</dd>
+    <dt><code>roomMapBuilder</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.html">IRoomMapBuilder</a></dt>
+    <dd><p>A builder to use for room maps.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_BackgroundColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.BackgroundColor*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_BackgroundColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.BackgroundColor">
+  BackgroundColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set the background color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor BackgroundColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_BorderColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.BorderColor*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_BorderColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.BorderColor">
+  BorderColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set the border color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor BorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_CommandsColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.CommandsColor*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_CommandsColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.CommandsColor">
+  CommandsColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set the commands color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor CommandsColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_DisplayMessagesInIsolation_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.DisplayMessagesInIsolation*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_DisplayMessagesInIsolation" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.DisplayMessagesInIsolation">
+  DisplayMessagesInIsolation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set if messages should be displayed in isolation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisplayMessagesInIsolation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_InputColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.InputColor*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_InputColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.InputColor">
+  InputColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set the input color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor InputColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_SupressMovementMessages_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.SupressMovementMessages*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_SupressMovementMessages" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.SupressMovementMessages">
+  SupressMovementMessages
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set if movement messages should be suppressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupressMovementMessages { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_TextColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.TextColor*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_TextColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.TextColor">
+  TextColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set the text color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor TextColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_Build_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.Build*"></a>
+
+  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorSceneFrameBuilder_Build_BP_AdventureFramework_Assets_Locations_Room_BP_AdventureFramework_Assets_Locations_ViewPoint_BP_AdventureFramework_Assets_Characters_PlayableCharacter_System_String_BP_AdventureFramework_Interpretation_CommandHelp___BP_AdventureFramework_Rendering_KeyType_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.Build(BP.AdventureFramework.Assets.Locations.Room,BP.AdventureFramework.Assets.Locations.ViewPoint,BP.AdventureFramework.Assets.Characters.PlayableCharacter,System.String,BP.AdventureFramework.Interpretation.CommandHelp[],BP.AdventureFramework.Rendering.KeyType,System.Int32,System.Int32)">
+  Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Build a frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFrame Build(Room room, ViewPoint viewPoint, PlayableCharacter player, string message, CommandHelp[] contextualCommands, KeyType keyType, int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>room</code> <a class="xref" href="BP.AdventureFramework.Assets.Locations.Room.html">Room</a></dt>
+    <dd><p>Specify the Room.</p>
+</dd>
+    <dt><code>viewPoint</code> <a class="xref" href="BP.AdventureFramework.Assets.Locations.ViewPoint.html">ViewPoint</a></dt>
+    <dd><p>Specify the viewpoint from the room.</p>
+</dd>
+    <dt><code>player</code> <a class="xref" href="BP.AdventureFramework.Assets.Characters.PlayableCharacter.html">PlayableCharacter</a></dt>
+    <dd><p>Specify the player.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Any additional message.</p>
+</dd>
+    <dt><code>contextualCommands</code> <a class="xref" href="BP.AdventureFramework.Interpretation.CommandHelp.html">CommandHelp</a>[]</dt>
+    <dd><p>The contextual commands to display.</p>
+</dd>
+    <dt><code>keyType</code> <a class="xref" href="BP.AdventureFramework.Rendering.KeyType.html">KeyType</a></dt>
+    <dd><p>The type of key to use.</p>
+</dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the frame.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the frame.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BP.AdventureFramework.Rendering.Frames.IFrame.html">IFrame</a></dt>
+    <dd>Provides a builder for color scene frames.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ben-pollard-uk/adventure-framework/blob/docfx/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorSceneFrameBuilder.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

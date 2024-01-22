@@ -1,0 +1,1238 @@
+{
+  "source_base_path": "C:/Users/benpollard/Documents/Local Documents/GH/adventure-framework/docs/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Characters.Character.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.IConverser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Characters.IConverser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.NonPlayableCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Characters.NonPlayableCharacter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Characters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.ConditionalDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.ConditionalDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Description.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Description.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.ExaminableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.ExaminableObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.ExaminationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.ExaminationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.ExaminationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.ExaminationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.IExaminable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.IExaminable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.IPlayerVisible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.IPlayerVisible.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Identifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Identifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.Condition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.IInteractWithItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.IInteractWithItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.Reaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.Reaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.ReactionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.ReactionResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Direction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Exit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Exit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Matrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Overworld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Overworld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Region.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Region.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Room.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Room.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.RoomPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.RoomPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.ViewPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.ViewPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Locations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Size.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Commands.CustomCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Commands.CustomCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Commands.CustomCommandCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Commands.CustomCommandCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Commands.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Commands.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Conversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Conversation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.ConversationActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.ConversationActionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.LogItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.LogItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Paragraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Paragraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Participant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Response.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Response.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Extensions.DirectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Extensions.DirectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Extensions.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Interpretation.CommandHelp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Interpretation.CommandHelp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Interpretation.CustomCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Interpretation.CustomCommandInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Interpretation.IInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Interpretation.IInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Interpretation.InterpretationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Interpretation.InterpretationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Interpretation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Interpretation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.EndCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.EndCheck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.EndCheckResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.EndCheckResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.ExitMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.ExitMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.Game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.GameCreationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.GameCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.GameState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.OverworldCreationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.OverworldCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.PlayerCreationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.PlayerCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Logic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Logic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IAboutFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IAboutFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ICompletionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ICompletionFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IConversationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IConversationFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IGameOverFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IGameOverFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IHelpFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IHelpFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ISceneFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ISceneFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITitleFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITitleFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITransitionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITransitionFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.GridTextFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.GridTextFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.IFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.IFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.TextFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.TextFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.KeyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.KeyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.RegionMapMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.RegionMapMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.IAssetTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.IAssetTemplate-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.OverworldMaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.OverworldMaker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.RegionMaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.RegionMaker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
