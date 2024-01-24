@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/benpollarduk/BP.AdventureFramework/blob/release-pipeline/docs/docfx/docs/getting-started.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/getting-started.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -105,13 +105,22 @@ var regionMaker = new RegionMaker(&quot;Mountain&quot;, &quot;An imposing volcan
 // create overworld maker. the overworld maker simplifies creating in game overworlds. an overworld contains a series or regions
 var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancient kingdom.&quot;, regionMaker);
 
-// create callback for generating games
-var gameCreator = Game.Create(&quot;The Life Of Dave&quot;,
+// create the callback for generating new instances of the game
+// - the title of the game
+// - an introduction to the game, displayed at the start
+// - about the game, displayed on the about screen
+// - a callback that provides a new instance of the games overworld
+// - a callback that provides a new instance of the player
+// - a callback that determines if the game is complete, checked every cycle of the game
+// - a callback that determines if it's game over, checked every cycle of the game
+var gameCreator = Game.Create(
+    &quot;The Life Of Dave&quot;,
     &quot;Dave awakes to find himself in a cavern...&quot;,
     &quot;A very low budget adventure.&quot;,
     x =&gt; overworldMaker.Make(),
     () =&gt; player,
-    x =&gt; CompletionCheckResult.NotComplete);
+    x =&gt; EndCheckResul.NotEnded,
+    x =&gt; EndCheckResult.NotEnded);
 
 // begin the execution of the game
 Game.Execute(gameCreator);
@@ -127,7 +136,7 @@ Set the <strong>BP.AdventureFramweork.Examples</strong> project as the start up 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/release-pipeline/docs/docfx/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
