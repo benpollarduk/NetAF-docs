@@ -1078,19 +1078,6 @@ references:
   isSpec: "True"
   fullName: BP.AdventureFramework.Assets.Item.Morph
   nameWithType: Item.Morph
-- uid: BP.AdventureFramework.Assets.Item.Use(BP.AdventureFramework.Assets.Interaction.IInteractWithItem)
-  name: Use(IInteractWithItem)
-  href: api/BP.AdventureFramework.Assets.Item.html#BP_AdventureFramework_Assets_Item_Use_BP_AdventureFramework_Assets_Interaction_IInteractWithItem_
-  commentId: M:BP.AdventureFramework.Assets.Item.Use(BP.AdventureFramework.Assets.Interaction.IInteractWithItem)
-  fullName: BP.AdventureFramework.Assets.Item.Use(BP.AdventureFramework.Assets.Interaction.IInteractWithItem)
-  nameWithType: Item.Use(IInteractWithItem)
-- uid: BP.AdventureFramework.Assets.Item.Use*
-  name: Use
-  href: api/BP.AdventureFramework.Assets.Item.html#BP_AdventureFramework_Assets_Item_Use_
-  commentId: Overload:BP.AdventureFramework.Assets.Item.Use
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Assets.Item.Use
-  nameWithType: Item.Use
 - uid: BP.AdventureFramework.Assets.Locations
   name: BP.AdventureFramework.Assets.Locations
   href: api/BP.AdventureFramework.Assets.Locations.html
@@ -3621,19 +3608,6 @@ references:
   isSpec: "True"
   fullName: BP.AdventureFramework.Logic.Game.DisplayTransition
   nameWithType: Game.DisplayTransition
-- uid: BP.AdventureFramework.Logic.Game.Dispose
-  name: Dispose()
-  href: api/BP.AdventureFramework.Logic.Game.html#BP_AdventureFramework_Logic_Game_Dispose
-  commentId: M:BP.AdventureFramework.Logic.Game.Dispose
-  fullName: BP.AdventureFramework.Logic.Game.Dispose()
-  nameWithType: Game.Dispose()
-- uid: BP.AdventureFramework.Logic.Game.Dispose*
-  name: Dispose
-  href: api/BP.AdventureFramework.Logic.Game.html#BP_AdventureFramework_Logic_Game_Dispose_
-  commentId: Overload:BP.AdventureFramework.Logic.Game.Dispose
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Logic.Game.Dispose
-  nameWithType: Game.Dispose
 - uid: BP.AdventureFramework.Logic.Game.ErrorPrefix
   name: ErrorPrefix
   href: api/BP.AdventureFramework.Logic.Game.html#BP_AdventureFramework_Logic_Game_ErrorPrefix
