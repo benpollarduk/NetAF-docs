@@ -83,10 +83,14 @@
 <p>Items can be used to add interactivity with a game. Items can be something that a player can take with them, or they may be static in a Room.</p>
 <h2 id="use">Use</h2>
 <p>An Item can be simply instantiated with a name and description.</p>
-<pre><code class="lang-csharp">var exit = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;);
+<pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;);
 </code></pre>
 <p>By default an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor.</p>
-<pre><code class="lang-csharp">var item = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;, true);
+<pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;, true);
+</code></pre>
+<p>An Item can morph in to another Item. This is useful in situations where the Item changes state. Morphing is invoked with the <strong>Morph</strong> method. The Item that Morph is invoked on takes on the properties of the Item being morphed into.</p>
+<pre><code class="lang-csharp">var brokenSword = new Item(&quot;Broken Sword&quot;, &quot;A broken sword&quot;);
+sword.Morph(brokenSword);
 </code></pre>
 <p>Like all Examinable objects, an Item can be assigned custom commands.</p>
 <pre><code class="lang-csharp">bomb.Commands =
@@ -122,7 +126,7 @@ var dart = new Item(&quot;Dart&quot;, &quot;A dart&quot;)
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/items.md/#L1" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/docs-update/docs/docfx/docs/items.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>

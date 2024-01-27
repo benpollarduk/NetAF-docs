@@ -80,7 +80,33 @@
 <h1 id="conditional-descriptions">Conditional Descriptions</h1>
 
 <h2 id="overview">Overview</h2>
-<p>Work in progress, coming soon.</p>
+<p>Normally assets are assigned a <strong>Description</strong> during the constructor. This is what is returned when the asset is examined.</p>
+<p>Descriptions are usaully specified as a string.</p>
+<pre><code class="lang-csharp">var item = new Item(&quot;The items name&quot;, &quot;The items description.&quot;);
+</code></pre>
+<p>They can also be specified as a <strong>Desciption</strong>.</p>
+<pre><code class="lang-csharp">var item = new Item(new Identifier(&quot;The items name&quot;), new Description(&quot;The items description.&quot;));
+</code></pre>
+<p>However, sometimes it may be desirable to have a conditional description that can change based on the state of the asset.</p>
+<p>Conditional descriptions can be specified with <strong>ConditionalDescription</strong> and contain a lambda which determines which one of two strings are returned when the asset is examined.</p>
+<pre><code class="lang-csharp">// the player, just for demo purposes
+var player = new PlayableCharacter(&quot;Ben&quot;, &quot;A man.&quot;);
+
+// the description to use when the condition is true
+var trueString = &quot;A gleaming sword, owned by Ben.&quot;;
+
+// the string to use when the condition is false
+var falseString = &quot;A gleaming sword, without an owner.&quot;;
+
+// a lambda that determines which string is returned
+Condition condition = () =&gt; player.FindItem(&quot;Sword&quot;, out _);
+
+// the conditional description itself
+var conditionalDescrption = new ConditionalDescription(trueString, falseString, condition);
+
+// create the item with the conditional description
+var sword = new Item(new Identifier(&quot;Sword&quot;), conditionalDescrption);
+</code></pre>
 
 </article>
           </div>
@@ -90,7 +116,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/conditional-descriptions.md/#L1" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/docs-update/docs/docfx/docs/conditional-descriptions.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>

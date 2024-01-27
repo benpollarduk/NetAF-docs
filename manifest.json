@@ -1035,6 +1035,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/commands.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/conditional-descriptions.md",
       "output": {
         ".html": {
@@ -1085,30 +1095,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/game-commands.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/game-commands.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
           "relative_path": "docs/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/global-commands.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/global-commands.html"
         }
       },
       "version": ""
