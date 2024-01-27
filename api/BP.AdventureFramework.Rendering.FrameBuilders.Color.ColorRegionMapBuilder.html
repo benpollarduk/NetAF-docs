@@ -1,135 +1,103 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+
   <head>
     <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class ColorRegionMapBuilder
  | BP.AdventureFramework </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class ColorRegionMapBuilder
  | BP.AdventureFramework ">
-      
-      <meta name="description" content="Provides a color builder for region maps.">
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/benpollarduk/BP.AdventureFramework/new/benpollarduk-patch-1/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
+    
+    <meta name="description" content="Provides a color builder for region maps.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
-
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
-            BP.AdventureFramework
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
               </form>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
 
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
           </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
+      <div role="main" class="container body-content hide-when-search">
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
         </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder">
 
-        <article data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder">
 
 
-
-  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder" class="text-break">
-    Class ColorRegionMapBuilder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L11"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.html">Color</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>BP.AdventureFramework.dll</dd></dl>
-  </div>
-
-  <div class="markdown summary"><p>Provides a color builder for region maps.</p>
+  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder" class="text-break">Class ColorRegionMapBuilder
+</h1>
+  <div class="markdown level0 summary"><p>Provides a color builder for region maps.</p>
 </div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ColorRegionMapBuilder : IRegionMapBuilder</code></pre>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">ColorRegionMapBuilder</span></div>
   </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ColorRegionMapBuilder</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a></div>
-    </dd>
-  </dl>
-
-
-  <dl class="typelist derived">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -148,540 +116,560 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.html">Color</a></h6>
+  <h6><strong>Assembly</strong>: BP.AdventureFramework.dll</h6>
+  <h5 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ColorRegionMapBuilder : IRegionMapBuilder</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_CurrentFloorIndicator.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.CurrentFloorIndicator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L53">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_CurrentFloorIndicator_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.CurrentFloorIndicator*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_CurrentFloorIndicator" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.CurrentFloorIndicator">
-  CurrentFloorIndicator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L53"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_CurrentFloorIndicator" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.CurrentFloorIndicator">CurrentFloorIndicator</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for the current floor.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char CurrentFloorIndicator { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_EmptySpace.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.EmptySpace%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L28">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_EmptySpace_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.EmptySpace*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_EmptySpace" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.EmptySpace">
-  EmptySpace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L28"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_EmptySpace" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.EmptySpace">EmptySpace</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for representing an empty space.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char EmptySpace { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_HorizontalBoundary.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.HorizontalBoundary%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L38">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_HorizontalBoundary_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.HorizontalBoundary*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_HorizontalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.HorizontalBoundary">
-  HorizontalBoundary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_HorizontalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.HorizontalBoundary">HorizontalBoundary</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for horizontal boundaries.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char HorizontalBoundary { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExit.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L18">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExit_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExit*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExit" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExit">
-  LockedExit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExit" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExit">LockedExit</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for representing a locked exit.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char LockedExit { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExitColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExitColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L73">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExitColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExitColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExitColor">
-  LockedExitColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L73"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LockedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LockedExitColor">LockedExitColor</h4>
   <div class="markdown level1 summary"><p>Get or set the locked exit color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor LockedExitColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevel.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L43">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevel_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevel*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevel" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevel">
-  LowerLevel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L43"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevel" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevel">LowerLevel</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for lower levels.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char LowerLevel { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevelColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevelColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L78">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevelColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevelColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevelColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevelColor">
-  LowerLevelColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L78"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_LowerLevelColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.LowerLevelColor">LowerLevelColor</h4>
   <div class="markdown level1 summary"><p>Get or set the lower level color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor LowerLevelColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_Player.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L48">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_Player_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.Player*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_Player" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.Player">
-  Player
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L48"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_Player" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.Player">Player</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for indicating the player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char Player { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_PlayerColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.PlayerColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L68">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_PlayerColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.PlayerColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_PlayerColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.PlayerColor">
-  PlayerColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L68"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_PlayerColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.PlayerColor">PlayerColor</h4>
   <div class="markdown level1 summary"><p>Get or set the player color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor PlayerColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_ShowLowerFloors.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.ShowLowerFloors%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L83">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_ShowLowerFloors_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.ShowLowerFloors*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_ShowLowerFloors" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.ShowLowerFloors">
-  ShowLowerFloors
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L83"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_ShowLowerFloors" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.ShowLowerFloors">ShowLowerFloors</h4>
   <div class="markdown level1 summary"><p>Get or set if lower floors should be shown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ShowLowerFloors { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnLockedExit.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnLockedExit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L23">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnLockedExit_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnLockedExit*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnLockedExit" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnLockedExit">
-  UnLockedExit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnLockedExit" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnLockedExit">UnLockedExit</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for representing an unlocked exit.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char UnLockedExit { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnvisitedBoundaryColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnvisitedBoundaryColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L63">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnvisitedBoundaryColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnvisitedBoundaryColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnvisitedBoundaryColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnvisitedBoundaryColor">
-  UnvisitedBoundaryColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L63"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_UnvisitedBoundaryColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.UnvisitedBoundaryColor">UnvisitedBoundaryColor</h4>
   <div class="markdown level1 summary"><p>Get or set the unvisited room boundary color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor UnvisitedBoundaryColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VerticalBoundary.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VerticalBoundary%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L33">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VerticalBoundary_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VerticalBoundary*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VerticalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VerticalBoundary">
-  VerticalBoundary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L33"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VerticalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VerticalBoundary">VerticalBoundary</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for vertical boundaries.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char VerticalBoundary { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VisitedBoundaryColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VisitedBoundaryColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L58">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VisitedBoundaryColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VisitedBoundaryColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VisitedBoundaryColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VisitedBoundaryColor">
-  VisitedBoundaryColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L58"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_VisitedBoundaryColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.VisitedBoundaryColor">VisitedBoundaryColor</h4>
   <div class="markdown level1 summary"><p>Get or set the visited room boundary color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor VisitedBoundaryColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color builder for region maps.</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color builder for region maps.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_BuildRegionMap_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Assets_Locations_Region_System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.BuildRegionMap(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder%2CBP.AdventureFramework.Assets.Locations.Region%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L265">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_BuildRegionMap_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.BuildRegionMap*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_BuildRegionMap_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Assets_Locations_Region_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.BuildRegionMap(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder,BP.AdventureFramework.Assets.Locations.Region,System.Int32,System.Int32,System.Int32,System.Int32)">
-  BuildRegionMap(GridStringBuilder, Region, int, int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L265"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder_BuildRegionMap_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Assets_Locations_Region_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.BuildRegionMap(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder,BP.AdventureFramework.Assets.Locations.Region,System.Int32,System.Int32,System.Int32,System.Int32)">BuildRegionMap(GridStringBuilder, Region, int, int, int, int)</h4>
   <div class="markdown level1 summary"><p>Build a map of a region.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void BuildRegionMap(GridStringBuilder gridStringBuilder, Region region, int x, int y, int maxWidth, int maxHeight)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>gridStringBuilder</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html">GridStringBuilder</a></dt>
-    <dd><p>The string builder to use.</p>
-</dd>
-    <dt><code>region</code> <a class="xref" href="BP.AdventureFramework.Assets.Locations.Region.html">Region</a></dt>
-    <dd><p>The region.</p>
-</dd>
-    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The x position to start building at.</p>
-</dd>
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The y position to start building at.</p>
-</dd>
-    <dt><code>maxWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The maximum horizontal space available in which to build the map.</p>
-</dd>
-    <dt><code>maxHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The maximum vertical space available in which to build the map.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html">GridStringBuilder</a></td>
+        <td><span class="parametername">gridStringBuilder</span></td>
+        <td><p>The string builder to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Locations.Region.html">Region</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x position to start building at.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position to start building at.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">maxWidth</span></td>
+        <td><p>The maximum horizontal space available in which to build the map.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">maxHeight</span></td>
+        <td><p>The maximum vertical space available in which to build the map.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a>
+  </div>
 
 </article>
+          </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L11" class="edit-link">Edit this page</a>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRegionMapBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRegionMapBuilder.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-
       </div>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

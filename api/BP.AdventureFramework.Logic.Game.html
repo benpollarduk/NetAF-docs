@@ -1,129 +1,99 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+
   <head>
     <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class Game
  | BP.AdventureFramework </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class Game
  | BP.AdventureFramework ">
-      
-      <meta name="description" content="Represents the structure of the game">
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/benpollarduk/BP.AdventureFramework/new/benpollarduk-patch-1/apiSpec/new?filename=BP_AdventureFramework_Logic_Game.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
+    
+    <meta name="description" content="Represents the structure of the game">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
-
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
-            BP.AdventureFramework
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
               </form>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
 
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
           </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
+      <div role="main" class="container body-content hide-when-search">
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
         </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BP.AdventureFramework.Logic.Game">
 
-        <article data-uid="BP.AdventureFramework.Logic.Game">
 
 
-
-  <h1 id="BP_AdventureFramework_Logic_Game" data-uid="BP.AdventureFramework.Logic.Game" class="text-break">
-    Class Game
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Logic.html">Logic</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>BP.AdventureFramework.dll</dd></dl>
-  </div>
-
-  <div class="markdown summary"><p>Represents the structure of the game</p>
+  <h1 id="BP_AdventureFramework_Logic_Game" data-uid="BP.AdventureFramework.Logic.Game" class="text-break">Class Game
+</h1>
+  <div class="markdown level0 summary"><p>Represents the structure of the game</p>
 </div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Game</code></pre>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">Game</span></div>
   </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Game</span></div>
-    </dd>
-  </dl>
-
-
-
-  <dl class="typelist derived">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -142,910 +112,961 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DefaultErrorPrefix" data-uid="BP.AdventureFramework.Logic.Game.DefaultErrorPrefix">
-  DefaultErrorPrefix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L30"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Logic.html">Logic</a></h6>
+  <h6><strong>Assembly</strong>: BP.AdventureFramework.dll</h6>
+  <h5 id="BP_AdventureFramework_Logic_Game_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Game</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DefaultErrorPrefix.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DefaultErrorPrefix%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L30">View Source</a>
+  </span>
+  <h4 id="BP_AdventureFramework_Logic_Game_DefaultErrorPrefix" data-uid="BP.AdventureFramework.Logic.Game.DefaultErrorPrefix">DefaultErrorPrefix</h4>
   <div class="markdown level1 summary"><p>Get the default error prefix.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const string DefaultErrorPrefix = &quot;Oops&quot;</code></pre>
   </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_ActiveConverser.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.ActiveConverser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L69">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_ActiveConverser_" data-uid="BP.AdventureFramework.Logic.Game.ActiveConverser*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_ActiveConverser" data-uid="BP.AdventureFramework.Logic.Game.ActiveConverser">
-  ActiveConverser
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L69"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_ActiveConverser" data-uid="BP.AdventureFramework.Logic.Game.ActiveConverser">ActiveConverser</h4>
   <div class="markdown level1 summary"><p>Get the active converser.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IConverser ActiveConverser { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Characters.IConverser.html">IConverser</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Characters.IConverser.html">IConverser</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Author.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Author%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L109">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Author_" data-uid="BP.AdventureFramework.Logic.Game.Author*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Author" data-uid="BP.AdventureFramework.Logic.Game.Author">
-  Author
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L109"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Author" data-uid="BP.AdventureFramework.Logic.Game.Author">Author</h4>
   <div class="markdown level1 summary"><p>Get or set the name of the author.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Author { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DefaultInterpreter.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DefaultInterpreter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L39">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DefaultInterpreter_" data-uid="BP.AdventureFramework.Logic.Game.DefaultInterpreter*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DefaultInterpreter" data-uid="BP.AdventureFramework.Logic.Game.DefaultInterpreter">
-  DefaultInterpreter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L39"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DefaultInterpreter" data-uid="BP.AdventureFramework.Logic.Game.DefaultInterpreter">DefaultInterpreter</h4>
   <div class="markdown level1 summary"><p>Get the default interpreter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IInterpreter DefaultInterpreter { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Interpretation.IInterpreter.html">IInterpreter</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DefaultSize.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DefaultSize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L49">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DefaultSize_" data-uid="BP.AdventureFramework.Logic.Game.DefaultSize*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DefaultSize" data-uid="BP.AdventureFramework.Logic.Game.DefaultSize">
-  DefaultSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L49"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DefaultSize" data-uid="BP.AdventureFramework.Logic.Game.DefaultSize">DefaultSize</h4>
   <div class="markdown level1 summary"><p>Get the default size.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Size DefaultSize { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Description.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Description%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L104">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Description_" data-uid="BP.AdventureFramework.Logic.Game.Description*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Description" data-uid="BP.AdventureFramework.Logic.Game.Description">
-  Description
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L104"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Description" data-uid="BP.AdventureFramework.Logic.Game.Description">Description</h4>
   <div class="markdown level1 summary"><p>Get the description.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DisplayCommandListInSceneFrames.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DisplayCommandListInSceneFrames%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L74">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DisplayCommandListInSceneFrames_" data-uid="BP.AdventureFramework.Logic.Game.DisplayCommandListInSceneFrames*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DisplayCommandListInSceneFrames" data-uid="BP.AdventureFramework.Logic.Game.DisplayCommandListInSceneFrames">
-  DisplayCommandListInSceneFrames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L74"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DisplayCommandListInSceneFrames" data-uid="BP.AdventureFramework.Logic.Game.DisplayCommandListInSceneFrames">DisplayCommandListInSceneFrames</h4>
   <div class="markdown level1 summary"><p>Get or set if the command list is displayed in scene frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool DisplayCommandListInSceneFrames { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DisplaySize.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DisplaySize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L144">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DisplaySize_" data-uid="BP.AdventureFramework.Logic.Game.DisplaySize*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DisplaySize" data-uid="BP.AdventureFramework.Logic.Game.DisplaySize">
-  DisplaySize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L144"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DisplaySize" data-uid="BP.AdventureFramework.Logic.Game.DisplaySize">DisplaySize</h4>
   <div class="markdown level1 summary"><p>Get the size of the display area.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Size DisplaySize { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_ErrorPrefix.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.ErrorPrefix%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L114">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_ErrorPrefix_" data-uid="BP.AdventureFramework.Logic.Game.ErrorPrefix*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_ErrorPrefix" data-uid="BP.AdventureFramework.Logic.Game.ErrorPrefix">
-  ErrorPrefix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L114"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_ErrorPrefix" data-uid="BP.AdventureFramework.Logic.Game.ErrorPrefix">ErrorPrefix</h4>
   <div class="markdown level1 summary"><p>Get or set the error prefix.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string ErrorPrefix { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_FrameBuilders.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.FrameBuilders%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L154">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_FrameBuilders_" data-uid="BP.AdventureFramework.Logic.Game.FrameBuilders*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_FrameBuilders" data-uid="BP.AdventureFramework.Logic.Game.FrameBuilders">
-  FrameBuilders
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L154"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_FrameBuilders" data-uid="BP.AdventureFramework.Logic.Game.FrameBuilders">FrameBuilders</h4>
   <div class="markdown level1 summary"><p>Get or set the collection of frame builders used to render this game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public FrameBuilderCollection FrameBuilders { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Introduction.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Introduction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L99">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Introduction_" data-uid="BP.AdventureFramework.Logic.Game.Introduction*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Introduction" data-uid="BP.AdventureFramework.Logic.Game.Introduction">
-  Introduction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L99"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Introduction" data-uid="BP.AdventureFramework.Logic.Game.Introduction">Introduction</h4>
   <div class="markdown level1 summary"><p>Get the introduction.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Introduction { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_IsExecuting.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.IsExecuting%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L119">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_IsExecuting_" data-uid="BP.AdventureFramework.Logic.Game.IsExecuting*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_IsExecuting" data-uid="BP.AdventureFramework.Logic.Game.IsExecuting">
-  IsExecuting
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L119"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_IsExecuting" data-uid="BP.AdventureFramework.Logic.Game.IsExecuting">IsExecuting</h4>
   <div class="markdown level1 summary"><p>Get if this is executing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsExecuting { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Name.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L94">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Name_" data-uid="BP.AdventureFramework.Logic.Game.Name*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Name" data-uid="BP.AdventureFramework.Logic.Game.Name">
-  Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L94"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Name" data-uid="BP.AdventureFramework.Logic.Game.Name">Name</h4>
   <div class="markdown level1 summary"><p>Get the name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Overworld.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Overworld%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L89">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Overworld_" data-uid="BP.AdventureFramework.Logic.Game.Overworld*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Overworld" data-uid="BP.AdventureFramework.Logic.Game.Overworld">
-  Overworld
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L89"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Overworld" data-uid="BP.AdventureFramework.Logic.Game.Overworld">Overworld</h4>
   <div class="markdown level1 summary"><p>Get the overworld.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Overworld Overworld { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Locations.Overworld.html">Overworld</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Locations.Overworld.html">Overworld</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Player.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L84">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Player_" data-uid="BP.AdventureFramework.Logic.Game.Player*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Player" data-uid="BP.AdventureFramework.Logic.Game.Player">
-  Player
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L84"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Player" data-uid="BP.AdventureFramework.Logic.Game.Player">Player</h4>
   <div class="markdown level1 summary"><p>Get the player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public PlayableCharacter Player { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Characters.PlayableCharacter.html">PlayableCharacter</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Characters.PlayableCharacter.html">PlayableCharacter</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_SceneMapKeyType.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.SceneMapKeyType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L79">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_SceneMapKeyType_" data-uid="BP.AdventureFramework.Logic.Game.SceneMapKeyType*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_SceneMapKeyType" data-uid="BP.AdventureFramework.Logic.Game.SceneMapKeyType">
-  SceneMapKeyType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L79"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_SceneMapKeyType" data-uid="BP.AdventureFramework.Logic.Game.SceneMapKeyType">SceneMapKeyType</h4>
   <div class="markdown level1 summary"><p>Get or set the type of key to use on the scene map.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public KeyType SceneMapKeyType { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.KeyType.html">KeyType</a></dt>
-    <dd>Represents the structure of the game</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.KeyType.html">KeyType</a></td>
+        <td>Represents the structure of the game</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Create_System_String_System_String_System_String_BP_AdventureFramework_Logic_OverworldCreationCallback_BP_AdventureFramework_Logic_PlayerCreationCallback_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Logic_EndCheck_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Create(System.String%2CSystem.String%2CSystem.String%2CBP.AdventureFramework.Logic.OverworldCreationCallback%2CBP.AdventureFramework.Logic.PlayerCreationCallback%2CBP.AdventureFramework.Logic.EndCheck%2CBP.AdventureFramework.Logic.EndCheck)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L503">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Create_" data-uid="BP.AdventureFramework.Logic.Game.Create*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Create_System_String_System_String_System_String_BP_AdventureFramework_Logic_OverworldCreationCallback_BP_AdventureFramework_Logic_PlayerCreationCallback_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Logic_EndCheck_" data-uid="BP.AdventureFramework.Logic.Game.Create(System.String,System.String,System.String,BP.AdventureFramework.Logic.OverworldCreationCallback,BP.AdventureFramework.Logic.PlayerCreationCallback,BP.AdventureFramework.Logic.EndCheck,BP.AdventureFramework.Logic.EndCheck)">
-  Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L503"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Create_System_String_System_String_System_String_BP_AdventureFramework_Logic_OverworldCreationCallback_BP_AdventureFramework_Logic_PlayerCreationCallback_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Logic_EndCheck_" data-uid="BP.AdventureFramework.Logic.Game.Create(System.String,System.String,System.String,BP.AdventureFramework.Logic.OverworldCreationCallback,BP.AdventureFramework.Logic.PlayerCreationCallback,BP.AdventureFramework.Logic.EndCheck,BP.AdventureFramework.Logic.EndCheck)">Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)</h4>
   <div class="markdown level1 summary"><p>Create a new callback for generating instances of a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static GameCreationCallback Create(string name, string introduction, string description, OverworldCreationCallback overworldGenerator, PlayerCreationCallback playerGenerator, EndCheck completionCondition, EndCheck gameOverCondition)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the game.</p>
-</dd>
-    <dt><code>introduction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>An introduction to the game.</p>
-</dd>
-    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A description of the game.</p>
-</dd>
-    <dt><code>overworldGenerator</code> <a class="xref" href="BP.AdventureFramework.Logic.OverworldCreationCallback.html">OverworldCreationCallback</a></dt>
-    <dd><p>A function to generate the overworld with.</p>
-</dd>
-    <dt><code>playerGenerator</code> <a class="xref" href="BP.AdventureFramework.Logic.PlayerCreationCallback.html">PlayerCreationCallback</a></dt>
-    <dd><p>The function to generate the player with.</p>
-</dd>
-    <dt><code>completionCondition</code> <a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></dt>
-    <dd><p>The callback used to check game completion.</p>
-</dd>
-    <dt><code>gameOverCondition</code> <a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></dt>
-    <dd><p>The callback used to check game over.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Logic.GameCreationCallback.html">GameCreationCallback</a></dt>
-    <dd><p>A new GameCreationHelper that will create a GameCreator with the parameters specified.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">introduction</span></td>
+        <td><p>An introduction to the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>A description of the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.OverworldCreationCallback.html">OverworldCreationCallback</a></td>
+        <td><span class="parametername">overworldGenerator</span></td>
+        <td><p>A function to generate the overworld with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.PlayerCreationCallback.html">PlayerCreationCallback</a></td>
+        <td><span class="parametername">playerGenerator</span></td>
+        <td><p>The function to generate the player with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></td>
+        <td><span class="parametername">completionCondition</span></td>
+        <td><p>The callback used to check game completion.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></td>
+        <td><span class="parametername">gameOverCondition</span></td>
+        <td><p>The callback used to check game over.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.GameCreationCallback.html">GameCreationCallback</a></td>
+        <td><p>A new GameCreationHelper that will create a GameCreator with the parameters specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Create_System_String_System_String_System_String_BP_AdventureFramework_Logic_OverworldCreationCallback_BP_AdventureFramework_Logic_PlayerCreationCallback_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Assets_Size_BP_AdventureFramework_Rendering_FrameBuilders_FrameBuilderCollection_BP_AdventureFramework_Logic_ExitMode_System_String_BP_AdventureFramework_Interpretation_IInterpreter_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Create(System.String%2CSystem.String%2CSystem.String%2CBP.AdventureFramework.Logic.OverworldCreationCallback%2CBP.AdventureFramework.Logic.PlayerCreationCallback%2CBP.AdventureFramework.Logic.EndCheck%2CBP.AdventureFramework.Logic.EndCheck%2CBP.AdventureFramework.Assets.Size%2CBP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection%2CBP.AdventureFramework.Logic.ExitMode%2CSystem.String%2CBP.AdventureFramework.Interpretation.IInterpreter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L536">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Create_" data-uid="BP.AdventureFramework.Logic.Game.Create*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Create_System_String_System_String_System_String_BP_AdventureFramework_Logic_OverworldCreationCallback_BP_AdventureFramework_Logic_PlayerCreationCallback_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Assets_Size_BP_AdventureFramework_Rendering_FrameBuilders_FrameBuilderCollection_BP_AdventureFramework_Logic_ExitMode_System_String_BP_AdventureFramework_Interpretation_IInterpreter_" data-uid="BP.AdventureFramework.Logic.Game.Create(System.String,System.String,System.String,BP.AdventureFramework.Logic.OverworldCreationCallback,BP.AdventureFramework.Logic.PlayerCreationCallback,BP.AdventureFramework.Logic.EndCheck,BP.AdventureFramework.Logic.EndCheck,BP.AdventureFramework.Assets.Size,BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection,BP.AdventureFramework.Logic.ExitMode,System.String,BP.AdventureFramework.Interpretation.IInterpreter)">
-  Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck, Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L536"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Create_System_String_System_String_System_String_BP_AdventureFramework_Logic_OverworldCreationCallback_BP_AdventureFramework_Logic_PlayerCreationCallback_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Logic_EndCheck_BP_AdventureFramework_Assets_Size_BP_AdventureFramework_Rendering_FrameBuilders_FrameBuilderCollection_BP_AdventureFramework_Logic_ExitMode_System_String_BP_AdventureFramework_Interpretation_IInterpreter_" data-uid="BP.AdventureFramework.Logic.Game.Create(System.String,System.String,System.String,BP.AdventureFramework.Logic.OverworldCreationCallback,BP.AdventureFramework.Logic.PlayerCreationCallback,BP.AdventureFramework.Logic.EndCheck,BP.AdventureFramework.Logic.EndCheck,BP.AdventureFramework.Assets.Size,BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection,BP.AdventureFramework.Logic.ExitMode,System.String,BP.AdventureFramework.Interpretation.IInterpreter)">Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck, Size, FrameBuilderCollection, ExitMode, string, IInterpreter)</h4>
   <div class="markdown level1 summary"><p>Create a new callback for generating instances of a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static GameCreationCallback Create(string name, string introduction, string description, OverworldCreationCallback overworldGenerator, PlayerCreationCallback playerGenerator, EndCheck completionCondition, EndCheck gameOverCondition, Size displaySize, FrameBuilderCollection frameBuilders, ExitMode exitMode, string errorPrefix, IInterpreter interpreter)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the game.</p>
-</dd>
-    <dt><code>introduction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>An introduction to the game.</p>
-</dd>
-    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A description of the game.</p>
-</dd>
-    <dt><code>overworldGenerator</code> <a class="xref" href="BP.AdventureFramework.Logic.OverworldCreationCallback.html">OverworldCreationCallback</a></dt>
-    <dd><p>A function to generate the overworld with.</p>
-</dd>
-    <dt><code>playerGenerator</code> <a class="xref" href="BP.AdventureFramework.Logic.PlayerCreationCallback.html">PlayerCreationCallback</a></dt>
-    <dd><p>The function to generate the player with.</p>
-</dd>
-    <dt><code>completionCondition</code> <a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></dt>
-    <dd><p>The callback used to check game completion.</p>
-</dd>
-    <dt><code>gameOverCondition</code> <a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></dt>
-    <dd><p>The callback used to check game over.</p>
-</dd>
-    <dt><code>displaySize</code> <a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></dt>
-    <dd><p>The display size.</p>
-</dd>
-    <dt><code>frameBuilders</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></dt>
-    <dd><p>The collection of frame builders to use to render the game.</p>
-</dd>
-    <dt><code>exitMode</code> <a class="xref" href="BP.AdventureFramework.Logic.ExitMode.html">ExitMode</a></dt>
-    <dd><p>The exit mode.</p>
-</dd>
-    <dt><code>errorPrefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A prefix to use when displaying errors.</p>
-</dd>
-    <dt><code>interpreter</code> <a class="xref" href="BP.AdventureFramework.Interpretation.IInterpreter.html">IInterpreter</a></dt>
-    <dd><p>The interpreter.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Logic.GameCreationCallback.html">GameCreationCallback</a></dt>
-    <dd><p>A new GameCreationHelper that will create a GameCreator with the parameters specified.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">introduction</span></td>
+        <td><p>An introduction to the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>A description of the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.OverworldCreationCallback.html">OverworldCreationCallback</a></td>
+        <td><span class="parametername">overworldGenerator</span></td>
+        <td><p>A function to generate the overworld with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.PlayerCreationCallback.html">PlayerCreationCallback</a></td>
+        <td><span class="parametername">playerGenerator</span></td>
+        <td><p>The function to generate the player with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></td>
+        <td><span class="parametername">completionCondition</span></td>
+        <td><p>The callback used to check game completion.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.EndCheck.html">EndCheck</a></td>
+        <td><span class="parametername">gameOverCondition</span></td>
+        <td><p>The callback used to check game over.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">displaySize</span></td>
+        <td><p>The display size.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
+        <td><span class="parametername">frameBuilders</span></td>
+        <td><p>The collection of frame builders to use to render the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.ExitMode.html">ExitMode</a></td>
+        <td><span class="parametername">exitMode</span></td>
+        <td><p>The exit mode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">errorPrefix</span></td>
+        <td><p>A prefix to use when displaying errors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td><span class="parametername">interpreter</span></td>
+        <td><p>The interpreter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.GameCreationCallback.html">GameCreationCallback</a></td>
+        <td><p>A new GameCreationHelper that will create a GameCreator with the parameters specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DisplayAbout.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DisplayAbout%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L473">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DisplayAbout_" data-uid="BP.AdventureFramework.Logic.Game.DisplayAbout*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DisplayAbout" data-uid="BP.AdventureFramework.Logic.Game.DisplayAbout">
-  DisplayAbout()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L473"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DisplayAbout" data-uid="BP.AdventureFramework.Logic.Game.DisplayAbout">DisplayAbout()</h4>
   <div class="markdown level1 summary"><p>Display the about frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisplayAbout()</code></pre>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DisplayHelp.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DisplayHelp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L453">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DisplayHelp_" data-uid="BP.AdventureFramework.Logic.Game.DisplayHelp*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DisplayHelp" data-uid="BP.AdventureFramework.Logic.Game.DisplayHelp">
-  DisplayHelp()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L453"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DisplayHelp" data-uid="BP.AdventureFramework.Logic.Game.DisplayHelp">DisplayHelp()</h4>
   <div class="markdown level1 summary"><p>Display the help frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisplayHelp()</code></pre>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DisplayMap.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DisplayMap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L465">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DisplayMap_" data-uid="BP.AdventureFramework.Logic.Game.DisplayMap*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DisplayMap" data-uid="BP.AdventureFramework.Logic.Game.DisplayMap">
-  DisplayMap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L465"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DisplayMap" data-uid="BP.AdventureFramework.Logic.Game.DisplayMap">DisplayMap()</h4>
   <div class="markdown level1 summary"><p>Display the map frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisplayMap()</code></pre>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_DisplayTransition_System_String_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.DisplayTransition(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L483">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_DisplayTransition_" data-uid="BP.AdventureFramework.Logic.Game.DisplayTransition*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_DisplayTransition_System_String_System_String_" data-uid="BP.AdventureFramework.Logic.Game.DisplayTransition(System.String,System.String)">
-  DisplayTransition(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L483"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_DisplayTransition_System_String_System_String_" data-uid="BP.AdventureFramework.Logic.Game.DisplayTransition(System.String,System.String)">DisplayTransition(string, string)</h4>
   <div class="markdown level1 summary"><p>Display a transition frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DisplayTransition(string title, string message)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The title.</p>
-</dd>
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The message.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_Execute_BP_AdventureFramework_Logic_GameCreationCallback_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.Execute(BP.AdventureFramework.Logic.GameCreationCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L560">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_Execute_" data-uid="BP.AdventureFramework.Logic.Game.Execute*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_Execute_BP_AdventureFramework_Logic_GameCreationCallback_" data-uid="BP.AdventureFramework.Logic.Game.Execute(BP.AdventureFramework.Logic.GameCreationCallback)">
-  Execute(GameCreationCallback)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L560"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_Execute_BP_AdventureFramework_Logic_GameCreationCallback_" data-uid="BP.AdventureFramework.Logic.Game.Execute(BP.AdventureFramework.Logic.GameCreationCallback)">Execute(GameCreationCallback)</h4>
   <div class="markdown level1 summary"><p>Execute a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Execute(GameCreationCallback creator)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>creator</code> <a class="xref" href="BP.AdventureFramework.Logic.GameCreationCallback.html">GameCreationCallback</a></dt>
-    <dd><p>The creator to use to create the game.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Logic.GameCreationCallback.html">GameCreationCallback</a></td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>The creator to use to create the game.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_FindInteractionTarget_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.FindInteractionTarget(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L388">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_FindInteractionTarget_" data-uid="BP.AdventureFramework.Logic.Game.FindInteractionTarget*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_FindInteractionTarget_System_String_" data-uid="BP.AdventureFramework.Logic.Game.FindInteractionTarget(System.String)">
-  FindInteractionTarget(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L388"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_FindInteractionTarget_System_String_" data-uid="BP.AdventureFramework.Logic.Game.FindInteractionTarget(System.String)">FindInteractionTarget(string)</h4>
   <div class="markdown level1 summary"><p>Find an interaction target within the current scope for this Game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IInteractWithItem FindInteractionTarget(string name)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The targets name.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a></dt>
-    <dd><p>The first IInteractWithItem object which has a name that matches the name parameter.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The targets name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a></td>
+        <td><p>The first IInteractWithItem object which has a name that matches the name parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game_GetAllPlayerVisibleExaminables.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game.GetAllPlayerVisibleExaminables%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L413">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Logic_Game_GetAllPlayerVisibleExaminables_" data-uid="BP.AdventureFramework.Logic.Game.GetAllPlayerVisibleExaminables*"></a>
-
-  <h3 id="BP_AdventureFramework_Logic_Game_GetAllPlayerVisibleExaminables" data-uid="BP.AdventureFramework.Logic.Game.GetAllPlayerVisibleExaminables">
-  GetAllPlayerVisibleExaminables()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L413"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Logic_Game_GetAllPlayerVisibleExaminables" data-uid="BP.AdventureFramework.Logic.Game.GetAllPlayerVisibleExaminables">GetAllPlayerVisibleExaminables()</h4>
   <div class="markdown level1 summary"><p>Get all examinables that are currently visible to the player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IExaminable[] GetAllPlayerVisibleExaminables()</code></pre>
   </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.IExaminable.html">IExaminable</a>[]</dt>
-    <dd><p>An array of all examinables that are currently visible to the player.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.IExaminable.html">IExaminable</a>[]</td>
+        <td><p>An array of all examinables that are currently visible to the player.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
+          </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Logic/Game.cs/#L23" class="edit-link">Edit this page</a>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Logic_Game.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Logic.Game%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Logic/Game.cs/#L23" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-
       </div>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

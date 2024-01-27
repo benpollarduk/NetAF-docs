@@ -1,135 +1,103 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+
   <head>
     <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class ColorRoomMapBuilder
  | BP.AdventureFramework </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class ColorRoomMapBuilder
  | BP.AdventureFramework ">
-      
-      <meta name="description" content="Provides a color room map builder.">
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/benpollarduk/BP.AdventureFramework/new/benpollarduk-patch-1/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
+    
+    <meta name="description" content="Provides a color room map builder.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
-
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
-            BP.AdventureFramework
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
               </form>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
 
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
           </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
+      <div role="main" class="container body-content hide-when-search">
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
         </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder">
 
-        <article data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder">
 
 
-
-  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder" class="text-break">
-    Class ColorRoomMapBuilder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L11"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.html">Color</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>BP.AdventureFramework.dll</dd></dl>
-  </div>
-
-  <div class="markdown summary"><p>Provides a color room map builder.</p>
+  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder" class="text-break">Class ColorRoomMapBuilder
+</h1>
+  <div class="markdown level0 summary"><p>Provides a color room map builder.</p>
 </div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ColorRoomMapBuilder : IRoomMapBuilder</code></pre>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">ColorRoomMapBuilder</span></div>
   </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ColorRoomMapBuilder</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.html">IRoomMapBuilder</a></div>
-    </dd>
-  </dl>
-
-
-  <dl class="typelist derived">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.html">IRoomMapBuilder</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -148,514 +116,541 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.html">Color</a></h6>
+  <h6><strong>Assembly</strong>: BP.AdventureFramework.dll</h6>
+  <h5 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ColorRoomMapBuilder : IRoomMapBuilder</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BoundaryColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BoundaryColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L58">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BoundaryColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BoundaryColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BoundaryColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BoundaryColor">
-  BoundaryColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L58"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BoundaryColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BoundaryColor">BoundaryColor</h4>
   <div class="markdown level1 summary"><p>Get or set the room boundary color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor BoundaryColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_Corner.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.Corner%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L48">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_Corner_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.Corner*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_Corner" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.Corner">
-  Corner
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L48"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_Corner" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.Corner">Corner</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for corners.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char Corner { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalBoundary.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalBoundary%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L33">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalBoundary_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalBoundary*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalBoundary">
-  HorizontalBoundary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L33"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalBoundary">HorizontalBoundary</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for horizontal boundaries.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char HorizontalBoundary { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalExitBorder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalExitBorder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L43">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalExitBorder_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalExitBorder*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalExitBorder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalExitBorder">
-  HorizontalExitBorder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L43"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_HorizontalExitBorder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.HorizontalExitBorder">HorizontalExitBorder</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for horizontal exit borders.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char HorizontalExitBorder { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L63">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterColor">
-  ItemOrCharacterColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L63"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterColor">ItemOrCharacterColor</h4>
   <div class="markdown level1 summary"><p>Get or set the item or character color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor ItemOrCharacterColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterInRoom.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterInRoom%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L23">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterInRoom_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterInRoom*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterInRoom" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterInRoom">
-  ItemOrCharacterInRoom
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_ItemOrCharacterInRoom" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.ItemOrCharacterInRoom">ItemOrCharacterInRoom</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for representing there is an item or a character in the room.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char ItemOrCharacterInRoom { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_KeyPadding.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.KeyPadding%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L53">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_KeyPadding_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.KeyPadding*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_KeyPadding" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.KeyPadding">
-  KeyPadding
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L53"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_KeyPadding" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.KeyPadding">KeyPadding</h4>
   <div class="markdown level1 summary"><p>Get or set the padding between the key and the map.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int KeyPadding { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExit.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L18">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExit_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExit*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExit" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExit">
-  LockedExit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExit" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExit">LockedExit</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for representing a locked exit.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char LockedExit { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExitColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExitColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L68">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExitColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExitColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExitColor">
-  LockedExitColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L68"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_LockedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.LockedExitColor">LockedExitColor</h4>
   <div class="markdown level1 summary"><p>Get or set the locked exit color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor LockedExitColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_UnvisitedExitColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.UnvisitedExitColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L78">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_UnvisitedExitColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.UnvisitedExitColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_UnvisitedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.UnvisitedExitColor">
-  UnvisitedExitColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L78"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_UnvisitedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.UnvisitedExitColor">UnvisitedExitColor</h4>
   <div class="markdown level1 summary"><p>Get or set the unvisited exit color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor UnvisitedExitColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalBoundary.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalBoundary%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L28">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalBoundary_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalBoundary*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalBoundary">
-  VerticalBoundary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L28"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalBoundary" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalBoundary">VerticalBoundary</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for vertical boundaries.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char VerticalBoundary { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalExitBorder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalExitBorder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L38">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalExitBorder_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalExitBorder*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalExitBorder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalExitBorder">
-  VerticalExitBorder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VerticalExitBorder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VerticalExitBorder">VerticalExitBorder</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for vertical exit borders.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char VerticalExitBorder { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VisitedExitColor.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VisitedExitColor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L73">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VisitedExitColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VisitedExitColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VisitedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VisitedExitColor">
-  VisitedExitColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L73"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_VisitedExitColor" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.VisitedExitColor">VisitedExitColor</h4>
   <div class="markdown level1 summary"><p>Get or set the visited exit color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor VisitedExitColor { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd>Provides a color room map builder.</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td>Provides a color room map builder.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BuildRoomMap_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Assets_Locations_Room_BP_AdventureFramework_Assets_Locations_ViewPoint_BP_AdventureFramework_Rendering_KeyType_System_Int32_System_Int32_System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BuildRoomMap(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder%2CBP.AdventureFramework.Assets.Locations.Room%2CBP.AdventureFramework.Assets.Locations.ViewPoint%2CBP.AdventureFramework.Rendering.KeyType%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L391">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BuildRoomMap_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BuildRoomMap*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BuildRoomMap_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Assets_Locations_Room_BP_AdventureFramework_Assets_Locations_ViewPoint_BP_AdventureFramework_Rendering_KeyType_System_Int32_System_Int32_System_Int32__System_Int32__" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BuildRoomMap(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder,BP.AdventureFramework.Assets.Locations.Room,BP.AdventureFramework.Assets.Locations.ViewPoint,BP.AdventureFramework.Rendering.KeyType,System.Int32,System.Int32,System.Int32@,System.Int32@)">
-  BuildRoomMap(GridStringBuilder, Room, ViewPoint, KeyType, int, int, out int, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L391"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder_BuildRoomMap_BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_BP_AdventureFramework_Assets_Locations_Room_BP_AdventureFramework_Assets_Locations_ViewPoint_BP_AdventureFramework_Rendering_KeyType_System_Int32_System_Int32_System_Int32__System_Int32__" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.BuildRoomMap(BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder,BP.AdventureFramework.Assets.Locations.Room,BP.AdventureFramework.Assets.Locations.ViewPoint,BP.AdventureFramework.Rendering.KeyType,System.Int32,System.Int32,System.Int32@,System.Int32@)">BuildRoomMap(GridStringBuilder, Room, ViewPoint, KeyType, int, int, out int, out int)</h4>
   <div class="markdown level1 summary"><p>Build a map for a room.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void BuildRoomMap(GridStringBuilder gridStringBuilder, Room room, ViewPoint viewPoint, KeyType key, int startX, int startY, out int endX, out int endY)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>gridStringBuilder</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html">GridStringBuilder</a></dt>
-    <dd><p>The string builder to use.</p>
-</dd>
-    <dt><code>room</code> <a class="xref" href="BP.AdventureFramework.Assets.Locations.Room.html">Room</a></dt>
-    <dd><p>The room.</p>
-</dd>
-    <dt><code>viewPoint</code> <a class="xref" href="BP.AdventureFramework.Assets.Locations.ViewPoint.html">ViewPoint</a></dt>
-    <dd><p>The viewpoint from the room.</p>
-</dd>
-    <dt><code>key</code> <a class="xref" href="BP.AdventureFramework.Rendering.KeyType.html">KeyType</a></dt>
-    <dd><p>The key type.</p>
-</dd>
-    <dt><code>startX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start position, x.</p>
-</dd>
-    <dt><code>startY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start position, x.</p>
-</dd>
-    <dt><code>endX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The end position, x.</p>
-</dd>
-    <dt><code>endY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The end position, x.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html">GridStringBuilder</a></td>
+        <td><span class="parametername">gridStringBuilder</span></td>
+        <td><p>The string builder to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Locations.Room.html">Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Locations.ViewPoint.html">ViewPoint</a></td>
+        <td><span class="parametername">viewPoint</span></td>
+        <td><p>The viewpoint from the room.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.KeyType.html">KeyType</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startX</span></td>
+        <td><p>The start position, x.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startY</span></td>
+        <td><p>The start position, x.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">endX</span></td>
+        <td><p>The end position, x.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">endY</span></td>
+        <td><p>The end position, x.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.html">IRoomMapBuilder</a>
+  </div>
 
 </article>
+          </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L11" class="edit-link">Edit this page</a>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_Color_ColorRoomMapBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/Color/ColorRoomMapBuilder.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-
       </div>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

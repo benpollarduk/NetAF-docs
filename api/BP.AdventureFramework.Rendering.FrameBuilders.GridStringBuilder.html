@@ -1,129 +1,99 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+
   <head>
     <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class GridStringBuilder
  | BP.AdventureFramework </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class GridStringBuilder
  | BP.AdventureFramework ">
-      
-      <meta name="description" content="Provides a class for building strings as part of a grid.">
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/benpollarduk/BP.AdventureFramework/new/benpollarduk-patch-1/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
+    
+    <meta name="description" content="Provides a class for building strings as part of a grid.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
-
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
-            BP.AdventureFramework
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="BP.AdventureFramework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
               </form>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
 
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
           </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
+      <div role="main" class="container body-content hide-when-search">
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
         </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder">
 
-        <article data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder">
 
 
-
-  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder" class="text-break">
-    Class GridStringBuilder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L11"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>BP.AdventureFramework.dll</dd></dl>
-  </div>
-
-  <div class="markdown summary"><p>Provides a class for building strings as part of a grid.</p>
+  <h1 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder" class="text-break">Class GridStringBuilder
+</h1>
+  <div class="markdown level0 summary"><p>Provides a class for building strings as part of a grid.</p>
 </div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GridStringBuilder</code></pre>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">GridStringBuilder</span></div>
   </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">GridStringBuilder</span></div>
-    </dd>
-  </dl>
-
-
-
-  <dl class="typelist derived">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -145,691 +115,803 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BP.html">BP</a>.<a class="xref" href="BP.AdventureFramework.html">AdventureFramework</a>.<a class="xref" href="BP.AdventureFramework.Rendering.html">Rendering</a>.<a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Assembly</strong>: BP.AdventureFramework.dll</h6>
+  <h5 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GridStringBuilder</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder__ctor_System_Char_System_Char_System_Char_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.%23ctor(System.Char%2CSystem.Char%2CSystem.Char)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L57">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder__ctor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.#ctor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder__ctor_System_Char_System_Char_System_Char_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.#ctor(System.Char,System.Char,System.Char)">
-  GridStringBuilder(char, char, char)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L57"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder__ctor_System_Char_System_Char_System_Char_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.#ctor(System.Char,System.Char,System.Char)">GridStringBuilder(char, char, char)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the GridStringBuilder class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public GridStringBuilder(char leftBoundaryCharacter = &#39;|&#39;, char rightBoundaryCharacter = &#39;|&#39;, char horizontalDividerCharacter = &#39;-&#39;)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>leftBoundaryCharacter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd><p>The character to use for left boundaries.</p>
-</dd>
-    <dt><code>rightBoundaryCharacter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd><p>The character to use for right boundaries.</p>
-</dd>
-    <dt><code>horizontalDividerCharacter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd><p>The character to use for horizontal dividers.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><span class="parametername">leftBoundaryCharacter</span></td>
+        <td><p>The character to use for left boundaries.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><span class="parametername">rightBoundaryCharacter</span></td>
+        <td><p>The character to use for right boundaries.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><span class="parametername">horizontalDividerCharacter</span></td>
+        <td><p>The character to use for horizontal dividers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DisplaySize.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DisplaySize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L45">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DisplaySize_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DisplaySize*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DisplaySize" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DisplaySize">
-  DisplaySize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L45"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DisplaySize" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DisplaySize">DisplaySize</h4>
   <div class="markdown level1 summary"><p>Get the display size.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Size DisplaySize { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></dt>
-    <dd>Provides a class for building strings as part of a grid.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></td>
+        <td>Provides a class for building strings as part of a grid.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_HorizontalDividerCharacter.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.HorizontalDividerCharacter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L35">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_HorizontalDividerCharacter_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.HorizontalDividerCharacter*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_HorizontalDividerCharacter" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.HorizontalDividerCharacter">
-  HorizontalDividerCharacter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_HorizontalDividerCharacter" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.HorizontalDividerCharacter">HorizontalDividerCharacter</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for horizontal dividers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char HorizontalDividerCharacter { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a class for building strings as part of a grid.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a class for building strings as part of a grid.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LeftBoundaryCharacter.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LeftBoundaryCharacter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L25">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LeftBoundaryCharacter_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LeftBoundaryCharacter*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LeftBoundaryCharacter" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LeftBoundaryCharacter">
-  LeftBoundaryCharacter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L25"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LeftBoundaryCharacter" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LeftBoundaryCharacter">LeftBoundaryCharacter</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for left boundary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char LeftBoundaryCharacter { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a class for building strings as part of a grid.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a class for building strings as part of a grid.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LineTerminator.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LineTerminator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L40">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LineTerminator_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LineTerminator*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LineTerminator" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LineTerminator">
-  LineTerminator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L40"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_LineTerminator" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.LineTerminator">LineTerminator</h4>
   <div class="markdown level1 summary"><p>Get or set the line terminator.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string LineTerminator { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Provides a class for building strings as part of a grid.</dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>Provides a class for building strings as part of a grid.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_RightBoundaryCharacter.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.RightBoundaryCharacter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L30">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_RightBoundaryCharacter_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.RightBoundaryCharacter*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_RightBoundaryCharacter" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.RightBoundaryCharacter">
-  RightBoundaryCharacter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L30"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_RightBoundaryCharacter" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.RightBoundaryCharacter">RightBoundaryCharacter</h4>
   <div class="markdown level1 summary"><p>Get or set the character used for right boundary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char RightBoundaryCharacter { get; set; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd>Provides a class for building strings as part of a grid.</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td>Provides a class for building strings as part of a grid.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawBoundary_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawBoundary(BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L126">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawBoundary_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawBoundary*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawBoundary_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawBoundary(BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">
-  DrawBoundary(AnsiColor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L126"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawBoundary_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawBoundary(BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">DrawBoundary(AnsiColor)</h4>
   <div class="markdown level1 summary"><p>Draw the boundary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DrawBoundary(AnsiColor color)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>color</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The color to draw the boundary.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to draw the boundary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawCentralisedWrapped_System_String_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawCentralisedWrapped(System.String%2CSystem.Int32%2CSystem.Int32%2CBP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor%2CSystem.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L213">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawCentralisedWrapped_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawCentralisedWrapped*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawCentralisedWrapped_System_String_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_System_Int32__System_Int32__" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawCentralisedWrapped(System.String,System.Int32,System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor,System.Int32@,System.Int32@)">
-  DrawCentralisedWrapped(string, int, int, AnsiColor, out int, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L213"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawCentralisedWrapped_System_String_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_System_Int32__System_Int32__" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawCentralisedWrapped(System.String,System.Int32,System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor,System.Int32@,System.Int32@)">DrawCentralisedWrapped(string, int, int, AnsiColor, out int, out int)</h4>
   <div class="markdown level1 summary"><p>Draw a wrapped string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DrawCentralisedWrapped(string value, int startY, int maxWidth, AnsiColor color, out int endX, out int endY)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The string.</p>
-</dd>
-    <dt><code>startY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start y position.</p>
-</dd>
-    <dt><code>maxWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The max width of the string.</p>
-</dd>
-    <dt><code>color</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The color to draw the text.</p>
-</dd>
-    <dt><code>endX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The end x position.</p>
-</dd>
-    <dt><code>endY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The end y position.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startY</span></td>
+        <td><p>The start y position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">maxWidth</span></td>
+        <td><p>The max width of the string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to draw the text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">endX</span></td>
+        <td><p>The end x position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">endY</span></td>
+        <td><p>The end y position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawHorizontalDivider_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawHorizontalDivider(System.Int32%2CBP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L144">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawHorizontalDivider_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawHorizontalDivider*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawHorizontalDivider_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawHorizontalDivider(System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">
-  DrawHorizontalDivider(int, AnsiColor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L144"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawHorizontalDivider_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawHorizontalDivider(System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">DrawHorizontalDivider(int, AnsiColor)</h4>
   <div class="markdown level1 summary"><p>Draw a horizontal divider.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DrawHorizontalDivider(int y, AnsiColor color)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The y position of the divider.</p>
-</dd>
-    <dt><code>color</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The color to draw the boundary.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position of the divider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to draw the boundary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawUnderline_System_Int32_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawUnderline(System.Int32%2CSystem.Int32%2CSystem.Int32%2CBP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L241">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawUnderline_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawUnderline*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawUnderline_System_Int32_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawUnderline(System.Int32,System.Int32,System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">
-  DrawUnderline(int, int, int, AnsiColor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L241"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawUnderline_System_Int32_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawUnderline(System.Int32,System.Int32,System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">DrawUnderline(int, int, int, AnsiColor)</h4>
   <div class="markdown level1 summary"><p>Draw an underline.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DrawUnderline(int x, int y, int length, AnsiColor color)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The position of the underline, in x.</p>
-</dd>
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The position of the underline, in y.</p>
-</dd>
-    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The length of the underline.</p>
-</dd>
-    <dt><code>color</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The color of the underline.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The position of the underline, in x.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The position of the underline, in y.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The length of the underline.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color of the underline.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawWrapped_System_String_System_Int32_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawWrapped(System.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CBP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor%2CSystem.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L160">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawWrapped_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawWrapped*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawWrapped_System_String_System_Int32_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_System_Int32__System_Int32__" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawWrapped(System.String,System.Int32,System.Int32,System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor,System.Int32@,System.Int32@)">
-  DrawWrapped(string, int, int, int, AnsiColor, out int, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L160"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_DrawWrapped_System_String_System_Int32_System_Int32_System_Int32_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_System_Int32__System_Int32__" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.DrawWrapped(System.String,System.Int32,System.Int32,System.Int32,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor,System.Int32@,System.Int32@)">DrawWrapped(string, int, int, int, AnsiColor, out int, out int)</h4>
   <div class="markdown level1 summary"><p>Draw a wrapped string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DrawWrapped(string value, int startX, int startY, int maxWidth, AnsiColor color, out int endX, out int endY)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The string.</p>
-</dd>
-    <dt><code>startX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start x position.</p>
-</dd>
-    <dt><code>startY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start y position.</p>
-</dd>
-    <dt><code>maxWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The max width of the string.</p>
-</dd>
-    <dt><code>color</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The color to draw the text.</p>
-</dd>
-    <dt><code>endX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The end x position.</p>
-</dd>
-    <dt><code>endY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The end y position.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startX</span></td>
+        <td><p>The start x position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startY</span></td>
+        <td><p>The start y position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">maxWidth</span></td>
+        <td><p>The max width of the string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to draw the text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">endX</span></td>
+        <td><p>The end x position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">endY</span></td>
+        <td><p>The end y position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Flush.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Flush%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L104">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Flush_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Flush*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Flush" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Flush">
-  Flush()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L104"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Flush" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Flush">Flush()</h4>
   <div class="markdown level1 summary"><p>Flush the buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Flush()</code></pre>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCellColor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCellColor(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L96">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCellColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCellColor*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCellColor_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCellColor(System.Int32,System.Int32)">
-  GetCellColor(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L96"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCellColor_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCellColor(System.Int32,System.Int32)">GetCellColor(int, int)</h4>
   <div class="markdown level1 summary"><p>Get a color for a cell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnsiColor GetCellColor(int x, int y)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The x position of the cell.</p>
-</dd>
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The y position of the cell.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The cell color.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x position of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><p>The cell color.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCharacter_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCharacter(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L85">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCharacter_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCharacter*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCharacter_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCharacter(System.Int32,System.Int32)">
-  GetCharacter(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L85"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetCharacter_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetCharacter(System.Int32,System.Int32)">GetCharacter(int, int)</h4>
   <div class="markdown level1 summary"><p>Get a character from the buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public char GetCharacter(int x, int y)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The x position of the character.</p>
-</dd>
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The y position of the character.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd><p>The character.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x position of the character.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position of the character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><p>The character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_System_String_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L188">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_System_String_System_Int32_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String,System.Int32,System.Int32,System.Int32)">
-  GetNumberOfLines(string, int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L188"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_System_String_System_Int32_System_Int32_System_Int32_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String,System.Int32,System.Int32,System.Int32)">GetNumberOfLines(string, int, int, int)</h4>
   <div class="markdown level1 summary"><p>Get the number of lines a string will take up.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int GetNumberOfLines(string value, int startX, int startY, int maxWidth)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The string.</p>
-</dd>
-    <dt><code>startX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start x position.</p>
-</dd>
-    <dt><code>startY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The start y position.</p>
-</dd>
-    <dt><code>maxWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The max width of the string.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The number of lines the string will take up.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startX</span></td>
+        <td><p>The start x position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startY</span></td>
+        <td><p>The start y position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">maxWidth</span></td>
+        <td><p>The max width of the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The number of lines the string will take up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Resize_BP_AdventureFramework_Assets_Size_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Resize(BP.AdventureFramework.Assets.Size)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L72">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Resize_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Resize*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Resize_BP_AdventureFramework_Assets_Size_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Resize(BP.AdventureFramework.Assets.Size)">
-  Resize(Size)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L72"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_Resize_BP_AdventureFramework_Assets_Size_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.Resize(BP.AdventureFramework.Assets.Size)">Resize(Size)</h4>
   <div class="markdown level1 summary"><p>Resize this builder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Resize(Size displaySize)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>displaySize</code> <a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></dt>
-    <dd><p>The new size.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">displaySize</span></td>
+        <td><p>The new size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_SetCell_System_Int32_System_Int32_System_Char_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.SetCell(System.Int32%2CSystem.Int32%2CSystem.Char%2CBP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L116">View Source</a>
+  </span>
   <a id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_SetCell_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.SetCell*"></a>
-
-  <h3 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_SetCell_System_Int32_System_Int32_System_Char_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.SetCell(System.Int32,System.Int32,System.Char,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">
-  SetCell(int, int, char, AnsiColor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L116"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder_SetCell_System_Int32_System_Int32_System_Char_BP_AdventureFramework_Rendering_FrameBuilders_Color_AnsiColor_" data-uid="BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.SetCell(System.Int32,System.Int32,System.Char,BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor)">SetCell(int, int, char, AnsiColor)</h4>
   <div class="markdown level1 summary"><p>Set a cell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetCell(int x, int y, char character, AnsiColor color)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The x position of the cell.</p>
-</dd>
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The y position of the cell.</p>
-</dd>
-    <dt><code>character</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
-    <dd><p>The character.</p>
-</dd>
-    <dt><code>color</code> <a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></dt>
-    <dd><p>The color of the character.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x position of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><span class="parametername">character</span></td>
+        <td><p>The character.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color of the character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
+          </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/benpollarduk-patch-1/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L11" class="edit-link">Edit this page</a>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Rendering_FrameBuilders_GridStringBuilder.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Rendering/FrameBuilders/GridStringBuilder.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-
       </div>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>
