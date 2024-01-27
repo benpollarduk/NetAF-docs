@@ -79,11 +79,10 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="getting-started">Getting Started</h1>
 
-<h2 id="clone-the-repo">Clone the repo</h2>
-<p>Clone the repo to the local machine.</p>
-<pre><code class="lang-bash">git clone https://github.com/benpollarduk/adventure-framework.git
-</code></pre>
-<h2 id="hello-world">Hello World</h2>
+<h2 id="adding-the-nuget-pacakge-to-your-project">Adding the NuGet pacakge to your project</h2>
+<p>You need to pull BP.AdventureFramework into your project. The easiest way to do this is to add the NuGet package. The latest package and installation instructions are available <a href="https://github.com/benpollarduk/BP.AdventureFramework/pkgs/nuget/BP.AdventureFramework">here</a>.</p>
+<h2 id="first-game">First Game</h2>
+<p>Once the package has been installed it's time to jump in and start building your first game.</p>
 <pre><code class="lang-csharp">// create the player. this is the character the user plays as
 var player = new PlayableCharacter(&quot;Dave&quot;, &quot;A young boy on a quest to find the meaning of life.&quot;);
 
@@ -111,19 +110,12 @@ var gameCreator = Game.Create(
     &quot;A very low budget adventure.&quot;,
     x =&gt; overworldMaker.Make(),
     () =&gt; player,
-    x =&gt; EndCheckResul.NotEnded,
+    x =&gt; EndCheckResult.NotEnded,
     x =&gt; EndCheckResult.NotEnded);
 
 // begin the execution of the game
 Game.Execute(gameCreator);
 </code></pre>
-<h2 id="example-game">Example game</h2>
-<p>The quickest way to start getting to grips with the structure of BP.AdventureFramework is by taking a look at the examples.
-An example game is provided in the <a href="https://github.com/benpollarduk/adventure-framework/tree/main/BP.AdventureFramework.Examples">BP.AdventureFramework.Examples</a> directory
-and have been designed with the aim of showcasing the various features.</p>
-<h2 id="running-the-examples">Running the examples</h2>
-<p>The example applications can be used to execute the example BP.AdventureFramework game and demonstrate the core principals of the framework.
-Set the <strong>BP.AdventureFramweork.Examples</strong> project as the start up project and build and run to start the application.</p>
 
 </article>
           </div>

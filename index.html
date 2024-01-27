@@ -72,84 +72,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="bpadventureframework">BP.AdventureFramework</h1>
 
-<p>A C# library that provides a framework for building text adventures and interactive stories in .NET.</p>
-<h2 id="overview">Overview</h2>
-<p>BP.AdventureFramework is a .NET Standard 2.0 implementation of a framework for building text based adventures.</p>
-<p>At its core BP.AdventureFramework provides simple classes for developing game elements:</p>
-<h3 id="environments">Environments</h3>
-<p>Environments are broken down in to three elements - Overworld, Region and Room. An Overworld contains one or more Regions. A Region contains one or more Rooms.
-A Room can contain up to six exits (north, south, east, west, up and down).</p>
-<pre><code>Overworld
-├── Region
-│   ├── Room
-│   ├── Room
-│   ├── Room
-├── Region
-│   ├── Room
-│   ├── Room
-</code></pre>
-<h3 id="exits">Exits</h3>
-<p>Rooms contain exits. Exits can be locked to block progress through the game.</p>
-<pre><code class="lang-csharp">// create a test room
-var room = new Room(&quot;Test Room&quot;, &quot;A test room.&quot;);
-        
-// add an exit to the north
-room.AddExit(new Exit(Direction.North));
-</code></pre>
-<h3 id="items">Items</h3>
-<p>Items add richness the game. Items support interaction with the player, rooms, other items and NPC's. Items can morph in to other items.
-For example, using item A on item B may cause item B to morph into item C.</p>
-<pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;The heroes sword.&quot;);
-</code></pre>
-<h3 id="playable-character">Playable Character</h3>
-<p>Each BP.AdventureFramework game has a single playable charcter. This who the player controls.</p>
-<pre><code class="lang-csharp">var player = new PlayableChracter(&quot;Dave&quot;, &quot;The hero of the story.&quot;);
-</code></pre>
-<h3 id="non-playable-characters">Non-playable Characters</h3>
-<p>Non-playable characters (NPC's) can be added to rooms and can help drive the narrative. NPC's can hold conversations, contains items,
-and interact with items.</p>
-<pre><code class="lang-csharp">var npc = new NonPlayableChracter(&quot;Gary&quot;, &quot;The antagonist of the story.&quot;);
-</code></pre>
-<h3 id="commands">Commands</h3>
-<p>BP.AdventureFramework provides commands for interacting with game elements:</p>
-<ul>
-<li><strong>Drop X</strong> - drop an item.</li>
-<li><strong>Examine X</strong> - allows items, characters and environments to be examined.</li>
-<li><strong>Take X</strong> - take an item.</li>
-<li><strong>Talk to X</strong> - talk to a NPC, where X is the NPC.</li>
-<li><strong>Use X on Y</strong> - use an item. Items can be used on a variety of targets. Where X is the item and Y is the target.</li>
-<li><strong>N, S, E, W, U, D</strong> - traverse through the rooms in a region.</li>
-</ul>
-<p>BP.AdventureFramework also provides global commands to help with game flow and option management:</p>
-<ul>
-<li><strong>About</strong> - display version information.</li>
-<li><strong>CommandsOn / CommandsOff</strong> - toggle commands on/off.</li>
-<li><strong>Exit</strong> - exit the game.</li>
-<li><strong>Help</strong> - display the help screen.</li>
-<li><strong>KeyOn / KeyOff</strong> - turn the Key on/off.</li>
-<li><strong>Map</strong> - display the map.</li>
-<li><strong>New</strong> - start a new game.</li>
-</ul>
-<p>Custom commands can be added to games without the need to extend the existing interpretation.</p>
-<h3 id="interpretation">Interpretation</h3>
-<p>BP.AdventureFramework provides classes for handling interpretation of input. Interpretation is extensible with the ability for custom interpreters to be added outside of the core BP.AdventureFramework library.</p>
-<h3 id="conversations">Conversations</h3>
-<p>Conversations can be held between the player and a NPC. Conversations support multiple lines of dialogue and responses.</p>
-<h3 id="rendering">Rendering</h3>
-<p>BP.AdventureFramework provides frames for rendering the various game screens. These are fully extensible and customisable. These include:</p>
-<ul>
-<li>Scene frame.</li>
-<li>Help frame.</li>
-<li>Map frame.</li>
-<li>Title frame.</li>
-<li>Completion frame.</li>
-<li>Game over frame.</li>
-<li>Transition frame.</li>
-<li>Conversation frame.</li>
-</ul>
-<h3 id="maps">Maps</h3>
-<p>Maps are automatically generated for regions and rooms, and can be viewed with the <strong>map</strong> command:</p>
-<p>Maps display visited rooms, exits, player position, if an item is in a room, lower floors and more.</p>
+<p>BP.AdventureFramework is a C# library that provides a framework for building text adventures and interactive stories in .NET.</p>
+<p>The repo is open source and is available at <a href="https://github.com/benpollarduk/BP.AdventureFramework">https://github.com/benpollarduk/BP.AdventureFramework</a>. BP.AdventureFramework has a sister Kotlin implementation, Ktaf, which is available at <a href="https://github.com/benpollarduk/ktaf">https://github.com/benpollarduk/ktaf</a>.</p>
 
 </article>
           </div>

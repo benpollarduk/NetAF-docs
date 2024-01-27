@@ -80,7 +80,22 @@
 <h1 id="end-conditions">End Conditions</h1>
 
 <h2 id="overview">Overview</h2>
-<p>Work in progress, coming soon.</p>
+<p>The <strong>EndCheck</strong> class allows the game to determine if it has come to an end. Each game has two end conditions</p>
+<ul>
+<li><strong>GameOverCondition</strong> when the game is over, but has not been won.</li>
+<li><strong>CompletionCondition</strong> when the game is over because it has been won.</li>
+</ul>
+<h2 id="use">Use</h2>
+<p>When an <strong>EndCheck</strong> is invoked it returns an <strong>EndCheckResult</strong>. The <strong>EndCheckResult</strong> details the result of the check to see if the game has ended.</p>
+<pre><code class="lang-csharp">private static EndCheckResult IsGameOver(Game game)
+{
+    if (game.Player.IsAlive)
+        return EndCheckResult.NotEnded;
+
+    return new EndCheckResult(true, &quot;Game Over&quot;, &quot;You died!&quot;);
+}
+</code></pre>
+<p>The <strong>GameOverCondition</strong> and <strong>CompletionCondition</strong> are passed in to the game as arguments when a game is created.</p>
 
 </article>
           </div>
