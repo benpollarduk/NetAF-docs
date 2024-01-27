@@ -982,156 +982,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Simple.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.Themes.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.Generation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.Generation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/BP.AdventureFramework.Utilities.IAssetTemplate-1.yml",
       "output": {
         ".html": {
@@ -1185,10 +1035,60 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/conditional-descriptions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/conditional-descriptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/end-conditions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/end-conditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/executing-a-game.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/executing-a-game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/exit.md",
       "output": {
         ".html": {
           "relative_path": "docs/exit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/frame-builders.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/frame-builders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/game-commands.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/game-commands.html"
         }
       },
       "version": ""
@@ -1205,6 +1105,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/global-commands.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/global-commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/items.md",
       "output": {
         ".html": {
@@ -1215,10 +1135,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/non-playable-character.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/non-playable-character.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/overworld.md",
       "output": {
         ".html": {
           "relative_path": "docs/overworld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/playable-character.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/playable-character.html"
         }
       },
       "version": ""

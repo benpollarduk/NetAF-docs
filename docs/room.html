@@ -95,25 +95,25 @@
 <p>A Region can be simply instantiated with a name and description.</p>
 <pre><code class="lang-csharp">var room = new Room(&quot;Name&quot;, &quot;Description.&quot;);
 </code></pre>
-<p>Exits can be added to the Room with the <strong>AddExit</strong> method:</p>
+<p>Exits can be added to the Room with the <strong>AddExit</strong> method.</p>
 <pre><code class="lang-csharp">room.AddExit(new Exit(Direction.East));
 </code></pre>
-<p>Exits can be removed from a Room with the <strong>RemoveExit</strong> method:</p>
+<p>Exits can be removed from a Room with the <strong>RemoveExit</strong> method.</p>
 <pre><code class="lang-csharp">region.RemoveExit(exit);
 </code></pre>
-<p>Items can be added to the Room with the <strong>AddItem</strong> method:</p>
+<p>Items can be added to the Room with the <strong>AddItem</strong> method.</p>
 <pre><code class="lang-csharp">room.AddItem(new Item(&quot;Name&quot;, &quot;Description.&quot;));
 </code></pre>
-<p>Items can be removed from a Room with the <strong>RemoveItem</strong> method:</p>
+<p>Items can be removed from a Room with the <strong>RemoveItem</strong> method.</p>
 <pre><code class="lang-csharp">region.RemoveItem(item);
 </code></pre>
-<p>Characters can be added to the Room with the <strong>AddCharacter</strong> method:</p>
+<p>Characters can be added to the Room with the <strong>AddCharacter</strong> method.</p>
 <pre><code class="lang-csharp">room.AddCharacter(new Character(&quot;Name&quot;, &quot;Description.&quot;));
 </code></pre>
-<p>Characters can be removed from a Room with the <strong>RemoveCharacter</strong> method:</p>
+<p>Characters can be removed from a Room with the <strong>RemoveCharacter</strong> method.</p>
 <pre><code class="lang-csharp">region.RemoveCharacter(character);
 </code></pre>
-<p>Rooms can contains custom commands that allow the user to directly interact with the Room:</p>
+<p>Rooms can contains custom commands that allow the user to directly interact with the Room.</p>
 <pre><code class="lang-csharp">room.Commands =
 [
     new CustomCommand(new CommandHelp(&quot;Pull lever&quot;, &quot;Pull the lever.&quot;), true, (game, args) =&gt;
@@ -133,7 +133,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/docs/docfx/docs/room.md/#L1" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/room.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Exit | BP.AdventureFramework </title>
+      <title>Introduction | BP.AdventureFramework </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Exit | BP.AdventureFramework ">
+      <meta name="title" content="Introduction | BP.AdventureFramework ">
     
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -77,34 +77,9 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="exit">Exit</h1>
+<h1 id="introduction">Introduction</h1>
 
-<h2 id="overview">Overview</h2>
-<p>An Exit is essentially a connector bewtween to adjoining rooms.</p>
-<h2 id="use">Use</h2>
-<p>An Exit can be simply instantiated with a direction.</p>
-<pre><code class="lang-csharp">var exit = new Exit(Direction.North);
-</code></pre>
-<p>An Exit can be hidden from the player by setting its <strong>IsPlayerVisible</strong> property to false, this can be set in the constructor.</p>
-<pre><code class="lang-csharp">var exit = new Exit(Direction.North, false);
-</code></pre>
-<p>Or set explicitly.</p>
-<pre><code class="lang-csharp">exit.IsPlayerVisible = false;
-</code></pre>
-<p>Optionally, a description of the Exit can be specified.</p>
-<pre><code class="lang-csharp">var exit = new Exit(Direction.North, true, new Description(&quot;A door covered in ivy.&quot;));
-</code></pre>
-<p>This will be returned if the player examines the Exit.</p>
-<p>Like all Examinable objects, an Exit can be assigned custom commands.</p>
-<pre><code class="lang-csharp">exit.Commands =
-[
-    new CustomCommand(new CommandHelp(&quot;Shove&quot;, &quot;Shove the door.&quot;), true, (game, args) =&gt;
-    {
-        exit.Unlock();
-        return new Reaction(ReactionResult.OK, &quot;The door swung open.&quot;);
-    })
-];
-</code></pre>
+<p>Work in progress, coming soon.</p>
 
 </article>
           </div>
@@ -114,7 +89,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/exit.md/#L1" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/frame-builders.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>

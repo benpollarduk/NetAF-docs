@@ -97,6 +97,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="BP.AdventureFramework.Assets.IExaminable.html">IExaminable</a></div>
     <div><a class="xref" href="BP.AdventureFramework.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
+    <div><a class="xref" href="BP.AdventureFramework.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -141,25 +142,25 @@
   <h6><strong>Assembly</strong>: BP.AdventureFramework.dll</h6>
   <h5 id="BP_AdventureFramework_Assets_Locations_Exit_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Exit : ExaminableObject, IExaminable, IPlayerVisible</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Exit : ExaminableObject, IExaminable, IPlayerVisible, IInteractWithItem</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit__ctor_BP_AdventureFramework_Assets_Locations_Direction_System_Boolean_BP_AdventureFramework_Assets_Description_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.%23ctor(BP.AdventureFramework.Assets.Locations.Direction%2CSystem.Boolean%2CBP.AdventureFramework.Assets.Description)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit__ctor_BP_AdventureFramework_Assets_Locations_Direction_System_Boolean_BP_AdventureFramework_Assets_Identifier_BP_AdventureFramework_Assets_Description_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.%23ctor(BP.AdventureFramework.Assets.Locations.Direction%2CSystem.Boolean%2CBP.AdventureFramework.Assets.Identifier%2CBP.AdventureFramework.Assets.Description)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Assets/Locations/Exit.cs/#L30">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L38">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Assets_Locations_Exit__ctor_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.#ctor*"></a>
-  <h4 id="BP_AdventureFramework_Assets_Locations_Exit__ctor_BP_AdventureFramework_Assets_Locations_Direction_System_Boolean_BP_AdventureFramework_Assets_Description_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.#ctor(BP.AdventureFramework.Assets.Locations.Direction,System.Boolean,BP.AdventureFramework.Assets.Description)">Exit(Direction, bool, Description)</h4>
+  <h4 id="BP_AdventureFramework_Assets_Locations_Exit__ctor_BP_AdventureFramework_Assets_Locations_Direction_System_Boolean_BP_AdventureFramework_Assets_Identifier_BP_AdventureFramework_Assets_Description_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.#ctor(BP.AdventureFramework.Assets.Locations.Direction,System.Boolean,BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description)">Exit(Direction, bool, Identifier, Description)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Exit class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Exit(Direction direction, bool isLocked = false, Description description = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Exit(Direction direction, bool isLocked = false, Identifier identifier = null, Description description = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -184,6 +185,12 @@
 </td>
       </tr>
       <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>An identifier for the exit.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="BP.AdventureFramework.Assets.Description.html">Description</a></td>
         <td><span class="parametername">description</span></td>
         <td><p>A description of the exit.</p>
@@ -195,10 +202,10 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Direction.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Direction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Direction.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Direction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Assets/Locations/Exit.cs/#L13">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L15">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Assets_Locations_Exit_Direction_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Direction*"></a>
   <h4 id="BP_AdventureFramework_Assets_Locations_Exit_Direction" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Direction">Direction</h4>
@@ -226,10 +233,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_IsLocked.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.IsLocked%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Interaction.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Interaction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Assets/Locations/Exit.cs/#L18">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L25">View Source</a>
+  </span>
+  <a id="BP_AdventureFramework_Assets_Locations_Exit_Interaction_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Interaction*"></a>
+  <h4 id="BP_AdventureFramework_Assets_Locations_Exit_Interaction" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Interaction">Interaction</h4>
+  <div class="markdown level1 summary"><p>Get or set the interaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractionCallback Interaction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Interaction.InteractionCallback.html">InteractionCallback</a></td>
+        <td>Represents an exit from a GameLocation.</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_IsLocked.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.IsLocked%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L20">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Assets_Locations_Exit_IsLocked_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.IsLocked*"></a>
   <h4 id="BP_AdventureFramework_Assets_Locations_Exit_IsLocked" data-uid="BP.AdventureFramework.Assets.Locations.Exit.IsLocked">IsLocked</h4>
@@ -259,10 +297,60 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Lock.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Lock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Interact_BP_AdventureFramework_Assets_Item_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Interact(BP.AdventureFramework.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Assets/Locations/Exit.cs/#L61">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L84">View Source</a>
+  </span>
+  <a id="BP_AdventureFramework_Assets_Locations_Exit_Interact_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Interact*"></a>
+  <h4 id="BP_AdventureFramework_Assets_Locations_Exit_Interact_BP_AdventureFramework_Assets_Item_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Interact(BP.AdventureFramework.Assets.Item)">Interact(Item)</h4>
+  <div class="markdown level1 summary"><p>Interact with an item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractionResult Interact(Item item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Item.html">Item</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The item to interact with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Assets.Interaction.InteractionResult.html">InteractionResult</a></td>
+        <td><p>The result of the interaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Lock.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Lock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L70">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Assets_Locations_Exit_Lock_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Lock*"></a>
   <h4 id="BP_AdventureFramework_Assets_Locations_Exit_Lock" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Lock">Lock()</h4>
@@ -275,10 +363,10 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Unlock.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Unlock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit_Unlock.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit.Unlock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Assets/Locations/Exit.cs/#L53">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L62">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Assets_Locations_Exit_Unlock_" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Unlock*"></a>
   <h4 id="BP_AdventureFramework_Assets_Locations_Exit_Unlock" data-uid="BP.AdventureFramework.Assets.Locations.Exit.Unlock">Unlock()</h4>
@@ -296,6 +384,9 @@
   <div>
       <a class="xref" href="BP.AdventureFramework.Assets.IPlayerVisible.html">IPlayerVisible</a>
   </div>
+  <div>
+      <a class="xref" href="BP.AdventureFramework.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a>
+  </div>
 
 </article>
           </div>
@@ -305,10 +396,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/doc-styling/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Assets_Locations_Exit.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Assets.Locations.Exit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/BP.AdventureFramework/Assets/Locations/Exit.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Assets/Locations/Exit.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -286,12 +286,12 @@ references:
   fullName.vb: BP.AdventureFramework.Assets.Characters.PlayableCharacter.New
   nameWithType: PlayableCharacter.PlayableCharacter
   nameWithType.vb: PlayableCharacter.New
-- uid: BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem(BP.AdventureFramework.Assets.Interaction.IInteractWithItem,BP.AdventureFramework.Assets.Item)
-  name: UseItem(IInteractWithItem, Item)
-  href: api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.html#BP_AdventureFramework_Assets_Characters_PlayableCharacter_UseItem_BP_AdventureFramework_Assets_Interaction_IInteractWithItem_BP_AdventureFramework_Assets_Item_
-  commentId: M:BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem(BP.AdventureFramework.Assets.Interaction.IInteractWithItem,BP.AdventureFramework.Assets.Item)
-  fullName: BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem(BP.AdventureFramework.Assets.Interaction.IInteractWithItem, BP.AdventureFramework.Assets.Item)
-  nameWithType: PlayableCharacter.UseItem(IInteractWithItem, Item)
+- uid: BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem(BP.AdventureFramework.Assets.Item,BP.AdventureFramework.Assets.Interaction.IInteractWithItem)
+  name: UseItem(Item, IInteractWithItem)
+  href: api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.html#BP_AdventureFramework_Assets_Characters_PlayableCharacter_UseItem_BP_AdventureFramework_Assets_Item_BP_AdventureFramework_Assets_Interaction_IInteractWithItem_
+  commentId: M:BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem(BP.AdventureFramework.Assets.Item,BP.AdventureFramework.Assets.Interaction.IInteractWithItem)
+  fullName: BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem(BP.AdventureFramework.Assets.Item, BP.AdventureFramework.Assets.Interaction.IInteractWithItem)
+  nameWithType: PlayableCharacter.UseItem(Item, IInteractWithItem)
 - uid: BP.AdventureFramework.Assets.Characters.PlayableCharacter.UseItem*
   name: UseItem
   href: api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.html#BP_AdventureFramework_Assets_Characters_PlayableCharacter_UseItem_
@@ -1132,15 +1132,15 @@ references:
   commentId: T:BP.AdventureFramework.Assets.Locations.Exit
   fullName: BP.AdventureFramework.Assets.Locations.Exit
   nameWithType: Exit
-- uid: BP.AdventureFramework.Assets.Locations.Exit.#ctor(BP.AdventureFramework.Assets.Locations.Direction,System.Boolean,BP.AdventureFramework.Assets.Description)
-  name: Exit(Direction, bool, Description)
-  href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit__ctor_BP_AdventureFramework_Assets_Locations_Direction_System_Boolean_BP_AdventureFramework_Assets_Description_
-  commentId: M:BP.AdventureFramework.Assets.Locations.Exit.#ctor(BP.AdventureFramework.Assets.Locations.Direction,System.Boolean,BP.AdventureFramework.Assets.Description)
-  name.vb: New(Direction, Boolean, Description)
-  fullName: BP.AdventureFramework.Assets.Locations.Exit.Exit(BP.AdventureFramework.Assets.Locations.Direction, bool, BP.AdventureFramework.Assets.Description)
-  fullName.vb: BP.AdventureFramework.Assets.Locations.Exit.New(BP.AdventureFramework.Assets.Locations.Direction, Boolean, BP.AdventureFramework.Assets.Description)
-  nameWithType: Exit.Exit(Direction, bool, Description)
-  nameWithType.vb: Exit.New(Direction, Boolean, Description)
+- uid: BP.AdventureFramework.Assets.Locations.Exit.#ctor(BP.AdventureFramework.Assets.Locations.Direction,System.Boolean,BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description)
+  name: Exit(Direction, bool, Identifier, Description)
+  href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit__ctor_BP_AdventureFramework_Assets_Locations_Direction_System_Boolean_BP_AdventureFramework_Assets_Identifier_BP_AdventureFramework_Assets_Description_
+  commentId: M:BP.AdventureFramework.Assets.Locations.Exit.#ctor(BP.AdventureFramework.Assets.Locations.Direction,System.Boolean,BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description)
+  name.vb: New(Direction, Boolean, Identifier, Description)
+  fullName: BP.AdventureFramework.Assets.Locations.Exit.Exit(BP.AdventureFramework.Assets.Locations.Direction, bool, BP.AdventureFramework.Assets.Identifier, BP.AdventureFramework.Assets.Description)
+  fullName.vb: BP.AdventureFramework.Assets.Locations.Exit.New(BP.AdventureFramework.Assets.Locations.Direction, Boolean, BP.AdventureFramework.Assets.Identifier, BP.AdventureFramework.Assets.Description)
+  nameWithType: Exit.Exit(Direction, bool, Identifier, Description)
+  nameWithType.vb: Exit.New(Direction, Boolean, Identifier, Description)
 - uid: BP.AdventureFramework.Assets.Locations.Exit.#ctor*
   name: Exit
   href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit__ctor_
@@ -1164,6 +1164,32 @@ references:
   isSpec: "True"
   fullName: BP.AdventureFramework.Assets.Locations.Exit.Direction
   nameWithType: Exit.Direction
+- uid: BP.AdventureFramework.Assets.Locations.Exit.Interact(BP.AdventureFramework.Assets.Item)
+  name: Interact(Item)
+  href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit_Interact_BP_AdventureFramework_Assets_Item_
+  commentId: M:BP.AdventureFramework.Assets.Locations.Exit.Interact(BP.AdventureFramework.Assets.Item)
+  fullName: BP.AdventureFramework.Assets.Locations.Exit.Interact(BP.AdventureFramework.Assets.Item)
+  nameWithType: Exit.Interact(Item)
+- uid: BP.AdventureFramework.Assets.Locations.Exit.Interact*
+  name: Interact
+  href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit_Interact_
+  commentId: Overload:BP.AdventureFramework.Assets.Locations.Exit.Interact
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Locations.Exit.Interact
+  nameWithType: Exit.Interact
+- uid: BP.AdventureFramework.Assets.Locations.Exit.Interaction
+  name: Interaction
+  href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit_Interaction
+  commentId: P:BP.AdventureFramework.Assets.Locations.Exit.Interaction
+  fullName: BP.AdventureFramework.Assets.Locations.Exit.Interaction
+  nameWithType: Exit.Interaction
+- uid: BP.AdventureFramework.Assets.Locations.Exit.Interaction*
+  name: Interaction
+  href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit_Interaction_
+  commentId: Overload:BP.AdventureFramework.Assets.Locations.Exit.Interaction
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Locations.Exit.Interaction
+  nameWithType: Exit.Interaction
 - uid: BP.AdventureFramework.Assets.Locations.Exit.IsLocked
   name: IsLocked
   href: api/BP.AdventureFramework.Assets.Locations.Exit.html#BP_AdventureFramework_Assets_Locations_Exit_IsLocked
@@ -6281,551 +6307,6 @@ references:
   commentId: N:BP.AdventureFramework.Utilities
   fullName: BP.AdventureFramework.Utilities
   nameWithType: BP.AdventureFramework.Utilities
-- uid: BP.AdventureFramework.Utilities.Generation
-  name: BP.AdventureFramework.Utilities.Generation
-  href: api/BP.AdventureFramework.Utilities.Generation.html
-  commentId: N:BP.AdventureFramework.Utilities.Generation
-  fullName: BP.AdventureFramework.Utilities.Generation
-  nameWithType: BP.AdventureFramework.Utilities.Generation
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions
-  name: GameGenerationOptions
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions
-  nameWithType: GameGenerationOptions
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRegions
-  name: MaximumRegions
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MaximumRegions
-  commentId: P:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRegions
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRegions
-  nameWithType: GameGenerationOptions.MaximumRegions
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRegions*
-  name: MaximumRegions
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MaximumRegions_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRegions
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRegions
-  nameWithType: GameGenerationOptions.MaximumRegions
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRooms
-  name: MaximumRooms
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MaximumRooms
-  commentId: P:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRooms
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRooms
-  nameWithType: GameGenerationOptions.MaximumRooms
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRooms*
-  name: MaximumRooms
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MaximumRooms_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRooms
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MaximumRooms
-  nameWithType: GameGenerationOptions.MaximumRooms
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRegions
-  name: MinimumRegions
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MinimumRegions
-  commentId: P:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRegions
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRegions
-  nameWithType: GameGenerationOptions.MinimumRegions
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRegions*
-  name: MinimumRegions
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MinimumRegions_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRegions
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRegions
-  nameWithType: GameGenerationOptions.MinimumRegions
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRooms
-  name: MinimumRooms
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MinimumRooms
-  commentId: P:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRooms
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRooms
-  nameWithType: GameGenerationOptions.MinimumRooms
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRooms*
-  name: MinimumRooms
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_MinimumRooms_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRooms
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.MinimumRooms
-  nameWithType: GameGenerationOptions.MinimumRooms
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RegionComplexity
-  name: RegionComplexity
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_RegionComplexity
-  commentId: P:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RegionComplexity
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RegionComplexity
-  nameWithType: GameGenerationOptions.RegionComplexity
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RegionComplexity*
-  name: RegionComplexity
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_RegionComplexity_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RegionComplexity
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RegionComplexity
-  nameWithType: GameGenerationOptions.RegionComplexity
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RoomToItemRatio
-  name: RoomToItemRatio
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_RoomToItemRatio
-  commentId: P:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RoomToItemRatio
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RoomToItemRatio
-  nameWithType: GameGenerationOptions.RoomToItemRatio
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RoomToItemRatio*
-  name: RoomToItemRatio
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.html#BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_RoomToItemRatio_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RoomToItemRatio
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerationOptions.RoomToItemRatio
-  nameWithType: GameGenerationOptions.RoomToItemRatio
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator
-  name: GameGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.GameGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator
-  nameWithType: GameGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator.#ctor(BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description)
-  name: GameGenerator(Identifier, Description)
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html#BP_AdventureFramework_Utilities_Generation_GameGenerator__ctor_BP_AdventureFramework_Assets_Identifier_BP_AdventureFramework_Assets_Description_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.GameGenerator.#ctor(BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description)
-  name.vb: New(Identifier, Description)
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator.GameGenerator(BP.AdventureFramework.Assets.Identifier, BP.AdventureFramework.Assets.Description)
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.GameGenerator.New(BP.AdventureFramework.Assets.Identifier, BP.AdventureFramework.Assets.Description)
-  nameWithType: GameGenerator.GameGenerator(Identifier, Description)
-  nameWithType.vb: GameGenerator.New(Identifier, Description)
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator.#ctor(System.String,System.String)
-  name: GameGenerator(string, string)
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html#BP_AdventureFramework_Utilities_Generation_GameGenerator__ctor_System_String_System_String_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.GameGenerator.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator.GameGenerator(string, string)
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.GameGenerator.New(String, String)
-  nameWithType: GameGenerator.GameGenerator(string, string)
-  nameWithType.vb: GameGenerator.New(String, String)
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator.#ctor*
-  name: GameGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html#BP_AdventureFramework_Utilities_Generation_GameGenerator__ctor_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerator.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator.GameGenerator
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.GameGenerator.New
-  nameWithType: GameGenerator.GameGenerator
-  nameWithType.vb: GameGenerator.New
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(BP.AdventureFramework.Utilities.Generation.GameGenerationOptions,BP.AdventureFramework.Utilities.Generation.Simple.ITheme,System.Int32@)
-  name: Generate(GameGenerationOptions, ITheme, out int)
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html#BP_AdventureFramework_Utilities_Generation_GameGenerator_Generate_BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_BP_AdventureFramework_Utilities_Generation_Simple_ITheme_System_Int32__
-  commentId: M:BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(BP.AdventureFramework.Utilities.Generation.GameGenerationOptions,BP.AdventureFramework.Utilities.Generation.Simple.ITheme,System.Int32@)
-  name.vb: Generate(GameGenerationOptions, ITheme, Integer)
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(BP.AdventureFramework.Utilities.Generation.GameGenerationOptions, BP.AdventureFramework.Utilities.Generation.Simple.ITheme, out int)
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(BP.AdventureFramework.Utilities.Generation.GameGenerationOptions, BP.AdventureFramework.Utilities.Generation.Simple.ITheme, Integer)
-  nameWithType: GameGenerator.Generate(GameGenerationOptions, ITheme, out int)
-  nameWithType.vb: GameGenerator.Generate(GameGenerationOptions, ITheme, Integer)
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(System.Int32,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions,BP.AdventureFramework.Utilities.Generation.Simple.ITheme)
-  name: Generate(int, GameGenerationOptions, ITheme)
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html#BP_AdventureFramework_Utilities_Generation_GameGenerator_Generate_System_Int32_BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_BP_AdventureFramework_Utilities_Generation_Simple_ITheme_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(System.Int32,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions,BP.AdventureFramework.Utilities.Generation.Simple.ITheme)
-  name.vb: Generate(Integer, GameGenerationOptions, ITheme)
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(int, BP.AdventureFramework.Utilities.Generation.GameGenerationOptions, BP.AdventureFramework.Utilities.Generation.Simple.ITheme)
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate(Integer, BP.AdventureFramework.Utilities.Generation.GameGenerationOptions, BP.AdventureFramework.Utilities.Generation.Simple.ITheme)
-  nameWithType: GameGenerator.Generate(int, GameGenerationOptions, ITheme)
-  nameWithType.vb: GameGenerator.Generate(Integer, GameGenerationOptions, ITheme)
-- uid: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate*
-  name: Generate
-  href: api/BP.AdventureFramework.Utilities.Generation.GameGenerator.html#BP_AdventureFramework_Utilities_Generation_GameGenerator_Generate_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.GameGenerator.Generate
-  nameWithType: GameGenerator.Generate
-- uid: BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator
-  name: IDescriptionGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator
-  nameWithType: IDescriptionGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.Generate(BP.AdventureFramework.Assets.Identifier)
-  name: Generate(Identifier)
-  href: api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.html#BP_AdventureFramework_Utilities_Generation_IDescriptionGenerator_Generate_BP_AdventureFramework_Assets_Identifier_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.Generate(BP.AdventureFramework.Assets.Identifier)
-  fullName: BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.Generate(BP.AdventureFramework.Assets.Identifier)
-  nameWithType: IDescriptionGenerator.Generate(Identifier)
-- uid: BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.Generate*
-  name: Generate
-  href: api/BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.html#BP_AdventureFramework_Utilities_Generation_IDescriptionGenerator_Generate_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.Generate
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator.Generate
-  nameWithType: IDescriptionGenerator.Generate
-- uid: BP.AdventureFramework.Utilities.Generation.IExaminableGenerator
-  name: IExaminableGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.IExaminableGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.IExaminableGenerator
-  nameWithType: IExaminableGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.Generate(System.Random)
-  name: Generate(Random)
-  href: api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.html#BP_AdventureFramework_Utilities_Generation_IExaminableGenerator_Generate_System_Random_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.Generate(System.Random)
-  fullName: BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.Generate(System.Random)
-  nameWithType: IExaminableGenerator.Generate(Random)
-- uid: BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.Generate*
-  name: Generate
-  href: api/BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.html#BP_AdventureFramework_Utilities_Generation_IExaminableGenerator_Generate_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.Generate
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.IExaminableGenerator.Generate
-  nameWithType: IExaminableGenerator.Generate
-- uid: BP.AdventureFramework.Utilities.Generation.IItemGenerator
-  name: IItemGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.IItemGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.IItemGenerator
-  nameWithType: IItemGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.IItemGenerator.Generate(System.Random)
-  name: Generate(Random)
-  href: api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.html#BP_AdventureFramework_Utilities_Generation_IItemGenerator_Generate_System_Random_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.IItemGenerator.Generate(System.Random)
-  fullName: BP.AdventureFramework.Utilities.Generation.IItemGenerator.Generate(System.Random)
-  nameWithType: IItemGenerator.Generate(Random)
-- uid: BP.AdventureFramework.Utilities.Generation.IItemGenerator.Generate*
-  name: Generate
-  href: api/BP.AdventureFramework.Utilities.Generation.IItemGenerator.html#BP_AdventureFramework_Utilities_Generation_IItemGenerator_Generate_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.IItemGenerator.Generate
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.IItemGenerator.Generate
-  nameWithType: IItemGenerator.Generate
-- uid: BP.AdventureFramework.Utilities.Generation.IRegionGenerator
-  name: IRegionGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.IRegionGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.IRegionGenerator
-  nameWithType: IRegionGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.IRegionGenerator.GenerateRegion(BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description,System.Random,BP.AdventureFramework.Utilities.Generation.IRoomGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  name: GenerateRegion(Identifier, Description, Random, IRoomGenerator, IItemGenerator, IItemGenerator, GameGenerationOptions)
-  href: api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.html#BP_AdventureFramework_Utilities_Generation_IRegionGenerator_GenerateRegion_BP_AdventureFramework_Assets_Identifier_BP_AdventureFramework_Assets_Description_System_Random_BP_AdventureFramework_Utilities_Generation_IRoomGenerator_BP_AdventureFramework_Utilities_Generation_IItemGenerator_BP_AdventureFramework_Utilities_Generation_IItemGenerator_BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.IRegionGenerator.GenerateRegion(BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description,System.Random,BP.AdventureFramework.Utilities.Generation.IRoomGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  fullName: BP.AdventureFramework.Utilities.Generation.IRegionGenerator.GenerateRegion(BP.AdventureFramework.Assets.Identifier, BP.AdventureFramework.Assets.Description, System.Random, BP.AdventureFramework.Utilities.Generation.IRoomGenerator, BP.AdventureFramework.Utilities.Generation.IItemGenerator, BP.AdventureFramework.Utilities.Generation.IItemGenerator, BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  nameWithType: IRegionGenerator.GenerateRegion(Identifier, Description, Random, IRoomGenerator, IItemGenerator, IItemGenerator, GameGenerationOptions)
-- uid: BP.AdventureFramework.Utilities.Generation.IRegionGenerator.GenerateRegion*
-  name: GenerateRegion
-  href: api/BP.AdventureFramework.Utilities.Generation.IRegionGenerator.html#BP_AdventureFramework_Utilities_Generation_IRegionGenerator_GenerateRegion_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.IRegionGenerator.GenerateRegion
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.IRegionGenerator.GenerateRegion
-  nameWithType: IRegionGenerator.GenerateRegion
-- uid: BP.AdventureFramework.Utilities.Generation.IRoomGenerator
-  name: IRoomGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.IRoomGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.IRoomGenerator
-  nameWithType: IRoomGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.IRoomGenerator.GenerateRooms(BP.AdventureFramework.Utilities.RegionMaker,System.Random,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  name: GenerateRooms(RegionMaker, Random, GameGenerationOptions)
-  href: api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.html#BP_AdventureFramework_Utilities_Generation_IRoomGenerator_GenerateRooms_BP_AdventureFramework_Utilities_RegionMaker_System_Random_BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.IRoomGenerator.GenerateRooms(BP.AdventureFramework.Utilities.RegionMaker,System.Random,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  fullName: BP.AdventureFramework.Utilities.Generation.IRoomGenerator.GenerateRooms(BP.AdventureFramework.Utilities.RegionMaker, System.Random, BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  nameWithType: IRoomGenerator.GenerateRooms(RegionMaker, Random, GameGenerationOptions)
-- uid: BP.AdventureFramework.Utilities.Generation.IRoomGenerator.GenerateRooms*
-  name: GenerateRooms
-  href: api/BP.AdventureFramework.Utilities.Generation.IRoomGenerator.html#BP_AdventureFramework_Utilities_Generation_IRoomGenerator_GenerateRooms_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.IRoomGenerator.GenerateRooms
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.IRoomGenerator.GenerateRooms
-  nameWithType: IRoomGenerator.GenerateRooms
-- uid: BP.AdventureFramework.Utilities.Generation.Simple
-  name: BP.AdventureFramework.Utilities.Generation.Simple
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.html
-  commentId: N:BP.AdventureFramework.Utilities.Generation.Simple
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple
-  nameWithType: BP.AdventureFramework.Utilities.Generation.Simple
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator
-  name: ExaminableGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator
-  nameWithType: ExaminableGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator,System.Boolean)
-  name: ExaminableGenerator(IEnumerable<string>, IEnumerable<string>, IDescriptionGenerator, bool)
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ExaminableGenerator__ctor_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__BP_AdventureFramework_Utilities_Generation_IDescriptionGenerator_System_Boolean_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator,System.Boolean)
-  name.vb: New(IEnumerable(Of String), IEnumerable(Of String), IDescriptionGenerator, Boolean)
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.ExaminableGenerator(System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<string>, BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator, bool)
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.New(System.Collections.Generic.IEnumerable(Of String), System.Collections.Generic.IEnumerable(Of String), BP.AdventureFramework.Utilities.Generation.IDescriptionGenerator, Boolean)
-  nameWithType: ExaminableGenerator.ExaminableGenerator(IEnumerable<string>, IEnumerable<string>, IDescriptionGenerator, bool)
-  nameWithType.vb: ExaminableGenerator.New(IEnumerable(Of String), IEnumerable(Of String), IDescriptionGenerator, Boolean)
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.#ctor*
-  name: ExaminableGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ExaminableGenerator__ctor_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.ExaminableGenerator
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.New
-  nameWithType: ExaminableGenerator.ExaminableGenerator
-  nameWithType.vb: ExaminableGenerator.New
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.Generate(System.Random)
-  name: Generate(Random)
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ExaminableGenerator_Generate_System_Random_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.Generate(System.Random)
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.Generate(System.Random)
-  nameWithType: ExaminableGenerator.Generate(Random)
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.Generate*
-  name: Generate
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ExaminableGenerator_Generate_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.Generate
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ExaminableGenerator.Generate
-  nameWithType: ExaminableGenerator.Generate
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme
-  name: ITheme
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.Simple.ITheme
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme
-  nameWithType: ITheme
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.Name
-  name: Name
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_Name
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.Name
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.Name
-  nameWithType: ITheme.Name
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.Name*
-  name: Name
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_Name_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.Name
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.Name
-  nameWithType: ITheme.Name
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemAdjectives
-  name: NonTakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_NonTakeableItemAdjectives
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemAdjectives
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemAdjectives
-  nameWithType: ITheme.NonTakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemAdjectives*
-  name: NonTakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_NonTakeableItemAdjectives_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemAdjectives
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemAdjectives
-  nameWithType: ITheme.NonTakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemNouns
-  name: NonTakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_NonTakeableItemNouns
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemNouns
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemNouns
-  nameWithType: ITheme.NonTakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemNouns*
-  name: NonTakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_NonTakeableItemNouns_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemNouns
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.NonTakeableItemNouns
-  nameWithType: ITheme.NonTakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomAdjectives
-  name: RoomAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_RoomAdjectives
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomAdjectives
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomAdjectives
-  nameWithType: ITheme.RoomAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomAdjectives*
-  name: RoomAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_RoomAdjectives_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomAdjectives
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomAdjectives
-  nameWithType: ITheme.RoomAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomNouns
-  name: RoomNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_RoomNouns
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomNouns
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomNouns
-  nameWithType: ITheme.RoomNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomNouns*
-  name: RoomNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_RoomNouns_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomNouns
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.RoomNouns
-  nameWithType: ITheme.RoomNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemAdjectives
-  name: TakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_TakeableItemAdjectives
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemAdjectives
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemAdjectives
-  nameWithType: ITheme.TakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemAdjectives*
-  name: TakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_TakeableItemAdjectives_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemAdjectives
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemAdjectives
-  nameWithType: ITheme.TakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemNouns
-  name: TakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_TakeableItemNouns
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemNouns
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemNouns
-  nameWithType: ITheme.TakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemNouns*
-  name: TakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ITheme.html#BP_AdventureFramework_Utilities_Generation_Simple_ITheme_TakeableItemNouns_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemNouns
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ITheme.TakeableItemNouns
-  nameWithType: ITheme.TakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator
-  name: ItemGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator
-  nameWithType: ItemGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.#ctor(BP.AdventureFramework.Utilities.Generation.IExaminableGenerator,System.Boolean)
-  name: ItemGenerator(IExaminableGenerator, bool)
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ItemGenerator__ctor_BP_AdventureFramework_Utilities_Generation_IExaminableGenerator_System_Boolean_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.#ctor(BP.AdventureFramework.Utilities.Generation.IExaminableGenerator,System.Boolean)
-  name.vb: New(IExaminableGenerator, Boolean)
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.ItemGenerator(BP.AdventureFramework.Utilities.Generation.IExaminableGenerator, bool)
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.New(BP.AdventureFramework.Utilities.Generation.IExaminableGenerator, Boolean)
-  nameWithType: ItemGenerator.ItemGenerator(IExaminableGenerator, bool)
-  nameWithType.vb: ItemGenerator.New(IExaminableGenerator, Boolean)
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.#ctor*
-  name: ItemGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ItemGenerator__ctor_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.ItemGenerator
-  fullName.vb: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.New
-  nameWithType: ItemGenerator.ItemGenerator
-  nameWithType.vb: ItemGenerator.New
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.Generate(System.Random)
-  name: Generate(Random)
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ItemGenerator_Generate_System_Random_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.Generate(System.Random)
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.Generate(System.Random)
-  nameWithType: ItemGenerator.Generate(Random)
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.Generate*
-  name: Generate
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_ItemGenerator_Generate_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.Generate
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.ItemGenerator.Generate
-  nameWithType: ItemGenerator.Generate
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator
-  name: RegionGenerator
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator
-  nameWithType: RegionGenerator
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.GenerateRegion(BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description,System.Random,BP.AdventureFramework.Utilities.Generation.IRoomGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  name: GenerateRegion(Identifier, Description, Random, IRoomGenerator, IItemGenerator, IItemGenerator, GameGenerationOptions)
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_RegionGenerator_GenerateRegion_BP_AdventureFramework_Assets_Identifier_BP_AdventureFramework_Assets_Description_System_Random_BP_AdventureFramework_Utilities_Generation_IRoomGenerator_BP_AdventureFramework_Utilities_Generation_IItemGenerator_BP_AdventureFramework_Utilities_Generation_IItemGenerator_BP_AdventureFramework_Utilities_Generation_GameGenerationOptions_
-  commentId: M:BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.GenerateRegion(BP.AdventureFramework.Assets.Identifier,BP.AdventureFramework.Assets.Description,System.Random,BP.AdventureFramework.Utilities.Generation.IRoomGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.IItemGenerator,BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.GenerateRegion(BP.AdventureFramework.Assets.Identifier, BP.AdventureFramework.Assets.Description, System.Random, BP.AdventureFramework.Utilities.Generation.IRoomGenerator, BP.AdventureFramework.Utilities.Generation.IItemGenerator, BP.AdventureFramework.Utilities.Generation.IItemGenerator, BP.AdventureFramework.Utilities.Generation.GameGenerationOptions)
-  nameWithType: RegionGenerator.GenerateRegion(Identifier, Description, Random, IRoomGenerator, IItemGenerator, IItemGenerator, GameGenerationOptions)
-- uid: BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.GenerateRegion*
-  name: GenerateRegion
-  href: api/BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.html#BP_AdventureFramework_Utilities_Generation_Simple_RegionGenerator_GenerateRegion_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.GenerateRegion
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Simple.RegionGenerator.GenerateRegion
-  nameWithType: RegionGenerator.GenerateRegion
-- uid: BP.AdventureFramework.Utilities.Generation.Themes
-  name: BP.AdventureFramework.Utilities.Generation.Themes
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.html
-  commentId: N:BP.AdventureFramework.Utilities.Generation.Themes
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes
-  nameWithType: BP.AdventureFramework.Utilities.Generation.Themes
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle
-  name: Castle
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html
-  commentId: T:BP.AdventureFramework.Utilities.Generation.Themes.Castle
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle
-  nameWithType: Castle
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.Name
-  name: Name
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_Name
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.Name
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.Name
-  nameWithType: Castle.Name
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.Name*
-  name: Name
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_Name_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.Name
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.Name
-  nameWithType: Castle.Name
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemAdjectives
-  name: NonTakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_NonTakeableItemAdjectives
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemAdjectives
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemAdjectives
-  nameWithType: Castle.NonTakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemAdjectives*
-  name: NonTakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_NonTakeableItemAdjectives_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemAdjectives
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemAdjectives
-  nameWithType: Castle.NonTakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemNouns
-  name: NonTakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_NonTakeableItemNouns
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemNouns
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemNouns
-  nameWithType: Castle.NonTakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemNouns*
-  name: NonTakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_NonTakeableItemNouns_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemNouns
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.NonTakeableItemNouns
-  nameWithType: Castle.NonTakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomAdjectives
-  name: RoomAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_RoomAdjectives
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomAdjectives
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomAdjectives
-  nameWithType: Castle.RoomAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomAdjectives*
-  name: RoomAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_RoomAdjectives_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomAdjectives
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomAdjectives
-  nameWithType: Castle.RoomAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomNouns
-  name: RoomNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_RoomNouns
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomNouns
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomNouns
-  nameWithType: Castle.RoomNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomNouns*
-  name: RoomNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_RoomNouns_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomNouns
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.RoomNouns
-  nameWithType: Castle.RoomNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemAdjectives
-  name: TakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_TakeableItemAdjectives
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemAdjectives
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemAdjectives
-  nameWithType: Castle.TakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemAdjectives*
-  name: TakeableItemAdjectives
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_TakeableItemAdjectives_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemAdjectives
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemAdjectives
-  nameWithType: Castle.TakeableItemAdjectives
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemNouns
-  name: TakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_TakeableItemNouns
-  commentId: P:BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemNouns
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemNouns
-  nameWithType: Castle.TakeableItemNouns
-- uid: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemNouns*
-  name: TakeableItemNouns
-  href: api/BP.AdventureFramework.Utilities.Generation.Themes.Castle.html#BP_AdventureFramework_Utilities_Generation_Themes_Castle_TakeableItemNouns_
-  commentId: Overload:BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemNouns
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Utilities.Generation.Themes.Castle.TakeableItemNouns
-  nameWithType: Castle.TakeableItemNouns
 - uid: BP.AdventureFramework.Utilities.IAssetTemplate`1
   name: IAssetTemplate<T>
   href: api/BP.AdventureFramework.Utilities.IAssetTemplate-1.html

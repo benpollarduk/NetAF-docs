@@ -100,16 +100,16 @@
 <p>A Region can be simply instantiated with a name and description.</p>
 <pre><code class="lang-csharp">var region = new Region(&quot;Name&quot;, &quot;Description.&quot;);
 </code></pre>
-<p>Rooms can be added to the Region with the <strong>AddRoom</strong> method. The x, y and z location within the Region must be specified:</p>
+<p>Rooms can be added to the Region with the <strong>AddRoom</strong> method. The x, y and z location within the Region must be specified.</p>
 <pre><code class="lang-csharp">region.AddRoom(room, 0, 0, 0);
 </code></pre>
-<p>Rooms can be removed from a Region with the <strong>RemoveRoom</strong> method:</p>
+<p>Rooms can be removed from a Region with the <strong>RemoveRoom</strong> method.</p>
 <pre><code class="lang-csharp">region.RemoveRoom(room);
 </code></pre>
-<p>The Region can be traversed with the <strong>Move</strong> method:</p>
+<p>The Region can be traversed with the <strong>Move</strong> method.</p>
 <pre><code class="lang-csharp">region.Move(Direction.North);
 </code></pre>
-<p>The Region can be traversed with the <strong>Move</strong> method:</p>
+<p>The Region can be traversed with the <strong>Move</strong> method.</p>
 <pre><code class="lang-csharp">region.Move(Direction.North);
 </code></pre>
 <p>The start position, that is the position that the Player will start in when entering a Region, can be specified with <strong>SetStartPosition</strong>.</p>
@@ -118,7 +118,7 @@
 <p>The <strong>UnlockDoorPair</strong> method can be used to unlock an <strong>Exit</strong> in the current Room, which will also unlock the corresponding Exit in the adjoining <strong>Room</strong>.</p>
 <pre><code class="lang-csharp">region.UnlockDoorPair(Direction.East);
 </code></pre>
-<p>Like all Examinable objects, Regions can be assigned custom commands:</p>
+<p>Like all Examinable objects, Regions can be assigned custom commands.</p>
 <pre><code class="lang-csharp">region.Commands =
 [
     new CustomCommand(new CommandHelp(&quot;Warp&quot;, &quot;Warp to the start.&quot;), true, (game, args) =&gt;
@@ -148,7 +148,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/doc-styling/docs/docfx/docs/region.md/#L1" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/docs/docfx/docs/region.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
