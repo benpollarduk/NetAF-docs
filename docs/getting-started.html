@@ -148,8 +148,8 @@ var regionMaker = new RegionMaker(&quot;Mountain&quot;, &quot;An imposing volcan
 
 var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancient kingdom.&quot;, regionMaker);
 </code></pre>
-<h3 id="checking-the-game-is-complete">Checking the game is complete</h3>
-<p>For a game to come to an end it needs to either hit a game over state or a completion state.</p>
+<h3 id="checking-if-the-game-is-complete">Checking if the game is complete</h3>
+<p>For a game to come to an end it needs to reach either a game over state or a completion state.</p>
 <p>Firstly lets look at the logic that determines if the game is complete. An <strong>EndCheck</strong> is required, which returns an <strong>EndCheckResult</strong> that determines if the game is complete.</p>
 <p>In this example lets make a method that determines if the game is complete. The game is complete if the player has the holy grail:</p>
 <pre><code class="lang-csharp">private static EndCheckResult IsGameComplete(Game game)
