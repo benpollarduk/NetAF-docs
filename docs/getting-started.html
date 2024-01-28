@@ -162,7 +162,7 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
 </code></pre>
 <p>If the player has the holy grail then the <strong>EndCheckResult</strong> will return that the game has ended, and have a title that will read &quot;Game Complete&quot; and a description that reads &quot;You have the Holy Grail!&quot;.</p>
 <p>A common game over state may be if the player dies:</p>
-<pre><code class="lang-chsarp">private static EndCheckResult IsGameOver(Game game)
+<pre><code class="lang-csharp">private static EndCheckResult IsGameOver(Game game)
 {
     if (game.Player.IsAlive)
         return EndCheckResult.NotEnded;
