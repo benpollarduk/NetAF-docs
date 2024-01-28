@@ -89,7 +89,7 @@
 <pre><code class="lang-csharp">var daisy = new Item(&quot;Daisy&quot;, &quot;A beautiful daisy that is sure to cheer up even the most miserable creature.&quot;);
 npc.Give(daisy, goblin);
 </code></pre>
-<p>NonPlayableCharacters can contains custom commands that allow the user to directly interact with the character or other assets.</p>
+<p>NonPlayableCharacters can contain custom commands that allow the user to directly interact with the character or other assets.</p>
 <pre><code class="lang-csharp">goblin.Commands =
 [
     new CustomCommand(new CommandHelp(&quot;Smile&quot;, &quot;Crack a smile.&quot;), true, (game, args) =&gt;
@@ -103,7 +103,7 @@ npc.Give(daisy, goblin);
 <ul>
 <li>A Conversation contains <strong>Paragraphs</strong>.</li>
 <li>A Paragraph can contain one or more <strong>Responses</strong>.</li>
-<li>A <strong>Response</strong> can contain a delta to shift the conversation by, which will cause the conversation to jump parargraphs by the specified value.</li>
+<li>A <strong>Response</strong> can contain a delta to shift the conversation by, which will cause the conversation to jump paragraphs by the specified value.</li>
 <li>A <strong>Response</strong> can also contain a callback to perform some action when the player selects that option.</li>
 </ul>
 <pre><code class="lang-csharp">goblin.Conversation = new Conversation(

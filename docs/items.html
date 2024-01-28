@@ -85,7 +85,7 @@
 <p>An Item can be simply instantiated with a name and description.</p>
 <pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;);
 </code></pre>
-<p>By default an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor.</p>
+<p>By default, an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor.</p>
 <pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;, true);
 </code></pre>
 <p>An Item can morph in to another Item. This is useful in situations where the Item changes state. Morphing is invoked with the <strong>Morph</strong> method. The Item that Morph is invoked on takes on the properties of the Item being morphed into.</p>

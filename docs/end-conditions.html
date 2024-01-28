@@ -95,6 +95,9 @@
     return new EndCheckResult(true, &quot;Game Over&quot;, &quot;You died!&quot;);
 }
 </code></pre>
+<p>This method can be used as an <strong>EndCheck</strong>:</p>
+<pre><code class="lang-csharp">EndCheck gameOverCheck = IsGameOver;
+</code></pre>
 <p>The <strong>GameOverCondition</strong> and <strong>CompletionCondition</strong> are passed in to the game as arguments when a game is created.</p>
 
 </article>

@@ -95,7 +95,7 @@
 <p>A PlayableCharacter can be given items with the <strong>AcquireItem</strong> method.</p>
 <pre><code class="lang-csharp">player.AcquireItem(new Item(&quot;Mallet&quot;, &quot;A large mallet.&quot;));
 </code></pre>
-<p>A PlayableCharactr can loose an item with the <strong>DequireItem</strong> method.</p>
+<p>A PlayableCharacter can lose an item with the <strong>DequireItem</strong> method.</p>
 <pre><code class="lang-chsarp">player.DequireItem(mallet);
 </code></pre>
 <p>A PlayableCharacter can use an item on another asset:</p>
@@ -108,7 +108,7 @@ player.UseItem(mallet, trapDoor);
 var daisy = new Item(&quot;Daisy&quot;, &quot;A beautiful daisy that is sure to cheer up even the most miserable creature.&quot;);
 player.Give(daisy, goblin);
 </code></pre>
-<p>PlayableCharacters can contains custom commands that allow the user to directly interact with the character or other assets.</p>
+<p>PlayableCharacters can contain custom commands that allow the user to directly interact with the character or other assets.</p>
 <pre><code class="lang-csharp">player.Commands =
 [
     new CustomCommand(new CommandHelp(&quot;Punch wall&quot;, &quot;Punch the wall.&quot;), true, (game, args) =&gt;

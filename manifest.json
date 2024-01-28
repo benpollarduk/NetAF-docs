@@ -1065,16 +1065,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/executing-a-game.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/executing-a-game.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/exit.md",
       "output": {
         ".html": {
@@ -1099,16 +1089,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""
