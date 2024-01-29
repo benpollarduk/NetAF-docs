@@ -412,6 +412,106 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Absolute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Absolute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Delta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Delta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.First.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.First.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Last.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Last.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Next.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Next.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Previous.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Previous.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Repeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Repeat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ToName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ToName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BP.AdventureFramework.Conversations.LogItem.yml",
       "output": {
         ".html": {

@@ -120,53 +120,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_ConversationActionCallback_BP_AdventureFramework_Conversations_Instructions_IEndOfPargraphInstruction_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String%2CBP.AdventureFramework.Conversations.ConversationActionCallback%2CBP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L45">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L83">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Conversations_Paragraph__ctor_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor*"></a>
-  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String)">Paragraph(string)</h4>
+  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_ConversationActionCallback_BP_AdventureFramework_Conversations_Instructions_IEndOfPargraphInstruction_System_String_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String,BP.AdventureFramework.Conversations.ConversationActionCallback,BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction,System.String)">Paragraph(string, ConversationActionCallback, IEndOfPargraphInstruction, string)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Paragraph class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Paragraph(string line)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">line</span></td>
-        <td><p>Specify the line.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_ConversationActionCallback_System_Int32_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String%2CBP.AdventureFramework.Conversations.ConversationActionCallback%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L64">View Source</a>
-  </span>
-  <a id="BP_AdventureFramework_Conversations_Paragraph__ctor_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor*"></a>
-  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_ConversationActionCallback_System_Int32_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String,BP.AdventureFramework.Conversations.ConversationActionCallback,System.Int32)">Paragraph(string, ConversationActionCallback, int)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the Paragraph class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Paragraph(string line, ConversationActionCallback action, int delta = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">public Paragraph(string line, ConversationActionCallback action, IEndOfPargraphInstruction instruction, string name = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -191,28 +157,34 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">delta</span></td>
-        <td><p>Specify the delta. This can be applied to a conversation to direct the conversation after this paragraph.</p>
+        <td><a class="xref" href="BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.html">IEndOfPargraphInstruction</a></td>
+        <td><span class="parametername">instruction</span></td>
+        <td><p>Specify the end of paragraph instruction. This can be applied to a conversation to direct the conversation after this paragraph.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Specify the name of the paragraph.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_ConversationActionCallback_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String%2CBP.AdventureFramework.Conversations.ConversationActionCallback%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L54">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L72">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Conversations_Paragraph__ctor_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor*"></a>
-  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_System_Int32_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String,System.Int32)">Paragraph(string, int)</h4>
+  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_ConversationActionCallback_System_String_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String,BP.AdventureFramework.Conversations.ConversationActionCallback,System.String)">Paragraph(string, ConversationActionCallback, string)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Paragraph class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Paragraph(string line, int delta = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">public Paragraph(string line, ConversationActionCallback action, string name = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -231,9 +203,101 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">delta</span></td>
-        <td><p>Specify the delta. This can be applied to a conversation to direct the conversation after this paragraph.</p>
+        <td><a class="xref" href="BP.AdventureFramework.Conversations.ConversationActionCallback.html">ConversationActionCallback</a></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Specify any action to be carried out with this line.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Specify the name of the paragraph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_Instructions_IEndOfPargraphInstruction_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String%2CBP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L62">View Source</a>
+  </span>
+  <a id="BP_AdventureFramework_Conversations_Paragraph__ctor_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor*"></a>
+  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_BP_AdventureFramework_Conversations_Instructions_IEndOfPargraphInstruction_System_String_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String,BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction,System.String)">Paragraph(string, IEndOfPargraphInstruction, string)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the Paragraph class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Paragraph(string line, IEndOfPargraphInstruction instruction, string name = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">line</span></td>
+        <td><p>Specify the line.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.html">IEndOfPargraphInstruction</a></td>
+        <td><span class="parametername">instruction</span></td>
+        <td><p>Specify the end of paragraph instruction. This can be applied to a conversation to direct the conversation after this paragraph.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Specify the name of the paragraph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L52">View Source</a>
+  </span>
+  <a id="BP_AdventureFramework_Conversations_Paragraph__ctor_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor*"></a>
+  <h4 id="BP_AdventureFramework_Conversations_Paragraph__ctor_System_String_System_String_" data-uid="BP.AdventureFramework.Conversations.Paragraph.#ctor(System.String,System.String)">Paragraph(string, string)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the Paragraph class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Paragraph(string line, string name = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">line</span></td>
+        <td><p>Specify the line.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Specify the name of the paragraph.</p>
 </td>
       </tr>
     </tbody>
@@ -245,7 +309,7 @@
     <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_Action.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.Action%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L30">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L36">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Conversations_Paragraph_Action_" data-uid="BP.AdventureFramework.Conversations.Paragraph.Action*"></a>
   <h4 id="BP_AdventureFramework_Conversations_Paragraph_Action" data-uid="BP.AdventureFramework.Conversations.Paragraph.Action">Action</h4>
@@ -276,7 +340,7 @@
     <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_CanRespond.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.CanRespond%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L25">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L31">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Conversations_Paragraph_CanRespond_" data-uid="BP.AdventureFramework.Conversations.Paragraph.CanRespond*"></a>
   <h4 id="BP_AdventureFramework_Conversations_Paragraph_CanRespond" data-uid="BP.AdventureFramework.Conversations.Paragraph.CanRespond">CanRespond</h4>
@@ -304,19 +368,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_Delta.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.Delta%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_Instruction.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.Instruction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L35">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L41">View Source</a>
   </span>
-  <a id="BP_AdventureFramework_Conversations_Paragraph_Delta_" data-uid="BP.AdventureFramework.Conversations.Paragraph.Delta*"></a>
-  <h4 id="BP_AdventureFramework_Conversations_Paragraph_Delta" data-uid="BP.AdventureFramework.Conversations.Paragraph.Delta">Delta</h4>
-  <div class="markdown level1 summary"><p>Get the delta. This can be applied to a conversation to direct the conversation after this paragraph.</p>
+  <a id="BP_AdventureFramework_Conversations_Paragraph_Instruction_" data-uid="BP.AdventureFramework.Conversations.Paragraph.Instruction*"></a>
+  <h4 id="BP_AdventureFramework_Conversations_Paragraph_Instruction" data-uid="BP.AdventureFramework.Conversations.Paragraph.Instruction">Instruction</h4>
+  <div class="markdown level1 summary"><p>Get the end of paragraph instruction. This can be applied to a conversation to direct the conversation after this paragraph.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Delta { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEndOfPargraphInstruction Instruction { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -328,7 +392,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><a class="xref" href="BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.html">IEndOfPargraphInstruction</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -338,7 +402,7 @@
     <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_Line.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.Line%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L15">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L21">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Conversations_Paragraph_Line_" data-uid="BP.AdventureFramework.Conversations.Paragraph.Line*"></a>
   <h4 id="BP_AdventureFramework_Conversations_Paragraph_Line" data-uid="BP.AdventureFramework.Conversations.Paragraph.Line">Line</h4>
@@ -366,10 +430,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_Name.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.Name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L16">View Source</a>
+  </span>
+  <a id="BP_AdventureFramework_Conversations_Paragraph_Name_" data-uid="BP.AdventureFramework.Conversations.Paragraph.Name*"></a>
+  <h4 id="BP_AdventureFramework_Conversations_Paragraph_Name" data-uid="BP.AdventureFramework.Conversations.Paragraph.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Get the name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph_Responses.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph.Responses%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L20">View Source</a>
+    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L26">View Source</a>
   </span>
   <a id="BP_AdventureFramework_Conversations_Paragraph_Responses_" data-uid="BP.AdventureFramework.Conversations.Paragraph.Responses*"></a>
   <h4 id="BP_AdventureFramework_Conversations_Paragraph_Responses" data-uid="BP.AdventureFramework.Conversations.Paragraph.Responses">Responses</h4>
@@ -407,7 +502,7 @@
                     <a href="https://github.com/benpollarduk/BP.AdventureFramework/new/main/apiSpec/new?filename=BP_AdventureFramework_Conversations_Paragraph.md&amp;value=---%0Auid%3A%20BP.AdventureFramework.Conversations.Paragraph%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/BP.AdventureFramework/blob/main/BP.AdventureFramework/Conversations/Paragraph.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

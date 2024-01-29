@@ -103,22 +103,22 @@ npc.Give(daisy, goblin);
 <ul>
 <li>A Conversation contains <strong>Paragraphs</strong>.</li>
 <li>A Paragraph can contain one or more <strong>Responses</strong>.</li>
-<li>A <strong>Response</strong> can contain a delta to shift the conversation by, which will cause the conversation to jump paragraphs by the specified value.</li>
+<li>A <strong>Response</strong> can contain a delta or other implementation of <strong>IEndOfPargraphInstruction</strong> to shift the conversation by, which will cause the conversation to jump paragraphs by the specified value.</li>
 <li>A <strong>Response</strong> can also contain a callback to perform some action when the player selects that option.</li>
 </ul>
 <pre><code class="lang-csharp">goblin.Conversation = new Conversation(
     new Paragraph(&quot;This is a the first line.&quot;),
-    new Paragraph(&quot;This is a question.&quot;)
+    new Paragraph(&quot;This is a question.&quot;, &quot;Question&quot;)
     {
         Responses =
         [
-            new Response(&quot;This is the first response.&quot; 1),
-            new Response(&quot;This is the second response.&quot;, 2),
-            new Response(&quot;This is the third response.&quot;, 3)
+            new Response(&quot;This is the first response.&quot; new Delta(1)),
+            new Response(&quot;This is the second response.&quot;, new Delta(2)),
+            new Response(&quot;This is the third response.&quot;, new Delta(3))
         ]
     },
-    new Paragraph(&quot;You picked first response, return to start of conversation.&quot;, -2),
-    new Paragraph(&quot;You picked second response, return to start of conversation., -2),
+    new Paragraph(&quot;You picked first response, return to start of conversation.&quot;, new ToName(&quot;Question&quot;)),
+    new Paragraph(&quot;You picked second response, return to start of conversation., new ToName(&quot;Question&quot;)),
     new Paragraph(&quot;You picked third response, you are dead., game =&gt; game.Player.Kill())
 );
 </code></pre>
