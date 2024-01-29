@@ -108,17 +108,17 @@ npc.Give(daisy, goblin);
 </ul>
 <pre><code class="lang-csharp">goblin.Conversation = new Conversation(
     new Paragraph(&quot;This is a the first line.&quot;),
-    new Paragraph(&quot;This is a question.&quot;, &quot;Question&quot;)
+    new Paragraph(&quot;This is a question.&quot;)
     {
         Responses =
         [
-            new Response(&quot;This is the first response.&quot; new Delta(1)),
-            new Response(&quot;This is the second response.&quot;, new Delta(2)),
-            new Response(&quot;This is the third response.&quot;, new Delta(3))
+            new Response(&quot;This is the first response.&quot; new Jump(1)),
+            new Response(&quot;This is the second response.&quot;, new Jump(2)),
+            new Response(&quot;This is the third response.&quot;, new Jump(3))
         ]
     },
-    new Paragraph(&quot;You picked first response, return to start of conversation.&quot;, new ToName(&quot;Question&quot;)),
-    new Paragraph(&quot;You picked second response, return to start of conversation., new ToName(&quot;Question&quot;)),
+    new Paragraph(&quot;You picked first response, return to start of conversation.&quot;, new GoTo(1)),
+    new Paragraph(&quot;You picked second response, return to start of conversation., new GoTo(1)),
     new Paragraph(&quot;You picked third response, you are dead., game =&gt; game.Player.Kill())
 );
 </code></pre>

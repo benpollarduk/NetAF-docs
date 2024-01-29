@@ -2783,6 +2783,60 @@ references:
   isSpec: "True"
   fullName: BP.AdventureFramework.Conversations.Instructions.First.GetIndexOfNext
   nameWithType: First.GetIndexOfNext
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo
+  name: GoTo
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html
+  commentId: T:BP.AdventureFramework.Conversations.Instructions.GoTo
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo
+  nameWithType: GoTo
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo.#ctor(System.Int32)
+  name: GoTo(int)
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html#BP_AdventureFramework_Conversations_Instructions_GoTo__ctor_System_Int32_
+  commentId: M:BP.AdventureFramework.Conversations.Instructions.GoTo.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo.GoTo(int)
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.GoTo.New(Integer)
+  nameWithType: GoTo.GoTo(int)
+  nameWithType.vb: GoTo.New(Integer)
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo.#ctor*
+  name: GoTo
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html#BP_AdventureFramework_Conversations_Instructions_GoTo__ctor_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.GoTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo.GoTo
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.GoTo.New
+  nameWithType: GoTo.GoTo
+  nameWithType.vb: GoTo.New
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph,BP.AdventureFramework.Conversations.Paragraph[])
+  name: GetIndexOfNext(Paragraph, Paragraph[])
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html#BP_AdventureFramework_Conversations_Instructions_GoTo_GetIndexOfNext_BP_AdventureFramework_Conversations_Paragraph_BP_AdventureFramework_Conversations_Paragraph___
+  commentId: M:BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph,BP.AdventureFramework.Conversations.Paragraph[])
+  name.vb: GetIndexOfNext(Paragraph, Paragraph())
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph, BP.AdventureFramework.Conversations.Paragraph[])
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph, BP.AdventureFramework.Conversations.Paragraph())
+  nameWithType: GoTo.GetIndexOfNext(Paragraph, Paragraph[])
+  nameWithType.vb: GoTo.GetIndexOfNext(Paragraph, Paragraph())
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext*
+  name: GetIndexOfNext
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html#BP_AdventureFramework_Conversations_Instructions_GoTo_GetIndexOfNext_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo.GetIndexOfNext
+  nameWithType: GoTo.GetIndexOfNext
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo.Index
+  name: Index
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html#BP_AdventureFramework_Conversations_Instructions_GoTo_Index
+  commentId: P:BP.AdventureFramework.Conversations.Instructions.GoTo.Index
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo.Index
+  nameWithType: GoTo.Index
+- uid: BP.AdventureFramework.Conversations.Instructions.GoTo.Index*
+  name: Index
+  href: api/BP.AdventureFramework.Conversations.Instructions.GoTo.html#BP_AdventureFramework_Conversations_Instructions_GoTo_Index_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.GoTo.Index
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Conversations.Instructions.GoTo.Index
+  nameWithType: GoTo.Index
 - uid: BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction
   name: IEndOfPargraphInstruction
   href: api/BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.html
@@ -2805,6 +2859,60 @@ references:
   isSpec: "True"
   fullName: BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.GetIndexOfNext
   nameWithType: IEndOfPargraphInstruction.GetIndexOfNext
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump
+  name: Jump
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html
+  commentId: T:BP.AdventureFramework.Conversations.Instructions.Jump
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump
+  nameWithType: Jump
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump.#ctor(System.Int32)
+  name: Jump(int)
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html#BP_AdventureFramework_Conversations_Instructions_Jump__ctor_System_Int32_
+  commentId: M:BP.AdventureFramework.Conversations.Instructions.Jump.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump.Jump(int)
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.Jump.New(Integer)
+  nameWithType: Jump.Jump(int)
+  nameWithType.vb: Jump.New(Integer)
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump.#ctor*
+  name: Jump
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html#BP_AdventureFramework_Conversations_Instructions_Jump__ctor_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.Jump.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump.Jump
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.Jump.New
+  nameWithType: Jump.Jump
+  nameWithType.vb: Jump.New
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump.Delta
+  name: Delta
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html#BP_AdventureFramework_Conversations_Instructions_Jump_Delta
+  commentId: P:BP.AdventureFramework.Conversations.Instructions.Jump.Delta
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump.Delta
+  nameWithType: Jump.Delta
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump.Delta*
+  name: Delta
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html#BP_AdventureFramework_Conversations_Instructions_Jump_Delta_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.Jump.Delta
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump.Delta
+  nameWithType: Jump.Delta
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph,BP.AdventureFramework.Conversations.Paragraph[])
+  name: GetIndexOfNext(Paragraph, Paragraph[])
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html#BP_AdventureFramework_Conversations_Instructions_Jump_GetIndexOfNext_BP_AdventureFramework_Conversations_Paragraph_BP_AdventureFramework_Conversations_Paragraph___
+  commentId: M:BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph,BP.AdventureFramework.Conversations.Paragraph[])
+  name.vb: GetIndexOfNext(Paragraph, Paragraph())
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph, BP.AdventureFramework.Conversations.Paragraph[])
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph, BP.AdventureFramework.Conversations.Paragraph())
+  nameWithType: Jump.GetIndexOfNext(Paragraph, Paragraph[])
+  nameWithType.vb: Jump.GetIndexOfNext(Paragraph, Paragraph())
+- uid: BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext*
+  name: GetIndexOfNext
+  href: api/BP.AdventureFramework.Conversations.Instructions.Jump.html#BP_AdventureFramework_Conversations_Instructions_Jump_GetIndexOfNext_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Conversations.Instructions.Jump.GetIndexOfNext
+  nameWithType: Jump.GetIndexOfNext
 - uid: BP.AdventureFramework.Conversations.Instructions.Last
   name: Last
   href: api/BP.AdventureFramework.Conversations.Instructions.Last.html
