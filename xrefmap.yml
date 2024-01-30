@@ -7,6 +7,241 @@ references:
   commentId: N:BP.AdventureFramework.Assets
   fullName: BP.AdventureFramework.Assets
   nameWithType: BP.AdventureFramework.Assets
+- uid: BP.AdventureFramework.Assets.Attributes
+  name: BP.AdventureFramework.Assets.Attributes
+  href: api/BP.AdventureFramework.Assets.Attributes.html
+  commentId: N:BP.AdventureFramework.Assets.Attributes
+  fullName: BP.AdventureFramework.Assets.Attributes
+  nameWithType: BP.AdventureFramework.Assets.Attributes
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute
+  name: Attribute
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html
+  commentId: T:BP.AdventureFramework.Assets.Attributes.Attribute
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute
+  nameWithType: Attribute
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32)
+  name: Attribute(string, string, int, int)
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute__ctor_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32)
+  name.vb: New(String, String, Integer, Integer)
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Attribute(string, string, int, int)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.Attribute.New(String, String, Integer, Integer)
+  nameWithType: Attribute.Attribute(string, string, int, int)
+  nameWithType.vb: Attribute.New(String, String, Integer, Integer)
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.#ctor*
+  name: Attribute
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute__ctor_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.Attribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Attribute
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.Attribute.New
+  nameWithType: Attribute.Attribute
+  nameWithType.vb: Attribute.New
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Description
+  name: Description
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Description
+  commentId: P:BP.AdventureFramework.Assets.Attributes.Attribute.Description
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Description
+  nameWithType: Attribute.Description
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Description*
+  name: Description
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Description_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.Attribute.Description
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Description
+  nameWithType: Attribute.Description
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Maximum
+  name: Maximum
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Maximum
+  commentId: P:BP.AdventureFramework.Assets.Attributes.Attribute.Maximum
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Maximum
+  nameWithType: Attribute.Maximum
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Maximum*
+  name: Maximum
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Maximum_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.Attribute.Maximum
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Maximum
+  nameWithType: Attribute.Maximum
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Minimum
+  name: Minimum
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Minimum
+  commentId: P:BP.AdventureFramework.Assets.Attributes.Attribute.Minimum
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Minimum
+  nameWithType: Attribute.Minimum
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Minimum*
+  name: Minimum
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Minimum_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.Attribute.Minimum
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Minimum
+  nameWithType: Attribute.Minimum
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Name
+  name: Name
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Name
+  commentId: P:BP.AdventureFramework.Assets.Attributes.Attribute.Name
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Name
+  nameWithType: Attribute.Name
+- uid: BP.AdventureFramework.Assets.Attributes.Attribute.Name*
+  name: Name
+  href: api/BP.AdventureFramework.Assets.Attributes.Attribute.html#BP_AdventureFramework_Assets_Attributes_Attribute_Name_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.Attribute.Name
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.Attribute.Name
+  nameWithType: Attribute.Name
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager
+  name: AttributeManager
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html
+  commentId: T:BP.AdventureFramework.Assets.Attributes.AttributeManager
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager
+  nameWithType: AttributeManager
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(BP.AdventureFramework.Assets.Attributes.Attribute,System.Int32)
+  name: Add(Attribute, int)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Add_BP_AdventureFramework_Assets_Attributes_Attribute_System_Int32_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(BP.AdventureFramework.Assets.Attributes.Attribute,System.Int32)
+  name.vb: Add(Attribute, Integer)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(BP.AdventureFramework.Assets.Attributes.Attribute, int)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(BP.AdventureFramework.Assets.Attributes.Attribute, Integer)
+  nameWithType: AttributeManager.Add(Attribute, int)
+  nameWithType.vb: AttributeManager.Add(Attribute, Integer)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(System.String,System.Int32)
+  name: Add(string, int)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Add_System_String_System_Int32_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(System.String,System.Int32)
+  name.vb: Add(String, Integer)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(string, int)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add(String, Integer)
+  nameWithType: AttributeManager.Add(string, int)
+  nameWithType.vb: AttributeManager.Add(String, Integer)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add*
+  name: Add
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Add_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.Add
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Add
+  nameWithType: AttributeManager.Add
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Count
+  name: Count
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Count
+  commentId: P:BP.AdventureFramework.Assets.Attributes.AttributeManager.Count
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Count
+  nameWithType: AttributeManager.Count
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Count*
+  name: Count
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Count_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.Count
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Count
+  nameWithType: AttributeManager.Count
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAsDictionary
+  name: GetAsDictionary()
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetAsDictionary
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAsDictionary
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAsDictionary()
+  nameWithType: AttributeManager.GetAsDictionary()
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAsDictionary*
+  name: GetAsDictionary
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetAsDictionary_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAsDictionary
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAsDictionary
+  nameWithType: AttributeManager.GetAsDictionary
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAttributes
+  name: GetAttributes()
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetAttributes
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAttributes
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAttributes()
+  nameWithType: AttributeManager.GetAttributes()
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAttributes*
+  name: GetAttributes
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetAttributes_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAttributes
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetAttributes
+  nameWithType: AttributeManager.GetAttributes
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(BP.AdventureFramework.Assets.Attributes.Attribute)
+  name: GetValue(Attribute)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetValue_BP_AdventureFramework_Assets_Attributes_Attribute_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(BP.AdventureFramework.Assets.Attributes.Attribute)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(BP.AdventureFramework.Assets.Attributes.Attribute)
+  nameWithType: AttributeManager.GetValue(Attribute)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(System.String)
+  name: GetValue(string)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetValue_System_String_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(System.String)
+  name.vb: GetValue(String)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(string)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue(String)
+  nameWithType: AttributeManager.GetValue(string)
+  nameWithType.vb: AttributeManager.GetValue(String)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue*
+  name: GetValue
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_GetValue_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.GetValue
+  nameWithType: AttributeManager.GetValue
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(BP.AdventureFramework.Assets.Attributes.Attribute)
+  name: Remove(Attribute)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Remove_BP_AdventureFramework_Assets_Attributes_Attribute_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(BP.AdventureFramework.Assets.Attributes.Attribute)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(BP.AdventureFramework.Assets.Attributes.Attribute)
+  nameWithType: AttributeManager.Remove(Attribute)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(System.String)
+  name: Remove(string)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Remove_System_String_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(System.String)
+  name.vb: Remove(String)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(string)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove(String)
+  nameWithType: AttributeManager.Remove(string)
+  nameWithType.vb: AttributeManager.Remove(String)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove*
+  name: Remove
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Remove_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Remove
+  nameWithType: AttributeManager.Remove
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.RemoveAll
+  name: RemoveAll()
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_RemoveAll
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.RemoveAll
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.RemoveAll()
+  nameWithType: AttributeManager.RemoveAll()
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.RemoveAll*
+  name: RemoveAll
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_RemoveAll_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.RemoveAll
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.RemoveAll
+  nameWithType: AttributeManager.RemoveAll
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(BP.AdventureFramework.Assets.Attributes.Attribute,System.Int32)
+  name: Subtract(Attribute, int)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Subtract_BP_AdventureFramework_Assets_Attributes_Attribute_System_Int32_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(BP.AdventureFramework.Assets.Attributes.Attribute,System.Int32)
+  name.vb: Subtract(Attribute, Integer)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(BP.AdventureFramework.Assets.Attributes.Attribute, int)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(BP.AdventureFramework.Assets.Attributes.Attribute, Integer)
+  nameWithType: AttributeManager.Subtract(Attribute, int)
+  nameWithType.vb: AttributeManager.Subtract(Attribute, Integer)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(System.String,System.Int32)
+  name: Subtract(string, int)
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Subtract_System_String_System_Int32_
+  commentId: M:BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(System.String,System.Int32)
+  name.vb: Subtract(String, Integer)
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(string, int)
+  fullName.vb: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract(String, Integer)
+  nameWithType: AttributeManager.Subtract(string, int)
+  nameWithType.vb: AttributeManager.Subtract(String, Integer)
+- uid: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract*
+  name: Subtract
+  href: api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html#BP_AdventureFramework_Assets_Attributes_AttributeManager_Subtract_
+  commentId: Overload:BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.Attributes.AttributeManager.Subtract
+  nameWithType: AttributeManager.Subtract
 - uid: BP.AdventureFramework.Assets.Characters
   name: BP.AdventureFramework.Assets.Characters
   href: api/BP.AdventureFramework.Assets.Characters.html
@@ -420,6 +655,19 @@ references:
   commentId: T:BP.AdventureFramework.Assets.ExaminableObject
   fullName: BP.AdventureFramework.Assets.ExaminableObject
   nameWithType: ExaminableObject
+- uid: BP.AdventureFramework.Assets.ExaminableObject.Attributes
+  name: Attributes
+  href: api/BP.AdventureFramework.Assets.ExaminableObject.html#BP_AdventureFramework_Assets_ExaminableObject_Attributes
+  commentId: P:BP.AdventureFramework.Assets.ExaminableObject.Attributes
+  fullName: BP.AdventureFramework.Assets.ExaminableObject.Attributes
+  nameWithType: ExaminableObject.Attributes
+- uid: BP.AdventureFramework.Assets.ExaminableObject.Attributes*
+  name: Attributes
+  href: api/BP.AdventureFramework.Assets.ExaminableObject.html#BP_AdventureFramework_Assets_ExaminableObject_Attributes_
+  commentId: Overload:BP.AdventureFramework.Assets.ExaminableObject.Attributes
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.ExaminableObject.Attributes
+  nameWithType: ExaminableObject.Attributes
 - uid: BP.AdventureFramework.Assets.ExaminableObject.Commands
   name: Commands
   href: api/BP.AdventureFramework.Assets.ExaminableObject.html#BP_AdventureFramework_Assets_ExaminableObject_Commands
@@ -548,6 +796,19 @@ references:
   commentId: T:BP.AdventureFramework.Assets.IExaminable
   fullName: BP.AdventureFramework.Assets.IExaminable
   nameWithType: IExaminable
+- uid: BP.AdventureFramework.Assets.IExaminable.Attributes
+  name: Attributes
+  href: api/BP.AdventureFramework.Assets.IExaminable.html#BP_AdventureFramework_Assets_IExaminable_Attributes
+  commentId: P:BP.AdventureFramework.Assets.IExaminable.Attributes
+  fullName: BP.AdventureFramework.Assets.IExaminable.Attributes
+  nameWithType: IExaminable.Attributes
+- uid: BP.AdventureFramework.Assets.IExaminable.Attributes*
+  name: Attributes
+  href: api/BP.AdventureFramework.Assets.IExaminable.html#BP_AdventureFramework_Assets_IExaminable_Attributes_
+  commentId: Overload:BP.AdventureFramework.Assets.IExaminable.Attributes
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Assets.IExaminable.Attributes
+  nameWithType: IExaminable.Attributes
 - uid: BP.AdventureFramework.Assets.IExaminable.Commands
   name: Commands
   href: api/BP.AdventureFramework.Assets.IExaminable.html#BP_AdventureFramework_Assets_IExaminable_Commands
@@ -705,22 +966,6 @@ references:
   isSpec: "True"
   fullName: BP.AdventureFramework.Assets.Identifier.Name
   nameWithType: Identifier.Name
-- uid: BP.AdventureFramework.Assets.Identifier.ToIdentifiableString(System.String)
-  name: ToIdentifiableString(string)
-  href: api/BP.AdventureFramework.Assets.Identifier.html#BP_AdventureFramework_Assets_Identifier_ToIdentifiableString_System_String_
-  commentId: M:BP.AdventureFramework.Assets.Identifier.ToIdentifiableString(System.String)
-  name.vb: ToIdentifiableString(String)
-  fullName: BP.AdventureFramework.Assets.Identifier.ToIdentifiableString(string)
-  fullName.vb: BP.AdventureFramework.Assets.Identifier.ToIdentifiableString(String)
-  nameWithType: Identifier.ToIdentifiableString(string)
-  nameWithType.vb: Identifier.ToIdentifiableString(String)
-- uid: BP.AdventureFramework.Assets.Identifier.ToIdentifiableString*
-  name: ToIdentifiableString
-  href: api/BP.AdventureFramework.Assets.Identifier.html#BP_AdventureFramework_Assets_Identifier_ToIdentifiableString_
-  commentId: Overload:BP.AdventureFramework.Assets.Identifier.ToIdentifiableString
-  isSpec: "True"
-  fullName: BP.AdventureFramework.Assets.Identifier.ToIdentifiableString
-  nameWithType: Identifier.ToIdentifiableString
 - uid: BP.AdventureFramework.Assets.Identifier.ToString
   name: ToString()
   href: api/BP.AdventureFramework.Assets.Identifier.html#BP_AdventureFramework_Assets_Identifier_ToString
@@ -2653,6 +2898,60 @@ references:
   commentId: N:BP.AdventureFramework.Conversations.Instructions
   fullName: BP.AdventureFramework.Conversations.Instructions
   nameWithType: BP.AdventureFramework.Conversations.Instructions
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback
+  name: ByCallback
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html
+  commentId: T:BP.AdventureFramework.Conversations.Instructions.ByCallback
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback
+  nameWithType: ByCallback
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback.#ctor(System.Func{BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction})
+  name: ByCallback(Func<IEndOfPargraphInstruction>)
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html#BP_AdventureFramework_Conversations_Instructions_ByCallback__ctor_System_Func_BP_AdventureFramework_Conversations_Instructions_IEndOfPargraphInstruction__
+  commentId: M:BP.AdventureFramework.Conversations.Instructions.ByCallback.#ctor(System.Func{BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction})
+  name.vb: New(Func(Of IEndOfPargraphInstruction))
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback.ByCallback(System.Func<BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction>)
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.ByCallback.New(System.Func(Of BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction))
+  nameWithType: ByCallback.ByCallback(Func<IEndOfPargraphInstruction>)
+  nameWithType.vb: ByCallback.New(Func(Of IEndOfPargraphInstruction))
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback.#ctor*
+  name: ByCallback
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html#BP_AdventureFramework_Conversations_Instructions_ByCallback__ctor_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.ByCallback.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback.ByCallback
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.ByCallback.New
+  nameWithType: ByCallback.ByCallback
+  nameWithType.vb: ByCallback.New
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback.Callback
+  name: Callback
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html#BP_AdventureFramework_Conversations_Instructions_ByCallback_Callback
+  commentId: P:BP.AdventureFramework.Conversations.Instructions.ByCallback.Callback
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback.Callback
+  nameWithType: ByCallback.Callback
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback.Callback*
+  name: Callback
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html#BP_AdventureFramework_Conversations_Instructions_ByCallback_Callback_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.ByCallback.Callback
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback.Callback
+  nameWithType: ByCallback.Callback
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph,BP.AdventureFramework.Conversations.Paragraph[])
+  name: GetIndexOfNext(Paragraph, Paragraph[])
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html#BP_AdventureFramework_Conversations_Instructions_ByCallback_GetIndexOfNext_BP_AdventureFramework_Conversations_Paragraph_BP_AdventureFramework_Conversations_Paragraph___
+  commentId: M:BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph,BP.AdventureFramework.Conversations.Paragraph[])
+  name.vb: GetIndexOfNext(Paragraph, Paragraph())
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph, BP.AdventureFramework.Conversations.Paragraph[])
+  fullName.vb: BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext(BP.AdventureFramework.Conversations.Paragraph, BP.AdventureFramework.Conversations.Paragraph())
+  nameWithType: ByCallback.GetIndexOfNext(Paragraph, Paragraph[])
+  nameWithType.vb: ByCallback.GetIndexOfNext(Paragraph, Paragraph())
+- uid: BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext*
+  name: GetIndexOfNext
+  href: api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html#BP_AdventureFramework_Conversations_Instructions_ByCallback_GetIndexOfNext_
+  commentId: Overload:BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext
+  isSpec: "True"
+  fullName: BP.AdventureFramework.Conversations.Instructions.ByCallback.GetIndexOfNext
+  nameWithType: ByCallback.GetIndexOfNext
 - uid: BP.AdventureFramework.Conversations.Instructions.First
   name: First
   href: api/BP.AdventureFramework.Conversations.Instructions.First.html

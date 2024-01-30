@@ -112,14 +112,14 @@ npc.Give(daisy, goblin);
     {
         Responses =
         [
-            new Response(&quot;This is the first response.&quot; new Jump(1)),
+            new Response(&quot;This is the first response.&quot;, new Jump(1)),
             new Response(&quot;This is the second response.&quot;, new Jump(2)),
             new Response(&quot;This is the third response.&quot;, new Jump(3))
         ]
     },
     new Paragraph(&quot;You picked first response, return to start of conversation.&quot;, new GoTo(1)),
-    new Paragraph(&quot;You picked second response, return to start of conversation., new GoTo(1)),
-    new Paragraph(&quot;You picked third response, you are dead., game =&gt; game.Player.Kill())
+    new Paragraph(&quot;You picked second response, return to start of conversation.&quot;, new GoTo(1)),
+    new Paragraph(&quot;You picked third response, you are dead.&quot;, game =&gt; game.Player.Kill())
 );
 </code></pre>
 

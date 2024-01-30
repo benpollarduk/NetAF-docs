@@ -12,6 +12,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Attributes.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Attributes.Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Attributes.AttributeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Assets.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Assets.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.Character.yml",
       "output": {
         ".html": {
@@ -406,6 +436,16 @@
       "output": {
         ".html": {
           "relative_path": "api/BP.AdventureFramework.Conversations.ConversationActionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ByCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html"
         }
       },
       "version": ""
@@ -1129,6 +1169,16 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/attributes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/attributes.html"
         }
       },
       "version": ""
