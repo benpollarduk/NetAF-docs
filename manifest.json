@@ -1072,16 +1072,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.TextFrame.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.TextFrame.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.yml",
       "output": {
         ".html": {
