@@ -177,7 +177,7 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
     &quot;The Life Of Dave&quot;,
     &quot;Dave awakes to find himself in a cavern...&quot;,
     &quot;A very low budget adventure.&quot;,
-    x =&gt; overworldMaker.Make(),
+    overworldMaker.Make,
     CreatePlayer,
     IsGameComplete,
     IsGameOver);
@@ -251,7 +251,7 @@ namespace BP.AdventureFramework.GettingStarted
                 &quot;The Life Of Dave&quot;,
                 &quot;Dave awakes to find himself in a cavern...&quot;,
                 &quot;A very low budget adventure.&quot;,
-                x =&gt; overworldMaker.Make(),
+                overworldMaker.Make,
                 CreatePlayer,
                 IsGameComplete,
                 IsGameOver);
