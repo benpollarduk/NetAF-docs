@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/home/runner/work/BP.AdventureFramework/BP.AdventureFramework/docs/docfx",
+  "source_base_path": "/home/runner/work/NetAF/NetAF/docs/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,1140 +12,1140 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Attributes.Attribute.yml",
+      "source_relative_path": "api/NetAF.Assets.Attributes.Attribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Attributes.Attribute.html"
+          "relative_path": "api/NetAF.Assets.Attributes.Attribute.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Attributes.AttributeManager.yml",
+      "source_relative_path": "api/NetAF.Assets.Attributes.AttributeManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Attributes.AttributeManager.html"
+          "relative_path": "api/NetAF.Assets.Attributes.AttributeManager.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Attributes.yml",
+      "source_relative_path": "api/NetAF.Assets.Attributes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Attributes.html"
+          "relative_path": "api/NetAF.Assets.Attributes.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.Character.yml",
+      "source_relative_path": "api/NetAF.Assets.Characters.Character.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Characters.Character.html"
+          "relative_path": "api/NetAF.Assets.Characters.Character.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.IConverser.yml",
+      "source_relative_path": "api/NetAF.Assets.Characters.IConverser.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Characters.IConverser.html"
+          "relative_path": "api/NetAF.Assets.Characters.IConverser.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.NonPlayableCharacter.yml",
+      "source_relative_path": "api/NetAF.Assets.Characters.NonPlayableCharacter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Characters.NonPlayableCharacter.html"
+          "relative_path": "api/NetAF.Assets.Characters.NonPlayableCharacter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.yml",
+      "source_relative_path": "api/NetAF.Assets.Characters.PlayableCharacter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Characters.PlayableCharacter.html"
+          "relative_path": "api/NetAF.Assets.Characters.PlayableCharacter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Characters.yml",
+      "source_relative_path": "api/NetAF.Assets.Characters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Characters.html"
+          "relative_path": "api/NetAF.Assets.Characters.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.ConditionalDescription.yml",
+      "source_relative_path": "api/NetAF.Assets.ConditionalDescription.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.ConditionalDescription.html"
+          "relative_path": "api/NetAF.Assets.ConditionalDescription.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Description.yml",
+      "source_relative_path": "api/NetAF.Assets.Description.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Description.html"
+          "relative_path": "api/NetAF.Assets.Description.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.ExaminableObject.yml",
+      "source_relative_path": "api/NetAF.Assets.ExaminableObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.ExaminableObject.html"
+          "relative_path": "api/NetAF.Assets.ExaminableObject.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.ExaminationCallback.yml",
+      "source_relative_path": "api/NetAF.Assets.ExaminationCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.ExaminationCallback.html"
+          "relative_path": "api/NetAF.Assets.ExaminationCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.ExaminationResult.yml",
+      "source_relative_path": "api/NetAF.Assets.ExaminationResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.ExaminationResult.html"
+          "relative_path": "api/NetAF.Assets.ExaminationResult.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.IExaminable.yml",
+      "source_relative_path": "api/NetAF.Assets.IExaminable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.IExaminable.html"
+          "relative_path": "api/NetAF.Assets.IExaminable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.IPlayerVisible.yml",
+      "source_relative_path": "api/NetAF.Assets.IPlayerVisible.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.IPlayerVisible.html"
+          "relative_path": "api/NetAF.Assets.IPlayerVisible.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Identifier.yml",
+      "source_relative_path": "api/NetAF.Assets.Identifier.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Identifier.html"
+          "relative_path": "api/NetAF.Assets.Identifier.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.Condition.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.Condition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.Condition.html"
+          "relative_path": "api/NetAF.Assets.Interaction.Condition.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.IInteractWithItem.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.IInteractWithItem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.IInteractWithItem.html"
+          "relative_path": "api/NetAF.Assets.Interaction.IInteractWithItem.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionCallback.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.InteractionCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionCallback.html"
+          "relative_path": "api/NetAF.Assets.Interaction.InteractionCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionEffect.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.InteractionEffect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionEffect.html"
+          "relative_path": "api/NetAF.Assets.Interaction.InteractionEffect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionResult.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.InteractionResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.InteractionResult.html"
+          "relative_path": "api/NetAF.Assets.Interaction.InteractionResult.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.Reaction.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.Reaction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.Reaction.html"
+          "relative_path": "api/NetAF.Assets.Interaction.Reaction.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.ReactionResult.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.ReactionResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.ReactionResult.html"
+          "relative_path": "api/NetAF.Assets.Interaction.ReactionResult.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.Result.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.Result.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.Result.html"
+          "relative_path": "api/NetAF.Assets.Interaction.Result.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Interaction.yml",
+      "source_relative_path": "api/NetAF.Assets.Interaction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Interaction.html"
+          "relative_path": "api/NetAF.Assets.Interaction.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Item.yml",
+      "source_relative_path": "api/NetAF.Assets.Item.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Item.html"
+          "relative_path": "api/NetAF.Assets.Item.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Direction.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.Direction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Direction.html"
+          "relative_path": "api/NetAF.Assets.Locations.Direction.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Exit.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.Exit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Exit.html"
+          "relative_path": "api/NetAF.Assets.Locations.Exit.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Matrix.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.Matrix.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Matrix.html"
+          "relative_path": "api/NetAF.Assets.Locations.Matrix.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Overworld.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.Overworld.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Overworld.html"
+          "relative_path": "api/NetAF.Assets.Locations.Overworld.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Region.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.Region.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Region.html"
+          "relative_path": "api/NetAF.Assets.Locations.Region.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.Room.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.Room.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.Room.html"
+          "relative_path": "api/NetAF.Assets.Locations.Room.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.RoomPosition.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.RoomPosition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.RoomPosition.html"
+          "relative_path": "api/NetAF.Assets.Locations.RoomPosition.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.ViewPoint.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.ViewPoint.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.ViewPoint.html"
+          "relative_path": "api/NetAF.Assets.Locations.ViewPoint.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Locations.yml",
+      "source_relative_path": "api/NetAF.Assets.Locations.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Locations.html"
+          "relative_path": "api/NetAF.Assets.Locations.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.Size.yml",
+      "source_relative_path": "api/NetAF.Assets.Size.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.Size.html"
+          "relative_path": "api/NetAF.Assets.Size.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Assets.yml",
+      "source_relative_path": "api/NetAF.Assets.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Assets.html"
+          "relative_path": "api/NetAF.Assets.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Commands.CustomCommand.yml",
+      "source_relative_path": "api/NetAF.Commands.CustomCommand.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Commands.CustomCommand.html"
+          "relative_path": "api/NetAF.Commands.CustomCommand.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Commands.CustomCommandCallback.yml",
+      "source_relative_path": "api/NetAF.Commands.CustomCommandCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Commands.CustomCommandCallback.html"
+          "relative_path": "api/NetAF.Commands.CustomCommandCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Commands.ICommand.yml",
+      "source_relative_path": "api/NetAF.Commands.ICommand.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Commands.ICommand.html"
+          "relative_path": "api/NetAF.Commands.ICommand.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Commands.yml",
+      "source_relative_path": "api/NetAF.Commands.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Commands.html"
+          "relative_path": "api/NetAF.Commands.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Conversation.yml",
+      "source_relative_path": "api/NetAF.Conversations.Conversation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Conversation.html"
+          "relative_path": "api/NetAF.Conversations.Conversation.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.ConversationActionCallback.yml",
+      "source_relative_path": "api/NetAF.Conversations.ConversationActionCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.ConversationActionCallback.html"
+          "relative_path": "api/NetAF.Conversations.ConversationActionCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ByCallback.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.ByCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ByCallback.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.ByCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.First.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.First.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.First.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.First.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.GoTo.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.GoTo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.GoTo.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.GoTo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.IEndOfPargraphInstruction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.IEndOfPargraphInstruction.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.IEndOfPargraphInstruction.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Jump.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.Jump.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Jump.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.Jump.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Last.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.Last.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Last.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.Last.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Next.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.Next.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Next.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.Next.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Previous.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.Previous.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Previous.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.Previous.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Repeat.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.Repeat.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.Repeat.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.Repeat.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ToName.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.ToName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.ToName.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.ToName.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Instructions.yml",
+      "source_relative_path": "api/NetAF.Conversations.Instructions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Instructions.html"
+          "relative_path": "api/NetAF.Conversations.Instructions.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.LogItem.yml",
+      "source_relative_path": "api/NetAF.Conversations.LogItem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.LogItem.html"
+          "relative_path": "api/NetAF.Conversations.LogItem.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Paragraph.yml",
+      "source_relative_path": "api/NetAF.Conversations.Paragraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Paragraph.html"
+          "relative_path": "api/NetAF.Conversations.Paragraph.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Participant.yml",
+      "source_relative_path": "api/NetAF.Conversations.Participant.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Participant.html"
+          "relative_path": "api/NetAF.Conversations.Participant.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.Response.yml",
+      "source_relative_path": "api/NetAF.Conversations.Response.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.Response.html"
+          "relative_path": "api/NetAF.Conversations.Response.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Conversations.yml",
+      "source_relative_path": "api/NetAF.Conversations.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Conversations.html"
+          "relative_path": "api/NetAF.Conversations.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Extensions.DirectionExtensions.yml",
+      "source_relative_path": "api/NetAF.Extensions.DirectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Extensions.DirectionExtensions.html"
+          "relative_path": "api/NetAF.Extensions.DirectionExtensions.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Extensions.StringExtensions.yml",
+      "source_relative_path": "api/NetAF.Extensions.StringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Extensions.StringExtensions.html"
+          "relative_path": "api/NetAF.Extensions.StringExtensions.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Extensions.yml",
+      "source_relative_path": "api/NetAF.Extensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Extensions.html"
+          "relative_path": "api/NetAF.Extensions.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Interpretation.CommandHelp.yml",
+      "source_relative_path": "api/NetAF.Interpretation.CommandHelp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Interpretation.CommandHelp.html"
+          "relative_path": "api/NetAF.Interpretation.CommandHelp.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Interpretation.CustomCommandInterpreter.yml",
+      "source_relative_path": "api/NetAF.Interpretation.CustomCommandInterpreter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Interpretation.CustomCommandInterpreter.html"
+          "relative_path": "api/NetAF.Interpretation.CustomCommandInterpreter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Interpretation.IInterpreter.yml",
+      "source_relative_path": "api/NetAF.Interpretation.IInterpreter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Interpretation.IInterpreter.html"
+          "relative_path": "api/NetAF.Interpretation.IInterpreter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Interpretation.InterpretationResult.yml",
+      "source_relative_path": "api/NetAF.Interpretation.InterpretationResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Interpretation.InterpretationResult.html"
+          "relative_path": "api/NetAF.Interpretation.InterpretationResult.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Interpretation.yml",
+      "source_relative_path": "api/NetAF.Interpretation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Interpretation.html"
+          "relative_path": "api/NetAF.Interpretation.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.EndCheck.yml",
+      "source_relative_path": "api/NetAF.Logic.EndCheck.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.EndCheck.html"
+          "relative_path": "api/NetAF.Logic.EndCheck.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.EndCheckResult.yml",
+      "source_relative_path": "api/NetAF.Logic.EndCheckResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.EndCheckResult.html"
+          "relative_path": "api/NetAF.Logic.EndCheckResult.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.ExitMode.yml",
+      "source_relative_path": "api/NetAF.Logic.ExitMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.ExitMode.html"
+          "relative_path": "api/NetAF.Logic.ExitMode.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.Game.yml",
+      "source_relative_path": "api/NetAF.Logic.Game.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.Game.html"
+          "relative_path": "api/NetAF.Logic.Game.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.GameCreationCallback.yml",
+      "source_relative_path": "api/NetAF.Logic.GameCreationCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.GameCreationCallback.html"
+          "relative_path": "api/NetAF.Logic.GameCreationCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.GameState.yml",
+      "source_relative_path": "api/NetAF.Logic.GameState.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.GameState.html"
+          "relative_path": "api/NetAF.Logic.GameState.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.OverworldCreationCallback.yml",
+      "source_relative_path": "api/NetAF.Logic.OverworldCreationCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.OverworldCreationCallback.html"
+          "relative_path": "api/NetAF.Logic.OverworldCreationCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.PlayerCreationCallback.yml",
+      "source_relative_path": "api/NetAF.Logic.PlayerCreationCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.PlayerCreationCallback.html"
+          "relative_path": "api/NetAF.Logic.PlayerCreationCallback.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Logic.yml",
+      "source_relative_path": "api/NetAF.Logic.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Logic.html"
+          "relative_path": "api/NetAF.Logic.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.AnsiColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.AnsiColor.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.AnsiColor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.Color.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollection.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollections.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.FrameBuilderCollections.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.GridStringBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.GridStringBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.GridStringBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IAboutFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IAboutFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ICompletionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ICompletionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IConversationFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IConversationFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IGameOverFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IGameOverFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IHelpFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IHelpFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRegionMapFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.IRoomMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ISceneFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ISceneFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITitleFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITitleFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITransitionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.ITransitionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.FrameBuilders.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.GridTextFrame.yml",
+      "source_relative_path": "api/NetAF.Rendering.Frames.GridTextFrame.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.GridTextFrame.html"
+          "relative_path": "api/NetAF.Rendering.Frames.GridTextFrame.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.IFrame.yml",
+      "source_relative_path": "api/NetAF.Rendering.Frames.IFrame.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.IFrame.html"
+          "relative_path": "api/NetAF.Rendering.Frames.IFrame.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.Frames.yml",
+      "source_relative_path": "api/NetAF.Rendering.Frames.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.Frames.html"
+          "relative_path": "api/NetAF.Rendering.Frames.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.KeyType.yml",
+      "source_relative_path": "api/NetAF.Rendering.KeyType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.KeyType.html"
+          "relative_path": "api/NetAF.Rendering.KeyType.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.RegionMapMode.yml",
+      "source_relative_path": "api/NetAF.Rendering.RegionMapMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.RegionMapMode.html"
+          "relative_path": "api/NetAF.Rendering.RegionMapMode.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Rendering.yml",
+      "source_relative_path": "api/NetAF.Rendering.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Rendering.html"
+          "relative_path": "api/NetAF.Rendering.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.IAssetTemplate-1.yml",
+      "source_relative_path": "api/NetAF.Utilities.IAssetTemplate-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.IAssetTemplate-1.html"
+          "relative_path": "api/NetAF.Utilities.IAssetTemplate-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.OverworldMaker.yml",
+      "source_relative_path": "api/NetAF.Utilities.OverworldMaker.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.OverworldMaker.html"
+          "relative_path": "api/NetAF.Utilities.OverworldMaker.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.RegionMaker.yml",
+      "source_relative_path": "api/NetAF.Utilities.RegionMaker.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.RegionMaker.html"
+          "relative_path": "api/NetAF.Utilities.RegionMaker.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BP.AdventureFramework.Utilities.yml",
+      "source_relative_path": "api/NetAF.Utilities.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BP.AdventureFramework.Utilities.html"
+          "relative_path": "api/NetAF.Utilities.html"
         }
       },
       "version": ""
@@ -1154,11 +1154,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -1297,11 +1297,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
         }
       },
       "version": ""
@@ -1320,11 +1320,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
