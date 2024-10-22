@@ -707,12 +707,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.ExaminableObject.Examination
   nameWithType: ExaminableObject.Examination
-- uid: NetAF.Assets.ExaminableObject.Examine
-  name: Examine()
-  href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Examine
-  commentId: M:NetAF.Assets.ExaminableObject.Examine
-  fullName: NetAF.Assets.ExaminableObject.Examine()
-  nameWithType: ExaminableObject.Examine()
+- uid: NetAF.Assets.ExaminableObject.Examine(NetAF.Assets.ExaminationScene)
+  name: Examine(ExaminationScene)
+  href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Examine_NetAF_Assets_ExaminationScene_
+  commentId: M:NetAF.Assets.ExaminableObject.Examine(NetAF.Assets.ExaminationScene)
+  fullName: NetAF.Assets.ExaminableObject.Examine(NetAF.Assets.ExaminationScene)
+  nameWithType: ExaminableObject.Examine(ExaminationScene)
 - uid: NetAF.Assets.ExaminableObject.Examine*
   name: Examine
   href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Examine_
@@ -765,6 +765,66 @@ references:
   commentId: T:NetAF.Assets.ExaminationCallback
   fullName: NetAF.Assets.ExaminationCallback
   nameWithType: ExaminationCallback
+- uid: NetAF.Assets.ExaminationRequest
+  name: ExaminationRequest
+  href: api/NetAF.Assets.ExaminationRequest.html
+  commentId: T:NetAF.Assets.ExaminationRequest
+  fullName: NetAF.Assets.ExaminationRequest
+  nameWithType: ExaminationRequest
+- uid: NetAF.Assets.ExaminationRequest.#ctor(NetAF.Assets.IExaminable,NetAF.Assets.ExaminationScene)
+  name: ExaminationRequest(IExaminable, ExaminationScene)
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest__ctor_NetAF_Assets_IExaminable_NetAF_Assets_ExaminationScene_
+  commentId: M:NetAF.Assets.ExaminationRequest.#ctor(NetAF.Assets.IExaminable,NetAF.Assets.ExaminationScene)
+  name.vb: New(IExaminable, ExaminationScene)
+  fullName: NetAF.Assets.ExaminationRequest.ExaminationRequest(NetAF.Assets.IExaminable, NetAF.Assets.ExaminationScene)
+  fullName.vb: NetAF.Assets.ExaminationRequest.New(NetAF.Assets.IExaminable, NetAF.Assets.ExaminationScene)
+  nameWithType: ExaminationRequest.ExaminationRequest(IExaminable, ExaminationScene)
+  nameWithType.vb: ExaminationRequest.New(IExaminable, ExaminationScene)
+- uid: NetAF.Assets.ExaminationRequest.#ctor(NetAF.Assets.IExaminable,NetAF.Logic.Game)
+  name: ExaminationRequest(IExaminable, Game)
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest__ctor_NetAF_Assets_IExaminable_NetAF_Logic_Game_
+  commentId: M:NetAF.Assets.ExaminationRequest.#ctor(NetAF.Assets.IExaminable,NetAF.Logic.Game)
+  name.vb: New(IExaminable, Game)
+  fullName: NetAF.Assets.ExaminationRequest.ExaminationRequest(NetAF.Assets.IExaminable, NetAF.Logic.Game)
+  fullName.vb: NetAF.Assets.ExaminationRequest.New(NetAF.Assets.IExaminable, NetAF.Logic.Game)
+  nameWithType: ExaminationRequest.ExaminationRequest(IExaminable, Game)
+  nameWithType.vb: ExaminationRequest.New(IExaminable, Game)
+- uid: NetAF.Assets.ExaminationRequest.#ctor*
+  name: ExaminationRequest
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest__ctor_
+  commentId: Overload:NetAF.Assets.ExaminationRequest.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.ExaminationRequest.ExaminationRequest
+  fullName.vb: NetAF.Assets.ExaminationRequest.New
+  nameWithType: ExaminationRequest.ExaminationRequest
+  nameWithType.vb: ExaminationRequest.New
+- uid: NetAF.Assets.ExaminationRequest.Examinable
+  name: Examinable
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest_Examinable
+  commentId: P:NetAF.Assets.ExaminationRequest.Examinable
+  fullName: NetAF.Assets.ExaminationRequest.Examinable
+  nameWithType: ExaminationRequest.Examinable
+- uid: NetAF.Assets.ExaminationRequest.Examinable*
+  name: Examinable
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest_Examinable_
+  commentId: Overload:NetAF.Assets.ExaminationRequest.Examinable
+  isSpec: "True"
+  fullName: NetAF.Assets.ExaminationRequest.Examinable
+  nameWithType: ExaminationRequest.Examinable
+- uid: NetAF.Assets.ExaminationRequest.Scene
+  name: Scene
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest_Scene
+  commentId: P:NetAF.Assets.ExaminationRequest.Scene
+  fullName: NetAF.Assets.ExaminationRequest.Scene
+  nameWithType: ExaminationRequest.Scene
+- uid: NetAF.Assets.ExaminationRequest.Scene*
+  name: Scene
+  href: api/NetAF.Assets.ExaminationRequest.html#NetAF_Assets_ExaminationRequest_Scene_
+  commentId: Overload:NetAF.Assets.ExaminationRequest.Scene
+  isSpec: "True"
+  fullName: NetAF.Assets.ExaminationRequest.Scene
+  nameWithType: ExaminationRequest.Scene
 - uid: NetAF.Assets.ExaminationResult
   name: ExaminationResult
   href: api/NetAF.Assets.ExaminationResult.html
@@ -790,6 +850,79 @@ references:
   fullName.vb: NetAF.Assets.ExaminationResult.New
   nameWithType: ExaminationResult.ExaminationResult
   nameWithType.vb: ExaminationResult.New
+- uid: NetAF.Assets.ExaminationScene
+  name: ExaminationScene
+  href: api/NetAF.Assets.ExaminationScene.html
+  commentId: T:NetAF.Assets.ExaminationScene
+  fullName: NetAF.Assets.ExaminationScene
+  nameWithType: ExaminationScene
+- uid: NetAF.Assets.ExaminationScene.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Locations.Room)
+  name: ExaminationScene(Character, Room)
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene__ctor_NetAF_Assets_Characters_Character_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Assets.ExaminationScene.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Locations.Room)
+  name.vb: New(Character, Room)
+  fullName: NetAF.Assets.ExaminationScene.ExaminationScene(NetAF.Assets.Characters.Character, NetAF.Assets.Locations.Room)
+  fullName.vb: NetAF.Assets.ExaminationScene.New(NetAF.Assets.Characters.Character, NetAF.Assets.Locations.Room)
+  nameWithType: ExaminationScene.ExaminationScene(Character, Room)
+  nameWithType.vb: ExaminationScene.New(Character, Room)
+- uid: NetAF.Assets.ExaminationScene.#ctor(NetAF.Logic.Game)
+  name: ExaminationScene(Game)
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Assets.ExaminationScene.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Assets.ExaminationScene.ExaminationScene(NetAF.Logic.Game)
+  fullName.vb: NetAF.Assets.ExaminationScene.New(NetAF.Logic.Game)
+  nameWithType: ExaminationScene.ExaminationScene(Game)
+  nameWithType.vb: ExaminationScene.New(Game)
+- uid: NetAF.Assets.ExaminationScene.#ctor*
+  name: ExaminationScene
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene__ctor_
+  commentId: Overload:NetAF.Assets.ExaminationScene.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.ExaminationScene.ExaminationScene
+  fullName.vb: NetAF.Assets.ExaminationScene.New
+  nameWithType: ExaminationScene.ExaminationScene
+  nameWithType.vb: ExaminationScene.New
+- uid: NetAF.Assets.ExaminationScene.Examiner
+  name: Examiner
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene_Examiner
+  commentId: P:NetAF.Assets.ExaminationScene.Examiner
+  fullName: NetAF.Assets.ExaminationScene.Examiner
+  nameWithType: ExaminationScene.Examiner
+- uid: NetAF.Assets.ExaminationScene.Examiner*
+  name: Examiner
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene_Examiner_
+  commentId: Overload:NetAF.Assets.ExaminationScene.Examiner
+  isSpec: "True"
+  fullName: NetAF.Assets.ExaminationScene.Examiner
+  nameWithType: ExaminationScene.Examiner
+- uid: NetAF.Assets.ExaminationScene.NoScene
+  name: NoScene
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene_NoScene
+  commentId: P:NetAF.Assets.ExaminationScene.NoScene
+  fullName: NetAF.Assets.ExaminationScene.NoScene
+  nameWithType: ExaminationScene.NoScene
+- uid: NetAF.Assets.ExaminationScene.NoScene*
+  name: NoScene
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene_NoScene_
+  commentId: Overload:NetAF.Assets.ExaminationScene.NoScene
+  isSpec: "True"
+  fullName: NetAF.Assets.ExaminationScene.NoScene
+  nameWithType: ExaminationScene.NoScene
+- uid: NetAF.Assets.ExaminationScene.Room
+  name: Room
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene_Room
+  commentId: P:NetAF.Assets.ExaminationScene.Room
+  fullName: NetAF.Assets.ExaminationScene.Room
+  nameWithType: ExaminationScene.Room
+- uid: NetAF.Assets.ExaminationScene.Room*
+  name: Room
+  href: api/NetAF.Assets.ExaminationScene.html#NetAF_Assets_ExaminationScene_Room_
+  commentId: Overload:NetAF.Assets.ExaminationScene.Room
+  isSpec: "True"
+  fullName: NetAF.Assets.ExaminationScene.Room
+  nameWithType: ExaminationScene.Room
 - uid: NetAF.Assets.IExaminable
   name: IExaminable
   href: api/NetAF.Assets.IExaminable.html
@@ -835,12 +968,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.IExaminable.Description
   nameWithType: IExaminable.Description
-- uid: NetAF.Assets.IExaminable.Examine
-  name: Examine()
-  href: api/NetAF.Assets.IExaminable.html#NetAF_Assets_IExaminable_Examine
-  commentId: M:NetAF.Assets.IExaminable.Examine
-  fullName: NetAF.Assets.IExaminable.Examine()
-  nameWithType: IExaminable.Examine()
+- uid: NetAF.Assets.IExaminable.Examine(NetAF.Assets.ExaminationScene)
+  name: Examine(ExaminationScene)
+  href: api/NetAF.Assets.IExaminable.html#NetAF_Assets_IExaminable_Examine_NetAF_Assets_ExaminationScene_
+  commentId: M:NetAF.Assets.IExaminable.Examine(NetAF.Assets.ExaminationScene)
+  fullName: NetAF.Assets.IExaminable.Examine(NetAF.Assets.ExaminationScene)
+  nameWithType: IExaminable.Examine(ExaminationScene)
 - uid: NetAF.Assets.IExaminable.Examine*
   name: Examine
   href: api/NetAF.Assets.IExaminable.html#NetAF_Assets_IExaminable_Examine_
@@ -1630,12 +1763,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Overworld.CurrentRegion
   nameWithType: Overworld.CurrentRegion
-- uid: NetAF.Assets.Locations.Overworld.Examine
-  name: Examine()
-  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_Examine
-  commentId: M:NetAF.Assets.Locations.Overworld.Examine
-  fullName: NetAF.Assets.Locations.Overworld.Examine()
-  nameWithType: Overworld.Examine()
+- uid: NetAF.Assets.Locations.Overworld.Examine(NetAF.Assets.ExaminationScene)
+  name: Examine(ExaminationScene)
+  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_Examine_NetAF_Assets_ExaminationScene_
+  commentId: M:NetAF.Assets.Locations.Overworld.Examine(NetAF.Assets.ExaminationScene)
+  fullName: NetAF.Assets.Locations.Overworld.Examine(NetAF.Assets.ExaminationScene)
+  nameWithType: Overworld.Examine(ExaminationScene)
 - uid: NetAF.Assets.Locations.Overworld.Examine*
   name: Examine
   href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_Examine_
@@ -1761,12 +1894,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Region.CurrentRoom
   nameWithType: Region.CurrentRoom
-- uid: NetAF.Assets.Locations.Region.Examine
-  name: Examine()
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_Examine
-  commentId: M:NetAF.Assets.Locations.Region.Examine
-  fullName: NetAF.Assets.Locations.Region.Examine()
-  nameWithType: Region.Examine()
+- uid: NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)
+  name: Examine(ExaminationScene)
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_Examine_NetAF_Assets_ExaminationScene_
+  commentId: M:NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)
+  fullName: NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)
+  nameWithType: Region.Examine(ExaminationScene)
 - uid: NetAF.Assets.Locations.Region.Examine*
   name: Examine
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_Examine_
@@ -2146,12 +2279,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.EnteredFrom
   nameWithType: Room.EnteredFrom
-- uid: NetAF.Assets.Locations.Room.Examine
-  name: Examine()
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Examine
-  commentId: M:NetAF.Assets.Locations.Room.Examine
-  fullName: NetAF.Assets.Locations.Room.Examine()
-  nameWithType: Room.Examine()
+- uid: NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)
+  name: Examine(ExaminationScene)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Examine_NetAF_Assets_ExaminationScene_
+  commentId: M:NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)
+  fullName: NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)
+  nameWithType: Room.Examine(ExaminationScene)
 - uid: NetAF.Assets.Locations.Room.Examine*
   name: Examine
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Examine_

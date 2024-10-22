@@ -132,10 +132,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.ExaminationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.ExaminationRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.ExaminationResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Assets.ExaminationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.ExaminationScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.ExaminationScene.html"
         }
       },
       "version": ""
