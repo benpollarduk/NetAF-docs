@@ -4246,6 +4246,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Author
   nameWithType: Game.Author
+- uid: NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)
+  name: ChangePlayer(PlayableCharacter)
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_
+  commentId: M:NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)
+  fullName: NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)
+  nameWithType: Game.ChangePlayer(PlayableCharacter)
+- uid: NetAF.Logic.Game.ChangePlayer*
+  name: ChangePlayer
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangePlayer_
+  commentId: Overload:NetAF.Logic.Game.ChangePlayer
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.ChangePlayer
+  nameWithType: Game.ChangePlayer
 - uid: NetAF.Logic.Game.Create(System.String,System.String,System.String,NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback,NetAF.Logic.EndCheck,NetAF.Logic.EndCheck)
   name: Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_System_String_System_String_System_String_NetAF_Logic_OverworldCreationCallback_NetAF_Logic_PlayerCreationCallback_NetAF_Logic_EndCheck_NetAF_Logic_EndCheck_
