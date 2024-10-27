@@ -2066,6 +2066,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Region.ToMatrix
   nameWithType: Region.ToMatrix
+- uid: NetAF.Assets.Locations.Region.TryFindRoom(System.String,NetAF.Assets.Locations.Room@)
+  name: TryFindRoom(string, out Room)
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_TryFindRoom_System_String_NetAF_Assets_Locations_Room__
+  commentId: M:NetAF.Assets.Locations.Region.TryFindRoom(System.String,NetAF.Assets.Locations.Room@)
+  name.vb: TryFindRoom(String, Room)
+  fullName: NetAF.Assets.Locations.Region.TryFindRoom(string, out NetAF.Assets.Locations.Room)
+  fullName.vb: NetAF.Assets.Locations.Region.TryFindRoom(String, NetAF.Assets.Locations.Room)
+  nameWithType: Region.TryFindRoom(string, out Room)
+  nameWithType.vb: Region.TryFindRoom(String, Room)
+- uid: NetAF.Assets.Locations.Region.TryFindRoom*
+  name: TryFindRoom
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_TryFindRoom_
+  commentId: Overload:NetAF.Assets.Locations.Region.TryFindRoom
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Region.TryFindRoom
+  nameWithType: Region.TryFindRoom
 - uid: NetAF.Assets.Locations.Region.UnlockDoorPair(NetAF.Assets.Locations.Direction)
   name: UnlockDoorPair(Direction)
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_UnlockDoorPair_NetAF_Assets_Locations_Direction_
