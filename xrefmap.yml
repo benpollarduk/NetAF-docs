@@ -4363,22 +4363,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.ActiveConverser
   nameWithType: Game.ActiveConverser
-- uid: NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection,System.Boolean)
-  name: ChangeFrameBuilders(FrameBuilderCollection, bool)
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangeFrameBuilders_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_System_Boolean_
-  commentId: M:NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection,System.Boolean)
-  name.vb: ChangeFrameBuilders(FrameBuilderCollection, Boolean)
-  fullName: NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection, bool)
-  fullName.vb: NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection, Boolean)
-  nameWithType: Game.ChangeFrameBuilders(FrameBuilderCollection, bool)
-  nameWithType.vb: Game.ChangeFrameBuilders(FrameBuilderCollection, Boolean)
-- uid: NetAF.Logic.Game.ChangeFrameBuilders*
-  name: ChangeFrameBuilders
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangeFrameBuilders_
-  commentId: Overload:NetAF.Logic.Game.ChangeFrameBuilders
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.ChangeFrameBuilders
-  nameWithType: Game.ChangeFrameBuilders
 - uid: NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)
   name: ChangePlayer(PlayableCharacter)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_
@@ -4434,19 +4418,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.DisplayAbout
   nameWithType: Game.DisplayAbout
-- uid: NetAF.Logic.Game.DisplayCommandListInSceneFrames
-  name: DisplayCommandListInSceneFrames
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayCommandListInSceneFrames
-  commentId: P:NetAF.Logic.Game.DisplayCommandListInSceneFrames
-  fullName: NetAF.Logic.Game.DisplayCommandListInSceneFrames
-  nameWithType: Game.DisplayCommandListInSceneFrames
-- uid: NetAF.Logic.Game.DisplayCommandListInSceneFrames*
-  name: DisplayCommandListInSceneFrames
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayCommandListInSceneFrames_
-  commentId: Overload:NetAF.Logic.Game.DisplayCommandListInSceneFrames
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DisplayCommandListInSceneFrames
-  nameWithType: Game.DisplayCommandListInSceneFrames
 - uid: NetAF.Logic.Game.DisplayHelp
   name: DisplayHelp()
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayHelp
@@ -4609,34 +4580,21 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Player
   nameWithType: Game.Player
-- uid: NetAF.Logic.Game.SceneMapKeyType
-  name: SceneMapKeyType
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_SceneMapKeyType
-  commentId: P:NetAF.Logic.Game.SceneMapKeyType
-  fullName: NetAF.Logic.Game.SceneMapKeyType
-  nameWithType: Game.SceneMapKeyType
-- uid: NetAF.Logic.Game.SceneMapKeyType*
-  name: SceneMapKeyType
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_SceneMapKeyType_
-  commentId: Overload:NetAF.Logic.Game.SceneMapKeyType
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.SceneMapKeyType
-  nameWithType: Game.SceneMapKeyType
 - uid: NetAF.Logic.GameConfiguration
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html
   commentId: T:NetAF.Logic.GameConfiguration
   fullName: NetAF.Logic.GameConfiguration
   nameWithType: GameConfiguration
-- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Logic.ExitMode,System.String,NetAF.Interpretation.IInterpreter)
-  name: GameConfiguration(Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Logic_ExitMode_System_String_NetAF_Interpretation_IInterpreter_
-  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Logic.ExitMode,System.String,NetAF.Interpretation.IInterpreter)
-  name.vb: New(Size, FrameBuilderCollection, ExitMode, String, IInterpreter)
-  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Logic.ExitMode, string, NetAF.Interpretation.IInterpreter)
-  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Logic.ExitMode, String, NetAF.Interpretation.IInterpreter)
-  nameWithType: GameConfiguration.GameConfiguration(Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
-  nameWithType.vb: GameConfiguration.New(Size, FrameBuilderCollection, ExitMode, String, IInterpreter)
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Interpretation.IInterpreter)
+  name: GameConfiguration(Size, ExitMode, IInterpreter)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Logic_ExitMode_NetAF_Interpretation_IInterpreter_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Interpretation.IInterpreter)
+  name.vb: New(Size, ExitMode, IInterpreter)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Interpretation.IInterpreter)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Interpretation.IInterpreter)
+  nameWithType: GameConfiguration.GameConfiguration(Size, ExitMode, IInterpreter)
+  nameWithType.vb: GameConfiguration.New(Size, ExitMode, IInterpreter)
 - uid: NetAF.Logic.GameConfiguration.#ctor*
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
@@ -4660,6 +4618,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameConfiguration.Default
   nameWithType: GameConfiguration.Default
+- uid: NetAF.Logic.GameConfiguration.DisplayCommandListInSceneFrames
+  name: DisplayCommandListInSceneFrames
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplayCommandListInSceneFrames
+  commentId: P:NetAF.Logic.GameConfiguration.DisplayCommandListInSceneFrames
+  fullName: NetAF.Logic.GameConfiguration.DisplayCommandListInSceneFrames
+  nameWithType: GameConfiguration.DisplayCommandListInSceneFrames
+- uid: NetAF.Logic.GameConfiguration.DisplayCommandListInSceneFrames*
+  name: DisplayCommandListInSceneFrames
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplayCommandListInSceneFrames_
+  commentId: Overload:NetAF.Logic.GameConfiguration.DisplayCommandListInSceneFrames
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.DisplayCommandListInSceneFrames
+  nameWithType: GameConfiguration.DisplayCommandListInSceneFrames
 - uid: NetAF.Logic.GameConfiguration.DisplaySize
   name: DisplaySize
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplaySize
@@ -4725,6 +4696,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameConfiguration.Interpreter
   nameWithType: GameConfiguration.Interpreter
+- uid: NetAF.Logic.GameConfiguration.SceneMapKeyType
+  name: SceneMapKeyType
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_SceneMapKeyType
+  commentId: P:NetAF.Logic.GameConfiguration.SceneMapKeyType
+  fullName: NetAF.Logic.GameConfiguration.SceneMapKeyType
+  nameWithType: GameConfiguration.SceneMapKeyType
+- uid: NetAF.Logic.GameConfiguration.SceneMapKeyType*
+  name: SceneMapKeyType
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_SceneMapKeyType_
+  commentId: Overload:NetAF.Logic.GameConfiguration.SceneMapKeyType
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.SceneMapKeyType
+  nameWithType: GameConfiguration.SceneMapKeyType
 - uid: NetAF.Logic.GameCreationCallback
   name: GameCreationCallback
   href: api/NetAF.Logic.GameCreationCallback.html
