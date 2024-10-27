@@ -174,23 +174,19 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
 <p>The game now has all the required assets and logic it just needs some boilerplate to tie everything together before it is ready to play.</p>
 <p>A <strong>GameCreationCallback</strong> is required to instantiate an instance of a <strong>Game</strong>. This is so that new instances of the <strong>Game</strong> can be created as required.</p>
 <pre><code class="lang-csharp">var gameCreator = Game.Create(
-    &quot;The Life Of Dave&quot;,
-    &quot;Dave awakes to find himself in a cavern...&quot;,
-    &quot;A very low budget adventure.&quot;,
-    overworldMaker.Make,
-    CreatePlayer,
-    IsGameComplete,
-    IsGameOver);
+                new GameInfo(&quot;The Life of Dave&quot;, &quot;A very low budget adventure.&quot;, &quot;Ben Pollard&quot;),
+                &quot;Dave awakes to find himself in a cavern...&quot;,
+                AssetGenerator.Custom(overworldMaker.Make, CreatePlayer),
+                new GameEndConditions(IsGameComplete, IsGameOver),
+                GameConfiguration.Default);
 </code></pre>
 <p>This requires some breaking down. The <strong>Game</strong> class has a <strong>Create</strong> method that can be used to create instances of <strong>Game</strong>. This takes the following arguments:</p>
 <ul>
-<li><strong>Name</strong> - the name of the game.</li>
+<li><strong>GameInfo</strong> - information about the game.</li>
 <li><strong>Introduction</strong> - an introduction to the game.</li>
-<li><strong>Description</strong> - a description of the game.</li>
-<li><strong>OverworldGenerator</strong> - a callback for generating instances of the overworld.</li>
-<li><strong>PlayerGenerator</strong> - a callback for generating instances of the player.</li>
-<li><strong>CompletionCondition</strong> - a callback for determining if the game is complete.</li>
-<li><strong>GameOverCondition</strong> - a callback for determining if the game is over.</li>
+<li><strong>AssetGenerator</strong> - a generator for game assets.</li>
+<li><strong>GameEndConditions</strong> - conditions for determining if the game has been completed or otherwise ended.</li>
+<li><strong>GameConfiguration</strong> - a configuration for the game, including display size, error prefix and other elements.</li>
 </ul>
 <h3 id="executing-the-game">Executing the game</h3>
 <p>The game is executed simply by calling the static <strong>Execute</strong> method on <strong>Game</strong> and passing in the game creation callback.</p>
@@ -248,13 +244,11 @@ namespace NetAF.GettingStarted
             var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancient kingdom.&quot;, regionMaker);
 
             var gameCreator = Game.Create(
-                &quot;The Life Of Dave&quot;,
+                new GameInfo(&quot;The Life of Dave&quot;, &quot;A very low budget adventure.&quot;, &quot;Ben Pollard&quot;),
                 &quot;Dave awakes to find himself in a cavern...&quot;,
-                &quot;A very low budget adventure.&quot;,
-                overworldMaker.Make,
-                CreatePlayer,
-                IsGameComplete,
-                IsGameOver);
+                AssetGenerator.Custom(overworldMaker.Make, CreatePlayer),
+                new GameEndConditions(IsGameComplete, IsGameOver),
+                GameConfiguration.Default);
 
             Game.Execute(gameCreator);
         }

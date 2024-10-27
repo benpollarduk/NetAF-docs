@@ -702,6 +702,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.AssetGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.AssetGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.EndCheck.yml",
       "output": {
         ".html": {
@@ -742,10 +752,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.GameCreationCallback.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.GameCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameEndConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameEndConditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameSetupCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameSetupCallback.html"
         }
       },
       "version": ""

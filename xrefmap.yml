@@ -4144,6 +4144,89 @@ references:
   commentId: N:NetAF.Logic
   fullName: NetAF.Logic
   nameWithType: NetAF.Logic
+- uid: NetAF.Logic.AssetGenerator
+  name: AssetGenerator
+  href: api/NetAF.Logic.AssetGenerator.html
+  commentId: T:NetAF.Logic.AssetGenerator
+  fullName: NetAF.Logic.AssetGenerator
+  nameWithType: AssetGenerator
+- uid: NetAF.Logic.AssetGenerator.Custom(NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback)
+  name: Custom(OverworldCreationCallback, PlayerCreationCallback)
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_Custom_NetAF_Logic_OverworldCreationCallback_NetAF_Logic_PlayerCreationCallback_
+  commentId: M:NetAF.Logic.AssetGenerator.Custom(NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback)
+  fullName: NetAF.Logic.AssetGenerator.Custom(NetAF.Logic.OverworldCreationCallback, NetAF.Logic.PlayerCreationCallback)
+  nameWithType: AssetGenerator.Custom(OverworldCreationCallback, PlayerCreationCallback)
+- uid: NetAF.Logic.AssetGenerator.Custom*
+  name: Custom
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_Custom_
+  commentId: Overload:NetAF.Logic.AssetGenerator.Custom
+  isSpec: "True"
+  fullName: NetAF.Logic.AssetGenerator.Custom
+  nameWithType: AssetGenerator.Custom
+- uid: NetAF.Logic.AssetGenerator.GetOverworld
+  name: GetOverworld()
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_GetOverworld
+  commentId: M:NetAF.Logic.AssetGenerator.GetOverworld
+  fullName: NetAF.Logic.AssetGenerator.GetOverworld()
+  nameWithType: AssetGenerator.GetOverworld()
+- uid: NetAF.Logic.AssetGenerator.GetOverworld*
+  name: GetOverworld
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_GetOverworld_
+  commentId: Overload:NetAF.Logic.AssetGenerator.GetOverworld
+  isSpec: "True"
+  fullName: NetAF.Logic.AssetGenerator.GetOverworld
+  nameWithType: AssetGenerator.GetOverworld
+- uid: NetAF.Logic.AssetGenerator.GetPlayer
+  name: GetPlayer()
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_GetPlayer
+  commentId: M:NetAF.Logic.AssetGenerator.GetPlayer
+  fullName: NetAF.Logic.AssetGenerator.GetPlayer()
+  nameWithType: AssetGenerator.GetPlayer()
+- uid: NetAF.Logic.AssetGenerator.GetPlayer*
+  name: GetPlayer
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_GetPlayer_
+  commentId: Overload:NetAF.Logic.AssetGenerator.GetPlayer
+  isSpec: "True"
+  fullName: NetAF.Logic.AssetGenerator.GetPlayer
+  nameWithType: AssetGenerator.GetPlayer
+- uid: NetAF.Logic.AssetGenerator.New(NetAF.Utilities.IAssetTemplate{NetAF.Assets.Locations.Overworld},NetAF.Utilities.IAssetTemplate{NetAF.Assets.Characters.PlayableCharacter})
+  name: New(IAssetTemplate<Overworld>, IAssetTemplate<PlayableCharacter>)
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_New_NetAF_Utilities_IAssetTemplate_NetAF_Assets_Locations_Overworld__NetAF_Utilities_IAssetTemplate_NetAF_Assets_Characters_PlayableCharacter__
+  commentId: M:NetAF.Logic.AssetGenerator.New(NetAF.Utilities.IAssetTemplate{NetAF.Assets.Locations.Overworld},NetAF.Utilities.IAssetTemplate{NetAF.Assets.Characters.PlayableCharacter})
+  name.vb: New(IAssetTemplate(Of Overworld), IAssetTemplate(Of PlayableCharacter))
+  fullName: NetAF.Logic.AssetGenerator.New(NetAF.Utilities.IAssetTemplate<NetAF.Assets.Locations.Overworld>, NetAF.Utilities.IAssetTemplate<NetAF.Assets.Characters.PlayableCharacter>)
+  fullName.vb: NetAF.Logic.AssetGenerator.New(NetAF.Utilities.IAssetTemplate(Of NetAF.Assets.Locations.Overworld), NetAF.Utilities.IAssetTemplate(Of NetAF.Assets.Characters.PlayableCharacter))
+  nameWithType: AssetGenerator.New(IAssetTemplate<Overworld>, IAssetTemplate<PlayableCharacter>)
+  nameWithType.vb: AssetGenerator.New(IAssetTemplate(Of Overworld), IAssetTemplate(Of PlayableCharacter))
+- uid: NetAF.Logic.AssetGenerator.New(NetAF.Utilities.OverworldMaker,NetAF.Utilities.IAssetTemplate{NetAF.Assets.Characters.PlayableCharacter})
+  name: New(OverworldMaker, IAssetTemplate<PlayableCharacter>)
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_New_NetAF_Utilities_OverworldMaker_NetAF_Utilities_IAssetTemplate_NetAF_Assets_Characters_PlayableCharacter__
+  commentId: M:NetAF.Logic.AssetGenerator.New(NetAF.Utilities.OverworldMaker,NetAF.Utilities.IAssetTemplate{NetAF.Assets.Characters.PlayableCharacter})
+  name.vb: New(OverworldMaker, IAssetTemplate(Of PlayableCharacter))
+  fullName: NetAF.Logic.AssetGenerator.New(NetAF.Utilities.OverworldMaker, NetAF.Utilities.IAssetTemplate<NetAF.Assets.Characters.PlayableCharacter>)
+  fullName.vb: NetAF.Logic.AssetGenerator.New(NetAF.Utilities.OverworldMaker, NetAF.Utilities.IAssetTemplate(Of NetAF.Assets.Characters.PlayableCharacter))
+  nameWithType: AssetGenerator.New(OverworldMaker, IAssetTemplate<PlayableCharacter>)
+  nameWithType.vb: AssetGenerator.New(OverworldMaker, IAssetTemplate(Of PlayableCharacter))
+- uid: NetAF.Logic.AssetGenerator.New*
+  name: New
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_New_
+  commentId: Overload:NetAF.Logic.AssetGenerator.New
+  isSpec: "True"
+  fullName: NetAF.Logic.AssetGenerator.New
+  nameWithType: AssetGenerator.New
+- uid: NetAF.Logic.AssetGenerator.Retained(NetAF.Assets.Locations.Overworld,NetAF.Assets.Characters.PlayableCharacter)
+  name: Retained(Overworld, PlayableCharacter)
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_Retained_NetAF_Assets_Locations_Overworld_NetAF_Assets_Characters_PlayableCharacter_
+  commentId: M:NetAF.Logic.AssetGenerator.Retained(NetAF.Assets.Locations.Overworld,NetAF.Assets.Characters.PlayableCharacter)
+  fullName: NetAF.Logic.AssetGenerator.Retained(NetAF.Assets.Locations.Overworld, NetAF.Assets.Characters.PlayableCharacter)
+  nameWithType: AssetGenerator.Retained(Overworld, PlayableCharacter)
+- uid: NetAF.Logic.AssetGenerator.Retained*
+  name: Retained
+  href: api/NetAF.Logic.AssetGenerator.html#NetAF_Logic_AssetGenerator_Retained_
+  commentId: Overload:NetAF.Logic.AssetGenerator.Retained
+  isSpec: "True"
+  fullName: NetAF.Logic.AssetGenerator.Retained
+  nameWithType: AssetGenerator.Retained
 - uid: NetAF.Logic.EndCheck
   name: EndCheck
   href: api/NetAF.Logic.EndCheck.html
@@ -4264,19 +4347,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.ActiveConverser
   nameWithType: Game.ActiveConverser
-- uid: NetAF.Logic.Game.Author
-  name: Author
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Author
-  commentId: P:NetAF.Logic.Game.Author
-  fullName: NetAF.Logic.Game.Author
-  nameWithType: Game.Author
-- uid: NetAF.Logic.Game.Author*
-  name: Author
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Author_
-  commentId: Overload:NetAF.Logic.Game.Author
+- uid: NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection,System.Boolean)
+  name: ChangeFrameBuilders(FrameBuilderCollection, bool)
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangeFrameBuilders_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_System_Boolean_
+  commentId: M:NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection,System.Boolean)
+  name.vb: ChangeFrameBuilders(FrameBuilderCollection, Boolean)
+  fullName: NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection, bool)
+  fullName.vb: NetAF.Logic.Game.ChangeFrameBuilders(NetAF.Rendering.FrameBuilders.FrameBuilderCollection, Boolean)
+  nameWithType: Game.ChangeFrameBuilders(FrameBuilderCollection, bool)
+  nameWithType.vb: Game.ChangeFrameBuilders(FrameBuilderCollection, Boolean)
+- uid: NetAF.Logic.Game.ChangeFrameBuilders*
+  name: ChangeFrameBuilders
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangeFrameBuilders_
+  commentId: Overload:NetAF.Logic.Game.ChangeFrameBuilders
   isSpec: "True"
-  fullName: NetAF.Logic.Game.Author
-  nameWithType: Game.Author
+  fullName: NetAF.Logic.Game.ChangeFrameBuilders
+  nameWithType: Game.ChangeFrameBuilders
 - uid: NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)
   name: ChangePlayer(PlayableCharacter)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_
@@ -4290,24 +4376,28 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.ChangePlayer
   nameWithType: Game.ChangePlayer
-- uid: NetAF.Logic.Game.Create(System.String,System.String,System.String,NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback,NetAF.Logic.EndCheck,NetAF.Logic.EndCheck)
-  name: Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_System_String_System_String_System_String_NetAF_Logic_OverworldCreationCallback_NetAF_Logic_PlayerCreationCallback_NetAF_Logic_EndCheck_NetAF_Logic_EndCheck_
-  commentId: M:NetAF.Logic.Game.Create(System.String,System.String,System.String,NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback,NetAF.Logic.EndCheck,NetAF.Logic.EndCheck)
-  name.vb: Create(String, String, String, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)
-  fullName: NetAF.Logic.Game.Create(string, string, string, NetAF.Logic.OverworldCreationCallback, NetAF.Logic.PlayerCreationCallback, NetAF.Logic.EndCheck, NetAF.Logic.EndCheck)
-  fullName.vb: NetAF.Logic.Game.Create(String, String, String, NetAF.Logic.OverworldCreationCallback, NetAF.Logic.PlayerCreationCallback, NetAF.Logic.EndCheck, NetAF.Logic.EndCheck)
-  nameWithType: Game.Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)
-  nameWithType.vb: Game.Create(String, String, String, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck)
-- uid: NetAF.Logic.Game.Create(System.String,System.String,System.String,NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback,NetAF.Logic.EndCheck,NetAF.Logic.EndCheck,NetAF.Assets.Size,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Logic.ExitMode,System.String,NetAF.Interpretation.IInterpreter)
-  name: Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck, Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_System_String_System_String_System_String_NetAF_Logic_OverworldCreationCallback_NetAF_Logic_PlayerCreationCallback_NetAF_Logic_EndCheck_NetAF_Logic_EndCheck_NetAF_Assets_Size_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Logic_ExitMode_System_String_NetAF_Interpretation_IInterpreter_
-  commentId: M:NetAF.Logic.Game.Create(System.String,System.String,System.String,NetAF.Logic.OverworldCreationCallback,NetAF.Logic.PlayerCreationCallback,NetAF.Logic.EndCheck,NetAF.Logic.EndCheck,NetAF.Assets.Size,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Logic.ExitMode,System.String,NetAF.Interpretation.IInterpreter)
-  name.vb: Create(String, String, String, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck, Size, FrameBuilderCollection, ExitMode, String, IInterpreter)
-  fullName: NetAF.Logic.Game.Create(string, string, string, NetAF.Logic.OverworldCreationCallback, NetAF.Logic.PlayerCreationCallback, NetAF.Logic.EndCheck, NetAF.Logic.EndCheck, NetAF.Assets.Size, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Logic.ExitMode, string, NetAF.Interpretation.IInterpreter)
-  fullName.vb: NetAF.Logic.Game.Create(String, String, String, NetAF.Logic.OverworldCreationCallback, NetAF.Logic.PlayerCreationCallback, NetAF.Logic.EndCheck, NetAF.Logic.EndCheck, NetAF.Assets.Size, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Logic.ExitMode, String, NetAF.Interpretation.IInterpreter)
-  nameWithType: Game.Create(string, string, string, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck, Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
-  nameWithType.vb: Game.Create(String, String, String, OverworldCreationCallback, PlayerCreationCallback, EndCheck, EndCheck, Size, FrameBuilderCollection, ExitMode, String, IInterpreter)
+- uid: NetAF.Logic.Game.Configuration
+  name: Configuration
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Configuration
+  commentId: P:NetAF.Logic.Game.Configuration
+  fullName: NetAF.Logic.Game.Configuration
+  nameWithType: Game.Configuration
+- uid: NetAF.Logic.Game.Configuration*
+  name: Configuration
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Configuration_
+  commentId: Overload:NetAF.Logic.Game.Configuration
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.Configuration
+  nameWithType: Game.Configuration
+- uid: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.GameConfiguration,NetAF.Logic.GameSetupCallback)
+  name: Create(GameInfo, string, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_GameConfiguration_NetAF_Logic_GameSetupCallback_
+  commentId: M:NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.GameConfiguration,NetAF.Logic.GameSetupCallback)
+  name.vb: Create(GameInfo, String, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
+  fullName: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo, string, NetAF.Logic.AssetGenerator, NetAF.Logic.GameEndConditions, NetAF.Logic.GameConfiguration, NetAF.Logic.GameSetupCallback)
+  fullName.vb: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo, String, NetAF.Logic.AssetGenerator, NetAF.Logic.GameEndConditions, NetAF.Logic.GameConfiguration, NetAF.Logic.GameSetupCallback)
+  nameWithType: Game.Create(GameInfo, string, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
+  nameWithType.vb: Game.Create(GameInfo, String, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
 - uid: NetAF.Logic.Game.Create*
   name: Create
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_
@@ -4315,51 +4405,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Create
   nameWithType: Game.Create
-- uid: NetAF.Logic.Game.DefaultErrorPrefix
-  name: DefaultErrorPrefix
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DefaultErrorPrefix
-  commentId: F:NetAF.Logic.Game.DefaultErrorPrefix
-  fullName: NetAF.Logic.Game.DefaultErrorPrefix
-  nameWithType: Game.DefaultErrorPrefix
-- uid: NetAF.Logic.Game.DefaultInterpreter
-  name: DefaultInterpreter
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DefaultInterpreter
-  commentId: P:NetAF.Logic.Game.DefaultInterpreter
-  fullName: NetAF.Logic.Game.DefaultInterpreter
-  nameWithType: Game.DefaultInterpreter
-- uid: NetAF.Logic.Game.DefaultInterpreter*
-  name: DefaultInterpreter
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DefaultInterpreter_
-  commentId: Overload:NetAF.Logic.Game.DefaultInterpreter
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DefaultInterpreter
-  nameWithType: Game.DefaultInterpreter
-- uid: NetAF.Logic.Game.DefaultSize
-  name: DefaultSize
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DefaultSize
-  commentId: P:NetAF.Logic.Game.DefaultSize
-  fullName: NetAF.Logic.Game.DefaultSize
-  nameWithType: Game.DefaultSize
-- uid: NetAF.Logic.Game.DefaultSize*
-  name: DefaultSize
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DefaultSize_
-  commentId: Overload:NetAF.Logic.Game.DefaultSize
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DefaultSize
-  nameWithType: Game.DefaultSize
-- uid: NetAF.Logic.Game.Description
-  name: Description
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Description
-  commentId: P:NetAF.Logic.Game.Description
-  fullName: NetAF.Logic.Game.Description
-  nameWithType: Game.Description
-- uid: NetAF.Logic.Game.Description*
-  name: Description
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Description_
-  commentId: Overload:NetAF.Logic.Game.Description
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.Description
-  nameWithType: Game.Description
 - uid: NetAF.Logic.Game.DisplayAbout
   name: DisplayAbout()
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayAbout
@@ -4412,19 +4457,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.DisplayMap
   nameWithType: Game.DisplayMap
-- uid: NetAF.Logic.Game.DisplaySize
-  name: DisplaySize
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplaySize
-  commentId: P:NetAF.Logic.Game.DisplaySize
-  fullName: NetAF.Logic.Game.DisplaySize
-  nameWithType: Game.DisplaySize
-- uid: NetAF.Logic.Game.DisplaySize*
-  name: DisplaySize
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplaySize_
-  commentId: Overload:NetAF.Logic.Game.DisplaySize
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DisplaySize
-  nameWithType: Game.DisplaySize
 - uid: NetAF.Logic.Game.DisplayTransition(System.String,System.String)
   name: DisplayTransition(string, string)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayTransition_System_String_System_String_
@@ -4441,19 +4473,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.DisplayTransition
   nameWithType: Game.DisplayTransition
-- uid: NetAF.Logic.Game.ErrorPrefix
-  name: ErrorPrefix
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ErrorPrefix
-  commentId: P:NetAF.Logic.Game.ErrorPrefix
-  fullName: NetAF.Logic.Game.ErrorPrefix
-  nameWithType: Game.ErrorPrefix
-- uid: NetAF.Logic.Game.ErrorPrefix*
-  name: ErrorPrefix
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ErrorPrefix_
-  commentId: Overload:NetAF.Logic.Game.ErrorPrefix
+- uid: NetAF.Logic.Game.EndConditions
+  name: EndConditions
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_EndConditions
+  commentId: P:NetAF.Logic.Game.EndConditions
+  fullName: NetAF.Logic.Game.EndConditions
+  nameWithType: Game.EndConditions
+- uid: NetAF.Logic.Game.EndConditions*
+  name: EndConditions
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_EndConditions_
+  commentId: Overload:NetAF.Logic.Game.EndConditions
   isSpec: "True"
-  fullName: NetAF.Logic.Game.ErrorPrefix
-  nameWithType: Game.ErrorPrefix
+  fullName: NetAF.Logic.Game.EndConditions
+  nameWithType: Game.EndConditions
 - uid: NetAF.Logic.Game.Execute(NetAF.Logic.GameCreationCallback)
   name: Execute(GameCreationCallback)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Execute_NetAF_Logic_GameCreationCallback_
@@ -4483,19 +4515,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.FindInteractionTarget
   nameWithType: Game.FindInteractionTarget
-- uid: NetAF.Logic.Game.FrameBuilders
-  name: FrameBuilders
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_FrameBuilders
-  commentId: P:NetAF.Logic.Game.FrameBuilders
-  fullName: NetAF.Logic.Game.FrameBuilders
-  nameWithType: Game.FrameBuilders
-- uid: NetAF.Logic.Game.FrameBuilders*
-  name: FrameBuilders
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_FrameBuilders_
-  commentId: Overload:NetAF.Logic.Game.FrameBuilders
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.FrameBuilders
-  nameWithType: Game.FrameBuilders
 - uid: NetAF.Logic.Game.GetAllPlayerVisibleExaminables
   name: GetAllPlayerVisibleExaminables()
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetAllPlayerVisibleExaminables
@@ -4509,6 +4528,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.GetAllPlayerVisibleExaminables
   nameWithType: Game.GetAllPlayerVisibleExaminables
+- uid: NetAF.Logic.Game.Info
+  name: Info
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Info
+  commentId: P:NetAF.Logic.Game.Info
+  fullName: NetAF.Logic.Game.Info
+  nameWithType: Game.Info
+- uid: NetAF.Logic.Game.Info*
+  name: Info
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Info_
+  commentId: Overload:NetAF.Logic.Game.Info
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.Info
+  nameWithType: Game.Info
 - uid: NetAF.Logic.Game.Introduction
   name: Introduction
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Introduction
@@ -4535,19 +4567,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.IsExecuting
   nameWithType: Game.IsExecuting
-- uid: NetAF.Logic.Game.Name
-  name: Name
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Name
-  commentId: P:NetAF.Logic.Game.Name
-  fullName: NetAF.Logic.Game.Name
-  nameWithType: Game.Name
-- uid: NetAF.Logic.Game.Name*
-  name: Name
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Name_
-  commentId: Overload:NetAF.Logic.Game.Name
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.Name
-  nameWithType: Game.Name
 - uid: NetAF.Logic.Game.Overworld
   name: Overworld
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Overworld
@@ -4587,12 +4606,262 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.SceneMapKeyType
   nameWithType: Game.SceneMapKeyType
+- uid: NetAF.Logic.GameConfiguration
+  name: GameConfiguration
+  href: api/NetAF.Logic.GameConfiguration.html
+  commentId: T:NetAF.Logic.GameConfiguration
+  fullName: NetAF.Logic.GameConfiguration
+  nameWithType: GameConfiguration
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Logic.ExitMode,System.String,NetAF.Interpretation.IInterpreter)
+  name: GameConfiguration(Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Logic_ExitMode_System_String_NetAF_Interpretation_IInterpreter_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Logic.ExitMode,System.String,NetAF.Interpretation.IInterpreter)
+  name.vb: New(Size, FrameBuilderCollection, ExitMode, String, IInterpreter)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Logic.ExitMode, string, NetAF.Interpretation.IInterpreter)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Logic.ExitMode, String, NetAF.Interpretation.IInterpreter)
+  nameWithType: GameConfiguration.GameConfiguration(Size, FrameBuilderCollection, ExitMode, string, IInterpreter)
+  nameWithType.vb: GameConfiguration.New(Size, FrameBuilderCollection, ExitMode, String, IInterpreter)
+- uid: NetAF.Logic.GameConfiguration.#ctor*
+  name: GameConfiguration
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
+  commentId: Overload:NetAF.Logic.GameConfiguration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration
+  fullName.vb: NetAF.Logic.GameConfiguration.New
+  nameWithType: GameConfiguration.GameConfiguration
+  nameWithType.vb: GameConfiguration.New
+- uid: NetAF.Logic.GameConfiguration.Default
+  name: Default
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Default
+  commentId: P:NetAF.Logic.GameConfiguration.Default
+  fullName: NetAF.Logic.GameConfiguration.Default
+  nameWithType: GameConfiguration.Default
+- uid: NetAF.Logic.GameConfiguration.Default*
+  name: Default
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Default_
+  commentId: Overload:NetAF.Logic.GameConfiguration.Default
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.Default
+  nameWithType: GameConfiguration.Default
+- uid: NetAF.Logic.GameConfiguration.DisplaySize
+  name: DisplaySize
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplaySize
+  commentId: P:NetAF.Logic.GameConfiguration.DisplaySize
+  fullName: NetAF.Logic.GameConfiguration.DisplaySize
+  nameWithType: GameConfiguration.DisplaySize
+- uid: NetAF.Logic.GameConfiguration.DisplaySize*
+  name: DisplaySize
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplaySize_
+  commentId: Overload:NetAF.Logic.GameConfiguration.DisplaySize
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.DisplaySize
+  nameWithType: GameConfiguration.DisplaySize
+- uid: NetAF.Logic.GameConfiguration.ErrorPrefix
+  name: ErrorPrefix
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_ErrorPrefix
+  commentId: P:NetAF.Logic.GameConfiguration.ErrorPrefix
+  fullName: NetAF.Logic.GameConfiguration.ErrorPrefix
+  nameWithType: GameConfiguration.ErrorPrefix
+- uid: NetAF.Logic.GameConfiguration.ErrorPrefix*
+  name: ErrorPrefix
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_ErrorPrefix_
+  commentId: Overload:NetAF.Logic.GameConfiguration.ErrorPrefix
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.ErrorPrefix
+  nameWithType: GameConfiguration.ErrorPrefix
+- uid: NetAF.Logic.GameConfiguration.ExitMode
+  name: ExitMode
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_ExitMode
+  commentId: P:NetAF.Logic.GameConfiguration.ExitMode
+  fullName: NetAF.Logic.GameConfiguration.ExitMode
+  nameWithType: GameConfiguration.ExitMode
+- uid: NetAF.Logic.GameConfiguration.ExitMode*
+  name: ExitMode
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_ExitMode_
+  commentId: Overload:NetAF.Logic.GameConfiguration.ExitMode
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.ExitMode
+  nameWithType: GameConfiguration.ExitMode
+- uid: NetAF.Logic.GameConfiguration.FrameBuilders
+  name: FrameBuilders
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_FrameBuilders
+  commentId: P:NetAF.Logic.GameConfiguration.FrameBuilders
+  fullName: NetAF.Logic.GameConfiguration.FrameBuilders
+  nameWithType: GameConfiguration.FrameBuilders
+- uid: NetAF.Logic.GameConfiguration.FrameBuilders*
+  name: FrameBuilders
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_FrameBuilders_
+  commentId: Overload:NetAF.Logic.GameConfiguration.FrameBuilders
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.FrameBuilders
+  nameWithType: GameConfiguration.FrameBuilders
+- uid: NetAF.Logic.GameConfiguration.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Interpreter
+  commentId: P:NetAF.Logic.GameConfiguration.Interpreter
+  fullName: NetAF.Logic.GameConfiguration.Interpreter
+  nameWithType: GameConfiguration.Interpreter
+- uid: NetAF.Logic.GameConfiguration.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Interpreter_
+  commentId: Overload:NetAF.Logic.GameConfiguration.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.Interpreter
+  nameWithType: GameConfiguration.Interpreter
 - uid: NetAF.Logic.GameCreationCallback
   name: GameCreationCallback
   href: api/NetAF.Logic.GameCreationCallback.html
   commentId: T:NetAF.Logic.GameCreationCallback
   fullName: NetAF.Logic.GameCreationCallback
   nameWithType: GameCreationCallback
+- uid: NetAF.Logic.GameEndConditions
+  name: GameEndConditions
+  href: api/NetAF.Logic.GameEndConditions.html
+  commentId: T:NetAF.Logic.GameEndConditions
+  fullName: NetAF.Logic.GameEndConditions
+  nameWithType: GameEndConditions
+- uid: NetAF.Logic.GameEndConditions.#ctor(NetAF.Logic.EndCheck,NetAF.Logic.EndCheck)
+  name: GameEndConditions(EndCheck, EndCheck)
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions__ctor_NetAF_Logic_EndCheck_NetAF_Logic_EndCheck_
+  commentId: M:NetAF.Logic.GameEndConditions.#ctor(NetAF.Logic.EndCheck,NetAF.Logic.EndCheck)
+  name.vb: New(EndCheck, EndCheck)
+  fullName: NetAF.Logic.GameEndConditions.GameEndConditions(NetAF.Logic.EndCheck, NetAF.Logic.EndCheck)
+  fullName.vb: NetAF.Logic.GameEndConditions.New(NetAF.Logic.EndCheck, NetAF.Logic.EndCheck)
+  nameWithType: GameEndConditions.GameEndConditions(EndCheck, EndCheck)
+  nameWithType.vb: GameEndConditions.New(EndCheck, EndCheck)
+- uid: NetAF.Logic.GameEndConditions.#ctor*
+  name: GameEndConditions
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions__ctor_
+  commentId: Overload:NetAF.Logic.GameEndConditions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.GameEndConditions.GameEndConditions
+  fullName.vb: NetAF.Logic.GameEndConditions.New
+  nameWithType: GameEndConditions.GameEndConditions
+  nameWithType.vb: GameEndConditions.New
+- uid: NetAF.Logic.GameEndConditions.CompletionCondition
+  name: CompletionCondition
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_CompletionCondition
+  commentId: P:NetAF.Logic.GameEndConditions.CompletionCondition
+  fullName: NetAF.Logic.GameEndConditions.CompletionCondition
+  nameWithType: GameEndConditions.CompletionCondition
+- uid: NetAF.Logic.GameEndConditions.CompletionCondition*
+  name: CompletionCondition
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_CompletionCondition_
+  commentId: Overload:NetAF.Logic.GameEndConditions.CompletionCondition
+  isSpec: "True"
+  fullName: NetAF.Logic.GameEndConditions.CompletionCondition
+  nameWithType: GameEndConditions.CompletionCondition
+- uid: NetAF.Logic.GameEndConditions.GameOverCondition
+  name: GameOverCondition
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_GameOverCondition
+  commentId: P:NetAF.Logic.GameEndConditions.GameOverCondition
+  fullName: NetAF.Logic.GameEndConditions.GameOverCondition
+  nameWithType: GameEndConditions.GameOverCondition
+- uid: NetAF.Logic.GameEndConditions.GameOverCondition*
+  name: GameOverCondition
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_GameOverCondition_
+  commentId: Overload:NetAF.Logic.GameEndConditions.GameOverCondition
+  isSpec: "True"
+  fullName: NetAF.Logic.GameEndConditions.GameOverCondition
+  nameWithType: GameEndConditions.GameOverCondition
+- uid: NetAF.Logic.GameEndConditions.NoEnd
+  name: NoEnd
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_NoEnd
+  commentId: P:NetAF.Logic.GameEndConditions.NoEnd
+  fullName: NetAF.Logic.GameEndConditions.NoEnd
+  nameWithType: GameEndConditions.NoEnd
+- uid: NetAF.Logic.GameEndConditions.NoEnd*
+  name: NoEnd
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_NoEnd_
+  commentId: Overload:NetAF.Logic.GameEndConditions.NoEnd
+  isSpec: "True"
+  fullName: NetAF.Logic.GameEndConditions.NoEnd
+  nameWithType: GameEndConditions.NoEnd
+- uid: NetAF.Logic.GameEndConditions.NotEnded
+  name: NotEnded
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_NotEnded
+  commentId: P:NetAF.Logic.GameEndConditions.NotEnded
+  fullName: NetAF.Logic.GameEndConditions.NotEnded
+  nameWithType: GameEndConditions.NotEnded
+- uid: NetAF.Logic.GameEndConditions.NotEnded*
+  name: NotEnded
+  href: api/NetAF.Logic.GameEndConditions.html#NetAF_Logic_GameEndConditions_NotEnded_
+  commentId: Overload:NetAF.Logic.GameEndConditions.NotEnded
+  isSpec: "True"
+  fullName: NetAF.Logic.GameEndConditions.NotEnded
+  nameWithType: GameEndConditions.NotEnded
+- uid: NetAF.Logic.GameInfo
+  name: GameInfo
+  href: api/NetAF.Logic.GameInfo.html
+  commentId: T:NetAF.Logic.GameInfo
+  fullName: NetAF.Logic.GameInfo
+  nameWithType: GameInfo
+- uid: NetAF.Logic.GameInfo.#ctor(System.String,System.String,System.String)
+  name: GameInfo(string, string, string)
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo__ctor_System_String_System_String_System_String_
+  commentId: M:NetAF.Logic.GameInfo.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: NetAF.Logic.GameInfo.GameInfo(string, string, string)
+  fullName.vb: NetAF.Logic.GameInfo.New(String, String, String)
+  nameWithType: GameInfo.GameInfo(string, string, string)
+  nameWithType.vb: GameInfo.New(String, String, String)
+- uid: NetAF.Logic.GameInfo.#ctor*
+  name: GameInfo
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo__ctor_
+  commentId: Overload:NetAF.Logic.GameInfo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.GameInfo.GameInfo
+  fullName.vb: NetAF.Logic.GameInfo.New
+  nameWithType: GameInfo.GameInfo
+  nameWithType.vb: GameInfo.New
+- uid: NetAF.Logic.GameInfo.Author
+  name: Author
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo_Author
+  commentId: P:NetAF.Logic.GameInfo.Author
+  fullName: NetAF.Logic.GameInfo.Author
+  nameWithType: GameInfo.Author
+- uid: NetAF.Logic.GameInfo.Author*
+  name: Author
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo_Author_
+  commentId: Overload:NetAF.Logic.GameInfo.Author
+  isSpec: "True"
+  fullName: NetAF.Logic.GameInfo.Author
+  nameWithType: GameInfo.Author
+- uid: NetAF.Logic.GameInfo.Description
+  name: Description
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo_Description
+  commentId: P:NetAF.Logic.GameInfo.Description
+  fullName: NetAF.Logic.GameInfo.Description
+  nameWithType: GameInfo.Description
+- uid: NetAF.Logic.GameInfo.Description*
+  name: Description
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo_Description_
+  commentId: Overload:NetAF.Logic.GameInfo.Description
+  isSpec: "True"
+  fullName: NetAF.Logic.GameInfo.Description
+  nameWithType: GameInfo.Description
+- uid: NetAF.Logic.GameInfo.Name
+  name: Name
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo_Name
+  commentId: P:NetAF.Logic.GameInfo.Name
+  fullName: NetAF.Logic.GameInfo.Name
+  nameWithType: GameInfo.Name
+- uid: NetAF.Logic.GameInfo.Name*
+  name: Name
+  href: api/NetAF.Logic.GameInfo.html#NetAF_Logic_GameInfo_Name_
+  commentId: Overload:NetAF.Logic.GameInfo.Name
+  isSpec: "True"
+  fullName: NetAF.Logic.GameInfo.Name
+  nameWithType: GameInfo.Name
+- uid: NetAF.Logic.GameSetupCallback
+  name: GameSetupCallback
+  href: api/NetAF.Logic.GameSetupCallback.html
+  commentId: T:NetAF.Logic.GameSetupCallback
+  fullName: NetAF.Logic.GameSetupCallback
+  nameWithType: GameSetupCallback
 - uid: NetAF.Logic.GameState
   name: GameState
   href: api/NetAF.Logic.GameState.html
