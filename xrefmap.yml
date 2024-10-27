@@ -4154,6 +4154,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.InterpretationResult.WasInterpretedSuccessfully
   nameWithType: InterpretationResult.WasInterpretedSuccessfully
+- uid: NetAF.Interpretation.Interpreters
+  name: Interpreters
+  href: api/NetAF.Interpretation.Interpreters.html
+  commentId: T:NetAF.Interpretation.Interpreters
+  fullName: NetAF.Interpretation.Interpreters
+  nameWithType: Interpreters
+- uid: NetAF.Interpretation.Interpreters.Default
+  name: Default
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default
+  commentId: P:NetAF.Interpretation.Interpreters.Default
+  fullName: NetAF.Interpretation.Interpreters.Default
+  nameWithType: Interpreters.Default
+- uid: NetAF.Interpretation.Interpreters.Default*
+  name: Default
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default_
+  commentId: Overload:NetAF.Interpretation.Interpreters.Default
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.Default
+  nameWithType: Interpreters.Default
 - uid: NetAF.Logic
   name: NetAF.Logic
   href: api/NetAF.Logic.html
