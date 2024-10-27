@@ -4154,25 +4154,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.InterpretationResult.WasInterpretedSuccessfully
   nameWithType: InterpretationResult.WasInterpretedSuccessfully
-- uid: NetAF.Interpretation.Interpreters
-  name: Interpreters
-  href: api/NetAF.Interpretation.Interpreters.html
-  commentId: T:NetAF.Interpretation.Interpreters
-  fullName: NetAF.Interpretation.Interpreters
-  nameWithType: Interpreters
-- uid: NetAF.Interpretation.Interpreters.Default
-  name: Default
-  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default
-  commentId: P:NetAF.Interpretation.Interpreters.Default
-  fullName: NetAF.Interpretation.Interpreters.Default
-  nameWithType: Interpreters.Default
-- uid: NetAF.Interpretation.Interpreters.Default*
-  name: Default
-  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default_
-  commentId: Overload:NetAF.Interpretation.Interpreters.Default
-  isSpec: "True"
-  fullName: NetAF.Interpretation.Interpreters.Default
-  nameWithType: Interpreters.Default
 - uid: NetAF.Logic
   name: NetAF.Logic
   href: api/NetAF.Logic.html
@@ -4605,15 +4586,15 @@ references:
   commentId: T:NetAF.Logic.GameConfiguration
   fullName: NetAF.Logic.GameConfiguration
   nameWithType: GameConfiguration
-- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Interpretation.IInterpreter)
-  name: GameConfiguration(Size, ExitMode, IInterpreter)
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Logic_ExitMode_NetAF_Interpretation_IInterpreter_
-  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Interpretation.IInterpreter)
-  name.vb: New(Size, ExitMode, IInterpreter)
-  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Interpretation.IInterpreter)
-  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Interpretation.IInterpreter)
-  nameWithType: GameConfiguration.GameConfiguration(Size, ExitMode, IInterpreter)
-  nameWithType.vb: GameConfiguration.New(Size, ExitMode, IInterpreter)
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode)
+  name: GameConfiguration(Size, ExitMode)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Logic_ExitMode_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode)
+  name.vb: New(Size, ExitMode)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Logic.ExitMode)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Logic.ExitMode)
+  nameWithType: GameConfiguration.GameConfiguration(Size, ExitMode)
+  nameWithType.vb: GameConfiguration.New(Size, ExitMode)
 - uid: NetAF.Logic.GameConfiguration.#ctor*
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
