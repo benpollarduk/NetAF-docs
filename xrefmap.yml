@@ -3832,6 +3832,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Extensions.DirectionExtensions.Inverse
   nameWithType: DirectionExtensions.Inverse
+- uid: NetAF.Extensions.StringBuilderExtensions
+  name: StringBuilderExtensions
+  href: api/NetAF.Extensions.StringBuilderExtensions.html
+  commentId: T:NetAF.Extensions.StringBuilderExtensions
+  fullName: NetAF.Extensions.StringBuilderExtensions
+  nameWithType: StringBuilderExtensions
+- uid: NetAF.Extensions.StringBuilderExtensions.EnsureFinishedSentence(System.Text.StringBuilder)
+  name: EnsureFinishedSentence(StringBuilder)
+  href: api/NetAF.Extensions.StringBuilderExtensions.html#NetAF_Extensions_StringBuilderExtensions_EnsureFinishedSentence_System_Text_StringBuilder_
+  commentId: M:NetAF.Extensions.StringBuilderExtensions.EnsureFinishedSentence(System.Text.StringBuilder)
+  fullName: NetAF.Extensions.StringBuilderExtensions.EnsureFinishedSentence(System.Text.StringBuilder)
+  nameWithType: StringBuilderExtensions.EnsureFinishedSentence(StringBuilder)
+- uid: NetAF.Extensions.StringBuilderExtensions.EnsureFinishedSentence*
+  name: EnsureFinishedSentence
+  href: api/NetAF.Extensions.StringBuilderExtensions.html#NetAF_Extensions_StringBuilderExtensions_EnsureFinishedSentence_
+  commentId: Overload:NetAF.Extensions.StringBuilderExtensions.EnsureFinishedSentence
+  isSpec: "True"
+  fullName: NetAF.Extensions.StringBuilderExtensions.EnsureFinishedSentence
+  nameWithType: StringBuilderExtensions.EnsureFinishedSentence
 - uid: NetAF.Extensions.StringExtensions
   name: StringExtensions
   href: api/NetAF.Extensions.StringExtensions.html
@@ -6829,15 +6848,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetCharacter
   nameWithType: GridStringBuilder.GetCharacter
-- uid: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String,System.Int32,System.Int32,System.Int32)
-  name: GetNumberOfLines(string, int, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.GridStringBuilder.html#NetAF_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_System_String_System_Int32_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String,System.Int32,System.Int32,System.Int32)
-  name.vb: GetNumberOfLines(String, Integer, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(string, int, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(String, Integer, Integer, Integer)
-  nameWithType: GridStringBuilder.GetNumberOfLines(string, int, int, int)
-  nameWithType.vb: GridStringBuilder.GetNumberOfLines(String, Integer, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String,System.Int32,System.Int32)
+  name: GetNumberOfLines(string, int, int)
+  href: api/NetAF.Rendering.FrameBuilders.GridStringBuilder.html#NetAF_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_System_String_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(System.String,System.Int32,System.Int32)
+  name.vb: GetNumberOfLines(String, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(string, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines(String, Integer, Integer)
+  nameWithType: GridStringBuilder.GetNumberOfLines(string, int, int)
+  nameWithType.vb: GridStringBuilder.GetNumberOfLines(String, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.GridStringBuilder.GetNumberOfLines*
   name: GetNumberOfLines
   href: api/NetAF.Rendering.FrameBuilders.GridStringBuilder.html#NetAF_Rendering_FrameBuilders_GridStringBuilder_GetNumberOfLines_
