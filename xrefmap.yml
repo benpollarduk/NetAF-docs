@@ -1,6 +1,128 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: NetAF.Adapters
+  name: NetAF.Adapters
+  href: api/NetAF.Adapters.html
+  commentId: N:NetAF.Adapters
+  fullName: NetAF.Adapters
+  nameWithType: NetAF.Adapters
+- uid: NetAF.Adapters.IIOAdapter
+  name: IIOAdapter
+  href: api/NetAF.Adapters.IIOAdapter.html
+  commentId: T:NetAF.Adapters.IIOAdapter
+  fullName: NetAF.Adapters.IIOAdapter
+  nameWithType: IIOAdapter
+- uid: NetAF.Adapters.IIOAdapter.RenderFrame(NetAF.Rendering.Frames.IFrame)
+  name: RenderFrame(IFrame)
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_RenderFrame_NetAF_Rendering_Frames_IFrame_
+  commentId: M:NetAF.Adapters.IIOAdapter.RenderFrame(NetAF.Rendering.Frames.IFrame)
+  fullName: NetAF.Adapters.IIOAdapter.RenderFrame(NetAF.Rendering.Frames.IFrame)
+  nameWithType: IIOAdapter.RenderFrame(IFrame)
+- uid: NetAF.Adapters.IIOAdapter.RenderFrame*
+  name: RenderFrame
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_RenderFrame_
+  commentId: Overload:NetAF.Adapters.IIOAdapter.RenderFrame
+  isSpec: "True"
+  fullName: NetAF.Adapters.IIOAdapter.RenderFrame
+  nameWithType: IIOAdapter.RenderFrame
+- uid: NetAF.Adapters.IIOAdapter.Setup(NetAF.Logic.Game)
+  name: Setup(Game)
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_Setup_NetAF_Logic_Game_
+  commentId: M:NetAF.Adapters.IIOAdapter.Setup(NetAF.Logic.Game)
+  fullName: NetAF.Adapters.IIOAdapter.Setup(NetAF.Logic.Game)
+  nameWithType: IIOAdapter.Setup(Game)
+- uid: NetAF.Adapters.IIOAdapter.Setup*
+  name: Setup
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_Setup_
+  commentId: Overload:NetAF.Adapters.IIOAdapter.Setup
+  isSpec: "True"
+  fullName: NetAF.Adapters.IIOAdapter.Setup
+  nameWithType: IIOAdapter.Setup
+- uid: NetAF.Adapters.IIOAdapter.WaitForAcknowledge
+  name: WaitForAcknowledge()
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_WaitForAcknowledge
+  commentId: M:NetAF.Adapters.IIOAdapter.WaitForAcknowledge
+  fullName: NetAF.Adapters.IIOAdapter.WaitForAcknowledge()
+  nameWithType: IIOAdapter.WaitForAcknowledge()
+- uid: NetAF.Adapters.IIOAdapter.WaitForAcknowledge*
+  name: WaitForAcknowledge
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_WaitForAcknowledge_
+  commentId: Overload:NetAF.Adapters.IIOAdapter.WaitForAcknowledge
+  isSpec: "True"
+  fullName: NetAF.Adapters.IIOAdapter.WaitForAcknowledge
+  nameWithType: IIOAdapter.WaitForAcknowledge
+- uid: NetAF.Adapters.IIOAdapter.WaitForInput
+  name: WaitForInput()
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_WaitForInput
+  commentId: M:NetAF.Adapters.IIOAdapter.WaitForInput
+  fullName: NetAF.Adapters.IIOAdapter.WaitForInput()
+  nameWithType: IIOAdapter.WaitForInput()
+- uid: NetAF.Adapters.IIOAdapter.WaitForInput*
+  name: WaitForInput
+  href: api/NetAF.Adapters.IIOAdapter.html#NetAF_Adapters_IIOAdapter_WaitForInput_
+  commentId: Overload:NetAF.Adapters.IIOAdapter.WaitForInput
+  isSpec: "True"
+  fullName: NetAF.Adapters.IIOAdapter.WaitForInput
+  nameWithType: IIOAdapter.WaitForInput
+- uid: NetAF.Adapters.SystemConsoleAdapter
+  name: SystemConsoleAdapter
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html
+  commentId: T:NetAF.Adapters.SystemConsoleAdapter
+  fullName: NetAF.Adapters.SystemConsoleAdapter
+  nameWithType: SystemConsoleAdapter
+- uid: NetAF.Adapters.SystemConsoleAdapter.RenderFrame(NetAF.Rendering.Frames.IFrame)
+  name: RenderFrame(IFrame)
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_RenderFrame_NetAF_Rendering_Frames_IFrame_
+  commentId: M:NetAF.Adapters.SystemConsoleAdapter.RenderFrame(NetAF.Rendering.Frames.IFrame)
+  fullName: NetAF.Adapters.SystemConsoleAdapter.RenderFrame(NetAF.Rendering.Frames.IFrame)
+  nameWithType: SystemConsoleAdapter.RenderFrame(IFrame)
+- uid: NetAF.Adapters.SystemConsoleAdapter.RenderFrame*
+  name: RenderFrame
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_RenderFrame_
+  commentId: Overload:NetAF.Adapters.SystemConsoleAdapter.RenderFrame
+  isSpec: "True"
+  fullName: NetAF.Adapters.SystemConsoleAdapter.RenderFrame
+  nameWithType: SystemConsoleAdapter.RenderFrame
+- uid: NetAF.Adapters.SystemConsoleAdapter.Setup(NetAF.Logic.Game)
+  name: Setup(Game)
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_Setup_NetAF_Logic_Game_
+  commentId: M:NetAF.Adapters.SystemConsoleAdapter.Setup(NetAF.Logic.Game)
+  fullName: NetAF.Adapters.SystemConsoleAdapter.Setup(NetAF.Logic.Game)
+  nameWithType: SystemConsoleAdapter.Setup(Game)
+- uid: NetAF.Adapters.SystemConsoleAdapter.Setup*
+  name: Setup
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_Setup_
+  commentId: Overload:NetAF.Adapters.SystemConsoleAdapter.Setup
+  isSpec: "True"
+  fullName: NetAF.Adapters.SystemConsoleAdapter.Setup
+  nameWithType: SystemConsoleAdapter.Setup
+- uid: NetAF.Adapters.SystemConsoleAdapter.WaitForAcknowledge
+  name: WaitForAcknowledge()
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_WaitForAcknowledge
+  commentId: M:NetAF.Adapters.SystemConsoleAdapter.WaitForAcknowledge
+  fullName: NetAF.Adapters.SystemConsoleAdapter.WaitForAcknowledge()
+  nameWithType: SystemConsoleAdapter.WaitForAcknowledge()
+- uid: NetAF.Adapters.SystemConsoleAdapter.WaitForAcknowledge*
+  name: WaitForAcknowledge
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_WaitForAcknowledge_
+  commentId: Overload:NetAF.Adapters.SystemConsoleAdapter.WaitForAcknowledge
+  isSpec: "True"
+  fullName: NetAF.Adapters.SystemConsoleAdapter.WaitForAcknowledge
+  nameWithType: SystemConsoleAdapter.WaitForAcknowledge
+- uid: NetAF.Adapters.SystemConsoleAdapter.WaitForInput
+  name: WaitForInput()
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_WaitForInput
+  commentId: M:NetAF.Adapters.SystemConsoleAdapter.WaitForInput
+  fullName: NetAF.Adapters.SystemConsoleAdapter.WaitForInput()
+  nameWithType: SystemConsoleAdapter.WaitForInput()
+- uid: NetAF.Adapters.SystemConsoleAdapter.WaitForInput*
+  name: WaitForInput
+  href: api/NetAF.Adapters.SystemConsoleAdapter.html#NetAF_Adapters_SystemConsoleAdapter_WaitForInput_
+  commentId: Overload:NetAF.Adapters.SystemConsoleAdapter.WaitForInput
+  isSpec: "True"
+  fullName: NetAF.Adapters.SystemConsoleAdapter.WaitForInput
+  nameWithType: SystemConsoleAdapter.WaitForInput
 - uid: NetAF.Assets
   name: NetAF.Assets
   href: api/NetAF.Assets.html
@@ -4586,15 +4708,15 @@ references:
   commentId: T:NetAF.Logic.GameConfiguration
   fullName: NetAF.Logic.GameConfiguration
   nameWithType: GameConfiguration
-- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode)
-  name: GameConfiguration(Size, ExitMode)
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Logic_ExitMode_
-  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode)
-  name.vb: New(Size, ExitMode)
-  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Logic.ExitMode)
-  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Logic.ExitMode)
-  nameWithType: GameConfiguration.GameConfiguration(Size, ExitMode)
-  nameWithType.vb: GameConfiguration.New(Size, ExitMode)
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Adapters.IIOAdapter)
+  name: GameConfiguration(Size, ExitMode, IIOAdapter)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Assets_Size_NetAF_Logic_ExitMode_NetAF_Adapters_IIOAdapter_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Adapters.IIOAdapter)
+  name.vb: New(Size, ExitMode, IIOAdapter)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Adapters.IIOAdapter)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Adapters.IIOAdapter)
+  nameWithType: GameConfiguration.GameConfiguration(Size, ExitMode, IIOAdapter)
+  nameWithType.vb: GameConfiguration.New(Size, ExitMode, IIOAdapter)
 - uid: NetAF.Logic.GameConfiguration.#ctor*
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
@@ -4605,6 +4727,19 @@ references:
   fullName.vb: NetAF.Logic.GameConfiguration.New
   nameWithType: GameConfiguration.GameConfiguration
   nameWithType.vb: GameConfiguration.New
+- uid: NetAF.Logic.GameConfiguration.Adapter
+  name: Adapter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Adapter
+  commentId: P:NetAF.Logic.GameConfiguration.Adapter
+  fullName: NetAF.Logic.GameConfiguration.Adapter
+  nameWithType: GameConfiguration.Adapter
+- uid: NetAF.Logic.GameConfiguration.Adapter*
+  name: Adapter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Adapter_
+  commentId: Overload:NetAF.Logic.GameConfiguration.Adapter
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.Adapter
+  nameWithType: GameConfiguration.Adapter
 - uid: NetAF.Logic.GameConfiguration.Default
   name: Default
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Default
@@ -7116,12 +7251,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.Frames.GridTextFrame.CursorTop
   nameWithType: GridTextFrame.CursorTop
-- uid: NetAF.Rendering.Frames.GridTextFrame.Render(System.IO.TextWriter)
-  name: Render(TextWriter)
-  href: api/NetAF.Rendering.Frames.GridTextFrame.html#NetAF_Rendering_Frames_GridTextFrame_Render_System_IO_TextWriter_
-  commentId: M:NetAF.Rendering.Frames.GridTextFrame.Render(System.IO.TextWriter)
-  fullName: NetAF.Rendering.Frames.GridTextFrame.Render(System.IO.TextWriter)
-  nameWithType: GridTextFrame.Render(TextWriter)
+- uid: NetAF.Rendering.Frames.GridTextFrame.Render(NetAF.Rendering.Presenter.IFramePresenter)
+  name: Render(IFramePresenter)
+  href: api/NetAF.Rendering.Frames.GridTextFrame.html#NetAF_Rendering_Frames_GridTextFrame_Render_NetAF_Rendering_Presenter_IFramePresenter_
+  commentId: M:NetAF.Rendering.Frames.GridTextFrame.Render(NetAF.Rendering.Presenter.IFramePresenter)
+  fullName: NetAF.Rendering.Frames.GridTextFrame.Render(NetAF.Rendering.Presenter.IFramePresenter)
+  nameWithType: GridTextFrame.Render(IFramePresenter)
 - uid: NetAF.Rendering.Frames.GridTextFrame.Render*
   name: Render
   href: api/NetAF.Rendering.Frames.GridTextFrame.html#NetAF_Rendering_Frames_GridTextFrame_Render_
@@ -7200,12 +7335,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.Frames.IFrame.CursorTop
   nameWithType: IFrame.CursorTop
-- uid: NetAF.Rendering.Frames.IFrame.Render(System.IO.TextWriter)
-  name: Render(TextWriter)
-  href: api/NetAF.Rendering.Frames.IFrame.html#NetAF_Rendering_Frames_IFrame_Render_System_IO_TextWriter_
-  commentId: M:NetAF.Rendering.Frames.IFrame.Render(System.IO.TextWriter)
-  fullName: NetAF.Rendering.Frames.IFrame.Render(System.IO.TextWriter)
-  nameWithType: IFrame.Render(TextWriter)
+- uid: NetAF.Rendering.Frames.IFrame.Render(NetAF.Rendering.Presenter.IFramePresenter)
+  name: Render(IFramePresenter)
+  href: api/NetAF.Rendering.Frames.IFrame.html#NetAF_Rendering_Frames_IFrame_Render_NetAF_Rendering_Presenter_IFramePresenter_
+  commentId: M:NetAF.Rendering.Frames.IFrame.Render(NetAF.Rendering.Presenter.IFramePresenter)
+  fullName: NetAF.Rendering.Frames.IFrame.Render(NetAF.Rendering.Presenter.IFramePresenter)
+  nameWithType: IFrame.Render(IFramePresenter)
 - uid: NetAF.Rendering.Frames.IFrame.Render*
   name: Render
   href: api/NetAF.Rendering.Frames.IFrame.html#NetAF_Rendering_Frames_IFrame_Render_
@@ -7250,6 +7385,106 @@ references:
   commentId: F:NetAF.Rendering.KeyType.None
   fullName: NetAF.Rendering.KeyType.None
   nameWithType: KeyType.None
+- uid: NetAF.Rendering.Presenter
+  name: NetAF.Rendering.Presenter
+  href: api/NetAF.Rendering.Presenter.html
+  commentId: N:NetAF.Rendering.Presenter
+  fullName: NetAF.Rendering.Presenter
+  nameWithType: NetAF.Rendering.Presenter
+- uid: NetAF.Rendering.Presenter.IFramePresenter
+  name: IFramePresenter
+  href: api/NetAF.Rendering.Presenter.IFramePresenter.html
+  commentId: T:NetAF.Rendering.Presenter.IFramePresenter
+  fullName: NetAF.Rendering.Presenter.IFramePresenter
+  nameWithType: IFramePresenter
+- uid: NetAF.Rendering.Presenter.IFramePresenter.Write(System.Char)
+  name: Write(char)
+  href: api/NetAF.Rendering.Presenter.IFramePresenter.html#NetAF_Rendering_Presenter_IFramePresenter_Write_System_Char_
+  commentId: M:NetAF.Rendering.Presenter.IFramePresenter.Write(System.Char)
+  name.vb: Write(Char)
+  fullName: NetAF.Rendering.Presenter.IFramePresenter.Write(char)
+  fullName.vb: NetAF.Rendering.Presenter.IFramePresenter.Write(Char)
+  nameWithType: IFramePresenter.Write(char)
+  nameWithType.vb: IFramePresenter.Write(Char)
+- uid: NetAF.Rendering.Presenter.IFramePresenter.Write(System.String)
+  name: Write(string)
+  href: api/NetAF.Rendering.Presenter.IFramePresenter.html#NetAF_Rendering_Presenter_IFramePresenter_Write_System_String_
+  commentId: M:NetAF.Rendering.Presenter.IFramePresenter.Write(System.String)
+  name.vb: Write(String)
+  fullName: NetAF.Rendering.Presenter.IFramePresenter.Write(string)
+  fullName.vb: NetAF.Rendering.Presenter.IFramePresenter.Write(String)
+  nameWithType: IFramePresenter.Write(string)
+  nameWithType.vb: IFramePresenter.Write(String)
+- uid: NetAF.Rendering.Presenter.IFramePresenter.Write*
+  name: Write
+  href: api/NetAF.Rendering.Presenter.IFramePresenter.html#NetAF_Rendering_Presenter_IFramePresenter_Write_
+  commentId: Overload:NetAF.Rendering.Presenter.IFramePresenter.Write
+  isSpec: "True"
+  fullName: NetAF.Rendering.Presenter.IFramePresenter.Write
+  nameWithType: IFramePresenter.Write
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter
+  name: TextWriterPresenter
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html
+  commentId: T:NetAF.Rendering.Presenter.TextWriterPresenter
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter
+  nameWithType: TextWriterPresenter
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.#ctor(System.IO.TextWriter)
+  name: TextWriterPresenter(TextWriter)
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter__ctor_System_IO_TextWriter_
+  commentId: M:NetAF.Rendering.Presenter.TextWriterPresenter.#ctor(System.IO.TextWriter)
+  name.vb: New(TextWriter)
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.TextWriterPresenter(System.IO.TextWriter)
+  fullName.vb: NetAF.Rendering.Presenter.TextWriterPresenter.New(System.IO.TextWriter)
+  nameWithType: TextWriterPresenter.TextWriterPresenter(TextWriter)
+  nameWithType.vb: TextWriterPresenter.New(TextWriter)
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.#ctor*
+  name: TextWriterPresenter
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter__ctor_
+  commentId: Overload:NetAF.Rendering.Presenter.TextWriterPresenter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.TextWriterPresenter
+  fullName.vb: NetAF.Rendering.Presenter.TextWriterPresenter.New
+  nameWithType: TextWriterPresenter.TextWriterPresenter
+  nameWithType.vb: TextWriterPresenter.New
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.ToString
+  name: ToString()
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter_ToString
+  commentId: M:NetAF.Rendering.Presenter.TextWriterPresenter.ToString
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.ToString()
+  nameWithType: TextWriterPresenter.ToString()
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.ToString*
+  name: ToString
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter_ToString_
+  commentId: Overload:NetAF.Rendering.Presenter.TextWriterPresenter.ToString
+  isSpec: "True"
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.ToString
+  nameWithType: TextWriterPresenter.ToString
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.Write(System.Char)
+  name: Write(char)
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter_Write_System_Char_
+  commentId: M:NetAF.Rendering.Presenter.TextWriterPresenter.Write(System.Char)
+  name.vb: Write(Char)
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.Write(char)
+  fullName.vb: NetAF.Rendering.Presenter.TextWriterPresenter.Write(Char)
+  nameWithType: TextWriterPresenter.Write(char)
+  nameWithType.vb: TextWriterPresenter.Write(Char)
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.Write(System.String)
+  name: Write(string)
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter_Write_System_String_
+  commentId: M:NetAF.Rendering.Presenter.TextWriterPresenter.Write(System.String)
+  name.vb: Write(String)
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.Write(string)
+  fullName.vb: NetAF.Rendering.Presenter.TextWriterPresenter.Write(String)
+  nameWithType: TextWriterPresenter.Write(string)
+  nameWithType.vb: TextWriterPresenter.Write(String)
+- uid: NetAF.Rendering.Presenter.TextWriterPresenter.Write*
+  name: Write
+  href: api/NetAF.Rendering.Presenter.TextWriterPresenter.html#NetAF_Rendering_Presenter_TextWriterPresenter_Write_
+  commentId: Overload:NetAF.Rendering.Presenter.TextWriterPresenter.Write
+  isSpec: "True"
+  fullName: NetAF.Rendering.Presenter.TextWriterPresenter.Write
+  nameWithType: TextWriterPresenter.Write
 - uid: NetAF.Rendering.RegionMapMode
   name: RegionMapMode
   href: api/NetAF.Rendering.RegionMapMode.html

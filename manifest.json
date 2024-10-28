@@ -12,6 +12,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Adapters.IIOAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Adapters.IIOAdapter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Adapters.SystemConsoleAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Adapters.SystemConsoleAdapter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Adapters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Adapters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.Attributes.Attribute.yml",
       "output": {
         ".html": {
@@ -1156,6 +1186,36 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Rendering.KeyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Presenter.IFramePresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Presenter.IFramePresenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Presenter.TextWriterPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Presenter.TextWriterPresenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Presenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Presenter.html"
         }
       },
       "version": ""
