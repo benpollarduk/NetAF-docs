@@ -1766,15 +1766,15 @@ references:
   commentId: T:NetAF.Assets.Locations.Matrix
   fullName: NetAF.Assets.Locations.Matrix
   nameWithType: Matrix
-- uid: NetAF.Assets.Locations.Matrix.#ctor(NetAF.Assets.Locations.Room[0:,0:,0:])
-  name: Matrix(Room[,,])
-  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix__ctor_NetAF_Assets_Locations_Room_0__0__0___
-  commentId: M:NetAF.Assets.Locations.Matrix.#ctor(NetAF.Assets.Locations.Room[0:,0:,0:])
-  name.vb: New(Room(,,))
-  fullName: NetAF.Assets.Locations.Matrix.Matrix(NetAF.Assets.Locations.Room[,,])
-  fullName.vb: NetAF.Assets.Locations.Matrix.New(NetAF.Assets.Locations.Room(,,))
-  nameWithType: Matrix.Matrix(Room[,,])
-  nameWithType.vb: Matrix.New(Room(,,))
+- uid: NetAF.Assets.Locations.Matrix.#ctor(NetAF.Assets.Locations.RoomPosition[])
+  name: Matrix(RoomPosition[])
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix__ctor_NetAF_Assets_Locations_RoomPosition___
+  commentId: M:NetAF.Assets.Locations.Matrix.#ctor(NetAF.Assets.Locations.RoomPosition[])
+  name.vb: New(RoomPosition())
+  fullName: NetAF.Assets.Locations.Matrix.Matrix(NetAF.Assets.Locations.RoomPosition[])
+  fullName.vb: NetAF.Assets.Locations.Matrix.New(NetAF.Assets.Locations.RoomPosition())
+  nameWithType: Matrix.Matrix(RoomPosition[])
+  nameWithType.vb: Matrix.New(RoomPosition())
 - uid: NetAF.Assets.Locations.Matrix.#ctor*
   name: Matrix
   href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix__ctor_
