@@ -92,11 +92,11 @@
     new Item(&quot;Wallet&quot;, &quot;An empty wallet, of course.&quot;)
 ]);
 </code></pre>
-<p>A PlayableCharacter can be given items with the <strong>AcquireItem</strong> method.</p>
-<pre><code class="lang-csharp">player.AcquireItem(new Item(&quot;Mallet&quot;, &quot;A large mallet.&quot;));
+<p>A PlayableCharacter can be given items with the <strong>AddItem</strong> method.</p>
+<pre><code class="lang-csharp">player.AddItem(new Item(&quot;Mallet&quot;, &quot;A large mallet.&quot;));
 </code></pre>
-<p>A PlayableCharacter can lose an item with the <strong>DequireItem</strong> method.</p>
-<pre><code class="lang-csharp">player.DequireItem(mallet);
+<p>A PlayableCharacter can lose an item with the <strong>RemoveItem</strong> method.</p>
+<pre><code class="lang-csharp">player.RemoveItem(mallet);
 </code></pre>
 <p>A PlayableCharacter can use an item on another asset:</p>
 <pre><code class="lang-csharp">var trapDoor = new Exit(Direction.Down);

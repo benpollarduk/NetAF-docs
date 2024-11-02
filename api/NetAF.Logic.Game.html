@@ -89,6 +89,10 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">Game</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.GameSerialization.html">GameSerialization</a>&gt;</div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -114,7 +118,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Logic_Game_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Game</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Game : IRestoreFromObjectSerialization&lt;GameSerialization&gt;</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -123,7 +127,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_ActiveConverser.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.ActiveConverser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L32">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L40">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_ActiveConverser_" data-uid="NetAF.Logic.Game.ActiveConverser*"></a>
   <h4 id="NetAF_Logic_Game_ActiveConverser" data-uid="NetAF.Logic.Game.ActiveConverser">ActiveConverser</h4>
@@ -151,10 +155,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Catalog.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Catalog%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L85">View Source</a>
+  </span>
+  <a id="NetAF_Logic_Game_Catalog_" data-uid="NetAF.Logic.Game.Catalog*"></a>
+  <h4 id="NetAF_Logic_Game_Catalog" data-uid="NetAF.Logic.Game.Catalog">Catalog</h4>
+  <div class="markdown level1 summary"><p>Get the catalog of assets for this game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetCatalog Catalog { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.AssetCatalog.html">AssetCatalog</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Configuration.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Configuration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L57">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L65">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Configuration_" data-uid="NetAF.Logic.Game.Configuration*"></a>
   <h4 id="NetAF_Logic_Game_Configuration" data-uid="NetAF.Logic.Game.Configuration">Configuration</h4>
@@ -185,7 +220,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_EndConditions.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.EndConditions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L62">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L70">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_EndConditions_" data-uid="NetAF.Logic.Game.EndConditions*"></a>
   <h4 id="NetAF_Logic_Game_EndConditions" data-uid="NetAF.Logic.Game.EndConditions">EndConditions</h4>
@@ -216,7 +251,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Info.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Info%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L47">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L55">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Info_" data-uid="NetAF.Logic.Game.Info*"></a>
   <h4 id="NetAF_Logic_Game_Info" data-uid="NetAF.Logic.Game.Info">Info</h4>
@@ -247,7 +282,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Introduction.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Introduction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L52">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L60">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Introduction_" data-uid="NetAF.Logic.Game.Introduction*"></a>
   <h4 id="NetAF_Logic_Game_Introduction" data-uid="NetAF.Logic.Game.Introduction">Introduction</h4>
@@ -278,7 +313,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_IsExecuting.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.IsExecuting%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L67">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L75">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_IsExecuting_" data-uid="NetAF.Logic.Game.IsExecuting*"></a>
   <h4 id="NetAF_Logic_Game_IsExecuting" data-uid="NetAF.Logic.Game.IsExecuting">IsExecuting</h4>
@@ -309,7 +344,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Overworld.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Overworld%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L42">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L50">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Overworld_" data-uid="NetAF.Logic.Game.Overworld*"></a>
   <h4 id="NetAF_Logic_Game_Overworld" data-uid="NetAF.Logic.Game.Overworld">Overworld</h4>
@@ -340,7 +375,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Player.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L37">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L45">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Player_" data-uid="NetAF.Logic.Game.Player*"></a>
   <h4 id="NetAF_Logic_Game_Player" data-uid="NetAF.Logic.Game.Player">Player</h4>
@@ -370,19 +405,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L177">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L201">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_ChangePlayer_" data-uid="NetAF.Logic.Game.ChangePlayer*"></a>
-  <h4 id="NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_" data-uid="NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter)">ChangePlayer(PlayableCharacter)</h4>
+  <h4 id="NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_System_Boolean_" data-uid="NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter,System.Boolean)">ChangePlayer(PlayableCharacter, bool)</h4>
   <div class="markdown level1 summary"><p>Change to a specified player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangePlayer(PlayableCharacter player)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ChangePlayer(PlayableCharacter player, bool jumpToLastLocation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -400,6 +435,12 @@
         <td><p>The player to change to.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">jumpToLastLocation</span></td>
+        <td><p>Jump to the last location, if it is known. Then true the player will be added at the last location, when false the current location will be used. By default this is true.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
@@ -407,7 +448,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_GameConfiguration_NetAF_Logic_GameSetupCallback_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Create(NetAF.Logic.GameInfo%2CSystem.String%2CNetAF.Logic.AssetGenerator%2CNetAF.Logic.GameEndConditions%2CNetAF.Logic.GameConfiguration%2CNetAF.Logic.GameSetupCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L453">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L494">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Create_" data-uid="NetAF.Logic.Game.Create*"></a>
   <h4 id="NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_GameConfiguration_NetAF_Logic_GameSetupCallback_" data-uid="NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.GameConfiguration,NetAF.Logic.GameSetupCallback)">Create(GameInfo, string, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)</h4>
@@ -487,7 +528,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_DisplayAbout.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.DisplayAbout%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L424">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L465">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_DisplayAbout_" data-uid="NetAF.Logic.Game.DisplayAbout*"></a>
   <h4 id="NetAF_Logic_Game_DisplayAbout" data-uid="NetAF.Logic.Game.DisplayAbout">DisplayAbout()</h4>
@@ -503,7 +544,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_DisplayHelp.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.DisplayHelp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L402">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L443">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_DisplayHelp_" data-uid="NetAF.Logic.Game.DisplayHelp*"></a>
   <h4 id="NetAF_Logic_Game_DisplayHelp" data-uid="NetAF.Logic.Game.DisplayHelp">DisplayHelp()</h4>
@@ -519,7 +560,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_DisplayMap.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.DisplayMap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L416">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L457">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_DisplayMap_" data-uid="NetAF.Logic.Game.DisplayMap*"></a>
   <h4 id="NetAF_Logic_Game_DisplayMap" data-uid="NetAF.Logic.Game.DisplayMap">DisplayMap()</h4>
@@ -535,7 +576,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_DisplayTransition_System_String_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.DisplayTransition(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L434">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L475">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_DisplayTransition_" data-uid="NetAF.Logic.Game.DisplayTransition*"></a>
   <h4 id="NetAF_Logic_Game_DisplayTransition_System_String_System_String_" data-uid="NetAF.Logic.Game.DisplayTransition(System.String,System.String)">DisplayTransition(string, string)</h4>
@@ -575,7 +616,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_Execute_NetAF_Logic_GameCreationCallback_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.Execute(NetAF.Logic.GameCreationCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L467">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L508">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_Execute_" data-uid="NetAF.Logic.Game.Execute*"></a>
   <h4 id="NetAF_Logic_Game_Execute_NetAF_Logic_GameCreationCallback_" data-uid="NetAF.Logic.Game.Execute(NetAF.Logic.GameCreationCallback)">Execute(GameCreationCallback)</h4>
@@ -609,7 +650,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_FindInteractionTarget_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.FindInteractionTarget(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L345">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L386">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_FindInteractionTarget_" data-uid="NetAF.Logic.Game.FindInteractionTarget*"></a>
   <h4 id="NetAF_Logic_Game_FindInteractionTarget_System_String_" data-uid="NetAF.Logic.Game.FindInteractionTarget(System.String)">FindInteractionTarget(string)</h4>
@@ -659,7 +700,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_GetAllPlayerVisibleExaminables.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.GetAllPlayerVisibleExaminables%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L370">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L411">View Source</a>
   </span>
   <a id="NetAF_Logic_Game_GetAllPlayerVisibleExaminables_" data-uid="NetAF.Logic.Game.GetAllPlayerVisibleExaminables*"></a>
   <h4 id="NetAF_Logic_Game_GetAllPlayerVisibleExaminables" data-uid="NetAF.Logic.Game.GetAllPlayerVisibleExaminables">GetAllPlayerVisibleExaminables()</h4>
@@ -686,6 +727,44 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game_RestoreFrom_NetAF_Serialization_GameSerialization_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game.RestoreFrom(NetAF.Serialization.GameSerialization)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L538">View Source</a>
+  </span>
+  <a id="NetAF_Logic_Game_RestoreFrom_" data-uid="NetAF.Logic.Game.RestoreFrom*"></a>
+  <h4 id="NetAF_Logic_Game_RestoreFrom_NetAF_Serialization_GameSerialization_" data-uid="NetAF.Logic.Game.RestoreFrom(NetAF.Serialization.GameSerialization)">RestoreFrom(GameSerialization)</h4>
+  <div class="markdown level1 summary"><p>Restore this object from a serialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestoreFrom(GameSerialization serialization)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Serialization.GameSerialization.html">GameSerialization</a></td>
+        <td><span class="parametername">serialization</span></td>
+        <td><p>The serialization to restore from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
+  </div>
 
 </article>
           </div>
@@ -698,7 +777,7 @@
                     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Game.md&amp;value=---%0Auid%3A%20NetAF.Logic.Game%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L20" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Game.cs/#L22" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

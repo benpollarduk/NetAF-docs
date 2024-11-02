@@ -202,6 +202,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.IItemContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.IItemContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.IPlayerVisible.yml",
       "output": {
         ".html": {
@@ -456,6 +466,36 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Commands.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Persistence.Load.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Persistence.Load.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Persistence.Save.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Persistence.Save.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Persistence.html"
         }
       },
       "version": ""
@@ -742,6 +782,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.AssetCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.AssetCatalog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.AssetGenerator.yml",
       "output": {
         ".html": {
@@ -856,6 +906,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.OverworldCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.PlayableCharacterLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.PlayableCharacterLocation.html"
         }
       },
       "version": ""
@@ -1202,30 +1262,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Presenter.IFramePresenter.yml",
+      "source_relative_path": "api/NetAF.Rendering.Presenters.IFramePresenter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.Presenter.IFramePresenter.html"
+          "relative_path": "api/NetAF.Rendering.Presenters.IFramePresenter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Presenter.TextWriterPresenter.yml",
+      "source_relative_path": "api/NetAF.Rendering.Presenters.TextWriterPresenter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.Presenter.TextWriterPresenter.html"
+          "relative_path": "api/NetAF.Rendering.Presenters.TextWriterPresenter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Presenter.yml",
+      "source_relative_path": "api/NetAF.Rendering.Presenters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.Presenter.html"
+          "relative_path": "api/NetAF.Rendering.Presenters.html"
         }
       },
       "version": ""
@@ -1246,6 +1306,216 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.AttributeSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.AttributeSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.CharacterSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.CharacterSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.ConversationSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.ConversationSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.ExaminableSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.ExaminableSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.ExitSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.ExitSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.ItemSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.ItemSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.OverworldSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.OverworldSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.RegionSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.RegionSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.RoomSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.RoomSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.GameSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.GameSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.IObjectSerialization-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.IObjectSerialization-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.IRestoreFromObjectSerialization-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.IRestoreFromObjectSerialization-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Persistence.Json.JsonSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Persistence.Json.JsonSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Persistence.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Persistence.Json.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Persistence.RestorePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Persistence.RestorePoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Persistence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.html"
         }
       },
       "version": ""
@@ -1399,6 +1669,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/overworld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/persistence.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/persistence.html"
         }
       },
       "version": ""

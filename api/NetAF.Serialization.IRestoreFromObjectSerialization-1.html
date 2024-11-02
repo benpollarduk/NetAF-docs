@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Interface IFramePresenter | NetAF </title>
+      <title>Interface IRestoreFromObjectSerialization&lt;T&gt; | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Interface IFramePresenter | NetAF ">
+      <meta name="title" content="Interface IRestoreFromObjectSerialization&lt;T&gt; | NetAF ">
     
-    <meta name="description" content="Represents an object that can render a frame.">
+    <meta name="description" content="Represents any object that can restore from an IObjectSerialization.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,71 +76,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.Presenter.IFramePresenter">
+            <article class="content wrap" id="_content" data-uid="NetAF.Serialization.IRestoreFromObjectSerialization`1">
 
 
 
-  <h1 id="NetAF_Rendering_Presenter_IFramePresenter" data-uid="NetAF.Rendering.Presenter.IFramePresenter" class="text-break">Interface IFramePresenter</h1>
-  <div class="markdown level0 summary"><p>Represents an object that can render a frame.</p>
+  <h1 id="NetAF_Serialization_IRestoreFromObjectSerialization_1" data-uid="NetAF.Serialization.IRestoreFromObjectSerialization`1" class="text-break">Interface IRestoreFromObjectSerialization&lt;T&gt;</h1>
+  <div class="markdown level0 summary"><p>Represents any object that can restore from an IObjectSerialization.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Rendering.Presenter.html">Presenter</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Serialization.html">Serialization</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Rendering_Presenter_IFramePresenter_syntax">Syntax</h5>
+  <h5 id="NetAF_Serialization_IRestoreFromObjectSerialization_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IFramePresenter</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IRestoreFromObjectSerialization&lt;in T&gt;</code></pre>
   </div>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenter_IFramePresenter_Write_System_Char_.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenter.IFramePresenter.Write(System.Char)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/IFramePresenter.cs/#L12">View Source</a>
-  </span>
-  <a id="NetAF_Rendering_Presenter_IFramePresenter_Write_" data-uid="NetAF.Rendering.Presenter.IFramePresenter.Write*"></a>
-  <h4 id="NetAF_Rendering_Presenter_IFramePresenter_Write_System_Char_" data-uid="NetAF.Rendering.Presenter.IFramePresenter.Write(System.Char)">Write(char)</h4>
-  <div class="markdown level1 summary"><p>Write a character.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Write(char value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The character to write.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of serialization that this object restores from.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+</h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenter_IFramePresenter_Write_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenter.IFramePresenter.Write(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Serialization_IRestoreFromObjectSerialization_1_RestoreFrom__0_.md&amp;value=---%0Auid%3A%20NetAF.Serialization.IRestoreFromObjectSerialization%601.RestoreFrom(%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/IFramePresenter.cs/#L17">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Serialization/IRestoreFromObjectSerialization.cs/#L13">View Source</a>
   </span>
-  <a id="NetAF_Rendering_Presenter_IFramePresenter_Write_" data-uid="NetAF.Rendering.Presenter.IFramePresenter.Write*"></a>
-  <h4 id="NetAF_Rendering_Presenter_IFramePresenter_Write_System_String_" data-uid="NetAF.Rendering.Presenter.IFramePresenter.Write(System.String)">Write(string)</h4>
-  <div class="markdown level1 summary"><p>Write a string.</p>
+  <a id="NetAF_Serialization_IRestoreFromObjectSerialization_1_RestoreFrom_" data-uid="NetAF.Serialization.IRestoreFromObjectSerialization`1.RestoreFrom*"></a>
+  <h4 id="NetAF_Serialization_IRestoreFromObjectSerialization_1_RestoreFrom__0_" data-uid="NetAF.Serialization.IRestoreFromObjectSerialization`1.RestoreFrom(`0)">RestoreFrom(T)</h4>
+  <div class="markdown level1 summary"><p>Restore this object from a serialization.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Write(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">void RestoreFrom(T serialization)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -153,9 +135,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The string to write.</p>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">serialization</span></td>
+        <td><p>The serialization to restore from.</p>
 </td>
       </tr>
     </tbody>
@@ -169,10 +151,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenter_IFramePresenter.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenter.IFramePresenter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Serialization_IRestoreFromObjectSerialization_1.md&amp;value=---%0Auid%3A%20NetAF.Serialization.IRestoreFromObjectSerialization%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/IFramePresenter.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Serialization/IRestoreFromObjectSerialization.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

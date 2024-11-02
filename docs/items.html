@@ -88,10 +88,6 @@
 <p>By default, an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor.</p>
 <pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;, true);
 </code></pre>
-<p>An Item can morph in to another Item. This is useful in situations where the Item changes state. Morphing is invoked with the <strong>Morph</strong> method. The Item that Morph is invoked on takes on the properties of the Item being morphed into.</p>
-<pre><code class="lang-csharp">var brokenSword = new Item(&quot;Broken Sword&quot;, &quot;A broken sword&quot;);
-sword.Morph(brokenSword);
-</code></pre>
 <p>Like all Examinable objects, an Item can be assigned custom commands.</p>
 <pre><code class="lang-csharp">bomb.Commands =
 [

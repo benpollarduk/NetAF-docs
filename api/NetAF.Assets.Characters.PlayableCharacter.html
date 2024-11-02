@@ -93,9 +93,12 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="NetAF.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a></div>
+    <div><a class="xref" href="NetAF.Assets.IItemContainer.html">IItemContainer</a></div>
     <div><a class="xref" href="NetAF.Assets.IExaminable.html">IExaminable</a></div>
     <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
-    <div><a class="xref" href="NetAF.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a></div>
+    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.ExaminableSerialization.html">ExaminableSerialization</a>&gt;</div>
+    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.CharacterSerialization.html">CharacterSerialization</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,16 +109,7 @@
       <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_Interaction">Character.Interaction</a>
     </div>
     <div>
-      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_Items">Character.Items</a>
-    </div>
-    <div>
       <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_Kill">Character.Kill()</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_AcquireItem_NetAF_Assets_Item_">Character.AcquireItem(Item)</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_DequireItem_NetAF_Assets_Item_">Character.DequireItem(Item)</a>
     </div>
     <div>
       <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_HasItem_NetAF_Assets_Item_System_Boolean_">Character.HasItem(Item, bool)</a>
@@ -128,6 +122,18 @@
     </div>
     <div>
       <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_Interact_NetAF_Assets_Item_">Character.Interact(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_Items">Character.Items</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_AddItem_NetAF_Assets_Item_">Character.AddItem(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_RemoveItem_NetAF_Assets_Item_">Character.RemoveItem(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_RestoreFrom_NetAF_Serialization_Assets_CharacterSerialization_">Character.RestoreFrom(CharacterSerialization)</a>
     </div>
     <div>
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Examination">ExaminableObject.Examination</a>
@@ -154,6 +160,9 @@
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_IsPlayerVisible">ExaminableObject.IsPlayerVisible</a>
     </div>
     <div>
+      <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_RestoreFrom_NetAF_Serialization_Assets_ExaminableSerialization_">ExaminableObject.RestoreFrom(ExaminableSerialization)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
@@ -173,7 +182,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Assets_Characters_PlayableCharacter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class PlayableCharacter : Character, IExaminable, IPlayerVisible, IInteractWithItem</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PlayableCharacter : Character, IInteractWithItem, IItemContainer, IExaminable, IPlayerVisible, IRestoreFromObjectSerialization&lt;ExaminableSerialization&gt;, IRestoreFromObjectSerialization&lt;CharacterSerialization&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -466,13 +475,22 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
+      <a class="xref" href="NetAF.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Assets.IItemContainer.html">IItemContainer</a>
+  </div>
+  <div>
       <a class="xref" href="NetAF.Assets.IExaminable.html">IExaminable</a>
   </div>
   <div>
       <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
   </div>
   <div>
-      <a class="xref" href="NetAF.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a>
+      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
   </div>
 
 </article>

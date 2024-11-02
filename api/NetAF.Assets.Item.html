@@ -94,7 +94,9 @@
     <h5>Implements</h5>
     <div><a class="xref" href="NetAF.Assets.IExaminable.html">IExaminable</a></div>
     <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
+    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.ExaminableSerialization.html">ExaminableSerialization</a>&gt;</div>
     <div><a class="xref" href="NetAF.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a></div>
+    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.ItemSerialization.html">ItemSerialization</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -123,6 +125,9 @@
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_IsPlayerVisible">ExaminableObject.IsPlayerVisible</a>
     </div>
     <div>
+      <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_RestoreFrom_NetAF_Serialization_Assets_ExaminableSerialization_">ExaminableObject.RestoreFrom(ExaminableSerialization)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
@@ -142,7 +147,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Assets_Item_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Item : ExaminableObject, IExaminable, IPlayerVisible, IInteractWithItem</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Item : ExaminableObject, IExaminable, IPlayerVisible, IRestoreFromObjectSerialization&lt;ExaminableSerialization&gt;, IInteractWithItem, IRestoreFromObjectSerialization&lt;ItemSerialization&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -151,7 +156,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L42">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L44">View Source</a>
   </span>
   <a id="NetAF_Assets_Item__ctor_" data-uid="NetAF.Assets.Item.#ctor*"></a>
   <h4 id="NetAF_Assets_Item__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_" data-uid="NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean)">Item(Identifier, Description, bool)</h4>
@@ -197,7 +202,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item__ctor_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.%23ctor(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L32">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L34">View Source</a>
   </span>
   <a id="NetAF_Assets_Item__ctor_" data-uid="NetAF.Assets.Item.#ctor*"></a>
   <h4 id="NetAF_Assets_Item__ctor_System_String_System_String_System_Boolean_" data-uid="NetAF.Assets.Item.#ctor(System.String,System.String,System.Boolean)">Item(string, string, bool)</h4>
@@ -245,7 +250,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item_Interaction.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.Interaction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L20">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L22">View Source</a>
   </span>
   <a id="NetAF_Assets_Item_Interaction_" data-uid="NetAF.Assets.Item.Interaction*"></a>
   <h4 id="NetAF_Assets_Item_Interaction" data-uid="NetAF.Assets.Item.Interaction">Interaction</h4>
@@ -276,7 +281,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item_IsTakeable.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.IsTakeable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L15">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L17">View Source</a>
   </span>
   <a id="NetAF_Assets_Item_IsTakeable_" data-uid="NetAF.Assets.Item.IsTakeable*"></a>
   <h4 id="NetAF_Assets_Item_IsTakeable" data-uid="NetAF.Assets.Item.IsTakeable">IsTakeable</h4>
@@ -309,7 +314,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item_Interact_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.Interact(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L74">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L60">View Source</a>
   </span>
   <a id="NetAF_Assets_Item_Interact_" data-uid="NetAF.Assets.Item.Interact*"></a>
   <h4 id="NetAF_Assets_Item_Interact_NetAF_Assets_Item_" data-uid="NetAF.Assets.Item.Interact(NetAF.Assets.Item)">Interact(Item)</h4>
@@ -356,19 +361,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item_Morph_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.Morph(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item_RestoreFrom_NetAF_Serialization_Assets_ItemSerialization_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item.RestoreFrom(NetAF.Serialization.Assets.ItemSerialization)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L57">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L73">View Source</a>
   </span>
-  <a id="NetAF_Assets_Item_Morph_" data-uid="NetAF.Assets.Item.Morph*"></a>
-  <h4 id="NetAF_Assets_Item_Morph_NetAF_Assets_Item_" data-uid="NetAF.Assets.Item.Morph(NetAF.Assets.Item)">Morph(Item)</h4>
-  <div class="markdown level1 summary"><p>Handle item morphing.</p>
+  <a id="NetAF_Assets_Item_RestoreFrom_" data-uid="NetAF.Assets.Item.RestoreFrom*"></a>
+  <h4 id="NetAF_Assets_Item_RestoreFrom_NetAF_Serialization_Assets_ItemSerialization_" data-uid="NetAF.Assets.Item.RestoreFrom(NetAF.Serialization.Assets.ItemSerialization)">RestoreFrom(ItemSerialization)</h4>
+  <div class="markdown level1 summary"><p>Restore this object from a serialization.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Morph(Item item)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RestoreFrom(ItemSerialization serialization)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -381,9 +386,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Item.html">Item</a></td>
-        <td><span class="parametername">item</span></td>
-        <td><p>The item to morph into.</p>
+        <td><a class="xref" href="NetAF.Serialization.Assets.ItemSerialization.html">ItemSerialization</a></td>
+        <td><span class="parametername">serialization</span></td>
+        <td><p>The serialization to restore from.</p>
 </td>
       </tr>
     </tbody>
@@ -396,7 +401,13 @@
       <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
   </div>
   <div>
+      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="NetAF.Assets.Interaction.IInteractWithItem.html">IInteractWithItem</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
   </div>
 
 </article>
@@ -410,7 +421,7 @@
                     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Item.md&amp;value=---%0Auid%3A%20NetAF.Assets.Item%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Item.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
