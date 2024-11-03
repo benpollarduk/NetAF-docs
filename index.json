@@ -232,7 +232,7 @@
   "api/NetAF.Commands.Persistence.Load.html": {
     "href": "api/NetAF.Commands.Persistence.Load.html",
     "title": "Class Load | NetAF",
-    "keywords": "Class Load Represents the Save command. Inheritance object CustomCommand Load Implements ICommand IPlayerVisible Inherited Members CustomCommand.Arguments CustomCommand.Help CustomCommand.Invoke(Game) CustomCommand.IsPlayerVisible object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Persistence Assembly: NetAF.dll Syntax public class Load : CustomCommand, ICommand, IPlayerVisible Constructors | Edit this page View Source Load() Initializes a new instance of the Load class. Declaration public Load() Implements ICommand IPlayerVisible"
+    "keywords": "Class Load Represents the Load command. Inheritance object CustomCommand Load Implements ICommand IPlayerVisible Inherited Members CustomCommand.Arguments CustomCommand.Help CustomCommand.Invoke(Game) CustomCommand.IsPlayerVisible object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Persistence Assembly: NetAF.dll Syntax public class Load : CustomCommand, ICommand, IPlayerVisible Constructors | Edit this page View Source Load() Initializes a new instance of the Load class. Declaration public Load() Implements ICommand IPlayerVisible"
   },
   "api/NetAF.Commands.Persistence.Save.html": {
     "href": "api/NetAF.Commands.Persistence.Save.html",
@@ -242,7 +242,7 @@
   "api/NetAF.Commands.Persistence.html": {
     "href": "api/NetAF.Commands.Persistence.html",
     "title": "Namespace NetAF.Commands.Persistence | NetAF",
-    "keywords": "Namespace NetAF.Commands.Persistence Classes Load Represents the Save command. Save Represents the Save command."
+    "keywords": "Namespace NetAF.Commands.Persistence Classes Load Represents the Load command. Save Represents the Save command."
   },
   "api/NetAF.Commands.html": {
     "href": "api/NetAF.Commands.html",
