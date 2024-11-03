@@ -4584,6 +4584,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.AssetCatalog.Items
   nameWithType: AssetCatalog.Items
+- uid: NetAF.Logic.AssetCatalog.Players
+  name: Players
+  href: api/NetAF.Logic.AssetCatalog.html#NetAF_Logic_AssetCatalog_Players
+  commentId: P:NetAF.Logic.AssetCatalog.Players
+  fullName: NetAF.Logic.AssetCatalog.Players
+  nameWithType: AssetCatalog.Players
+- uid: NetAF.Logic.AssetCatalog.Players*
+  name: Players
+  href: api/NetAF.Logic.AssetCatalog.html#NetAF_Logic_AssetCatalog_Players_
+  commentId: Overload:NetAF.Logic.AssetCatalog.Players
+  isSpec: "True"
+  fullName: NetAF.Logic.AssetCatalog.Players
+  nameWithType: AssetCatalog.Players
 - uid: NetAF.Logic.AssetCatalog.Register(NetAF.Assets.IExaminable[])
   name: Register(params IExaminable[])
   href: api/NetAF.Logic.AssetCatalog.html#NetAF_Logic_AssetCatalog_Register_NetAF_Assets_IExaminable___
@@ -5492,6 +5505,146 @@ references:
   commentId: T:NetAF.Logic.PlayerCreationCallback
   fullName: NetAF.Logic.PlayerCreationCallback
   nameWithType: PlayerCreationCallback
+- uid: NetAF.Persistence
+  name: NetAF.Persistence
+  href: api/NetAF.Persistence.html
+  commentId: N:NetAF.Persistence
+  fullName: NetAF.Persistence
+  nameWithType: NetAF.Persistence
+- uid: NetAF.Persistence.Json
+  name: NetAF.Persistence.Json
+  href: api/NetAF.Persistence.Json.html
+  commentId: N:NetAF.Persistence.Json
+  fullName: NetAF.Persistence.Json
+  nameWithType: NetAF.Persistence.Json
+- uid: NetAF.Persistence.Json.JsonSave
+  name: JsonSave
+  href: api/NetAF.Persistence.Json.JsonSave.html
+  commentId: T:NetAF.Persistence.Json.JsonSave
+  fullName: NetAF.Persistence.Json.JsonSave
+  nameWithType: JsonSave
+- uid: NetAF.Persistence.Json.JsonSave.FromFile(System.String,NetAF.Persistence.RestorePoint@,System.String@)
+  name: FromFile(string, out RestorePoint, out string)
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_FromFile_System_String_NetAF_Persistence_RestorePoint__System_String__
+  commentId: M:NetAF.Persistence.Json.JsonSave.FromFile(System.String,NetAF.Persistence.RestorePoint@,System.String@)
+  name.vb: FromFile(String, RestorePoint, String)
+  fullName: NetAF.Persistence.Json.JsonSave.FromFile(string, out NetAF.Persistence.RestorePoint, out string)
+  fullName.vb: NetAF.Persistence.Json.JsonSave.FromFile(String, NetAF.Persistence.RestorePoint, String)
+  nameWithType: JsonSave.FromFile(string, out RestorePoint, out string)
+  nameWithType.vb: JsonSave.FromFile(String, RestorePoint, String)
+- uid: NetAF.Persistence.Json.JsonSave.FromFile*
+  name: FromFile
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_FromFile_
+  commentId: Overload:NetAF.Persistence.Json.JsonSave.FromFile
+  isSpec: "True"
+  fullName: NetAF.Persistence.Json.JsonSave.FromFile
+  nameWithType: JsonSave.FromFile
+- uid: NetAF.Persistence.Json.JsonSave.FromJson(System.String)
+  name: FromJson(string)
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_FromJson_System_String_
+  commentId: M:NetAF.Persistence.Json.JsonSave.FromJson(System.String)
+  name.vb: FromJson(String)
+  fullName: NetAF.Persistence.Json.JsonSave.FromJson(string)
+  fullName.vb: NetAF.Persistence.Json.JsonSave.FromJson(String)
+  nameWithType: JsonSave.FromJson(string)
+  nameWithType.vb: JsonSave.FromJson(String)
+- uid: NetAF.Persistence.Json.JsonSave.FromJson*
+  name: FromJson
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_FromJson_
+  commentId: Overload:NetAF.Persistence.Json.JsonSave.FromJson
+  isSpec: "True"
+  fullName: NetAF.Persistence.Json.JsonSave.FromJson
+  nameWithType: JsonSave.FromJson
+- uid: NetAF.Persistence.Json.JsonSave.ToFile(System.String,NetAF.Persistence.RestorePoint,System.String@)
+  name: ToFile(string, RestorePoint, out string)
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_ToFile_System_String_NetAF_Persistence_RestorePoint_System_String__
+  commentId: M:NetAF.Persistence.Json.JsonSave.ToFile(System.String,NetAF.Persistence.RestorePoint,System.String@)
+  name.vb: ToFile(String, RestorePoint, String)
+  fullName: NetAF.Persistence.Json.JsonSave.ToFile(string, NetAF.Persistence.RestorePoint, out string)
+  fullName.vb: NetAF.Persistence.Json.JsonSave.ToFile(String, NetAF.Persistence.RestorePoint, String)
+  nameWithType: JsonSave.ToFile(string, RestorePoint, out string)
+  nameWithType.vb: JsonSave.ToFile(String, RestorePoint, String)
+- uid: NetAF.Persistence.Json.JsonSave.ToFile*
+  name: ToFile
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_ToFile_
+  commentId: Overload:NetAF.Persistence.Json.JsonSave.ToFile
+  isSpec: "True"
+  fullName: NetAF.Persistence.Json.JsonSave.ToFile
+  nameWithType: JsonSave.ToFile
+- uid: NetAF.Persistence.Json.JsonSave.ToJson(NetAF.Persistence.RestorePoint)
+  name: ToJson(RestorePoint)
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_ToJson_NetAF_Persistence_RestorePoint_
+  commentId: M:NetAF.Persistence.Json.JsonSave.ToJson(NetAF.Persistence.RestorePoint)
+  fullName: NetAF.Persistence.Json.JsonSave.ToJson(NetAF.Persistence.RestorePoint)
+  nameWithType: JsonSave.ToJson(RestorePoint)
+- uid: NetAF.Persistence.Json.JsonSave.ToJson*
+  name: ToJson
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_ToJson_
+  commentId: Overload:NetAF.Persistence.Json.JsonSave.ToJson
+  isSpec: "True"
+  fullName: NetAF.Persistence.Json.JsonSave.ToJson
+  nameWithType: JsonSave.ToJson
+- uid: NetAF.Persistence.RestorePoint
+  name: RestorePoint
+  href: api/NetAF.Persistence.RestorePoint.html
+  commentId: T:NetAF.Persistence.RestorePoint
+  fullName: NetAF.Persistence.RestorePoint
+  nameWithType: RestorePoint
+- uid: NetAF.Persistence.RestorePoint.Create(System.String,NetAF.Logic.Game)
+  name: Create(string, Game)
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_Create_System_String_NetAF_Logic_Game_
+  commentId: M:NetAF.Persistence.RestorePoint.Create(System.String,NetAF.Logic.Game)
+  name.vb: Create(String, Game)
+  fullName: NetAF.Persistence.RestorePoint.Create(string, NetAF.Logic.Game)
+  fullName.vb: NetAF.Persistence.RestorePoint.Create(String, NetAF.Logic.Game)
+  nameWithType: RestorePoint.Create(string, Game)
+  nameWithType.vb: RestorePoint.Create(String, Game)
+- uid: NetAF.Persistence.RestorePoint.Create*
+  name: Create
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_Create_
+  commentId: Overload:NetAF.Persistence.RestorePoint.Create
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePoint.Create
+  nameWithType: RestorePoint.Create
+- uid: NetAF.Persistence.RestorePoint.CreationTime
+  name: CreationTime
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_CreationTime
+  commentId: P:NetAF.Persistence.RestorePoint.CreationTime
+  fullName: NetAF.Persistence.RestorePoint.CreationTime
+  nameWithType: RestorePoint.CreationTime
+- uid: NetAF.Persistence.RestorePoint.CreationTime*
+  name: CreationTime
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_CreationTime_
+  commentId: Overload:NetAF.Persistence.RestorePoint.CreationTime
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePoint.CreationTime
+  nameWithType: RestorePoint.CreationTime
+- uid: NetAF.Persistence.RestorePoint.Game
+  name: Game
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_Game
+  commentId: P:NetAF.Persistence.RestorePoint.Game
+  fullName: NetAF.Persistence.RestorePoint.Game
+  nameWithType: RestorePoint.Game
+- uid: NetAF.Persistence.RestorePoint.Game*
+  name: Game
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_Game_
+  commentId: Overload:NetAF.Persistence.RestorePoint.Game
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePoint.Game
+  nameWithType: RestorePoint.Game
+- uid: NetAF.Persistence.RestorePoint.Name
+  name: Name
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_Name
+  commentId: P:NetAF.Persistence.RestorePoint.Name
+  fullName: NetAF.Persistence.RestorePoint.Name
+  nameWithType: RestorePoint.Name
+- uid: NetAF.Persistence.RestorePoint.Name*
+  name: Name
+  href: api/NetAF.Persistence.RestorePoint.html#NetAF_Persistence_RestorePoint_Name_
+  commentId: Overload:NetAF.Persistence.RestorePoint.Name
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePoint.Name
+  nameWithType: RestorePoint.Name
 - uid: NetAF.Rendering
   name: NetAF.Rendering
   href: api/NetAF.Rendering.html
@@ -8779,6 +8932,32 @@ references:
   fullName.vb: NetAF.Serialization.GameSerialization.New
   nameWithType: GameSerialization.GameSerialization
   nameWithType.vb: GameSerialization.New
+- uid: NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
+  name: ActivePlayerIdentifier
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_ActivePlayerIdentifier
+  commentId: P:NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
+  fullName: NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
+  nameWithType: GameSerialization.ActivePlayerIdentifier
+- uid: NetAF.Serialization.GameSerialization.ActivePlayerIdentifier*
+  name: ActivePlayerIdentifier
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_ActivePlayerIdentifier_
+  commentId: Overload:NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
+  isSpec: "True"
+  fullName: NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
+  nameWithType: GameSerialization.ActivePlayerIdentifier
+- uid: NetAF.Serialization.GameSerialization.InactivePlayerLocations
+  name: InactivePlayerLocations
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_InactivePlayerLocations
+  commentId: P:NetAF.Serialization.GameSerialization.InactivePlayerLocations
+  fullName: NetAF.Serialization.GameSerialization.InactivePlayerLocations
+  nameWithType: GameSerialization.InactivePlayerLocations
+- uid: NetAF.Serialization.GameSerialization.InactivePlayerLocations*
+  name: InactivePlayerLocations
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_InactivePlayerLocations_
+  commentId: Overload:NetAF.Serialization.GameSerialization.InactivePlayerLocations
+  isSpec: "True"
+  fullName: NetAF.Serialization.GameSerialization.InactivePlayerLocations
+  nameWithType: GameSerialization.InactivePlayerLocations
 - uid: NetAF.Serialization.GameSerialization.Overworld
   name: Overworld
   href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Overworld
@@ -8792,32 +8971,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.GameSerialization.Overworld
   nameWithType: GameSerialization.Overworld
-- uid: NetAF.Serialization.GameSerialization.PlayableCharacterLocations
-  name: PlayableCharacterLocations
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_PlayableCharacterLocations
-  commentId: P:NetAF.Serialization.GameSerialization.PlayableCharacterLocations
-  fullName: NetAF.Serialization.GameSerialization.PlayableCharacterLocations
-  nameWithType: GameSerialization.PlayableCharacterLocations
-- uid: NetAF.Serialization.GameSerialization.PlayableCharacterLocations*
-  name: PlayableCharacterLocations
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_PlayableCharacterLocations_
-  commentId: Overload:NetAF.Serialization.GameSerialization.PlayableCharacterLocations
+- uid: NetAF.Serialization.GameSerialization.Players
+  name: Players
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Players
+  commentId: P:NetAF.Serialization.GameSerialization.Players
+  fullName: NetAF.Serialization.GameSerialization.Players
+  nameWithType: GameSerialization.Players
+- uid: NetAF.Serialization.GameSerialization.Players*
+  name: Players
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Players_
+  commentId: Overload:NetAF.Serialization.GameSerialization.Players
   isSpec: "True"
-  fullName: NetAF.Serialization.GameSerialization.PlayableCharacterLocations
-  nameWithType: GameSerialization.PlayableCharacterLocations
-- uid: NetAF.Serialization.GameSerialization.Player
-  name: Player
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Player
-  commentId: P:NetAF.Serialization.GameSerialization.Player
-  fullName: NetAF.Serialization.GameSerialization.Player
-  nameWithType: GameSerialization.Player
-- uid: NetAF.Serialization.GameSerialization.Player*
-  name: Player
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Player_
-  commentId: Overload:NetAF.Serialization.GameSerialization.Player
-  isSpec: "True"
-  fullName: NetAF.Serialization.GameSerialization.Player
-  nameWithType: GameSerialization.Player
+  fullName: NetAF.Serialization.GameSerialization.Players
+  nameWithType: GameSerialization.Players
 - uid: NetAF.Serialization.GameSerialization.Restore(NetAF.Logic.Game)
   name: Restore(Game)
   href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Restore_NetAF_Logic_Game_
@@ -8883,146 +9049,6 @@ references:
   fullName.vb: NetAF.Serialization.IRestoreFromObjectSerialization(Of T).RestoreFrom
   nameWithType: IRestoreFromObjectSerialization<T>.RestoreFrom
   nameWithType.vb: IRestoreFromObjectSerialization(Of T).RestoreFrom
-- uid: NetAF.Serialization.Persistence
-  name: NetAF.Serialization.Persistence
-  href: api/NetAF.Serialization.Persistence.html
-  commentId: N:NetAF.Serialization.Persistence
-  fullName: NetAF.Serialization.Persistence
-  nameWithType: NetAF.Serialization.Persistence
-- uid: NetAF.Serialization.Persistence.Json
-  name: NetAF.Serialization.Persistence.Json
-  href: api/NetAF.Serialization.Persistence.Json.html
-  commentId: N:NetAF.Serialization.Persistence.Json
-  fullName: NetAF.Serialization.Persistence.Json
-  nameWithType: NetAF.Serialization.Persistence.Json
-- uid: NetAF.Serialization.Persistence.Json.JsonSave
-  name: JsonSave
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html
-  commentId: T:NetAF.Serialization.Persistence.Json.JsonSave
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave
-  nameWithType: JsonSave
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.FromFile(System.String,NetAF.Serialization.Persistence.RestorePoint@,System.String@)
-  name: FromFile(string, out RestorePoint, out string)
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_FromFile_System_String_NetAF_Serialization_Persistence_RestorePoint__System_String__
-  commentId: M:NetAF.Serialization.Persistence.Json.JsonSave.FromFile(System.String,NetAF.Serialization.Persistence.RestorePoint@,System.String@)
-  name.vb: FromFile(String, RestorePoint, String)
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.FromFile(string, out NetAF.Serialization.Persistence.RestorePoint, out string)
-  fullName.vb: NetAF.Serialization.Persistence.Json.JsonSave.FromFile(String, NetAF.Serialization.Persistence.RestorePoint, String)
-  nameWithType: JsonSave.FromFile(string, out RestorePoint, out string)
-  nameWithType.vb: JsonSave.FromFile(String, RestorePoint, String)
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.FromFile*
-  name: FromFile
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_FromFile_
-  commentId: Overload:NetAF.Serialization.Persistence.Json.JsonSave.FromFile
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.FromFile
-  nameWithType: JsonSave.FromFile
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.FromJson(System.String)
-  name: FromJson(string)
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_FromJson_System_String_
-  commentId: M:NetAF.Serialization.Persistence.Json.JsonSave.FromJson(System.String)
-  name.vb: FromJson(String)
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.FromJson(string)
-  fullName.vb: NetAF.Serialization.Persistence.Json.JsonSave.FromJson(String)
-  nameWithType: JsonSave.FromJson(string)
-  nameWithType.vb: JsonSave.FromJson(String)
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.FromJson*
-  name: FromJson
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_FromJson_
-  commentId: Overload:NetAF.Serialization.Persistence.Json.JsonSave.FromJson
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.FromJson
-  nameWithType: JsonSave.FromJson
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.ToFile(System.String,NetAF.Serialization.Persistence.RestorePoint,System.String@)
-  name: ToFile(string, RestorePoint, out string)
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_ToFile_System_String_NetAF_Serialization_Persistence_RestorePoint_System_String__
-  commentId: M:NetAF.Serialization.Persistence.Json.JsonSave.ToFile(System.String,NetAF.Serialization.Persistence.RestorePoint,System.String@)
-  name.vb: ToFile(String, RestorePoint, String)
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.ToFile(string, NetAF.Serialization.Persistence.RestorePoint, out string)
-  fullName.vb: NetAF.Serialization.Persistence.Json.JsonSave.ToFile(String, NetAF.Serialization.Persistence.RestorePoint, String)
-  nameWithType: JsonSave.ToFile(string, RestorePoint, out string)
-  nameWithType.vb: JsonSave.ToFile(String, RestorePoint, String)
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.ToFile*
-  name: ToFile
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_ToFile_
-  commentId: Overload:NetAF.Serialization.Persistence.Json.JsonSave.ToFile
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.ToFile
-  nameWithType: JsonSave.ToFile
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.ToJson(NetAF.Serialization.Persistence.RestorePoint)
-  name: ToJson(RestorePoint)
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_ToJson_NetAF_Serialization_Persistence_RestorePoint_
-  commentId: M:NetAF.Serialization.Persistence.Json.JsonSave.ToJson(NetAF.Serialization.Persistence.RestorePoint)
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.ToJson(NetAF.Serialization.Persistence.RestorePoint)
-  nameWithType: JsonSave.ToJson(RestorePoint)
-- uid: NetAF.Serialization.Persistence.Json.JsonSave.ToJson*
-  name: ToJson
-  href: api/NetAF.Serialization.Persistence.Json.JsonSave.html#NetAF_Serialization_Persistence_Json_JsonSave_ToJson_
-  commentId: Overload:NetAF.Serialization.Persistence.Json.JsonSave.ToJson
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.Json.JsonSave.ToJson
-  nameWithType: JsonSave.ToJson
-- uid: NetAF.Serialization.Persistence.RestorePoint
-  name: RestorePoint
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html
-  commentId: T:NetAF.Serialization.Persistence.RestorePoint
-  fullName: NetAF.Serialization.Persistence.RestorePoint
-  nameWithType: RestorePoint
-- uid: NetAF.Serialization.Persistence.RestorePoint.Create(System.String,NetAF.Logic.Game)
-  name: Create(string, Game)
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_Create_System_String_NetAF_Logic_Game_
-  commentId: M:NetAF.Serialization.Persistence.RestorePoint.Create(System.String,NetAF.Logic.Game)
-  name.vb: Create(String, Game)
-  fullName: NetAF.Serialization.Persistence.RestorePoint.Create(string, NetAF.Logic.Game)
-  fullName.vb: NetAF.Serialization.Persistence.RestorePoint.Create(String, NetAF.Logic.Game)
-  nameWithType: RestorePoint.Create(string, Game)
-  nameWithType.vb: RestorePoint.Create(String, Game)
-- uid: NetAF.Serialization.Persistence.RestorePoint.Create*
-  name: Create
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_Create_
-  commentId: Overload:NetAF.Serialization.Persistence.RestorePoint.Create
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.RestorePoint.Create
-  nameWithType: RestorePoint.Create
-- uid: NetAF.Serialization.Persistence.RestorePoint.CreationTime
-  name: CreationTime
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_CreationTime
-  commentId: P:NetAF.Serialization.Persistence.RestorePoint.CreationTime
-  fullName: NetAF.Serialization.Persistence.RestorePoint.CreationTime
-  nameWithType: RestorePoint.CreationTime
-- uid: NetAF.Serialization.Persistence.RestorePoint.CreationTime*
-  name: CreationTime
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_CreationTime_
-  commentId: Overload:NetAF.Serialization.Persistence.RestorePoint.CreationTime
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.RestorePoint.CreationTime
-  nameWithType: RestorePoint.CreationTime
-- uid: NetAF.Serialization.Persistence.RestorePoint.Game
-  name: Game
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_Game
-  commentId: P:NetAF.Serialization.Persistence.RestorePoint.Game
-  fullName: NetAF.Serialization.Persistence.RestorePoint.Game
-  nameWithType: RestorePoint.Game
-- uid: NetAF.Serialization.Persistence.RestorePoint.Game*
-  name: Game
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_Game_
-  commentId: Overload:NetAF.Serialization.Persistence.RestorePoint.Game
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.RestorePoint.Game
-  nameWithType: RestorePoint.Game
-- uid: NetAF.Serialization.Persistence.RestorePoint.Name
-  name: Name
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_Name
-  commentId: P:NetAF.Serialization.Persistence.RestorePoint.Name
-  fullName: NetAF.Serialization.Persistence.RestorePoint.Name
-  nameWithType: RestorePoint.Name
-- uid: NetAF.Serialization.Persistence.RestorePoint.Name*
-  name: Name
-  href: api/NetAF.Serialization.Persistence.RestorePoint.html#NetAF_Serialization_Persistence_RestorePoint_Name_
-  commentId: Overload:NetAF.Serialization.Persistence.RestorePoint.Name
-  isSpec: "True"
-  fullName: NetAF.Serialization.Persistence.RestorePoint.Name
-  nameWithType: RestorePoint.Name
 - uid: NetAF.Utilities
   name: NetAF.Utilities
   href: api/NetAF.Utilities.html

@@ -942,6 +942,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Persistence.Json.JsonSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Persistence.Json.JsonSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Persistence.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Persistence.Json.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Persistence.RestorePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Persistence.RestorePoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Persistence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.AnsiColor.yml",
       "output": {
         ".html": {
@@ -1466,46 +1506,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Serialization.IRestoreFromObjectSerialization-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Persistence.Json.JsonSave.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Persistence.Json.JsonSave.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Persistence.Json.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Persistence.Json.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Persistence.RestorePoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Persistence.RestorePoint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Persistence.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Persistence.html"
         }
       },
       "version": ""
