@@ -153,19 +153,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Exit.%23ctor(NetAF.Assets.Locations.Direction%2CSystem.Boolean%2CNetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Exit.%23ctor(NetAF.Assets.Locations.Direction%2CSystem.Boolean%2CNetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback%2CNetAF.Assets.ExaminationCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L43">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L44">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Exit__ctor_" data-uid="NetAF.Assets.Locations.Exit.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)">Exit(Direction, bool, Identifier, Description, CustomCommand[], InteractionCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback,NetAF.Assets.ExaminationCallback)">Exit(Direction, bool, Identifier, Description, CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Exit class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Exit(Direction direction, bool isLocked = false, Identifier identifier = null, Description description = null, CustomCommand[] commands = null, InteractionCallback interaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Exit(Direction direction, bool isLocked = false, Identifier identifier = null, Description description = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -211,6 +211,12 @@
         <td><a class="xref" href="NetAF.Assets.Interaction.InteractionCallback.html">InteractionCallback</a></td>
         <td><span class="parametername">interaction</span></td>
         <td><p>The interaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.ExaminationCallback.html">ExaminationCallback</a></td>
+        <td><span class="parametername">examination</span></td>
+        <td><p>The examination.</p>
 </td>
       </tr>
     </tbody>
@@ -317,7 +323,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Exit_Interact_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Exit.Interact(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L91">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L95">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Exit_Interact_" data-uid="NetAF.Assets.Locations.Exit.Interact*"></a>
   <h4 id="NetAF_Assets_Locations_Exit_Interact_NetAF_Assets_Item_" data-uid="NetAF.Assets.Locations.Exit.Interact(NetAF.Assets.Item)">Interact(Item)</h4>
@@ -367,7 +373,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Exit_Lock.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Exit.Lock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L77">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L81">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Exit_Lock_" data-uid="NetAF.Assets.Locations.Exit.Lock*"></a>
   <h4 id="NetAF_Assets_Locations_Exit_Lock" data-uid="NetAF.Assets.Locations.Exit.Lock">Lock()</h4>
@@ -383,7 +389,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Exit_RestoreFrom_NetAF_Serialization_Assets_ExitSerialization_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Exit.RestoreFrom(NetAF.Serialization.Assets.ExitSerialization)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L104">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L108">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Exit_RestoreFrom_" data-uid="NetAF.Assets.Locations.Exit.RestoreFrom*"></a>
   <h4 id="NetAF_Assets_Locations_Exit_RestoreFrom_NetAF_Serialization_Assets_ExitSerialization_" data-uid="NetAF.Assets.Locations.Exit.RestoreFrom(NetAF.Serialization.Assets.ExitSerialization)">RestoreFrom(ExitSerialization)</h4>
@@ -417,7 +423,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Exit_Unlock.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Exit.Unlock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L69">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Exit.cs/#L73">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Exit_Unlock_" data-uid="NetAF.Assets.Locations.Exit.Unlock*"></a>
   <h4 id="NetAF_Assets_Locations_Exit_Unlock" data-uid="NetAF.Assets.Locations.Exit.Unlock">Unlock()</h4>

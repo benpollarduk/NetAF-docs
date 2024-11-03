@@ -151,19 +151,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Assets.Locations.Exit%5B%5D%2CNetAF.Assets.Item%5B%5D%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Assets.Locations.Exit%5B%5D%2CNetAF.Assets.Item%5B%5D%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback%2CNetAF.Assets.ExaminationCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L84">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L86">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room__ctor_" data-uid="NetAF.Assets.Locations.Room.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)">Room(Identifier, Description, Exit[], Item[], CustomCommand[], InteractionCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback,NetAF.Assets.ExaminationCallback)">Room(Identifier, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Room class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Room(Identifier identifier, Description description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Room(Identifier identifier, Description description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -211,23 +211,29 @@
         <td><p>The interaction.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.ExaminationCallback.html">ExaminationCallback</a></td>
+        <td><span class="parametername">examination</span></td>
+        <td><p>The examination.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.%23ctor(System.String%2CSystem.String%2CNetAF.Assets.Locations.Exit%5B%5D%2CNetAF.Assets.Item%5B%5D%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.%23ctor(System.String%2CSystem.String%2CNetAF.Assets.Locations.Exit%5B%5D%2CNetAF.Assets.Item%5B%5D%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback%2CNetAF.Assets.ExaminationCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L71">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L72">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room__ctor_" data-uid="NetAF.Assets.Locations.Room.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)">Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback,NetAF.Assets.ExaminationCallback)">Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Room class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Room(string identifier, string description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Room(string identifier, string description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -273,6 +279,12 @@
         <td><a class="xref" href="NetAF.Assets.Interaction.InteractionCallback.html">InteractionCallback</a></td>
         <td><span class="parametername">interaction</span></td>
         <td><p>The interaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.ExaminationCallback.html">ExaminationCallback</a></td>
+        <td><span class="parametername">examination</span></td>
+        <td><p>The examination.</p>
 </td>
       </tr>
     </tbody>
@@ -489,7 +501,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_Items.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.Items%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L442">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L447">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_Items_" data-uid="NetAF.Assets.Locations.Room.Items*"></a>
   <h4 id="NetAF_Assets_Locations_Room_Items" data-uid="NetAF.Assets.Locations.Room.Items">Items</h4>
@@ -553,7 +565,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_AddCharacter_NetAF_Assets_Characters_NonPlayableCharacter_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.AddCharacter(NetAF.Assets.Characters.NonPlayableCharacter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L111">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L116">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_AddCharacter_" data-uid="NetAF.Assets.Locations.Room.AddCharacter*"></a>
   <h4 id="NetAF_Assets_Locations_Room_AddCharacter_NetAF_Assets_Characters_NonPlayableCharacter_" data-uid="NetAF.Assets.Locations.Room.AddCharacter(NetAF.Assets.Characters.NonPlayableCharacter)">AddCharacter(NonPlayableCharacter)</h4>
@@ -587,7 +599,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_AddItem_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.AddItem(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L448">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L453">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_AddItem_" data-uid="NetAF.Assets.Locations.Room.AddItem*"></a>
   <h4 id="NetAF_Assets_Locations_Room_AddItem_NetAF_Assets_Item_" data-uid="NetAF.Assets.Locations.Room.AddItem(NetAF.Assets.Item)">AddItem(Item)</h4>
@@ -621,7 +633,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_CanMove_NetAF_Assets_Locations_Direction_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.CanMove(NetAF.Assets.Locations.Direction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L152">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L157">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_CanMove_" data-uid="NetAF.Assets.Locations.Room.CanMove*"></a>
   <h4 id="NetAF_Assets_Locations_Room_CanMove_NetAF_Assets_Locations_Direction_" data-uid="NetAF.Assets.Locations.Room.CanMove(NetAF.Assets.Locations.Direction)">CanMove(Direction)</h4>
@@ -671,7 +683,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsCharacter_NetAF_Assets_Characters_NonPlayableCharacter_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsCharacter(NetAF.Assets.Characters.NonPlayableCharacter%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L354">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L359">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsCharacter_" data-uid="NetAF.Assets.Locations.Room.ContainsCharacter*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsCharacter_NetAF_Assets_Characters_NonPlayableCharacter_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.ContainsCharacter(NetAF.Assets.Characters.NonPlayableCharacter,System.Boolean)">ContainsCharacter(NonPlayableCharacter, bool)</h4>
@@ -727,7 +739,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsCharacter_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsCharacter(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L365">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L370">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsCharacter_" data-uid="NetAF.Assets.Locations.Room.ContainsCharacter*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsCharacter_System_String_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.ContainsCharacter(System.String,System.Boolean)">ContainsCharacter(string, bool)</h4>
@@ -783,7 +795,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsExit_NetAF_Assets_Locations_Direction_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsExit(NetAF.Assets.Locations.Direction%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L227">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L232">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsExit_" data-uid="NetAF.Assets.Locations.Room.ContainsExit*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsExit_NetAF_Assets_Locations_Direction_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.ContainsExit(NetAF.Assets.Locations.Direction,System.Boolean)">ContainsExit(Direction, bool)</h4>
@@ -839,7 +851,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsExit_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsExit(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L216">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L221">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsExit_" data-uid="NetAF.Assets.Locations.Room.ContainsExit*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsExit_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.ContainsExit(System.Boolean)">ContainsExit(bool)</h4>
@@ -889,7 +901,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsInteractionTarget_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsInteractionTarget(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L279">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L284">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsInteractionTarget_" data-uid="NetAF.Assets.Locations.Room.ContainsInteractionTarget*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsInteractionTarget_System_String_" data-uid="NetAF.Assets.Locations.Room.ContainsInteractionTarget(System.String)">ContainsInteractionTarget(string)</h4>
@@ -939,7 +951,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsItem_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L258">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L263">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsItem_" data-uid="NetAF.Assets.Locations.Room.ContainsItem*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsItem_NetAF_Assets_Item_" data-uid="NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item)">ContainsItem(Item)</h4>
@@ -989,7 +1001,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_ContainsItem_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.ContainsItem(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L269">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L274">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_ContainsItem_" data-uid="NetAF.Assets.Locations.Room.ContainsItem*"></a>
   <h4 id="NetAF_Assets_Locations_Room_ContainsItem_System_String_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.ContainsItem(System.String,System.Boolean)">ContainsItem(string, bool)</h4>
@@ -1045,7 +1057,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_Examine_NetAF_Assets_ExaminationScene_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L172">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L177">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_Examine_" data-uid="NetAF.Assets.Locations.Room.Examine*"></a>
   <h4 id="NetAF_Assets_Locations_Room_Examine_NetAF_Assets_ExaminationScene_" data-uid="NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)">Examine(ExaminationScene)</h4>
@@ -1097,7 +1109,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_FindCharacter_System_String_NetAF_Assets_Characters_NonPlayableCharacter__.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.FindCharacter(System.String%2CNetAF.Assets.Characters.NonPlayableCharacter%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L376">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L381">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_FindCharacter_" data-uid="NetAF.Assets.Locations.Room.FindCharacter*"></a>
   <h4 id="NetAF_Assets_Locations_Room_FindCharacter_System_String_NetAF_Assets_Characters_NonPlayableCharacter__" data-uid="NetAF.Assets.Locations.Room.FindCharacter(System.String,NetAF.Assets.Characters.NonPlayableCharacter@)">FindCharacter(string, out NonPlayableCharacter)</h4>
@@ -1153,7 +1165,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_FindCharacter_System_String_NetAF_Assets_Characters_NonPlayableCharacter__System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.FindCharacter(System.String%2CNetAF.Assets.Characters.NonPlayableCharacter%40%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L388">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L393">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_FindCharacter_" data-uid="NetAF.Assets.Locations.Room.FindCharacter*"></a>
   <h4 id="NetAF_Assets_Locations_Room_FindCharacter_System_String_NetAF_Assets_Characters_NonPlayableCharacter__System_Boolean_" data-uid="NetAF.Assets.Locations.Room.FindCharacter(System.String,NetAF.Assets.Characters.NonPlayableCharacter@,System.Boolean)">FindCharacter(string, out NonPlayableCharacter, bool)</h4>
@@ -1215,7 +1227,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_FindExit_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Locations_Exit__.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.FindExit(NetAF.Assets.Locations.Direction%2CSystem.Boolean%2CNetAF.Assets.Locations.Exit%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L239">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L244">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_FindExit_" data-uid="NetAF.Assets.Locations.Room.FindExit*"></a>
   <h4 id="NetAF_Assets_Locations_Room_FindExit_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Locations_Exit__" data-uid="NetAF.Assets.Locations.Room.FindExit(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Locations.Exit@)">FindExit(Direction, bool, out Exit)</h4>
@@ -1277,7 +1289,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_FindInteractionTarget_System_String_NetAF_Assets_Interaction_IInteractWithItem__.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.FindInteractionTarget(System.String%2CNetAF.Assets.Interaction.IInteractWithItem%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L322">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L327">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_FindInteractionTarget_" data-uid="NetAF.Assets.Locations.Room.FindInteractionTarget*"></a>
   <h4 id="NetAF_Assets_Locations_Room_FindInteractionTarget_System_String_NetAF_Assets_Interaction_IInteractWithItem__" data-uid="NetAF.Assets.Locations.Room.FindInteractionTarget(System.String,NetAF.Assets.Interaction.IInteractWithItem@)">FindInteractionTarget(string, out IInteractWithItem)</h4>
@@ -1333,7 +1345,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_FindItem_System_String_NetAF_Assets_Item__.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.FindItem(System.String%2CNetAF.Assets.Item%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L290">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L295">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_FindItem_" data-uid="NetAF.Assets.Locations.Room.FindItem*"></a>
   <h4 id="NetAF_Assets_Locations_Room_FindItem_System_String_NetAF_Assets_Item__" data-uid="NetAF.Assets.Locations.Room.FindItem(System.String,NetAF.Assets.Item@)">FindItem(string, out Item)</h4>
@@ -1389,7 +1401,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_FindItem_System_String_NetAF_Assets_Item__System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.FindItem(System.String%2CNetAF.Assets.Item%40%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L302">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L307">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_FindItem_" data-uid="NetAF.Assets.Locations.Room.FindItem*"></a>
   <h4 id="NetAF_Assets_Locations_Room_FindItem_System_String_NetAF_Assets_Item__System_Boolean_" data-uid="NetAF.Assets.Locations.Room.FindItem(System.String,NetAF.Assets.Item@,System.Boolean)">FindItem(string, out Item, bool)</h4>
@@ -1451,7 +1463,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_HasLockedExitInDirection_NetAF_Assets_Locations_Direction_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.HasLockedExitInDirection(NetAF.Assets.Locations.Direction%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L195">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L200">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_HasLockedExitInDirection_" data-uid="NetAF.Assets.Locations.Room.HasLockedExitInDirection*"></a>
   <h4 id="NetAF_Assets_Locations_Room_HasLockedExitInDirection_NetAF_Assets_Locations_Direction_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.HasLockedExitInDirection(NetAF.Assets.Locations.Direction,System.Boolean)">HasLockedExitInDirection(Direction, bool)</h4>
@@ -1507,7 +1519,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_HasUnlockedExitInDirection_NetAF_Assets_Locations_Direction_System_Boolean_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.HasUnlockedExitInDirection(NetAF.Assets.Locations.Direction%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L206">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L211">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_HasUnlockedExitInDirection_" data-uid="NetAF.Assets.Locations.Room.HasUnlockedExitInDirection*"></a>
   <h4 id="NetAF_Assets_Locations_Room_HasUnlockedExitInDirection_NetAF_Assets_Locations_Direction_System_Boolean_" data-uid="NetAF.Assets.Locations.Room.HasUnlockedExitInDirection(NetAF.Assets.Locations.Direction,System.Boolean)">HasUnlockedExitInDirection(Direction, bool)</h4>
@@ -1563,7 +1575,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_Interact_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.Interact(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L430">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L435">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_Interact_" data-uid="NetAF.Assets.Locations.Room.Interact*"></a>
   <h4 id="NetAF_Assets_Locations_Room_Interact_NetAF_Assets_Item_" data-uid="NetAF.Assets.Locations.Room.Interact(NetAF.Assets.Item)">Interact(Item)</h4>
@@ -1613,7 +1625,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_MovedInto_System_Nullable_NetAF_Assets_Locations_Direction__.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.MovedInto(System.Nullable%7BNetAF.Assets.Locations.Direction%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L415">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L420">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_MovedInto_" data-uid="NetAF.Assets.Locations.Room.MovedInto*"></a>
   <h4 id="NetAF_Assets_Locations_Room_MovedInto_System_Nullable_NetAF_Assets_Locations_Direction__" data-uid="NetAF.Assets.Locations.Room.MovedInto(System.Nullable{NetAF.Assets.Locations.Direction})">MovedInto(Direction?)</h4>
@@ -1647,7 +1659,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_RemoveCharacter_NetAF_Assets_Characters_NonPlayableCharacter_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.RemoveCharacter(NetAF.Assets.Characters.NonPlayableCharacter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L120">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L125">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_RemoveCharacter_" data-uid="NetAF.Assets.Locations.Room.RemoveCharacter*"></a>
   <h4 id="NetAF_Assets_Locations_Room_RemoveCharacter_NetAF_Assets_Characters_NonPlayableCharacter_" data-uid="NetAF.Assets.Locations.Room.RemoveCharacter(NetAF.Assets.Characters.NonPlayableCharacter)">RemoveCharacter(NonPlayableCharacter)</h4>
@@ -1681,7 +1693,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_RemoveInteractionTarget_NetAF_Assets_Interaction_IInteractWithItem_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.RemoveInteractionTarget(NetAF.Assets.Interaction.IInteractWithItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L130">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L135">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_RemoveInteractionTarget_" data-uid="NetAF.Assets.Locations.Room.RemoveInteractionTarget*"></a>
   <h4 id="NetAF_Assets_Locations_Room_RemoveInteractionTarget_NetAF_Assets_Interaction_IInteractWithItem_" data-uid="NetAF.Assets.Locations.Room.RemoveInteractionTarget(NetAF.Assets.Interaction.IInteractWithItem)">RemoveInteractionTarget(IInteractWithItem)</h4>
@@ -1731,7 +1743,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_RemoveItem_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.RemoveItem(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L457">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L462">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_RemoveItem_" data-uid="NetAF.Assets.Locations.Room.RemoveItem*"></a>
   <h4 id="NetAF_Assets_Locations_Room_RemoveItem_NetAF_Assets_Item_" data-uid="NetAF.Assets.Locations.Room.RemoveItem(NetAF.Assets.Item)">RemoveItem(Item)</h4>
@@ -1765,7 +1777,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_RestoreFrom_NetAF_Serialization_Assets_RoomSerialization_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.RestoreFrom(NetAF.Serialization.Assets.RoomSerialization)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L470">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L475">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_RestoreFrom_" data-uid="NetAF.Assets.Locations.Room.RestoreFrom*"></a>
   <h4 id="NetAF_Assets_Locations_Room_RestoreFrom_NetAF_Serialization_Assets_RoomSerialization_" data-uid="NetAF.Assets.Locations.Room.RestoreFrom(NetAF.Serialization.Assets.RoomSerialization)">RestoreFrom(RoomSerialization)</h4>
@@ -1799,7 +1811,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Room_SpecifyConditionalDescription_NetAF_Assets_ConditionalDescription_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Room.SpecifyConditionalDescription(NetAF.Assets.ConditionalDescription)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L406">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Room.cs/#L411">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Room_SpecifyConditionalDescription_" data-uid="NetAF.Assets.Locations.Room.SpecifyConditionalDescription*"></a>
   <h4 id="NetAF_Assets_Locations_Room_SpecifyConditionalDescription_NetAF_Assets_ConditionalDescription_" data-uid="NetAF.Assets.Locations.Room.SpecifyConditionalDescription(NetAF.Assets.ConditionalDescription)">SpecifyConditionalDescription(ConditionalDescription)</h4>
