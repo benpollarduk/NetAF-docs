@@ -5006,6 +5006,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.GetAllPlayerVisibleExaminables
   nameWithType: Game.GetAllPlayerVisibleExaminables
+- uid: NetAF.Logic.Game.GetInactivePlayerLocations
+  name: GetInactivePlayerLocations()
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetInactivePlayerLocations
+  commentId: M:NetAF.Logic.Game.GetInactivePlayerLocations
+  fullName: NetAF.Logic.Game.GetInactivePlayerLocations()
+  nameWithType: Game.GetInactivePlayerLocations()
+- uid: NetAF.Logic.Game.GetInactivePlayerLocations*
+  name: GetInactivePlayerLocations
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetInactivePlayerLocations_
+  commentId: Overload:NetAF.Logic.Game.GetInactivePlayerLocations
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.GetInactivePlayerLocations
+  nameWithType: Game.GetInactivePlayerLocations
 - uid: NetAF.Logic.Game.Info
   name: Info
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Info
