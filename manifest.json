@@ -1392,6 +1392,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.CustomCommandSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.CustomCommandSerialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Serialization.Assets.ExaminableSerialization.yml",
       "output": {
         ".html": {

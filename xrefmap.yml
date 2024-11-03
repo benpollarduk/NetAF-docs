@@ -602,42 +602,33 @@ references:
   commentId: T:NetAF.Assets.Characters.NonPlayableCharacter
   fullName: NetAF.Assets.Characters.NonPlayableCharacter
   nameWithType: NonPlayableCharacter
-- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation)
-  name: NonPlayableCharacter(Identifier, Description, Conversation)
-  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_
-  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation)
-  name.vb: New(Identifier, Description, Conversation)
-  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation)
-  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation)
-  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, Conversation)
-  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Conversation)
-- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,System.Boolean,NetAF.Assets.Interaction.InteractionCallback)
-  name: NonPlayableCharacter(Identifier, Description, Conversation, bool, InteractionCallback)
-  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_System_Boolean_NetAF_Assets_Interaction_InteractionCallback_
-  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,System.Boolean,NetAF.Assets.Interaction.InteractionCallback)
-  name.vb: New(Identifier, Description, Conversation, Boolean, InteractionCallback)
-  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, bool, NetAF.Assets.Interaction.InteractionCallback)
-  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, Boolean, NetAF.Assets.Interaction.InteractionCallback)
-  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, Conversation, bool, InteractionCallback)
-  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Conversation, Boolean, InteractionCallback)
-- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,System.Boolean,NetAF.Assets.Interaction.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: NonPlayableCharacter(Identifier, Description, Conversation, bool, InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_System_Boolean_NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,System.Boolean,NetAF.Assets.Interaction.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Conversation, Boolean, InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, bool, NetAF.Assets.Interaction.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, Boolean, NetAF.Assets.Interaction.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, Conversation, bool, InteractionCallback, ExaminationCallback)
-  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Conversation, Boolean, InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation)
-  name: NonPlayableCharacter(string, string, Conversation)
-  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_
-  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation)
-  name.vb: New(String, String, Conversation)
-  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(string, string, NetAF.Conversations.Conversation)
-  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(String, String, NetAF.Conversations.Conversation)
-  nameWithType: NonPlayableCharacter.NonPlayableCharacter(string, string, Conversation)
-  nameWithType.vb: NonPlayableCharacter.New(String, String, Conversation)
+- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: NonPlayableCharacter(Identifier, Description, Conversation, CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Identifier, Description, Conversation, CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, Conversation, CustomCommand[], InteractionCallback)
+  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Conversation, CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: NonPlayableCharacter(Identifier, Description, bool, Conversation, CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Identifier, Description, Boolean, Conversation, CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, bool, Conversation, CustomCommand[], InteractionCallback)
+  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Boolean, Conversation, CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: NonPlayableCharacter(string, string, Conversation, CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(String, String, Conversation, CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(string, string, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(String, String, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: NonPlayableCharacter.NonPlayableCharacter(string, string, Conversation, CustomCommand[], InteractionCallback)
+  nameWithType.vb: NonPlayableCharacter.New(String, String, Conversation, CustomCommand(), InteractionCallback)
 - uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor*
   name: NonPlayableCharacter
   href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_
@@ -680,42 +671,42 @@ references:
   commentId: T:NetAF.Assets.Characters.PlayableCharacter
   fullName: NetAF.Assets.Characters.PlayableCharacter
   nameWithType: PlayableCharacter
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Item[])
-  name: PlayableCharacter(Identifier, Description, params Item[])
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Item___
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Item[])
-  name.vb: New(Identifier, Description, ParamArray Item())
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, params NetAF.Assets.Item[])
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, ParamArray NetAF.Assets.Item())
-  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, Description, params Item[])
-  nameWithType.vb: PlayableCharacter.New(Identifier, Description, ParamArray Item())
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Assets.Item[])
-  name: PlayableCharacter(Identifier, Description, bool, params Item[])
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Assets_Item___
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Assets.Item[])
-  name.vb: New(Identifier, Description, Boolean, ParamArray Item())
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, params NetAF.Assets.Item[])
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, ParamArray NetAF.Assets.Item())
-  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, Description, bool, params Item[])
-  nameWithType.vb: PlayableCharacter.New(Identifier, Description, Boolean, ParamArray Item())
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,NetAF.Assets.Item[])
-  name: PlayableCharacter(string, string, params Item[])
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_NetAF_Assets_Item___
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,NetAF.Assets.Item[])
-  name.vb: New(String, String, ParamArray Item())
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(string, string, params NetAF.Assets.Item[])
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, ParamArray NetAF.Assets.Item())
-  nameWithType: PlayableCharacter.PlayableCharacter(string, string, params Item[])
-  nameWithType.vb: PlayableCharacter.New(String, String, ParamArray Item())
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[])
-  name: PlayableCharacter(string, string, bool, params Item[])
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_System_Boolean_NetAF_Assets_Item___
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[])
-  name.vb: New(String, String, Boolean, ParamArray Item())
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(string, string, bool, params NetAF.Assets.Item[])
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, Boolean, ParamArray NetAF.Assets.Item())
-  nameWithType: PlayableCharacter.PlayableCharacter(string, string, bool, params Item[])
-  nameWithType.vb: PlayableCharacter.New(String, String, Boolean, ParamArray Item())
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: PlayableCharacter(Identifier, Description, Item[], CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Identifier, Description, Item(), CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, Description, Item[], CustomCommand[], InteractionCallback)
+  nameWithType.vb: PlayableCharacter.New(Identifier, Description, Item(), CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: PlayableCharacter(Identifier, Description, bool, Item[], CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Identifier, Description, Boolean, Item(), CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, Description, bool, Item[], CustomCommand[], InteractionCallback)
+  nameWithType.vb: PlayableCharacter.New(Identifier, Description, Boolean, Item(), CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: PlayableCharacter(string, string, Item[], CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(String, String, Item(), CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(string, string, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(string, string, Item[], CustomCommand[], InteractionCallback)
+  nameWithType.vb: PlayableCharacter.New(String, String, Item(), CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: PlayableCharacter(string, string, bool, Item[], CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(String, String, Boolean, Item(), CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(string, string, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(string, string, bool, Item[], CustomCommand[], InteractionCallback)
+  nameWithType.vb: PlayableCharacter.New(String, String, Boolean, Item(), CustomCommand(), InteractionCallback)
 - uid: NetAF.Assets.Characters.PlayableCharacter.#ctor*
   name: PlayableCharacter
   href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_
@@ -977,19 +968,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.ExaminableObject.RestoreFrom
   nameWithType: ExaminableObject.RestoreFrom
-- uid: NetAF.Assets.ExaminableObject.ToString
-  name: ToString()
-  href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_ToString
-  commentId: M:NetAF.Assets.ExaminableObject.ToString
-  fullName: NetAF.Assets.ExaminableObject.ToString()
-  nameWithType: ExaminableObject.ToString()
-- uid: NetAF.Assets.ExaminableObject.ToString*
-  name: ToString
-  href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_ToString_
-  commentId: Overload:NetAF.Assets.ExaminableObject.ToString
-  isSpec: "True"
-  fullName: NetAF.Assets.ExaminableObject.ToString
-  nameWithType: ExaminableObject.ToString
 - uid: NetAF.Assets.ExaminationCallback
   name: ExaminationCallback
   href: api/NetAF.Assets.ExaminationCallback.html
@@ -1646,24 +1624,24 @@ references:
   commentId: T:NetAF.Assets.Item
   fullName: NetAF.Assets.Item
   nameWithType: Item
-- uid: NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean)
-  name: Item(Identifier, Description, bool)
-  href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_
-  commentId: M:NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean)
-  name.vb: New(Identifier, Description, Boolean)
-  fullName: NetAF.Assets.Item.Item(NetAF.Assets.Identifier, NetAF.Assets.Description, bool)
-  fullName.vb: NetAF.Assets.Item.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean)
-  nameWithType: Item.Item(Identifier, Description, bool)
-  nameWithType.vb: Item.New(Identifier, Description, Boolean)
-- uid: NetAF.Assets.Item.#ctor(System.String,System.String,System.Boolean)
-  name: Item(string, string, bool)
-  href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_System_String_System_String_System_Boolean_
-  commentId: M:NetAF.Assets.Item.#ctor(System.String,System.String,System.Boolean)
-  name.vb: New(String, String, Boolean)
-  fullName: NetAF.Assets.Item.Item(string, string, bool)
-  fullName.vb: NetAF.Assets.Item.New(String, String, Boolean)
-  nameWithType: Item.Item(string, string, bool)
-  nameWithType.vb: Item.New(String, String, Boolean)
+- uid: NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: Item(Identifier, Description, bool, CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Identifier, Description, Boolean, CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Item.Item(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Item.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: Item.Item(Identifier, Description, bool, CustomCommand[], InteractionCallback)
+  nameWithType.vb: Item.New(Identifier, Description, Boolean, CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Item.#ctor(System.String,System.String,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: Item(string, string, bool, CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_System_String_System_String_System_Boolean_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Item.#ctor(System.String,System.String,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(String, String, Boolean, CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Item.Item(string, string, bool, NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Item.New(String, String, Boolean, NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: Item.Item(string, string, bool, CustomCommand[], InteractionCallback)
+  nameWithType.vb: Item.New(String, String, Boolean, CustomCommand(), InteractionCallback)
 - uid: NetAF.Assets.Item.#ctor*
   name: Item
   href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_
@@ -1780,15 +1758,15 @@ references:
   commentId: T:NetAF.Assets.Locations.Exit
   fullName: NetAF.Assets.Locations.Exit
   nameWithType: Exit
-- uid: NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description)
-  name: Exit(Direction, bool, Identifier, Description)
-  href: api/NetAF.Assets.Locations.Exit.html#NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_
-  commentId: M:NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description)
-  name.vb: New(Direction, Boolean, Identifier, Description)
-  fullName: NetAF.Assets.Locations.Exit.Exit(NetAF.Assets.Locations.Direction, bool, NetAF.Assets.Identifier, NetAF.Assets.Description)
-  fullName.vb: NetAF.Assets.Locations.Exit.New(NetAF.Assets.Locations.Direction, Boolean, NetAF.Assets.Identifier, NetAF.Assets.Description)
-  nameWithType: Exit.Exit(Direction, bool, Identifier, Description)
-  nameWithType.vb: Exit.New(Direction, Boolean, Identifier, Description)
+- uid: NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: Exit(Direction, bool, Identifier, Description, CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Locations.Exit.html#NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Direction, Boolean, Identifier, Description, CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Locations.Exit.Exit(NetAF.Assets.Locations.Direction, bool, NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Locations.Exit.New(NetAF.Assets.Locations.Direction, Boolean, NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: Exit.Exit(Direction, bool, Identifier, Description, CustomCommand[], InteractionCallback)
+  nameWithType.vb: Exit.New(Direction, Boolean, Identifier, Description, CustomCommand(), InteractionCallback)
 - uid: NetAF.Assets.Locations.Exit.#ctor*
   name: Exit
   href: api/NetAF.Assets.Locations.Exit.html#NetAF_Assets_Locations_Exit__ctor_
@@ -1992,24 +1970,24 @@ references:
   commentId: T:NetAF.Assets.Locations.Overworld
   fullName: NetAF.Assets.Locations.Overworld
   nameWithType: Overworld
-- uid: NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description)
-  name: Overworld(Identifier, Description)
-  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_
-  commentId: M:NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description)
-  name.vb: New(Identifier, Description)
-  fullName: NetAF.Assets.Locations.Overworld.Overworld(NetAF.Assets.Identifier, NetAF.Assets.Description)
-  fullName.vb: NetAF.Assets.Locations.Overworld.New(NetAF.Assets.Identifier, NetAF.Assets.Description)
-  nameWithType: Overworld.Overworld(Identifier, Description)
-  nameWithType.vb: Overworld.New(Identifier, Description)
-- uid: NetAF.Assets.Locations.Overworld.#ctor(System.String,System.String)
-  name: Overworld(string, string)
-  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_System_String_System_String_
-  commentId: M:NetAF.Assets.Locations.Overworld.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: NetAF.Assets.Locations.Overworld.Overworld(string, string)
-  fullName.vb: NetAF.Assets.Locations.Overworld.New(String, String)
-  nameWithType: Overworld.Overworld(string, string)
-  nameWithType.vb: Overworld.New(String, String)
+- uid: NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[])
+  name: Overworld(Identifier, Description, CustomCommand[])
+  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___
+  commentId: M:NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[])
+  name.vb: New(Identifier, Description, CustomCommand())
+  fullName: NetAF.Assets.Locations.Overworld.Overworld(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand[])
+  fullName.vb: NetAF.Assets.Locations.Overworld.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand())
+  nameWithType: Overworld.Overworld(Identifier, Description, CustomCommand[])
+  nameWithType.vb: Overworld.New(Identifier, Description, CustomCommand())
+- uid: NetAF.Assets.Locations.Overworld.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[])
+  name: Overworld(string, string, CustomCommand[])
+  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_System_String_System_String_NetAF_Commands_CustomCommand___
+  commentId: M:NetAF.Assets.Locations.Overworld.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[])
+  name.vb: New(String, String, CustomCommand())
+  fullName: NetAF.Assets.Locations.Overworld.Overworld(string, string, NetAF.Commands.CustomCommand[])
+  fullName.vb: NetAF.Assets.Locations.Overworld.New(String, String, NetAF.Commands.CustomCommand())
+  nameWithType: Overworld.Overworld(string, string, CustomCommand[])
+  nameWithType.vb: Overworld.New(String, String, CustomCommand())
 - uid: NetAF.Assets.Locations.Overworld.#ctor*
   name: Overworld
   href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_
@@ -2133,24 +2111,24 @@ references:
   commentId: T:NetAF.Assets.Locations.Region
   fullName: NetAF.Assets.Locations.Region
   nameWithType: Region
-- uid: NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description)
-  name: Region(Identifier, Description)
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_
-  commentId: M:NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description)
-  name.vb: New(Identifier, Description)
-  fullName: NetAF.Assets.Locations.Region.Region(NetAF.Assets.Identifier, NetAF.Assets.Description)
-  fullName.vb: NetAF.Assets.Locations.Region.New(NetAF.Assets.Identifier, NetAF.Assets.Description)
-  nameWithType: Region.Region(Identifier, Description)
-  nameWithType.vb: Region.New(Identifier, Description)
-- uid: NetAF.Assets.Locations.Region.#ctor(System.String,System.String)
-  name: Region(string, string)
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_System_String_System_String_
-  commentId: M:NetAF.Assets.Locations.Region.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: NetAF.Assets.Locations.Region.Region(string, string)
-  fullName.vb: NetAF.Assets.Locations.Region.New(String, String)
-  nameWithType: Region.Region(string, string)
-  nameWithType.vb: Region.New(String, String)
+- uid: NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[])
+  name: Region(Identifier, Description, CustomCommand[])
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___
+  commentId: M:NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[])
+  name.vb: New(Identifier, Description, CustomCommand())
+  fullName: NetAF.Assets.Locations.Region.Region(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand[])
+  fullName.vb: NetAF.Assets.Locations.Region.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand())
+  nameWithType: Region.Region(Identifier, Description, CustomCommand[])
+  nameWithType.vb: Region.New(Identifier, Description, CustomCommand())
+- uid: NetAF.Assets.Locations.Region.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[])
+  name: Region(string, string, CustomCommand[])
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_System_String_System_String_NetAF_Commands_CustomCommand___
+  commentId: M:NetAF.Assets.Locations.Region.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[])
+  name.vb: New(String, String, CustomCommand())
+  fullName: NetAF.Assets.Locations.Region.Region(string, string, NetAF.Commands.CustomCommand[])
+  fullName.vb: NetAF.Assets.Locations.Region.New(String, String, NetAF.Commands.CustomCommand())
+  nameWithType: Region.Region(string, string, CustomCommand[])
+  nameWithType.vb: Region.New(String, String, CustomCommand())
 - uid: NetAF.Assets.Locations.Region.#ctor*
   name: Region
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_
@@ -2392,42 +2370,24 @@ references:
   commentId: T:NetAF.Assets.Locations.Room
   fullName: NetAF.Assets.Locations.Room
   nameWithType: Room
-- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[])
-  name: Room(Identifier, Description, params Exit[])
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[])
-  name.vb: New(Identifier, Description, ParamArray Exit())
-  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.Description, params NetAF.Assets.Locations.Exit[])
-  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.Description, ParamArray NetAF.Assets.Locations.Exit())
-  nameWithType: Room.Room(Identifier, Description, params Exit[])
-  nameWithType.vb: Room.New(Identifier, Description, ParamArray Exit())
-- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[])
-  name: Room(Identifier, Description, Exit[], params Item[])
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[])
-  name.vb: New(Identifier, Description, Exit(), ParamArray Item())
-  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Locations.Exit[], params NetAF.Assets.Item[])
-  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Locations.Exit(), ParamArray NetAF.Assets.Item())
-  nameWithType: Room.Room(Identifier, Description, Exit[], params Item[])
-  nameWithType.vb: Room.New(Identifier, Description, Exit(), ParamArray Item())
-- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[])
-  name: Room(string, string, params Exit[])
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[])
-  name.vb: New(String, String, ParamArray Exit())
-  fullName: NetAF.Assets.Locations.Room.Room(string, string, params NetAF.Assets.Locations.Exit[])
-  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, ParamArray NetAF.Assets.Locations.Exit())
-  nameWithType: Room.Room(string, string, params Exit[])
-  nameWithType.vb: Room.New(String, String, ParamArray Exit())
-- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[])
-  name: Room(string, string, Exit[], params Item[])
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[])
-  name.vb: New(String, String, Exit(), ParamArray Item())
-  fullName: NetAF.Assets.Locations.Room.Room(string, string, NetAF.Assets.Locations.Exit[], params NetAF.Assets.Item[])
-  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, NetAF.Assets.Locations.Exit(), ParamArray NetAF.Assets.Item())
-  nameWithType: Room.Room(string, string, Exit[], params Item[])
-  nameWithType.vb: Room.New(String, String, Exit(), ParamArray Item())
+- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: Room(Identifier, Description, Exit[], Item[], CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(Identifier, Description, Exit(), Item(), CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: Room.Room(Identifier, Description, Exit[], Item[], CustomCommand[], InteractionCallback)
+  nameWithType.vb: Room.New(Identifier, Description, Exit(), Item(), CustomCommand(), InteractionCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name: Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)
+  name.vb: New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(string, string, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.Interaction.InteractionCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.Interaction.InteractionCallback)
+  nameWithType: Room.Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback)
+  nameWithType.vb: Room.New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback)
 - uid: NetAF.Assets.Locations.Room.#ctor*
   name: Room
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_
@@ -3139,15 +3099,15 @@ references:
   commentId: T:NetAF.Commands.CustomCommand
   fullName: NetAF.Commands.CustomCommand
   nameWithType: CustomCommand
-- uid: NetAF.Commands.CustomCommand.#ctor(NetAF.Interpretation.CommandHelp,System.Boolean,NetAF.Commands.CustomCommandCallback)
-  name: CustomCommand(CommandHelp, bool, CustomCommandCallback)
-  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand__ctor_NetAF_Interpretation_CommandHelp_System_Boolean_NetAF_Commands_CustomCommandCallback_
-  commentId: M:NetAF.Commands.CustomCommand.#ctor(NetAF.Interpretation.CommandHelp,System.Boolean,NetAF.Commands.CustomCommandCallback)
-  name.vb: New(CommandHelp, Boolean, CustomCommandCallback)
-  fullName: NetAF.Commands.CustomCommand.CustomCommand(NetAF.Interpretation.CommandHelp, bool, NetAF.Commands.CustomCommandCallback)
-  fullName.vb: NetAF.Commands.CustomCommand.New(NetAF.Interpretation.CommandHelp, Boolean, NetAF.Commands.CustomCommandCallback)
-  nameWithType: CustomCommand.CustomCommand(CommandHelp, bool, CustomCommandCallback)
-  nameWithType.vb: CustomCommand.New(CommandHelp, Boolean, CustomCommandCallback)
+- uid: NetAF.Commands.CustomCommand.#ctor(NetAF.Interpretation.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)
+  name: CustomCommand(CommandHelp, bool, bool, CustomCommandCallback)
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand__ctor_NetAF_Interpretation_CommandHelp_System_Boolean_System_Boolean_NetAF_Commands_CustomCommandCallback_
+  commentId: M:NetAF.Commands.CustomCommand.#ctor(NetAF.Interpretation.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)
+  name.vb: New(CommandHelp, Boolean, Boolean, CustomCommandCallback)
+  fullName: NetAF.Commands.CustomCommand.CustomCommand(NetAF.Interpretation.CommandHelp, bool, bool, NetAF.Commands.CustomCommandCallback)
+  fullName.vb: NetAF.Commands.CustomCommand.New(NetAF.Interpretation.CommandHelp, Boolean, Boolean, NetAF.Commands.CustomCommandCallback)
+  nameWithType: CustomCommand.CustomCommand(CommandHelp, bool, bool, CustomCommandCallback)
+  nameWithType.vb: CustomCommand.New(CommandHelp, Boolean, Boolean, CustomCommandCallback)
 - uid: NetAF.Commands.CustomCommand.#ctor*
   name: CustomCommand
   href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand__ctor_
@@ -3184,6 +3144,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CustomCommand.Help
   nameWithType: CustomCommand.Help
+- uid: NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible
+  name: InterpretIfNotPlayerVisible
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible
+  commentId: P:NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible
+  fullName: NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible
+  nameWithType: CustomCommand.InterpretIfNotPlayerVisible
+- uid: NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible*
+  name: InterpretIfNotPlayerVisible
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible_
+  commentId: Overload:NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible
+  isSpec: "True"
+  fullName: NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible
+  nameWithType: CustomCommand.InterpretIfNotPlayerVisible
 - uid: NetAF.Commands.CustomCommand.Invoke(NetAF.Logic.Game)
   name: Invoke(Game)
   href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Invoke_NetAF_Logic_Game_
@@ -3210,6 +3183,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CustomCommand.IsPlayerVisible
   nameWithType: CustomCommand.IsPlayerVisible
+- uid: NetAF.Commands.CustomCommand.RestoreFrom(NetAF.Serialization.Assets.CustomCommandSerialization)
+  name: RestoreFrom(CustomCommandSerialization)
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_RestoreFrom_NetAF_Serialization_Assets_CustomCommandSerialization_
+  commentId: M:NetAF.Commands.CustomCommand.RestoreFrom(NetAF.Serialization.Assets.CustomCommandSerialization)
+  fullName: NetAF.Commands.CustomCommand.RestoreFrom(NetAF.Serialization.Assets.CustomCommandSerialization)
+  nameWithType: CustomCommand.RestoreFrom(CustomCommandSerialization)
+- uid: NetAF.Commands.CustomCommand.RestoreFrom*
+  name: RestoreFrom
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_RestoreFrom_
+  commentId: Overload:NetAF.Commands.CustomCommand.RestoreFrom
+  isSpec: "True"
+  fullName: NetAF.Commands.CustomCommand.RestoreFrom
+  nameWithType: CustomCommand.RestoreFrom
 - uid: NetAF.Commands.CustomCommandCallback
   name: CustomCommandCallback
   href: api/NetAF.Commands.CustomCommandCallback.html
@@ -8408,6 +8394,70 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ConversationSerialization.Restore
   nameWithType: ConversationSerialization.Restore
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization
+  name: CustomCommandSerialization
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html
+  commentId: T:NetAF.Serialization.Assets.CustomCommandSerialization
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization
+  nameWithType: CustomCommandSerialization
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.#ctor(NetAF.Commands.CustomCommand)
+  name: CustomCommandSerialization(CustomCommand)
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization__ctor_NetAF_Commands_CustomCommand_
+  commentId: M:NetAF.Serialization.Assets.CustomCommandSerialization.#ctor(NetAF.Commands.CustomCommand)
+  name.vb: New(CustomCommand)
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.CustomCommandSerialization(NetAF.Commands.CustomCommand)
+  fullName.vb: NetAF.Serialization.Assets.CustomCommandSerialization.New(NetAF.Commands.CustomCommand)
+  nameWithType: CustomCommandSerialization.CustomCommandSerialization(CustomCommand)
+  nameWithType.vb: CustomCommandSerialization.New(CustomCommand)
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.#ctor*
+  name: CustomCommandSerialization
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization__ctor_
+  commentId: Overload:NetAF.Serialization.Assets.CustomCommandSerialization.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.CustomCommandSerialization
+  fullName.vb: NetAF.Serialization.Assets.CustomCommandSerialization.New
+  nameWithType: CustomCommandSerialization.CustomCommandSerialization
+  nameWithType.vb: CustomCommandSerialization.New
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.Command
+  name: Command
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_Command
+  commentId: P:NetAF.Serialization.Assets.CustomCommandSerialization.Command
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.Command
+  nameWithType: CustomCommandSerialization.Command
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.Command*
+  name: Command
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_Command_
+  commentId: Overload:NetAF.Serialization.Assets.CustomCommandSerialization.Command
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.Command
+  nameWithType: CustomCommandSerialization.Command
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible
+  name: IsPlayerVisible
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_IsPlayerVisible
+  commentId: P:NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible
+  nameWithType: CustomCommandSerialization.IsPlayerVisible
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible*
+  name: IsPlayerVisible
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_IsPlayerVisible_
+  commentId: Overload:NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible
+  nameWithType: CustomCommandSerialization.IsPlayerVisible
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.Restore(NetAF.Commands.CustomCommand)
+  name: Restore(CustomCommand)
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_Restore_NetAF_Commands_CustomCommand_
+  commentId: M:NetAF.Serialization.Assets.CustomCommandSerialization.Restore(NetAF.Commands.CustomCommand)
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.Restore(NetAF.Commands.CustomCommand)
+  nameWithType: CustomCommandSerialization.Restore(CustomCommand)
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.Restore*
+  name: Restore
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_Restore_
+  commentId: Overload:NetAF.Serialization.Assets.CustomCommandSerialization.Restore
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.Restore
+  nameWithType: CustomCommandSerialization.Restore
 - uid: NetAF.Serialization.Assets.ExaminableSerialization
   name: ExaminableSerialization
   href: api/NetAF.Serialization.Assets.ExaminableSerialization.html
@@ -8446,6 +8496,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ExaminableSerialization.AttributeManager
   nameWithType: ExaminableSerialization.AttributeManager
+- uid: NetAF.Serialization.Assets.ExaminableSerialization.Commands
+  name: Commands
+  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Commands
+  commentId: P:NetAF.Serialization.Assets.ExaminableSerialization.Commands
+  fullName: NetAF.Serialization.Assets.ExaminableSerialization.Commands
+  nameWithType: ExaminableSerialization.Commands
+- uid: NetAF.Serialization.Assets.ExaminableSerialization.Commands*
+  name: Commands
+  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Commands_
+  commentId: Overload:NetAF.Serialization.Assets.ExaminableSerialization.Commands
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.ExaminableSerialization.Commands
+  nameWithType: ExaminableSerialization.Commands
 - uid: NetAF.Serialization.Assets.ExaminableSerialization.Identifier
   name: Identifier
   href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Identifier

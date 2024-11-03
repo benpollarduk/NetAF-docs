@@ -103,9 +103,6 @@
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Examination">ExaminableObject.Examination</a>
     </div>
     <div>
-      <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_ToString">ExaminableObject.ToString()</a>
-    </div>
-    <div>
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Identifier">ExaminableObject.Identifier</a>
     </div>
     <div>
@@ -138,6 +135,9 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Assets.html">Assets</a>.<a class="xref" href="NetAF.Assets.Locations.html">Locations</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
@@ -149,19 +149,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Commands.CustomCommand%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L84">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L87">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region__ctor_" data-uid="NetAF.Assets.Locations.Region.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_" data-uid="NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description)">Region(Identifier, Description)</h4>
+  <h4 id="NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___" data-uid="NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[])">Region(Identifier, Description, CustomCommand[])</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Region class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Region(Identifier identifier, Description description)</code></pre>
+    <pre><code class="lang-csharp hljs">public Region(Identifier identifier, Description description, CustomCommand[] commands = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -185,23 +185,29 @@
         <td><p>The description of this Region.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CustomCommand.html">CustomCommand</a>[]</td>
+        <td><span class="parametername">commands</span></td>
+        <td><p>This objects commands.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region__ctor_System_String_System_String_NetAF_Commands_CustomCommand___.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.%23ctor(System.String%2CSystem.String%2CNetAF.Commands.CustomCommand%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L75">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L77">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region__ctor_" data-uid="NetAF.Assets.Locations.Region.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Region__ctor_System_String_System_String_" data-uid="NetAF.Assets.Locations.Region.#ctor(System.String,System.String)">Region(string, string)</h4>
+  <h4 id="NetAF_Assets_Locations_Region__ctor_System_String_System_String_NetAF_Commands_CustomCommand___" data-uid="NetAF.Assets.Locations.Region.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[])">Region(string, string, CustomCommand[])</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Region class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Region(string identifier, string description)</code></pre>
+    <pre><code class="lang-csharp hljs">public Region(string identifier, string description, CustomCommand[] commands = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -225,6 +231,12 @@
         <td><p>The description of this Region.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CustomCommand.html">CustomCommand</a>[]</td>
+        <td><span class="parametername">commands</span></td>
+        <td><p>This objects commands.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -234,7 +246,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_CurrentRoom.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.CurrentRoom%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L33">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L34">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_CurrentRoom_" data-uid="NetAF.Assets.Locations.Region.CurrentRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_CurrentRoom" data-uid="NetAF.Assets.Locations.Region.CurrentRoom">CurrentRoom</h4>
@@ -265,7 +277,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_Item_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.Item(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L59">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L60">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_Item_" data-uid="NetAF.Assets.Locations.Region.Item*"></a>
   <h4 id="NetAF_Assets_Locations_Region_Item_System_Int32_System_Int32_System_Int32_" data-uid="NetAF.Assets.Locations.Region.Item(System.Int32,System.Int32,System.Int32)">this[int, int, int]</h4>
@@ -327,7 +339,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_Rooms.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.Rooms%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L28">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L29">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_Rooms_" data-uid="NetAF.Assets.Locations.Region.Rooms*"></a>
   <h4 id="NetAF_Assets_Locations_Region_Rooms" data-uid="NetAF.Assets.Locations.Region.Rooms">Rooms</h4>
@@ -358,7 +370,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_VisibleWithoutDiscovery.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.VisibleWithoutDiscovery%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L64">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L65">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_VisibleWithoutDiscovery_" data-uid="NetAF.Assets.Locations.Region.VisibleWithoutDiscovery*"></a>
   <h4 id="NetAF_Assets_Locations_Region_VisibleWithoutDiscovery" data-uid="NetAF.Assets.Locations.Region.VisibleWithoutDiscovery">VisibleWithoutDiscovery</h4>
@@ -391,7 +403,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_AddRoom_NetAF_Assets_Locations_Room_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.AddRoom(NetAF.Assets.Locations.Room%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L140">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L144">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_AddRoom_" data-uid="NetAF.Assets.Locations.Region.AddRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_AddRoom_NetAF_Assets_Locations_Room_System_Int32_System_Int32_System_Int32_" data-uid="NetAF.Assets.Locations.Region.AddRoom(NetAF.Assets.Locations.Room,System.Int32,System.Int32,System.Int32)">AddRoom(Room, int, int, int)</h4>
@@ -458,7 +470,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_Examine_NetAF_Assets_ExaminationScene_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L342">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L346">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_Examine_" data-uid="NetAF.Assets.Locations.Region.Examine*"></a>
   <h4 id="NetAF_Assets_Locations_Region_Examine_NetAF_Assets_ExaminationScene_" data-uid="NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)">Examine(ExaminationScene)</h4>
@@ -510,7 +522,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_GetAdjoiningRoom_NetAF_Assets_Locations_Direction_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.GetAdjoiningRoom(NetAF.Assets.Locations.Direction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L155">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L159">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_GetAdjoiningRoom_" data-uid="NetAF.Assets.Locations.Region.GetAdjoiningRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_GetAdjoiningRoom_NetAF_Assets_Locations_Direction_" data-uid="NetAF.Assets.Locations.Region.GetAdjoiningRoom(NetAF.Assets.Locations.Direction)">GetAdjoiningRoom(Direction)</h4>
@@ -560,7 +572,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_GetAdjoiningRoom_NetAF_Assets_Locations_Direction_NetAF_Assets_Locations_Room_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.GetAdjoiningRoom(NetAF.Assets.Locations.Direction%2CNetAF.Assets.Locations.Room)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L166">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L170">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_GetAdjoiningRoom_" data-uid="NetAF.Assets.Locations.Region.GetAdjoiningRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_GetAdjoiningRoom_NetAF_Assets_Locations_Direction_NetAF_Assets_Locations_Room_" data-uid="NetAF.Assets.Locations.Region.GetAdjoiningRoom(NetAF.Assets.Locations.Direction,NetAF.Assets.Locations.Room)">GetAdjoiningRoom(Direction, Room)</h4>
@@ -616,7 +628,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_GetPositionOfRoom_NetAF_Assets_Locations_Room_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.GetPositionOfRoom(NetAF.Assets.Locations.Room)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L99">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L103">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_GetPositionOfRoom_" data-uid="NetAF.Assets.Locations.Region.GetPositionOfRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_GetPositionOfRoom_NetAF_Assets_Locations_Room_" data-uid="NetAF.Assets.Locations.Region.GetPositionOfRoom(NetAF.Assets.Locations.Room)">GetPositionOfRoom(Room)</h4>
@@ -666,7 +678,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_JumpToRoom_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.JumpToRoom(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L268">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L272">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_JumpToRoom_" data-uid="NetAF.Assets.Locations.Region.JumpToRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_JumpToRoom_System_Int32_System_Int32_System_Int32_" data-uid="NetAF.Assets.Locations.Region.JumpToRoom(System.Int32,System.Int32,System.Int32)">JumpToRoom(int, int, int)</h4>
@@ -728,7 +740,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_Move_NetAF_Assets_Locations_Direction_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.Move(NetAF.Assets.Locations.Direction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L182">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L186">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_Move_" data-uid="NetAF.Assets.Locations.Region.Move*"></a>
   <h4 id="NetAF_Assets_Locations_Region_Move_NetAF_Assets_Locations_Direction_" data-uid="NetAF.Assets.Locations.Region.Move(NetAF.Assets.Locations.Direction)">Move(Direction)</h4>
@@ -778,7 +790,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_RestoreFrom_NetAF_Serialization_Assets_RegionSerialization_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.RestoreFrom(NetAF.Serialization.Assets.RegionSerialization)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L355">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L359">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_RestoreFrom_" data-uid="NetAF.Assets.Locations.Region.RestoreFrom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_RestoreFrom_NetAF_Serialization_Assets_RegionSerialization_" data-uid="NetAF.Assets.Locations.Region.RestoreFrom(NetAF.Serialization.Assets.RegionSerialization)">RestoreFrom(RegionSerialization)</h4>
@@ -812,7 +824,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_SetStartRoom_NetAF_Assets_Locations_Room_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.SetStartRoom(NetAF.Assets.Locations.Room)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L202">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L206">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_SetStartRoom_" data-uid="NetAF.Assets.Locations.Region.SetStartRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_SetStartRoom_NetAF_Assets_Locations_Room_" data-uid="NetAF.Assets.Locations.Region.SetStartRoom(NetAF.Assets.Locations.Room)">SetStartRoom(Room)</h4>
@@ -846,7 +858,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_SetStartRoom_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.SetStartRoom(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L214">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L218">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_SetStartRoom_" data-uid="NetAF.Assets.Locations.Region.SetStartRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_SetStartRoom_System_Int32_System_Int32_System_Int32_" data-uid="NetAF.Assets.Locations.Region.SetStartRoom(System.Int32,System.Int32,System.Int32)">SetStartRoom(int, int, int)</h4>
@@ -892,7 +904,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_ToMatrix.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.ToMatrix%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L256">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L260">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_ToMatrix_" data-uid="NetAF.Assets.Locations.Region.ToMatrix*"></a>
   <h4 id="NetAF_Assets_Locations_Region_ToMatrix" data-uid="NetAF.Assets.Locations.Region.ToMatrix">ToMatrix()</h4>
@@ -924,7 +936,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_TryFindRoom_System_String_NetAF_Assets_Locations_Room__.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.TryFindRoom(System.String%2CNetAF.Assets.Locations.Room%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L127">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L131">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_TryFindRoom_" data-uid="NetAF.Assets.Locations.Region.TryFindRoom*"></a>
   <h4 id="NetAF_Assets_Locations_Region_TryFindRoom_System_String_NetAF_Assets_Locations_Room__" data-uid="NetAF.Assets.Locations.Region.TryFindRoom(System.String,NetAF.Assets.Locations.Room@)">TryFindRoom(string, out Room)</h4>
@@ -980,7 +992,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region_UnlockDoorPair_NetAF_Assets_Locations_Direction_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region.UnlockDoorPair(NetAF.Assets.Locations.Direction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L225">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L229">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_Region_UnlockDoorPair_" data-uid="NetAF.Assets.Locations.Region.UnlockDoorPair*"></a>
   <h4 id="NetAF_Assets_Locations_Region_UnlockDoorPair_NetAF_Assets_Locations_Direction_" data-uid="NetAF.Assets.Locations.Region.UnlockDoorPair(NetAF.Assets.Locations.Direction)">UnlockDoorPair(Direction)</h4>
@@ -1050,7 +1062,7 @@
                     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_Region.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.Region%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/Region.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

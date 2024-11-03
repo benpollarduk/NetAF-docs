@@ -90,13 +90,13 @@
 npc.Give(daisy, goblin);
 </code></pre>
 <p>NonPlayableCharacters can contain custom commands that allow the user to directly interact with the character or other assets.</p>
-<pre><code class="lang-csharp">goblin.Commands =
+<pre><code class="lang-csharp">NonPlayableCharacter goblin = new(&quot;Goblin&quot;, &quot;A vile goblin&quot;, commands:
 [
     new CustomCommand(new CommandHelp(&quot;Smile&quot;, &quot;Crack a smile.&quot;), true, (game, args) =&gt;
     {
         return new Reaction(ReactionResult.OK, &quot;Well that felt weird.&quot;);
     })
-];
+]);
 </code></pre>
 <h2 id="conversations">Conversations</h2>
 <p>A NonPlayableCharacter can hold a conversation with the player.</p>
@@ -106,8 +106,7 @@ npc.Give(daisy, goblin);
 <li>A <strong>Response</strong> can contain a delta or other implementation of <strong>IEndOfPargraphInstruction</strong> to shift the conversation by, which will cause the conversation to jump paragraphs by the specified value.</li>
 <li>A <strong>Response</strong> can also contain a callback to perform some action when the player selects that option.</li>
 </ul>
-<pre><code class="lang-csharp">goblin.Conversation = new Conversation(
-    new Paragraph(&quot;This is a the first line.&quot;),
+<pre><code class="lang-csharp">NonPlayableCharacter goblin = new(&quot;Goblin&quot;, &quot;A vile goblin&quot;, conversation: new(
     new Paragraph(&quot;This is a question.&quot;)
     {
         Responses =
@@ -120,7 +119,7 @@ npc.Give(daisy, goblin);
     new Paragraph(&quot;You picked first response, return to start of conversation.&quot;, new GoTo(1)),
     new Paragraph(&quot;You picked second response, return to start of conversation.&quot;, new GoTo(1)),
     new Paragraph(&quot;You picked third response, you are dead.&quot;, game =&gt; game.Player.Kill())
-);
+));
 </code></pre>
 
 </article>

@@ -89,29 +89,26 @@
 <pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;, true);
 </code></pre>
 <p>Like all Examinable objects, an Item can be assigned custom commands.</p>
-<pre><code class="lang-csharp">bomb.Commands =
+<pre><code class="lang-csharp">Item bomb = new(&quot;Bomb&quot;, &quot;A bomb&quot;, commands:
 [
     new CustomCommand(new CommandHelp(&quot;Cut wire&quot;, &quot;Cut the red wire.&quot;), true, (game, args) =&gt;
     {
         game.Player.Kill();
         return new Reaction(ReactionResult.Fatal, &quot;Boom!&quot;);
     })
-];
+]);
 </code></pre>
 <h2 id="interaction">Interaction</h2>
 <p>Interactions can be set up between different assets in the game. The <strong>InteractionResult</strong> contains the result of the interaction, and allows the game to react to the interaction.</p>
 <pre><code class="lang-csharp">var dartsBoard = new Item(&quot;Darts board&quot;, &quot;A darts board.&quot;);
 
-var dart = new Item(&quot;Dart&quot;, &quot;A dart&quot;)
+var dart = new Item(&quot;Dart&quot;, &quot;A dart&quot;, interaction: item =&gt;
 {
-    Interaction = item =&gt;
-    {
-        if (item == dartsBoard)
-            return new InteractionResult(InteractionEffect.SelfContained, item, &quot;The dart stuck in the darts board.&quot;);
+    if (item == dartsBoard)
+        return new InteractionResult(InteractionEffect.SelfContained, item, &quot;The dart stuck in the darts board.&quot;);
 
-        return new InteractionResult(InteractionEffect.NoEffect, item);
-    }
-};
+     return new InteractionResult(InteractionEffect.NoEffect, item);
+});
 </code></pre>
 
 </article>

@@ -94,6 +94,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a></div>
     <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
+    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.CustomCommandSerialization.html">CustomCommandSerialization</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,10 +105,16 @@
       <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Help">CustomCommand.Help</a>
     </div>
     <div>
+      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible">CustomCommand.InterpretIfNotPlayerVisible</a>
+    </div>
+    <div>
       <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Invoke_NetAF_Logic_Game_">CustomCommand.Invoke(Game)</a>
     </div>
     <div>
       <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_IsPlayerVisible">CustomCommand.IsPlayerVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_RestoreFrom_NetAF_Serialization_Assets_CustomCommandSerialization_">CustomCommand.RestoreFrom(CustomCommandSerialization)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -135,7 +142,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Commands_Persistence_Save_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Save : CustomCommand, ICommand, IPlayerVisible</code></pre>
+    <pre><code class="lang-csharp hljs">public class Save : CustomCommand, ICommand, IPlayerVisible, IRestoreFromObjectSerialization&lt;CustomCommandSerialization&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -161,6 +168,9 @@
   </div>
   <div>
       <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
   </div>
 
 </article>

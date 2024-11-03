@@ -96,14 +96,15 @@
 </code></pre>
 <p>This will be returned if the player examines the Exit.</p>
 <p>Like all Examinable objects, an Exit can be assigned custom commands.</p>
-<pre><code class="lang-csharp">exit.Commands =
+<pre><code class="lang-csharp">Exit exit = null;
+exit = new(Direction.North, commands:
 [
-    new CustomCommand(new CommandHelp(&quot;Shove&quot;, &quot;Shove the door.&quot;), true, (game, args) =&gt;
+    new CustomCommand(new CommandHelp(&quot;Shove&quot;, &quot;Shove the door.&quot;), true, true, (game, args) =&gt;
     {
         exit.Unlock();
         return new Reaction(ReactionResult.OK, &quot;The door swung open.&quot;);
     })
-];
+]);
 </code></pre>
 
 </article>

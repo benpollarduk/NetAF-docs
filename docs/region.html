@@ -116,14 +116,15 @@
 <pre><code class="lang-csharp">region.UnlockDoorPair(Direction.East);
 </code></pre>
 <p>Like all Examinable objects, Regions can be assigned custom commands.</p>
-<pre><code class="lang-csharp">region.Commands =
+<pre><code class="lang-csharp">Region region = null;
+region = new(&quot;Woodlands&quot;, &quot;A quiet woodland.&quot;, commands:
 [
     new CustomCommand(new CommandHelp(&quot;Warp&quot;, &quot;Warp to the start.&quot;), true, (game, args) =&gt;
     {
         region.JumpToRoom(0, 0, 0);
         return new Reaction(ReactionResult.OK, &quot;You warped to the start.&quot;);
     })
-];
+]);
 </code></pre>
 <h2 id="regionmaker">RegionMaker</h2>
 <p>The RegionMaker simplifies the creation of a Region. Rooms are added to the Region with a specified <strong>x</strong>, <strong>y</strong> and <strong>z</strong> position within the Region.</p>

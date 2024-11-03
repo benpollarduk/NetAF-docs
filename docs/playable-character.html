@@ -109,13 +109,13 @@ var daisy = new Item(&quot;Daisy&quot;, &quot;A beautiful daisy that is sure to 
 player.Give(daisy, goblin);
 </code></pre>
 <p>PlayableCharacters can contain custom commands that allow the user to directly interact with the character or other assets.</p>
-<pre><code class="lang-csharp">player.Commands =
+<pre><code class="lang-csharp">PlayableCharacter player = new(&quot;Daisy&quot;, &quot;A beautiful daisy that is sure to cheer up even the most miserable creature.&quot;, commands:
 [
     new CustomCommand(new CommandHelp(&quot;Punch wall&quot;, &quot;Punch the wall.&quot;), true, (game, args) =&gt;
     {
         return new Reaction(ReactionResult.OK, &quot;You punched the wall.&quot;);
     })
-];
+]);
 </code></pre>
 
 </article>

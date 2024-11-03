@@ -141,9 +141,6 @@
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Examination">ExaminableObject.Examination</a>
     </div>
     <div>
-      <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_ToString">ExaminableObject.ToString()</a>
-    </div>
-    <div>
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Identifier">ExaminableObject.Identifier</a>
     </div>
     <div>
@@ -179,6 +176,9 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Assets.html">Assets</a>.<a class="xref" href="NetAF.Assets.Characters.html">Characters</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
@@ -190,19 +190,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Conversations.Conversation)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Conversations.Conversation%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L31">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L36">View Source</a>
   </span>
   <a id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor*"></a>
-  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation)">NonPlayableCharacter(Identifier, Description, Conversation)</h4>
+  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)">NonPlayableCharacter(Identifier, Description, Conversation, CustomCommand[], InteractionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the NonPlayableCharacter class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(Identifier identifier, Description description, Conversation conversation = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(Identifier identifier, Description description, Conversation conversation = null, CustomCommand[] commands = null, InteractionCallback interaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -217,59 +217,13 @@
       <tr>
         <td><a class="xref" href="NetAF.Assets.Identifier.html">Identifier</a></td>
         <td><span class="parametername">identifier</span></td>
-        <td><p>This NonPlayableCharacter's identifier.</p>
+        <td><p>The identifier.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Description.html">Description</a></td>
         <td><span class="parametername">description</span></td>
-        <td><p>The description of this NonPlayableCharacter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Conversations.Conversation.html">Conversation</a></td>
-        <td><span class="parametername">conversation</span></td>
-        <td><p>The conversation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_System_Boolean_NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Conversations.Conversation%2CSystem.Boolean%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L46">View Source</a>
-  </span>
-  <a id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor*"></a>
-  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_System_Boolean_NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,System.Boolean,NetAF.Assets.Interaction.InteractionCallback)">NonPlayableCharacter(Identifier, Description, Conversation, bool, InteractionCallback)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the NonPlayableCharacter class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(Identifier identifier, Description description, Conversation conversation, bool isAlive, InteractionCallback interaction)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Identifier.html">Identifier</a></td>
-        <td><span class="parametername">identifier</span></td>
-        <td><p>This NonPlayableCharacter's identifier.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Description.html">Description</a></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description of this NonPlayableCharacter.</p>
+        <td><p>The description.</p>
 </td>
       </tr>
       <tr>
@@ -279,34 +233,34 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">isAlive</span></td>
-        <td><p>Set if this NonPlayableCharacter is alive.</p>
+        <td><a class="xref" href="NetAF.Commands.CustomCommand.html">CustomCommand</a>[]</td>
+        <td><span class="parametername">commands</span></td>
+        <td><p>This objects commands.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Interaction.InteractionCallback.html">InteractionCallback</a></td>
         <td><span class="parametername">interaction</span></td>
-        <td><p>Set this NonPlayableCharacter's interaction.</p>
+        <td><p>The interaction.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_System_Boolean_NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CNetAF.Conversations.Conversation%2CSystem.Boolean%2CNetAF.Assets.Interaction.InteractionCallback%2CNetAF.Assets.ExaminationCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(NetAF.Assets.Identifier%2CNetAF.Assets.Description%2CSystem.Boolean%2CNetAF.Conversations.Conversation%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L61">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L54">View Source</a>
   </span>
   <a id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor*"></a>
-  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_System_Boolean_NetAF_Assets_Interaction_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,System.Boolean,NetAF.Assets.Interaction.InteractionCallback,NetAF.Assets.ExaminationCallback)">NonPlayableCharacter(Identifier, Description, Conversation, bool, InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)">NonPlayableCharacter(Identifier, Description, bool, Conversation, CustomCommand[], InteractionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the NonPlayableCharacter class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(Identifier identifier, Description description, Conversation conversation, bool isAlive, InteractionCallback interaction, ExaminationCallback examination)</code></pre>
+    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(Identifier identifier, Description description, bool isAlive, Conversation conversation = null, CustomCommand[] commands = null, InteractionCallback interaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -321,13 +275,19 @@
       <tr>
         <td><a class="xref" href="NetAF.Assets.Identifier.html">Identifier</a></td>
         <td><span class="parametername">identifier</span></td>
-        <td><p>This NonPlayableCharacter's identifier.</p>
+        <td><p>The identifier.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Description.html">Description</a></td>
         <td><span class="parametername">description</span></td>
-        <td><p>The description of this NonPlayableCharacter.</p>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isAlive</span></td>
+        <td><p>If this character is alive.</p>
 </td>
       </tr>
       <tr>
@@ -337,40 +297,34 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">isAlive</span></td>
-        <td><p>Set if this NonPlayableCharacter is alive.</p>
+        <td><a class="xref" href="NetAF.Commands.CustomCommand.html">CustomCommand</a>[]</td>
+        <td><span class="parametername">commands</span></td>
+        <td><p>This objects commands.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Interaction.InteractionCallback.html">InteractionCallback</a></td>
         <td><span class="parametername">interaction</span></td>
-        <td><p>Set this NonPlayableCharacter's interaction.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.ExaminationCallback.html">ExaminationCallback</a></td>
-        <td><span class="parametername">examination</span></td>
-        <td><p>Set this NonPlayableCharacter's examination.</p>
+        <td><p>The interaction.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(System.String%2CSystem.String%2CNetAF.Conversations.Conversation)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.%23ctor(System.String%2CSystem.String%2CNetAF.Conversations.Conversation%2CNetAF.Commands.CustomCommand%5B%5D%2CNetAF.Assets.Interaction.InteractionCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L21">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L24">View Source</a>
   </span>
   <a id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor*"></a>
-  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation)">NonPlayableCharacter(string, string, Conversation)</h4>
+  <h4 id="NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_Interaction_InteractionCallback_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.Interaction.InteractionCallback)">NonPlayableCharacter(string, string, Conversation, CustomCommand[], InteractionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the NonPlayableCharacter class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(string identifier, string description, Conversation conversation = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public NonPlayableCharacter(string identifier, string description, Conversation conversation = null, CustomCommand[] commands = null, InteractionCallback interaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -385,19 +339,31 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">identifier</span></td>
-        <td><p>This NonPlayableCharacter's identifier.</p>
+        <td><p>The identifier.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">description</span></td>
-        <td><p>The description of this NonPlayableCharacter.</p>
+        <td><p>The description.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Conversations.Conversation.html">Conversation</a></td>
         <td><span class="parametername">conversation</span></td>
         <td><p>The conversation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CustomCommand.html">CustomCommand</a>[]</td>
+        <td><span class="parametername">commands</span></td>
+        <td><p>This objects commands.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Interaction.InteractionCallback.html">InteractionCallback</a></td>
+        <td><span class="parametername">interaction</span></td>
+        <td><p>The interaction.</p>
 </td>
       </tr>
     </tbody>
@@ -409,16 +375,16 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter_Conversation.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.Conversation%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L73">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L67">View Source</a>
   </span>
   <a id="NetAF_Assets_Characters_NonPlayableCharacter_Conversation_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.Conversation*"></a>
   <h4 id="NetAF_Assets_Characters_NonPlayableCharacter_Conversation" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.Conversation">Conversation</h4>
-  <div class="markdown level1 summary"><p>Get or set the conversation.</p>
+  <div class="markdown level1 summary"><p>Get the conversation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Conversation Conversation { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Conversation Conversation { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -442,7 +408,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter_RestoreFrom_NetAF_Serialization_Assets_NonPlayableCharacterSerialization_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter.RestoreFrom(NetAF.Serialization.Assets.NonPlayableCharacterSerialization)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L83">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L77">View Source</a>
   </span>
   <a id="NetAF_Assets_Characters_NonPlayableCharacter_RestoreFrom_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.RestoreFrom*"></a>
   <h4 id="NetAF_Assets_Characters_NonPlayableCharacter_RestoreFrom_NetAF_Serialization_Assets_NonPlayableCharacterSerialization_" data-uid="NetAF.Assets.Characters.NonPlayableCharacter.RestoreFrom(NetAF.Serialization.Assets.NonPlayableCharacterSerialization)">RestoreFrom(NonPlayableCharacterSerialization)</h4>
@@ -508,7 +474,7 @@
                     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Characters_NonPlayableCharacter.md&amp;value=---%0Auid%3A%20NetAF.Assets.Characters.NonPlayableCharacter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Characters/NonPlayableCharacter.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
