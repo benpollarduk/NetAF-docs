@@ -8419,19 +8419,19 @@ references:
   fullName.vb: NetAF.Serialization.Assets.CustomCommandSerialization.New
   nameWithType: CustomCommandSerialization.CustomCommandSerialization
   nameWithType.vb: CustomCommandSerialization.New
-- uid: NetAF.Serialization.Assets.CustomCommandSerialization.Command
-  name: Command
-  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_Command
-  commentId: P:NetAF.Serialization.Assets.CustomCommandSerialization.Command
-  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.Command
-  nameWithType: CustomCommandSerialization.Command
-- uid: NetAF.Serialization.Assets.CustomCommandSerialization.Command*
-  name: Command
-  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_Command_
-  commentId: Overload:NetAF.Serialization.Assets.CustomCommandSerialization.Command
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.CommandName
+  name: CommandName
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_CommandName
+  commentId: P:NetAF.Serialization.Assets.CustomCommandSerialization.CommandName
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.CommandName
+  nameWithType: CustomCommandSerialization.CommandName
+- uid: NetAF.Serialization.Assets.CustomCommandSerialization.CommandName*
+  name: CommandName
+  href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_CommandName_
+  commentId: Overload:NetAF.Serialization.Assets.CustomCommandSerialization.CommandName
   isSpec: "True"
-  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.Command
-  nameWithType: CustomCommandSerialization.Command
+  fullName: NetAF.Serialization.Assets.CustomCommandSerialization.CommandName
+  nameWithType: CustomCommandSerialization.CommandName
 - uid: NetAF.Serialization.Assets.CustomCommandSerialization.IsPlayerVisible
   name: IsPlayerVisible
   href: api/NetAF.Serialization.Assets.CustomCommandSerialization.html#NetAF_Serialization_Assets_CustomCommandSerialization_IsPlayerVisible
