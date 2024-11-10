@@ -1562,6 +1562,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Utilities.StringUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Utilities.StringUtilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Utilities.yml",
       "output": {
         ".html": {
