@@ -462,6 +462,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Game.Move.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Game.Move.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.ICommand.yml",
       "output": {
         ".html": {
@@ -742,10 +762,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.ConversationCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.ConversationCommandInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Interpretation.CustomCommandInterpreter.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Interpretation.CustomCommandInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.FrameCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.FrameCommandInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.GameCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.GameCommandInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.GlobalCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.GlobalCommandInterpreter.html"
         }
       },
       "version": ""
@@ -762,10 +822,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.InputInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.InputInterpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Interpretation.InterpretationResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Interpretation.InterpretationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.Interpreters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.Interpreters.html"
         }
       },
       "version": ""
@@ -796,6 +876,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.AssetGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.ConsoleGameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.ConsoleGameConfiguration.html"
         }
       },
       "version": ""
@@ -836,16 +926,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.Game.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.GameConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.GameConfiguration.html"
         }
       },
       "version": ""
@@ -896,6 +976,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.GameState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.IGameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.IGameConfiguration.html"
         }
       },
       "version": ""
@@ -982,130 +1072,130 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.AnsiColor.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.AnsiColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.AnsiColor.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.AnsiColor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorAboutFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorCompletionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorConversationFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorGameOverFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorHelpFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRegionMapFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorRoomMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorSceneFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTitleFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.ColorTransitionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Color.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Color.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.html"
         }
       },
       "version": ""
@@ -1252,6 +1342,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.SceneHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.SceneHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.FrameBuilders.yml",
       "output": {
         ".html": {
@@ -1392,16 +1492,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Assets.CustomCommandSerialization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Assets.CustomCommandSerialization.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Serialization.Assets.ExaminableSerialization.yml",
       "output": {
         ".html": {
@@ -1486,6 +1576,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Serialization.Assets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.CustomCommandSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.CustomCommandSerialization.html"
         }
       },
       "version": ""
