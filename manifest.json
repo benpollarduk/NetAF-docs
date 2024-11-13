@@ -442,6 +442,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.CommandHelp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.CommandHelp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Conversation.End.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Conversation.End.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Conversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Conversation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.CustomCommand.yml",
       "output": {
         ".html": {
@@ -462,20 +492,110 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Game.Move.yml",
+      "source_relative_path": "api/NetAF.Commands.Frame.CommandsOff.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Commands.Game.Move.html"
+          "relative_path": "api/NetAF.Commands.Frame.CommandsOff.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Game.yml",
+      "source_relative_path": "api/NetAF.Commands.Frame.CommandsOn.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Commands.Game.html"
+          "relative_path": "api/NetAF.Commands.Frame.CommandsOn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Frame.KeyOff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Frame.KeyOff.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Frame.KeyOn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Frame.KeyOn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Frame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Frame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.About.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.About.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.Exit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.Exit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.Help.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.Help.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.Map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.New.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.New.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.html"
         }
       },
       "version": ""
@@ -516,6 +636,86 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Commands.Persistence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.Drop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.Drop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.Examine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.Examine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.Move.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.Move.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.Take.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.Take.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.TakeAll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.TakeAll.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.Unactionable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.Unactionable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.UseOn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.UseOn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.html"
         }
       },
       "version": ""
@@ -752,16 +952,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Interpretation.CommandHelp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Interpretation.CommandHelp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Interpretation.ConversationCommandInterpreter.yml",
       "output": {
         ".html": {
@@ -786,16 +976,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Interpretation.FrameCommandInterpreter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Interpretation.GameCommandInterpreter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Interpretation.GameCommandInterpreter.html"
         }
       },
       "version": ""
@@ -846,6 +1026,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Interpretation.Interpreters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.SceneCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.SceneCommandInterpreter.html"
         }
       },
       "version": ""

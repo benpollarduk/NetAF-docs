@@ -3093,19 +3093,143 @@ references:
   commentId: N:NetAF.Commands
   fullName: NetAF.Commands
   nameWithType: NetAF.Commands
+- uid: NetAF.Commands.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.CommandHelp.html
+  commentId: T:NetAF.Commands.CommandHelp
+  fullName: NetAF.Commands.CommandHelp
+  nameWithType: CommandHelp
+- uid: NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String)
+  name: CommandHelp(string, string, string)
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_System_String_System_String_System_String_
+  commentId: M:NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: NetAF.Commands.CommandHelp.CommandHelp(string, string, string)
+  fullName.vb: NetAF.Commands.CommandHelp.New(String, String, String)
+  nameWithType: CommandHelp.CommandHelp(string, string, string)
+  nameWithType.vb: CommandHelp.New(String, String, String)
+- uid: NetAF.Commands.CommandHelp.#ctor*
+  name: CommandHelp
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_
+  commentId: Overload:NetAF.Commands.CommandHelp.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.CommandHelp.CommandHelp
+  fullName.vb: NetAF.Commands.CommandHelp.New
+  nameWithType: CommandHelp.CommandHelp
+  nameWithType.vb: CommandHelp.New
+- uid: NetAF.Commands.CommandHelp.Command
+  name: Command
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Command
+  commentId: P:NetAF.Commands.CommandHelp.Command
+  fullName: NetAF.Commands.CommandHelp.Command
+  nameWithType: CommandHelp.Command
+- uid: NetAF.Commands.CommandHelp.Command*
+  name: Command
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Command_
+  commentId: Overload:NetAF.Commands.CommandHelp.Command
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.Command
+  nameWithType: CommandHelp.Command
+- uid: NetAF.Commands.CommandHelp.Description
+  name: Description
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Description
+  commentId: P:NetAF.Commands.CommandHelp.Description
+  fullName: NetAF.Commands.CommandHelp.Description
+  nameWithType: CommandHelp.Description
+- uid: NetAF.Commands.CommandHelp.Description*
+  name: Description
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Description_
+  commentId: Overload:NetAF.Commands.CommandHelp.Description
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.Description
+  nameWithType: CommandHelp.Description
+- uid: NetAF.Commands.CommandHelp.Equals(NetAF.Commands.CommandHelp)
+  name: Equals(CommandHelp)
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Equals_NetAF_Commands_CommandHelp_
+  commentId: M:NetAF.Commands.CommandHelp.Equals(NetAF.Commands.CommandHelp)
+  fullName: NetAF.Commands.CommandHelp.Equals(NetAF.Commands.CommandHelp)
+  nameWithType: CommandHelp.Equals(CommandHelp)
+- uid: NetAF.Commands.CommandHelp.Equals(System.String)
+  name: Equals(string)
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Equals_System_String_
+  commentId: M:NetAF.Commands.CommandHelp.Equals(System.String)
+  name.vb: Equals(String)
+  fullName: NetAF.Commands.CommandHelp.Equals(string)
+  fullName.vb: NetAF.Commands.CommandHelp.Equals(String)
+  nameWithType: CommandHelp.Equals(string)
+  nameWithType.vb: CommandHelp.Equals(String)
+- uid: NetAF.Commands.CommandHelp.Equals*
+  name: Equals
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Equals_
+  commentId: Overload:NetAF.Commands.CommandHelp.Equals
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.Equals
+  nameWithType: CommandHelp.Equals
+- uid: NetAF.Commands.CommandHelp.Shortcut
+  name: Shortcut
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Shortcut
+  commentId: P:NetAF.Commands.CommandHelp.Shortcut
+  fullName: NetAF.Commands.CommandHelp.Shortcut
+  nameWithType: CommandHelp.Shortcut
+- uid: NetAF.Commands.CommandHelp.Shortcut*
+  name: Shortcut
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Shortcut_
+  commentId: Overload:NetAF.Commands.CommandHelp.Shortcut
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.Shortcut
+  nameWithType: CommandHelp.Shortcut
+- uid: NetAF.Commands.Conversation
+  name: NetAF.Commands.Conversation
+  href: api/NetAF.Commands.Conversation.html
+  commentId: N:NetAF.Commands.Conversation
+  fullName: NetAF.Commands.Conversation
+  nameWithType: NetAF.Commands.Conversation
+- uid: NetAF.Commands.Conversation.End
+  name: End
+  href: api/NetAF.Commands.Conversation.End.html
+  commentId: T:NetAF.Commands.Conversation.End
+  fullName: NetAF.Commands.Conversation.End
+  nameWithType: End
+- uid: NetAF.Commands.Conversation.End.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_CommandHelp
+  commentId: P:NetAF.Commands.Conversation.End.CommandHelp
+  fullName: NetAF.Commands.Conversation.End.CommandHelp
+  nameWithType: End.CommandHelp
+- uid: NetAF.Commands.Conversation.End.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_CommandHelp_
+  commentId: Overload:NetAF.Commands.Conversation.End.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Conversation.End.CommandHelp
+  nameWithType: End.CommandHelp
+- uid: NetAF.Commands.Conversation.End.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Conversation.End.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Conversation.End.Invoke(NetAF.Logic.Game)
+  nameWithType: End.Invoke(Game)
+- uid: NetAF.Commands.Conversation.End.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_Invoke_
+  commentId: Overload:NetAF.Commands.Conversation.End.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Conversation.End.Invoke
+  nameWithType: End.Invoke
 - uid: NetAF.Commands.CustomCommand
   name: CustomCommand
   href: api/NetAF.Commands.CustomCommand.html
   commentId: T:NetAF.Commands.CustomCommand
   fullName: NetAF.Commands.CustomCommand
   nameWithType: CustomCommand
-- uid: NetAF.Commands.CustomCommand.#ctor(NetAF.Interpretation.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)
+- uid: NetAF.Commands.CustomCommand.#ctor(NetAF.Commands.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)
   name: CustomCommand(CommandHelp, bool, bool, CustomCommandCallback)
-  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand__ctor_NetAF_Interpretation_CommandHelp_System_Boolean_System_Boolean_NetAF_Commands_CustomCommandCallback_
-  commentId: M:NetAF.Commands.CustomCommand.#ctor(NetAF.Interpretation.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand__ctor_NetAF_Commands_CommandHelp_System_Boolean_System_Boolean_NetAF_Commands_CustomCommandCallback_
+  commentId: M:NetAF.Commands.CustomCommand.#ctor(NetAF.Commands.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)
   name.vb: New(CommandHelp, Boolean, Boolean, CustomCommandCallback)
-  fullName: NetAF.Commands.CustomCommand.CustomCommand(NetAF.Interpretation.CommandHelp, bool, bool, NetAF.Commands.CustomCommandCallback)
-  fullName.vb: NetAF.Commands.CustomCommand.New(NetAF.Interpretation.CommandHelp, Boolean, Boolean, NetAF.Commands.CustomCommandCallback)
+  fullName: NetAF.Commands.CustomCommand.CustomCommand(NetAF.Commands.CommandHelp, bool, bool, NetAF.Commands.CustomCommandCallback)
+  fullName.vb: NetAF.Commands.CustomCommand.New(NetAF.Commands.CommandHelp, Boolean, Boolean, NetAF.Commands.CustomCommandCallback)
   nameWithType: CustomCommand.CustomCommand(CommandHelp, bool, bool, CustomCommandCallback)
   nameWithType.vb: CustomCommand.New(CommandHelp, Boolean, Boolean, CustomCommandCallback)
 - uid: NetAF.Commands.CustomCommand.#ctor*
@@ -3202,69 +3326,306 @@ references:
   commentId: T:NetAF.Commands.CustomCommandCallback
   fullName: NetAF.Commands.CustomCommandCallback
   nameWithType: CustomCommandCallback
-- uid: NetAF.Commands.Game
-  name: NetAF.Commands.Game
-  href: api/NetAF.Commands.Game.html
-  commentId: N:NetAF.Commands.Game
-  fullName: NetAF.Commands.Game
-  nameWithType: NetAF.Commands.Game
-- uid: NetAF.Commands.Game.Move
-  name: Move
-  href: api/NetAF.Commands.Game.Move.html
-  commentId: T:NetAF.Commands.Game.Move
-  fullName: NetAF.Commands.Game.Move
-  nameWithType: Move
-- uid: NetAF.Commands.Game.Move.#ctor(NetAF.Assets.Locations.Direction)
-  name: Move(Direction)
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move__ctor_NetAF_Assets_Locations_Direction_
-  commentId: M:NetAF.Commands.Game.Move.#ctor(NetAF.Assets.Locations.Direction)
-  name.vb: New(Direction)
-  fullName: NetAF.Commands.Game.Move.Move(NetAF.Assets.Locations.Direction)
-  fullName.vb: NetAF.Commands.Game.Move.New(NetAF.Assets.Locations.Direction)
-  nameWithType: Move.Move(Direction)
-  nameWithType.vb: Move.New(Direction)
-- uid: NetAF.Commands.Game.Move.#ctor*
-  name: Move
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move__ctor_
-  commentId: Overload:NetAF.Commands.Game.Move.#ctor
+- uid: NetAF.Commands.Frame
+  name: NetAF.Commands.Frame
+  href: api/NetAF.Commands.Frame.html
+  commentId: N:NetAF.Commands.Frame
+  fullName: NetAF.Commands.Frame
+  nameWithType: NetAF.Commands.Frame
+- uid: NetAF.Commands.Frame.CommandsOff
+  name: CommandsOff
+  href: api/NetAF.Commands.Frame.CommandsOff.html
+  commentId: T:NetAF.Commands.Frame.CommandsOff
+  fullName: NetAF.Commands.Frame.CommandsOff
+  nameWithType: CommandsOff
+- uid: NetAF.Commands.Frame.CommandsOff.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.CommandsOff.html#NetAF_Commands_Frame_CommandsOff_CommandHelp
+  commentId: P:NetAF.Commands.Frame.CommandsOff.CommandHelp
+  fullName: NetAF.Commands.Frame.CommandsOff.CommandHelp
+  nameWithType: CommandsOff.CommandHelp
+- uid: NetAF.Commands.Frame.CommandsOff.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.CommandsOff.html#NetAF_Commands_Frame_CommandsOff_CommandHelp_
+  commentId: Overload:NetAF.Commands.Frame.CommandsOff.CommandHelp
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Commands.Game.Move.Move
-  fullName.vb: NetAF.Commands.Game.Move.New
-  nameWithType: Move.Move
-  nameWithType.vb: Move.New
-- uid: NetAF.Commands.Game.Move.Direction
-  name: Direction
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move_Direction
-  commentId: P:NetAF.Commands.Game.Move.Direction
-  fullName: NetAF.Commands.Game.Move.Direction
-  nameWithType: Move.Direction
-- uid: NetAF.Commands.Game.Move.Direction*
-  name: Direction
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move_Direction_
-  commentId: Overload:NetAF.Commands.Game.Move.Direction
-  isSpec: "True"
-  fullName: NetAF.Commands.Game.Move.Direction
-  nameWithType: Move.Direction
-- uid: NetAF.Commands.Game.Move.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Frame.CommandsOff.CommandHelp
+  nameWithType: CommandsOff.CommandHelp
+- uid: NetAF.Commands.Frame.CommandsOff.Invoke(NetAF.Logic.Game)
   name: Invoke(Game)
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move_Invoke_NetAF_Logic_Game_
-  commentId: M:NetAF.Commands.Game.Move.Invoke(NetAF.Logic.Game)
-  fullName: NetAF.Commands.Game.Move.Invoke(NetAF.Logic.Game)
-  nameWithType: Move.Invoke(Game)
-- uid: NetAF.Commands.Game.Move.Invoke*
+  href: api/NetAF.Commands.Frame.CommandsOff.html#NetAF_Commands_Frame_CommandsOff_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Frame.CommandsOff.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Frame.CommandsOff.Invoke(NetAF.Logic.Game)
+  nameWithType: CommandsOff.Invoke(Game)
+- uid: NetAF.Commands.Frame.CommandsOff.Invoke*
   name: Invoke
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move_Invoke_
-  commentId: Overload:NetAF.Commands.Game.Move.Invoke
+  href: api/NetAF.Commands.Frame.CommandsOff.html#NetAF_Commands_Frame_CommandsOff_Invoke_
+  commentId: Overload:NetAF.Commands.Frame.CommandsOff.Invoke
   isSpec: "True"
-  fullName: NetAF.Commands.Game.Move.Invoke
-  nameWithType: Move.Invoke
-- uid: NetAF.Commands.Game.Move.SuccessfulMovePrefix
-  name: SuccessfulMovePrefix
-  href: api/NetAF.Commands.Game.Move.html#NetAF_Commands_Game_Move_SuccessfulMovePrefix
-  commentId: F:NetAF.Commands.Game.Move.SuccessfulMovePrefix
-  fullName: NetAF.Commands.Game.Move.SuccessfulMovePrefix
-  nameWithType: Move.SuccessfulMovePrefix
+  fullName: NetAF.Commands.Frame.CommandsOff.Invoke
+  nameWithType: CommandsOff.Invoke
+- uid: NetAF.Commands.Frame.CommandsOn
+  name: CommandsOn
+  href: api/NetAF.Commands.Frame.CommandsOn.html
+  commentId: T:NetAF.Commands.Frame.CommandsOn
+  fullName: NetAF.Commands.Frame.CommandsOn
+  nameWithType: CommandsOn
+- uid: NetAF.Commands.Frame.CommandsOn.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.CommandsOn.html#NetAF_Commands_Frame_CommandsOn_CommandHelp
+  commentId: P:NetAF.Commands.Frame.CommandsOn.CommandHelp
+  fullName: NetAF.Commands.Frame.CommandsOn.CommandHelp
+  nameWithType: CommandsOn.CommandHelp
+- uid: NetAF.Commands.Frame.CommandsOn.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.CommandsOn.html#NetAF_Commands_Frame_CommandsOn_CommandHelp_
+  commentId: Overload:NetAF.Commands.Frame.CommandsOn.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.CommandsOn.CommandHelp
+  nameWithType: CommandsOn.CommandHelp
+- uid: NetAF.Commands.Frame.CommandsOn.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Frame.CommandsOn.html#NetAF_Commands_Frame_CommandsOn_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Frame.CommandsOn.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Frame.CommandsOn.Invoke(NetAF.Logic.Game)
+  nameWithType: CommandsOn.Invoke(Game)
+- uid: NetAF.Commands.Frame.CommandsOn.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Frame.CommandsOn.html#NetAF_Commands_Frame_CommandsOn_Invoke_
+  commentId: Overload:NetAF.Commands.Frame.CommandsOn.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.CommandsOn.Invoke
+  nameWithType: CommandsOn.Invoke
+- uid: NetAF.Commands.Frame.KeyOff
+  name: KeyOff
+  href: api/NetAF.Commands.Frame.KeyOff.html
+  commentId: T:NetAF.Commands.Frame.KeyOff
+  fullName: NetAF.Commands.Frame.KeyOff
+  nameWithType: KeyOff
+- uid: NetAF.Commands.Frame.KeyOff.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.KeyOff.html#NetAF_Commands_Frame_KeyOff_CommandHelp
+  commentId: P:NetAF.Commands.Frame.KeyOff.CommandHelp
+  fullName: NetAF.Commands.Frame.KeyOff.CommandHelp
+  nameWithType: KeyOff.CommandHelp
+- uid: NetAF.Commands.Frame.KeyOff.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.KeyOff.html#NetAF_Commands_Frame_KeyOff_CommandHelp_
+  commentId: Overload:NetAF.Commands.Frame.KeyOff.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.KeyOff.CommandHelp
+  nameWithType: KeyOff.CommandHelp
+- uid: NetAF.Commands.Frame.KeyOff.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Frame.KeyOff.html#NetAF_Commands_Frame_KeyOff_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Frame.KeyOff.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Frame.KeyOff.Invoke(NetAF.Logic.Game)
+  nameWithType: KeyOff.Invoke(Game)
+- uid: NetAF.Commands.Frame.KeyOff.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Frame.KeyOff.html#NetAF_Commands_Frame_KeyOff_Invoke_
+  commentId: Overload:NetAF.Commands.Frame.KeyOff.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.KeyOff.Invoke
+  nameWithType: KeyOff.Invoke
+- uid: NetAF.Commands.Frame.KeyOn
+  name: KeyOn
+  href: api/NetAF.Commands.Frame.KeyOn.html
+  commentId: T:NetAF.Commands.Frame.KeyOn
+  fullName: NetAF.Commands.Frame.KeyOn
+  nameWithType: KeyOn
+- uid: NetAF.Commands.Frame.KeyOn.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.KeyOn.html#NetAF_Commands_Frame_KeyOn_CommandHelp
+  commentId: P:NetAF.Commands.Frame.KeyOn.CommandHelp
+  fullName: NetAF.Commands.Frame.KeyOn.CommandHelp
+  nameWithType: KeyOn.CommandHelp
+- uid: NetAF.Commands.Frame.KeyOn.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Frame.KeyOn.html#NetAF_Commands_Frame_KeyOn_CommandHelp_
+  commentId: Overload:NetAF.Commands.Frame.KeyOn.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.KeyOn.CommandHelp
+  nameWithType: KeyOn.CommandHelp
+- uid: NetAF.Commands.Frame.KeyOn.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Frame.KeyOn.html#NetAF_Commands_Frame_KeyOn_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Frame.KeyOn.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Frame.KeyOn.Invoke(NetAF.Logic.Game)
+  nameWithType: KeyOn.Invoke(Game)
+- uid: NetAF.Commands.Frame.KeyOn.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Frame.KeyOn.html#NetAF_Commands_Frame_KeyOn_Invoke_
+  commentId: Overload:NetAF.Commands.Frame.KeyOn.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.KeyOn.Invoke
+  nameWithType: KeyOn.Invoke
+- uid: NetAF.Commands.Global
+  name: NetAF.Commands.Global
+  href: api/NetAF.Commands.Global.html
+  commentId: N:NetAF.Commands.Global
+  fullName: NetAF.Commands.Global
+  nameWithType: NetAF.Commands.Global
+- uid: NetAF.Commands.Global.About
+  name: About
+  href: api/NetAF.Commands.Global.About.html
+  commentId: T:NetAF.Commands.Global.About
+  fullName: NetAF.Commands.Global.About
+  nameWithType: About
+- uid: NetAF.Commands.Global.About.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.About.html#NetAF_Commands_Global_About_CommandHelp
+  commentId: P:NetAF.Commands.Global.About.CommandHelp
+  fullName: NetAF.Commands.Global.About.CommandHelp
+  nameWithType: About.CommandHelp
+- uid: NetAF.Commands.Global.About.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.About.html#NetAF_Commands_Global_About_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.About.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.About.CommandHelp
+  nameWithType: About.CommandHelp
+- uid: NetAF.Commands.Global.About.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.About.html#NetAF_Commands_Global_About_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.About.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.About.Invoke(NetAF.Logic.Game)
+  nameWithType: About.Invoke(Game)
+- uid: NetAF.Commands.Global.About.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.About.html#NetAF_Commands_Global_About_Invoke_
+  commentId: Overload:NetAF.Commands.Global.About.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.About.Invoke
+  nameWithType: About.Invoke
+- uid: NetAF.Commands.Global.Exit
+  name: Exit
+  href: api/NetAF.Commands.Global.Exit.html
+  commentId: T:NetAF.Commands.Global.Exit
+  fullName: NetAF.Commands.Global.Exit
+  nameWithType: Exit
+- uid: NetAF.Commands.Global.Exit.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.Exit.html#NetAF_Commands_Global_Exit_CommandHelp
+  commentId: P:NetAF.Commands.Global.Exit.CommandHelp
+  fullName: NetAF.Commands.Global.Exit.CommandHelp
+  nameWithType: Exit.CommandHelp
+- uid: NetAF.Commands.Global.Exit.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.Exit.html#NetAF_Commands_Global_Exit_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.Exit.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.Exit.CommandHelp
+  nameWithType: Exit.CommandHelp
+- uid: NetAF.Commands.Global.Exit.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.Exit.html#NetAF_Commands_Global_Exit_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.Exit.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.Exit.Invoke(NetAF.Logic.Game)
+  nameWithType: Exit.Invoke(Game)
+- uid: NetAF.Commands.Global.Exit.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.Exit.html#NetAF_Commands_Global_Exit_Invoke_
+  commentId: Overload:NetAF.Commands.Global.Exit.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.Exit.Invoke
+  nameWithType: Exit.Invoke
+- uid: NetAF.Commands.Global.Help
+  name: Help
+  href: api/NetAF.Commands.Global.Help.html
+  commentId: T:NetAF.Commands.Global.Help
+  fullName: NetAF.Commands.Global.Help
+  nameWithType: Help
+- uid: NetAF.Commands.Global.Help.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help_CommandHelp
+  commentId: P:NetAF.Commands.Global.Help.CommandHelp
+  fullName: NetAF.Commands.Global.Help.CommandHelp
+  nameWithType: Help.CommandHelp
+- uid: NetAF.Commands.Global.Help.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.Help.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.Help.CommandHelp
+  nameWithType: Help.CommandHelp
+- uid: NetAF.Commands.Global.Help.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.Help.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.Help.Invoke(NetAF.Logic.Game)
+  nameWithType: Help.Invoke(Game)
+- uid: NetAF.Commands.Global.Help.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help_Invoke_
+  commentId: Overload:NetAF.Commands.Global.Help.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.Help.Invoke
+  nameWithType: Help.Invoke
+- uid: NetAF.Commands.Global.Map
+  name: Map
+  href: api/NetAF.Commands.Global.Map.html
+  commentId: T:NetAF.Commands.Global.Map
+  fullName: NetAF.Commands.Global.Map
+  nameWithType: Map
+- uid: NetAF.Commands.Global.Map.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.Map.html#NetAF_Commands_Global_Map_CommandHelp
+  commentId: P:NetAF.Commands.Global.Map.CommandHelp
+  fullName: NetAF.Commands.Global.Map.CommandHelp
+  nameWithType: Map.CommandHelp
+- uid: NetAF.Commands.Global.Map.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.Map.html#NetAF_Commands_Global_Map_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.Map.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.Map.CommandHelp
+  nameWithType: Map.CommandHelp
+- uid: NetAF.Commands.Global.Map.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.Map.html#NetAF_Commands_Global_Map_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.Map.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.Map.Invoke(NetAF.Logic.Game)
+  nameWithType: Map.Invoke(Game)
+- uid: NetAF.Commands.Global.Map.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.Map.html#NetAF_Commands_Global_Map_Invoke_
+  commentId: Overload:NetAF.Commands.Global.Map.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.Map.Invoke
+  nameWithType: Map.Invoke
+- uid: NetAF.Commands.Global.New
+  name: New
+  href: api/NetAF.Commands.Global.New.html
+  commentId: T:NetAF.Commands.Global.New
+  fullName: NetAF.Commands.Global.New
+  nameWithType: New
+- uid: NetAF.Commands.Global.New.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.New.html#NetAF_Commands_Global_New_CommandHelp
+  commentId: P:NetAF.Commands.Global.New.CommandHelp
+  fullName: NetAF.Commands.Global.New.CommandHelp
+  nameWithType: New.CommandHelp
+- uid: NetAF.Commands.Global.New.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.New.html#NetAF_Commands_Global_New_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.New.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.New.CommandHelp
+  nameWithType: New.CommandHelp
+- uid: NetAF.Commands.Global.New.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.New.html#NetAF_Commands_Global_New_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.New.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.New.Invoke(NetAF.Logic.Game)
+  nameWithType: New.Invoke(Game)
+- uid: NetAF.Commands.Global.New.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.New.html#NetAF_Commands_Global_New_Invoke_
+  commentId: Overload:NetAF.Commands.Global.New.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.New.Invoke
+  nameWithType: New.Invoke
 - uid: NetAF.Commands.ICommand
   name: ICommand
   href: api/NetAF.Commands.ICommand.html
@@ -3340,6 +3701,521 @@ references:
   fullName.vb: NetAF.Commands.Persistence.Save.New
   nameWithType: Save.Save
   nameWithType.vb: Save.New
+- uid: NetAF.Commands.Scene
+  name: NetAF.Commands.Scene
+  href: api/NetAF.Commands.Scene.html
+  commentId: N:NetAF.Commands.Scene
+  fullName: NetAF.Commands.Scene
+  nameWithType: NetAF.Commands.Scene
+- uid: NetAF.Commands.Scene.Drop
+  name: Drop
+  href: api/NetAF.Commands.Scene.Drop.html
+  commentId: T:NetAF.Commands.Scene.Drop
+  fullName: NetAF.Commands.Scene.Drop
+  nameWithType: Drop
+- uid: NetAF.Commands.Scene.Drop.#ctor(NetAF.Assets.Item)
+  name: Drop(Item)
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop__ctor_NetAF_Assets_Item_
+  commentId: M:NetAF.Commands.Scene.Drop.#ctor(NetAF.Assets.Item)
+  name.vb: New(Item)
+  fullName: NetAF.Commands.Scene.Drop.Drop(NetAF.Assets.Item)
+  fullName.vb: NetAF.Commands.Scene.Drop.New(NetAF.Assets.Item)
+  nameWithType: Drop.Drop(Item)
+  nameWithType.vb: Drop.New(Item)
+- uid: NetAF.Commands.Scene.Drop.#ctor*
+  name: Drop
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop__ctor_
+  commentId: Overload:NetAF.Commands.Scene.Drop.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.Drop.Drop
+  fullName.vb: NetAF.Commands.Scene.Drop.New
+  nameWithType: Drop.Drop
+  nameWithType.vb: Drop.New
+- uid: NetAF.Commands.Scene.Drop.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_CommandHelp
+  commentId: P:NetAF.Commands.Scene.Drop.CommandHelp
+  fullName: NetAF.Commands.Scene.Drop.CommandHelp
+  nameWithType: Drop.CommandHelp
+- uid: NetAF.Commands.Scene.Drop.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_CommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Drop.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Drop.CommandHelp
+  nameWithType: Drop.CommandHelp
+- uid: NetAF.Commands.Scene.Drop.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.Drop.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.Drop.Invoke(NetAF.Logic.Game)
+  nameWithType: Drop.Invoke(Game)
+- uid: NetAF.Commands.Scene.Drop.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.Drop.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Drop.Invoke
+  nameWithType: Drop.Invoke
+- uid: NetAF.Commands.Scene.Drop.Item
+  name: Item
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_Item
+  commentId: P:NetAF.Commands.Scene.Drop.Item
+  fullName: NetAF.Commands.Scene.Drop.Item
+  nameWithType: Drop.Item
+- uid: NetAF.Commands.Scene.Drop.Item*
+  name: Item
+  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_Item_
+  commentId: Overload:NetAF.Commands.Scene.Drop.Item
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Drop.Item
+  nameWithType: Drop.Item
+- uid: NetAF.Commands.Scene.Examine
+  name: Examine
+  href: api/NetAF.Commands.Scene.Examine.html
+  commentId: T:NetAF.Commands.Scene.Examine
+  fullName: NetAF.Commands.Scene.Examine
+  nameWithType: Examine
+- uid: NetAF.Commands.Scene.Examine.#ctor(NetAF.Assets.IExaminable)
+  name: Examine(IExaminable)
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine__ctor_NetAF_Assets_IExaminable_
+  commentId: M:NetAF.Commands.Scene.Examine.#ctor(NetAF.Assets.IExaminable)
+  name.vb: New(IExaminable)
+  fullName: NetAF.Commands.Scene.Examine.Examine(NetAF.Assets.IExaminable)
+  fullName.vb: NetAF.Commands.Scene.Examine.New(NetAF.Assets.IExaminable)
+  nameWithType: Examine.Examine(IExaminable)
+  nameWithType.vb: Examine.New(IExaminable)
+- uid: NetAF.Commands.Scene.Examine.#ctor*
+  name: Examine
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine__ctor_
+  commentId: Overload:NetAF.Commands.Scene.Examine.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.Examine.Examine
+  fullName.vb: NetAF.Commands.Scene.Examine.New
+  nameWithType: Examine.Examine
+  nameWithType.vb: Examine.New
+- uid: NetAF.Commands.Scene.Examine.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_CommandHelp
+  commentId: P:NetAF.Commands.Scene.Examine.CommandHelp
+  fullName: NetAF.Commands.Scene.Examine.CommandHelp
+  nameWithType: Examine.CommandHelp
+- uid: NetAF.Commands.Scene.Examine.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_CommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Examine.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Examine.CommandHelp
+  nameWithType: Examine.CommandHelp
+- uid: NetAF.Commands.Scene.Examine.Examinable
+  name: Examinable
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Examinable
+  commentId: P:NetAF.Commands.Scene.Examine.Examinable
+  fullName: NetAF.Commands.Scene.Examine.Examinable
+  nameWithType: Examine.Examinable
+- uid: NetAF.Commands.Scene.Examine.Examinable*
+  name: Examinable
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Examinable_
+  commentId: Overload:NetAF.Commands.Scene.Examine.Examinable
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Examine.Examinable
+  nameWithType: Examine.Examinable
+- uid: NetAF.Commands.Scene.Examine.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.Examine.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.Examine.Invoke(NetAF.Logic.Game)
+  nameWithType: Examine.Invoke(Game)
+- uid: NetAF.Commands.Scene.Examine.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.Examine.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Examine.Invoke
+  nameWithType: Examine.Invoke
+- uid: NetAF.Commands.Scene.Move
+  name: Move
+  href: api/NetAF.Commands.Scene.Move.html
+  commentId: T:NetAF.Commands.Scene.Move
+  fullName: NetAF.Commands.Scene.Move
+  nameWithType: Move
+- uid: NetAF.Commands.Scene.Move.#ctor(NetAF.Assets.Locations.Direction)
+  name: Move(Direction)
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move__ctor_NetAF_Assets_Locations_Direction_
+  commentId: M:NetAF.Commands.Scene.Move.#ctor(NetAF.Assets.Locations.Direction)
+  name.vb: New(Direction)
+  fullName: NetAF.Commands.Scene.Move.Move(NetAF.Assets.Locations.Direction)
+  fullName.vb: NetAF.Commands.Scene.Move.New(NetAF.Assets.Locations.Direction)
+  nameWithType: Move.Move(Direction)
+  nameWithType.vb: Move.New(Direction)
+- uid: NetAF.Commands.Scene.Move.#ctor*
+  name: Move
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move__ctor_
+  commentId: Overload:NetAF.Commands.Scene.Move.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.Move.Move
+  fullName.vb: NetAF.Commands.Scene.Move.New
+  nameWithType: Move.Move
+  nameWithType.vb: Move.New
+- uid: NetAF.Commands.Scene.Move.Direction
+  name: Direction
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_Direction
+  commentId: P:NetAF.Commands.Scene.Move.Direction
+  fullName: NetAF.Commands.Scene.Move.Direction
+  nameWithType: Move.Direction
+- uid: NetAF.Commands.Scene.Move.Direction*
+  name: Direction
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_Direction_
+  commentId: Overload:NetAF.Commands.Scene.Move.Direction
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.Direction
+  nameWithType: Move.Direction
+- uid: NetAF.Commands.Scene.Move.DownCommandHelp
+  name: DownCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_DownCommandHelp
+  commentId: P:NetAF.Commands.Scene.Move.DownCommandHelp
+  fullName: NetAF.Commands.Scene.Move.DownCommandHelp
+  nameWithType: Move.DownCommandHelp
+- uid: NetAF.Commands.Scene.Move.DownCommandHelp*
+  name: DownCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_DownCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Move.DownCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.DownCommandHelp
+  nameWithType: Move.DownCommandHelp
+- uid: NetAF.Commands.Scene.Move.EastCommandHelp
+  name: EastCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_EastCommandHelp
+  commentId: P:NetAF.Commands.Scene.Move.EastCommandHelp
+  fullName: NetAF.Commands.Scene.Move.EastCommandHelp
+  nameWithType: Move.EastCommandHelp
+- uid: NetAF.Commands.Scene.Move.EastCommandHelp*
+  name: EastCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_EastCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Move.EastCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.EastCommandHelp
+  nameWithType: Move.EastCommandHelp
+- uid: NetAF.Commands.Scene.Move.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.Move.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.Move.Invoke(NetAF.Logic.Game)
+  nameWithType: Move.Invoke(Game)
+- uid: NetAF.Commands.Scene.Move.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.Move.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.Invoke
+  nameWithType: Move.Invoke
+- uid: NetAF.Commands.Scene.Move.NorthCommandHelp
+  name: NorthCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_NorthCommandHelp
+  commentId: P:NetAF.Commands.Scene.Move.NorthCommandHelp
+  fullName: NetAF.Commands.Scene.Move.NorthCommandHelp
+  nameWithType: Move.NorthCommandHelp
+- uid: NetAF.Commands.Scene.Move.NorthCommandHelp*
+  name: NorthCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_NorthCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Move.NorthCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.NorthCommandHelp
+  nameWithType: Move.NorthCommandHelp
+- uid: NetAF.Commands.Scene.Move.SouthCommandHelp
+  name: SouthCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_SouthCommandHelp
+  commentId: P:NetAF.Commands.Scene.Move.SouthCommandHelp
+  fullName: NetAF.Commands.Scene.Move.SouthCommandHelp
+  nameWithType: Move.SouthCommandHelp
+- uid: NetAF.Commands.Scene.Move.SouthCommandHelp*
+  name: SouthCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_SouthCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Move.SouthCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.SouthCommandHelp
+  nameWithType: Move.SouthCommandHelp
+- uid: NetAF.Commands.Scene.Move.SuccessfulMovePrefix
+  name: SuccessfulMovePrefix
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_SuccessfulMovePrefix
+  commentId: F:NetAF.Commands.Scene.Move.SuccessfulMovePrefix
+  fullName: NetAF.Commands.Scene.Move.SuccessfulMovePrefix
+  nameWithType: Move.SuccessfulMovePrefix
+- uid: NetAF.Commands.Scene.Move.UpCommandHelp
+  name: UpCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_UpCommandHelp
+  commentId: P:NetAF.Commands.Scene.Move.UpCommandHelp
+  fullName: NetAF.Commands.Scene.Move.UpCommandHelp
+  nameWithType: Move.UpCommandHelp
+- uid: NetAF.Commands.Scene.Move.UpCommandHelp*
+  name: UpCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_UpCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Move.UpCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.UpCommandHelp
+  nameWithType: Move.UpCommandHelp
+- uid: NetAF.Commands.Scene.Move.WestCommandHelp
+  name: WestCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_WestCommandHelp
+  commentId: P:NetAF.Commands.Scene.Move.WestCommandHelp
+  fullName: NetAF.Commands.Scene.Move.WestCommandHelp
+  nameWithType: Move.WestCommandHelp
+- uid: NetAF.Commands.Scene.Move.WestCommandHelp*
+  name: WestCommandHelp
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_WestCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Move.WestCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Move.WestCommandHelp
+  nameWithType: Move.WestCommandHelp
+- uid: NetAF.Commands.Scene.Take
+  name: Take
+  href: api/NetAF.Commands.Scene.Take.html
+  commentId: T:NetAF.Commands.Scene.Take
+  fullName: NetAF.Commands.Scene.Take
+  nameWithType: Take
+- uid: NetAF.Commands.Scene.Take.#ctor(NetAF.Assets.Item)
+  name: Take(Item)
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take__ctor_NetAF_Assets_Item_
+  commentId: M:NetAF.Commands.Scene.Take.#ctor(NetAF.Assets.Item)
+  name.vb: New(Item)
+  fullName: NetAF.Commands.Scene.Take.Take(NetAF.Assets.Item)
+  fullName.vb: NetAF.Commands.Scene.Take.New(NetAF.Assets.Item)
+  nameWithType: Take.Take(Item)
+  nameWithType.vb: Take.New(Item)
+- uid: NetAF.Commands.Scene.Take.#ctor*
+  name: Take
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take__ctor_
+  commentId: Overload:NetAF.Commands.Scene.Take.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.Take.Take
+  fullName.vb: NetAF.Commands.Scene.Take.New
+  nameWithType: Take.Take
+  nameWithType.vb: Take.New
+- uid: NetAF.Commands.Scene.Take.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_CommandHelp
+  commentId: P:NetAF.Commands.Scene.Take.CommandHelp
+  fullName: NetAF.Commands.Scene.Take.CommandHelp
+  nameWithType: Take.CommandHelp
+- uid: NetAF.Commands.Scene.Take.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_CommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Take.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Take.CommandHelp
+  nameWithType: Take.CommandHelp
+- uid: NetAF.Commands.Scene.Take.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.Take.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.Take.Invoke(NetAF.Logic.Game)
+  nameWithType: Take.Invoke(Game)
+- uid: NetAF.Commands.Scene.Take.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.Take.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Take.Invoke
+  nameWithType: Take.Invoke
+- uid: NetAF.Commands.Scene.Take.Item
+  name: Item
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_Item
+  commentId: P:NetAF.Commands.Scene.Take.Item
+  fullName: NetAF.Commands.Scene.Take.Item
+  nameWithType: Take.Item
+- uid: NetAF.Commands.Scene.Take.Item*
+  name: Item
+  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_Item_
+  commentId: Overload:NetAF.Commands.Scene.Take.Item
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Take.Item
+  nameWithType: Take.Item
+- uid: NetAF.Commands.Scene.TakeAll
+  name: TakeAll
+  href: api/NetAF.Commands.Scene.TakeAll.html
+  commentId: T:NetAF.Commands.Scene.TakeAll
+  fullName: NetAF.Commands.Scene.TakeAll
+  nameWithType: TakeAll
+- uid: NetAF.Commands.Scene.TakeAll.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.TakeAll.html#NetAF_Commands_Scene_TakeAll_CommandHelp
+  commentId: P:NetAF.Commands.Scene.TakeAll.CommandHelp
+  fullName: NetAF.Commands.Scene.TakeAll.CommandHelp
+  nameWithType: TakeAll.CommandHelp
+- uid: NetAF.Commands.Scene.TakeAll.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Scene.TakeAll.html#NetAF_Commands_Scene_TakeAll_CommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.TakeAll.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.TakeAll.CommandHelp
+  nameWithType: TakeAll.CommandHelp
+- uid: NetAF.Commands.Scene.TakeAll.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.TakeAll.html#NetAF_Commands_Scene_TakeAll_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.TakeAll.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.TakeAll.Invoke(NetAF.Logic.Game)
+  nameWithType: TakeAll.Invoke(Game)
+- uid: NetAF.Commands.Scene.TakeAll.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.TakeAll.html#NetAF_Commands_Scene_TakeAll_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.TakeAll.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.TakeAll.Invoke
+  nameWithType: TakeAll.Invoke
+- uid: NetAF.Commands.Scene.Unactionable
+  name: Unactionable
+  href: api/NetAF.Commands.Scene.Unactionable.html
+  commentId: T:NetAF.Commands.Scene.Unactionable
+  fullName: NetAF.Commands.Scene.Unactionable
+  nameWithType: Unactionable
+- uid: NetAF.Commands.Scene.Unactionable.#ctor
+  name: Unactionable()
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable__ctor
+  commentId: M:NetAF.Commands.Scene.Unactionable.#ctor
+  name.vb: New()
+  fullName: NetAF.Commands.Scene.Unactionable.Unactionable()
+  fullName.vb: NetAF.Commands.Scene.Unactionable.New()
+  nameWithType: Unactionable.Unactionable()
+  nameWithType.vb: Unactionable.New()
+- uid: NetAF.Commands.Scene.Unactionable.#ctor(System.String)
+  name: Unactionable(string)
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable__ctor_System_String_
+  commentId: M:NetAF.Commands.Scene.Unactionable.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetAF.Commands.Scene.Unactionable.Unactionable(string)
+  fullName.vb: NetAF.Commands.Scene.Unactionable.New(String)
+  nameWithType: Unactionable.Unactionable(string)
+  nameWithType.vb: Unactionable.New(String)
+- uid: NetAF.Commands.Scene.Unactionable.#ctor*
+  name: Unactionable
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable__ctor_
+  commentId: Overload:NetAF.Commands.Scene.Unactionable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.Unactionable.Unactionable
+  fullName.vb: NetAF.Commands.Scene.Unactionable.New
+  nameWithType: Unactionable.Unactionable
+  nameWithType.vb: Unactionable.New
+- uid: NetAF.Commands.Scene.Unactionable.Description
+  name: Description
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable_Description
+  commentId: P:NetAF.Commands.Scene.Unactionable.Description
+  fullName: NetAF.Commands.Scene.Unactionable.Description
+  nameWithType: Unactionable.Description
+- uid: NetAF.Commands.Scene.Unactionable.Description*
+  name: Description
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable_Description_
+  commentId: Overload:NetAF.Commands.Scene.Unactionable.Description
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Unactionable.Description
+  nameWithType: Unactionable.Description
+- uid: NetAF.Commands.Scene.Unactionable.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.Unactionable.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.Unactionable.Invoke(NetAF.Logic.Game)
+  nameWithType: Unactionable.Invoke(Game)
+- uid: NetAF.Commands.Scene.Unactionable.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.Unactionable.html#NetAF_Commands_Scene_Unactionable_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.Unactionable.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Unactionable.Invoke
+  nameWithType: Unactionable.Invoke
+- uid: NetAF.Commands.Scene.UseOn
+  name: UseOn
+  href: api/NetAF.Commands.Scene.UseOn.html
+  commentId: T:NetAF.Commands.Scene.UseOn
+  fullName: NetAF.Commands.Scene.UseOn
+  nameWithType: UseOn
+- uid: NetAF.Commands.Scene.UseOn.#ctor(NetAF.Assets.Item,NetAF.Assets.Interaction.IInteractWithItem)
+  name: UseOn(Item, IInteractWithItem)
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn__ctor_NetAF_Assets_Item_NetAF_Assets_Interaction_IInteractWithItem_
+  commentId: M:NetAF.Commands.Scene.UseOn.#ctor(NetAF.Assets.Item,NetAF.Assets.Interaction.IInteractWithItem)
+  name.vb: New(Item, IInteractWithItem)
+  fullName: NetAF.Commands.Scene.UseOn.UseOn(NetAF.Assets.Item, NetAF.Assets.Interaction.IInteractWithItem)
+  fullName.vb: NetAF.Commands.Scene.UseOn.New(NetAF.Assets.Item, NetAF.Assets.Interaction.IInteractWithItem)
+  nameWithType: UseOn.UseOn(Item, IInteractWithItem)
+  nameWithType.vb: UseOn.New(Item, IInteractWithItem)
+- uid: NetAF.Commands.Scene.UseOn.#ctor*
+  name: UseOn
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn__ctor_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.UseOn.UseOn
+  fullName.vb: NetAF.Commands.Scene.UseOn.New
+  nameWithType: UseOn.UseOn
+  nameWithType.vb: UseOn.New
+- uid: NetAF.Commands.Scene.UseOn.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.UseOn.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.UseOn.Invoke(NetAF.Logic.Game)
+  nameWithType: UseOn.Invoke(Game)
+- uid: NetAF.Commands.Scene.UseOn.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.Invoke
+  nameWithType: UseOn.Invoke
+- uid: NetAF.Commands.Scene.UseOn.Item
+  name: Item
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Item
+  commentId: P:NetAF.Commands.Scene.UseOn.Item
+  fullName: NetAF.Commands.Scene.UseOn.Item
+  nameWithType: UseOn.Item
+- uid: NetAF.Commands.Scene.UseOn.Item*
+  name: Item
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Item_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.Item
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.Item
+  nameWithType: UseOn.Item
+- uid: NetAF.Commands.Scene.UseOn.OnCommandHelp
+  name: OnCommandHelp
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_OnCommandHelp
+  commentId: P:NetAF.Commands.Scene.UseOn.OnCommandHelp
+  fullName: NetAF.Commands.Scene.UseOn.OnCommandHelp
+  nameWithType: UseOn.OnCommandHelp
+- uid: NetAF.Commands.Scene.UseOn.OnCommandHelp*
+  name: OnCommandHelp
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_OnCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.OnCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.OnCommandHelp
+  nameWithType: UseOn.OnCommandHelp
+- uid: NetAF.Commands.Scene.UseOn.Target
+  name: Target
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Target
+  commentId: P:NetAF.Commands.Scene.UseOn.Target
+  fullName: NetAF.Commands.Scene.UseOn.Target
+  nameWithType: UseOn.Target
+- uid: NetAF.Commands.Scene.UseOn.Target*
+  name: Target
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Target_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.Target
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.Target
+  nameWithType: UseOn.Target
+- uid: NetAF.Commands.Scene.UseOn.UseCommandHelp
+  name: UseCommandHelp
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_UseCommandHelp
+  commentId: P:NetAF.Commands.Scene.UseOn.UseCommandHelp
+  fullName: NetAF.Commands.Scene.UseOn.UseCommandHelp
+  nameWithType: UseOn.UseCommandHelp
+- uid: NetAF.Commands.Scene.UseOn.UseCommandHelp*
+  name: UseCommandHelp
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_UseCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.UseCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.UseCommandHelp
+  nameWithType: UseOn.UseCommandHelp
 - uid: NetAF.Conversations
   name: NetAF.Conversations
   href: api/NetAF.Conversations.html
@@ -4364,70 +5240,6 @@ references:
   commentId: N:NetAF.Interpretation
   fullName: NetAF.Interpretation
   nameWithType: NetAF.Interpretation
-- uid: NetAF.Interpretation.CommandHelp
-  name: CommandHelp
-  href: api/NetAF.Interpretation.CommandHelp.html
-  commentId: T:NetAF.Interpretation.CommandHelp
-  fullName: NetAF.Interpretation.CommandHelp
-  nameWithType: CommandHelp
-- uid: NetAF.Interpretation.CommandHelp.#ctor(System.String,System.String)
-  name: CommandHelp(string, string)
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp__ctor_System_String_System_String_
-  commentId: M:NetAF.Interpretation.CommandHelp.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: NetAF.Interpretation.CommandHelp.CommandHelp(string, string)
-  fullName.vb: NetAF.Interpretation.CommandHelp.New(String, String)
-  nameWithType: CommandHelp.CommandHelp(string, string)
-  nameWithType.vb: CommandHelp.New(String, String)
-- uid: NetAF.Interpretation.CommandHelp.#ctor*
-  name: CommandHelp
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp__ctor_
-  commentId: Overload:NetAF.Interpretation.CommandHelp.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Interpretation.CommandHelp.CommandHelp
-  fullName.vb: NetAF.Interpretation.CommandHelp.New
-  nameWithType: CommandHelp.CommandHelp
-  nameWithType.vb: CommandHelp.New
-- uid: NetAF.Interpretation.CommandHelp.Command
-  name: Command
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp_Command
-  commentId: P:NetAF.Interpretation.CommandHelp.Command
-  fullName: NetAF.Interpretation.CommandHelp.Command
-  nameWithType: CommandHelp.Command
-- uid: NetAF.Interpretation.CommandHelp.Command*
-  name: Command
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp_Command_
-  commentId: Overload:NetAF.Interpretation.CommandHelp.Command
-  isSpec: "True"
-  fullName: NetAF.Interpretation.CommandHelp.Command
-  nameWithType: CommandHelp.Command
-- uid: NetAF.Interpretation.CommandHelp.Description
-  name: Description
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp_Description
-  commentId: P:NetAF.Interpretation.CommandHelp.Description
-  fullName: NetAF.Interpretation.CommandHelp.Description
-  nameWithType: CommandHelp.Description
-- uid: NetAF.Interpretation.CommandHelp.Description*
-  name: Description
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp_Description_
-  commentId: Overload:NetAF.Interpretation.CommandHelp.Description
-  isSpec: "True"
-  fullName: NetAF.Interpretation.CommandHelp.Description
-  nameWithType: CommandHelp.Description
-- uid: NetAF.Interpretation.CommandHelp.Equals(NetAF.Interpretation.CommandHelp)
-  name: Equals(CommandHelp)
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp_Equals_NetAF_Interpretation_CommandHelp_
-  commentId: M:NetAF.Interpretation.CommandHelp.Equals(NetAF.Interpretation.CommandHelp)
-  fullName: NetAF.Interpretation.CommandHelp.Equals(NetAF.Interpretation.CommandHelp)
-  nameWithType: CommandHelp.Equals(CommandHelp)
-- uid: NetAF.Interpretation.CommandHelp.Equals*
-  name: Equals
-  href: api/NetAF.Interpretation.CommandHelp.html#NetAF_Interpretation_CommandHelp_Equals_
-  commentId: Overload:NetAF.Interpretation.CommandHelp.Equals
-  isSpec: "True"
-  fullName: NetAF.Interpretation.CommandHelp.Equals
-  nameWithType: CommandHelp.Equals
 - uid: NetAF.Interpretation.ConversationCommandInterpreter
   name: ConversationCommandInterpreter
   href: api/NetAF.Interpretation.ConversationCommandInterpreter.html
@@ -4447,12 +5259,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.ConversationCommandInterpreter.DefaultSupportedCommands
   nameWithType: ConversationCommandInterpreter.DefaultSupportedCommands
-- uid: NetAF.Interpretation.ConversationCommandInterpreter.End
-  name: End
-  href: api/NetAF.Interpretation.ConversationCommandInterpreter.html#NetAF_Interpretation_ConversationCommandInterpreter_End
-  commentId: F:NetAF.Interpretation.ConversationCommandInterpreter.End
-  fullName: NetAF.Interpretation.ConversationCommandInterpreter.End
-  nameWithType: ConversationCommandInterpreter.End
 - uid: NetAF.Interpretation.ConversationCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.ConversationCommandInterpreter.html#NetAF_Interpretation_ConversationCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -4549,18 +5355,6 @@ references:
   commentId: T:NetAF.Interpretation.FrameCommandInterpreter
   fullName: NetAF.Interpretation.FrameCommandInterpreter
   nameWithType: FrameCommandInterpreter
-- uid: NetAF.Interpretation.FrameCommandInterpreter.CommandsOff
-  name: CommandsOff
-  href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_CommandsOff
-  commentId: F:NetAF.Interpretation.FrameCommandInterpreter.CommandsOff
-  fullName: NetAF.Interpretation.FrameCommandInterpreter.CommandsOff
-  nameWithType: FrameCommandInterpreter.CommandsOff
-- uid: NetAF.Interpretation.FrameCommandInterpreter.CommandsOn
-  name: CommandsOn
-  href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_CommandsOn
-  commentId: F:NetAF.Interpretation.FrameCommandInterpreter.CommandsOn
-  fullName: NetAF.Interpretation.FrameCommandInterpreter.CommandsOn
-  nameWithType: FrameCommandInterpreter.CommandsOn
 - uid: NetAF.Interpretation.FrameCommandInterpreter.DefaultSupportedCommands
   name: DefaultSupportedCommands
   href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_DefaultSupportedCommands
@@ -4603,18 +5397,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.FrameCommandInterpreter.Interpret
   nameWithType: FrameCommandInterpreter.Interpret
-- uid: NetAF.Interpretation.FrameCommandInterpreter.KeyOff
-  name: KeyOff
-  href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_KeyOff
-  commentId: F:NetAF.Interpretation.FrameCommandInterpreter.KeyOff
-  fullName: NetAF.Interpretation.FrameCommandInterpreter.KeyOff
-  nameWithType: FrameCommandInterpreter.KeyOff
-- uid: NetAF.Interpretation.FrameCommandInterpreter.KeyOn
-  name: KeyOn
-  href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_KeyOn
-  commentId: F:NetAF.Interpretation.FrameCommandInterpreter.KeyOn
-  fullName: NetAF.Interpretation.FrameCommandInterpreter.KeyOn
-  nameWithType: FrameCommandInterpreter.KeyOn
 - uid: NetAF.Interpretation.FrameCommandInterpreter.SupportedCommands
   name: SupportedCommands
   href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_SupportedCommands
@@ -4628,247 +5410,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.FrameCommandInterpreter.SupportedCommands
   nameWithType: FrameCommandInterpreter.SupportedCommands
-- uid: NetAF.Interpretation.GameCommandInterpreter
-  name: GameCommandInterpreter
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html
-  commentId: T:NetAF.Interpretation.GameCommandInterpreter
-  fullName: NetAF.Interpretation.GameCommandInterpreter
-  nameWithType: GameCommandInterpreter
-- uid: NetAF.Interpretation.GameCommandInterpreter.All
-  name: All
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_All
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.All
-  fullName: NetAF.Interpretation.GameCommandInterpreter.All
-  nameWithType: GameCommandInterpreter.All
-- uid: NetAF.Interpretation.GameCommandInterpreter.DefaultSupportedCommands
-  name: DefaultSupportedCommands
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_DefaultSupportedCommands
-  commentId: P:NetAF.Interpretation.GameCommandInterpreter.DefaultSupportedCommands
-  fullName: NetAF.Interpretation.GameCommandInterpreter.DefaultSupportedCommands
-  nameWithType: GameCommandInterpreter.DefaultSupportedCommands
-- uid: NetAF.Interpretation.GameCommandInterpreter.DefaultSupportedCommands*
-  name: DefaultSupportedCommands
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_DefaultSupportedCommands_
-  commentId: Overload:NetAF.Interpretation.GameCommandInterpreter.DefaultSupportedCommands
-  isSpec: "True"
-  fullName: NetAF.Interpretation.GameCommandInterpreter.DefaultSupportedCommands
-  nameWithType: GameCommandInterpreter.DefaultSupportedCommands
-- uid: NetAF.Interpretation.GameCommandInterpreter.Down
-  name: Down
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Down
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Down
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Down
-  nameWithType: GameCommandInterpreter.Down
-- uid: NetAF.Interpretation.GameCommandInterpreter.DownShort
-  name: DownShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_DownShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.DownShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.DownShort
-  nameWithType: GameCommandInterpreter.DownShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.Drop
-  name: Drop
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Drop
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Drop
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Drop
-  nameWithType: GameCommandInterpreter.Drop
-- uid: NetAF.Interpretation.GameCommandInterpreter.DropShort
-  name: DropShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_DropShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.DropShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.DropShort
-  nameWithType: GameCommandInterpreter.DropShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.East
-  name: East
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_East
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.East
-  fullName: NetAF.Interpretation.GameCommandInterpreter.East
-  nameWithType: GameCommandInterpreter.East
-- uid: NetAF.Interpretation.GameCommandInterpreter.EastShort
-  name: EastShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_EastShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.EastShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.EastShort
-  nameWithType: GameCommandInterpreter.EastShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.Examine
-  name: Examine
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Examine
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Examine
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Examine
-  nameWithType: GameCommandInterpreter.Examine
-- uid: NetAF.Interpretation.GameCommandInterpreter.ExamineShort
-  name: ExamineShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_ExamineShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.ExamineShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.ExamineShort
-  nameWithType: GameCommandInterpreter.ExamineShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
-  name: GetContextualCommandHelp(Game)
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
-  commentId: M:NetAF.Interpretation.GameCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
-  fullName: NetAF.Interpretation.GameCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
-  nameWithType: GameCommandInterpreter.GetContextualCommandHelp(Game)
-- uid: NetAF.Interpretation.GameCommandInterpreter.GetContextualCommandHelp*
-  name: GetContextualCommandHelp
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_GetContextualCommandHelp_
-  commentId: Overload:NetAF.Interpretation.GameCommandInterpreter.GetContextualCommandHelp
-  isSpec: "True"
-  fullName: NetAF.Interpretation.GameCommandInterpreter.GetContextualCommandHelp
-  nameWithType: GameCommandInterpreter.GetContextualCommandHelp
-- uid: NetAF.Interpretation.GameCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
-  name: Interpret(string, Game)
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_
-  commentId: M:NetAF.Interpretation.GameCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
-  name.vb: Interpret(String, Game)
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Interpret(string, NetAF.Logic.Game)
-  fullName.vb: NetAF.Interpretation.GameCommandInterpreter.Interpret(String, NetAF.Logic.Game)
-  nameWithType: GameCommandInterpreter.Interpret(string, Game)
-  nameWithType.vb: GameCommandInterpreter.Interpret(String, Game)
-- uid: NetAF.Interpretation.GameCommandInterpreter.Interpret*
-  name: Interpret
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Interpret_
-  commentId: Overload:NetAF.Interpretation.GameCommandInterpreter.Interpret
-  isSpec: "True"
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Interpret
-  nameWithType: GameCommandInterpreter.Interpret
-- uid: NetAF.Interpretation.GameCommandInterpreter.Me
-  name: Me
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Me
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Me
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Me
-  nameWithType: GameCommandInterpreter.Me
-- uid: NetAF.Interpretation.GameCommandInterpreter.North
-  name: North
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_North
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.North
-  fullName: NetAF.Interpretation.GameCommandInterpreter.North
-  nameWithType: GameCommandInterpreter.North
-- uid: NetAF.Interpretation.GameCommandInterpreter.NorthShort
-  name: NorthShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_NorthShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.NorthShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.NorthShort
-  nameWithType: GameCommandInterpreter.NorthShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.On
-  name: On
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_On
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.On
-  fullName: NetAF.Interpretation.GameCommandInterpreter.On
-  nameWithType: GameCommandInterpreter.On
-- uid: NetAF.Interpretation.GameCommandInterpreter.Overworld
-  name: Overworld
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Overworld
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Overworld
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Overworld
-  nameWithType: GameCommandInterpreter.Overworld
-- uid: NetAF.Interpretation.GameCommandInterpreter.Region
-  name: Region
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Region
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Region
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Region
-  nameWithType: GameCommandInterpreter.Region
-- uid: NetAF.Interpretation.GameCommandInterpreter.Room
-  name: Room
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Room
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Room
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Room
-  nameWithType: GameCommandInterpreter.Room
-- uid: NetAF.Interpretation.GameCommandInterpreter.South
-  name: South
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_South
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.South
-  fullName: NetAF.Interpretation.GameCommandInterpreter.South
-  nameWithType: GameCommandInterpreter.South
-- uid: NetAF.Interpretation.GameCommandInterpreter.SouthShort
-  name: SouthShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_SouthShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.SouthShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.SouthShort
-  nameWithType: GameCommandInterpreter.SouthShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.SupportedCommands
-  name: SupportedCommands
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_SupportedCommands
-  commentId: P:NetAF.Interpretation.GameCommandInterpreter.SupportedCommands
-  fullName: NetAF.Interpretation.GameCommandInterpreter.SupportedCommands
-  nameWithType: GameCommandInterpreter.SupportedCommands
-- uid: NetAF.Interpretation.GameCommandInterpreter.SupportedCommands*
-  name: SupportedCommands
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_SupportedCommands_
-  commentId: Overload:NetAF.Interpretation.GameCommandInterpreter.SupportedCommands
-  isSpec: "True"
-  fullName: NetAF.Interpretation.GameCommandInterpreter.SupportedCommands
-  nameWithType: GameCommandInterpreter.SupportedCommands
-- uid: NetAF.Interpretation.GameCommandInterpreter.Take
-  name: Take
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Take
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Take
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Take
-  nameWithType: GameCommandInterpreter.Take
-- uid: NetAF.Interpretation.GameCommandInterpreter.TakeShort
-  name: TakeShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_TakeShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.TakeShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.TakeShort
-  nameWithType: GameCommandInterpreter.TakeShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.Talk
-  name: Talk
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Talk
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Talk
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Talk
-  nameWithType: GameCommandInterpreter.Talk
-- uid: NetAF.Interpretation.GameCommandInterpreter.TalkShort
-  name: TalkShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_TalkShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.TalkShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.TalkShort
-  nameWithType: GameCommandInterpreter.TalkShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.To
-  name: To
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_To
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.To
-  fullName: NetAF.Interpretation.GameCommandInterpreter.To
-  nameWithType: GameCommandInterpreter.To
-- uid: NetAF.Interpretation.GameCommandInterpreter.Up
-  name: Up
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Up
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Up
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Up
-  nameWithType: GameCommandInterpreter.Up
-- uid: NetAF.Interpretation.GameCommandInterpreter.UpShort
-  name: UpShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_UpShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.UpShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.UpShort
-  nameWithType: GameCommandInterpreter.UpShort
-- uid: NetAF.Interpretation.GameCommandInterpreter.Use
-  name: Use
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_Use
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.Use
-  fullName: NetAF.Interpretation.GameCommandInterpreter.Use
-  nameWithType: GameCommandInterpreter.Use
-- uid: NetAF.Interpretation.GameCommandInterpreter.West
-  name: West
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_West
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.West
-  fullName: NetAF.Interpretation.GameCommandInterpreter.West
-  nameWithType: GameCommandInterpreter.West
-- uid: NetAF.Interpretation.GameCommandInterpreter.WestShort
-  name: WestShort
-  href: api/NetAF.Interpretation.GameCommandInterpreter.html#NetAF_Interpretation_GameCommandInterpreter_WestShort
-  commentId: F:NetAF.Interpretation.GameCommandInterpreter.WestShort
-  fullName: NetAF.Interpretation.GameCommandInterpreter.WestShort
-  nameWithType: GameCommandInterpreter.WestShort
 - uid: NetAF.Interpretation.GlobalCommandInterpreter
   name: GlobalCommandInterpreter
   href: api/NetAF.Interpretation.GlobalCommandInterpreter.html
   commentId: T:NetAF.Interpretation.GlobalCommandInterpreter
   fullName: NetAF.Interpretation.GlobalCommandInterpreter
   nameWithType: GlobalCommandInterpreter
-- uid: NetAF.Interpretation.GlobalCommandInterpreter.About
-  name: About
-  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_About
-  commentId: F:NetAF.Interpretation.GlobalCommandInterpreter.About
-  fullName: NetAF.Interpretation.GlobalCommandInterpreter.About
-  nameWithType: GlobalCommandInterpreter.About
 - uid: NetAF.Interpretation.GlobalCommandInterpreter.DefaultSupportedCommands
   name: DefaultSupportedCommands
   href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_DefaultSupportedCommands
@@ -4882,12 +5429,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.GlobalCommandInterpreter.DefaultSupportedCommands
   nameWithType: GlobalCommandInterpreter.DefaultSupportedCommands
-- uid: NetAF.Interpretation.GlobalCommandInterpreter.Exit
-  name: Exit
-  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_Exit
-  commentId: F:NetAF.Interpretation.GlobalCommandInterpreter.Exit
-  fullName: NetAF.Interpretation.GlobalCommandInterpreter.Exit
-  nameWithType: GlobalCommandInterpreter.Exit
 - uid: NetAF.Interpretation.GlobalCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -4901,12 +5442,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.GlobalCommandInterpreter.GetContextualCommandHelp
   nameWithType: GlobalCommandInterpreter.GetContextualCommandHelp
-- uid: NetAF.Interpretation.GlobalCommandInterpreter.Help
-  name: Help
-  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_Help
-  commentId: F:NetAF.Interpretation.GlobalCommandInterpreter.Help
-  fullName: NetAF.Interpretation.GlobalCommandInterpreter.Help
-  nameWithType: GlobalCommandInterpreter.Help
 - uid: NetAF.Interpretation.GlobalCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
   name: Interpret(string, Game)
   href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_
@@ -4923,18 +5458,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.GlobalCommandInterpreter.Interpret
   nameWithType: GlobalCommandInterpreter.Interpret
-- uid: NetAF.Interpretation.GlobalCommandInterpreter.Map
-  name: Map
-  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_Map
-  commentId: F:NetAF.Interpretation.GlobalCommandInterpreter.Map
-  fullName: NetAF.Interpretation.GlobalCommandInterpreter.Map
-  nameWithType: GlobalCommandInterpreter.Map
-- uid: NetAF.Interpretation.GlobalCommandInterpreter.New
-  name: New
-  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_New
-  commentId: F:NetAF.Interpretation.GlobalCommandInterpreter.New
-  fullName: NetAF.Interpretation.GlobalCommandInterpreter.New
-  nameWithType: GlobalCommandInterpreter.New
 - uid: NetAF.Interpretation.GlobalCommandInterpreter.SupportedCommands
   name: SupportedCommands
   href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_SupportedCommands
@@ -5139,6 +5662,91 @@ references:
   commentId: F:NetAF.Interpretation.Interpreters.Default
   fullName: NetAF.Interpretation.Interpreters.Default
   nameWithType: Interpreters.Default
+- uid: NetAF.Interpretation.SceneCommandInterpreter
+  name: SceneCommandInterpreter
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html
+  commentId: T:NetAF.Interpretation.SceneCommandInterpreter
+  fullName: NetAF.Interpretation.SceneCommandInterpreter
+  nameWithType: SceneCommandInterpreter
+- uid: NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_DefaultSupportedCommands
+  commentId: P:NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands
+  nameWithType: SceneCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands*
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_DefaultSupportedCommands_
+  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands
+  nameWithType: SceneCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  name: GetContextualCommandHelp(Game)
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
+  commentId: M:NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  nameWithType: SceneCommandInterpreter.GetContextualCommandHelp(Game)
+- uid: NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp*
+  name: GetContextualCommandHelp
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_GetContextualCommandHelp_
+  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp
+  nameWithType: SceneCommandInterpreter.GetContextualCommandHelp
+- uid: NetAF.Interpretation.SceneCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
+  name: Interpret(string, Game)
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_
+  commentId: M:NetAF.Interpretation.SceneCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
+  name.vb: Interpret(String, Game)
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.Interpret(string, NetAF.Logic.Game)
+  fullName.vb: NetAF.Interpretation.SceneCommandInterpreter.Interpret(String, NetAF.Logic.Game)
+  nameWithType: SceneCommandInterpreter.Interpret(string, Game)
+  nameWithType.vb: SceneCommandInterpreter.Interpret(String, Game)
+- uid: NetAF.Interpretation.SceneCommandInterpreter.Interpret*
+  name: Interpret
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Interpret_
+  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.Interpret
+  isSpec: "True"
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.Interpret
+  nameWithType: SceneCommandInterpreter.Interpret
+- uid: NetAF.Interpretation.SceneCommandInterpreter.Me
+  name: Me
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Me
+  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Me
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.Me
+  nameWithType: SceneCommandInterpreter.Me
+- uid: NetAF.Interpretation.SceneCommandInterpreter.Overworld
+  name: Overworld
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Overworld
+  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Overworld
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.Overworld
+  nameWithType: SceneCommandInterpreter.Overworld
+- uid: NetAF.Interpretation.SceneCommandInterpreter.Region
+  name: Region
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Region
+  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Region
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.Region
+  nameWithType: SceneCommandInterpreter.Region
+- uid: NetAF.Interpretation.SceneCommandInterpreter.Room
+  name: Room
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Room
+  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Room
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.Room
+  nameWithType: SceneCommandInterpreter.Room
+- uid: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
+  name: SupportedCommands
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_SupportedCommands
+  commentId: P:NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
+  nameWithType: SceneCommandInterpreter.SupportedCommands
+- uid: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands*
+  name: SupportedCommands
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_SupportedCommands_
+  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
+  nameWithType: SceneCommandInterpreter.SupportedCommands
 - uid: NetAF.Logic
   name: NetAF.Logic
   href: api/NetAF.Logic.html
@@ -6789,13 +7397,13 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.BorderColor
   nameWithType: ConsoleConversationFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name: Build(string, IConverser, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Interpretation_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name.vb: Build(String, IConverser, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Interpretation.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Interpretation.CommandHelp(), Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), Integer, Integer)
   nameWithType: ConsoleConversationFrameBuilder.Build(string, IConverser, CommandHelp[], int, int)
   nameWithType.vb: ConsoleConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build*
@@ -7014,13 +7622,13 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.BorderColor
   nameWithType: ConsoleHelpFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name: Build(string, string, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_System_String_System_String_NetAF_Interpretation_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name.vb: Build(String, String, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(string, string, NetAF.Interpretation.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(String, String, NetAF.Interpretation.CommandHelp(), Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), Integer, Integer)
   nameWithType: ConsoleHelpFrameBuilder.Build(string, string, CommandHelp[], int, int)
   nameWithType.vb: ConsoleHelpFrameBuilder.Build(String, String, CommandHelp(), Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build*
@@ -7646,13 +8254,13 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.BorderColor
   nameWithType: ConsoleSceneFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Interpretation.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
   name: Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_System_String_NetAF_Interpretation_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Interpretation.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_System_String_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
   name.vb: Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, string, NetAF.Interpretation.CommandHelp[], NetAF.Rendering.KeyType, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, String, NetAF.Interpretation.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, string, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, String, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
   nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
   nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build*
@@ -8381,13 +8989,13 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IConversationFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder
   nameWithType: IConversationFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+- uid: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name: Build(string, IConverser, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Interpretation_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+  href: api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name.vb: Build(String, IConverser, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Interpretation.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Interpretation.CommandHelp(), Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), Integer, Integer)
   nameWithType: IConversationFrameBuilder.Build(string, IConverser, CommandHelp[], int, int)
   nameWithType.vb: IConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build*
@@ -8425,13 +9033,13 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   nameWithType: IHelpFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name: Build(string, string, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_System_String_System_String_NetAF_Interpretation_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Interpretation.CommandHelp[],System.Int32,System.Int32)
+  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
   name.vb: Build(String, String, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(string, string, NetAF.Interpretation.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(String, String, NetAF.Interpretation.CommandHelp(), Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), Integer, Integer)
   nameWithType: IHelpFrameBuilder.Build(string, string, CommandHelp[], int, int)
   nameWithType.vb: IHelpFrameBuilder.Build(String, String, CommandHelp(), Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build*
@@ -8513,13 +9121,13 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   nameWithType: ISceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Interpretation.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
   name: Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_System_String_NetAF_Interpretation_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Interpretation.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_System_String_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
   name.vb: Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, string, NetAF.Interpretation.CommandHelp[], NetAF.Rendering.KeyType, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, String, NetAF.Interpretation.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, string, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, String, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
   nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
   nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build*
