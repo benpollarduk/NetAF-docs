@@ -1568,6 +1568,12 @@ references:
   commentId: F:NetAF.Assets.Interaction.ReactionResult.Fatal
   fullName: NetAF.Assets.Interaction.ReactionResult.Fatal
   nameWithType: ReactionResult.Fatal
+- uid: NetAF.Assets.Interaction.ReactionResult.ModeChanged
+  name: ModeChanged
+  href: api/NetAF.Assets.Interaction.ReactionResult.html#NetAF_Assets_Interaction_ReactionResult_ModeChanged
+  commentId: F:NetAF.Assets.Interaction.ReactionResult.ModeChanged
+  fullName: NetAF.Assets.Interaction.ReactionResult.ModeChanged
+  nameWithType: ReactionResult.ModeChanged
 - uid: NetAF.Assets.Interaction.ReactionResult.OK
   name: OK
   href: api/NetAF.Assets.Interaction.ReactionResult.html#NetAF_Assets_Interaction_ReactionResult_OK

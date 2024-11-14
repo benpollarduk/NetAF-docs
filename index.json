@@ -142,7 +142,7 @@
   "api/NetAF.Assets.Interaction.ReactionResult.html": {
     "href": "api/NetAF.Assets.Interaction.ReactionResult.html",
     "title": "Enum ReactionResult | NetAF",
-    "keywords": "Enum ReactionResult Enumeration of reaction results. Namespace: NetAF.Assets.Interaction Assembly: NetAF.dll Syntax public enum ReactionResult Fields Name Description Error Error. Fatal A reaction that has a fatal effect on the player. OK OK. Silent A silent reaction."
+    "keywords": "Enum ReactionResult Enumeration of reaction results. Namespace: NetAF.Assets.Interaction Assembly: NetAF.dll Syntax public enum ReactionResult Fields Name Description Error An error reaction. Fatal A reaction that has a fatal effect on the player. ModeChanged A mode change reaction. OK An OK reaction. Silent A silent reaction."
   },
   "api/NetAF.Assets.Interaction.Result.html": {
     "href": "api/NetAF.Assets.Interaction.Result.html",
