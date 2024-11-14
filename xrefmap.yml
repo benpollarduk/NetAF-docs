@@ -1568,18 +1568,18 @@ references:
   commentId: F:NetAF.Assets.Interaction.ReactionResult.Fatal
   fullName: NetAF.Assets.Interaction.ReactionResult.Fatal
   nameWithType: ReactionResult.Fatal
-- uid: NetAF.Assets.Interaction.ReactionResult.Internal
-  name: Internal
-  href: api/NetAF.Assets.Interaction.ReactionResult.html#NetAF_Assets_Interaction_ReactionResult_Internal
-  commentId: F:NetAF.Assets.Interaction.ReactionResult.Internal
-  fullName: NetAF.Assets.Interaction.ReactionResult.Internal
-  nameWithType: ReactionResult.Internal
 - uid: NetAF.Assets.Interaction.ReactionResult.OK
   name: OK
   href: api/NetAF.Assets.Interaction.ReactionResult.html#NetAF_Assets_Interaction_ReactionResult_OK
   commentId: F:NetAF.Assets.Interaction.ReactionResult.OK
   fullName: NetAF.Assets.Interaction.ReactionResult.OK
   nameWithType: ReactionResult.OK
+- uid: NetAF.Assets.Interaction.ReactionResult.Silent
+  name: Silent
+  href: api/NetAF.Assets.Interaction.ReactionResult.html#NetAF_Assets_Interaction_ReactionResult_Silent
+  commentId: F:NetAF.Assets.Interaction.ReactionResult.Silent
+  fullName: NetAF.Assets.Interaction.ReactionResult.Silent
+  nameWithType: ReactionResult.Silent
 - uid: NetAF.Assets.Interaction.Result
   name: Result
   href: api/NetAF.Assets.Interaction.Result.html
@@ -3179,44 +3179,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CommandHelp.Shortcut
   nameWithType: CommandHelp.Shortcut
-- uid: NetAF.Commands.Conversation
-  name: NetAF.Commands.Conversation
-  href: api/NetAF.Commands.Conversation.html
-  commentId: N:NetAF.Commands.Conversation
-  fullName: NetAF.Commands.Conversation
-  nameWithType: NetAF.Commands.Conversation
-- uid: NetAF.Commands.Conversation.End
-  name: End
-  href: api/NetAF.Commands.Conversation.End.html
-  commentId: T:NetAF.Commands.Conversation.End
-  fullName: NetAF.Commands.Conversation.End
-  nameWithType: End
-- uid: NetAF.Commands.Conversation.End.CommandHelp
-  name: CommandHelp
-  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_CommandHelp
-  commentId: P:NetAF.Commands.Conversation.End.CommandHelp
-  fullName: NetAF.Commands.Conversation.End.CommandHelp
-  nameWithType: End.CommandHelp
-- uid: NetAF.Commands.Conversation.End.CommandHelp*
-  name: CommandHelp
-  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_CommandHelp_
-  commentId: Overload:NetAF.Commands.Conversation.End.CommandHelp
-  isSpec: "True"
-  fullName: NetAF.Commands.Conversation.End.CommandHelp
-  nameWithType: End.CommandHelp
-- uid: NetAF.Commands.Conversation.End.Invoke(NetAF.Logic.Game)
-  name: Invoke(Game)
-  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_Invoke_NetAF_Logic_Game_
-  commentId: M:NetAF.Commands.Conversation.End.Invoke(NetAF.Logic.Game)
-  fullName: NetAF.Commands.Conversation.End.Invoke(NetAF.Logic.Game)
-  nameWithType: End.Invoke(Game)
-- uid: NetAF.Commands.Conversation.End.Invoke*
-  name: Invoke
-  href: api/NetAF.Commands.Conversation.End.html#NetAF_Commands_Conversation_End_Invoke_
-  commentId: Overload:NetAF.Commands.Conversation.End.Invoke
-  isSpec: "True"
-  fullName: NetAF.Commands.Conversation.End.Invoke
-  nameWithType: End.Invoke
 - uid: NetAF.Commands.CustomCommand
   name: CustomCommand
   href: api/NetAF.Commands.CustomCommand.html
@@ -3498,6 +3460,44 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Global.About.Invoke
   nameWithType: About.Invoke
+- uid: NetAF.Commands.Global.End
+  name: End
+  href: api/NetAF.Commands.Global.End.html
+  commentId: T:NetAF.Commands.Global.End
+  fullName: NetAF.Commands.Global.End
+  nameWithType: End
+- uid: NetAF.Commands.Global.End.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.End.html#NetAF_Commands_Global_End_CommandHelp
+  commentId: P:NetAF.Commands.Global.End.CommandHelp
+  fullName: NetAF.Commands.Global.End.CommandHelp
+  nameWithType: End.CommandHelp
+- uid: NetAF.Commands.Global.End.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.End.html#NetAF_Commands_Global_End_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.End.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.End.CommandHelp
+  nameWithType: End.CommandHelp
+- uid: NetAF.Commands.Global.End.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.End.html#NetAF_Commands_Global_End_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.End.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.End.Invoke(NetAF.Logic.Game)
+  nameWithType: End.Invoke(Game)
+- uid: NetAF.Commands.Global.End.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.End.html#NetAF_Commands_Global_End_Invoke_
+  commentId: Overload:NetAF.Commands.Global.End.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.End.Invoke
+  nameWithType: End.Invoke
+- uid: NetAF.Commands.Global.End.SuccessfulEnd
+  name: SuccessfulEnd
+  href: api/NetAF.Commands.Global.End.html#NetAF_Commands_Global_End_SuccessfulEnd
+  commentId: F:NetAF.Commands.Global.End.SuccessfulEnd
+  fullName: NetAF.Commands.Global.End.SuccessfulEnd
+  nameWithType: End.SuccessfulEnd
 - uid: NetAF.Commands.Global.Exit
   name: Exit
   href: api/NetAF.Commands.Global.Exit.html
@@ -3938,12 +3938,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.Move.SouthCommandHelp
   nameWithType: Move.SouthCommandHelp
-- uid: NetAF.Commands.Scene.Move.SuccessfulMovePrefix
-  name: SuccessfulMovePrefix
-  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_SuccessfulMovePrefix
-  commentId: F:NetAF.Commands.Scene.Move.SuccessfulMovePrefix
-  fullName: NetAF.Commands.Scene.Move.SuccessfulMovePrefix
-  nameWithType: Move.SuccessfulMovePrefix
+- uid: NetAF.Commands.Scene.Move.SuccessfulMove
+  name: SuccessfulMove
+  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_SuccessfulMove
+  commentId: F:NetAF.Commands.Scene.Move.SuccessfulMove
+  fullName: NetAF.Commands.Scene.Move.SuccessfulMove
+  nameWithType: Move.SuccessfulMove
 - uid: NetAF.Commands.Scene.Move.UpCommandHelp
   name: UpCommandHelp
   href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_UpCommandHelp
@@ -5656,12 +5656,45 @@ references:
   commentId: T:NetAF.Interpretation.Interpreters
   fullName: NetAF.Interpretation.Interpreters
   nameWithType: Interpreters
+- uid: NetAF.Interpretation.Interpreters.ConversationInterpreter
+  name: ConversationInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_ConversationInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.ConversationInterpreter
+  fullName: NetAF.Interpretation.Interpreters.ConversationInterpreter
+  nameWithType: Interpreters.ConversationInterpreter
+- uid: NetAF.Interpretation.Interpreters.ConversationInterpreter*
+  name: ConversationInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_ConversationInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.ConversationInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.ConversationInterpreter
+  nameWithType: Interpreters.ConversationInterpreter
 - uid: NetAF.Interpretation.Interpreters.Default
   name: Default
   href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default
-  commentId: F:NetAF.Interpretation.Interpreters.Default
+  commentId: P:NetAF.Interpretation.Interpreters.Default
   fullName: NetAF.Interpretation.Interpreters.Default
   nameWithType: Interpreters.Default
+- uid: NetAF.Interpretation.Interpreters.Default*
+  name: Default
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default_
+  commentId: Overload:NetAF.Interpretation.Interpreters.Default
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.Default
+  nameWithType: Interpreters.Default
+- uid: NetAF.Interpretation.Interpreters.SceneInterpreter
+  name: SceneInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_SceneInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.SceneInterpreter
+  fullName: NetAF.Interpretation.Interpreters.SceneInterpreter
+  nameWithType: Interpreters.SceneInterpreter
+- uid: NetAF.Interpretation.Interpreters.SceneInterpreter*
+  name: SceneInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_SceneInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.SceneInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.SceneInterpreter
+  nameWithType: Interpreters.SceneInterpreter
 - uid: NetAF.Interpretation.SceneCommandInterpreter
   name: SceneCommandInterpreter
   href: api/NetAF.Interpretation.SceneCommandInterpreter.html
@@ -6207,19 +6240,6 @@ references:
   commentId: T:NetAF.Logic.Game
   fullName: NetAF.Logic.Game
   nameWithType: Game
-- uid: NetAF.Logic.Game.ActiveConverser
-  name: ActiveConverser
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ActiveConverser
-  commentId: P:NetAF.Logic.Game.ActiveConverser
-  fullName: NetAF.Logic.Game.ActiveConverser
-  nameWithType: Game.ActiveConverser
-- uid: NetAF.Logic.Game.ActiveConverser*
-  name: ActiveConverser
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ActiveConverser_
-  commentId: Overload:NetAF.Logic.Game.ActiveConverser
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.ActiveConverser
-  nameWithType: Game.ActiveConverser
 - uid: NetAF.Logic.Game.Catalog
   name: Catalog
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Catalog
@@ -6233,6 +6253,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Catalog
   nameWithType: Game.Catalog
+- uid: NetAF.Logic.Game.ChangeMode(NetAF.Logic.Modes.IGameMode)
+  name: ChangeMode(IGameMode)
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangeMode_NetAF_Logic_Modes_IGameMode_
+  commentId: M:NetAF.Logic.Game.ChangeMode(NetAF.Logic.Modes.IGameMode)
+  fullName: NetAF.Logic.Game.ChangeMode(NetAF.Logic.Modes.IGameMode)
+  nameWithType: Game.ChangeMode(IGameMode)
+- uid: NetAF.Logic.Game.ChangeMode*
+  name: ChangeMode
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangeMode_
+  commentId: Overload:NetAF.Logic.Game.ChangeMode
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.ChangeMode
+  nameWithType: Game.ChangeMode
 - uid: NetAF.Logic.Game.ChangePlayer(NetAF.Assets.Characters.PlayableCharacter,System.Boolean)
   name: ChangePlayer(PlayableCharacter, bool)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_ChangePlayer_NetAF_Assets_Characters_PlayableCharacter_System_Boolean_
@@ -6278,61 +6311,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Create
   nameWithType: Game.Create
-- uid: NetAF.Logic.Game.DisplayAbout
-  name: DisplayAbout()
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayAbout
-  commentId: M:NetAF.Logic.Game.DisplayAbout
-  fullName: NetAF.Logic.Game.DisplayAbout()
-  nameWithType: Game.DisplayAbout()
-- uid: NetAF.Logic.Game.DisplayAbout*
-  name: DisplayAbout
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayAbout_
-  commentId: Overload:NetAF.Logic.Game.DisplayAbout
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DisplayAbout
-  nameWithType: Game.DisplayAbout
-- uid: NetAF.Logic.Game.DisplayHelp
-  name: DisplayHelp()
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayHelp
-  commentId: M:NetAF.Logic.Game.DisplayHelp
-  fullName: NetAF.Logic.Game.DisplayHelp()
-  nameWithType: Game.DisplayHelp()
-- uid: NetAF.Logic.Game.DisplayHelp*
-  name: DisplayHelp
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayHelp_
-  commentId: Overload:NetAF.Logic.Game.DisplayHelp
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DisplayHelp
-  nameWithType: Game.DisplayHelp
-- uid: NetAF.Logic.Game.DisplayMap
-  name: DisplayMap()
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayMap
-  commentId: M:NetAF.Logic.Game.DisplayMap
-  fullName: NetAF.Logic.Game.DisplayMap()
-  nameWithType: Game.DisplayMap()
-- uid: NetAF.Logic.Game.DisplayMap*
-  name: DisplayMap
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayMap_
-  commentId: Overload:NetAF.Logic.Game.DisplayMap
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DisplayMap
-  nameWithType: Game.DisplayMap
-- uid: NetAF.Logic.Game.DisplayTransition(System.String,System.String)
-  name: DisplayTransition(string, string)
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayTransition_System_String_System_String_
-  commentId: M:NetAF.Logic.Game.DisplayTransition(System.String,System.String)
-  name.vb: DisplayTransition(String, String)
-  fullName: NetAF.Logic.Game.DisplayTransition(string, string)
-  fullName.vb: NetAF.Logic.Game.DisplayTransition(String, String)
-  nameWithType: Game.DisplayTransition(string, string)
-  nameWithType.vb: Game.DisplayTransition(String, String)
-- uid: NetAF.Logic.Game.DisplayTransition*
-  name: DisplayTransition
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_DisplayTransition_
-  commentId: Overload:NetAF.Logic.Game.DisplayTransition
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.DisplayTransition
-  nameWithType: Game.DisplayTransition
 - uid: NetAF.Logic.Game.EndConditions
   name: EndConditions
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_EndConditions
@@ -6427,19 +6405,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Introduction
   nameWithType: Game.Introduction
-- uid: NetAF.Logic.Game.IsExecuting
-  name: IsExecuting
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_IsExecuting
-  commentId: P:NetAF.Logic.Game.IsExecuting
-  fullName: NetAF.Logic.Game.IsExecuting
-  nameWithType: Game.IsExecuting
-- uid: NetAF.Logic.Game.IsExecuting*
-  name: IsExecuting
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_IsExecuting_
-  commentId: Overload:NetAF.Logic.Game.IsExecuting
+- uid: NetAF.Logic.Game.Mode
+  name: Mode
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Mode
+  commentId: P:NetAF.Logic.Game.Mode
+  fullName: NetAF.Logic.Game.Mode
+  nameWithType: Game.Mode
+- uid: NetAF.Logic.Game.Mode*
+  name: Mode
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Mode_
+  commentId: Overload:NetAF.Logic.Game.Mode
   isSpec: "True"
-  fullName: NetAF.Logic.Game.IsExecuting
-  nameWithType: Game.IsExecuting
+  fullName: NetAF.Logic.Game.Mode
+  nameWithType: Game.Mode
 - uid: NetAF.Logic.Game.Overworld
   name: Overworld
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Overworld
@@ -6650,6 +6628,12 @@ references:
   commentId: F:NetAF.Logic.GameState.Finished
   fullName: NetAF.Logic.GameState.Finished
   nameWithType: GameState.Finished
+- uid: NetAF.Logic.GameState.Finishing
+  name: Finishing
+  href: api/NetAF.Logic.GameState.html#NetAF_Logic_GameState_Finishing
+  commentId: F:NetAF.Logic.GameState.Finishing
+  fullName: NetAF.Logic.GameState.Finishing
+  nameWithType: GameState.Finishing
 - uid: NetAF.Logic.GameState.NotStarted
   name: NotStarted
   href: api/NetAF.Logic.GameState.html#NetAF_Logic_GameState_NotStarted
@@ -6766,6 +6750,632 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.IGameConfiguration.SceneMapKeyType
   nameWithType: IGameConfiguration.SceneMapKeyType
+- uid: NetAF.Logic.Modes
+  name: NetAF.Logic.Modes
+  href: api/NetAF.Logic.Modes.html
+  commentId: N:NetAF.Logic.Modes
+  fullName: NetAF.Logic.Modes
+  nameWithType: NetAF.Logic.Modes
+- uid: NetAF.Logic.Modes.AboutMode
+  name: AboutMode
+  href: api/NetAF.Logic.Modes.AboutMode.html
+  commentId: T:NetAF.Logic.Modes.AboutMode
+  fullName: NetAF.Logic.Modes.AboutMode
+  nameWithType: AboutMode
+- uid: NetAF.Logic.Modes.AboutMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.AboutMode.html#NetAF_Logic_Modes_AboutMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.AboutMode.Interpreter
+  fullName: NetAF.Logic.Modes.AboutMode.Interpreter
+  nameWithType: AboutMode.Interpreter
+- uid: NetAF.Logic.Modes.AboutMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.AboutMode.html#NetAF_Logic_Modes_AboutMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.AboutMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.AboutMode.Interpreter
+  nameWithType: AboutMode.Interpreter
+- uid: NetAF.Logic.Modes.AboutMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.AboutMode.html#NetAF_Logic_Modes_AboutMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.AboutMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.AboutMode.Render(NetAF.Logic.Game)
+  nameWithType: AboutMode.Render(Game)
+- uid: NetAF.Logic.Modes.AboutMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.AboutMode.html#NetAF_Logic_Modes_AboutMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.AboutMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.AboutMode.Render
+  nameWithType: AboutMode.Render
+- uid: NetAF.Logic.Modes.AboutMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.AboutMode.html#NetAF_Logic_Modes_AboutMode_Type
+  commentId: P:NetAF.Logic.Modes.AboutMode.Type
+  fullName: NetAF.Logic.Modes.AboutMode.Type
+  nameWithType: AboutMode.Type
+- uid: NetAF.Logic.Modes.AboutMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.AboutMode.html#NetAF_Logic_Modes_AboutMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.AboutMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.AboutMode.Type
+  nameWithType: AboutMode.Type
+- uid: NetAF.Logic.Modes.CompletionMode
+  name: CompletionMode
+  href: api/NetAF.Logic.Modes.CompletionMode.html
+  commentId: T:NetAF.Logic.Modes.CompletionMode
+  fullName: NetAF.Logic.Modes.CompletionMode
+  nameWithType: CompletionMode
+- uid: NetAF.Logic.Modes.CompletionMode.#ctor(System.String,System.String)
+  name: CompletionMode(string, string)
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode__ctor_System_String_System_String_
+  commentId: M:NetAF.Logic.Modes.CompletionMode.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: NetAF.Logic.Modes.CompletionMode.CompletionMode(string, string)
+  fullName.vb: NetAF.Logic.Modes.CompletionMode.New(String, String)
+  nameWithType: CompletionMode.CompletionMode(string, string)
+  nameWithType.vb: CompletionMode.New(String, String)
+- uid: NetAF.Logic.Modes.CompletionMode.#ctor*
+  name: CompletionMode
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.CompletionMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.CompletionMode.CompletionMode
+  fullName.vb: NetAF.Logic.Modes.CompletionMode.New
+  nameWithType: CompletionMode.CompletionMode
+  nameWithType.vb: CompletionMode.New
+- uid: NetAF.Logic.Modes.CompletionMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.CompletionMode.Interpreter
+  fullName: NetAF.Logic.Modes.CompletionMode.Interpreter
+  nameWithType: CompletionMode.Interpreter
+- uid: NetAF.Logic.Modes.CompletionMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.CompletionMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.CompletionMode.Interpreter
+  nameWithType: CompletionMode.Interpreter
+- uid: NetAF.Logic.Modes.CompletionMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.CompletionMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.CompletionMode.Render(NetAF.Logic.Game)
+  nameWithType: CompletionMode.Render(Game)
+- uid: NetAF.Logic.Modes.CompletionMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.CompletionMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.CompletionMode.Render
+  nameWithType: CompletionMode.Render
+- uid: NetAF.Logic.Modes.CompletionMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode_Type
+  commentId: P:NetAF.Logic.Modes.CompletionMode.Type
+  fullName: NetAF.Logic.Modes.CompletionMode.Type
+  nameWithType: CompletionMode.Type
+- uid: NetAF.Logic.Modes.CompletionMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.CompletionMode.html#NetAF_Logic_Modes_CompletionMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.CompletionMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.CompletionMode.Type
+  nameWithType: CompletionMode.Type
+- uid: NetAF.Logic.Modes.ConversationMode
+  name: ConversationMode
+  href: api/NetAF.Logic.Modes.ConversationMode.html
+  commentId: T:NetAF.Logic.Modes.ConversationMode
+  fullName: NetAF.Logic.Modes.ConversationMode
+  nameWithType: ConversationMode
+- uid: NetAF.Logic.Modes.ConversationMode.#ctor(NetAF.Assets.Characters.IConverser)
+  name: ConversationMode(IConverser)
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode__ctor_NetAF_Assets_Characters_IConverser_
+  commentId: M:NetAF.Logic.Modes.ConversationMode.#ctor(NetAF.Assets.Characters.IConverser)
+  name.vb: New(IConverser)
+  fullName: NetAF.Logic.Modes.ConversationMode.ConversationMode(NetAF.Assets.Characters.IConverser)
+  fullName.vb: NetAF.Logic.Modes.ConversationMode.New(NetAF.Assets.Characters.IConverser)
+  nameWithType: ConversationMode.ConversationMode(IConverser)
+  nameWithType.vb: ConversationMode.New(IConverser)
+- uid: NetAF.Logic.Modes.ConversationMode.#ctor*
+  name: ConversationMode
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.ConversationMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.ConversationMode.ConversationMode
+  fullName.vb: NetAF.Logic.Modes.ConversationMode.New
+  nameWithType: ConversationMode.ConversationMode
+  nameWithType.vb: ConversationMode.New
+- uid: NetAF.Logic.Modes.ConversationMode.Converser
+  name: Converser
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Converser
+  commentId: P:NetAF.Logic.Modes.ConversationMode.Converser
+  fullName: NetAF.Logic.Modes.ConversationMode.Converser
+  nameWithType: ConversationMode.Converser
+- uid: NetAF.Logic.Modes.ConversationMode.Converser*
+  name: Converser
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Converser_
+  commentId: Overload:NetAF.Logic.Modes.ConversationMode.Converser
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ConversationMode.Converser
+  nameWithType: ConversationMode.Converser
+- uid: NetAF.Logic.Modes.ConversationMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.ConversationMode.Interpreter
+  fullName: NetAF.Logic.Modes.ConversationMode.Interpreter
+  nameWithType: ConversationMode.Interpreter
+- uid: NetAF.Logic.Modes.ConversationMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.ConversationMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ConversationMode.Interpreter
+  nameWithType: ConversationMode.Interpreter
+- uid: NetAF.Logic.Modes.ConversationMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.ConversationMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.ConversationMode.Render(NetAF.Logic.Game)
+  nameWithType: ConversationMode.Render(Game)
+- uid: NetAF.Logic.Modes.ConversationMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.ConversationMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ConversationMode.Render
+  nameWithType: ConversationMode.Render
+- uid: NetAF.Logic.Modes.ConversationMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Type
+  commentId: P:NetAF.Logic.Modes.ConversationMode.Type
+  fullName: NetAF.Logic.Modes.ConversationMode.Type
+  nameWithType: ConversationMode.Type
+- uid: NetAF.Logic.Modes.ConversationMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.ConversationMode.html#NetAF_Logic_Modes_ConversationMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.ConversationMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ConversationMode.Type
+  nameWithType: ConversationMode.Type
+- uid: NetAF.Logic.Modes.GameModeType
+  name: GameModeType
+  href: api/NetAF.Logic.Modes.GameModeType.html
+  commentId: T:NetAF.Logic.Modes.GameModeType
+  fullName: NetAF.Logic.Modes.GameModeType
+  nameWithType: GameModeType
+- uid: NetAF.Logic.Modes.GameModeType.Information
+  name: Information
+  href: api/NetAF.Logic.Modes.GameModeType.html#NetAF_Logic_Modes_GameModeType_Information
+  commentId: F:NetAF.Logic.Modes.GameModeType.Information
+  fullName: NetAF.Logic.Modes.GameModeType.Information
+  nameWithType: GameModeType.Information
+- uid: NetAF.Logic.Modes.GameModeType.Interactive
+  name: Interactive
+  href: api/NetAF.Logic.Modes.GameModeType.html#NetAF_Logic_Modes_GameModeType_Interactive
+  commentId: F:NetAF.Logic.Modes.GameModeType.Interactive
+  fullName: NetAF.Logic.Modes.GameModeType.Interactive
+  nameWithType: GameModeType.Interactive
+- uid: NetAF.Logic.Modes.GameOverMode
+  name: GameOverMode
+  href: api/NetAF.Logic.Modes.GameOverMode.html
+  commentId: T:NetAF.Logic.Modes.GameOverMode
+  fullName: NetAF.Logic.Modes.GameOverMode
+  nameWithType: GameOverMode
+- uid: NetAF.Logic.Modes.GameOverMode.#ctor(System.String,System.String)
+  name: GameOverMode(string, string)
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode__ctor_System_String_System_String_
+  commentId: M:NetAF.Logic.Modes.GameOverMode.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: NetAF.Logic.Modes.GameOverMode.GameOverMode(string, string)
+  fullName.vb: NetAF.Logic.Modes.GameOverMode.New(String, String)
+  nameWithType: GameOverMode.GameOverMode(string, string)
+  nameWithType.vb: GameOverMode.New(String, String)
+- uid: NetAF.Logic.Modes.GameOverMode.#ctor*
+  name: GameOverMode
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.GameOverMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.GameOverMode.GameOverMode
+  fullName.vb: NetAF.Logic.Modes.GameOverMode.New
+  nameWithType: GameOverMode.GameOverMode
+  nameWithType.vb: GameOverMode.New
+- uid: NetAF.Logic.Modes.GameOverMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.GameOverMode.Interpreter
+  fullName: NetAF.Logic.Modes.GameOverMode.Interpreter
+  nameWithType: GameOverMode.Interpreter
+- uid: NetAF.Logic.Modes.GameOverMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.GameOverMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.GameOverMode.Interpreter
+  nameWithType: GameOverMode.Interpreter
+- uid: NetAF.Logic.Modes.GameOverMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.GameOverMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.GameOverMode.Render(NetAF.Logic.Game)
+  nameWithType: GameOverMode.Render(Game)
+- uid: NetAF.Logic.Modes.GameOverMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.GameOverMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.GameOverMode.Render
+  nameWithType: GameOverMode.Render
+- uid: NetAF.Logic.Modes.GameOverMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode_Type
+  commentId: P:NetAF.Logic.Modes.GameOverMode.Type
+  fullName: NetAF.Logic.Modes.GameOverMode.Type
+  nameWithType: GameOverMode.Type
+- uid: NetAF.Logic.Modes.GameOverMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.GameOverMode.html#NetAF_Logic_Modes_GameOverMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.GameOverMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.GameOverMode.Type
+  nameWithType: GameOverMode.Type
+- uid: NetAF.Logic.Modes.HelpMode
+  name: HelpMode
+  href: api/NetAF.Logic.Modes.HelpMode.html
+  commentId: T:NetAF.Logic.Modes.HelpMode
+  fullName: NetAF.Logic.Modes.HelpMode
+  nameWithType: HelpMode
+- uid: NetAF.Logic.Modes.HelpMode.#ctor(NetAF.Commands.CommandHelp[])
+  name: HelpMode(CommandHelp[])
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode__ctor_NetAF_Commands_CommandHelp___
+  commentId: M:NetAF.Logic.Modes.HelpMode.#ctor(NetAF.Commands.CommandHelp[])
+  name.vb: New(CommandHelp())
+  fullName: NetAF.Logic.Modes.HelpMode.HelpMode(NetAF.Commands.CommandHelp[])
+  fullName.vb: NetAF.Logic.Modes.HelpMode.New(NetAF.Commands.CommandHelp())
+  nameWithType: HelpMode.HelpMode(CommandHelp[])
+  nameWithType.vb: HelpMode.New(CommandHelp())
+- uid: NetAF.Logic.Modes.HelpMode.#ctor*
+  name: HelpMode
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.HelpMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.HelpMode.HelpMode
+  fullName.vb: NetAF.Logic.Modes.HelpMode.New
+  nameWithType: HelpMode.HelpMode
+  nameWithType.vb: HelpMode.New
+- uid: NetAF.Logic.Modes.HelpMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.HelpMode.Interpreter
+  fullName: NetAF.Logic.Modes.HelpMode.Interpreter
+  nameWithType: HelpMode.Interpreter
+- uid: NetAF.Logic.Modes.HelpMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.HelpMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.HelpMode.Interpreter
+  nameWithType: HelpMode.Interpreter
+- uid: NetAF.Logic.Modes.HelpMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.HelpMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.HelpMode.Render(NetAF.Logic.Game)
+  nameWithType: HelpMode.Render(Game)
+- uid: NetAF.Logic.Modes.HelpMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.HelpMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.HelpMode.Render
+  nameWithType: HelpMode.Render
+- uid: NetAF.Logic.Modes.HelpMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode_Type
+  commentId: P:NetAF.Logic.Modes.HelpMode.Type
+  fullName: NetAF.Logic.Modes.HelpMode.Type
+  nameWithType: HelpMode.Type
+- uid: NetAF.Logic.Modes.HelpMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.HelpMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.HelpMode.Type
+  nameWithType: HelpMode.Type
+- uid: NetAF.Logic.Modes.IGameMode
+  name: IGameMode
+  href: api/NetAF.Logic.Modes.IGameMode.html
+  commentId: T:NetAF.Logic.Modes.IGameMode
+  fullName: NetAF.Logic.Modes.IGameMode
+  nameWithType: IGameMode
+- uid: NetAF.Logic.Modes.IGameMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.IGameMode.html#NetAF_Logic_Modes_IGameMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.IGameMode.Interpreter
+  fullName: NetAF.Logic.Modes.IGameMode.Interpreter
+  nameWithType: IGameMode.Interpreter
+- uid: NetAF.Logic.Modes.IGameMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.IGameMode.html#NetAF_Logic_Modes_IGameMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.IGameMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.IGameMode.Interpreter
+  nameWithType: IGameMode.Interpreter
+- uid: NetAF.Logic.Modes.IGameMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.IGameMode.html#NetAF_Logic_Modes_IGameMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.IGameMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.IGameMode.Render(NetAF.Logic.Game)
+  nameWithType: IGameMode.Render(Game)
+- uid: NetAF.Logic.Modes.IGameMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.IGameMode.html#NetAF_Logic_Modes_IGameMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.IGameMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.IGameMode.Render
+  nameWithType: IGameMode.Render
+- uid: NetAF.Logic.Modes.IGameMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.IGameMode.html#NetAF_Logic_Modes_IGameMode_Type
+  commentId: P:NetAF.Logic.Modes.IGameMode.Type
+  fullName: NetAF.Logic.Modes.IGameMode.Type
+  nameWithType: IGameMode.Type
+- uid: NetAF.Logic.Modes.IGameMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.IGameMode.html#NetAF_Logic_Modes_IGameMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.IGameMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.IGameMode.Type
+  nameWithType: IGameMode.Type
+- uid: NetAF.Logic.Modes.ReactionMode
+  name: ReactionMode
+  href: api/NetAF.Logic.Modes.ReactionMode.html
+  commentId: T:NetAF.Logic.Modes.ReactionMode
+  fullName: NetAF.Logic.Modes.ReactionMode
+  nameWithType: ReactionMode
+- uid: NetAF.Logic.Modes.ReactionMode.#ctor(System.String,System.String)
+  name: ReactionMode(string, string)
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_System_String_System_String_
+  commentId: M:NetAF.Logic.Modes.ReactionMode.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: NetAF.Logic.Modes.ReactionMode.ReactionMode(string, string)
+  fullName.vb: NetAF.Logic.Modes.ReactionMode.New(String, String)
+  nameWithType: ReactionMode.ReactionMode(string, string)
+  nameWithType.vb: ReactionMode.New(String, String)
+- uid: NetAF.Logic.Modes.ReactionMode.#ctor*
+  name: ReactionMode
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.ReactionMode.ReactionMode
+  fullName.vb: NetAF.Logic.Modes.ReactionMode.New
+  nameWithType: ReactionMode.ReactionMode
+  nameWithType.vb: ReactionMode.New
+- uid: NetAF.Logic.Modes.ReactionMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.ReactionMode.Interpreter
+  fullName: NetAF.Logic.Modes.ReactionMode.Interpreter
+  nameWithType: ReactionMode.Interpreter
+- uid: NetAF.Logic.Modes.ReactionMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ReactionMode.Interpreter
+  nameWithType: ReactionMode.Interpreter
+- uid: NetAF.Logic.Modes.ReactionMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.ReactionMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.ReactionMode.Render(NetAF.Logic.Game)
+  nameWithType: ReactionMode.Render(Game)
+- uid: NetAF.Logic.Modes.ReactionMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ReactionMode.Render
+  nameWithType: ReactionMode.Render
+- uid: NetAF.Logic.Modes.ReactionMode.SuppressEndedReactions
+  name: SuppressEndedReactions
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_SuppressEndedReactions
+  commentId: P:NetAF.Logic.Modes.ReactionMode.SuppressEndedReactions
+  fullName: NetAF.Logic.Modes.ReactionMode.SuppressEndedReactions
+  nameWithType: ReactionMode.SuppressEndedReactions
+- uid: NetAF.Logic.Modes.ReactionMode.SuppressEndedReactions*
+  name: SuppressEndedReactions
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_SuppressEndedReactions_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.SuppressEndedReactions
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ReactionMode.SuppressEndedReactions
+  nameWithType: ReactionMode.SuppressEndedReactions
+- uid: NetAF.Logic.Modes.ReactionMode.SuppressSuccessfulMovementReactions
+  name: SuppressSuccessfulMovementReactions
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_SuppressSuccessfulMovementReactions
+  commentId: P:NetAF.Logic.Modes.ReactionMode.SuppressSuccessfulMovementReactions
+  fullName: NetAF.Logic.Modes.ReactionMode.SuppressSuccessfulMovementReactions
+  nameWithType: ReactionMode.SuppressSuccessfulMovementReactions
+- uid: NetAF.Logic.Modes.ReactionMode.SuppressSuccessfulMovementReactions*
+  name: SuppressSuccessfulMovementReactions
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_SuppressSuccessfulMovementReactions_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.SuppressSuccessfulMovementReactions
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ReactionMode.SuppressSuccessfulMovementReactions
+  nameWithType: ReactionMode.SuppressSuccessfulMovementReactions
+- uid: NetAF.Logic.Modes.ReactionMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Type
+  commentId: P:NetAF.Logic.Modes.ReactionMode.Type
+  fullName: NetAF.Logic.Modes.ReactionMode.Type
+  nameWithType: ReactionMode.Type
+- uid: NetAF.Logic.Modes.ReactionMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ReactionMode.Type
+  nameWithType: ReactionMode.Type
+- uid: NetAF.Logic.Modes.RegionMapMode
+  name: RegionMapMode
+  href: api/NetAF.Logic.Modes.RegionMapMode.html
+  commentId: T:NetAF.Logic.Modes.RegionMapMode
+  fullName: NetAF.Logic.Modes.RegionMapMode
+  nameWithType: RegionMapMode
+- uid: NetAF.Logic.Modes.RegionMapMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.RegionMapMode.Interpreter
+  fullName: NetAF.Logic.Modes.RegionMapMode.Interpreter
+  nameWithType: RegionMapMode.Interpreter
+- uid: NetAF.Logic.Modes.RegionMapMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.Interpreter
+  nameWithType: RegionMapMode.Interpreter
+- uid: NetAF.Logic.Modes.RegionMapMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.RegionMapMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.RegionMapMode.Render(NetAF.Logic.Game)
+  nameWithType: RegionMapMode.Render(Game)
+- uid: NetAF.Logic.Modes.RegionMapMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.Render
+  nameWithType: RegionMapMode.Render
+- uid: NetAF.Logic.Modes.RegionMapMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Type
+  commentId: P:NetAF.Logic.Modes.RegionMapMode.Type
+  fullName: NetAF.Logic.Modes.RegionMapMode.Type
+  nameWithType: RegionMapMode.Type
+- uid: NetAF.Logic.Modes.RegionMapMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.Type
+  nameWithType: RegionMapMode.Type
+- uid: NetAF.Logic.Modes.RenderState
+  name: RenderState
+  href: api/NetAF.Logic.Modes.RenderState.html
+  commentId: T:NetAF.Logic.Modes.RenderState
+  fullName: NetAF.Logic.Modes.RenderState
+  nameWithType: RenderState
+- uid: NetAF.Logic.Modes.RenderState.Aborted
+  name: Aborted
+  href: api/NetAF.Logic.Modes.RenderState.html#NetAF_Logic_Modes_RenderState_Aborted
+  commentId: F:NetAF.Logic.Modes.RenderState.Aborted
+  fullName: NetAF.Logic.Modes.RenderState.Aborted
+  nameWithType: RenderState.Aborted
+- uid: NetAF.Logic.Modes.RenderState.Completed
+  name: Completed
+  href: api/NetAF.Logic.Modes.RenderState.html#NetAF_Logic_Modes_RenderState_Completed
+  commentId: F:NetAF.Logic.Modes.RenderState.Completed
+  fullName: NetAF.Logic.Modes.RenderState.Completed
+  nameWithType: RenderState.Completed
+- uid: NetAF.Logic.Modes.SceneMode
+  name: SceneMode
+  href: api/NetAF.Logic.Modes.SceneMode.html
+  commentId: T:NetAF.Logic.Modes.SceneMode
+  fullName: NetAF.Logic.Modes.SceneMode
+  nameWithType: SceneMode
+- uid: NetAF.Logic.Modes.SceneMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.SceneMode.Interpreter
+  fullName: NetAF.Logic.Modes.SceneMode.Interpreter
+  nameWithType: SceneMode.Interpreter
+- uid: NetAF.Logic.Modes.SceneMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.SceneMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.SceneMode.Interpreter
+  nameWithType: SceneMode.Interpreter
+- uid: NetAF.Logic.Modes.SceneMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.SceneMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.SceneMode.Render(NetAF.Logic.Game)
+  nameWithType: SceneMode.Render(Game)
+- uid: NetAF.Logic.Modes.SceneMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.SceneMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.SceneMode.Render
+  nameWithType: SceneMode.Render
+- uid: NetAF.Logic.Modes.SceneMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Type
+  commentId: P:NetAF.Logic.Modes.SceneMode.Type
+  fullName: NetAF.Logic.Modes.SceneMode.Type
+  nameWithType: SceneMode.Type
+- uid: NetAF.Logic.Modes.SceneMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.SceneMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.SceneMode.Type
+  nameWithType: SceneMode.Type
+- uid: NetAF.Logic.Modes.TitleMode
+  name: TitleMode
+  href: api/NetAF.Logic.Modes.TitleMode.html
+  commentId: T:NetAF.Logic.Modes.TitleMode
+  fullName: NetAF.Logic.Modes.TitleMode
+  nameWithType: TitleMode
+- uid: NetAF.Logic.Modes.TitleMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.TitleMode.html#NetAF_Logic_Modes_TitleMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.TitleMode.Interpreter
+  fullName: NetAF.Logic.Modes.TitleMode.Interpreter
+  nameWithType: TitleMode.Interpreter
+- uid: NetAF.Logic.Modes.TitleMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.TitleMode.html#NetAF_Logic_Modes_TitleMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.TitleMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.TitleMode.Interpreter
+  nameWithType: TitleMode.Interpreter
+- uid: NetAF.Logic.Modes.TitleMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.TitleMode.html#NetAF_Logic_Modes_TitleMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.TitleMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.TitleMode.Render(NetAF.Logic.Game)
+  nameWithType: TitleMode.Render(Game)
+- uid: NetAF.Logic.Modes.TitleMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.TitleMode.html#NetAF_Logic_Modes_TitleMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.TitleMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.TitleMode.Render
+  nameWithType: TitleMode.Render
+- uid: NetAF.Logic.Modes.TitleMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.TitleMode.html#NetAF_Logic_Modes_TitleMode_Type
+  commentId: P:NetAF.Logic.Modes.TitleMode.Type
+  fullName: NetAF.Logic.Modes.TitleMode.Type
+  nameWithType: TitleMode.Type
+- uid: NetAF.Logic.Modes.TitleMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.TitleMode.html#NetAF_Logic_Modes_TitleMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.TitleMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.TitleMode.Type
+  nameWithType: TitleMode.Type
 - uid: NetAF.Logic.OverworldCreationCallback
   name: OverworldCreationCallback
   href: api/NetAF.Logic.OverworldCreationCallback.html
@@ -7690,6 +8300,99 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
   nameWithType: ConsoleHelpFrameBuilder.TitleColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder
+  name: ConsoleReactionFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder
+  nameWithType: ConsoleReactionFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.#ctor(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  name: ConsoleReactionFrameBuilder(GridStringBuilder)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder__ctor_NetAF_Rendering_FrameBuilders_GridStringBuilder_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.#ctor(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  name.vb: New(GridStringBuilder)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ConsoleReactionFrameBuilder(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.New(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  nameWithType: ConsoleReactionFrameBuilder.ConsoleReactionFrameBuilder(GridStringBuilder)
+  nameWithType.vb: ConsoleReactionFrameBuilder.New(GridStringBuilder)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.#ctor*
+  name: ConsoleReactionFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder__ctor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ConsoleReactionFrameBuilder
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.New
+  nameWithType: ConsoleReactionFrameBuilder.ConsoleReactionFrameBuilder
+  nameWithType.vb: ConsoleReactionFrameBuilder.New
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BackgroundColor
+  name: BackgroundColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_BackgroundColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BackgroundColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BackgroundColor
+  nameWithType: ConsoleReactionFrameBuilder.BackgroundColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BackgroundColor*
+  name: BackgroundColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_BackgroundColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BackgroundColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BackgroundColor
+  nameWithType: ConsoleReactionFrameBuilder.BackgroundColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
+  name: BorderColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_BorderColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
+  nameWithType: ConsoleReactionFrameBuilder.BorderColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor*
+  name: BorderColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_BorderColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
+  nameWithType: ConsoleReactionFrameBuilder.BorderColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
+  name: Build(string, string, int, int)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
+  name.vb: Build(String, String, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(string, string, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(String, String, Integer, Integer)
+  nameWithType: ConsoleReactionFrameBuilder.Build(string, string, int, int)
+  nameWithType.vb: ConsoleReactionFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build
+  nameWithType: ConsoleReactionFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor
+  name: MessageColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_MessageColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor
+  nameWithType: ConsoleReactionFrameBuilder.MessageColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor*
+  name: MessageColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_MessageColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor
+  nameWithType: ConsoleReactionFrameBuilder.MessageColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.TitleColor
+  name: TitleColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_TitleColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.TitleColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.TitleColor
+  nameWithType: ConsoleReactionFrameBuilder.TitleColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.TitleColor*
+  name: TitleColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_TitleColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.TitleColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.TitleColor
+  nameWithType: ConsoleReactionFrameBuilder.TitleColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder
   name: ConsoleRegionMapBuilder
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html
@@ -8254,15 +8957,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.BorderColor
   nameWithType: ConsoleSceneFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name: Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_System_String_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, string, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, String, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
-  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
-  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
+  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
+  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_
@@ -8309,19 +9012,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.InputColor
   nameWithType: ConsoleSceneFrameBuilder.InputColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.SuppressMovementMessages
-  name: SuppressMovementMessages
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_SuppressMovementMessages
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.SuppressMovementMessages
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.SuppressMovementMessages
-  nameWithType: ConsoleSceneFrameBuilder.SuppressMovementMessages
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.SuppressMovementMessages*
-  name: SuppressMovementMessages
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_SuppressMovementMessages_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.SuppressMovementMessages
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.SuppressMovementMessages
-  nameWithType: ConsoleSceneFrameBuilder.SuppressMovementMessages
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.TextColor
   name: TextColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_TextColor
@@ -8428,114 +9118,21 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.TitleColor
   nameWithType: ConsoleTitleFrameBuilder.TitleColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder
-  name: ConsoleTransitionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html
-  commentId: T:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder
-  nameWithType: ConsoleTransitionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.#ctor(NetAF.Rendering.FrameBuilders.GridStringBuilder)
-  name: ConsoleTransitionFrameBuilder(GridStringBuilder)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder__ctor_NetAF_Rendering_FrameBuilders_GridStringBuilder_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.#ctor(NetAF.Rendering.FrameBuilders.GridStringBuilder)
-  name.vb: New(GridStringBuilder)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.ConsoleTransitionFrameBuilder(NetAF.Rendering.FrameBuilders.GridStringBuilder)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.New(NetAF.Rendering.FrameBuilders.GridStringBuilder)
-  nameWithType: ConsoleTransitionFrameBuilder.ConsoleTransitionFrameBuilder(GridStringBuilder)
-  nameWithType.vb: ConsoleTransitionFrameBuilder.New(GridStringBuilder)
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.#ctor*
-  name: ConsoleTransitionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder__ctor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.ConsoleTransitionFrameBuilder
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.New
-  nameWithType: ConsoleTransitionFrameBuilder.ConsoleTransitionFrameBuilder
-  nameWithType.vb: ConsoleTransitionFrameBuilder.New
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BackgroundColor
-  name: BackgroundColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_BackgroundColor
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BackgroundColor
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BackgroundColor
-  nameWithType: ConsoleTransitionFrameBuilder.BackgroundColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BackgroundColor*
-  name: BackgroundColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_BackgroundColor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BackgroundColor
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BackgroundColor
-  nameWithType: ConsoleTransitionFrameBuilder.BackgroundColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BorderColor
-  name: BorderColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_BorderColor
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BorderColor
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BorderColor
-  nameWithType: ConsoleTransitionFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BorderColor*
-  name: BorderColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_BorderColor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BorderColor
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.BorderColor
-  nameWithType: ConsoleTransitionFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ConsoleTransitionFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ConsoleTransitionFrameBuilder.Build(String, String, Integer, Integer)
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build*
-  name: Build
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_Build_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.Build
-  nameWithType: ConsoleTransitionFrameBuilder.Build
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.MessageColor
-  name: MessageColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_MessageColor
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.MessageColor
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.MessageColor
-  nameWithType: ConsoleTransitionFrameBuilder.MessageColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.MessageColor*
-  name: MessageColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_MessageColor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.MessageColor
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.MessageColor
-  nameWithType: ConsoleTransitionFrameBuilder.MessageColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.TitleColor
-  name: TitleColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_TitleColor
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.TitleColor
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.TitleColor
-  nameWithType: ConsoleTransitionFrameBuilder.TitleColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.TitleColor*
-  name: TitleColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTransitionFrameBuilder_TitleColor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.TitleColor
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTransitionFrameBuilder.TitleColor
-  nameWithType: ConsoleTransitionFrameBuilder.TitleColor
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   name: FrameBuilderCollection
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html
   commentId: T:NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   nameWithType: FrameBuilderCollection
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  name: FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, ITransitionFrameBuilder, IConversationFrameBuilder)
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_NetAF_Rendering_FrameBuilders_ITransitionFrameBuilder_NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_
-  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  name.vb: New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, ITransitionFrameBuilder, IConversationFrameBuilder)
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.FrameBuilderCollection(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  nameWithType: FrameBuilderCollection.FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, ITransitionFrameBuilder, IConversationFrameBuilder)
-  nameWithType.vb: FrameBuilderCollection.New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, ITransitionFrameBuilder, IConversationFrameBuilder)
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  name: FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_
+  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  name.vb: New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.FrameBuilderCollection(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  nameWithType: FrameBuilderCollection.FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+  nameWithType.vb: FrameBuilderCollection.New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor*
   name: FrameBuilderCollection
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_
@@ -8611,6 +9208,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder
   nameWithType: FrameBuilderCollection.HelpFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
+  name: ReactionModeFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_ReactionModeFrameBuilder
+  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
+  nameWithType: FrameBuilderCollection.ReactionModeFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder*
+  name: ReactionModeFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_ReactionModeFrameBuilder_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
+  nameWithType: FrameBuilderCollection.ReactionModeFrameBuilder
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder
   name: RegionMapFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_RegionMapFrameBuilder
@@ -8650,19 +9260,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder
   nameWithType: FrameBuilderCollection.TitleFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TransitionFrameBuilder
-  name: TransitionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_TransitionFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TransitionFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TransitionFrameBuilder
-  nameWithType: FrameBuilderCollection.TransitionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TransitionFrameBuilder*
-  name: TransitionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_TransitionFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TransitionFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TransitionFrameBuilder
-  nameWithType: FrameBuilderCollection.TransitionFrameBuilder
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections
   name: FrameBuilderCollections
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html
@@ -9049,6 +9646,28 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build
   nameWithType: IHelpFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
+  name: IReactionFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
+  nameWithType: IReactionFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
+  name: Build(string, string, int, int)
+  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
+  name.vb: Build(String, String, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(string, string, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(String, String, Integer, Integer)
+  nameWithType: IReactionFrameBuilder.Build(string, string, int, int)
+  nameWithType.vb: IReactionFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build
+  nameWithType: IReactionFrameBuilder.Build
 - uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   name: IRegionMapBuilder
   href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html
@@ -9121,15 +9740,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   nameWithType: ISceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name: Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_System_String_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,System.String,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, string, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, String, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
-  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, string, CommandHelp[], KeyType, int, int)
-  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, String, CommandHelp(), KeyType, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
+  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
+  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
+  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_
@@ -9159,28 +9778,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build
   nameWithType: ITitleFrameBuilder.Build
-- uid: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder
-  name: ITransitionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.html
-  commentId: T:NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder
-  nameWithType: ITransitionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_ITransitionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ITransitionFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ITransitionFrameBuilder.Build(String, String, Integer, Integer)
-- uid: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build*
-  name: Build
-  href: api/NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.html#NetAF_Rendering_FrameBuilders_ITransitionFrameBuilder_Build_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.ITransitionFrameBuilder.Build
-  nameWithType: ITransitionFrameBuilder.Build
 - uid: NetAF.Rendering.FrameBuilders.SceneHelper
   name: SceneHelper
   href: api/NetAF.Rendering.FrameBuilders.SceneHelper.html
@@ -9244,19 +9841,6 @@ references:
   fullName.vb: NetAF.Rendering.Frames.GridTextFrame.New
   nameWithType: GridTextFrame.GridTextFrame
   nameWithType.vb: GridTextFrame.New
-- uid: NetAF.Rendering.Frames.GridTextFrame.AcceptsInput
-  name: AcceptsInput
-  href: api/NetAF.Rendering.Frames.GridTextFrame.html#NetAF_Rendering_Frames_GridTextFrame_AcceptsInput
-  commentId: P:NetAF.Rendering.Frames.GridTextFrame.AcceptsInput
-  fullName: NetAF.Rendering.Frames.GridTextFrame.AcceptsInput
-  nameWithType: GridTextFrame.AcceptsInput
-- uid: NetAF.Rendering.Frames.GridTextFrame.AcceptsInput*
-  name: AcceptsInput
-  href: api/NetAF.Rendering.Frames.GridTextFrame.html#NetAF_Rendering_Frames_GridTextFrame_AcceptsInput_
-  commentId: Overload:NetAF.Rendering.Frames.GridTextFrame.AcceptsInput
-  isSpec: "True"
-  fullName: NetAF.Rendering.Frames.GridTextFrame.AcceptsInput
-  nameWithType: GridTextFrame.AcceptsInput
 - uid: NetAF.Rendering.Frames.GridTextFrame.BackgroundColor
   name: BackgroundColor
   href: api/NetAF.Rendering.Frames.GridTextFrame.html#NetAF_Rendering_Frames_GridTextFrame_BackgroundColor
@@ -9341,19 +9925,6 @@ references:
   commentId: T:NetAF.Rendering.Frames.IFrame
   fullName: NetAF.Rendering.Frames.IFrame
   nameWithType: IFrame
-- uid: NetAF.Rendering.Frames.IFrame.AcceptsInput
-  name: AcceptsInput
-  href: api/NetAF.Rendering.Frames.IFrame.html#NetAF_Rendering_Frames_IFrame_AcceptsInput
-  commentId: P:NetAF.Rendering.Frames.IFrame.AcceptsInput
-  fullName: NetAF.Rendering.Frames.IFrame.AcceptsInput
-  nameWithType: IFrame.AcceptsInput
-- uid: NetAF.Rendering.Frames.IFrame.AcceptsInput*
-  name: AcceptsInput
-  href: api/NetAF.Rendering.Frames.IFrame.html#NetAF_Rendering_Frames_IFrame_AcceptsInput_
-  commentId: Overload:NetAF.Rendering.Frames.IFrame.AcceptsInput
-  isSpec: "True"
-  fullName: NetAF.Rendering.Frames.IFrame.AcceptsInput
-  nameWithType: IFrame.AcceptsInput
 - uid: NetAF.Rendering.Frames.IFrame.CursorLeft
   name: CursorLeft
   href: api/NetAF.Rendering.Frames.IFrame.html#NetAF_Rendering_Frames_IFrame_CursorLeft
