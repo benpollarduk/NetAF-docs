@@ -992,6 +992,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Extensions.CommandHelpExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Extensions.CommandHelpExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Extensions.DirectionExtensions.yml",
       "output": {
         ".html": {

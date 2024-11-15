@@ -5296,6 +5296,38 @@ references:
   commentId: N:NetAF.Extensions
   fullName: NetAF.Extensions
   nameWithType: NetAF.Extensions
+- uid: NetAF.Extensions.CommandHelpExtensions
+  name: CommandHelpExtensions
+  href: api/NetAF.Extensions.CommandHelpExtensions.html
+  commentId: T:NetAF.Extensions.CommandHelpExtensions
+  fullName: NetAF.Extensions.CommandHelpExtensions
+  nameWithType: CommandHelpExtensions
+- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)
+  name: FormattedToDisplayShortcut(CommandHelp)
+  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_NetAF_Commands_CommandHelp_
+  commentId: M:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)
+  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)
+  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcut(CommandHelp)
+- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut*
+  name: FormattedToDisplayShortcut
+  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_
+  commentId: Overload:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut
+  isSpec: "True"
+  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut
+  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcut
+- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)
+  name: FormattedToDisplayShortcutAndVariable(CommandHelp)
+  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_NetAF_Commands_CommandHelp_
+  commentId: M:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)
+  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)
+  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(CommandHelp)
+- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable*
+  name: FormattedToDisplayShortcutAndVariable
+  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_
+  commentId: Overload:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable
+  isSpec: "True"
+  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable
+  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcutAndVariable
 - uid: NetAF.Extensions.DirectionExtensions
   name: DirectionExtensions
   href: api/NetAF.Extensions.DirectionExtensions.html
