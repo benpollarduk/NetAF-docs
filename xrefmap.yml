@@ -2238,15 +2238,12 @@ references:
   fullName.vb: NetAF.Assets.Locations.Region.this[]
   nameWithType: Region.this
   nameWithType.vb: Region.this[]
-- uid: NetAF.Assets.Locations.Region.JumpToRoom(System.Int32,System.Int32,System.Int32)
-  name: JumpToRoom(int, int, int)
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_JumpToRoom_System_Int32_System_Int32_System_Int32_
-  commentId: M:NetAF.Assets.Locations.Region.JumpToRoom(System.Int32,System.Int32,System.Int32)
-  name.vb: JumpToRoom(Integer, Integer, Integer)
-  fullName: NetAF.Assets.Locations.Region.JumpToRoom(int, int, int)
-  fullName.vb: NetAF.Assets.Locations.Region.JumpToRoom(Integer, Integer, Integer)
-  nameWithType: Region.JumpToRoom(int, int, int)
-  nameWithType.vb: Region.JumpToRoom(Integer, Integer, Integer)
+- uid: NetAF.Assets.Locations.Region.JumpToRoom(NetAF.Assets.Point3D)
+  name: JumpToRoom(Point3D)
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_JumpToRoom_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Assets.Locations.Region.JumpToRoom(NetAF.Assets.Point3D)
+  fullName: NetAF.Assets.Locations.Region.JumpToRoom(NetAF.Assets.Point3D)
+  nameWithType: Region.JumpToRoom(Point3D)
 - uid: NetAF.Assets.Locations.Region.JumpToRoom*
   name: JumpToRoom
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_JumpToRoom_
@@ -2865,15 +2862,15 @@ references:
   commentId: T:NetAF.Assets.Locations.RoomPosition
   fullName: NetAF.Assets.Locations.RoomPosition
   nameWithType: RoomPosition
-- uid: NetAF.Assets.Locations.RoomPosition.#ctor(NetAF.Assets.Locations.Room,System.Int32,System.Int32,System.Int32)
-  name: RoomPosition(Room, int, int, int)
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition__ctor_NetAF_Assets_Locations_Room_System_Int32_System_Int32_System_Int32_
-  commentId: M:NetAF.Assets.Locations.RoomPosition.#ctor(NetAF.Assets.Locations.Room,System.Int32,System.Int32,System.Int32)
-  name.vb: New(Room, Integer, Integer, Integer)
-  fullName: NetAF.Assets.Locations.RoomPosition.RoomPosition(NetAF.Assets.Locations.Room, int, int, int)
-  fullName.vb: NetAF.Assets.Locations.RoomPosition.New(NetAF.Assets.Locations.Room, Integer, Integer, Integer)
-  nameWithType: RoomPosition.RoomPosition(Room, int, int, int)
-  nameWithType.vb: RoomPosition.New(Room, Integer, Integer, Integer)
+- uid: NetAF.Assets.Locations.RoomPosition.#ctor(NetAF.Assets.Locations.Room,NetAF.Assets.Point3D)
+  name: RoomPosition(Room, Point3D)
+  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition__ctor_NetAF_Assets_Locations_Room_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Assets.Locations.RoomPosition.#ctor(NetAF.Assets.Locations.Room,NetAF.Assets.Point3D)
+  name.vb: New(Room, Point3D)
+  fullName: NetAF.Assets.Locations.RoomPosition.RoomPosition(NetAF.Assets.Locations.Room, NetAF.Assets.Point3D)
+  fullName.vb: NetAF.Assets.Locations.RoomPosition.New(NetAF.Assets.Locations.Room, NetAF.Assets.Point3D)
+  nameWithType: RoomPosition.RoomPosition(Room, Point3D)
+  nameWithType.vb: RoomPosition.New(Room, Point3D)
 - uid: NetAF.Assets.Locations.RoomPosition.#ctor*
   name: RoomPosition
   href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition__ctor_
@@ -2884,6 +2881,12 @@ references:
   fullName.vb: NetAF.Assets.Locations.RoomPosition.New
   nameWithType: RoomPosition.RoomPosition
   nameWithType.vb: RoomPosition.New
+- uid: NetAF.Assets.Locations.RoomPosition.IsAtPosition(NetAF.Assets.Point3D)
+  name: IsAtPosition(Point3D)
+  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_IsAtPosition_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Assets.Locations.RoomPosition.IsAtPosition(NetAF.Assets.Point3D)
+  fullName: NetAF.Assets.Locations.RoomPosition.IsAtPosition(NetAF.Assets.Point3D)
+  nameWithType: RoomPosition.IsAtPosition(Point3D)
 - uid: NetAF.Assets.Locations.RoomPosition.IsAtPosition(System.Int32,System.Int32,System.Int32)
   name: IsAtPosition(int, int, int)
   href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_IsAtPosition_System_Int32_System_Int32_System_Int32_
@@ -2900,6 +2903,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.RoomPosition.IsAtPosition
   nameWithType: RoomPosition.IsAtPosition
+- uid: NetAF.Assets.Locations.RoomPosition.Position
+  name: Position
+  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Position
+  commentId: P:NetAF.Assets.Locations.RoomPosition.Position
+  fullName: NetAF.Assets.Locations.RoomPosition.Position
+  nameWithType: RoomPosition.Position
+- uid: NetAF.Assets.Locations.RoomPosition.Position*
+  name: Position
+  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Position_
+  commentId: Overload:NetAF.Assets.Locations.RoomPosition.Position
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.RoomPosition.Position
+  nameWithType: RoomPosition.Position
 - uid: NetAF.Assets.Locations.RoomPosition.Room
   name: Room
   href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Room
@@ -2913,45 +2929,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.RoomPosition.Room
   nameWithType: RoomPosition.Room
-- uid: NetAF.Assets.Locations.RoomPosition.X
-  name: X
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_X
-  commentId: P:NetAF.Assets.Locations.RoomPosition.X
-  fullName: NetAF.Assets.Locations.RoomPosition.X
-  nameWithType: RoomPosition.X
-- uid: NetAF.Assets.Locations.RoomPosition.X*
-  name: X
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_X_
-  commentId: Overload:NetAF.Assets.Locations.RoomPosition.X
-  isSpec: "True"
-  fullName: NetAF.Assets.Locations.RoomPosition.X
-  nameWithType: RoomPosition.X
-- uid: NetAF.Assets.Locations.RoomPosition.Y
-  name: Y
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Y
-  commentId: P:NetAF.Assets.Locations.RoomPosition.Y
-  fullName: NetAF.Assets.Locations.RoomPosition.Y
-  nameWithType: RoomPosition.Y
-- uid: NetAF.Assets.Locations.RoomPosition.Y*
-  name: Y
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Y_
-  commentId: Overload:NetAF.Assets.Locations.RoomPosition.Y
-  isSpec: "True"
-  fullName: NetAF.Assets.Locations.RoomPosition.Y
-  nameWithType: RoomPosition.Y
-- uid: NetAF.Assets.Locations.RoomPosition.Z
-  name: Z
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Z
-  commentId: P:NetAF.Assets.Locations.RoomPosition.Z
-  fullName: NetAF.Assets.Locations.RoomPosition.Z
-  nameWithType: RoomPosition.Z
-- uid: NetAF.Assets.Locations.RoomPosition.Z*
-  name: Z
-  href: api/NetAF.Assets.Locations.RoomPosition.html#NetAF_Assets_Locations_RoomPosition_Z_
-  commentId: Overload:NetAF.Assets.Locations.RoomPosition.Z
-  isSpec: "True"
-  fullName: NetAF.Assets.Locations.RoomPosition.Z
-  nameWithType: RoomPosition.Z
 - uid: NetAF.Assets.Locations.ViewPoint
   name: ViewPoint
   href: api/NetAF.Assets.Locations.ViewPoint.html
@@ -3042,6 +3019,147 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.ViewPoint.NoView
   nameWithType: ViewPoint.NoView
+- uid: NetAF.Assets.Point2D
+  name: Point2D
+  href: api/NetAF.Assets.Point2D.html
+  commentId: T:NetAF.Assets.Point2D
+  fullName: NetAF.Assets.Point2D
+  nameWithType: Point2D
+- uid: NetAF.Assets.Point2D.#ctor(System.Int32,System.Int32)
+  name: Point2D(int, int)
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D__ctor_System_Int32_System_Int32_
+  commentId: M:NetAF.Assets.Point2D.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: NetAF.Assets.Point2D.Point2D(int, int)
+  fullName.vb: NetAF.Assets.Point2D.New(Integer, Integer)
+  nameWithType: Point2D.Point2D(int, int)
+  nameWithType.vb: Point2D.New(Integer, Integer)
+- uid: NetAF.Assets.Point2D.#ctor*
+  name: Point2D
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D__ctor_
+  commentId: Overload:NetAF.Assets.Point2D.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.Point2D.Point2D
+  fullName.vb: NetAF.Assets.Point2D.New
+  nameWithType: Point2D.Point2D
+  nameWithType.vb: Point2D.New
+- uid: NetAF.Assets.Point2D.Equals(NetAF.Assets.Point2D)
+  name: Equals(Point2D)
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D_Equals_NetAF_Assets_Point2D_
+  commentId: M:NetAF.Assets.Point2D.Equals(NetAF.Assets.Point2D)
+  fullName: NetAF.Assets.Point2D.Equals(NetAF.Assets.Point2D)
+  nameWithType: Point2D.Equals(Point2D)
+- uid: NetAF.Assets.Point2D.Equals*
+  name: Equals
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D_Equals_
+  commentId: Overload:NetAF.Assets.Point2D.Equals
+  isSpec: "True"
+  fullName: NetAF.Assets.Point2D.Equals
+  nameWithType: Point2D.Equals
+- uid: NetAF.Assets.Point2D.X
+  name: X
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D_X
+  commentId: P:NetAF.Assets.Point2D.X
+  fullName: NetAF.Assets.Point2D.X
+  nameWithType: Point2D.X
+- uid: NetAF.Assets.Point2D.X*
+  name: X
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D_X_
+  commentId: Overload:NetAF.Assets.Point2D.X
+  isSpec: "True"
+  fullName: NetAF.Assets.Point2D.X
+  nameWithType: Point2D.X
+- uid: NetAF.Assets.Point2D.Y
+  name: Y
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D_Y
+  commentId: P:NetAF.Assets.Point2D.Y
+  fullName: NetAF.Assets.Point2D.Y
+  nameWithType: Point2D.Y
+- uid: NetAF.Assets.Point2D.Y*
+  name: Y
+  href: api/NetAF.Assets.Point2D.html#NetAF_Assets_Point2D_Y_
+  commentId: Overload:NetAF.Assets.Point2D.Y
+  isSpec: "True"
+  fullName: NetAF.Assets.Point2D.Y
+  nameWithType: Point2D.Y
+- uid: NetAF.Assets.Point3D
+  name: Point3D
+  href: api/NetAF.Assets.Point3D.html
+  commentId: T:NetAF.Assets.Point3D
+  fullName: NetAF.Assets.Point3D
+  nameWithType: Point3D
+- uid: NetAF.Assets.Point3D.#ctor(System.Int32,System.Int32,System.Int32)
+  name: Point3D(int, int, int)
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D__ctor_System_Int32_System_Int32_System_Int32_
+  commentId: M:NetAF.Assets.Point3D.#ctor(System.Int32,System.Int32,System.Int32)
+  name.vb: New(Integer, Integer, Integer)
+  fullName: NetAF.Assets.Point3D.Point3D(int, int, int)
+  fullName.vb: NetAF.Assets.Point3D.New(Integer, Integer, Integer)
+  nameWithType: Point3D.Point3D(int, int, int)
+  nameWithType.vb: Point3D.New(Integer, Integer, Integer)
+- uid: NetAF.Assets.Point3D.#ctor*
+  name: Point3D
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D__ctor_
+  commentId: Overload:NetAF.Assets.Point3D.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.Point3D.Point3D
+  fullName.vb: NetAF.Assets.Point3D.New
+  nameWithType: Point3D.Point3D
+  nameWithType.vb: Point3D.New
+- uid: NetAF.Assets.Point3D.Equals(NetAF.Assets.Point3D)
+  name: Equals(Point3D)
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_Equals_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Assets.Point3D.Equals(NetAF.Assets.Point3D)
+  fullName: NetAF.Assets.Point3D.Equals(NetAF.Assets.Point3D)
+  nameWithType: Point3D.Equals(Point3D)
+- uid: NetAF.Assets.Point3D.Equals*
+  name: Equals
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_Equals_
+  commentId: Overload:NetAF.Assets.Point3D.Equals
+  isSpec: "True"
+  fullName: NetAF.Assets.Point3D.Equals
+  nameWithType: Point3D.Equals
+- uid: NetAF.Assets.Point3D.X
+  name: X
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_X
+  commentId: P:NetAF.Assets.Point3D.X
+  fullName: NetAF.Assets.Point3D.X
+  nameWithType: Point3D.X
+- uid: NetAF.Assets.Point3D.X*
+  name: X
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_X_
+  commentId: Overload:NetAF.Assets.Point3D.X
+  isSpec: "True"
+  fullName: NetAF.Assets.Point3D.X
+  nameWithType: Point3D.X
+- uid: NetAF.Assets.Point3D.Y
+  name: Y
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_Y
+  commentId: P:NetAF.Assets.Point3D.Y
+  fullName: NetAF.Assets.Point3D.Y
+  nameWithType: Point3D.Y
+- uid: NetAF.Assets.Point3D.Y*
+  name: Y
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_Y_
+  commentId: Overload:NetAF.Assets.Point3D.Y
+  isSpec: "True"
+  fullName: NetAF.Assets.Point3D.Y
+  nameWithType: Point3D.Y
+- uid: NetAF.Assets.Point3D.Z
+  name: Z
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_Z
+  commentId: P:NetAF.Assets.Point3D.Z
+  fullName: NetAF.Assets.Point3D.Z
+  nameWithType: Point3D.Z
+- uid: NetAF.Assets.Point3D.Z*
+  name: Z
+  href: api/NetAF.Assets.Point3D.html#NetAF_Assets_Point3D_Z_
+  commentId: Overload:NetAF.Assets.Point3D.Z
+  isSpec: "True"
+  fullName: NetAF.Assets.Point3D.Z
+  nameWithType: Point3D.Z
 - uid: NetAF.Assets.Size
   name: Size
   href: api/NetAF.Assets.Size.html
@@ -3185,6 +3303,69 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CommandHelp.Shortcut
   nameWithType: CommandHelp.Shortcut
+- uid: NetAF.Commands.Conversation
+  name: NetAF.Commands.Conversation
+  href: api/NetAF.Commands.Conversation.html
+  commentId: N:NetAF.Commands.Conversation
+  fullName: NetAF.Commands.Conversation
+  nameWithType: NetAF.Commands.Conversation
+- uid: NetAF.Commands.Conversation.Next
+  name: Next
+  href: api/NetAF.Commands.Conversation.Next.html
+  commentId: T:NetAF.Commands.Conversation.Next
+  fullName: NetAF.Commands.Conversation.Next
+  nameWithType: Next
+- uid: NetAF.Commands.Conversation.Next.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Conversation.Next.html#NetAF_Commands_Conversation_Next_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Conversation.Next.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Conversation.Next.Invoke(NetAF.Logic.Game)
+  nameWithType: Next.Invoke(Game)
+- uid: NetAF.Commands.Conversation.Next.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Conversation.Next.html#NetAF_Commands_Conversation_Next_Invoke_
+  commentId: Overload:NetAF.Commands.Conversation.Next.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Conversation.Next.Invoke
+  nameWithType: Next.Invoke
+- uid: NetAF.Commands.Conversation.Respond
+  name: Respond
+  href: api/NetAF.Commands.Conversation.Respond.html
+  commentId: T:NetAF.Commands.Conversation.Respond
+  fullName: NetAF.Commands.Conversation.Respond
+  nameWithType: Respond
+- uid: NetAF.Commands.Conversation.Respond.#ctor(NetAF.Conversations.Response)
+  name: Respond(Response)
+  href: api/NetAF.Commands.Conversation.Respond.html#NetAF_Commands_Conversation_Respond__ctor_NetAF_Conversations_Response_
+  commentId: M:NetAF.Commands.Conversation.Respond.#ctor(NetAF.Conversations.Response)
+  name.vb: New(Response)
+  fullName: NetAF.Commands.Conversation.Respond.Respond(NetAF.Conversations.Response)
+  fullName.vb: NetAF.Commands.Conversation.Respond.New(NetAF.Conversations.Response)
+  nameWithType: Respond.Respond(Response)
+  nameWithType.vb: Respond.New(Response)
+- uid: NetAF.Commands.Conversation.Respond.#ctor*
+  name: Respond
+  href: api/NetAF.Commands.Conversation.Respond.html#NetAF_Commands_Conversation_Respond__ctor_
+  commentId: Overload:NetAF.Commands.Conversation.Respond.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Conversation.Respond.Respond
+  fullName.vb: NetAF.Commands.Conversation.Respond.New
+  nameWithType: Respond.Respond
+  nameWithType.vb: Respond.New
+- uid: NetAF.Commands.Conversation.Respond.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Conversation.Respond.html#NetAF_Commands_Conversation_Respond_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Conversation.Respond.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Conversation.Respond.Invoke(NetAF.Logic.Game)
+  nameWithType: Respond.Invoke(Game)
+- uid: NetAF.Commands.Conversation.Respond.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Conversation.Respond.html#NetAF_Commands_Conversation_Respond_Invoke_
+  commentId: Overload:NetAF.Commands.Conversation.Respond.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Conversation.Respond.Invoke
+  nameWithType: Respond.Invoke
 - uid: NetAF.Commands.CustomCommand
   name: CustomCommand
   href: api/NetAF.Commands.CustomCommand.html
@@ -3707,6 +3888,179 @@ references:
   fullName.vb: NetAF.Commands.Persistence.Save.New
   nameWithType: Save.Save
   nameWithType.vb: Save.New
+- uid: NetAF.Commands.RegionMap
+  name: NetAF.Commands.RegionMap
+  href: api/NetAF.Commands.RegionMap.html
+  commentId: N:NetAF.Commands.RegionMap
+  fullName: NetAF.Commands.RegionMap
+  nameWithType: NetAF.Commands.RegionMap
+- uid: NetAF.Commands.RegionMap.Pan
+  name: Pan
+  href: api/NetAF.Commands.RegionMap.Pan.html
+  commentId: T:NetAF.Commands.RegionMap.Pan
+  fullName: NetAF.Commands.RegionMap.Pan
+  nameWithType: Pan
+- uid: NetAF.Commands.RegionMap.Pan.#ctor(NetAF.Assets.Locations.Direction)
+  name: Pan(Direction)
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan__ctor_NetAF_Assets_Locations_Direction_
+  commentId: M:NetAF.Commands.RegionMap.Pan.#ctor(NetAF.Assets.Locations.Direction)
+  name.vb: New(Direction)
+  fullName: NetAF.Commands.RegionMap.Pan.Pan(NetAF.Assets.Locations.Direction)
+  fullName.vb: NetAF.Commands.RegionMap.Pan.New(NetAF.Assets.Locations.Direction)
+  nameWithType: Pan.Pan(Direction)
+  nameWithType.vb: Pan.New(Direction)
+- uid: NetAF.Commands.RegionMap.Pan.#ctor*
+  name: Pan
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan__ctor_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.RegionMap.Pan.Pan
+  fullName.vb: NetAF.Commands.RegionMap.Pan.New
+  nameWithType: Pan.Pan
+  nameWithType.vb: Pan.New
+- uid: NetAF.Commands.RegionMap.Pan.DownCommandHelp
+  name: DownCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_DownCommandHelp
+  commentId: P:NetAF.Commands.RegionMap.Pan.DownCommandHelp
+  fullName: NetAF.Commands.RegionMap.Pan.DownCommandHelp
+  nameWithType: Pan.DownCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.DownCommandHelp*
+  name: DownCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_DownCommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.DownCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.DownCommandHelp
+  nameWithType: Pan.DownCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.EastCommandHelp
+  name: EastCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_EastCommandHelp
+  commentId: P:NetAF.Commands.RegionMap.Pan.EastCommandHelp
+  fullName: NetAF.Commands.RegionMap.Pan.EastCommandHelp
+  nameWithType: Pan.EastCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.EastCommandHelp*
+  name: EastCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_EastCommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.EastCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.EastCommandHelp
+  nameWithType: Pan.EastCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.GetPanPosition(NetAF.Assets.Point3D,NetAF.Assets.Locations.Direction)
+  name: GetPanPosition(Point3D, Direction)
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_GetPanPosition_NetAF_Assets_Point3D_NetAF_Assets_Locations_Direction_
+  commentId: M:NetAF.Commands.RegionMap.Pan.GetPanPosition(NetAF.Assets.Point3D,NetAF.Assets.Locations.Direction)
+  fullName: NetAF.Commands.RegionMap.Pan.GetPanPosition(NetAF.Assets.Point3D, NetAF.Assets.Locations.Direction)
+  nameWithType: Pan.GetPanPosition(Point3D, Direction)
+- uid: NetAF.Commands.RegionMap.Pan.GetPanPosition*
+  name: GetPanPosition
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_GetPanPosition_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.GetPanPosition
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.GetPanPosition
+  nameWithType: Pan.GetPanPosition
+- uid: NetAF.Commands.RegionMap.Pan.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.RegionMap.Pan.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.RegionMap.Pan.Invoke(NetAF.Logic.Game)
+  nameWithType: Pan.Invoke(Game)
+- uid: NetAF.Commands.RegionMap.Pan.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_Invoke_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.Invoke
+  nameWithType: Pan.Invoke
+- uid: NetAF.Commands.RegionMap.Pan.NorthCommandHelp
+  name: NorthCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_NorthCommandHelp
+  commentId: P:NetAF.Commands.RegionMap.Pan.NorthCommandHelp
+  fullName: NetAF.Commands.RegionMap.Pan.NorthCommandHelp
+  nameWithType: Pan.NorthCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.NorthCommandHelp*
+  name: NorthCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_NorthCommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.NorthCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.NorthCommandHelp
+  nameWithType: Pan.NorthCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.SouthCommandHelp
+  name: SouthCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_SouthCommandHelp
+  commentId: P:NetAF.Commands.RegionMap.Pan.SouthCommandHelp
+  fullName: NetAF.Commands.RegionMap.Pan.SouthCommandHelp
+  nameWithType: Pan.SouthCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.SouthCommandHelp*
+  name: SouthCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_SouthCommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.SouthCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.SouthCommandHelp
+  nameWithType: Pan.SouthCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.SuccessfulPan
+  name: SuccessfulPan
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_SuccessfulPan
+  commentId: F:NetAF.Commands.RegionMap.Pan.SuccessfulPan
+  fullName: NetAF.Commands.RegionMap.Pan.SuccessfulPan
+  nameWithType: Pan.SuccessfulPan
+- uid: NetAF.Commands.RegionMap.Pan.UpCommandHelp
+  name: UpCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_UpCommandHelp
+  commentId: P:NetAF.Commands.RegionMap.Pan.UpCommandHelp
+  fullName: NetAF.Commands.RegionMap.Pan.UpCommandHelp
+  nameWithType: Pan.UpCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.UpCommandHelp*
+  name: UpCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_UpCommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.UpCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.UpCommandHelp
+  nameWithType: Pan.UpCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.WestCommandHelp
+  name: WestCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_WestCommandHelp
+  commentId: P:NetAF.Commands.RegionMap.Pan.WestCommandHelp
+  fullName: NetAF.Commands.RegionMap.Pan.WestCommandHelp
+  nameWithType: Pan.WestCommandHelp
+- uid: NetAF.Commands.RegionMap.Pan.WestCommandHelp*
+  name: WestCommandHelp
+  href: api/NetAF.Commands.RegionMap.Pan.html#NetAF_Commands_RegionMap_Pan_WestCommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.Pan.WestCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.Pan.WestCommandHelp
+  nameWithType: Pan.WestCommandHelp
+- uid: NetAF.Commands.RegionMap.PanReset
+  name: PanReset
+  href: api/NetAF.Commands.RegionMap.PanReset.html
+  commentId: T:NetAF.Commands.RegionMap.PanReset
+  fullName: NetAF.Commands.RegionMap.PanReset
+  nameWithType: PanReset
+- uid: NetAF.Commands.RegionMap.PanReset.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.RegionMap.PanReset.html#NetAF_Commands_RegionMap_PanReset_CommandHelp
+  commentId: P:NetAF.Commands.RegionMap.PanReset.CommandHelp
+  fullName: NetAF.Commands.RegionMap.PanReset.CommandHelp
+  nameWithType: PanReset.CommandHelp
+- uid: NetAF.Commands.RegionMap.PanReset.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.RegionMap.PanReset.html#NetAF_Commands_RegionMap_PanReset_CommandHelp_
+  commentId: Overload:NetAF.Commands.RegionMap.PanReset.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.PanReset.CommandHelp
+  nameWithType: PanReset.CommandHelp
+- uid: NetAF.Commands.RegionMap.PanReset.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.RegionMap.PanReset.html#NetAF_Commands_RegionMap_PanReset_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.RegionMap.PanReset.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.RegionMap.PanReset.Invoke(NetAF.Logic.Game)
+  nameWithType: PanReset.Invoke(Game)
+- uid: NetAF.Commands.RegionMap.PanReset.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.RegionMap.PanReset.html#NetAF_Commands_RegionMap_PanReset_Invoke_
+  commentId: Overload:NetAF.Commands.RegionMap.PanReset.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.RegionMap.PanReset.Invoke
+  nameWithType: PanReset.Invoke
 - uid: NetAF.Commands.Scene
   name: NetAF.Commands.Scene
   href: api/NetAF.Commands.Scene.html
@@ -3764,19 +4118,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.Drop.Invoke
   nameWithType: Drop.Invoke
-- uid: NetAF.Commands.Scene.Drop.Item
-  name: Item
-  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_Item
-  commentId: P:NetAF.Commands.Scene.Drop.Item
-  fullName: NetAF.Commands.Scene.Drop.Item
-  nameWithType: Drop.Item
-- uid: NetAF.Commands.Scene.Drop.Item*
-  name: Item
-  href: api/NetAF.Commands.Scene.Drop.html#NetAF_Commands_Scene_Drop_Item_
-  commentId: Overload:NetAF.Commands.Scene.Drop.Item
-  isSpec: "True"
-  fullName: NetAF.Commands.Scene.Drop.Item
-  nameWithType: Drop.Item
 - uid: NetAF.Commands.Scene.Examine
   name: Examine
   href: api/NetAF.Commands.Scene.Examine.html
@@ -3815,19 +4156,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.Examine.CommandHelp
   nameWithType: Examine.CommandHelp
-- uid: NetAF.Commands.Scene.Examine.Examinable
-  name: Examinable
-  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Examinable
-  commentId: P:NetAF.Commands.Scene.Examine.Examinable
-  fullName: NetAF.Commands.Scene.Examine.Examinable
-  nameWithType: Examine.Examinable
-- uid: NetAF.Commands.Scene.Examine.Examinable*
-  name: Examinable
-  href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Examinable_
-  commentId: Overload:NetAF.Commands.Scene.Examine.Examinable
-  isSpec: "True"
-  fullName: NetAF.Commands.Scene.Examine.Examinable
-  nameWithType: Examine.Examinable
 - uid: NetAF.Commands.Scene.Examine.Invoke(NetAF.Logic.Game)
   name: Invoke(Game)
   href: api/NetAF.Commands.Scene.Examine.html#NetAF_Commands_Scene_Examine_Invoke_NetAF_Logic_Game_
@@ -3866,19 +4194,6 @@ references:
   fullName.vb: NetAF.Commands.Scene.Move.New
   nameWithType: Move.Move
   nameWithType.vb: Move.New
-- uid: NetAF.Commands.Scene.Move.Direction
-  name: Direction
-  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_Direction
-  commentId: P:NetAF.Commands.Scene.Move.Direction
-  fullName: NetAF.Commands.Scene.Move.Direction
-  nameWithType: Move.Direction
-- uid: NetAF.Commands.Scene.Move.Direction*
-  name: Direction
-  href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_Direction_
-  commentId: Overload:NetAF.Commands.Scene.Move.Direction
-  isSpec: "True"
-  fullName: NetAF.Commands.Scene.Move.Direction
-  nameWithType: Move.Direction
 - uid: NetAF.Commands.Scene.Move.DownCommandHelp
   name: DownCommandHelp
   href: api/NetAF.Commands.Scene.Move.html#NetAF_Commands_Scene_Move_DownCommandHelp
@@ -4027,19 +4342,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.Take.Invoke
   nameWithType: Take.Invoke
-- uid: NetAF.Commands.Scene.Take.Item
-  name: Item
-  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_Item
-  commentId: P:NetAF.Commands.Scene.Take.Item
-  fullName: NetAF.Commands.Scene.Take.Item
-  nameWithType: Take.Item
-- uid: NetAF.Commands.Scene.Take.Item*
-  name: Item
-  href: api/NetAF.Commands.Scene.Take.html#NetAF_Commands_Scene_Take_Item_
-  commentId: Overload:NetAF.Commands.Scene.Take.Item
-  isSpec: "True"
-  fullName: NetAF.Commands.Scene.Take.Item
-  nameWithType: Take.Item
 - uid: NetAF.Commands.Scene.TakeAll
   name: TakeAll
   href: api/NetAF.Commands.Scene.TakeAll.html
@@ -4072,6 +4374,70 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.TakeAll.Invoke
   nameWithType: TakeAll.Invoke
+- uid: NetAF.Commands.Scene.Talk
+  name: Talk
+  href: api/NetAF.Commands.Scene.Talk.html
+  commentId: T:NetAF.Commands.Scene.Talk
+  fullName: NetAF.Commands.Scene.Talk
+  nameWithType: Talk
+- uid: NetAF.Commands.Scene.Talk.#ctor(NetAF.Assets.Characters.IConverser)
+  name: Talk(IConverser)
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk__ctor_NetAF_Assets_Characters_IConverser_
+  commentId: M:NetAF.Commands.Scene.Talk.#ctor(NetAF.Assets.Characters.IConverser)
+  name.vb: New(IConverser)
+  fullName: NetAF.Commands.Scene.Talk.Talk(NetAF.Assets.Characters.IConverser)
+  fullName.vb: NetAF.Commands.Scene.Talk.New(NetAF.Assets.Characters.IConverser)
+  nameWithType: Talk.Talk(IConverser)
+  nameWithType.vb: Talk.New(IConverser)
+- uid: NetAF.Commands.Scene.Talk.#ctor*
+  name: Talk
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk__ctor_
+  commentId: Overload:NetAF.Commands.Scene.Talk.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Scene.Talk.Talk
+  fullName.vb: NetAF.Commands.Scene.Talk.New
+  nameWithType: Talk.Talk
+  nameWithType.vb: Talk.New
+- uid: NetAF.Commands.Scene.Talk.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.Talk.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.Talk.Invoke(NetAF.Logic.Game)
+  nameWithType: Talk.Invoke(Game)
+- uid: NetAF.Commands.Scene.Talk.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk_Invoke_
+  commentId: Overload:NetAF.Commands.Scene.Talk.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Talk.Invoke
+  nameWithType: Talk.Invoke
+- uid: NetAF.Commands.Scene.Talk.TalkCommandHelp
+  name: TalkCommandHelp
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk_TalkCommandHelp
+  commentId: P:NetAF.Commands.Scene.Talk.TalkCommandHelp
+  fullName: NetAF.Commands.Scene.Talk.TalkCommandHelp
+  nameWithType: Talk.TalkCommandHelp
+- uid: NetAF.Commands.Scene.Talk.TalkCommandHelp*
+  name: TalkCommandHelp
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk_TalkCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Talk.TalkCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Talk.TalkCommandHelp
+  nameWithType: Talk.TalkCommandHelp
+- uid: NetAF.Commands.Scene.Talk.ToCommandHelp
+  name: ToCommandHelp
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk_ToCommandHelp
+  commentId: P:NetAF.Commands.Scene.Talk.ToCommandHelp
+  fullName: NetAF.Commands.Scene.Talk.ToCommandHelp
+  nameWithType: Talk.ToCommandHelp
+- uid: NetAF.Commands.Scene.Talk.ToCommandHelp*
+  name: ToCommandHelp
+  href: api/NetAF.Commands.Scene.Talk.html#NetAF_Commands_Scene_Talk_ToCommandHelp_
+  commentId: Overload:NetAF.Commands.Scene.Talk.ToCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.Talk.ToCommandHelp
+  nameWithType: Talk.ToCommandHelp
 - uid: NetAF.Commands.Scene.Unactionable
   name: Unactionable
   href: api/NetAF.Commands.Scene.Unactionable.html
@@ -4170,19 +4536,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.UseOn.Invoke
   nameWithType: UseOn.Invoke
-- uid: NetAF.Commands.Scene.UseOn.Item
-  name: Item
-  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Item
-  commentId: P:NetAF.Commands.Scene.UseOn.Item
-  fullName: NetAF.Commands.Scene.UseOn.Item
-  nameWithType: UseOn.Item
-- uid: NetAF.Commands.Scene.UseOn.Item*
-  name: Item
-  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Item_
-  commentId: Overload:NetAF.Commands.Scene.UseOn.Item
-  isSpec: "True"
-  fullName: NetAF.Commands.Scene.UseOn.Item
-  nameWithType: UseOn.Item
 - uid: NetAF.Commands.Scene.UseOn.OnCommandHelp
   name: OnCommandHelp
   href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_OnCommandHelp
@@ -4196,19 +4549,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.UseOn.OnCommandHelp
   nameWithType: UseOn.OnCommandHelp
-- uid: NetAF.Commands.Scene.UseOn.Target
-  name: Target
-  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Target
-  commentId: P:NetAF.Commands.Scene.UseOn.Target
-  fullName: NetAF.Commands.Scene.UseOn.Target
-  nameWithType: UseOn.Target
-- uid: NetAF.Commands.Scene.UseOn.Target*
-  name: Target
-  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Target_
-  commentId: Overload:NetAF.Commands.Scene.UseOn.Target
-  isSpec: "True"
-  fullName: NetAF.Commands.Scene.UseOn.Target
-  nameWithType: UseOn.Target
 - uid: NetAF.Commands.Scene.UseOn.UseCommandHelp
   name: UseCommandHelp
   href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_UseCommandHelp
@@ -5688,6 +6028,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.Interpreters.Default
   nameWithType: Interpreters.Default
+- uid: NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter
+  name: RegionMapCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_RegionMapCommandInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter
+  fullName: NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter
+  nameWithType: Interpreters.RegionMapCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter*
+  name: RegionMapCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_RegionMapCommandInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter
+  nameWithType: Interpreters.RegionMapCommandInterpreter
 - uid: NetAF.Interpretation.Interpreters.SceneInterpreter
   name: SceneInterpreter
   href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_SceneInterpreter
@@ -5701,6 +6054,67 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.Interpreters.SceneInterpreter
   nameWithType: Interpreters.SceneInterpreter
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter
+  name: RegionMapCommandInterpreter
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html
+  commentId: T:NetAF.Interpretation.RegionMapCommandInterpreter
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter
+  nameWithType: RegionMapCommandInterpreter
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_DefaultSupportedCommands
+  commentId: P:NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands
+  nameWithType: RegionMapCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands*
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_DefaultSupportedCommands_
+  commentId: Overload:NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands
+  nameWithType: RegionMapCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  name: GetContextualCommandHelp(Game)
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
+  commentId: M:NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  nameWithType: RegionMapCommandInterpreter.GetContextualCommandHelp(Game)
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp*
+  name: GetContextualCommandHelp
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_GetContextualCommandHelp_
+  commentId: Overload:NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp
+  nameWithType: RegionMapCommandInterpreter.GetContextualCommandHelp
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
+  name: Interpret(string, Game)
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_
+  commentId: M:NetAF.Interpretation.RegionMapCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
+  name.vb: Interpret(String, Game)
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.Interpret(string, NetAF.Logic.Game)
+  fullName.vb: NetAF.Interpretation.RegionMapCommandInterpreter.Interpret(String, NetAF.Logic.Game)
+  nameWithType: RegionMapCommandInterpreter.Interpret(string, Game)
+  nameWithType.vb: RegionMapCommandInterpreter.Interpret(String, Game)
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.Interpret*
+  name: Interpret
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_Interpret_
+  commentId: Overload:NetAF.Interpretation.RegionMapCommandInterpreter.Interpret
+  isSpec: "True"
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.Interpret
+  nameWithType: RegionMapCommandInterpreter.Interpret
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.SupportedCommands
+  name: SupportedCommands
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_SupportedCommands
+  commentId: P:NetAF.Interpretation.RegionMapCommandInterpreter.SupportedCommands
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.SupportedCommands
+  nameWithType: RegionMapCommandInterpreter.SupportedCommands
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.SupportedCommands*
+  name: SupportedCommands
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_SupportedCommands_
+  commentId: Overload:NetAF.Interpretation.RegionMapCommandInterpreter.SupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.SupportedCommands
+  nameWithType: RegionMapCommandInterpreter.SupportedCommands
 - uid: NetAF.Interpretation.SceneCommandInterpreter
   name: SceneCommandInterpreter
   href: api/NetAF.Interpretation.SceneCommandInterpreter.html
@@ -7235,6 +7649,51 @@ references:
   commentId: T:NetAF.Logic.Modes.RegionMapMode
   fullName: NetAF.Logic.Modes.RegionMapMode
   nameWithType: RegionMapMode
+- uid: NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D)
+  name: RegionMapMode(Point3D)
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D)
+  name.vb: New(Point3D)
+  fullName: NetAF.Logic.Modes.RegionMapMode.RegionMapMode(NetAF.Assets.Point3D)
+  fullName.vb: NetAF.Logic.Modes.RegionMapMode.New(NetAF.Assets.Point3D)
+  nameWithType: RegionMapMode.RegionMapMode(Point3D)
+  nameWithType.vb: RegionMapMode.New(Point3D)
+- uid: NetAF.Logic.Modes.RegionMapMode.#ctor*
+  name: RegionMapMode
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.RegionMapMode.RegionMapMode
+  fullName.vb: NetAF.Logic.Modes.RegionMapMode.New
+  nameWithType: RegionMapMode.RegionMapMode
+  nameWithType.vb: RegionMapMode.New
+- uid: NetAF.Logic.Modes.RegionMapMode.CanPanToPosition(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
+  name: CanPanToPosition(Region, Point3D)
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_CanPanToPosition_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Logic.Modes.RegionMapMode.CanPanToPosition(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
+  fullName: NetAF.Logic.Modes.RegionMapMode.CanPanToPosition(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D)
+  nameWithType: RegionMapMode.CanPanToPosition(Region, Point3D)
+- uid: NetAF.Logic.Modes.RegionMapMode.CanPanToPosition*
+  name: CanPanToPosition
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_CanPanToPosition_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.CanPanToPosition
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.CanPanToPosition
+  nameWithType: RegionMapMode.CanPanToPosition
+- uid: NetAF.Logic.Modes.RegionMapMode.FocusPosition
+  name: FocusPosition
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_FocusPosition
+  commentId: P:NetAF.Logic.Modes.RegionMapMode.FocusPosition
+  fullName: NetAF.Logic.Modes.RegionMapMode.FocusPosition
+  nameWithType: RegionMapMode.FocusPosition
+- uid: NetAF.Logic.Modes.RegionMapMode.FocusPosition*
+  name: FocusPosition
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_FocusPosition_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.FocusPosition
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.FocusPosition
+  nameWithType: RegionMapMode.FocusPosition
 - uid: NetAF.Logic.Modes.RegionMapMode.Interpreter
   name: Interpreter
   href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Interpreter
@@ -7248,6 +7707,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.RegionMapMode.Interpreter
   nameWithType: RegionMapMode.Interpreter
+- uid: NetAF.Logic.Modes.RegionMapMode.Player
+  name: Player
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Player
+  commentId: P:NetAF.Logic.Modes.RegionMapMode.Player
+  fullName: NetAF.Logic.Modes.RegionMapMode.Player
+  nameWithType: RegionMapMode.Player
+- uid: NetAF.Logic.Modes.RegionMapMode.Player*
+  name: Player
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Player_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.Player
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.Player
+  nameWithType: RegionMapMode.Player
 - uid: NetAF.Logic.Modes.RegionMapMode.Render(NetAF.Logic.Game)
   name: Render(Game)
   href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Render_NetAF_Logic_Game_
@@ -7814,15 +8286,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.BorderColor
   nameWithType: ConsoleAboutFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,System.Int32,System.Int32)
-  name: Build(string, Game, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleAboutFrameBuilder_Build_System_String_NetAF_Logic_Game_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,System.Int32,System.Int32)
-  name.vb: Build(String, Game, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(string, NetAF.Logic.Game, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(String, NetAF.Logic.Game, Integer, Integer)
-  nameWithType: ConsoleAboutFrameBuilder.Build(string, Game, int, int)
-  nameWithType.vb: ConsoleAboutFrameBuilder.Build(String, Game, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,NetAF.Assets.Size)
+  name: Build(string, Game, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleAboutFrameBuilder_Build_System_String_NetAF_Logic_Game_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,NetAF.Assets.Size)
+  name.vb: Build(String, Game, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(string, NetAF.Logic.Game, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build(String, NetAF.Logic.Game, NetAF.Assets.Size)
+  nameWithType: ConsoleAboutFrameBuilder.Build(string, Game, Size)
+  nameWithType.vb: ConsoleAboutFrameBuilder.Build(String, Game, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleAboutFrameBuilder_Build_
@@ -7920,15 +8392,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.BorderColor
   nameWithType: ConsoleCompletionFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCompletionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ConsoleCompletionFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ConsoleCompletionFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCompletionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: ConsoleCompletionFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: ConsoleCompletionFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCompletionFrameBuilder_Build_
@@ -8013,15 +8485,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.BorderColor
   nameWithType: ConsoleConversationFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name: Build(string, IConverser, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name.vb: Build(String, IConverser, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), Integer, Integer)
-  nameWithType: ConsoleConversationFrameBuilder.Build(string, IConverser, CommandHelp[], int, int)
-  nameWithType.vb: ConsoleConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, IConverser, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, IConverser, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: ConsoleConversationFrameBuilder.Build(string, IConverser, CommandHelp[], Size)
+  nameWithType.vb: ConsoleConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_Build_
@@ -8145,15 +8617,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.BorderColor
   nameWithType: ConsoleGameOverFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleGameOverFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ConsoleGameOverFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ConsoleGameOverFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleGameOverFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: ConsoleGameOverFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: ConsoleGameOverFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleGameOverFrameBuilder_Build_
@@ -8238,15 +8710,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.BorderColor
   nameWithType: ConsoleHelpFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name: Build(string, string, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name.vb: Build(String, String, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), Integer, Integer)
-  nameWithType: ConsoleHelpFrameBuilder.Build(string, string, CommandHelp[], int, int)
-  nameWithType.vb: ConsoleHelpFrameBuilder.Build(String, String, CommandHelp(), Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, string, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, String, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: ConsoleHelpFrameBuilder.Build(string, string, CommandHelp[], Size)
+  nameWithType.vb: ConsoleHelpFrameBuilder.Build(String, String, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_
@@ -8357,15 +8829,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
   nameWithType: ConsoleReactionFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ConsoleReactionFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ConsoleReactionFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: ConsoleReactionFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: ConsoleReactionFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_
@@ -8424,15 +8896,12 @@ references:
   fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.New
   nameWithType: ConsoleRegionMapBuilder.ConsoleRegionMapBuilder
   nameWithType.vb: ConsoleRegionMapBuilder.New
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,System.Int32,System.Int32,System.Int32,System.Int32)
-  name: BuildRegionMap(Region, int, int, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: BuildRegionMap(Region, Integer, Integer, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, int, int, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, Integer, Integer, Integer, Integer)
-  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, int, int, int, int)
-  nameWithType.vb: ConsoleRegionMapBuilder.BuildRegionMap(Region, Integer, Integer, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point2D,NetAF.Assets.Point3D,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point2D, Point3D, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point2D_NetAF_Assets_Point3D_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point2D,NetAF.Assets.Point3D,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point2D, NetAF.Assets.Point3D, NetAF.Assets.Size)
+  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point2D, Point3D, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_BuildRegionMap_
@@ -8466,6 +8935,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.EmptySpace
   nameWithType: ConsoleRegionMapBuilder.EmptySpace
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor
+  name: FocusedBoundaryColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_FocusedBoundaryColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor
+  nameWithType: ConsoleRegionMapBuilder.FocusedBoundaryColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor*
+  name: FocusedBoundaryColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_FocusedBoundaryColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor
+  nameWithType: ConsoleRegionMapBuilder.FocusedBoundaryColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.HorizontalBoundary
   name: HorizontalBoundary
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_HorizontalBoundary
@@ -8673,15 +9155,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.BorderColor
   nameWithType: ConsoleRegionMapFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,System.Int32,System.Int32)
-  name: Build(Region, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,System.Int32,System.Int32)
-  name.vb: Build(Region, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, Integer, Integer)
-  nameWithType: ConsoleRegionMapFrameBuilder.Build(Region, int, int)
-  nameWithType.vb: ConsoleRegionMapFrameBuilder.Build(Region, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: ConsoleRegionMapFrameBuilder.Build(Region, Point3D, CommandHelp[], Size)
+  nameWithType.vb: ConsoleRegionMapFrameBuilder.Build(Region, Point3D, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_Build_
@@ -8689,6 +9171,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build
   nameWithType: ConsoleRegionMapFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor
+  name: CommandsColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_CommandsColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor
+  nameWithType: ConsoleRegionMapFrameBuilder.CommandsColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor*
+  name: CommandsColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_CommandsColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor
+  nameWithType: ConsoleRegionMapFrameBuilder.CommandsColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.InputColor
+  name: InputColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_InputColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.InputColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.InputColor
+  nameWithType: ConsoleRegionMapFrameBuilder.InputColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.InputColor*
+  name: InputColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_InputColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.InputColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.InputColor
+  nameWithType: ConsoleRegionMapFrameBuilder.InputColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.TitleColor
   name: TitleColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_TitleColor
@@ -8740,15 +9248,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BoundaryColor
   nameWithType: ConsoleRoomMapBuilder.BoundaryColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,System.Int32,System.Int32,System.Int32@,System.Int32@)
-  name: BuildRoomMap(Room, ViewPoint, KeyType, int, int, out int, out int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_System_Int32_System_Int32_System_Int32__System_Int32__
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,System.Int32,System.Int32,System.Int32@,System.Int32@)
-  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Integer, Integer, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, int, int, out int, out int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, Integer, Integer, Integer, Integer)
-  nameWithType: ConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, int, int, out int, out int)
-  nameWithType.vb: ConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Integer, Integer, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_NetAF_Assets_Point2D_System_Int32__System_Int32__
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, out int, out int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, Integer, Integer)
+  nameWithType: ConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
+  nameWithType.vb: ConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRoomMapBuilder_BuildRoomMap_
@@ -8963,15 +9471,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.BorderColor
   nameWithType: ConsoleSceneFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
-  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
-  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
+  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_Build_
@@ -9082,15 +9590,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.BorderColor
   nameWithType: ConsoleTitleFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTitleFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ConsoleTitleFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ConsoleTitleFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTitleFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: ConsoleTitleFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: ConsoleTitleFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleTitleFrameBuilder_Build_
@@ -9548,15 +10056,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IAboutFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder
   nameWithType: IAboutFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,System.Int32,System.Int32)
-  name: Build(string, Game, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html#NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_Build_System_String_NetAF_Logic_Game_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,System.Int32,System.Int32)
-  name.vb: Build(String, Game, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(string, NetAF.Logic.Game, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(String, NetAF.Logic.Game, Integer, Integer)
-  nameWithType: IAboutFrameBuilder.Build(string, Game, int, int)
-  nameWithType.vb: IAboutFrameBuilder.Build(String, Game, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,NetAF.Assets.Size)
+  name: Build(string, Game, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html#NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_Build_System_String_NetAF_Logic_Game_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,NetAF.Assets.Size)
+  name.vb: Build(String, Game, Size)
+  fullName: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(string, NetAF.Logic.Game, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build(String, NetAF.Logic.Game, NetAF.Assets.Size)
+  nameWithType: IAboutFrameBuilder.Build(string, Game, Size)
+  nameWithType.vb: IAboutFrameBuilder.Build(String, Game, Size)
 - uid: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html#NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_Build_
@@ -9570,15 +10078,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder
   nameWithType: ICompletionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.html#NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ICompletionFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ICompletionFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.html#NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: ICompletionFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: ICompletionFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.html#NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_Build_
@@ -9592,15 +10100,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IConversationFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder
   nameWithType: IConversationFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name: Build(string, IConverser, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name.vb: Build(String, IConverser, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), Integer, Integer)
-  nameWithType: IConversationFrameBuilder.Build(string, IConverser, CommandHelp[], int, int)
-  nameWithType.vb: IConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, IConverser, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, IConverser, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: IConversationFrameBuilder.Build(string, IConverser, CommandHelp[], Size)
+  nameWithType.vb: IConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_Build_
@@ -9614,15 +10122,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder
   nameWithType: IGameOverFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.html#NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: IGameOverFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: IGameOverFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.html#NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: IGameOverFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: IGameOverFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.html#NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_Build_
@@ -9636,15 +10144,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   nameWithType: IHelpFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name: Build(string, string, CommandHelp[], int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],System.Int32,System.Int32)
-  name.vb: Build(String, String, CommandHelp(), Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), Integer, Integer)
-  nameWithType: IHelpFrameBuilder.Build(string, string, CommandHelp[], int, int)
-  nameWithType.vb: IHelpFrameBuilder.Build(String, String, CommandHelp(), Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, string, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, String, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: IHelpFrameBuilder.Build(string, string, CommandHelp[], Size)
+  nameWithType.vb: IHelpFrameBuilder.Build(String, String, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_
@@ -9658,15 +10166,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
   nameWithType: IReactionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: IReactionFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: IReactionFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: IReactionFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: IReactionFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_
@@ -9680,15 +10188,12 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   nameWithType: IRegionMapBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,System.Int32,System.Int32,System.Int32,System.Int32)
-  name: BuildRegionMap(Region, int, int, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: BuildRegionMap(Region, Integer, Integer, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, int, int, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, Integer, Integer, Integer, Integer)
-  nameWithType: IRegionMapBuilder.BuildRegionMap(Region, int, int, int, int)
-  nameWithType.vb: IRegionMapBuilder.BuildRegionMap(Region, Integer, Integer, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point2D,NetAF.Assets.Point3D,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point2D, Point3D, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point2D_NetAF_Assets_Point3D_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point2D,NetAF.Assets.Point3D,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point2D, NetAF.Assets.Point3D, NetAF.Assets.Size)
+  nameWithType: IRegionMapBuilder.BuildRegionMap(Region, Point2D, Point3D, Size)
 - uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_
@@ -9702,15 +10207,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder
   nameWithType: IRegionMapFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,System.Int32,System.Int32)
-  name: Build(Region, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,System.Int32,System.Int32)
-  name.vb: Build(Region, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, Integer, Integer)
-  nameWithType: IRegionMapFrameBuilder.Build(Region, int, int)
-  nameWithType.vb: IRegionMapFrameBuilder.Build(Region, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: IRegionMapFrameBuilder.Build(Region, Point3D, CommandHelp[], Size)
+  nameWithType.vb: IRegionMapFrameBuilder.Build(Region, Point3D, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_Build_
@@ -9724,15 +10229,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRoomMapBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRoomMapBuilder
   nameWithType: IRoomMapBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,System.Int32,System.Int32,System.Int32@,System.Int32@)
-  name: BuildRoomMap(Room, ViewPoint, KeyType, int, int, out int, out int)
-  href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_IRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_System_Int32_System_Int32_System_Int32__System_Int32__
-  commentId: M:NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,System.Int32,System.Int32,System.Int32@,System.Int32@)
-  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Integer, Integer, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, int, int, out int, out int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, Integer, Integer, Integer, Integer)
-  nameWithType: IRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, int, int, out int, out int)
-  nameWithType.vb: IRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Integer, Integer, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
+  href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_IRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_NetAF_Assets_Point2D_System_Int32__System_Int32__
+  commentId: M:NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
+  fullName: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, out int, out int)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, Integer, Integer)
+  nameWithType: IRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
+  nameWithType.vb: IRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
 - uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_IRoomMapBuilder_BuildRoomMap_
@@ -9746,15 +10251,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   nameWithType: ISceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,System.Int32,System.Int32)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, Integer, Integer)
-  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, int, int)
-  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
+  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
+  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
 - uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_
@@ -9768,15 +10273,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ITitleFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder
   nameWithType: ITitleFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name: Build(string, string, int, int)
-  href: api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.html#NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_Build_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(System.String,System.String,System.Int32,System.Int32)
-  name.vb: Build(String, String, Integer, Integer)
-  fullName: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(string, string, int, int)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(String, String, Integer, Integer)
-  nameWithType: ITitleFrameBuilder.Build(string, string, int, int)
-  nameWithType.vb: ITitleFrameBuilder.Build(String, String, Integer, Integer)
+- uid: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.html#NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: ITitleFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: ITitleFrameBuilder.Build(String, String, Size)
 - uid: NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.html#NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_Build_

@@ -123,19 +123,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition__ctor_NetAF_Assets_Locations_Room_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.%23ctor(NetAF.Assets.Locations.Room%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition__ctor_NetAF_Assets_Locations_Room_NetAF_Assets_Point3D_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.%23ctor(NetAF.Assets.Locations.Room%2CNetAF.Assets.Point3D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L10">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L8">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_RoomPosition__ctor_" data-uid="NetAF.Assets.Locations.RoomPosition.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_RoomPosition__ctor_NetAF_Assets_Locations_Room_System_Int32_System_Int32_System_Int32_" data-uid="NetAF.Assets.Locations.RoomPosition.#ctor(NetAF.Assets.Locations.Room,System.Int32,System.Int32,System.Int32)">RoomPosition(Room, int, int, int)</h4>
+  <h4 id="NetAF_Assets_Locations_RoomPosition__ctor_NetAF_Assets_Locations_Room_NetAF_Assets_Point3D_" data-uid="NetAF.Assets.Locations.RoomPosition.#ctor(NetAF.Assets.Locations.Room,NetAF.Assets.Point3D)">RoomPosition(Room, Point3D)</h4>
   <div class="markdown level1 summary"><p>Represents a room position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RoomPosition(Room room, int x, int y, int z)</code></pre>
+    <pre><code class="lang-csharp hljs">public RoomPosition(Room room, Point3D position)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -154,21 +154,9 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">x</span></td>
-        <td><p>The x position of the room.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">y</span></td>
-        <td><p>The y position of the room.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">z</span></td>
-        <td><p>The z position of the room.</p>
+        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the room.</p>
 </td>
       </tr>
     </tbody>
@@ -177,10 +165,41 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_Position.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.Position%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L20">View Source</a>
+  </span>
+  <a id="NetAF_Assets_Locations_RoomPosition_Position_" data-uid="NetAF.Assets.Locations.RoomPosition.Position*"></a>
+  <h4 id="NetAF_Assets_Locations_RoomPosition_Position" data-uid="NetAF.Assets.Locations.RoomPosition.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Get the position of the room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Point3D Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_Room.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.Room%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L17">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L15">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_RoomPosition_Room_" data-uid="NetAF.Assets.Locations.RoomPosition.Room*"></a>
   <h4 id="NetAF_Assets_Locations_RoomPosition_Room" data-uid="NetAF.Assets.Locations.RoomPosition.Room">Room</h4>
@@ -206,107 +225,64 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_X.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.X%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L22">View Source</a>
-  </span>
-  <a id="NetAF_Assets_Locations_RoomPosition_X_" data-uid="NetAF.Assets.Locations.RoomPosition.X*"></a>
-  <h4 id="NetAF_Assets_Locations_RoomPosition_X" data-uid="NetAF.Assets.Locations.RoomPosition.X">X</h4>
-  <div class="markdown level1 summary"><p>Get the X position of the room.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int X { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_Y.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.Y%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L27">View Source</a>
-  </span>
-  <a id="NetAF_Assets_Locations_RoomPosition_Y_" data-uid="NetAF.Assets.Locations.RoomPosition.Y*"></a>
-  <h4 id="NetAF_Assets_Locations_RoomPosition_Y" data-uid="NetAF.Assets.Locations.RoomPosition.Y">Y</h4>
-  <div class="markdown level1 summary"><p>Get the Y position of the room.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Y { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_Z.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.Z%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L32">View Source</a>
-  </span>
-  <a id="NetAF_Assets_Locations_RoomPosition_Z_" data-uid="NetAF.Assets.Locations.RoomPosition.Z*"></a>
-  <h4 id="NetAF_Assets_Locations_RoomPosition_Z" data-uid="NetAF.Assets.Locations.RoomPosition.Z">Z</h4>
-  <div class="markdown level1 summary"><p>Get the Z position of the room.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Z { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_IsAtPosition_NetAF_Assets_Point3D_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.IsAtPosition(NetAF.Assets.Point3D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L43">View Source</a>
+  </span>
+  <a id="NetAF_Assets_Locations_RoomPosition_IsAtPosition_" data-uid="NetAF.Assets.Locations.RoomPosition.IsAtPosition*"></a>
+  <h4 id="NetAF_Assets_Locations_RoomPosition_IsAtPosition_NetAF_Assets_Point3D_" data-uid="NetAF.Assets.Locations.RoomPosition.IsAtPosition(NetAF.Assets.Point3D)">IsAtPosition(Point3D)</h4>
+  <div class="markdown level1 summary"><p>Get if this RoomPosition is at a position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAtPosition(Point3D position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this is at the position, else false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition_IsAtPosition_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition.IsAtPosition(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L45">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L33">View Source</a>
   </span>
   <a id="NetAF_Assets_Locations_RoomPosition_IsAtPosition_" data-uid="NetAF.Assets.Locations.RoomPosition.IsAtPosition*"></a>
   <h4 id="NetAF_Assets_Locations_RoomPosition_IsAtPosition_System_Int32_System_Int32_System_Int32_" data-uid="NetAF.Assets.Locations.RoomPosition.IsAtPosition(System.Int32,System.Int32,System.Int32)">IsAtPosition(int, int, int)</h4>
@@ -375,7 +351,7 @@
                     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Locations_RoomPosition.md&amp;value=---%0Auid%3A%20NetAF.Assets.Locations.RoomPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Locations/RoomPosition.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

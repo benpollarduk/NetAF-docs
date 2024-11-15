@@ -422,6 +422,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.Point2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.Point2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.Point3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.Point3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.Size.yml",
       "output": {
         ".html": {
@@ -446,6 +466,36 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Commands.CommandHelp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Conversation.Next.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Conversation.Next.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Conversation.Respond.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Conversation.Respond.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Conversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Conversation.html"
         }
       },
       "version": ""
@@ -632,6 +682,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.RegionMap.Pan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.RegionMap.Pan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.RegionMap.PanReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.RegionMap.PanReset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.RegionMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.RegionMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Scene.Drop.yml",
       "output": {
         ".html": {
@@ -676,6 +756,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Commands.Scene.TakeAll.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.Talk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.Talk.html"
         }
       },
       "version": ""
@@ -1016,6 +1106,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Interpretation.Interpreters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.RegionMapCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.RegionMapCommandInterpreter.html"
         }
       },
       "version": ""
