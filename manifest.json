@@ -122,6 +122,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.Condition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.ConditionalDescription.yml",
       "output": {
         ".html": {
@@ -226,16 +236,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Assets.Identifier.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.Condition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.Condition.html"
         }
       },
       "version": ""
@@ -1172,10 +1172,80 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.ConsoleGameConfiguration.yml",
+      "source_relative_path": "api/NetAF.Logic.Callbacks.GameCreationCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Logic.ConsoleGameConfiguration.html"
+          "relative_path": "api/NetAF.Logic.Callbacks.GameCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Callbacks.GameSetupCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Callbacks.GameSetupCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Callbacks.OverworldCreationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Callbacks.OverworldCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Callbacks.PlayerCreationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Callbacks.PlayerCreationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Callbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Callbacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Configuration.ConsoleGameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Configuration.IGameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Configuration.IGameConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Configuration.html"
         }
       },
       "version": ""
@@ -1222,16 +1292,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.GameCreationCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.GameCreationCallback.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.GameEndConditions.yml",
       "output": {
         ".html": {
@@ -1252,30 +1312,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.GameSetupCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.GameSetupCallback.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.GameState.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.GameState.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.IGameConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.IGameConfiguration.html"
         }
       },
       "version": ""
@@ -1412,30 +1452,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.OverworldCreationCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.OverworldCreationCallback.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.PlayableCharacterLocation.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.PlayableCharacterLocation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.PlayerCreationCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.PlayerCreationCallback.html"
         }
       },
       "version": ""
