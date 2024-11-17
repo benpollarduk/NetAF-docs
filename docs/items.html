@@ -105,9 +105,9 @@
 var dart = new Item(&quot;Dart&quot;, &quot;A dart&quot;, interaction: item =&gt;
 {
     if (item == dartsBoard)
-        return new Interaction(InteractionResult.NeitherItemOrTargetExpired, item, &quot;The dart stuck in the darts board.&quot;);
+        return new Interaction(InteractionResult.NoChange, item, &quot;The dart stuck in the darts board.&quot;);
 
-     return new Interaction(InteractionResult.NeitherItemOrTargetExpired, item);
+     return new Interaction(InteractionResult.NoChange, item);
 });
 </code></pre>
 

@@ -132,7 +132,7 @@
   "api/NetAF.Assets.InteractionResult.html": {
     "href": "api/NetAF.Assets.InteractionResult.html",
     "title": "Enum InteractionResult | NetAF",
-    "keywords": "Enum InteractionResult Enumeration of interaction results. Namespace: NetAF.Assets Assembly: NetAF.dll Syntax public enum InteractionResult Fields Name Description ItemAndTargetExpired The item and the target expired. ItemExpired The item expired. NeitherItemOrTargetExpired Neither the item or the target expired. TargetExpired The target expired."
+    "keywords": "Enum InteractionResult Enumeration of interaction results. Namespace: NetAF.Assets Assembly: NetAF.dll Syntax public enum InteractionResult Fields Name Description ItemAndTargetExpires The item and the target expires. ItemExpires The item expires. NoChange No change. PlayerDies The player dies. TargetExpires The target expires."
   },
   "api/NetAF.Assets.Item.html": {
     "href": "api/NetAF.Assets.Item.html",
@@ -1044,6 +1044,11 @@
     "title": "Namespace NetAF.Utilities | NetAF",
     "keywords": "Namespace NetAF.Utilities Classes OverworldMaker Provides a class for helping to make Regions. RegionMaker Provides a class for helping to make Regions. StringUtilities Provides a helper class for string interpretation. Interfaces IAssetTemplate<T> Represents any object that is a template for an asset."
   },
+  "docs/architecture-overview.html": {
+    "href": "docs/architecture-overview.html",
+    "title": "Architecture Overview | NetAF",
+    "keywords": "Architecture Overview Overview NetAF has a simple architecture and understanding it will help when developing games. A Game encapsulates all assets and provides top level logic. When the Game is executing the following loop runs for the duration of the execution. A Game accepts user input and passes it to its own Interpreter and the Interpreter for the current GameMode in order to process it. The Interpreter tries to parse the input and return an instance of Command. The returned Command is then invoked and returns a Reaction that details the result. Some instances of Command deal with interactions between assets. In this case an Interaction between an Item and a target is invoked and the result returned the Command which will return an appropriate Reaction. The Game processes the Reaction as required."
+  },
   "docs/attributes.html": {
     "href": "docs/attributes.html",
     "title": "Attributes | NetAF",
@@ -1082,7 +1087,7 @@
   "docs/items.html": {
     "href": "docs/items.html",
     "title": "Item | NetAF",
-    "keywords": "Item Overview Items can be used to add interactivity with a game. Items can be something that a player can take with them, or they may be static in a Room. Use An Item can be simply instantiated with a name and description. var sword = new Item(\"Sword\", \"A heroes sword.\"); By default, an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor. var sword = new Item(\"Sword\", \"A heroes sword.\", true); Like all Examinable objects, an Item can be assigned custom commands. Item bomb = new(\"Bomb\", \"A bomb\", commands: [ new CustomCommand(new CommandHelp(\"Cut wire\", \"Cut the red wire.\"), true, (game, args) => { game.Player.Kill(); return new Reaction(ReactionResult.Fatal, \"Boom!\"); }) ]); Interaction Interactions can be set up between different assets in the game. The Interaction contains the result of the interaction, and allows the game to react to the interaction. var dartsBoard = new Item(\"Darts board\", \"A darts board.\"); var dart = new Item(\"Dart\", \"A dart\", interaction: item => { if (item == dartsBoard) return new Interaction(InteractionResult.NeitherItemOrTargetExpired, item, \"The dart stuck in the darts board.\"); return new Interaction(InteractionResult.NeitherItemOrTargetExpired, item); });"
+    "keywords": "Item Overview Items can be used to add interactivity with a game. Items can be something that a player can take with them, or they may be static in a Room. Use An Item can be simply instantiated with a name and description. var sword = new Item(\"Sword\", \"A heroes sword.\"); By default, an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor. var sword = new Item(\"Sword\", \"A heroes sword.\", true); Like all Examinable objects, an Item can be assigned custom commands. Item bomb = new(\"Bomb\", \"A bomb\", commands: [ new CustomCommand(new CommandHelp(\"Cut wire\", \"Cut the red wire.\"), true, (game, args) => { game.Player.Kill(); return new Reaction(ReactionResult.Fatal, \"Boom!\"); }) ]); Interaction Interactions can be set up between different assets in the game. The Interaction contains the result of the interaction, and allows the game to react to the interaction. var dartsBoard = new Item(\"Darts board\", \"A darts board.\"); var dart = new Item(\"Dart\", \"A dart\", interaction: item => { if (item == dartsBoard) return new Interaction(InteractionResult.NoChange, item, \"The dart stuck in the darts board.\"); return new Interaction(InteractionResult.NoChange, item); });"
   },
   "docs/non-playable-character.html": {
     "href": "docs/non-playable-character.html",

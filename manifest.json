@@ -2115,6 +2115,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/architecture-overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/architecture-overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/attributes.md",
       "output": {
         ".html": {

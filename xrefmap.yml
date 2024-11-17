@@ -1450,30 +1450,36 @@ references:
   commentId: T:NetAF.Assets.InteractionResult
   fullName: NetAF.Assets.InteractionResult
   nameWithType: InteractionResult
-- uid: NetAF.Assets.InteractionResult.ItemAndTargetExpired
-  name: ItemAndTargetExpired
-  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_ItemAndTargetExpired
-  commentId: F:NetAF.Assets.InteractionResult.ItemAndTargetExpired
-  fullName: NetAF.Assets.InteractionResult.ItemAndTargetExpired
-  nameWithType: InteractionResult.ItemAndTargetExpired
-- uid: NetAF.Assets.InteractionResult.ItemExpired
-  name: ItemExpired
-  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_ItemExpired
-  commentId: F:NetAF.Assets.InteractionResult.ItemExpired
-  fullName: NetAF.Assets.InteractionResult.ItemExpired
-  nameWithType: InteractionResult.ItemExpired
-- uid: NetAF.Assets.InteractionResult.NeitherItemOrTargetExpired
-  name: NeitherItemOrTargetExpired
-  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_NeitherItemOrTargetExpired
-  commentId: F:NetAF.Assets.InteractionResult.NeitherItemOrTargetExpired
-  fullName: NetAF.Assets.InteractionResult.NeitherItemOrTargetExpired
-  nameWithType: InteractionResult.NeitherItemOrTargetExpired
-- uid: NetAF.Assets.InteractionResult.TargetExpired
-  name: TargetExpired
-  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_TargetExpired
-  commentId: F:NetAF.Assets.InteractionResult.TargetExpired
-  fullName: NetAF.Assets.InteractionResult.TargetExpired
-  nameWithType: InteractionResult.TargetExpired
+- uid: NetAF.Assets.InteractionResult.ItemAndTargetExpires
+  name: ItemAndTargetExpires
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_ItemAndTargetExpires
+  commentId: F:NetAF.Assets.InteractionResult.ItemAndTargetExpires
+  fullName: NetAF.Assets.InteractionResult.ItemAndTargetExpires
+  nameWithType: InteractionResult.ItemAndTargetExpires
+- uid: NetAF.Assets.InteractionResult.ItemExpires
+  name: ItemExpires
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_ItemExpires
+  commentId: F:NetAF.Assets.InteractionResult.ItemExpires
+  fullName: NetAF.Assets.InteractionResult.ItemExpires
+  nameWithType: InteractionResult.ItemExpires
+- uid: NetAF.Assets.InteractionResult.NoChange
+  name: NoChange
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_NoChange
+  commentId: F:NetAF.Assets.InteractionResult.NoChange
+  fullName: NetAF.Assets.InteractionResult.NoChange
+  nameWithType: InteractionResult.NoChange
+- uid: NetAF.Assets.InteractionResult.PlayerDies
+  name: PlayerDies
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_PlayerDies
+  commentId: F:NetAF.Assets.InteractionResult.PlayerDies
+  fullName: NetAF.Assets.InteractionResult.PlayerDies
+  nameWithType: InteractionResult.PlayerDies
+- uid: NetAF.Assets.InteractionResult.TargetExpires
+  name: TargetExpires
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_TargetExpires
+  commentId: F:NetAF.Assets.InteractionResult.TargetExpires
+  fullName: NetAF.Assets.InteractionResult.TargetExpires
+  nameWithType: InteractionResult.TargetExpires
 - uid: NetAF.Assets.Item
   name: Item
   href: api/NetAF.Assets.Item.html
