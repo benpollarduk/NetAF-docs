@@ -212,6 +212,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.IInteractWithItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.IInteractWithItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.IItemContainer.yml",
       "output": {
         ".html": {
@@ -242,80 +252,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.IInteractWithItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.IInteractWithItem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.InteractionCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.InteractionCallback.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.InteractionEffect.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.InteractionEffect.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.InteractionResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.InteractionResult.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.Reaction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.Reaction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.ReactionResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.ReactionResult.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Interaction.Result.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Interaction.Result.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.Interaction.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Assets.Interaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.InteractionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.InteractionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.InteractionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.InteractionResult.html"
         }
       },
       "version": ""
@@ -436,6 +396,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Assets.Point3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.Result.html"
         }
       },
       "version": ""
@@ -676,6 +646,26 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Commands.Persistence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Reaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Reaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.ReactionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.ReactionResult.html"
         }
       },
       "version": ""
@@ -1406,16 +1396,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Logic.Modes.RegionMapMode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Modes.RenderState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.Modes.RenderState.html"
         }
       },
       "version": ""

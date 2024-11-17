@@ -98,11 +98,6 @@
 <p>A PlayableCharacter can lose an item with the <strong>RemoveItem</strong> method.</p>
 <pre><code class="lang-csharp">player.RemoveItem(mallet);
 </code></pre>
-<p>A PlayableCharacter can use an item on another asset:</p>
-<pre><code class="lang-csharp">var trapDoor = new Exit(Direction.Down);
-var mallet = new Item(&quot;Mallet&quot;, &quot;A large mallet.&quot;);
-player.UseItem(mallet, trapDoor);
-</code></pre>
 <p>A PlayableCharacter can give an item to a non-playable character.</p>
 <pre><code class="lang-csharp">var goblin = new NonPlayableCharacter(&quot;Goblin&quot;, &quot;A vile goblin.&quot;);
 var daisy = new Item(&quot;Daisy&quot;, &quot;A beautiful daisy that is sure to cheer up even the most miserable creature.&quot;);

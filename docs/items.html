@@ -99,15 +99,15 @@
 ]);
 </code></pre>
 <h2 id="interaction">Interaction</h2>
-<p>Interactions can be set up between different assets in the game. The <strong>InteractionResult</strong> contains the result of the interaction, and allows the game to react to the interaction.</p>
+<p>Interactions can be set up between different assets in the game. The <strong>Interaction</strong> contains the result of the interaction, and allows the game to react to the interaction.</p>
 <pre><code class="lang-csharp">var dartsBoard = new Item(&quot;Darts board&quot;, &quot;A darts board.&quot;);
 
 var dart = new Item(&quot;Dart&quot;, &quot;A dart&quot;, interaction: item =&gt;
 {
     if (item == dartsBoard)
-        return new InteractionResult(InteractionEffect.SelfContained, item, &quot;The dart stuck in the darts board.&quot;);
+        return new Interaction(InteractionResult.NeitherItemOrTargetExpired, item, &quot;The dart stuck in the darts board.&quot;);
 
-     return new InteractionResult(InteractionEffect.NoEffect, item);
+     return new Interaction(InteractionResult.NeitherItemOrTargetExpired, item);
 });
 </code></pre>
 
