@@ -6513,19 +6513,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplaySize
   nameWithType: ConsoleGameConfiguration.DisplaySize
-- uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.ErrorPrefix
-  name: ErrorPrefix
-  href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_ErrorPrefix
-  commentId: P:NetAF.Logic.Configuration.ConsoleGameConfiguration.ErrorPrefix
-  fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.ErrorPrefix
-  nameWithType: ConsoleGameConfiguration.ErrorPrefix
-- uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.ErrorPrefix*
-  name: ErrorPrefix
-  href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_ErrorPrefix_
-  commentId: Overload:NetAF.Logic.Configuration.ConsoleGameConfiguration.ErrorPrefix
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.ErrorPrefix
-  nameWithType: ConsoleGameConfiguration.ErrorPrefix
 - uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.ExitMode
   name: ExitMode
   href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_ExitMode
@@ -6623,19 +6610,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
   nameWithType: IGameConfiguration.DisplaySize
-- uid: NetAF.Logic.Configuration.IGameConfiguration.ErrorPrefix
-  name: ErrorPrefix
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_ErrorPrefix
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.ErrorPrefix
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.ErrorPrefix
-  nameWithType: IGameConfiguration.ErrorPrefix
-- uid: NetAF.Logic.Configuration.IGameConfiguration.ErrorPrefix*
-  name: ErrorPrefix
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_ErrorPrefix_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.ErrorPrefix
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.ErrorPrefix
-  nameWithType: IGameConfiguration.ErrorPrefix
 - uid: NetAF.Logic.Configuration.IGameConfiguration.ExitMode
   name: ExitMode
   href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_ExitMode
@@ -7585,15 +7559,15 @@ references:
   commentId: T:NetAF.Logic.Modes.ReactionMode
   fullName: NetAF.Logic.Modes.ReactionMode
   nameWithType: ReactionMode
-- uid: NetAF.Logic.Modes.ReactionMode.#ctor(System.String,System.String)
-  name: ReactionMode(string, string)
-  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_System_String_System_String_
-  commentId: M:NetAF.Logic.Modes.ReactionMode.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: NetAF.Logic.Modes.ReactionMode.ReactionMode(string, string)
-  fullName.vb: NetAF.Logic.Modes.ReactionMode.New(String, String)
-  nameWithType: ReactionMode.ReactionMode(string, string)
-  nameWithType.vb: ReactionMode.New(String, String)
+- uid: NetAF.Logic.Modes.ReactionMode.#ctor(System.String,NetAF.Commands.Reaction)
+  name: ReactionMode(string, Reaction)
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_System_String_NetAF_Commands_Reaction_
+  commentId: M:NetAF.Logic.Modes.ReactionMode.#ctor(System.String,NetAF.Commands.Reaction)
+  name.vb: New(String, Reaction)
+  fullName: NetAF.Logic.Modes.ReactionMode.ReactionMode(string, NetAF.Commands.Reaction)
+  fullName.vb: NetAF.Logic.Modes.ReactionMode.New(String, NetAF.Commands.Reaction)
+  nameWithType: ReactionMode.ReactionMode(string, Reaction)
+  nameWithType.vb: ReactionMode.New(String, Reaction)
 - uid: NetAF.Logic.Modes.ReactionMode.#ctor*
   name: ReactionMode
   href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_
@@ -8471,6 +8445,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.Build
   nameWithType: ConsoleConversationFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.CommandTitle
+  name: CommandTitle
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_CommandTitle
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.CommandTitle
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.CommandTitle
+  nameWithType: ConsoleConversationFrameBuilder.CommandTitle
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.CommandTitle*
+  name: CommandTitle
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_CommandTitle_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.CommandTitle
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.CommandTitle
+  nameWithType: ConsoleConversationFrameBuilder.CommandTitle
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.InputColor
   name: InputColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleConversationFrameBuilder_InputColor
@@ -8799,15 +8786,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.BorderColor
   nameWithType: ConsoleReactionFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
-  name: Build(string, string, Size)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
-  name.vb: Build(String, String, Size)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(string, string, NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(String, String, NetAF.Assets.Size)
-  nameWithType: ConsoleReactionFrameBuilder.Build(string, string, Size)
-  nameWithType.vb: ConsoleReactionFrameBuilder.Build(String, String, Size)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)
+  name: Build(string, string, bool, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_System_String_System_String_System_Boolean_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)
+  name.vb: Build(String, String, Boolean, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(string, string, bool, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build(String, String, Boolean, NetAF.Assets.Size)
+  nameWithType: ConsoleReactionFrameBuilder.Build(string, string, bool, Size)
+  nameWithType.vb: ConsoleReactionFrameBuilder.Build(String, String, Boolean, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_Build_
@@ -8815,6 +8802,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.Build
   nameWithType: ConsoleReactionFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ErrorMessageColor
+  name: ErrorMessageColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_ErrorMessageColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ErrorMessageColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ErrorMessageColor
+  nameWithType: ConsoleReactionFrameBuilder.ErrorMessageColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ErrorMessageColor*
+  name: ErrorMessageColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_ErrorMessageColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ErrorMessageColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.ErrorMessageColor
+  nameWithType: ConsoleReactionFrameBuilder.ErrorMessageColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.MessageColor
   name: MessageColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleReactionFrameBuilder_MessageColor
@@ -9141,6 +9141,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.Build
   nameWithType: ConsoleRegionMapFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandTitle
+  name: CommandTitle
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_CommandTitle
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandTitle
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandTitle
+  nameWithType: ConsoleRegionMapFrameBuilder.CommandTitle
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandTitle*
+  name: CommandTitle
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_CommandTitle_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandTitle
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandTitle
+  nameWithType: ConsoleRegionMapFrameBuilder.CommandTitle
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.CommandsColor
   name: CommandsColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapFrameBuilder_CommandsColor
@@ -9457,6 +9470,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.Build
   nameWithType: ConsoleSceneFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandTitle
+  name: CommandTitle
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_CommandTitle
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandTitle
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandTitle
+  nameWithType: ConsoleSceneFrameBuilder.CommandTitle
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandTitle*
+  name: CommandTitle
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_CommandTitle_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandTitle
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandTitle
+  nameWithType: ConsoleSceneFrameBuilder.CommandTitle
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.CommandsColor
   name: CommandsColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleSceneFrameBuilder_CommandsColor
@@ -10136,15 +10162,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
   nameWithType: IReactionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
-  name: Build(string, string, Size)
-  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
-  name.vb: Build(String, String, Size)
-  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(string, string, NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(String, String, NetAF.Assets.Size)
-  nameWithType: IReactionFrameBuilder.Build(string, string, Size)
-  nameWithType.vb: IReactionFrameBuilder.Build(String, String, Size)
+- uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)
+  name: Build(string, string, bool, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_System_String_System_String_System_Boolean_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)
+  name.vb: Build(String, String, Boolean, Size)
+  fullName: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(string, string, bool, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build(String, String, Boolean, NetAF.Assets.Size)
+  nameWithType: IReactionFrameBuilder.Build(string, string, bool, Size)
+  nameWithType.vb: IReactionFrameBuilder.Build(String, String, Boolean, Size)
 - uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html#NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_Build_

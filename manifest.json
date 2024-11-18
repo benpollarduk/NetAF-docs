@@ -2115,10 +2115,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/architecture-overview.md",
+      "source_relative_path": "docs/architecture.md",
       "output": {
         ".html": {
-          "relative_path": "docs/architecture-overview.html"
+          "relative_path": "docs/architecture.html"
         }
       },
       "version": ""
@@ -2272,6 +2272,56 @@
         },
         ".html": {
           "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/environments.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/environments.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/game-creation-and-execution-sequence-diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/game-creation-and-execution-sequence-diagram.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/input-parsing-sequence-diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/input-parsing-sequence-diagram.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/persistence-load.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/persistence-load.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/persistence-save.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/persistence-save.png"
         }
       },
       "version": ""
