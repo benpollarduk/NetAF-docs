@@ -8905,6 +8905,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.EmptySpace
   nameWithType: ConsoleRegionMapBuilder.EmptySpace
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.Focus
+  name: Focus
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_Focus
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.Focus
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.Focus
+  nameWithType: ConsoleRegionMapBuilder.Focus
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.Focus*
+  name: Focus
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_Focus_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.Focus
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.Focus
+  nameWithType: ConsoleRegionMapBuilder.Focus
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.FocusedBoundaryColor
   name: FocusedBoundaryColor
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleRegionMapBuilder_FocusedBoundaryColor
