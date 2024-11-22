@@ -8989,12 +8989,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.BorderColor
   nameWithType: ConsoleHelpFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
-  name: Build(CommandHelp, Size)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_NetAF_Commands_CommandHelp_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(NetAF.Commands.CommandHelp, NetAF.Assets.Size)
-  nameWithType: ConsoleHelpFrameBuilder.Build(CommandHelp, Size)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  name: Build(string, CommandHelp, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_System_String_NetAF_Commands_CommandHelp_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  name.vb: Build(String, CommandHelp, Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(string, NetAF.Commands.CommandHelp, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(String, NetAF.Commands.CommandHelp, NetAF.Assets.Size)
+  nameWithType: ConsoleHelpFrameBuilder.Build(string, CommandHelp, Size)
+  nameWithType.vb: ConsoleHelpFrameBuilder.Build(String, CommandHelp, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_
@@ -9028,6 +9031,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.CommandDescriptionColor
   nameWithType: ConsoleHelpFrameBuilder.CommandDescriptionColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
+  name: TitleColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_TitleColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
+  nameWithType: ConsoleHelpFrameBuilder.TitleColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor*
+  name: TitleColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_TitleColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
+  nameWithType: ConsoleHelpFrameBuilder.TitleColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder
   name: ConsoleReactionFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html
@@ -10481,12 +10497,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   nameWithType: IHelpFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
-  name: Build(CommandHelp, Size)
-  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_NetAF_Commands_CommandHelp_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
-  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(NetAF.Commands.CommandHelp, NetAF.Assets.Size)
-  nameWithType: IHelpFrameBuilder.Build(CommandHelp, Size)
+- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  name: Build(string, CommandHelp, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_System_String_NetAF_Commands_CommandHelp_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  name.vb: Build(String, CommandHelp, Size)
+  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(string, NetAF.Commands.CommandHelp, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(String, NetAF.Commands.CommandHelp, NetAF.Assets.Size)
+  nameWithType: IHelpFrameBuilder.Build(string, CommandHelp, Size)
+  nameWithType.vb: IHelpFrameBuilder.Build(String, CommandHelp, Size)
 - uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_
