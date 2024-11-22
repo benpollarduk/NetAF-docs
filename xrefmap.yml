@@ -602,24 +602,24 @@ references:
   commentId: T:NetAF.Assets.Characters.NonPlayableCharacter
   fullName: NetAF.Assets.Characters.NonPlayableCharacter
   nameWithType: NonPlayableCharacter
-- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: NonPlayableCharacter(Identifier, Description, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: NonPlayableCharacter(Identifier, Description, bool, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Boolean, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, Description, bool, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: NonPlayableCharacter.New(Identifier, Description, Boolean, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: NonPlayableCharacter(Identifier, IDescription, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, IDescription, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: NonPlayableCharacter.New(Identifier, IDescription, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: NonPlayableCharacter(Identifier, IDescription, bool, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Characters.NonPlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Boolean, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Characters.NonPlayableCharacter.NonPlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.IDescription, bool, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Characters.NonPlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, Boolean, NetAF.Conversations.Conversation, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: NonPlayableCharacter.NonPlayableCharacter(Identifier, IDescription, bool, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: NonPlayableCharacter.New(Identifier, IDescription, Boolean, Conversation, CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Characters.NonPlayableCharacter.#ctor(System.String,System.String,NetAF.Conversations.Conversation,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
   name: NonPlayableCharacter(string, string, Conversation, CustomCommand[], InteractionCallback, ExaminationCallback)
   href: api/NetAF.Assets.Characters.NonPlayableCharacter.html#NetAF_Assets_Characters_NonPlayableCharacter__ctor_System_String_System_String_NetAF_Conversations_Conversation_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
@@ -671,24 +671,24 @@ references:
   commentId: T:NetAF.Assets.Characters.PlayableCharacter
   fullName: NetAF.Assets.Characters.PlayableCharacter
   nameWithType: PlayableCharacter
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: PlayableCharacter(Identifier, Description, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, Description, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: PlayableCharacter.New(Identifier, Description, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: PlayableCharacter(Identifier, Description, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, Description, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: PlayableCharacter.New(Identifier, Description, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: PlayableCharacter(Identifier, IDescription, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, IDescription, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: PlayableCharacter.New(Identifier, IDescription, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: PlayableCharacter(Identifier, IDescription, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.IDescription, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, IDescription, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: PlayableCharacter.New(Identifier, IDescription, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
   name: PlayableCharacter(string, string, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
@@ -761,19 +761,6 @@ references:
   fullName.vb: NetAF.Assets.ConditionalDescription.New
   nameWithType: ConditionalDescription.ConditionalDescription
   nameWithType.vb: ConditionalDescription.New
-- uid: NetAF.Assets.ConditionalDescription.Condition
-  name: Condition
-  href: api/NetAF.Assets.ConditionalDescription.html#NetAF_Assets_ConditionalDescription_Condition
-  commentId: P:NetAF.Assets.ConditionalDescription.Condition
-  fullName: NetAF.Assets.ConditionalDescription.Condition
-  nameWithType: ConditionalDescription.Condition
-- uid: NetAF.Assets.ConditionalDescription.Condition*
-  name: Condition
-  href: api/NetAF.Assets.ConditionalDescription.html#NetAF_Assets_ConditionalDescription_Condition_
-  commentId: Overload:NetAF.Assets.ConditionalDescription.Condition
-  isSpec: "True"
-  fullName: NetAF.Assets.ConditionalDescription.Condition
-  nameWithType: ConditionalDescription.Condition
 - uid: NetAF.Assets.ConditionalDescription.GetDescription
   name: GetDescription()
   href: api/NetAF.Assets.ConditionalDescription.html#NetAF_Assets_ConditionalDescription_GetDescription
@@ -812,19 +799,6 @@ references:
   fullName.vb: NetAF.Assets.Description.New
   nameWithType: Description.Description
   nameWithType.vb: Description.New
-- uid: NetAF.Assets.Description.DefaultDescription
-  name: DefaultDescription
-  href: api/NetAF.Assets.Description.html#NetAF_Assets_Description_DefaultDescription
-  commentId: P:NetAF.Assets.Description.DefaultDescription
-  fullName: NetAF.Assets.Description.DefaultDescription
-  nameWithType: Description.DefaultDescription
-- uid: NetAF.Assets.Description.DefaultDescription*
-  name: DefaultDescription
-  href: api/NetAF.Assets.Description.html#NetAF_Assets_Description_DefaultDescription_
-  commentId: Overload:NetAF.Assets.Description.DefaultDescription
-  isSpec: "True"
-  fullName: NetAF.Assets.Description.DefaultDescription
-  nameWithType: Description.DefaultDescription
 - uid: NetAF.Assets.Description.Empty
   name: Empty
   href: api/NetAF.Assets.Description.html#NetAF_Assets_Description_Empty
@@ -1125,6 +1099,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.ExaminationScene.Room
   nameWithType: ExaminationScene.Room
+- uid: NetAF.Assets.IDescription
+  name: IDescription
+  href: api/NetAF.Assets.IDescription.html
+  commentId: T:NetAF.Assets.IDescription
+  fullName: NetAF.Assets.IDescription
+  nameWithType: IDescription
+- uid: NetAF.Assets.IDescription.GetDescription
+  name: GetDescription()
+  href: api/NetAF.Assets.IDescription.html#NetAF_Assets_IDescription_GetDescription
+  commentId: M:NetAF.Assets.IDescription.GetDescription
+  fullName: NetAF.Assets.IDescription.GetDescription()
+  nameWithType: IDescription.GetDescription()
+- uid: NetAF.Assets.IDescription.GetDescription*
+  name: GetDescription
+  href: api/NetAF.Assets.IDescription.html#NetAF_Assets_IDescription_GetDescription_
+  commentId: Overload:NetAF.Assets.IDescription.GetDescription
+  isSpec: "True"
+  fullName: NetAF.Assets.IDescription.GetDescription
+  nameWithType: IDescription.GetDescription
 - uid: NetAF.Assets.IExaminable
   name: IExaminable
   href: api/NetAF.Assets.IExaminable.html
@@ -1486,15 +1479,15 @@ references:
   commentId: T:NetAF.Assets.Item
   fullName: NetAF.Assets.Item
   nameWithType: Item
-- uid: NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Item(Identifier, Description, bool, CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_System_Boolean_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Boolean, CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Item.Item(NetAF.Assets.Identifier, NetAF.Assets.Description, bool, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Item.New(NetAF.Assets.Identifier, NetAF.Assets.Description, Boolean, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Item.Item(Identifier, Description, bool, CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Item.New(Identifier, Description, Boolean, CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: Item(Identifier, IDescription, bool, CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Item.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Boolean, CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Item.Item(NetAF.Assets.Identifier, NetAF.Assets.IDescription, bool, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Item.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, Boolean, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: Item.Item(Identifier, IDescription, bool, CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: Item.New(Identifier, IDescription, Boolean, CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Item.#ctor(System.String,System.String,System.Boolean,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
   name: Item(string, string, bool, CustomCommand[], InteractionCallback, ExaminationCallback)
   href: api/NetAF.Assets.Item.html#NetAF_Assets_Item__ctor_System_String_System_String_System_Boolean_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
@@ -1620,15 +1613,15 @@ references:
   commentId: T:NetAF.Assets.Locations.Exit
   fullName: NetAF.Assets.Locations.Exit
   nameWithType: Exit
-- uid: NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Exit(Direction, bool, Identifier, Description, CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Exit.html#NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Direction, Boolean, Identifier, Description, CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Exit.Exit(NetAF.Assets.Locations.Direction, bool, NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Exit.New(NetAF.Assets.Locations.Direction, Boolean, NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Exit.Exit(Direction, bool, Identifier, Description, CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Exit.New(Direction, Boolean, Identifier, Description, CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: Exit(Direction, bool, Identifier, IDescription, CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Exit.html#NetAF_Assets_Locations_Exit__ctor_NetAF_Assets_Locations_Direction_System_Boolean_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Exit.#ctor(NetAF.Assets.Locations.Direction,System.Boolean,NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Direction, Boolean, Identifier, IDescription, CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Exit.Exit(NetAF.Assets.Locations.Direction, bool, NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Exit.New(NetAF.Assets.Locations.Direction, Boolean, NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: Exit.Exit(Direction, bool, Identifier, IDescription, CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: Exit.New(Direction, Boolean, Identifier, IDescription, CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Locations.Exit.#ctor*
   name: Exit
   href: api/NetAF.Assets.Locations.Exit.html#NetAF_Assets_Locations_Exit__ctor_
@@ -1768,6 +1761,48 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Matrix.Depth
   nameWithType: Matrix.Depth
+- uid: NetAF.Assets.Locations.Matrix.DistanceBetweenPoints(NetAF.Assets.Point3D,NetAF.Assets.Point3D)
+  name: DistanceBetweenPoints(Point3D, Point3D)
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_DistanceBetweenPoints_NetAF_Assets_Point3D_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Assets.Locations.Matrix.DistanceBetweenPoints(NetAF.Assets.Point3D,NetAF.Assets.Point3D)
+  fullName: NetAF.Assets.Locations.Matrix.DistanceBetweenPoints(NetAF.Assets.Point3D, NetAF.Assets.Point3D)
+  nameWithType: Matrix.DistanceBetweenPoints(Point3D, Point3D)
+- uid: NetAF.Assets.Locations.Matrix.DistanceBetweenPoints*
+  name: DistanceBetweenPoints
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_DistanceBetweenPoints_
+  commentId: Overload:NetAF.Assets.Locations.Matrix.DistanceBetweenPoints
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Matrix.DistanceBetweenPoints
+  nameWithType: Matrix.DistanceBetweenPoints
+- uid: NetAF.Assets.Locations.Matrix.DistanceBetweenRooms(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room)
+  name: DistanceBetweenRooms(Room, Room)
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_DistanceBetweenRooms_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Assets.Locations.Matrix.DistanceBetweenRooms(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room)
+  fullName: NetAF.Assets.Locations.Matrix.DistanceBetweenRooms(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room)
+  nameWithType: Matrix.DistanceBetweenRooms(Room, Room)
+- uid: NetAF.Assets.Locations.Matrix.DistanceBetweenRooms*
+  name: DistanceBetweenRooms
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_DistanceBetweenRooms_
+  commentId: Overload:NetAF.Assets.Locations.Matrix.DistanceBetweenRooms
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Matrix.DistanceBetweenRooms
+  nameWithType: Matrix.DistanceBetweenRooms
+- uid: NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ(System.Int32)
+  name: FindAllRoomsOnZ(int)
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_FindAllRoomsOnZ_System_Int32_
+  commentId: M:NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ(System.Int32)
+  name.vb: FindAllRoomsOnZ(Integer)
+  fullName: NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ(int)
+  fullName.vb: NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ(Integer)
+  nameWithType: Matrix.FindAllRoomsOnZ(int)
+  nameWithType.vb: Matrix.FindAllRoomsOnZ(Integer)
+- uid: NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ*
+  name: FindAllRoomsOnZ
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_FindAllRoomsOnZ_
+  commentId: Overload:NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ
+  nameWithType: Matrix.FindAllRoomsOnZ
 - uid: NetAF.Assets.Locations.Matrix.Height
   name: Height
   href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_Height
@@ -1781,6 +1816,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Matrix.Height
   nameWithType: Matrix.Height
+- uid: NetAF.Assets.Locations.Matrix.Item(NetAF.Assets.Locations.Room)
+  name: this[Room]
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_Item_NetAF_Assets_Locations_Room_
+  commentId: P:NetAF.Assets.Locations.Matrix.Item(NetAF.Assets.Locations.Room)
+  name.vb: this[](Room)
+  fullName: NetAF.Assets.Locations.Matrix.this[NetAF.Assets.Locations.Room]
+  fullName.vb: NetAF.Assets.Locations.Matrix.this[](NetAF.Assets.Locations.Room)
+  nameWithType: Matrix.this[Room]
+  nameWithType.vb: Matrix.this[](Room)
 - uid: NetAF.Assets.Locations.Matrix.Item(System.Int32,System.Int32,System.Int32)
   name: this[int, int, int]
   href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_Item_System_Int32_System_Int32_System_Int32_
@@ -1832,15 +1876,15 @@ references:
   commentId: T:NetAF.Assets.Locations.Overworld
   fullName: NetAF.Assets.Locations.Overworld
   nameWithType: Overworld
-- uid: NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
-  name: Overworld(Identifier, Description, CustomCommand[], ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, CustomCommand(), ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Overworld.Overworld(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand[], NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Overworld.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand(), NetAF.Assets.ExaminationCallback)
-  nameWithType: Overworld.Overworld(Identifier, Description, CustomCommand[], ExaminationCallback)
-  nameWithType.vb: Overworld.New(Identifier, Description, CustomCommand(), ExaminationCallback)
+- uid: NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
+  name: Overworld(Identifier, IDescription, CustomCommand[], ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Commands_CustomCommand___NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Overworld.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, CustomCommand(), ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Overworld.Overworld(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Commands.CustomCommand[], NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Overworld.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Commands.CustomCommand(), NetAF.Assets.ExaminationCallback)
+  nameWithType: Overworld.Overworld(Identifier, IDescription, CustomCommand[], ExaminationCallback)
+  nameWithType.vb: Overworld.New(Identifier, IDescription, CustomCommand(), ExaminationCallback)
 - uid: NetAF.Assets.Locations.Overworld.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
   name: Overworld(string, string, CustomCommand[], ExaminationCallback)
   href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld__ctor_System_String_System_String_NetAF_Commands_CustomCommand___NetAF_Assets_ExaminationCallback_
@@ -1973,15 +2017,15 @@ references:
   commentId: T:NetAF.Assets.Locations.Region
   fullName: NetAF.Assets.Locations.Region
   nameWithType: Region
-- uid: NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
-  name: Region(Identifier, Description, CustomCommand[], ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Commands_CustomCommand___NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, CustomCommand(), ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Region.Region(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand[], NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Region.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Commands.CustomCommand(), NetAF.Assets.ExaminationCallback)
-  nameWithType: Region.Region(Identifier, Description, CustomCommand[], ExaminationCallback)
-  nameWithType.vb: Region.New(Identifier, Description, CustomCommand(), ExaminationCallback)
+- uid: NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
+  name: Region(Identifier, IDescription, CustomCommand[], ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Commands_CustomCommand___NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Region.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, CustomCommand(), ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Region.Region(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Commands.CustomCommand[], NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Region.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Commands.CustomCommand(), NetAF.Assets.ExaminationCallback)
+  nameWithType: Region.Region(Identifier, IDescription, CustomCommand[], ExaminationCallback)
+  nameWithType.vb: Region.New(Identifier, IDescription, CustomCommand(), ExaminationCallback)
 - uid: NetAF.Assets.Locations.Region.#ctor(System.String,System.String,NetAF.Commands.CustomCommand[],NetAF.Assets.ExaminationCallback)
   name: Region(string, string, CustomCommand[], ExaminationCallback)
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region__ctor_System_String_System_String_NetAF_Commands_CustomCommand___NetAF_Assets_ExaminationCallback_
@@ -2229,15 +2273,24 @@ references:
   commentId: T:NetAF.Assets.Locations.Room
   fullName: NetAF.Assets.Locations.Room
   nameWithType: Room
-- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Room(Identifier, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, Description, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.Description, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Room.Room(Identifier, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Room.New(Identifier, Description, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: Room(Identifier, IDescription, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Description, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Description, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Description, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: Room.Room(Identifier, IDescription, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: Room.New(Identifier, IDescription, Description, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: Room.Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: Room.New(Identifier, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
   name: Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
@@ -2247,6 +2300,15 @@ references:
   fullName.vb: NetAF.Assets.Locations.Room.New(String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
   nameWithType: Room.Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   nameWithType.vb: Room.New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(String, String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(string, string, string, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: Room.Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: Room.New(String, String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Locations.Room.#ctor*
   name: Room
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_
@@ -2589,6 +2651,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.Interaction
   nameWithType: Room.Interaction
+- uid: NetAF.Assets.Locations.Room.Introduction
+  name: Introduction
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Introduction
+  commentId: P:NetAF.Assets.Locations.Room.Introduction
+  fullName: NetAF.Assets.Locations.Room.Introduction
+  nameWithType: Room.Introduction
+- uid: NetAF.Assets.Locations.Room.Introduction*
+  name: Introduction
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Introduction_
+  commentId: Overload:NetAF.Assets.Locations.Room.Introduction
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Room.Introduction
+  nameWithType: Room.Introduction
 - uid: NetAF.Assets.Locations.Room.Item(NetAF.Assets.Locations.Direction)
   name: this[Direction]
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Item_NetAF_Assets_Locations_Direction_
@@ -2621,12 +2696,18 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.Items
   nameWithType: Room.Items
-- uid: NetAF.Assets.Locations.Room.MovedInto(System.Nullable{NetAF.Assets.Locations.Direction})
-  name: MovedInto(Direction?)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_MovedInto_System_Nullable_NetAF_Assets_Locations_Direction__
-  commentId: M:NetAF.Assets.Locations.Room.MovedInto(System.Nullable{NetAF.Assets.Locations.Direction})
-  fullName: NetAF.Assets.Locations.Room.MovedInto(NetAF.Assets.Locations.Direction?)
-  nameWithType: Room.MovedInto(Direction?)
+- uid: NetAF.Assets.Locations.Room.MovedInto
+  name: MovedInto()
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_MovedInto
+  commentId: M:NetAF.Assets.Locations.Room.MovedInto
+  fullName: NetAF.Assets.Locations.Room.MovedInto()
+  nameWithType: Room.MovedInto()
+- uid: NetAF.Assets.Locations.Room.MovedInto(NetAF.Assets.Locations.Direction)
+  name: MovedInto(Direction)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_MovedInto_NetAF_Assets_Locations_Direction_
+  commentId: M:NetAF.Assets.Locations.Room.MovedInto(NetAF.Assets.Locations.Direction)
+  fullName: NetAF.Assets.Locations.Room.MovedInto(NetAF.Assets.Locations.Direction)
+  nameWithType: Room.MovedInto(Direction)
 - uid: NetAF.Assets.Locations.Room.MovedInto*
   name: MovedInto
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_MovedInto_
@@ -2686,19 +2767,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.RestoreFrom
   nameWithType: Room.RestoreFrom
-- uid: NetAF.Assets.Locations.Room.SpecifyConditionalDescription(NetAF.Assets.ConditionalDescription)
-  name: SpecifyConditionalDescription(ConditionalDescription)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_SpecifyConditionalDescription_NetAF_Assets_ConditionalDescription_
-  commentId: M:NetAF.Assets.Locations.Room.SpecifyConditionalDescription(NetAF.Assets.ConditionalDescription)
-  fullName: NetAF.Assets.Locations.Room.SpecifyConditionalDescription(NetAF.Assets.ConditionalDescription)
-  nameWithType: Room.SpecifyConditionalDescription(ConditionalDescription)
-- uid: NetAF.Assets.Locations.Room.SpecifyConditionalDescription*
-  name: SpecifyConditionalDescription
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_SpecifyConditionalDescription_
-  commentId: Overload:NetAF.Assets.Locations.Room.SpecifyConditionalDescription
-  isSpec: "True"
-  fullName: NetAF.Assets.Locations.Room.SpecifyConditionalDescription
-  nameWithType: Room.SpecifyConditionalDescription
 - uid: NetAF.Assets.Locations.Room.UnlockedExits
   name: UnlockedExits
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_UnlockedExits
@@ -3117,15 +3185,15 @@ references:
   commentId: T:NetAF.Commands.CommandHelp
   fullName: NetAF.Commands.CommandHelp
   nameWithType: CommandHelp
-- uid: NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String)
-  name: CommandHelp(string, string, string)
-  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_System_String_System_String_System_String_
-  commentId: M:NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String)
-  name.vb: New(String, String, String)
-  fullName: NetAF.Commands.CommandHelp.CommandHelp(string, string, string)
-  fullName.vb: NetAF.Commands.CommandHelp.New(String, String, String)
-  nameWithType: CommandHelp.CommandHelp(string, string, string)
-  nameWithType.vb: CommandHelp.New(String, String, String)
+- uid: NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String,System.String,System.String)
+  name: CommandHelp(string, string, string, string, string)
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String, String)
+  fullName: NetAF.Commands.CommandHelp.CommandHelp(string, string, string, string, string)
+  fullName.vb: NetAF.Commands.CommandHelp.New(String, String, String, String, String)
+  nameWithType: CommandHelp.CommandHelp(string, string, string, string, string)
+  nameWithType.vb: CommandHelp.New(String, String, String, String, String)
 - uid: NetAF.Commands.CommandHelp.#ctor*
   name: CommandHelp
   href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_
@@ -3162,6 +3230,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CommandHelp.Description
   nameWithType: CommandHelp.Description
+- uid: NetAF.Commands.CommandHelp.DisplayAs
+  name: DisplayAs
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_DisplayAs
+  commentId: P:NetAF.Commands.CommandHelp.DisplayAs
+  fullName: NetAF.Commands.CommandHelp.DisplayAs
+  nameWithType: CommandHelp.DisplayAs
+- uid: NetAF.Commands.CommandHelp.DisplayAs*
+  name: DisplayAs
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_DisplayAs_
+  commentId: Overload:NetAF.Commands.CommandHelp.DisplayAs
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.DisplayAs
+  nameWithType: CommandHelp.DisplayAs
+- uid: NetAF.Commands.CommandHelp.DisplayCommand
+  name: DisplayCommand
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_DisplayCommand
+  commentId: P:NetAF.Commands.CommandHelp.DisplayCommand
+  fullName: NetAF.Commands.CommandHelp.DisplayCommand
+  nameWithType: CommandHelp.DisplayCommand
+- uid: NetAF.Commands.CommandHelp.DisplayCommand*
+  name: DisplayCommand
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_DisplayCommand_
+  commentId: Overload:NetAF.Commands.CommandHelp.DisplayCommand
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.DisplayCommand
+  nameWithType: CommandHelp.DisplayCommand
 - uid: NetAF.Commands.CommandHelp.Equals(NetAF.Commands.CommandHelp)
   name: Equals(CommandHelp)
   href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Equals_NetAF_Commands_CommandHelp_
@@ -3184,6 +3278,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CommandHelp.Equals
   nameWithType: CommandHelp.Equals
+- uid: NetAF.Commands.CommandHelp.Instructions
+  name: Instructions
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Instructions
+  commentId: P:NetAF.Commands.CommandHelp.Instructions
+  fullName: NetAF.Commands.CommandHelp.Instructions
+  nameWithType: CommandHelp.Instructions
+- uid: NetAF.Commands.CommandHelp.Instructions*
+  name: Instructions
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Instructions_
+  commentId: Overload:NetAF.Commands.CommandHelp.Instructions
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.Instructions
+  nameWithType: CommandHelp.Instructions
 - uid: NetAF.Commands.CommandHelp.Shortcut
   name: Shortcut
   href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Shortcut
@@ -3541,6 +3648,38 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Global.About.Invoke
   nameWithType: About.Invoke
+- uid: NetAF.Commands.Global.CommandList
+  name: CommandList
+  href: api/NetAF.Commands.Global.CommandList.html
+  commentId: T:NetAF.Commands.Global.CommandList
+  fullName: NetAF.Commands.Global.CommandList
+  nameWithType: CommandList
+- uid: NetAF.Commands.Global.CommandList.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.CommandList.html#NetAF_Commands_Global_CommandList_CommandHelp
+  commentId: P:NetAF.Commands.Global.CommandList.CommandHelp
+  fullName: NetAF.Commands.Global.CommandList.CommandHelp
+  nameWithType: CommandList.CommandHelp
+- uid: NetAF.Commands.Global.CommandList.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Global.CommandList.html#NetAF_Commands_Global_CommandList_CommandHelp_
+  commentId: Overload:NetAF.Commands.Global.CommandList.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.CommandList.CommandHelp
+  nameWithType: CommandList.CommandHelp
+- uid: NetAF.Commands.Global.CommandList.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Global.CommandList.html#NetAF_Commands_Global_CommandList_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Global.CommandList.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Global.CommandList.Invoke(NetAF.Logic.Game)
+  nameWithType: CommandList.Invoke(Game)
+- uid: NetAF.Commands.Global.CommandList.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Global.CommandList.html#NetAF_Commands_Global_CommandList_Invoke_
+  commentId: Overload:NetAF.Commands.Global.CommandList.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Global.CommandList.Invoke
+  nameWithType: CommandList.Invoke
 - uid: NetAF.Commands.Global.End
   name: End
   href: api/NetAF.Commands.Global.End.html
@@ -3611,6 +3750,25 @@ references:
   commentId: T:NetAF.Commands.Global.Help
   fullName: NetAF.Commands.Global.Help
   nameWithType: Help
+- uid: NetAF.Commands.Global.Help.#ctor(NetAF.Commands.CommandHelp)
+  name: Help(CommandHelp)
+  href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help__ctor_NetAF_Commands_CommandHelp_
+  commentId: M:NetAF.Commands.Global.Help.#ctor(NetAF.Commands.CommandHelp)
+  name.vb: New(CommandHelp)
+  fullName: NetAF.Commands.Global.Help.Help(NetAF.Commands.CommandHelp)
+  fullName.vb: NetAF.Commands.Global.Help.New(NetAF.Commands.CommandHelp)
+  nameWithType: Help.Help(CommandHelp)
+  nameWithType.vb: Help.New(CommandHelp)
+- uid: NetAF.Commands.Global.Help.#ctor*
+  name: Help
+  href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help__ctor_
+  commentId: Overload:NetAF.Commands.Global.Help.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Global.Help.Help
+  fullName.vb: NetAF.Commands.Global.Help.New
+  nameWithType: Help.Help
+  nameWithType.vb: Help.New
 - uid: NetAF.Commands.Global.Help.CommandHelp
   name: CommandHelp
   href: api/NetAF.Commands.Global.Help.html#NetAF_Commands_Global_Help_CommandHelp
@@ -5253,38 +5411,6 @@ references:
   commentId: N:NetAF.Extensions
   fullName: NetAF.Extensions
   nameWithType: NetAF.Extensions
-- uid: NetAF.Extensions.CommandHelpExtensions
-  name: CommandHelpExtensions
-  href: api/NetAF.Extensions.CommandHelpExtensions.html
-  commentId: T:NetAF.Extensions.CommandHelpExtensions
-  fullName: NetAF.Extensions.CommandHelpExtensions
-  nameWithType: CommandHelpExtensions
-- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)
-  name: FormattedToDisplayShortcut(CommandHelp)
-  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_NetAF_Commands_CommandHelp_
-  commentId: M:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)
-  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)
-  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcut(CommandHelp)
-- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut*
-  name: FormattedToDisplayShortcut
-  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_
-  commentId: Overload:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut
-  isSpec: "True"
-  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut
-  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcut
-- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)
-  name: FormattedToDisplayShortcutAndVariable(CommandHelp)
-  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_NetAF_Commands_CommandHelp_
-  commentId: M:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)
-  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)
-  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(CommandHelp)
-- uid: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable*
-  name: FormattedToDisplayShortcutAndVariable
-  href: api/NetAF.Extensions.CommandHelpExtensions.html#NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_
-  commentId: Overload:NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable
-  isSpec: "True"
-  fullName: NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable
-  nameWithType: CommandHelpExtensions.FormattedToDisplayShortcutAndVariable
 - uid: NetAF.Extensions.DirectionExtensions
   name: DirectionExtensions
   href: api/NetAF.Extensions.DirectionExtensions.html
@@ -6908,6 +7034,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.GetAllPlayerVisibleExaminables
   nameWithType: Game.GetAllPlayerVisibleExaminables
+- uid: NetAF.Logic.Game.GetContextualCommands
+  name: GetContextualCommands()
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetContextualCommands
+  commentId: M:NetAF.Logic.Game.GetContextualCommands
+  fullName: NetAF.Logic.Game.GetContextualCommands()
+  nameWithType: Game.GetContextualCommands()
+- uid: NetAF.Logic.Game.GetContextualCommands*
+  name: GetContextualCommands
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetContextualCommands_
+  commentId: Overload:NetAF.Logic.Game.GetContextualCommands
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.GetContextualCommands
+  nameWithType: Game.GetContextualCommands
 - uid: NetAF.Logic.Game.GetInactivePlayerLocations
   name: GetInactivePlayerLocations()
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetInactivePlayerLocations
@@ -7221,6 +7360,70 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.AboutMode.Type
   nameWithType: AboutMode.Type
+- uid: NetAF.Logic.Modes.CommandListMode
+  name: CommandListMode
+  href: api/NetAF.Logic.Modes.CommandListMode.html
+  commentId: T:NetAF.Logic.Modes.CommandListMode
+  fullName: NetAF.Logic.Modes.CommandListMode
+  nameWithType: CommandListMode
+- uid: NetAF.Logic.Modes.CommandListMode.#ctor(NetAF.Commands.CommandHelp[])
+  name: CommandListMode(CommandHelp[])
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode__ctor_NetAF_Commands_CommandHelp___
+  commentId: M:NetAF.Logic.Modes.CommandListMode.#ctor(NetAF.Commands.CommandHelp[])
+  name.vb: New(CommandHelp())
+  fullName: NetAF.Logic.Modes.CommandListMode.CommandListMode(NetAF.Commands.CommandHelp[])
+  fullName.vb: NetAF.Logic.Modes.CommandListMode.New(NetAF.Commands.CommandHelp())
+  nameWithType: CommandListMode.CommandListMode(CommandHelp[])
+  nameWithType.vb: CommandListMode.New(CommandHelp())
+- uid: NetAF.Logic.Modes.CommandListMode.#ctor*
+  name: CommandListMode
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.CommandListMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.CommandListMode.CommandListMode
+  fullName.vb: NetAF.Logic.Modes.CommandListMode.New
+  nameWithType: CommandListMode.CommandListMode
+  nameWithType.vb: CommandListMode.New
+- uid: NetAF.Logic.Modes.CommandListMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.CommandListMode.Interpreter
+  fullName: NetAF.Logic.Modes.CommandListMode.Interpreter
+  nameWithType: CommandListMode.Interpreter
+- uid: NetAF.Logic.Modes.CommandListMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.CommandListMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.CommandListMode.Interpreter
+  nameWithType: CommandListMode.Interpreter
+- uid: NetAF.Logic.Modes.CommandListMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.CommandListMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.CommandListMode.Render(NetAF.Logic.Game)
+  nameWithType: CommandListMode.Render(Game)
+- uid: NetAF.Logic.Modes.CommandListMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.CommandListMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.CommandListMode.Render
+  nameWithType: CommandListMode.Render
+- uid: NetAF.Logic.Modes.CommandListMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode_Type
+  commentId: P:NetAF.Logic.Modes.CommandListMode.Type
+  fullName: NetAF.Logic.Modes.CommandListMode.Type
+  nameWithType: CommandListMode.Type
+- uid: NetAF.Logic.Modes.CommandListMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.CommandListMode.html#NetAF_Logic_Modes_CommandListMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.CommandListMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.CommandListMode.Type
+  nameWithType: CommandListMode.Type
 - uid: NetAF.Logic.Modes.CompletionMode
   name: CompletionMode
   href: api/NetAF.Logic.Modes.CompletionMode.html
@@ -7450,15 +7653,15 @@ references:
   commentId: T:NetAF.Logic.Modes.HelpMode
   fullName: NetAF.Logic.Modes.HelpMode
   nameWithType: HelpMode
-- uid: NetAF.Logic.Modes.HelpMode.#ctor(NetAF.Commands.CommandHelp[])
-  name: HelpMode(CommandHelp[])
-  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode__ctor_NetAF_Commands_CommandHelp___
-  commentId: M:NetAF.Logic.Modes.HelpMode.#ctor(NetAF.Commands.CommandHelp[])
-  name.vb: New(CommandHelp())
-  fullName: NetAF.Logic.Modes.HelpMode.HelpMode(NetAF.Commands.CommandHelp[])
-  fullName.vb: NetAF.Logic.Modes.HelpMode.New(NetAF.Commands.CommandHelp())
-  nameWithType: HelpMode.HelpMode(CommandHelp[])
-  nameWithType.vb: HelpMode.New(CommandHelp())
+- uid: NetAF.Logic.Modes.HelpMode.#ctor(NetAF.Commands.CommandHelp)
+  name: HelpMode(CommandHelp)
+  href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode__ctor_NetAF_Commands_CommandHelp_
+  commentId: M:NetAF.Logic.Modes.HelpMode.#ctor(NetAF.Commands.CommandHelp)
+  name.vb: New(CommandHelp)
+  fullName: NetAF.Logic.Modes.HelpMode.HelpMode(NetAF.Commands.CommandHelp)
+  fullName.vb: NetAF.Logic.Modes.HelpMode.New(NetAF.Commands.CommandHelp)
+  nameWithType: HelpMode.HelpMode(CommandHelp)
+  nameWithType.vb: HelpMode.New(CommandHelp)
 - uid: NetAF.Logic.Modes.HelpMode.#ctor*
   name: HelpMode
   href: api/NetAF.Logic.Modes.HelpMode.html#NetAF_Logic_Modes_HelpMode__ctor_
@@ -8285,6 +8488,125 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.TitleColor
   nameWithType: ConsoleAboutFrameBuilder.TitleColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder
+  name: ConsoleCommandListFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder
+  nameWithType: ConsoleCommandListFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.#ctor(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  name: ConsoleCommandListFrameBuilder(GridStringBuilder)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder__ctor_NetAF_Rendering_FrameBuilders_GridStringBuilder_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.#ctor(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  name.vb: New(GridStringBuilder)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.ConsoleCommandListFrameBuilder(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.New(NetAF.Rendering.FrameBuilders.GridStringBuilder)
+  nameWithType: ConsoleCommandListFrameBuilder.ConsoleCommandListFrameBuilder(GridStringBuilder)
+  nameWithType.vb: ConsoleCommandListFrameBuilder.New(GridStringBuilder)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.#ctor*
+  name: ConsoleCommandListFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder__ctor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.ConsoleCommandListFrameBuilder
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.New
+  nameWithType: ConsoleCommandListFrameBuilder.ConsoleCommandListFrameBuilder
+  nameWithType.vb: ConsoleCommandListFrameBuilder.New
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BackgroundColor
+  name: BackgroundColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_BackgroundColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BackgroundColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BackgroundColor
+  nameWithType: ConsoleCommandListFrameBuilder.BackgroundColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BackgroundColor*
+  name: BackgroundColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_BackgroundColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BackgroundColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BackgroundColor
+  nameWithType: ConsoleCommandListFrameBuilder.BackgroundColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BorderColor
+  name: BorderColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_BorderColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BorderColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BorderColor
+  nameWithType: ConsoleCommandListFrameBuilder.BorderColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BorderColor*
+  name: BorderColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_BorderColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BorderColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.BorderColor
+  nameWithType: ConsoleCommandListFrameBuilder.BorderColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, string, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, String, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: ConsoleCommandListFrameBuilder.Build(string, string, CommandHelp[], Size)
+  nameWithType.vb: ConsoleCommandListFrameBuilder.Build(String, String, CommandHelp(), Size)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_Build_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.Build
+  nameWithType: ConsoleCommandListFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandColor
+  name: CommandColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_CommandColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandColor
+  nameWithType: ConsoleCommandListFrameBuilder.CommandColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandColor*
+  name: CommandColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_CommandColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandColor
+  nameWithType: ConsoleCommandListFrameBuilder.CommandColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandDescriptionColor
+  name: CommandDescriptionColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_CommandDescriptionColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandDescriptionColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandDescriptionColor
+  nameWithType: ConsoleCommandListFrameBuilder.CommandDescriptionColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandDescriptionColor*
+  name: CommandDescriptionColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_CommandDescriptionColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandDescriptionColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.CommandDescriptionColor
+  nameWithType: ConsoleCommandListFrameBuilder.CommandDescriptionColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.DescriptionColor
+  name: DescriptionColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_DescriptionColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.DescriptionColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.DescriptionColor
+  nameWithType: ConsoleCommandListFrameBuilder.DescriptionColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.DescriptionColor*
+  name: DescriptionColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_DescriptionColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.DescriptionColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.DescriptionColor
+  nameWithType: ConsoleCommandListFrameBuilder.DescriptionColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.TitleColor
+  name: TitleColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_TitleColor
+  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.TitleColor
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.TitleColor
+  nameWithType: ConsoleCommandListFrameBuilder.TitleColor
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.TitleColor*
+  name: TitleColor
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleCommandListFrameBuilder_TitleColor_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.TitleColor
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.TitleColor
+  nameWithType: ConsoleCommandListFrameBuilder.TitleColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder
   name: ConsoleCompletionFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.html
@@ -8667,15 +8989,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.BorderColor
   nameWithType: ConsoleHelpFrameBuilder.BorderColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(string, string, CommandHelp[], Size)
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(String, String, CommandHelp(), Size)
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: ConsoleHelpFrameBuilder.Build(string, string, CommandHelp[], Size)
-  nameWithType.vb: ConsoleHelpFrameBuilder.Build(String, String, CommandHelp(), Size)
+- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  name: Build(CommandHelp, Size)
+  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_NetAF_Commands_CommandHelp_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build(NetAF.Commands.CommandHelp, NetAF.Assets.Size)
+  nameWithType: ConsoleHelpFrameBuilder.Build(CommandHelp, Size)
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_Build_
@@ -8709,32 +9028,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.CommandDescriptionColor
   nameWithType: ConsoleHelpFrameBuilder.CommandDescriptionColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.DescriptionColor
-  name: DescriptionColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_DescriptionColor
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.DescriptionColor
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.DescriptionColor
-  nameWithType: ConsoleHelpFrameBuilder.DescriptionColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.DescriptionColor*
-  name: DescriptionColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_DescriptionColor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.DescriptionColor
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.DescriptionColor
-  nameWithType: ConsoleHelpFrameBuilder.DescriptionColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
-  name: TitleColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_TitleColor
-  commentId: P:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
-  nameWithType: ConsoleHelpFrameBuilder.TitleColor
-- uid: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor*
-  name: TitleColor
-  href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_Console_ConsoleHelpFrameBuilder_TitleColor_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.TitleColor
-  nameWithType: ConsoleHelpFrameBuilder.TitleColor
 - uid: NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder
   name: ConsoleReactionFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html
@@ -9647,15 +9940,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   nameWithType: FrameBuilderCollection
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  name: FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_
-  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  name.vb: New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.FrameBuilderCollection(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  nameWithType: FrameBuilderCollection.FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
-  nameWithType.vb: FrameBuilderCollection.New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  name: FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_NetAF_Rendering_FrameBuilders_ICommandListFrameBuilder_NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_
+  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  name.vb: New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.FrameBuilderCollection(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
+  nameWithType: FrameBuilderCollection.FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+  nameWithType.vb: FrameBuilderCollection.New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor*
   name: FrameBuilderCollection
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_
@@ -9679,6 +9972,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder
   nameWithType: FrameBuilderCollection.AboutFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
+  name: CommandListFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CommandListFrameBuilder
+  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
+  nameWithType: FrameBuilderCollection.CommandListFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder*
+  name: CommandListFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CommandListFrameBuilder_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
+  nameWithType: FrameBuilderCollection.CommandListFrameBuilder
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder
   name: CompletionFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CompletionFrameBuilder
@@ -10081,6 +10387,28 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build
   nameWithType: IAboutFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder
+  name: ICommandListFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder
+  nameWithType: ICommandListFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, string, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_ICommandListFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, String, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: ICommandListFrameBuilder.Build(string, string, CommandHelp[], Size)
+  nameWithType.vb: ICommandListFrameBuilder.Build(String, String, CommandHelp(), Size)
+- uid: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html#NetAF_Rendering_FrameBuilders_ICommandListFrameBuilder_Build_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.Build
+  nameWithType: ICommandListFrameBuilder.Build
 - uid: NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder
   name: ICompletionFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.html
@@ -10153,15 +10481,12 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder
   nameWithType: IHelpFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(string, string, CommandHelp[], Size)
-  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(String, String, CommandHelp(), Size)
-  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: IHelpFrameBuilder.Build(string, string, CommandHelp[], Size)
-  nameWithType.vb: IHelpFrameBuilder.Build(String, String, CommandHelp(), Size)
+- uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  name: Build(CommandHelp, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_NetAF_Commands_CommandHelp_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(NetAF.Commands.CommandHelp,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build(NetAF.Commands.CommandHelp, NetAF.Assets.Size)
+  nameWithType: IHelpFrameBuilder.Build(CommandHelp, Size)
 - uid: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html#NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_Build_
@@ -11956,3 +12281,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Utilities.StringUtilities.PreenInput
   nameWithType: StringUtilities.PreenInput
+- uid: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(System.String,System.String@,System.String@)
+  name: SplitTextToVerbAndNoun(string, out string, out string)
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitTextToVerbAndNoun_System_String_System_String__System_String__
+  commentId: M:NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(System.String,System.String@,System.String@)
+  name.vb: SplitTextToVerbAndNoun(String, String, String)
+  fullName: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(string, out string, out string)
+  fullName.vb: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(String, String, String)
+  nameWithType: StringUtilities.SplitTextToVerbAndNoun(string, out string, out string)
+  nameWithType.vb: StringUtilities.SplitTextToVerbAndNoun(String, String, String)
+- uid: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun*
+  name: SplitTextToVerbAndNoun
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitTextToVerbAndNoun_
+  commentId: Overload:NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun
+  isSpec: "True"
+  fullName: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun
+  nameWithType: StringUtilities.SplitTextToVerbAndNoun

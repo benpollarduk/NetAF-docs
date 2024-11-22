@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Description | NetAF </title>
+      <title>Class CommandListMode | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Description | NetAF ">
+      <meta name="title" content="Class CommandListMode | NetAF ">
     
-    <meta name="description" content="Represents a description of an object.">
+    <meta name="description" content="Provides a display mode for command list.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Assets.Description">
+            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Modes.CommandListMode">
 
 
 
-  <h1 id="NetAF_Assets_Description" data-uid="NetAF.Assets.Description" class="text-break">Class Description</h1>
-  <div class="markdown level0 summary"><p>Represents a description of an object.</p>
+  <h1 id="NetAF_Logic_Modes_CommandListMode" data-uid="NetAF.Logic.Modes.CommandListMode" class="text-break">Class CommandListMode</h1>
+  <div class="markdown level0 summary"><p>Provides a display mode for command list.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">Description</span></div>
+    <div class="level1"><span class="xref">CommandListMode</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Assets.IDescription.html">IDescription</a></div>
+    <div><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,29 +114,29 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Assets.html">Assets</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Assets_Description_syntax">Syntax</h5>
+  <h5 id="NetAF_Logic_Modes_CommandListMode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Description : IDescription</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CommandListMode : IGameMode</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Description__ctor_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Assets.Description.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_CommandListMode__ctor_NetAF_Commands_CommandHelp___.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.CommandListMode.%23ctor(NetAF.Commands.CommandHelp%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Description.cs/#L7">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/CommandListMode.cs/#L10">View Source</a>
   </span>
-  <a id="NetAF_Assets_Description__ctor_" data-uid="NetAF.Assets.Description.#ctor*"></a>
-  <h4 id="NetAF_Assets_Description__ctor_System_String_" data-uid="NetAF.Assets.Description.#ctor(System.String)">Description(string)</h4>
-  <div class="markdown level1 summary"><p>Represents a description of an object.</p>
+  <a id="NetAF_Logic_Modes_CommandListMode__ctor_" data-uid="NetAF.Logic.Modes.CommandListMode.#ctor*"></a>
+  <h4 id="NetAF_Logic_Modes_CommandListMode__ctor_NetAF_Commands_CommandHelp___" data-uid="NetAF.Logic.Modes.CommandListMode.#ctor(NetAF.Commands.CommandHelp[])">CommandListMode(CommandHelp[])</h4>
+  <div class="markdown level1 summary"><p>Provides a display mode for command list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Description(string description)</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandListMode(CommandHelp[] commands)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -149,9 +149,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description of this object.</p>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
+        <td><span class="parametername">commands</span></td>
+        <td><p>The commands to display.</p>
 </td>
       </tr>
     </tbody>
@@ -160,19 +160,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Description_Empty.md&amp;value=---%0Auid%3A%20NetAF.Assets.Description.Empty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_CommandListMode_Interpreter.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.CommandListMode.Interpreter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Description.cs/#L14">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/CommandListMode.cs/#L17">View Source</a>
   </span>
-  <a id="NetAF_Assets_Description_Empty_" data-uid="NetAF.Assets.Description.Empty*"></a>
-  <h4 id="NetAF_Assets_Description_Empty" data-uid="NetAF.Assets.Description.Empty">Empty</h4>
-  <div class="markdown level1 summary"><p>Get an empty description.</p>
+  <a id="NetAF_Logic_Modes_CommandListMode_Interpreter_" data-uid="NetAF.Logic.Modes.CommandListMode.Interpreter*"></a>
+  <h4 id="NetAF_Logic_Modes_CommandListMode_Interpreter" data-uid="NetAF.Logic.Modes.CommandListMode.Interpreter">Interpreter</h4>
+  <div class="markdown level1 summary"><p>Get the interpreter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Description Empty { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IInterpreter Interpreter { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -184,30 +184,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Description.html">Description</a></td>
+        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-</h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Description_GetDescription.md&amp;value=---%0Auid%3A%20NetAF.Assets.Description.GetDescription%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_CommandListMode_Type.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.CommandListMode.Type%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Description.cs/#L24">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/CommandListMode.cs/#L22">View Source</a>
   </span>
-  <a id="NetAF_Assets_Description_GetDescription_" data-uid="NetAF.Assets.Description.GetDescription*"></a>
-  <h4 id="NetAF_Assets_Description_GetDescription" data-uid="NetAF.Assets.Description.GetDescription">GetDescription()</h4>
-  <div class="markdown level1 summary"><p>Get the description.</p>
+  <a id="NetAF_Logic_Modes_CommandListMode_Type_" data-uid="NetAF.Logic.Modes.CommandListMode.Type*"></a>
+  <h4 id="NetAF_Logic_Modes_CommandListMode_Type" data-uid="NetAF.Logic.Modes.CommandListMode.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Get the type of mode this provides.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetDescription()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameModeType Type { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -217,15 +215,50 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>The description.</p>
+        <td><a class="xref" href="NetAF.Logic.Modes.GameModeType.html">GameModeType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_CommandListMode_Render_NetAF_Logic_Game_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.CommandListMode.Render(NetAF.Logic.Game)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/CommandListMode.cs/#L28">View Source</a>
+  </span>
+  <a id="NetAF_Logic_Modes_CommandListMode_Render_" data-uid="NetAF.Logic.Modes.CommandListMode.Render*"></a>
+  <h4 id="NetAF_Logic_Modes_CommandListMode_Render_NetAF_Logic_Game_" data-uid="NetAF.Logic.Modes.CommandListMode.Render(NetAF.Logic.Game)">Render(Game)</h4>
+  <div class="markdown level1 summary"><p>Render the current state of a game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Render(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Assets.IDescription.html">IDescription</a>
+      <a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a>
   </div>
 
 </article>
@@ -236,10 +269,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Assets_Description.md&amp;value=---%0Auid%3A%20NetAF.Assets.Description%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_CommandListMode.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.CommandListMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Assets/Description.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/CommandListMode.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

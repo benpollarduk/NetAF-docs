@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class CommandHelpExtensions | NetAF </title>
+      <title>Class CommandList | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class CommandHelpExtensions | NetAF ">
+      <meta name="title" content="Class CommandList | NetAF ">
     
-    <meta name="description" content="Provides extension methods for CommandHelp.">
+    <meta name="description" content="Represents the Commands command.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Extensions.CommandHelpExtensions">
+            <article class="content wrap" id="_content" data-uid="NetAF.Commands.Global.CommandList">
 
 
 
-  <h1 id="NetAF_Extensions_CommandHelpExtensions" data-uid="NetAF.Extensions.CommandHelpExtensions" class="text-break">Class CommandHelpExtensions</h1>
-  <div class="markdown level0 summary"><p>Provides extension methods for CommandHelp.</p>
+  <h1 id="NetAF_Commands_Global_CommandList" data-uid="NetAF.Commands.Global.CommandList" class="text-break">Class CommandList</h1>
+  <div class="markdown level0 summary"><p>Represents the Commands command.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">CommandHelpExtensions</span></div>
+    <div class="level1"><span class="xref">CommandList</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,38 +108,68 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Extensions.html">Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Commands.html">Commands</a>.<a class="xref" href="NetAF.Commands.Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Extensions_CommandHelpExtensions_syntax">Syntax</h5>
+  <h5 id="NetAF_Commands_Global_CommandList_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class CommandHelpExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CommandList : ICommand</code></pre>
   </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_Global_CommandList_CommandHelp.md&amp;value=---%0Auid%3A%20NetAF.Commands.Global.CommandList.CommandHelp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/Global/CommandList.cs/#L15">View Source</a>
+  </span>
+  <a id="NetAF_Commands_Global_CommandList_CommandHelp_" data-uid="NetAF.Commands.Global.CommandList.CommandHelp*"></a>
+  <h4 id="NetAF_Commands_Global_CommandList_CommandHelp" data-uid="NetAF.Commands.Global.CommandList.CommandHelp">CommandHelp</h4>
+  <div class="markdown level1 summary"><p>Get the command help.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CommandHelp CommandHelp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_NetAF_Commands_CommandHelp_.md&amp;value=---%0Auid%3A%20NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_Global_CommandList_Invoke_NetAF_Logic_Game_.md&amp;value=---%0Auid%3A%20NetAF.Commands.Global.CommandList.Invoke(NetAF.Logic.Game)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Extensions/CommandHelpExtensions.cs/#L17">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/Global/CommandList.cs/#L26">View Source</a>
   </span>
-  <a id="NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_" data-uid="NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut*"></a>
-  <h4 id="NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcut_NetAF_Commands_CommandHelp_" data-uid="NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcut(NetAF.Commands.CommandHelp)">FormattedToDisplayShortcut(CommandHelp)</h4>
-  <div class="markdown level1 summary"><p>Returns this CommandHelp formatted to display command in the format Command/Shortcut.</p>
+  <a id="NetAF_Commands_Global_CommandList_Invoke_" data-uid="NetAF.Commands.Global.CommandList.Invoke*"></a>
+  <h4 id="NetAF_Commands_Global_CommandList_Invoke_NetAF_Logic_Game_" data-uid="NetAF.Commands.Global.CommandList.Invoke(NetAF.Logic.Game)">Invoke(Game)</h4>
+  <div class="markdown level1 summary"><p>Invoke the command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CommandHelp FormattedToDisplayShortcut(this CommandHelp value)</code></pre>
+    <pre><code class="lang-csharp hljs">public Reaction Invoke(Game game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -148,9 +182,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to invoke the command on.</p>
 </td>
       </tr>
     </tbody>
@@ -165,62 +199,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
-        <td><p>The formatted CommandHelp.</p>
+        <td><a class="xref" href="NetAF.Commands.Reaction.html">Reaction</a></td>
+        <td><p>The reaction.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_NetAF_Commands_CommandHelp_.md&amp;value=---%0Auid%3A%20NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Extensions/CommandHelpExtensions.cs/#L27">View Source</a>
-  </span>
-  <a id="NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_" data-uid="NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable*"></a>
-  <h4 id="NetAF_Extensions_CommandHelpExtensions_FormattedToDisplayShortcutAndVariable_NetAF_Commands_CommandHelp_" data-uid="NetAF.Extensions.CommandHelpExtensions.FormattedToDisplayShortcutAndVariable(NetAF.Commands.CommandHelp)">FormattedToDisplayShortcutAndVariable(CommandHelp)</h4>
-  <div class="markdown level1 summary"><p>Returns this CommandHelp formatted to display command in the format Command/Shortcut __.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CommandHelp FormattedToDisplayShortcutAndVariable(this CommandHelp value)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
-        <td><p>The formatted CommandHelp.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
 
 </article>
           </div>
@@ -230,10 +218,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Extensions_CommandHelpExtensions.md&amp;value=---%0Auid%3A%20NetAF.Extensions.CommandHelpExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_Global_CommandList.md&amp;value=---%0Auid%3A%20NetAF.Commands.Global.CommandList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Extensions/CommandHelpExtensions.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/Global/CommandList.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

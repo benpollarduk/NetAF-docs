@@ -202,6 +202,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.IDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.IDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.IExaminable.yml",
       "output": {
         ".html": {
@@ -546,6 +556,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Commands.Global.About.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Global.CommandList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Global.CommandList.html"
         }
       },
       "version": ""
@@ -982,16 +1002,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Extensions.CommandHelpExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Extensions.CommandHelpExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Extensions.DirectionExtensions.yml",
       "output": {
         ".html": {
@@ -1322,6 +1332,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Modes.CommandListMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Modes.CommandListMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.CompletionMode.yml",
       "output": {
         ".html": {
@@ -1512,6 +1532,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.yml",
       "output": {
         ".html": {
@@ -1656,6 +1686,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html"
         }
       },
       "version": ""
