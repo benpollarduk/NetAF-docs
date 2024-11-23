@@ -11007,25 +11007,19 @@ references:
   commentId: T:NetAF.Serialization.Assets.AttributeManagerSerialization
   fullName: NetAF.Serialization.Assets.AttributeManagerSerialization
   nameWithType: AttributeManagerSerialization
-- uid: NetAF.Serialization.Assets.AttributeManagerSerialization.#ctor(NetAF.Assets.Attributes.AttributeManager)
-  name: AttributeManagerSerialization(AttributeManager)
-  href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization__ctor_NetAF_Assets_Attributes_AttributeManager_
-  commentId: M:NetAF.Serialization.Assets.AttributeManagerSerialization.#ctor(NetAF.Assets.Attributes.AttributeManager)
-  name.vb: New(AttributeManager)
-  fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.AttributeManagerSerialization(NetAF.Assets.Attributes.AttributeManager)
-  fullName.vb: NetAF.Serialization.Assets.AttributeManagerSerialization.New(NetAF.Assets.Attributes.AttributeManager)
-  nameWithType: AttributeManagerSerialization.AttributeManagerSerialization(AttributeManager)
-  nameWithType.vb: AttributeManagerSerialization.New(AttributeManager)
-- uid: NetAF.Serialization.Assets.AttributeManagerSerialization.#ctor*
-  name: AttributeManagerSerialization
-  href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeManagerSerialization.#ctor
+- uid: NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager(NetAF.Assets.Attributes.AttributeManager)
+  name: FromAttributeManager(AttributeManager)
+  href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization_FromAttributeManager_NetAF_Assets_Attributes_AttributeManager_
+  commentId: M:NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager(NetAF.Assets.Attributes.AttributeManager)
+  fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager(NetAF.Assets.Attributes.AttributeManager)
+  nameWithType: AttributeManagerSerialization.FromAttributeManager(AttributeManager)
+- uid: NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager*
+  name: FromAttributeManager
+  href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization_FromAttributeManager_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.AttributeManagerSerialization
-  fullName.vb: NetAF.Serialization.Assets.AttributeManagerSerialization.New
-  nameWithType: AttributeManagerSerialization.AttributeManagerSerialization
-  nameWithType.vb: AttributeManagerSerialization.New
+  fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager
+  nameWithType: AttributeManagerSerialization.FromAttributeManager
 - uid: NetAF.Serialization.Assets.AttributeManagerSerialization.Restore(NetAF.Assets.Attributes.AttributeManager)
   name: Restore(AttributeManager)
   href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization_Restore_NetAF_Assets_Attributes_AttributeManager_
@@ -11058,25 +11052,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.AttributeSerialization
   fullName: NetAF.Serialization.Assets.AttributeSerialization
   nameWithType: AttributeSerialization
-- uid: NetAF.Serialization.Assets.AttributeSerialization.#ctor(NetAF.Assets.Attributes.Attribute)
-  name: AttributeSerialization(Attribute)
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization__ctor_NetAF_Assets_Attributes_Attribute_
-  commentId: M:NetAF.Serialization.Assets.AttributeSerialization.#ctor(NetAF.Assets.Attributes.Attribute)
-  name.vb: New(Attribute)
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.AttributeSerialization(NetAF.Assets.Attributes.Attribute)
-  fullName.vb: NetAF.Serialization.Assets.AttributeSerialization.New(NetAF.Assets.Attributes.Attribute)
-  nameWithType: AttributeSerialization.AttributeSerialization(Attribute)
-  nameWithType.vb: AttributeSerialization.New(Attribute)
-- uid: NetAF.Serialization.Assets.AttributeSerialization.#ctor*
-  name: AttributeSerialization
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.AttributeSerialization
-  fullName.vb: NetAF.Serialization.Assets.AttributeSerialization.New
-  nameWithType: AttributeSerialization.AttributeSerialization
-  nameWithType.vb: AttributeSerialization.New
 - uid: NetAF.Serialization.Assets.AttributeSerialization.Description
   name: Description
   href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Description
@@ -11090,6 +11065,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.AttributeSerialization.Description
   nameWithType: AttributeSerialization.Description
+- uid: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute(NetAF.Assets.Attributes.Attribute)
+  name: FromAttribute(Attribute)
+  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_FromAttribute_NetAF_Assets_Attributes_Attribute_
+  commentId: M:NetAF.Serialization.Assets.AttributeSerialization.FromAttribute(NetAF.Assets.Attributes.Attribute)
+  fullName: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute(NetAF.Assets.Attributes.Attribute)
+  nameWithType: AttributeSerialization.FromAttribute(Attribute)
+- uid: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute*
+  name: FromAttribute
+  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_FromAttribute_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.FromAttribute
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute
+  nameWithType: AttributeSerialization.FromAttribute
 - uid: NetAF.Serialization.Assets.AttributeSerialization.Maximum
   name: Maximum
   href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Maximum
@@ -11148,25 +11136,19 @@ references:
   commentId: T:NetAF.Serialization.Assets.CharacterSerialization
   fullName: NetAF.Serialization.Assets.CharacterSerialization
   nameWithType: CharacterSerialization
-- uid: NetAF.Serialization.Assets.CharacterSerialization.#ctor(NetAF.Assets.Characters.Character)
-  name: CharacterSerialization(Character)
-  href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization__ctor_NetAF_Assets_Characters_Character_
-  commentId: M:NetAF.Serialization.Assets.CharacterSerialization.#ctor(NetAF.Assets.Characters.Character)
-  name.vb: New(Character)
-  fullName: NetAF.Serialization.Assets.CharacterSerialization.CharacterSerialization(NetAF.Assets.Characters.Character)
-  fullName.vb: NetAF.Serialization.Assets.CharacterSerialization.New(NetAF.Assets.Characters.Character)
-  nameWithType: CharacterSerialization.CharacterSerialization(Character)
-  nameWithType.vb: CharacterSerialization.New(Character)
-- uid: NetAF.Serialization.Assets.CharacterSerialization.#ctor*
-  name: CharacterSerialization
-  href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.CharacterSerialization.#ctor
+- uid: NetAF.Serialization.Assets.CharacterSerialization.FromCharacter(NetAF.Assets.Characters.Character)
+  name: FromCharacter(Character)
+  href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization_FromCharacter_NetAF_Assets_Characters_Character_
+  commentId: M:NetAF.Serialization.Assets.CharacterSerialization.FromCharacter(NetAF.Assets.Characters.Character)
+  fullName: NetAF.Serialization.Assets.CharacterSerialization.FromCharacter(NetAF.Assets.Characters.Character)
+  nameWithType: CharacterSerialization.FromCharacter(Character)
+- uid: NetAF.Serialization.Assets.CharacterSerialization.FromCharacter*
+  name: FromCharacter
+  href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization_FromCharacter_
+  commentId: Overload:NetAF.Serialization.Assets.CharacterSerialization.FromCharacter
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.CharacterSerialization.CharacterSerialization
-  fullName.vb: NetAF.Serialization.Assets.CharacterSerialization.New
-  nameWithType: CharacterSerialization.CharacterSerialization
-  nameWithType.vb: CharacterSerialization.New
+  fullName: NetAF.Serialization.Assets.CharacterSerialization.FromCharacter
+  nameWithType: CharacterSerialization.FromCharacter
 - uid: NetAF.Serialization.Assets.CharacterSerialization.IsAlive
   name: IsAlive
   href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization_IsAlive
@@ -11212,25 +11194,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.ConversationSerialization
   fullName: NetAF.Serialization.Assets.ConversationSerialization
   nameWithType: ConversationSerialization
-- uid: NetAF.Serialization.Assets.ConversationSerialization.#ctor(NetAF.Conversations.Conversation)
-  name: ConversationSerialization(Conversation)
-  href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization__ctor_NetAF_Conversations_Conversation_
-  commentId: M:NetAF.Serialization.Assets.ConversationSerialization.#ctor(NetAF.Conversations.Conversation)
-  name.vb: New(Conversation)
-  fullName: NetAF.Serialization.Assets.ConversationSerialization.ConversationSerialization(NetAF.Conversations.Conversation)
-  fullName.vb: NetAF.Serialization.Assets.ConversationSerialization.New(NetAF.Conversations.Conversation)
-  nameWithType: ConversationSerialization.ConversationSerialization(Conversation)
-  nameWithType.vb: ConversationSerialization.New(Conversation)
-- uid: NetAF.Serialization.Assets.ConversationSerialization.#ctor*
-  name: ConversationSerialization
-  href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.ConversationSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.ConversationSerialization.ConversationSerialization
-  fullName.vb: NetAF.Serialization.Assets.ConversationSerialization.New
-  nameWithType: ConversationSerialization.ConversationSerialization
-  nameWithType.vb: ConversationSerialization.New
 - uid: NetAF.Serialization.Assets.ConversationSerialization.CurrentParagraph
   name: CurrentParagraph
   href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization_CurrentParagraph
@@ -11244,6 +11207,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ConversationSerialization.CurrentParagraph
   nameWithType: ConversationSerialization.CurrentParagraph
+- uid: NetAF.Serialization.Assets.ConversationSerialization.FromConversation(NetAF.Conversations.Conversation)
+  name: FromConversation(Conversation)
+  href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization_FromConversation_NetAF_Conversations_Conversation_
+  commentId: M:NetAF.Serialization.Assets.ConversationSerialization.FromConversation(NetAF.Conversations.Conversation)
+  fullName: NetAF.Serialization.Assets.ConversationSerialization.FromConversation(NetAF.Conversations.Conversation)
+  nameWithType: ConversationSerialization.FromConversation(Conversation)
+- uid: NetAF.Serialization.Assets.ConversationSerialization.FromConversation*
+  name: FromConversation
+  href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization_FromConversation_
+  commentId: Overload:NetAF.Serialization.Assets.ConversationSerialization.FromConversation
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.ConversationSerialization.FromConversation
+  nameWithType: ConversationSerialization.FromConversation
 - uid: NetAF.Serialization.Assets.ConversationSerialization.NoCurrentParagraph
   name: NoCurrentParagraph
   href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization_NoCurrentParagraph
@@ -11269,25 +11245,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.ExaminableSerialization
   fullName: NetAF.Serialization.Assets.ExaminableSerialization
   nameWithType: ExaminableSerialization
-- uid: NetAF.Serialization.Assets.ExaminableSerialization.#ctor(NetAF.Assets.IExaminable)
-  name: ExaminableSerialization(IExaminable)
-  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization__ctor_NetAF_Assets_IExaminable_
-  commentId: M:NetAF.Serialization.Assets.ExaminableSerialization.#ctor(NetAF.Assets.IExaminable)
-  name.vb: New(IExaminable)
-  fullName: NetAF.Serialization.Assets.ExaminableSerialization.ExaminableSerialization(NetAF.Assets.IExaminable)
-  fullName.vb: NetAF.Serialization.Assets.ExaminableSerialization.New(NetAF.Assets.IExaminable)
-  nameWithType: ExaminableSerialization.ExaminableSerialization(IExaminable)
-  nameWithType.vb: ExaminableSerialization.New(IExaminable)
-- uid: NetAF.Serialization.Assets.ExaminableSerialization.#ctor*
-  name: ExaminableSerialization
-  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.ExaminableSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.ExaminableSerialization.ExaminableSerialization
-  fullName.vb: NetAF.Serialization.Assets.ExaminableSerialization.New
-  nameWithType: ExaminableSerialization.ExaminableSerialization
-  nameWithType.vb: ExaminableSerialization.New
 - uid: NetAF.Serialization.Assets.ExaminableSerialization.AttributeManager
   name: AttributeManager
   href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_AttributeManager
@@ -11314,6 +11271,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ExaminableSerialization.Commands
   nameWithType: ExaminableSerialization.Commands
+- uid: NetAF.Serialization.Assets.ExaminableSerialization.FromIExaminable(NetAF.Assets.IExaminable)
+  name: FromIExaminable(IExaminable)
+  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_FromIExaminable_NetAF_Assets_IExaminable_
+  commentId: M:NetAF.Serialization.Assets.ExaminableSerialization.FromIExaminable(NetAF.Assets.IExaminable)
+  fullName: NetAF.Serialization.Assets.ExaminableSerialization.FromIExaminable(NetAF.Assets.IExaminable)
+  nameWithType: ExaminableSerialization.FromIExaminable(IExaminable)
+- uid: NetAF.Serialization.Assets.ExaminableSerialization.FromIExaminable*
+  name: FromIExaminable
+  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_FromIExaminable_
+  commentId: Overload:NetAF.Serialization.Assets.ExaminableSerialization.FromIExaminable
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.ExaminableSerialization.FromIExaminable
+  nameWithType: ExaminableSerialization.FromIExaminable
 - uid: NetAF.Serialization.Assets.ExaminableSerialization.Identifier
   name: Identifier
   href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Identifier
@@ -11359,25 +11329,19 @@ references:
   commentId: T:NetAF.Serialization.Assets.ExitSerialization
   fullName: NetAF.Serialization.Assets.ExitSerialization
   nameWithType: ExitSerialization
-- uid: NetAF.Serialization.Assets.ExitSerialization.#ctor(NetAF.Assets.Locations.Exit)
-  name: ExitSerialization(Exit)
-  href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization__ctor_NetAF_Assets_Locations_Exit_
-  commentId: M:NetAF.Serialization.Assets.ExitSerialization.#ctor(NetAF.Assets.Locations.Exit)
-  name.vb: New(Exit)
-  fullName: NetAF.Serialization.Assets.ExitSerialization.ExitSerialization(NetAF.Assets.Locations.Exit)
-  fullName.vb: NetAF.Serialization.Assets.ExitSerialization.New(NetAF.Assets.Locations.Exit)
-  nameWithType: ExitSerialization.ExitSerialization(Exit)
-  nameWithType.vb: ExitSerialization.New(Exit)
-- uid: NetAF.Serialization.Assets.ExitSerialization.#ctor*
-  name: ExitSerialization
-  href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.ExitSerialization.#ctor
+- uid: NetAF.Serialization.Assets.ExitSerialization.FromExit(NetAF.Assets.Locations.Exit)
+  name: FromExit(Exit)
+  href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization_FromExit_NetAF_Assets_Locations_Exit_
+  commentId: M:NetAF.Serialization.Assets.ExitSerialization.FromExit(NetAF.Assets.Locations.Exit)
+  fullName: NetAF.Serialization.Assets.ExitSerialization.FromExit(NetAF.Assets.Locations.Exit)
+  nameWithType: ExitSerialization.FromExit(Exit)
+- uid: NetAF.Serialization.Assets.ExitSerialization.FromExit*
+  name: FromExit
+  href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization_FromExit_
+  commentId: Overload:NetAF.Serialization.Assets.ExitSerialization.FromExit
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.ExitSerialization.ExitSerialization
-  fullName.vb: NetAF.Serialization.Assets.ExitSerialization.New
-  nameWithType: ExitSerialization.ExitSerialization
-  nameWithType.vb: ExitSerialization.New
+  fullName: NetAF.Serialization.Assets.ExitSerialization.FromExit
+  nameWithType: ExitSerialization.FromExit
 - uid: NetAF.Serialization.Assets.ExitSerialization.IsLocked
   name: IsLocked
   href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization_IsLocked
@@ -11410,25 +11374,19 @@ references:
   commentId: T:NetAF.Serialization.Assets.ItemSerialization
   fullName: NetAF.Serialization.Assets.ItemSerialization
   nameWithType: ItemSerialization
-- uid: NetAF.Serialization.Assets.ItemSerialization.#ctor(NetAF.Assets.Item)
-  name: ItemSerialization(Item)
-  href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization__ctor_NetAF_Assets_Item_
-  commentId: M:NetAF.Serialization.Assets.ItemSerialization.#ctor(NetAF.Assets.Item)
-  name.vb: New(Item)
-  fullName: NetAF.Serialization.Assets.ItemSerialization.ItemSerialization(NetAF.Assets.Item)
-  fullName.vb: NetAF.Serialization.Assets.ItemSerialization.New(NetAF.Assets.Item)
-  nameWithType: ItemSerialization.ItemSerialization(Item)
-  nameWithType.vb: ItemSerialization.New(Item)
-- uid: NetAF.Serialization.Assets.ItemSerialization.#ctor*
-  name: ItemSerialization
-  href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.ItemSerialization.#ctor
+- uid: NetAF.Serialization.Assets.ItemSerialization.FromItem(NetAF.Assets.Item)
+  name: FromItem(Item)
+  href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization_FromItem_NetAF_Assets_Item_
+  commentId: M:NetAF.Serialization.Assets.ItemSerialization.FromItem(NetAF.Assets.Item)
+  fullName: NetAF.Serialization.Assets.ItemSerialization.FromItem(NetAF.Assets.Item)
+  nameWithType: ItemSerialization.FromItem(Item)
+- uid: NetAF.Serialization.Assets.ItemSerialization.FromItem*
+  name: FromItem
+  href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization_FromItem_
+  commentId: Overload:NetAF.Serialization.Assets.ItemSerialization.FromItem
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.ItemSerialization.ItemSerialization
-  fullName.vb: NetAF.Serialization.Assets.ItemSerialization.New
-  nameWithType: ItemSerialization.ItemSerialization
-  nameWithType.vb: ItemSerialization.New
+  fullName: NetAF.Serialization.Assets.ItemSerialization.FromItem
+  nameWithType: ItemSerialization.FromItem
 - uid: NetAF.Serialization.Assets.ItemSerialization.Restore(NetAF.Assets.Item)
   name: Restore(Item)
   href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization_Restore_NetAF_Assets_Item_
@@ -11448,25 +11406,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.NonPlayableCharacterSerialization
   fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization
   nameWithType: NonPlayableCharacterSerialization
-- uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.#ctor(NetAF.Assets.Characters.NonPlayableCharacter)
-  name: NonPlayableCharacterSerialization(NonPlayableCharacter)
-  href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization__ctor_NetAF_Assets_Characters_NonPlayableCharacter_
-  commentId: M:NetAF.Serialization.Assets.NonPlayableCharacterSerialization.#ctor(NetAF.Assets.Characters.NonPlayableCharacter)
-  name.vb: New(NonPlayableCharacter)
-  fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.NonPlayableCharacterSerialization(NetAF.Assets.Characters.NonPlayableCharacter)
-  fullName.vb: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.New(NetAF.Assets.Characters.NonPlayableCharacter)
-  nameWithType: NonPlayableCharacterSerialization.NonPlayableCharacterSerialization(NonPlayableCharacter)
-  nameWithType.vb: NonPlayableCharacterSerialization.New(NonPlayableCharacter)
-- uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.#ctor*
-  name: NonPlayableCharacterSerialization
-  href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.NonPlayableCharacterSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.NonPlayableCharacterSerialization
-  fullName.vb: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.New
-  nameWithType: NonPlayableCharacterSerialization.NonPlayableCharacterSerialization
-  nameWithType.vb: NonPlayableCharacterSerialization.New
 - uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Conversation
   name: Conversation
   href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization_Conversation
@@ -11480,6 +11419,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Conversation
   nameWithType: NonPlayableCharacterSerialization.Conversation
+- uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter(NetAF.Assets.Characters.NonPlayableCharacter)
+  name: FromNonPlayableCharacter(NonPlayableCharacter)
+  href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization_FromNonPlayableCharacter_NetAF_Assets_Characters_NonPlayableCharacter_
+  commentId: M:NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter(NetAF.Assets.Characters.NonPlayableCharacter)
+  fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter(NetAF.Assets.Characters.NonPlayableCharacter)
+  nameWithType: NonPlayableCharacterSerialization.FromNonPlayableCharacter(NonPlayableCharacter)
+- uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter*
+  name: FromNonPlayableCharacter
+  href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization_FromNonPlayableCharacter_
+  commentId: Overload:NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter
+  nameWithType: NonPlayableCharacterSerialization.FromNonPlayableCharacter
 - uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore(NetAF.Assets.Characters.NonPlayableCharacter)
   name: Restore(NonPlayableCharacter)
   href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization_Restore_NetAF_Assets_Characters_NonPlayableCharacter_
@@ -11499,25 +11451,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.OverworldSerialization
   fullName: NetAF.Serialization.Assets.OverworldSerialization
   nameWithType: OverworldSerialization
-- uid: NetAF.Serialization.Assets.OverworldSerialization.#ctor(NetAF.Assets.Locations.Overworld)
-  name: OverworldSerialization(Overworld)
-  href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization__ctor_NetAF_Assets_Locations_Overworld_
-  commentId: M:NetAF.Serialization.Assets.OverworldSerialization.#ctor(NetAF.Assets.Locations.Overworld)
-  name.vb: New(Overworld)
-  fullName: NetAF.Serialization.Assets.OverworldSerialization.OverworldSerialization(NetAF.Assets.Locations.Overworld)
-  fullName.vb: NetAF.Serialization.Assets.OverworldSerialization.New(NetAF.Assets.Locations.Overworld)
-  nameWithType: OverworldSerialization.OverworldSerialization(Overworld)
-  nameWithType.vb: OverworldSerialization.New(Overworld)
-- uid: NetAF.Serialization.Assets.OverworldSerialization.#ctor*
-  name: OverworldSerialization
-  href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.OverworldSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.OverworldSerialization.OverworldSerialization
-  fullName.vb: NetAF.Serialization.Assets.OverworldSerialization.New
-  nameWithType: OverworldSerialization.OverworldSerialization
-  nameWithType.vb: OverworldSerialization.New
 - uid: NetAF.Serialization.Assets.OverworldSerialization.CurrentRegion
   name: CurrentRegion
   href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization_CurrentRegion
@@ -11531,6 +11464,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.OverworldSerialization.CurrentRegion
   nameWithType: OverworldSerialization.CurrentRegion
+- uid: NetAF.Serialization.Assets.OverworldSerialization.FromOverworld(NetAF.Assets.Locations.Overworld)
+  name: FromOverworld(Overworld)
+  href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization_FromOverworld_NetAF_Assets_Locations_Overworld_
+  commentId: M:NetAF.Serialization.Assets.OverworldSerialization.FromOverworld(NetAF.Assets.Locations.Overworld)
+  fullName: NetAF.Serialization.Assets.OverworldSerialization.FromOverworld(NetAF.Assets.Locations.Overworld)
+  nameWithType: OverworldSerialization.FromOverworld(Overworld)
+- uid: NetAF.Serialization.Assets.OverworldSerialization.FromOverworld*
+  name: FromOverworld
+  href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization_FromOverworld_
+  commentId: Overload:NetAF.Serialization.Assets.OverworldSerialization.FromOverworld
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.OverworldSerialization.FromOverworld
+  nameWithType: OverworldSerialization.FromOverworld
 - uid: NetAF.Serialization.Assets.OverworldSerialization.Regions
   name: Regions
   href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization_Regions
@@ -11563,25 +11509,19 @@ references:
   commentId: T:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization
   fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization
   nameWithType: PlayableCharacterLocationSerialization
-- uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.#ctor(NetAF.Logic.PlayableCharacterLocation)
-  name: PlayableCharacterLocationSerialization(PlayableCharacterLocation)
-  href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization__ctor_NetAF_Logic_PlayableCharacterLocation_
-  commentId: M:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.#ctor(NetAF.Logic.PlayableCharacterLocation)
-  name.vb: New(PlayableCharacterLocation)
-  fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.PlayableCharacterLocationSerialization(NetAF.Logic.PlayableCharacterLocation)
-  fullName.vb: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.New(NetAF.Logic.PlayableCharacterLocation)
-  nameWithType: PlayableCharacterLocationSerialization.PlayableCharacterLocationSerialization(PlayableCharacterLocation)
-  nameWithType.vb: PlayableCharacterLocationSerialization.New(PlayableCharacterLocation)
-- uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.#ctor*
-  name: PlayableCharacterLocationSerialization
-  href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.#ctor
+- uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.FromPlayableCharacterLocation(NetAF.Logic.PlayableCharacterLocation)
+  name: FromPlayableCharacterLocation(PlayableCharacterLocation)
+  href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization_FromPlayableCharacterLocation_NetAF_Logic_PlayableCharacterLocation_
+  commentId: M:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.FromPlayableCharacterLocation(NetAF.Logic.PlayableCharacterLocation)
+  fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.FromPlayableCharacterLocation(NetAF.Logic.PlayableCharacterLocation)
+  nameWithType: PlayableCharacterLocationSerialization.FromPlayableCharacterLocation(PlayableCharacterLocation)
+- uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.FromPlayableCharacterLocation*
+  name: FromPlayableCharacterLocation
+  href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization_FromPlayableCharacterLocation_
+  commentId: Overload:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.FromPlayableCharacterLocation
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.PlayableCharacterLocationSerialization
-  fullName.vb: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.New
-  nameWithType: PlayableCharacterLocationSerialization.PlayableCharacterLocationSerialization
-  nameWithType.vb: PlayableCharacterLocationSerialization.New
+  fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.FromPlayableCharacterLocation
+  nameWithType: PlayableCharacterLocationSerialization.FromPlayableCharacterLocation
 - uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.PlayerIdentifier
   name: PlayerIdentifier
   href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization_PlayerIdentifier
@@ -11640,25 +11580,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.RegionSerialization
   fullName: NetAF.Serialization.Assets.RegionSerialization
   nameWithType: RegionSerialization
-- uid: NetAF.Serialization.Assets.RegionSerialization.#ctor(NetAF.Assets.Locations.Region)
-  name: RegionSerialization(Region)
-  href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization__ctor_NetAF_Assets_Locations_Region_
-  commentId: M:NetAF.Serialization.Assets.RegionSerialization.#ctor(NetAF.Assets.Locations.Region)
-  name.vb: New(Region)
-  fullName: NetAF.Serialization.Assets.RegionSerialization.RegionSerialization(NetAF.Assets.Locations.Region)
-  fullName.vb: NetAF.Serialization.Assets.RegionSerialization.New(NetAF.Assets.Locations.Region)
-  nameWithType: RegionSerialization.RegionSerialization(Region)
-  nameWithType.vb: RegionSerialization.New(Region)
-- uid: NetAF.Serialization.Assets.RegionSerialization.#ctor*
-  name: RegionSerialization
-  href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.RegionSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.RegionSerialization.RegionSerialization
-  fullName.vb: NetAF.Serialization.Assets.RegionSerialization.New
-  nameWithType: RegionSerialization.RegionSerialization
-  nameWithType.vb: RegionSerialization.New
 - uid: NetAF.Serialization.Assets.RegionSerialization.CurrentRoom
   name: CurrentRoom
   href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_CurrentRoom
@@ -11672,6 +11593,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.RegionSerialization.CurrentRoom
   nameWithType: RegionSerialization.CurrentRoom
+- uid: NetAF.Serialization.Assets.RegionSerialization.FromRegion(NetAF.Assets.Locations.Region)
+  name: FromRegion(Region)
+  href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_FromRegion_NetAF_Assets_Locations_Region_
+  commentId: M:NetAF.Serialization.Assets.RegionSerialization.FromRegion(NetAF.Assets.Locations.Region)
+  fullName: NetAF.Serialization.Assets.RegionSerialization.FromRegion(NetAF.Assets.Locations.Region)
+  nameWithType: RegionSerialization.FromRegion(Region)
+- uid: NetAF.Serialization.Assets.RegionSerialization.FromRegion*
+  name: FromRegion
+  href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_FromRegion_
+  commentId: Overload:NetAF.Serialization.Assets.RegionSerialization.FromRegion
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.RegionSerialization.FromRegion
+  nameWithType: RegionSerialization.FromRegion
 - uid: NetAF.Serialization.Assets.RegionSerialization.IsVisibleWithoutDiscovery
   name: IsVisibleWithoutDiscovery
   href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_IsVisibleWithoutDiscovery
@@ -11717,25 +11651,6 @@ references:
   commentId: T:NetAF.Serialization.Assets.RoomSerialization
   fullName: NetAF.Serialization.Assets.RoomSerialization
   nameWithType: RoomSerialization
-- uid: NetAF.Serialization.Assets.RoomSerialization.#ctor(NetAF.Assets.Locations.Room)
-  name: RoomSerialization(Room)
-  href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization__ctor_NetAF_Assets_Locations_Room_
-  commentId: M:NetAF.Serialization.Assets.RoomSerialization.#ctor(NetAF.Assets.Locations.Room)
-  name.vb: New(Room)
-  fullName: NetAF.Serialization.Assets.RoomSerialization.RoomSerialization(NetAF.Assets.Locations.Room)
-  fullName.vb: NetAF.Serialization.Assets.RoomSerialization.New(NetAF.Assets.Locations.Room)
-  nameWithType: RoomSerialization.RoomSerialization(Room)
-  nameWithType.vb: RoomSerialization.New(Room)
-- uid: NetAF.Serialization.Assets.RoomSerialization.#ctor*
-  name: RoomSerialization
-  href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.Assets.RoomSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.Assets.RoomSerialization.RoomSerialization
-  fullName.vb: NetAF.Serialization.Assets.RoomSerialization.New
-  nameWithType: RoomSerialization.RoomSerialization
-  nameWithType.vb: RoomSerialization.New
 - uid: NetAF.Serialization.Assets.RoomSerialization.Characters
   name: Characters
   href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization_Characters
@@ -11762,6 +11677,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.RoomSerialization.Exits
   nameWithType: RoomSerialization.Exits
+- uid: NetAF.Serialization.Assets.RoomSerialization.FromRoom(NetAF.Assets.Locations.Room)
+  name: FromRoom(Room)
+  href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization_FromRoom_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Serialization.Assets.RoomSerialization.FromRoom(NetAF.Assets.Locations.Room)
+  fullName: NetAF.Serialization.Assets.RoomSerialization.FromRoom(NetAF.Assets.Locations.Room)
+  nameWithType: RoomSerialization.FromRoom(Room)
+- uid: NetAF.Serialization.Assets.RoomSerialization.FromRoom*
+  name: FromRoom
+  href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization_FromRoom_
+  commentId: Overload:NetAF.Serialization.Assets.RoomSerialization.FromRoom
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.RoomSerialization.FromRoom
+  nameWithType: RoomSerialization.FromRoom
 - uid: NetAF.Serialization.Assets.RoomSerialization.HasBeenVisited
   name: HasBeenVisited
   href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization_HasBeenVisited
@@ -11807,25 +11735,6 @@ references:
   commentId: T:NetAF.Serialization.CustomCommandSerialization
   fullName: NetAF.Serialization.CustomCommandSerialization
   nameWithType: CustomCommandSerialization
-- uid: NetAF.Serialization.CustomCommandSerialization.#ctor(NetAF.Commands.CustomCommand)
-  name: CustomCommandSerialization(CustomCommand)
-  href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization__ctor_NetAF_Commands_CustomCommand_
-  commentId: M:NetAF.Serialization.CustomCommandSerialization.#ctor(NetAF.Commands.CustomCommand)
-  name.vb: New(CustomCommand)
-  fullName: NetAF.Serialization.CustomCommandSerialization.CustomCommandSerialization(NetAF.Commands.CustomCommand)
-  fullName.vb: NetAF.Serialization.CustomCommandSerialization.New(NetAF.Commands.CustomCommand)
-  nameWithType: CustomCommandSerialization.CustomCommandSerialization(CustomCommand)
-  nameWithType.vb: CustomCommandSerialization.New(CustomCommand)
-- uid: NetAF.Serialization.CustomCommandSerialization.#ctor*
-  name: CustomCommandSerialization
-  href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.CustomCommandSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.CustomCommandSerialization.CustomCommandSerialization
-  fullName.vb: NetAF.Serialization.CustomCommandSerialization.New
-  nameWithType: CustomCommandSerialization.CustomCommandSerialization
-  nameWithType.vb: CustomCommandSerialization.New
 - uid: NetAF.Serialization.CustomCommandSerialization.CommandName
   name: CommandName
   href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization_CommandName
@@ -11839,6 +11748,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.CustomCommandSerialization.CommandName
   nameWithType: CustomCommandSerialization.CommandName
+- uid: NetAF.Serialization.CustomCommandSerialization.FromCustomCommand(NetAF.Commands.CustomCommand)
+  name: FromCustomCommand(CustomCommand)
+  href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization_FromCustomCommand_NetAF_Commands_CustomCommand_
+  commentId: M:NetAF.Serialization.CustomCommandSerialization.FromCustomCommand(NetAF.Commands.CustomCommand)
+  fullName: NetAF.Serialization.CustomCommandSerialization.FromCustomCommand(NetAF.Commands.CustomCommand)
+  nameWithType: CustomCommandSerialization.FromCustomCommand(CustomCommand)
+- uid: NetAF.Serialization.CustomCommandSerialization.FromCustomCommand*
+  name: FromCustomCommand
+  href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization_FromCustomCommand_
+  commentId: Overload:NetAF.Serialization.CustomCommandSerialization.FromCustomCommand
+  isSpec: "True"
+  fullName: NetAF.Serialization.CustomCommandSerialization.FromCustomCommand
+  nameWithType: CustomCommandSerialization.FromCustomCommand
 - uid: NetAF.Serialization.CustomCommandSerialization.IsPlayerVisible
   name: IsPlayerVisible
   href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization_IsPlayerVisible
@@ -11871,25 +11793,6 @@ references:
   commentId: T:NetAF.Serialization.GameSerialization
   fullName: NetAF.Serialization.GameSerialization
   nameWithType: GameSerialization
-- uid: NetAF.Serialization.GameSerialization.#ctor(NetAF.Logic.Game)
-  name: GameSerialization(Game)
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization__ctor_NetAF_Logic_Game_
-  commentId: M:NetAF.Serialization.GameSerialization.#ctor(NetAF.Logic.Game)
-  name.vb: New(Game)
-  fullName: NetAF.Serialization.GameSerialization.GameSerialization(NetAF.Logic.Game)
-  fullName.vb: NetAF.Serialization.GameSerialization.New(NetAF.Logic.Game)
-  nameWithType: GameSerialization.GameSerialization(Game)
-  nameWithType.vb: GameSerialization.New(Game)
-- uid: NetAF.Serialization.GameSerialization.#ctor*
-  name: GameSerialization
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization__ctor_
-  commentId: Overload:NetAF.Serialization.GameSerialization.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Serialization.GameSerialization.GameSerialization
-  fullName.vb: NetAF.Serialization.GameSerialization.New
-  nameWithType: GameSerialization.GameSerialization
-  nameWithType.vb: GameSerialization.New
 - uid: NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
   name: ActivePlayerIdentifier
   href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_ActivePlayerIdentifier
@@ -11903,6 +11806,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.GameSerialization.ActivePlayerIdentifier
   nameWithType: GameSerialization.ActivePlayerIdentifier
+- uid: NetAF.Serialization.GameSerialization.FromGame(NetAF.Logic.Game)
+  name: FromGame(Game)
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_FromGame_NetAF_Logic_Game_
+  commentId: M:NetAF.Serialization.GameSerialization.FromGame(NetAF.Logic.Game)
+  fullName: NetAF.Serialization.GameSerialization.FromGame(NetAF.Logic.Game)
+  nameWithType: GameSerialization.FromGame(Game)
+- uid: NetAF.Serialization.GameSerialization.FromGame*
+  name: FromGame
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_FromGame_
+  commentId: Overload:NetAF.Serialization.GameSerialization.FromGame
+  isSpec: "True"
+  fullName: NetAF.Serialization.GameSerialization.FromGame
+  nameWithType: GameSerialization.FromGame
 - uid: NetAF.Serialization.GameSerialization.InactivePlayerLocations
   name: InactivePlayerLocations
   href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_InactivePlayerLocations

@@ -110,6 +110,9 @@
       <a class="xref" href="NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Commands">ExaminableSerialization.Commands</a>
     </div>
     <div>
+      <a class="xref" href="NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_FromIExaminable_NetAF_Assets_IExaminable_">ExaminableSerialization.FromIExaminable(IExaminable)</a>
+    </div>
+    <div>
       <a class="xref" href="NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Restore_NetAF_Assets_IExaminable_">ExaminableSerialization.Restore(IExaminable)</a>
     </div>
     <div>
@@ -137,23 +140,23 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class ItemSerialization : ExaminableSerialization, IObjectSerialization&lt;IExaminable&gt;, IObjectSerialization&lt;Item&gt;</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Serialization_Assets_ItemSerialization__ctor_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Serialization.Assets.ItemSerialization.%23ctor(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Serialization_Assets_ItemSerialization_FromItem_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Serialization.Assets.ItemSerialization.FromItem(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Serialization/Assets/ItemSerialization.cs/#L9">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Serialization/Assets/ItemSerialization.cs/#L18">View Source</a>
   </span>
-  <a id="NetAF_Serialization_Assets_ItemSerialization__ctor_" data-uid="NetAF.Serialization.Assets.ItemSerialization.#ctor*"></a>
-  <h4 id="NetAF_Serialization_Assets_ItemSerialization__ctor_NetAF_Assets_Item_" data-uid="NetAF.Serialization.Assets.ItemSerialization.#ctor(NetAF.Assets.Item)">ItemSerialization(Item)</h4>
-  <div class="markdown level1 summary"><p>Represents a serialization of an Item.</p>
+  <a id="NetAF_Serialization_Assets_ItemSerialization_FromItem_" data-uid="NetAF.Serialization.Assets.ItemSerialization.FromItem*"></a>
+  <h4 id="NetAF_Serialization_Assets_ItemSerialization_FromItem_NetAF_Assets_Item_" data-uid="NetAF.Serialization.Assets.ItemSerialization.FromItem(NetAF.Assets.Item)">FromItem(Item)</h4>
+  <div class="markdown level1 summary"><p>Create a new serialization from an Item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemSerialization(Item item)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ItemSerialization FromItem(Item item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -168,19 +171,33 @@
       <tr>
         <td><a class="xref" href="NetAF.Assets.Item.html">Item</a></td>
         <td><span class="parametername">item</span></td>
-        <td><p>The item to serialize.</p>
+        <td><p>The Item to create the serialization from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-</h3>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Serialization.Assets.ItemSerialization.html">ItemSerialization</a></td>
+        <td><p>The serialization.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Serialization_Assets_ItemSerialization_Restore_NetAF_Assets_Item_.md&amp;value=---%0Auid%3A%20NetAF.Serialization.Assets.ItemSerialization.Restore(NetAF.Assets.Item)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Serialization/Assets/ItemSerialization.cs/#L17">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Serialization/Assets/ItemSerialization.cs/#L37">View Source</a>
   </span>
   <a id="NetAF_Serialization_Assets_ItemSerialization_Restore_" data-uid="NetAF.Serialization.Assets.ItemSerialization.Restore*"></a>
   <h4 id="NetAF_Serialization_Assets_ItemSerialization_Restore_NetAF_Assets_Item_" data-uid="NetAF.Serialization.Assets.ItemSerialization.Restore(NetAF.Assets.Item)">Restore(Item)</h4>
