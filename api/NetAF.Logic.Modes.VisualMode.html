@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class TextWriterPresenter | NetAF </title>
+      <title>Class VisualMode | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class TextWriterPresenter | NetAF ">
+      <meta name="title" content="Class VisualMode | NetAF ">
     
-    <meta name="description" content="Represents a presenter for TextWriter.">
+    <meta name="description" content="Provides a display mode for rendering of visual frame.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter">
+            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Modes.VisualMode">
 
 
 
-  <h1 id="NetAF_Rendering_Presenters_TextWriterPresenter" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter" class="text-break">Class TextWriterPresenter</h1>
-  <div class="markdown level0 summary"><p>Represents a presenter for TextWriter.</p>
+  <h1 id="NetAF_Logic_Modes_VisualMode" data-uid="NetAF.Logic.Modes.VisualMode" class="text-break">Class VisualMode</h1>
+  <div class="markdown level0 summary"><p>Provides a display mode for rendering of visual frame.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TextWriterPresenter</span></div>
+    <div class="level1"><span class="xref">VisualMode</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Rendering.Presenters.IFramePresenter.html">IFramePresenter</a></div>
+    <div><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -110,30 +110,33 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Rendering.Presenters.html">Presenters</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Rendering_Presenters_TextWriterPresenter_syntax">Syntax</h5>
+  <h5 id="NetAF_Logic_Modes_VisualMode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TextWriterPresenter : IFramePresenter</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class VisualMode : IGameMode</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenters_TextWriterPresenter__ctor_System_IO_TextWriter_.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenters.TextWriterPresenter.%23ctor(System.IO.TextWriter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_VisualMode__ctor_NetAF_Rendering_IFrame_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.VisualMode.%23ctor(NetAF.Rendering.IFrame)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/TextWriterPresenter.cs/#L9">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/VisualMode.cs/#L10">View Source</a>
   </span>
-  <a id="NetAF_Rendering_Presenters_TextWriterPresenter__ctor_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.#ctor*"></a>
-  <h4 id="NetAF_Rendering_Presenters_TextWriterPresenter__ctor_System_IO_TextWriter_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.#ctor(System.IO.TextWriter)">TextWriterPresenter(TextWriter)</h4>
-  <div class="markdown level1 summary"><p>Represents a presenter for TextWriter.</p>
+  <a id="NetAF_Logic_Modes_VisualMode__ctor_" data-uid="NetAF.Logic.Modes.VisualMode.#ctor*"></a>
+  <h4 id="NetAF_Logic_Modes_VisualMode__ctor_NetAF_Rendering_IFrame_" data-uid="NetAF.Logic.Modes.VisualMode.#ctor(NetAF.Rendering.IFrame)">VisualMode(IFrame)</h4>
+  <div class="markdown level1 summary"><p>Provides a display mode for rendering of visual frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextWriterPresenter(TextWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">public VisualMode(IFrame frame)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -146,10 +149,74 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter">TextWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td><p>The writer.</p>
+        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The frame to render.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_VisualMode_Interpreter.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.VisualMode.Interpreter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/VisualMode.cs/#L17">View Source</a>
+  </span>
+  <a id="NetAF_Logic_Modes_VisualMode_Interpreter_" data-uid="NetAF.Logic.Modes.VisualMode.Interpreter*"></a>
+  <h4 id="NetAF_Logic_Modes_VisualMode_Interpreter" data-uid="NetAF.Logic.Modes.VisualMode.Interpreter">Interpreter</h4>
+  <div class="markdown level1 summary"><p>Get the interpreter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IInterpreter Interpreter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_VisualMode_Type.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.VisualMode.Type%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/VisualMode.cs/#L22">View Source</a>
+  </span>
+  <a id="NetAF_Logic_Modes_VisualMode_Type_" data-uid="NetAF.Logic.Modes.VisualMode.Type*"></a>
+  <h4 id="NetAF_Logic_Modes_VisualMode_Type" data-uid="NetAF.Logic.Modes.VisualMode.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Get the type of mode this provides.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameModeType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Modes.GameModeType.html">GameModeType</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -157,53 +224,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenters_TextWriterPresenter_ToString.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenters.TextWriterPresenter.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_VisualMode_Render_NetAF_Logic_Game_.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.VisualMode.Render(NetAF.Logic.Game)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/TextWriterPresenter.cs/#L23">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/VisualMode.cs/#L28">View Source</a>
   </span>
-  <a id="NetAF_Rendering_Presenters_TextWriterPresenter_ToString_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.ToString*"></a>
-  <h4 id="NetAF_Rendering_Presenters_TextWriterPresenter_ToString" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.ToString">ToString()</h4>
-  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+  <a id="NetAF_Logic_Modes_VisualMode_Render_" data-uid="NetAF.Logic.Modes.VisualMode.Render*"></a>
+  <h4 id="NetAF_Logic_Modes_VisualMode_Render_NetAF_Logic_Game_" data-uid="NetAF.Logic.Modes.VisualMode.Render(NetAF.Logic.Game)">Render(Game)</h4>
+  <div class="markdown level1 summary"><p>Render the current state of a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>A string that represents the current object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenters_TextWriterPresenter_Write_System_Char_.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenters.TextWriterPresenter.Write(System.Char)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/TextWriterPresenter.cs/#L36">View Source</a>
-  </span>
-  <a id="NetAF_Rendering_Presenters_TextWriterPresenter_Write_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.Write*"></a>
-  <h4 id="NetAF_Rendering_Presenters_TextWriterPresenter_Write_System_Char_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.Write(System.Char)">Write(char)</h4>
-  <div class="markdown level1 summary"><p>Write a character.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Write(char value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Render(Game game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -216,50 +249,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The character to write.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenters_TextWriterPresenter_Write_System_String_.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenters.TextWriterPresenter.Write(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/TextWriterPresenter.cs/#L45">View Source</a>
-  </span>
-  <a id="NetAF_Rendering_Presenters_TextWriterPresenter_Write_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.Write*"></a>
-  <h4 id="NetAF_Rendering_Presenters_TextWriterPresenter_Write_System_String_" data-uid="NetAF.Rendering.Presenters.TextWriterPresenter.Write(System.String)">Write(string)</h4>
-  <div class="markdown level1 summary"><p>Write a string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Write(string value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The string to write.</p>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Rendering.Presenters.IFramePresenter.html">IFramePresenter</a>
+      <a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a>
   </div>
 
 </article>
@@ -270,10 +269,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Rendering_Presenters_TextWriterPresenter.md&amp;value=---%0Auid%3A%20NetAF.Rendering.Presenters.TextWriterPresenter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Logic_Modes_VisualMode.md&amp;value=---%0Auid%3A%20NetAF.Logic.Modes.VisualMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Rendering/Presenters/TextWriterPresenter.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Logic/Modes/VisualMode.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

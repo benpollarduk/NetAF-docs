@@ -162,6 +162,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.Examination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.Examination.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.ExaminationCallback.yml",
       "output": {
         ".html": {
@@ -176,16 +186,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Assets.ExaminationRequest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.ExaminationResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.ExaminationResult.html"
         }
       },
       "version": ""
@@ -406,16 +406,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Assets.Point3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Assets.Result.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Assets.Result.html"
         }
       },
       "version": ""
@@ -1442,6 +1432,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Modes.VisualMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Modes.VisualMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.yml",
       "output": {
         ".html": {
@@ -1512,140 +1512,240 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.AnsiColor.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.Ansi.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.AnsiColor.html"
+          "relative_path": "api/NetAF.Rendering.Console.Ansi.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.AnsiColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleAboutFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.AnsiColor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCommandListFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleCompletionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleConversationFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleGameOverFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleHelpFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleReactionFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRegionMapFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleRoomMapBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleSceneFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.ConsoleTitleFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.Console.yml",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.Console.html"
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.GridStringBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.GridStringBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.GridTextFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.GridTextFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.GridVisualBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.GridVisualBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.GridVisualFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.GridVisualFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.NetAFPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.NetAFPalette.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.TextWriterPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.TextWriterPresenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.Texture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.Texture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Console.html"
         }
       },
       "version": ""
@@ -1666,16 +1766,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.GridStringBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.GridStringBuilder.html"
         }
       },
       "version": ""
@@ -1802,6 +1892,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.FrameBuilders.SceneHelper.yml",
       "output": {
         ".html": {
@@ -1822,30 +1922,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Frames.GridTextFrame.yml",
+      "source_relative_path": "api/NetAF.Rendering.IFrame.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.Frames.GridTextFrame.html"
+          "relative_path": "api/NetAF.Rendering.IFrame.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Frames.IFrame.yml",
+      "source_relative_path": "api/NetAF.Rendering.IFramePresenter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.Frames.IFrame.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Frames.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Frames.html"
+          "relative_path": "api/NetAF.Rendering.IFramePresenter.html"
         }
       },
       "version": ""
@@ -1856,36 +1946,6 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Rendering.KeyType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Presenters.IFramePresenter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Presenters.IFramePresenter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Presenters.TextWriterPresenter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Presenters.TextWriterPresenter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Presenters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Presenters.html"
         }
       },
       "version": ""
