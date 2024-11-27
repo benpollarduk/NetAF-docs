@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Visuals | NetAF </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Visuals | NetAF ">
+    
+    
+      <link rel="shortcut icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="NetAF">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="visuals">Visuals</h1>
+
+<h2 id="overview">Overview</h2>
+<p>Although NetAF is primarily focused on text and interactive fiction, there are times where adding a visual can enrich the game.</p>
+<h2 id="gridvisualbuilder">GridVisualBuilder</h2>
+<p>The <em>GridVisualBuilder</em> class can be used to create a picture that can be displayed in a game:</p>
+<pre><code class="lang-csharp">// create a builder for drawing the tree
+var builder = new GridVisualBuilder(AnsiColor.Black, AnsiColor.BrightWhite);
+builder.Resize(new(80, 50));
+
+// colors to use for the tree
+AnsiColor trunk = new(127, 50, 50);
+AnsiColor canopy = new(50, 200, 50);
+
+// draw the tree
+builder.SetCell(5, 0, Canopy);
+builder.DrawRectangle(4, 1, 3, 1, canopy, canopy);
+builder.DrawRectangle(3, 2, 5, 1, canopy, canopy);
+builder.DrawRectangle(2, 3, 7, 1, canopy, canopy);
+builder.DrawRectangle(1, 4, 9, 1, canopy, canopy);
+builder.DrawRectangle(0, 5, 11, 1, canopy, canopy);
+builder.DrawRectangle(5, 5, 1, 6, trunk, trunk);
+
+// create a frame
+var frame = builder.Build(name, string.Empty, builder, size);
+
+// display the frame in the game
+game.ChangeMode(new VisualMode(frame));
+</code></pre>
+<h2 id="netafimaging">NetAF.Imaging</h2>
+<p>The <a href="https://github.com/benpollarduk/NetAF.Imaging">NetAF.Imaging</a> extension package can be used to extend the basic NetAF visual functions to allow conversion of images to visuals that can be displayed in a game.</p>
+<h3 id="visualhelper">VisualHelper</h3>
+<p>Generating visuals is made easy with the <em>VisualHelper</em> class. The following example generates a visual on the console:</p>
+<pre><code class="lang-csharp">var displaySize = new Size(80, 50);
+var adapter = new SystemConsoleAdapter();
+
+var frame = new GridVisualFrame(VisualHelper.FromImage(@&quot;C:\TestImage.jpg&quot;, displaySize, CellAspectRatio.Console));
+adapter.RenderFrame(frame);
+</code></pre>
+<p>This can be used in a game:</p>
+<pre><code class="lang-csharp">var frame = new GridVisualFrame(VisualHelper.FromImage(@&quot;C:\TestImage.jpg&quot;, displaySize, CellAspectRatio.Console));
+game.ChangeMode(new VisualMode(frame));
+</code></pre>
+<p>Here is a simple room that contains a command to look at the view.</p>
+<pre><code class="lang-csharp">return new Room(&quot;Hillside&quot;, &quot;A wild hillside with a lone tree&quot;, commands:
+[
+    new CustomCommand(new CommandHelp(&quot;Look at view&quot;, &quot;Look at the current view.&quot;), true, true, (game, args) =&gt;
+    {
+        var frame = new GridVisualFrame(VisualHelper.FromImage(@&quot;C:\TestImage.jpg&quot;, game.Configuration.DisplaySize, CellAspectRatio.Console));
+        game.ChangeMode(new VisualMode(frame));
+        return new(ReactionResult.GameModeChanged, string.Empty);
+    })
+ ]);
+</code></pre>
+<h3 id="applying-textures">Applying Textures</h3>
+<p>A texturizer can be applied to add extra depth to the image. The <em>ITextureizer</em> interface allows custom texturizers to be created. <em>BrightnessTexturizer</em> adds textures to the visual based on the background color.</p>
+<pre><code class="lang-csharp">var frame = new GridVisualFrame(VisualHelper.FromImage(@&quot;C:\TestImage.jpg&quot;, displaySize, CellAspectRatio.Console, new BrightnessTexturizer()));
+</code></pre>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/docs/docfx/docs/visuals.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

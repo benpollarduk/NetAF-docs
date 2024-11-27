@@ -2377,6 +2377,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/visuals.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/visuals.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "images/environments.png",
       "output": {

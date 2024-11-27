@@ -2299,15 +2299,15 @@ references:
   commentId: T:NetAF.Assets.Locations.Room
   fullName: NetAF.Assets.Locations.Room
   nameWithType: Room
-- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Room(Identifier, IDescription, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Description_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Description,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, IDescription, Description, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Description, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Description, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Room.Room(Identifier, IDescription, Description, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Room.New(Identifier, IDescription, Description, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: Room.Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: Room.New(Identifier, IDescription, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
   name: Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
