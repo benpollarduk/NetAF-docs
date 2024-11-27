@@ -133,7 +133,7 @@ game.ChangeMode(new VisualMode(frame));
  ]);
 </code></pre>
 <h3 id="applying-textures">Applying Textures</h3>
-<p>A texturizer can be applied to add extra depth to the image. The <em>ITextureizer</em> interface allows custom texturizers to be created. <em>BrightnessTexturizer</em> adds textures to the visual based on the background color.</p>
+<p>A texturizer can be applied to add extra depth to the image. The <em>ITexturizer</em> interface allows custom texturizers to be created. <em>BrightnessTexturizer</em> adds textures to the visual based on the background color.</p>
 <pre><code class="lang-csharp">var frame = new GridVisualFrame(VisualHelper.FromImage(@&quot;C:\TestImage.jpg&quot;, displaySize, CellAspectRatio.Console, new BrightnessTexturizer()));
 </code></pre>
 
