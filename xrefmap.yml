@@ -173,19 +173,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Attributes.Attribute.Description
   nameWithType: Attribute.Description
-- uid: NetAF.Assets.Attributes.Attribute.FromSerialization(NetAF.Serialization.Assets.AttributeSerialization)
-  name: FromSerialization(AttributeSerialization)
-  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_FromSerialization_NetAF_Serialization_Assets_AttributeSerialization_
-  commentId: M:NetAF.Assets.Attributes.Attribute.FromSerialization(NetAF.Serialization.Assets.AttributeSerialization)
-  fullName: NetAF.Assets.Attributes.Attribute.FromSerialization(NetAF.Serialization.Assets.AttributeSerialization)
-  nameWithType: Attribute.FromSerialization(AttributeSerialization)
-- uid: NetAF.Assets.Attributes.Attribute.FromSerialization*
-  name: FromSerialization
-  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_FromSerialization_
-  commentId: Overload:NetAF.Assets.Attributes.Attribute.FromSerialization
-  isSpec: "True"
-  fullName: NetAF.Assets.Attributes.Attribute.FromSerialization
-  nameWithType: Attribute.FromSerialization
 - uid: NetAF.Assets.Attributes.Attribute.Maximum
   name: Maximum
   href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_Maximum
@@ -225,19 +212,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Attributes.Attribute.Name
   nameWithType: Attribute.Name
-- uid: NetAF.Assets.Attributes.Attribute.RestoreFrom(NetAF.Serialization.Assets.AttributeSerialization)
-  name: RestoreFrom(AttributeSerialization)
-  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_RestoreFrom_NetAF_Serialization_Assets_AttributeSerialization_
-  commentId: M:NetAF.Assets.Attributes.Attribute.RestoreFrom(NetAF.Serialization.Assets.AttributeSerialization)
-  fullName: NetAF.Assets.Attributes.Attribute.RestoreFrom(NetAF.Serialization.Assets.AttributeSerialization)
-  nameWithType: Attribute.RestoreFrom(AttributeSerialization)
-- uid: NetAF.Assets.Attributes.Attribute.RestoreFrom*
-  name: RestoreFrom
-  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_RestoreFrom_
-  commentId: Overload:NetAF.Assets.Attributes.Attribute.RestoreFrom
-  isSpec: "True"
-  fullName: NetAF.Assets.Attributes.Attribute.RestoreFrom
-  nameWithType: Attribute.RestoreFrom
 - uid: NetAF.Assets.Attributes.AttributeManager
   name: AttributeManager
   href: api/NetAF.Assets.Attributes.AttributeManager.html
@@ -857,6 +831,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.ExaminableObject.Commands
   nameWithType: ExaminableObject.Commands
+- uid: NetAF.Assets.ExaminableObject.DefaultExamination
+  name: DefaultExamination
+  href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_DefaultExamination
+  commentId: P:NetAF.Assets.ExaminableObject.DefaultExamination
+  fullName: NetAF.Assets.ExaminableObject.DefaultExamination
+  nameWithType: ExaminableObject.DefaultExamination
+- uid: NetAF.Assets.ExaminableObject.DefaultExamination*
+  name: DefaultExamination
+  href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_DefaultExamination_
+  commentId: Overload:NetAF.Assets.ExaminableObject.DefaultExamination
+  isSpec: "True"
+  fullName: NetAF.Assets.ExaminableObject.DefaultExamination
+  nameWithType: ExaminableObject.DefaultExamination
 - uid: NetAF.Assets.ExaminableObject.Description
   name: Description
   href: api/NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_Description
@@ -1956,19 +1943,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Overworld.CurrentRegion
   nameWithType: Overworld.CurrentRegion
-- uid: NetAF.Assets.Locations.Overworld.Examine(NetAF.Assets.ExaminationScene)
-  name: Examine(ExaminationScene)
-  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_Examine_NetAF_Assets_ExaminationScene_
-  commentId: M:NetAF.Assets.Locations.Overworld.Examine(NetAF.Assets.ExaminationScene)
-  fullName: NetAF.Assets.Locations.Overworld.Examine(NetAF.Assets.ExaminationScene)
-  nameWithType: Overworld.Examine(ExaminationScene)
-- uid: NetAF.Assets.Locations.Overworld.Examine*
-  name: Examine
-  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_Examine_
-  commentId: Overload:NetAF.Assets.Locations.Overworld.Examine
+- uid: NetAF.Assets.Locations.Overworld.DefaultOverworldExamination
+  name: DefaultOverworldExamination
+  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_DefaultOverworldExamination
+  commentId: P:NetAF.Assets.Locations.Overworld.DefaultOverworldExamination
+  fullName: NetAF.Assets.Locations.Overworld.DefaultOverworldExamination
+  nameWithType: Overworld.DefaultOverworldExamination
+- uid: NetAF.Assets.Locations.Overworld.DefaultOverworldExamination*
+  name: DefaultOverworldExamination
+  href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_DefaultOverworldExamination_
+  commentId: Overload:NetAF.Assets.Locations.Overworld.DefaultOverworldExamination
   isSpec: "True"
-  fullName: NetAF.Assets.Locations.Overworld.Examine
-  nameWithType: Overworld.Examine
+  fullName: NetAF.Assets.Locations.Overworld.DefaultOverworldExamination
+  nameWithType: Overworld.DefaultOverworldExamination
 - uid: NetAF.Assets.Locations.Overworld.FindRegion(System.String,NetAF.Assets.Locations.Region@)
   name: FindRegion(string, out Region)
   href: api/NetAF.Assets.Locations.Overworld.html#NetAF_Assets_Locations_Overworld_FindRegion_System_String_NetAF_Assets_Locations_Region__
@@ -2100,19 +2087,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Region.CurrentRoom
   nameWithType: Region.CurrentRoom
-- uid: NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)
-  name: Examine(ExaminationScene)
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_Examine_NetAF_Assets_ExaminationScene_
-  commentId: M:NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)
-  fullName: NetAF.Assets.Locations.Region.Examine(NetAF.Assets.ExaminationScene)
-  nameWithType: Region.Examine(ExaminationScene)
-- uid: NetAF.Assets.Locations.Region.Examine*
-  name: Examine
-  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_Examine_
-  commentId: Overload:NetAF.Assets.Locations.Region.Examine
+- uid: NetAF.Assets.Locations.Region.DefaultRegionExamination
+  name: DefaultRegionExamination
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_DefaultRegionExamination
+  commentId: P:NetAF.Assets.Locations.Region.DefaultRegionExamination
+  fullName: NetAF.Assets.Locations.Region.DefaultRegionExamination
+  nameWithType: Region.DefaultRegionExamination
+- uid: NetAF.Assets.Locations.Region.DefaultRegionExamination*
+  name: DefaultRegionExamination
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_DefaultRegionExamination_
+  commentId: Overload:NetAF.Assets.Locations.Region.DefaultRegionExamination
   isSpec: "True"
-  fullName: NetAF.Assets.Locations.Region.Examine
-  nameWithType: Region.Examine
+  fullName: NetAF.Assets.Locations.Region.DefaultRegionExamination
+  nameWithType: Region.DefaultRegionExamination
 - uid: NetAF.Assets.Locations.Region.GetAdjoiningRoom(NetAF.Assets.Locations.Direction)
   name: GetAdjoiningRoom(Direction)
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_GetAdjoiningRoom_NetAF_Assets_Locations_Direction_
@@ -2485,6 +2472,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.ContainsItem
   nameWithType: Room.ContainsItem
+- uid: NetAF.Assets.Locations.Room.DefaultRoomExamination
+  name: DefaultRoomExamination
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_DefaultRoomExamination
+  commentId: P:NetAF.Assets.Locations.Room.DefaultRoomExamination
+  fullName: NetAF.Assets.Locations.Room.DefaultRoomExamination
+  nameWithType: Room.DefaultRoomExamination
+- uid: NetAF.Assets.Locations.Room.DefaultRoomExamination*
+  name: DefaultRoomExamination
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_DefaultRoomExamination_
+  commentId: Overload:NetAF.Assets.Locations.Room.DefaultRoomExamination
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Room.DefaultRoomExamination
+  nameWithType: Room.DefaultRoomExamination
 - uid: NetAF.Assets.Locations.Room.EnteredFrom
   name: EnteredFrom
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_EnteredFrom
@@ -2498,19 +2498,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.EnteredFrom
   nameWithType: Room.EnteredFrom
-- uid: NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)
-  name: Examine(ExaminationScene)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Examine_NetAF_Assets_ExaminationScene_
-  commentId: M:NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)
-  fullName: NetAF.Assets.Locations.Room.Examine(NetAF.Assets.ExaminationScene)
-  nameWithType: Room.Examine(ExaminationScene)
-- uid: NetAF.Assets.Locations.Room.Examine*
-  name: Examine
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Examine_
-  commentId: Overload:NetAF.Assets.Locations.Room.Examine
-  isSpec: "True"
-  fullName: NetAF.Assets.Locations.Room.Examine
-  nameWithType: Room.Examine
 - uid: NetAF.Assets.Locations.Room.Exits
   name: Exits
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Exits
@@ -11975,6 +11962,109 @@ references:
   commentId: N:NetAF.Serialization.Assets
   fullName: NetAF.Serialization.Assets
   nameWithType: NetAF.Serialization.Assets
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization
+  name: AttributeAndValueSerialization
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html
+  commentId: T:NetAF.Serialization.Assets.AttributeAndValueSerialization
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization
+  nameWithType: AttributeAndValueSerialization
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Description
+  name: Description
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Description
+  commentId: P:NetAF.Serialization.Assets.AttributeAndValueSerialization.Description
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Description
+  nameWithType: AttributeAndValueSerialization.Description
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Description*
+  name: Description
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Description_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Description
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Description
+  nameWithType: AttributeAndValueSerialization.Description
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue(System.Collections.Generic.KeyValuePair{NetAF.Assets.Attributes.Attribute,System.Int32})
+  name: FromAttributeAndValue(KeyValuePair<Attribute, int>)
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_FromAttributeAndValue_System_Collections_Generic_KeyValuePair_NetAF_Assets_Attributes_Attribute_System_Int32__
+  commentId: M:NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue(System.Collections.Generic.KeyValuePair{NetAF.Assets.Attributes.Attribute,System.Int32})
+  name.vb: FromAttributeAndValue(KeyValuePair(Of Attribute, Integer))
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue(System.Collections.Generic.KeyValuePair<NetAF.Assets.Attributes.Attribute, int>)
+  fullName.vb: NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue(System.Collections.Generic.KeyValuePair(Of NetAF.Assets.Attributes.Attribute, Integer))
+  nameWithType: AttributeAndValueSerialization.FromAttributeAndValue(KeyValuePair<Attribute, int>)
+  nameWithType.vb: AttributeAndValueSerialization.FromAttributeAndValue(KeyValuePair(Of Attribute, Integer))
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue*
+  name: FromAttributeAndValue
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_FromAttributeAndValue_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue
+  nameWithType: AttributeAndValueSerialization.FromAttributeAndValue
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum
+  name: Maximum
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Maximum
+  commentId: P:NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum
+  nameWithType: AttributeAndValueSerialization.Maximum
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum*
+  name: Maximum
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Maximum_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum
+  nameWithType: AttributeAndValueSerialization.Maximum
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Minimum
+  name: Minimum
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Minimum
+  commentId: P:NetAF.Serialization.Assets.AttributeAndValueSerialization.Minimum
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Minimum
+  nameWithType: AttributeAndValueSerialization.Minimum
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Minimum*
+  name: Minimum
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Minimum_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Minimum
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Minimum
+  nameWithType: AttributeAndValueSerialization.Minimum
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Name
+  name: Name
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Name
+  commentId: P:NetAF.Serialization.Assets.AttributeAndValueSerialization.Name
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Name
+  nameWithType: AttributeAndValueSerialization.Name
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Name*
+  name: Name
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Name_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Name
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Name
+  nameWithType: AttributeAndValueSerialization.Name
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair{NetAF.Assets.Attributes.Attribute,System.Int32})
+  name: Restore(KeyValuePair<Attribute, int>)
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Restore_System_Collections_Generic_KeyValuePair_NetAF_Assets_Attributes_Attribute_System_Int32__
+  commentId: M:NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair{NetAF.Assets.Attributes.Attribute,System.Int32})
+  name.vb: Restore(KeyValuePair(Of Attribute, Integer))
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair<NetAF.Assets.Attributes.Attribute, int>)
+  fullName.vb: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair(Of NetAF.Assets.Attributes.Attribute, Integer))
+  nameWithType: AttributeAndValueSerialization.Restore(KeyValuePair<Attribute, int>)
+  nameWithType.vb: AttributeAndValueSerialization.Restore(KeyValuePair(Of Attribute, Integer))
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore*
+  name: Restore
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Restore_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore
+  nameWithType: AttributeAndValueSerialization.Restore
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Value
+  name: Value
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Value
+  commentId: P:NetAF.Serialization.Assets.AttributeAndValueSerialization.Value
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Value
+  nameWithType: AttributeAndValueSerialization.Value
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Value*
+  name: Value
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Value_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Value
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Value
+  nameWithType: AttributeAndValueSerialization.Value
 - uid: NetAF.Serialization.Assets.AttributeManagerSerialization
   name: AttributeManagerSerialization
   href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html
@@ -12020,90 +12110,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.Values
   nameWithType: AttributeManagerSerialization.Values
-- uid: NetAF.Serialization.Assets.AttributeSerialization
-  name: AttributeSerialization
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html
-  commentId: T:NetAF.Serialization.Assets.AttributeSerialization
-  fullName: NetAF.Serialization.Assets.AttributeSerialization
-  nameWithType: AttributeSerialization
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Description
-  name: Description
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Description
-  commentId: P:NetAF.Serialization.Assets.AttributeSerialization.Description
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Description
-  nameWithType: AttributeSerialization.Description
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Description*
-  name: Description
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Description_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.Description
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Description
-  nameWithType: AttributeSerialization.Description
-- uid: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute(NetAF.Assets.Attributes.Attribute)
-  name: FromAttribute(Attribute)
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_FromAttribute_NetAF_Assets_Attributes_Attribute_
-  commentId: M:NetAF.Serialization.Assets.AttributeSerialization.FromAttribute(NetAF.Assets.Attributes.Attribute)
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute(NetAF.Assets.Attributes.Attribute)
-  nameWithType: AttributeSerialization.FromAttribute(Attribute)
-- uid: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute*
-  name: FromAttribute
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_FromAttribute_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.FromAttribute
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.FromAttribute
-  nameWithType: AttributeSerialization.FromAttribute
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Maximum
-  name: Maximum
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Maximum
-  commentId: P:NetAF.Serialization.Assets.AttributeSerialization.Maximum
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Maximum
-  nameWithType: AttributeSerialization.Maximum
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Maximum*
-  name: Maximum
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Maximum_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.Maximum
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Maximum
-  nameWithType: AttributeSerialization.Maximum
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Minimum
-  name: Minimum
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Minimum
-  commentId: P:NetAF.Serialization.Assets.AttributeSerialization.Minimum
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Minimum
-  nameWithType: AttributeSerialization.Minimum
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Minimum*
-  name: Minimum
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Minimum_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.Minimum
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Minimum
-  nameWithType: AttributeSerialization.Minimum
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Name
-  name: Name
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Name
-  commentId: P:NetAF.Serialization.Assets.AttributeSerialization.Name
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Name
-  nameWithType: AttributeSerialization.Name
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Name*
-  name: Name
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Name_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.Name
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Name
-  nameWithType: AttributeSerialization.Name
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Restore(NetAF.Assets.Attributes.Attribute)
-  name: Restore(Attribute)
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Restore_NetAF_Assets_Attributes_Attribute_
-  commentId: M:NetAF.Serialization.Assets.AttributeSerialization.Restore(NetAF.Assets.Attributes.Attribute)
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Restore(NetAF.Assets.Attributes.Attribute)
-  nameWithType: AttributeSerialization.Restore(Attribute)
-- uid: NetAF.Serialization.Assets.AttributeSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.AttributeSerialization.html#NetAF_Serialization_Assets_AttributeSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeSerialization.Restore
-  nameWithType: AttributeSerialization.Restore
 - uid: NetAF.Serialization.Assets.CharacterSerialization
   name: CharacterSerialization
   href: api/NetAF.Serialization.Assets.CharacterSerialization.html

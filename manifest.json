@@ -1972,20 +1972,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.yml",
+      "source_relative_path": "api/NetAF.Serialization.Assets.AttributeAndValueSerialization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.html"
+          "relative_path": "api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Assets.AttributeSerialization.yml",
+      "source_relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Serialization.Assets.AttributeSerialization.html"
+          "relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.html"
         }
       },
       "version": ""
