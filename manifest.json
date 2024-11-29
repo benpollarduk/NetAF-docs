@@ -2447,6 +2447,46 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/visuals-tree-original.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/visuals-tree-original.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visuals-tree-with-texture.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visuals-tree-with-texture.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visuals-tree-without-texture.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visuals-tree-without-texture.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visuals-tree.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visuals-tree.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
