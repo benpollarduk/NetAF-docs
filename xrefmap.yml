@@ -243,6 +243,28 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Attributes.AttributeManager.Add
   nameWithType: AttributeManager.Add
+- uid: NetAF.Assets.Attributes.AttributeManager.Any(NetAF.Assets.Attributes.Attribute)
+  name: Any(Attribute)
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Any_NetAF_Assets_Attributes_Attribute_
+  commentId: M:NetAF.Assets.Attributes.AttributeManager.Any(NetAF.Assets.Attributes.Attribute)
+  fullName: NetAF.Assets.Attributes.AttributeManager.Any(NetAF.Assets.Attributes.Attribute)
+  nameWithType: AttributeManager.Any(Attribute)
+- uid: NetAF.Assets.Attributes.AttributeManager.Any(System.String)
+  name: Any(string)
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Any_System_String_
+  commentId: M:NetAF.Assets.Attributes.AttributeManager.Any(System.String)
+  name.vb: Any(String)
+  fullName: NetAF.Assets.Attributes.AttributeManager.Any(string)
+  fullName.vb: NetAF.Assets.Attributes.AttributeManager.Any(String)
+  nameWithType: AttributeManager.Any(string)
+  nameWithType.vb: AttributeManager.Any(String)
+- uid: NetAF.Assets.Attributes.AttributeManager.Any*
+  name: Any
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Any_
+  commentId: Overload:NetAF.Assets.Attributes.AttributeManager.Any
+  isSpec: "True"
+  fullName: NetAF.Assets.Attributes.AttributeManager.Any
+  nameWithType: AttributeManager.Any
 - uid: NetAF.Assets.Attributes.AttributeManager.Count
   name: Count
   href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Count
@@ -6633,19 +6655,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.Default
   nameWithType: ConsoleGameConfiguration.Default
-- uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplayCommandListInSceneFrames
-  name: DisplayCommandListInSceneFrames
-  href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_DisplayCommandListInSceneFrames
-  commentId: P:NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplayCommandListInSceneFrames
-  fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplayCommandListInSceneFrames
-  nameWithType: ConsoleGameConfiguration.DisplayCommandListInSceneFrames
-- uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplayCommandListInSceneFrames*
-  name: DisplayCommandListInSceneFrames
-  href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_DisplayCommandListInSceneFrames_
-  commentId: Overload:NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplayCommandListInSceneFrames
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplayCommandListInSceneFrames
-  nameWithType: ConsoleGameConfiguration.DisplayCommandListInSceneFrames
 - uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.DisplaySize
   name: DisplaySize
   href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_DisplaySize
@@ -6698,19 +6707,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.Interpreter
   nameWithType: ConsoleGameConfiguration.Interpreter
-- uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.SceneMapKeyType
-  name: SceneMapKeyType
-  href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_SceneMapKeyType
-  commentId: P:NetAF.Logic.Configuration.ConsoleGameConfiguration.SceneMapKeyType
-  fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.SceneMapKeyType
-  nameWithType: ConsoleGameConfiguration.SceneMapKeyType
-- uid: NetAF.Logic.Configuration.ConsoleGameConfiguration.SceneMapKeyType*
-  name: SceneMapKeyType
-  href: api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html#NetAF_Logic_Configuration_ConsoleGameConfiguration_SceneMapKeyType_
-  commentId: Overload:NetAF.Logic.Configuration.ConsoleGameConfiguration.SceneMapKeyType
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.ConsoleGameConfiguration.SceneMapKeyType
-  nameWithType: ConsoleGameConfiguration.SceneMapKeyType
 - uid: NetAF.Logic.Configuration.IGameConfiguration
   name: IGameConfiguration
   href: api/NetAF.Logic.Configuration.IGameConfiguration.html
@@ -6730,19 +6726,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Configuration.IGameConfiguration.Adapter
   nameWithType: IGameConfiguration.Adapter
-- uid: NetAF.Logic.Configuration.IGameConfiguration.DisplayCommandListInSceneFrames
-  name: DisplayCommandListInSceneFrames
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_DisplayCommandListInSceneFrames
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.DisplayCommandListInSceneFrames
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.DisplayCommandListInSceneFrames
-  nameWithType: IGameConfiguration.DisplayCommandListInSceneFrames
-- uid: NetAF.Logic.Configuration.IGameConfiguration.DisplayCommandListInSceneFrames*
-  name: DisplayCommandListInSceneFrames
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_DisplayCommandListInSceneFrames_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.DisplayCommandListInSceneFrames
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.DisplayCommandListInSceneFrames
-  nameWithType: IGameConfiguration.DisplayCommandListInSceneFrames
 - uid: NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
   name: DisplaySize
   href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_DisplaySize
@@ -6795,19 +6778,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Configuration.IGameConfiguration.Interpreter
   nameWithType: IGameConfiguration.Interpreter
-- uid: NetAF.Logic.Configuration.IGameConfiguration.SceneMapKeyType
-  name: SceneMapKeyType
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_SceneMapKeyType
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.SceneMapKeyType
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.SceneMapKeyType
-  nameWithType: IGameConfiguration.SceneMapKeyType
-- uid: NetAF.Logic.Configuration.IGameConfiguration.SceneMapKeyType*
-  name: SceneMapKeyType
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_SceneMapKeyType_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.SceneMapKeyType
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.SceneMapKeyType
-  nameWithType: IGameConfiguration.SceneMapKeyType
 - uid: NetAF.Logic.EndCheck
   name: EndCheck
   href: api/NetAF.Logic.EndCheck.html
@@ -7949,6 +7919,19 @@ references:
   commentId: T:NetAF.Logic.Modes.SceneMode
   fullName: NetAF.Logic.Modes.SceneMode
   nameWithType: SceneMode
+- uid: NetAF.Logic.Modes.SceneMode.DisplayCommandList
+  name: DisplayCommandList
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_DisplayCommandList
+  commentId: P:NetAF.Logic.Modes.SceneMode.DisplayCommandList
+  fullName: NetAF.Logic.Modes.SceneMode.DisplayCommandList
+  nameWithType: SceneMode.DisplayCommandList
+- uid: NetAF.Logic.Modes.SceneMode.DisplayCommandList*
+  name: DisplayCommandList
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_DisplayCommandList_
+  commentId: Overload:NetAF.Logic.Modes.SceneMode.DisplayCommandList
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.SceneMode.DisplayCommandList
+  nameWithType: SceneMode.DisplayCommandList
 - uid: NetAF.Logic.Modes.SceneMode.Interpreter
   name: Interpreter
   href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Interpreter
@@ -7962,6 +7945,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.SceneMode.Interpreter
   nameWithType: SceneMode.Interpreter
+- uid: NetAF.Logic.Modes.SceneMode.KeyType
+  name: KeyType
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_KeyType
+  commentId: P:NetAF.Logic.Modes.SceneMode.KeyType
+  fullName: NetAF.Logic.Modes.SceneMode.KeyType
+  nameWithType: SceneMode.KeyType
+- uid: NetAF.Logic.Modes.SceneMode.KeyType*
+  name: KeyType
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_KeyType_
+  commentId: Overload:NetAF.Logic.Modes.SceneMode.KeyType
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.SceneMode.KeyType
+  nameWithType: SceneMode.KeyType
 - uid: NetAF.Logic.Modes.SceneMode.Render(NetAF.Logic.Game)
   name: Render(Game)
   href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_Render_NetAF_Logic_Game_
