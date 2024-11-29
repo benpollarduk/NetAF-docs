@@ -1816,6 +1816,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Matrix.FindAllRoomsOnZ
   nameWithType: Matrix.FindAllRoomsOnZ
+- uid: NetAF.Assets.Locations.Matrix.FindAllZWithVisitedRooms
+  name: FindAllZWithVisitedRooms()
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_FindAllZWithVisitedRooms
+  commentId: M:NetAF.Assets.Locations.Matrix.FindAllZWithVisitedRooms
+  fullName: NetAF.Assets.Locations.Matrix.FindAllZWithVisitedRooms()
+  nameWithType: Matrix.FindAllZWithVisitedRooms()
+- uid: NetAF.Assets.Locations.Matrix.FindAllZWithVisitedRooms*
+  name: FindAllZWithVisitedRooms
+  href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_FindAllZWithVisitedRooms_
+  commentId: Overload:NetAF.Assets.Locations.Matrix.FindAllZWithVisitedRooms
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Matrix.FindAllZWithVisitedRooms
+  nameWithType: Matrix.FindAllZWithVisitedRooms
 - uid: NetAF.Assets.Locations.Matrix.Height
   name: Height
   href: api/NetAF.Assets.Locations.Matrix.html#NetAF_Assets_Locations_Matrix_Height
