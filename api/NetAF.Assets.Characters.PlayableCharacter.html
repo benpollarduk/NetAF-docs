@@ -97,8 +97,6 @@
     <div><a class="xref" href="NetAF.Assets.IItemContainer.html">IItemContainer</a></div>
     <div><a class="xref" href="NetAF.Assets.IExaminable.html">IExaminable</a></div>
     <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
-    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.ExaminableSerialization.html">ExaminableSerialization</a>&gt;</div>
-    <div><a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization</a>&lt;<a class="xref" href="NetAF.Serialization.Assets.CharacterSerialization.html">CharacterSerialization</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -133,9 +131,6 @@
       <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_RemoveItem_NetAF_Assets_Item_">Character.RemoveItem(Item)</a>
     </div>
     <div>
-      <a class="xref" href="NetAF.Assets.Characters.Character.html#NetAF_Assets_Characters_Character_RestoreFrom_NetAF_Serialization_Assets_CharacterSerialization_">Character.RestoreFrom(CharacterSerialization)</a>
-    </div>
-    <div>
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_DefaultExamination">ExaminableObject.DefaultExamination</a>
     </div>
     <div>
@@ -160,9 +155,6 @@
       <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_IsPlayerVisible">ExaminableObject.IsPlayerVisible</a>
     </div>
     <div>
-      <a class="xref" href="NetAF.Assets.ExaminableObject.html#NetAF_Assets_ExaminableObject_RestoreFrom_NetAF_Serialization_Assets_ExaminableSerialization_">ExaminableObject.RestoreFrom(ExaminableSerialization)</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
@@ -185,7 +177,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Assets_Characters_PlayableCharacter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class PlayableCharacter : Character, IInteractWithItem, IItemContainer, IExaminable, IPlayerVisible, IRestoreFromObjectSerialization&lt;ExaminableSerialization&gt;, IRestoreFromObjectSerialization&lt;CharacterSerialization&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PlayableCharacter : Character, IInteractWithItem, IItemContainer, IExaminable, IPlayerVisible</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -502,12 +494,6 @@
   </div>
   <div>
       <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
-  </div>
-  <div>
-      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
-  </div>
-  <div>
-      <a class="xref" href="NetAF.Serialization.IRestoreFromObjectSerialization-1.html">IRestoreFromObjectSerialization&lt;T&gt;</a>
   </div>
 
 </article>
