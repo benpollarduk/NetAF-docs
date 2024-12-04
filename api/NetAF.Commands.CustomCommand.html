@@ -95,6 +95,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a></div>
     <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -124,7 +125,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Commands_CustomCommand_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CustomCommand : ICommand, IPlayerVisible</code></pre>
+    <pre><code class="lang-csharp hljs">public class CustomCommand : ICommand, IPlayerVisible, ICloneable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -133,7 +134,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand__ctor_NetAF_Commands_CommandHelp_System_Boolean_System_Boolean_NetAF_Commands_CustomCommandCallback_.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.%23ctor(NetAF.Commands.CommandHelp%2CSystem.Boolean%2CSystem.Boolean%2CNetAF.Commands.CustomCommandCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L13">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L14">View Source</a>
   </span>
   <a id="NetAF_Commands_CustomCommand__ctor_" data-uid="NetAF.Commands.CustomCommand.#ctor*"></a>
   <h4 id="NetAF_Commands_CustomCommand__ctor_NetAF_Commands_CommandHelp_System_Boolean_System_Boolean_NetAF_Commands_CustomCommandCallback_" data-uid="NetAF.Commands.CustomCommand.#ctor(NetAF.Commands.CommandHelp,System.Boolean,System.Boolean,NetAF.Commands.CustomCommandCallback)">CustomCommand(CommandHelp, bool, bool, CustomCommandCallback)</h4>
@@ -187,7 +188,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand_Arguments.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.Arguments%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L25">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L26">View Source</a>
   </span>
   <a id="NetAF_Commands_CustomCommand_Arguments_" data-uid="NetAF.Commands.CustomCommand.Arguments*"></a>
   <h4 id="NetAF_Commands_CustomCommand_Arguments" data-uid="NetAF.Commands.CustomCommand.Arguments">Arguments</h4>
@@ -218,7 +219,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand_Help.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.Help%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L30">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L31">View Source</a>
   </span>
   <a id="NetAF_Commands_CustomCommand_Help_" data-uid="NetAF.Commands.CustomCommand.Help*"></a>
   <h4 id="NetAF_Commands_CustomCommand_Help" data-uid="NetAF.Commands.CustomCommand.Help">Help</h4>
@@ -249,7 +250,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L35">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L36">View Source</a>
   </span>
   <a id="NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible_" data-uid="NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible*"></a>
   <h4 id="NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible" data-uid="NetAF.Commands.CustomCommand.InterpretIfNotPlayerVisible">InterpretIfNotPlayerVisible</h4>
@@ -280,7 +281,7 @@
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand_IsPlayerVisible.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.IsPlayerVisible%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L58">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L59">View Source</a>
   </span>
   <a id="NetAF_Commands_CustomCommand_IsPlayerVisible_" data-uid="NetAF.Commands.CustomCommand.IsPlayerVisible*"></a>
   <h4 id="NetAF_Commands_CustomCommand_IsPlayerVisible" data-uid="NetAF.Commands.CustomCommand.IsPlayerVisible">IsPlayerVisible</h4>
@@ -310,10 +311,42 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand_Clone.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.Clone%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L82">View Source</a>
+  </span>
+  <a id="NetAF_Commands_CustomCommand_Clone_" data-uid="NetAF.Commands.CustomCommand.Clone*"></a>
+  <h4 id="NetAF_Commands_CustomCommand_Clone" data-uid="NetAF.Commands.CustomCommand.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Creates a new object that is a copy of the current instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><p>A new object that is a copy of this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand_Invoke_NetAF_Logic_Game_.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand.Invoke(NetAF.Logic.Game)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L46">View Source</a>
+    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L47">View Source</a>
   </span>
   <a id="NetAF_Commands_CustomCommand_Invoke_" data-uid="NetAF.Commands.CustomCommand.Invoke*"></a>
   <h4 id="NetAF_Commands_CustomCommand_Invoke_NetAF_Logic_Game_" data-uid="NetAF.Commands.CustomCommand.Invoke(NetAF.Logic.Game)">Invoke(Game)</h4>
@@ -365,6 +398,9 @@
   <div>
       <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
   </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a>
+  </div>
 
 </article>
           </div>
@@ -377,7 +413,7 @@
                     <a href="https://github.com/benpollarduk/NetAF/new/main/apiSpec/new?filename=NetAF_Commands_CustomCommand.md&amp;value=---%0Auid%3A%20NetAF.Commands.CustomCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/benpollarduk/NetAF/blob/main/NetAF/Commands/CustomCommand.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

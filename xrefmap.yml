@@ -3298,6 +3298,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CustomCommand.Arguments
   nameWithType: CustomCommand.Arguments
+- uid: NetAF.Commands.CustomCommand.Clone
+  name: Clone()
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Clone
+  commentId: M:NetAF.Commands.CustomCommand.Clone
+  fullName: NetAF.Commands.CustomCommand.Clone()
+  nameWithType: CustomCommand.Clone()
+- uid: NetAF.Commands.CustomCommand.Clone*
+  name: Clone
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Clone_
+  commentId: Overload:NetAF.Commands.CustomCommand.Clone
+  isSpec: "True"
+  fullName: NetAF.Commands.CustomCommand.Clone
+  nameWithType: CustomCommand.Clone
 - uid: NetAF.Commands.CustomCommand.Help
   name: Help
   href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Help
@@ -11889,22 +11902,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Name
   nameWithType: AttributeAndValueSerialization.Name
-- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair{NetAF.Assets.Attributes.Attribute,System.Int32})
-  name: Restore(KeyValuePair<Attribute, int>)
-  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Restore_System_Collections_Generic_KeyValuePair_NetAF_Assets_Attributes_Attribute_System_Int32__
-  commentId: M:NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair{NetAF.Assets.Attributes.Attribute,System.Int32})
-  name.vb: Restore(KeyValuePair(Of Attribute, Integer))
-  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair<NetAF.Assets.Attributes.Attribute, int>)
-  fullName.vb: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore(System.Collections.Generic.KeyValuePair(Of NetAF.Assets.Attributes.Attribute, Integer))
-  nameWithType: AttributeAndValueSerialization.Restore(KeyValuePair<Attribute, int>)
-  nameWithType.vb: AttributeAndValueSerialization.Restore(KeyValuePair(Of Attribute, Integer))
-- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.Restore
-  nameWithType: AttributeAndValueSerialization.Restore
 - uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Value
   name: Value
   href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Value
@@ -11937,19 +11934,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.FromAttributeManager
   nameWithType: AttributeManagerSerialization.FromAttributeManager
-- uid: NetAF.Serialization.Assets.AttributeManagerSerialization.Restore(NetAF.Assets.Attributes.AttributeManager)
-  name: Restore(AttributeManager)
-  href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization_Restore_NetAF_Assets_Attributes_AttributeManager_
-  commentId: M:NetAF.Serialization.Assets.AttributeManagerSerialization.Restore(NetAF.Assets.Attributes.AttributeManager)
-  fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.Restore(NetAF.Assets.Attributes.AttributeManager)
-  nameWithType: AttributeManagerSerialization.Restore(AttributeManager)
-- uid: NetAF.Serialization.Assets.AttributeManagerSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.AttributeManagerSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.AttributeManagerSerialization.Restore
-  nameWithType: AttributeManagerSerialization.Restore
 - uid: NetAF.Serialization.Assets.AttributeManagerSerialization.Values
   name: Values
   href: api/NetAF.Serialization.Assets.AttributeManagerSerialization.html#NetAF_Serialization_Assets_AttributeManagerSerialization_Values
@@ -12008,19 +11992,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.CharacterSerialization.Items
   nameWithType: CharacterSerialization.Items
-- uid: NetAF.Serialization.Assets.CharacterSerialization.Restore(NetAF.Assets.Characters.Character)
-  name: Restore(Character)
-  href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization_Restore_NetAF_Assets_Characters_Character_
-  commentId: M:NetAF.Serialization.Assets.CharacterSerialization.Restore(NetAF.Assets.Characters.Character)
-  fullName: NetAF.Serialization.Assets.CharacterSerialization.Restore(NetAF.Assets.Characters.Character)
-  nameWithType: CharacterSerialization.Restore(Character)
-- uid: NetAF.Serialization.Assets.CharacterSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.CharacterSerialization.html#NetAF_Serialization_Assets_CharacterSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.CharacterSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.CharacterSerialization.Restore
-  nameWithType: CharacterSerialization.Restore
 - uid: NetAF.Serialization.Assets.ConversationSerialization
   name: ConversationSerialization
   href: api/NetAF.Serialization.Assets.ConversationSerialization.html
@@ -12059,19 +12030,6 @@ references:
   commentId: F:NetAF.Serialization.Assets.ConversationSerialization.NoCurrentParagraph
   fullName: NetAF.Serialization.Assets.ConversationSerialization.NoCurrentParagraph
   nameWithType: ConversationSerialization.NoCurrentParagraph
-- uid: NetAF.Serialization.Assets.ConversationSerialization.Restore(NetAF.Conversations.Conversation)
-  name: Restore(Conversation)
-  href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization_Restore_NetAF_Conversations_Conversation_
-  commentId: M:NetAF.Serialization.Assets.ConversationSerialization.Restore(NetAF.Conversations.Conversation)
-  fullName: NetAF.Serialization.Assets.ConversationSerialization.Restore(NetAF.Conversations.Conversation)
-  nameWithType: ConversationSerialization.Restore(Conversation)
-- uid: NetAF.Serialization.Assets.ConversationSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.ConversationSerialization.html#NetAF_Serialization_Assets_ConversationSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.ConversationSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.ConversationSerialization.Restore
-  nameWithType: ConversationSerialization.Restore
 - uid: NetAF.Serialization.Assets.ExaminableSerialization
   name: ExaminableSerialization
   href: api/NetAF.Serialization.Assets.ExaminableSerialization.html
@@ -12143,19 +12101,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ExaminableSerialization.IsPlayerVisible
   nameWithType: ExaminableSerialization.IsPlayerVisible
-- uid: NetAF.Serialization.Assets.ExaminableSerialization.Restore(NetAF.Assets.IExaminable)
-  name: Restore(IExaminable)
-  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Restore_NetAF_Assets_IExaminable_
-  commentId: M:NetAF.Serialization.Assets.ExaminableSerialization.Restore(NetAF.Assets.IExaminable)
-  fullName: NetAF.Serialization.Assets.ExaminableSerialization.Restore(NetAF.Assets.IExaminable)
-  nameWithType: ExaminableSerialization.Restore(IExaminable)
-- uid: NetAF.Serialization.Assets.ExaminableSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.ExaminableSerialization.html#NetAF_Serialization_Assets_ExaminableSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.ExaminableSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.ExaminableSerialization.Restore
-  nameWithType: ExaminableSerialization.Restore
 - uid: NetAF.Serialization.Assets.ExitSerialization
   name: ExitSerialization
   href: api/NetAF.Serialization.Assets.ExitSerialization.html
@@ -12188,19 +12133,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ExitSerialization.IsLocked
   nameWithType: ExitSerialization.IsLocked
-- uid: NetAF.Serialization.Assets.ExitSerialization.Restore(NetAF.Assets.Locations.Exit)
-  name: Restore(Exit)
-  href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization_Restore_NetAF_Assets_Locations_Exit_
-  commentId: M:NetAF.Serialization.Assets.ExitSerialization.Restore(NetAF.Assets.Locations.Exit)
-  fullName: NetAF.Serialization.Assets.ExitSerialization.Restore(NetAF.Assets.Locations.Exit)
-  nameWithType: ExitSerialization.Restore(Exit)
-- uid: NetAF.Serialization.Assets.ExitSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.ExitSerialization.html#NetAF_Serialization_Assets_ExitSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.ExitSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.ExitSerialization.Restore
-  nameWithType: ExitSerialization.Restore
 - uid: NetAF.Serialization.Assets.ItemSerialization
   name: ItemSerialization
   href: api/NetAF.Serialization.Assets.ItemSerialization.html
@@ -12220,19 +12152,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ItemSerialization.FromItem
   nameWithType: ItemSerialization.FromItem
-- uid: NetAF.Serialization.Assets.ItemSerialization.Restore(NetAF.Assets.Item)
-  name: Restore(Item)
-  href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization_Restore_NetAF_Assets_Item_
-  commentId: M:NetAF.Serialization.Assets.ItemSerialization.Restore(NetAF.Assets.Item)
-  fullName: NetAF.Serialization.Assets.ItemSerialization.Restore(NetAF.Assets.Item)
-  nameWithType: ItemSerialization.Restore(Item)
-- uid: NetAF.Serialization.Assets.ItemSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.ItemSerialization.html#NetAF_Serialization_Assets_ItemSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.ItemSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.ItemSerialization.Restore
-  nameWithType: ItemSerialization.Restore
 - uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization
   name: NonPlayableCharacterSerialization
   href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html
@@ -12265,19 +12184,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.FromNonPlayableCharacter
   nameWithType: NonPlayableCharacterSerialization.FromNonPlayableCharacter
-- uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore(NetAF.Assets.Characters.NonPlayableCharacter)
-  name: Restore(NonPlayableCharacter)
-  href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization_Restore_NetAF_Assets_Characters_NonPlayableCharacter_
-  commentId: M:NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore(NetAF.Assets.Characters.NonPlayableCharacter)
-  fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore(NetAF.Assets.Characters.NonPlayableCharacter)
-  nameWithType: NonPlayableCharacterSerialization.Restore(NonPlayableCharacter)
-- uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html#NetAF_Serialization_Assets_NonPlayableCharacterSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.NonPlayableCharacterSerialization.Restore
-  nameWithType: NonPlayableCharacterSerialization.Restore
 - uid: NetAF.Serialization.Assets.OverworldSerialization
   name: OverworldSerialization
   href: api/NetAF.Serialization.Assets.OverworldSerialization.html
@@ -12323,19 +12229,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.OverworldSerialization.Regions
   nameWithType: OverworldSerialization.Regions
-- uid: NetAF.Serialization.Assets.OverworldSerialization.Restore(NetAF.Assets.Locations.Overworld)
-  name: Restore(Overworld)
-  href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization_Restore_NetAF_Assets_Locations_Overworld_
-  commentId: M:NetAF.Serialization.Assets.OverworldSerialization.Restore(NetAF.Assets.Locations.Overworld)
-  fullName: NetAF.Serialization.Assets.OverworldSerialization.Restore(NetAF.Assets.Locations.Overworld)
-  nameWithType: OverworldSerialization.Restore(Overworld)
-- uid: NetAF.Serialization.Assets.OverworldSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.OverworldSerialization.html#NetAF_Serialization_Assets_OverworldSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.OverworldSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.OverworldSerialization.Restore
-  nameWithType: OverworldSerialization.Restore
 - uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization
   name: PlayableCharacterLocationSerialization
   href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html
@@ -12381,19 +12274,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.RegionIdentifier
   nameWithType: PlayableCharacterLocationSerialization.RegionIdentifier
-- uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.Restore(NetAF.Logic.PlayableCharacterLocation)
-  name: Restore(PlayableCharacterLocation)
-  href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization_Restore_NetAF_Logic_PlayableCharacterLocation_
-  commentId: M:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.Restore(NetAF.Logic.PlayableCharacterLocation)
-  fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.Restore(NetAF.Logic.PlayableCharacterLocation)
-  nameWithType: PlayableCharacterLocationSerialization.Restore(PlayableCharacterLocation)
-- uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.Restore
-  nameWithType: PlayableCharacterLocationSerialization.Restore
 - uid: NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.RoomIdentifier
   name: RoomIdentifier
   href: api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html#NetAF_Serialization_Assets_PlayableCharacterLocationSerialization_RoomIdentifier
@@ -12452,19 +12332,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.RegionSerialization.IsVisibleWithoutDiscovery
   nameWithType: RegionSerialization.IsVisibleWithoutDiscovery
-- uid: NetAF.Serialization.Assets.RegionSerialization.Restore(NetAF.Assets.Locations.Region)
-  name: Restore(Region)
-  href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_Restore_NetAF_Assets_Locations_Region_
-  commentId: M:NetAF.Serialization.Assets.RegionSerialization.Restore(NetAF.Assets.Locations.Region)
-  fullName: NetAF.Serialization.Assets.RegionSerialization.Restore(NetAF.Assets.Locations.Region)
-  nameWithType: RegionSerialization.Restore(Region)
-- uid: NetAF.Serialization.Assets.RegionSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.RegionSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.RegionSerialization.Restore
-  nameWithType: RegionSerialization.Restore
 - uid: NetAF.Serialization.Assets.RegionSerialization.Rooms
   name: Rooms
   href: api/NetAF.Serialization.Assets.RegionSerialization.html#NetAF_Serialization_Assets_RegionSerialization_Rooms
@@ -12549,19 +12416,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.RoomSerialization.Items
   nameWithType: RoomSerialization.Items
-- uid: NetAF.Serialization.Assets.RoomSerialization.Restore(NetAF.Assets.Locations.Room)
-  name: Restore(Room)
-  href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization_Restore_NetAF_Assets_Locations_Room_
-  commentId: M:NetAF.Serialization.Assets.RoomSerialization.Restore(NetAF.Assets.Locations.Room)
-  fullName: NetAF.Serialization.Assets.RoomSerialization.Restore(NetAF.Assets.Locations.Room)
-  nameWithType: RoomSerialization.Restore(Room)
-- uid: NetAF.Serialization.Assets.RoomSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.Assets.RoomSerialization.html#NetAF_Serialization_Assets_RoomSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.Assets.RoomSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.Assets.RoomSerialization.Restore
-  nameWithType: RoomSerialization.Restore
 - uid: NetAF.Serialization.CustomCommandSerialization
   name: CustomCommandSerialization
   href: api/NetAF.Serialization.CustomCommandSerialization.html
@@ -12607,19 +12461,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.CustomCommandSerialization.IsPlayerVisible
   nameWithType: CustomCommandSerialization.IsPlayerVisible
-- uid: NetAF.Serialization.CustomCommandSerialization.Restore(NetAF.Commands.CustomCommand)
-  name: Restore(CustomCommand)
-  href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization_Restore_NetAF_Commands_CustomCommand_
-  commentId: M:NetAF.Serialization.CustomCommandSerialization.Restore(NetAF.Commands.CustomCommand)
-  fullName: NetAF.Serialization.CustomCommandSerialization.Restore(NetAF.Commands.CustomCommand)
-  nameWithType: CustomCommandSerialization.Restore(CustomCommand)
-- uid: NetAF.Serialization.CustomCommandSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.CustomCommandSerialization.html#NetAF_Serialization_CustomCommandSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.CustomCommandSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.CustomCommandSerialization.Restore
-  nameWithType: CustomCommandSerialization.Restore
 - uid: NetAF.Serialization.GameSerialization
   name: GameSerialization
   href: api/NetAF.Serialization.GameSerialization.html
@@ -12691,45 +12532,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.GameSerialization.Players
   nameWithType: GameSerialization.Players
-- uid: NetAF.Serialization.GameSerialization.Restore(NetAF.Logic.Game)
-  name: Restore(Game)
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Restore_NetAF_Logic_Game_
-  commentId: M:NetAF.Serialization.GameSerialization.Restore(NetAF.Logic.Game)
-  fullName: NetAF.Serialization.GameSerialization.Restore(NetAF.Logic.Game)
-  nameWithType: GameSerialization.Restore(Game)
-- uid: NetAF.Serialization.GameSerialization.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Restore_
-  commentId: Overload:NetAF.Serialization.GameSerialization.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.GameSerialization.Restore
-  nameWithType: GameSerialization.Restore
-- uid: NetAF.Serialization.IObjectSerialization`1
-  name: IObjectSerialization<T>
-  href: api/NetAF.Serialization.IObjectSerialization-1.html
-  commentId: T:NetAF.Serialization.IObjectSerialization`1
-  name.vb: IObjectSerialization(Of T)
-  fullName: NetAF.Serialization.IObjectSerialization<T>
-  fullName.vb: NetAF.Serialization.IObjectSerialization(Of T)
-  nameWithType: IObjectSerialization<T>
-  nameWithType.vb: IObjectSerialization(Of T)
-- uid: NetAF.Serialization.IObjectSerialization`1.Restore(`0)
-  name: Restore(T)
-  href: api/NetAF.Serialization.IObjectSerialization-1.html#NetAF_Serialization_IObjectSerialization_1_Restore__0_
-  commentId: M:NetAF.Serialization.IObjectSerialization`1.Restore(`0)
-  fullName: NetAF.Serialization.IObjectSerialization<T>.Restore(T)
-  fullName.vb: NetAF.Serialization.IObjectSerialization(Of T).Restore(T)
-  nameWithType: IObjectSerialization<T>.Restore(T)
-  nameWithType.vb: IObjectSerialization(Of T).Restore(T)
-- uid: NetAF.Serialization.IObjectSerialization`1.Restore*
-  name: Restore
-  href: api/NetAF.Serialization.IObjectSerialization-1.html#NetAF_Serialization_IObjectSerialization_1_Restore_
-  commentId: Overload:NetAF.Serialization.IObjectSerialization`1.Restore
-  isSpec: "True"
-  fullName: NetAF.Serialization.IObjectSerialization<T>.Restore
-  fullName.vb: NetAF.Serialization.IObjectSerialization(Of T).Restore
-  nameWithType: IObjectSerialization<T>.Restore
-  nameWithType.vb: IObjectSerialization(Of T).Restore
 - uid: NetAF.Utilities
   name: NetAF.Utilities
   href: api/NetAF.Utilities.html
