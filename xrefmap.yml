@@ -6985,6 +6985,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Player
   nameWithType: Game.Player
+- uid: NetAF.Logic.Game.RestoreFrom(NetAF.Serialization.GameSerialization)
+  name: RestoreFrom(GameSerialization)
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_RestoreFrom_NetAF_Serialization_GameSerialization_
+  commentId: M:NetAF.Logic.Game.RestoreFrom(NetAF.Serialization.GameSerialization)
+  fullName: NetAF.Logic.Game.RestoreFrom(NetAF.Serialization.GameSerialization)
+  nameWithType: Game.RestoreFrom(GameSerialization)
+- uid: NetAF.Logic.Game.RestoreFrom*
+  name: RestoreFrom
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_RestoreFrom_
+  commentId: Overload:NetAF.Logic.Game.RestoreFrom
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.RestoreFrom
+  nameWithType: Game.RestoreFrom
 - uid: NetAF.Logic.GameEndConditions
   name: GameEndConditions
   href: api/NetAF.Logic.GameEndConditions.html
