@@ -6159,30 +6159,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.SceneCommandInterpreter.Interpret
   nameWithType: SceneCommandInterpreter.Interpret
-- uid: NetAF.Interpretation.SceneCommandInterpreter.Me
-  name: Me
-  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Me
-  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Me
-  fullName: NetAF.Interpretation.SceneCommandInterpreter.Me
-  nameWithType: SceneCommandInterpreter.Me
-- uid: NetAF.Interpretation.SceneCommandInterpreter.Overworld
-  name: Overworld
-  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Overworld
-  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Overworld
-  fullName: NetAF.Interpretation.SceneCommandInterpreter.Overworld
-  nameWithType: SceneCommandInterpreter.Overworld
-- uid: NetAF.Interpretation.SceneCommandInterpreter.Region
-  name: Region
-  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Region
-  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Region
-  fullName: NetAF.Interpretation.SceneCommandInterpreter.Region
-  nameWithType: SceneCommandInterpreter.Region
-- uid: NetAF.Interpretation.SceneCommandInterpreter.Room
-  name: Room
-  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_Room
-  commentId: F:NetAF.Interpretation.SceneCommandInterpreter.Room
-  fullName: NetAF.Interpretation.SceneCommandInterpreter.Room
-  nameWithType: SceneCommandInterpreter.Room
 - uid: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
   name: SupportedCommands
   href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_SupportedCommands
@@ -6196,22 +6172,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
   nameWithType: SceneCommandInterpreter.SupportedCommands
-- uid: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(System.String,NetAF.Assets.Locations.Direction@)
-  name: TryParseToDirection(string, out Direction)
-  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_TryParseToDirection_System_String_NetAF_Assets_Locations_Direction__
-  commentId: M:NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(System.String,NetAF.Assets.Locations.Direction@)
-  name.vb: TryParseToDirection(String, Direction)
-  fullName: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(string, out NetAF.Assets.Locations.Direction)
-  fullName.vb: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(String, NetAF.Assets.Locations.Direction)
-  nameWithType: SceneCommandInterpreter.TryParseToDirection(string, out Direction)
-  nameWithType.vb: SceneCommandInterpreter.TryParseToDirection(String, Direction)
-- uid: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection*
-  name: TryParseToDirection
-  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_TryParseToDirection_
-  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection
-  isSpec: "True"
-  fullName: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection
-  nameWithType: SceneCommandInterpreter.TryParseToDirection
 - uid: NetAF.Logic
   name: NetAF.Logic
   href: api/NetAF.Logic.html
