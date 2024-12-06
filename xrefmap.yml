@@ -2324,15 +2324,6 @@ references:
   fullName.vb: NetAF.Assets.Locations.Room.ContainsCharacter(NetAF.Assets.Characters.NonPlayableCharacter, Boolean)
   nameWithType: Room.ContainsCharacter(NonPlayableCharacter, bool)
   nameWithType.vb: Room.ContainsCharacter(NonPlayableCharacter, Boolean)
-- uid: NetAF.Assets.Locations.Room.ContainsCharacter(System.String,System.Boolean)
-  name: ContainsCharacter(string, bool)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsCharacter_System_String_System_Boolean_
-  commentId: M:NetAF.Assets.Locations.Room.ContainsCharacter(System.String,System.Boolean)
-  name.vb: ContainsCharacter(String, Boolean)
-  fullName: NetAF.Assets.Locations.Room.ContainsCharacter(string, bool)
-  fullName.vb: NetAF.Assets.Locations.Room.ContainsCharacter(String, Boolean)
-  nameWithType: Room.ContainsCharacter(string, bool)
-  nameWithType.vb: Room.ContainsCharacter(String, Boolean)
 - uid: NetAF.Assets.Locations.Room.ContainsCharacter*
   name: ContainsCharacter
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsCharacter_
@@ -2365,37 +2356,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.ContainsExit
   nameWithType: Room.ContainsExit
-- uid: NetAF.Assets.Locations.Room.ContainsInteractionTarget(System.String)
-  name: ContainsInteractionTarget(string)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsInteractionTarget_System_String_
-  commentId: M:NetAF.Assets.Locations.Room.ContainsInteractionTarget(System.String)
-  name.vb: ContainsInteractionTarget(String)
-  fullName: NetAF.Assets.Locations.Room.ContainsInteractionTarget(string)
-  fullName.vb: NetAF.Assets.Locations.Room.ContainsInteractionTarget(String)
-  nameWithType: Room.ContainsInteractionTarget(string)
-  nameWithType.vb: Room.ContainsInteractionTarget(String)
-- uid: NetAF.Assets.Locations.Room.ContainsInteractionTarget*
-  name: ContainsInteractionTarget
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsInteractionTarget_
-  commentId: Overload:NetAF.Assets.Locations.Room.ContainsInteractionTarget
-  isSpec: "True"
-  fullName: NetAF.Assets.Locations.Room.ContainsInteractionTarget
-  nameWithType: Room.ContainsInteractionTarget
-- uid: NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item)
-  name: ContainsItem(Item)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsItem_NetAF_Assets_Item_
-  commentId: M:NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item)
-  fullName: NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item)
-  nameWithType: Room.ContainsItem(Item)
-- uid: NetAF.Assets.Locations.Room.ContainsItem(System.String,System.Boolean)
-  name: ContainsItem(string, bool)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsItem_System_String_System_Boolean_
-  commentId: M:NetAF.Assets.Locations.Room.ContainsItem(System.String,System.Boolean)
-  name.vb: ContainsItem(String, Boolean)
-  fullName: NetAF.Assets.Locations.Room.ContainsItem(string, bool)
-  fullName.vb: NetAF.Assets.Locations.Room.ContainsItem(String, Boolean)
-  nameWithType: Room.ContainsItem(string, bool)
-  nameWithType.vb: Room.ContainsItem(String, Boolean)
+- uid: NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item,System.Boolean)
+  name: ContainsItem(Item, bool)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsItem_NetAF_Assets_Item_System_Boolean_
+  commentId: M:NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item,System.Boolean)
+  name.vb: ContainsItem(Item, Boolean)
+  fullName: NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item, bool)
+  fullName.vb: NetAF.Assets.Locations.Room.ContainsItem(NetAF.Assets.Item, Boolean)
+  nameWithType: Room.ContainsItem(Item, bool)
+  nameWithType.vb: Room.ContainsItem(Item, Boolean)
 - uid: NetAF.Assets.Locations.Room.ContainsItem*
   name: ContainsItem
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ContainsItem_
@@ -6227,6 +6196,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
   nameWithType: SceneCommandInterpreter.SupportedCommands
+- uid: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(System.String,NetAF.Assets.Locations.Direction@)
+  name: TryParseToDirection(string, out Direction)
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_TryParseToDirection_System_String_NetAF_Assets_Locations_Direction__
+  commentId: M:NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(System.String,NetAF.Assets.Locations.Direction@)
+  name.vb: TryParseToDirection(String, Direction)
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(string, out NetAF.Assets.Locations.Direction)
+  fullName.vb: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection(String, NetAF.Assets.Locations.Direction)
+  nameWithType: SceneCommandInterpreter.TryParseToDirection(string, out Direction)
+  nameWithType.vb: SceneCommandInterpreter.TryParseToDirection(String, Direction)
+- uid: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection*
+  name: TryParseToDirection
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_TryParseToDirection_
+  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection
+  isSpec: "True"
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.TryParseToDirection
+  nameWithType: SceneCommandInterpreter.TryParseToDirection
 - uid: NetAF.Logic
   name: NetAF.Logic
   href: api/NetAF.Logic.html
