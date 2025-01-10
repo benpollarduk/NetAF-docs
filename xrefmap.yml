@@ -11167,15 +11167,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   nameWithType: FrameBuilderCollection
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  name: FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_NetAF_Rendering_FrameBuilders_ITitleFrameBuilder_NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_NetAF_Rendering_FrameBuilders_ICommandListFrameBuilder_NetAF_Rendering_FrameBuilders_IHelpFrameBuilder_NetAF_Rendering_FrameBuilders_ICompletionFrameBuilder_NetAF_Rendering_FrameBuilders_IGameOverFrameBuilder_NetAF_Rendering_FrameBuilders_IAboutFrameBuilder_NetAF_Rendering_FrameBuilders_IReactionFrameBuilder_NetAF_Rendering_FrameBuilders_IConversationFrameBuilder_
-  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder,NetAF.Rendering.FrameBuilders.ISceneFrameBuilder,NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder,NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder,NetAF.Rendering.FrameBuilders.IHelpFrameBuilder,NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder,NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder,NetAF.Rendering.FrameBuilders.IAboutFrameBuilder,NetAF.Rendering.FrameBuilders.IReactionFrameBuilder,NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  name.vb: New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.FrameBuilderCollection(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New(NetAF.Rendering.FrameBuilders.ITitleFrameBuilder, NetAF.Rendering.FrameBuilders.ISceneFrameBuilder, NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder, NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder, NetAF.Rendering.FrameBuilders.IHelpFrameBuilder, NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder, NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder, NetAF.Rendering.FrameBuilders.IAboutFrameBuilder, NetAF.Rendering.FrameBuilders.IReactionFrameBuilder, NetAF.Rendering.FrameBuilders.IConversationFrameBuilder)
-  nameWithType: FrameBuilderCollection.FrameBuilderCollection(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
-  nameWithType.vb: FrameBuilderCollection.New(ITitleFrameBuilder, ISceneFrameBuilder, IRegionMapFrameBuilder, ICommandListFrameBuilder, IHelpFrameBuilder, ICompletionFrameBuilder, IGameOverFrameBuilder, IAboutFrameBuilder, IReactionFrameBuilder, IConversationFrameBuilder)
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.IFrameBuilder[])
+  name: FrameBuilderCollection(params IFrameBuilder[])
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_NetAF_Rendering_FrameBuilders_IFrameBuilder___
+  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor(NetAF.Rendering.FrameBuilders.IFrameBuilder[])
+  name.vb: New(ParamArray IFrameBuilder())
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.FrameBuilderCollection(params NetAF.Rendering.FrameBuilders.IFrameBuilder[])
+  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New(ParamArray NetAF.Rendering.FrameBuilders.IFrameBuilder())
+  nameWithType: FrameBuilderCollection.FrameBuilderCollection(params IFrameBuilder[])
+  nameWithType.vb: FrameBuilderCollection.New(ParamArray IFrameBuilder())
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.#ctor*
   name: FrameBuilderCollection
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection__ctor_
@@ -11186,136 +11186,22 @@ references:
   fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.New
   nameWithType: FrameBuilderCollection.FrameBuilderCollection
   nameWithType.vb: FrameBuilderCollection.New
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder
-  name: AboutFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_AboutFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder
-  nameWithType: FrameBuilderCollection.AboutFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder*
-  name: AboutFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_AboutFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder*
+  name: GetFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_GetFrameBuilder_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder
   isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.AboutFrameBuilder
-  nameWithType: FrameBuilderCollection.AboutFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
-  name: CommandListFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CommandListFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
-  nameWithType: FrameBuilderCollection.CommandListFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder*
-  name: CommandListFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CommandListFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CommandListFrameBuilder
-  nameWithType: FrameBuilderCollection.CommandListFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder
-  name: CompletionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CompletionFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder
-  nameWithType: FrameBuilderCollection.CompletionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder*
-  name: CompletionFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_CompletionFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.CompletionFrameBuilder
-  nameWithType: FrameBuilderCollection.CompletionFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ConversationFrameBuilder
-  name: ConversationFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_ConversationFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ConversationFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ConversationFrameBuilder
-  nameWithType: FrameBuilderCollection.ConversationFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ConversationFrameBuilder*
-  name: ConversationFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_ConversationFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ConversationFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ConversationFrameBuilder
-  nameWithType: FrameBuilderCollection.ConversationFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GameOverFrameBuilder
-  name: GameOverFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_GameOverFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GameOverFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GameOverFrameBuilder
-  nameWithType: FrameBuilderCollection.GameOverFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GameOverFrameBuilder*
-  name: GameOverFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_GameOverFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GameOverFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GameOverFrameBuilder
-  nameWithType: FrameBuilderCollection.GameOverFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder
-  name: HelpFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_HelpFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder
-  nameWithType: FrameBuilderCollection.HelpFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder*
-  name: HelpFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_HelpFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.HelpFrameBuilder
-  nameWithType: FrameBuilderCollection.HelpFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
-  name: ReactionModeFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_ReactionModeFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
-  nameWithType: FrameBuilderCollection.ReactionModeFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder*
-  name: ReactionModeFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_ReactionModeFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.ReactionModeFrameBuilder
-  nameWithType: FrameBuilderCollection.ReactionModeFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder
-  name: RegionMapFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_RegionMapFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder
-  nameWithType: FrameBuilderCollection.RegionMapFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder*
-  name: RegionMapFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_RegionMapFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.RegionMapFrameBuilder
-  nameWithType: FrameBuilderCollection.RegionMapFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SceneFrameBuilder
-  name: SceneFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_SceneFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SceneFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SceneFrameBuilder
-  nameWithType: FrameBuilderCollection.SceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SceneFrameBuilder*
-  name: SceneFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_SceneFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SceneFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SceneFrameBuilder
-  nameWithType: FrameBuilderCollection.SceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder
-  name: TitleFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_TitleFrameBuilder
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder
-  nameWithType: FrameBuilderCollection.TitleFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder*
-  name: TitleFrameBuilder
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_TitleFrameBuilder_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.TitleFrameBuilder
-  nameWithType: FrameBuilderCollection.TitleFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder
+  nameWithType: FrameBuilderCollection.GetFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder``1
+  name: GetFrameBuilder<T>()
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_GetFrameBuilder__1
+  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder``1
+  name.vb: GetFrameBuilder(Of T)()
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder<T>()
+  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder(Of T)()
+  nameWithType: FrameBuilderCollection.GetFrameBuilder<T>()
+  nameWithType.vb: FrameBuilderCollection.GetFrameBuilder(Of T)()
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections
   name: FrameBuilderCollections
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html
@@ -11423,6 +11309,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.Build
   nameWithType: IConversationFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.IFrameBuilder
+  name: IFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.IFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.IFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.IFrameBuilder
+  nameWithType: IFrameBuilder
 - uid: NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder
   name: IGameOverFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.html
