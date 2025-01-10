@@ -637,15 +637,15 @@ references:
   fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
   nameWithType: PlayableCharacter.PlayableCharacter(Identifier, IDescription, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   nameWithType.vb: PlayableCharacter.New(Identifier, IDescription, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: PlayableCharacter(Identifier, IDescription, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, IDescription, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.IDescription, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, IDescription, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: PlayableCharacter.New(Identifier, IDescription, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: PlayableCharacter(Identifier, IDescription, bool, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(Identifier, IDescription, Boolean, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(NetAF.Assets.Identifier, NetAF.Assets.IDescription, bool, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, Boolean, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(Identifier, IDescription, bool, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: PlayableCharacter.New(Identifier, IDescription, Boolean, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
   name: PlayableCharacter(string, string, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
@@ -655,15 +655,15 @@ references:
   fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
   nameWithType: PlayableCharacter.PlayableCharacter(string, string, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
   nameWithType.vb: PlayableCharacter.New(String, String, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: PlayableCharacter(string, string, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(String, String, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(string, string, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: PlayableCharacter.PlayableCharacter(string, string, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: PlayableCharacter.New(String, String, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name: PlayableCharacter(string, string, bool, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_System_Boolean_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
+  commentId: M:NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
+  name.vb: New(String, String, Boolean, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+  fullName: NetAF.Assets.Characters.PlayableCharacter.PlayableCharacter(string, string, bool, bool, NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  fullName.vb: NetAF.Assets.Characters.PlayableCharacter.New(String, String, Boolean, Boolean, NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
+  nameWithType: PlayableCharacter.PlayableCharacter(string, string, bool, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
+  nameWithType.vb: PlayableCharacter.New(String, String, Boolean, Boolean, Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
 - uid: NetAF.Assets.Characters.PlayableCharacter.#ctor*
   name: PlayableCharacter
   href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter__ctor_
@@ -687,6 +687,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Characters.PlayableCharacter.CanConverse
   nameWithType: PlayableCharacter.CanConverse
+- uid: NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems
+  name: CanTakeAndDropItems
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter_CanTakeAndDropItems
+  commentId: P:NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems
+  fullName: NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems
+  nameWithType: PlayableCharacter.CanTakeAndDropItems
+- uid: NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems*
+  name: CanTakeAndDropItems
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter_CanTakeAndDropItems_
+  commentId: Overload:NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems
+  isSpec: "True"
+  fullName: NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems
+  nameWithType: PlayableCharacter.CanTakeAndDropItems
 - uid: NetAF.Assets.Condition
   name: Condition
   href: api/NetAF.Assets.Condition.html

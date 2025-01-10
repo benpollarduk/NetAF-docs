@@ -239,13 +239,13 @@
     </tbody>
   </table>
   <a id="NetAF_Assets_Characters_PlayableCharacter__ctor_" data-uid="NetAF.Assets.Characters.PlayableCharacter.#ctor*"></a>
-  <h4 id="NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">PlayableCharacter(Identifier, IDescription, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Characters_PlayableCharacter__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_System_Boolean_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Characters.PlayableCharacter.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,System.Boolean,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">PlayableCharacter(Identifier, IDescription, bool, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the PlayableCharacter class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayableCharacter(Identifier identifier, IDescription description, bool canConverse, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayableCharacter(Identifier identifier, IDescription description, bool canConverse, bool canTakeAndDropItems = true, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -272,7 +272,13 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">canConverse</span></td>
-        <td><p>If this object can converse with an IConverser.</p>
+        <td><p>If this playable character can converse with an IConverser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">canTakeAndDropItems</span></td>
+        <td><p>If this playable character can take and drop items.</p>
 </td>
       </tr>
       <tr>
@@ -359,13 +365,13 @@
     </tbody>
   </table>
   <a id="NetAF_Assets_Characters_PlayableCharacter__ctor_" data-uid="NetAF.Assets.Characters.PlayableCharacter.#ctor*"></a>
-  <h4 id="NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">PlayableCharacter(string, string, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Characters_PlayableCharacter__ctor_System_String_System_String_System_Boolean_System_Boolean_NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Characters.PlayableCharacter.#ctor(System.String,System.String,System.Boolean,System.Boolean,NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">PlayableCharacter(string, string, bool, bool, Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the PlayableCharacter class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayableCharacter(string identifier, string description, bool canConverse, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayableCharacter(string identifier, string description, bool canConverse, bool canTakeAndDropItems = true, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -392,7 +398,13 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">canConverse</span></td>
-        <td><p>If this object can converse with an IConverser.</p>
+        <td><p>If this playable character can converse with an IConverser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">canTakeAndDropItems</span></td>
+        <td><p>If this playable character can take and drop items.</p>
 </td>
       </tr>
       <tr>
@@ -431,6 +443,30 @@
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool CanConverse { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Assets_Characters_PlayableCharacter_CanTakeAndDropItems_" data-uid="NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems*"></a>
+  <h4 id="NetAF_Assets_Characters_PlayableCharacter_CanTakeAndDropItems" data-uid="NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems">CanTakeAndDropItems</h4>
+  <div class="markdown level1 summary"><p>Get if this playable character can take and drop items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanTakeAndDropItems { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
