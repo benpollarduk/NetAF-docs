@@ -1752,20 +1752,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html"
         }
       },
       "version": ""
@@ -1926,6 +1926,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NetAF.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.IConsoleFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.IConsoleFrame.html"
         }
       },
       "version": ""

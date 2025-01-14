@@ -11034,15 +11034,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.Console.TextWriterPresenter.ToString
   nameWithType: TextWriterPresenter.ToString
-- uid: NetAF.Rendering.Console.TextWriterPresenter.Write(System.Char)
-  name: Write(char)
-  href: api/NetAF.Rendering.Console.TextWriterPresenter.html#NetAF_Rendering_Console_TextWriterPresenter_Write_System_Char_
-  commentId: M:NetAF.Rendering.Console.TextWriterPresenter.Write(System.Char)
-  name.vb: Write(Char)
-  fullName: NetAF.Rendering.Console.TextWriterPresenter.Write(char)
-  fullName.vb: NetAF.Rendering.Console.TextWriterPresenter.Write(Char)
-  nameWithType: TextWriterPresenter.Write(char)
-  nameWithType.vb: TextWriterPresenter.Write(Char)
 - uid: NetAF.Rendering.Console.TextWriterPresenter.Write(System.String)
   name: Write(string)
   href: api/NetAF.Rendering.Console.TextWriterPresenter.html#NetAF_Rendering_Console_TextWriterPresenter_Write_System_String_
@@ -11161,6 +11152,25 @@ references:
   commentId: N:NetAF.Rendering.FrameBuilders
   fullName: NetAF.Rendering.FrameBuilders
   nameWithType: NetAF.Rendering.FrameBuilders
+- uid: NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections
+  name: ConsoleFrameBuilderCollections
+  href: api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.html
+  commentId: T:NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections
+  fullName: NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections
+  nameWithType: ConsoleFrameBuilderCollections
+- uid: NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.Default
+  name: Default
+  href: api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.html#NetAF_Rendering_FrameBuilders_ConsoleFrameBuilderCollections_Default
+  commentId: P:NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.Default
+  fullName: NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.Default
+  nameWithType: ConsoleFrameBuilderCollections.Default
+- uid: NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.Default*
+  name: Default
+  href: api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.html#NetAF_Rendering_FrameBuilders_ConsoleFrameBuilderCollections_Default_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.Default
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.Default
+  nameWithType: ConsoleFrameBuilderCollections.Default
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection
   name: FrameBuilderCollection
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html
@@ -11202,25 +11212,6 @@ references:
   fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder(Of T)()
   nameWithType: FrameBuilderCollection.GetFrameBuilder<T>()
   nameWithType.vb: FrameBuilderCollection.GetFrameBuilder(Of T)()
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections
-  name: FrameBuilderCollections
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html
-  commentId: T:NetAF.Rendering.FrameBuilders.FrameBuilderCollections
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollections
-  nameWithType: FrameBuilderCollections
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Default
-  name: Default
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Default
-  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Default
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Default
-  nameWithType: FrameBuilderCollections.Default
-- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Default*
-  name: Default
-  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Default_
-  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Default
-  isSpec: "True"
-  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Default
-  nameWithType: FrameBuilderCollections.Default
 - uid: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder
   name: IAboutFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html
@@ -11542,38 +11533,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.SceneHelper.CreateViewpointAsString
   nameWithType: SceneHelper.CreateViewpointAsString
+- uid: NetAF.Rendering.IConsoleFrame
+  name: IConsoleFrame
+  href: api/NetAF.Rendering.IConsoleFrame.html
+  commentId: T:NetAF.Rendering.IConsoleFrame
+  fullName: NetAF.Rendering.IConsoleFrame
+  nameWithType: IConsoleFrame
+- uid: NetAF.Rendering.IConsoleFrame.CursorLeft
+  name: CursorLeft
+  href: api/NetAF.Rendering.IConsoleFrame.html#NetAF_Rendering_IConsoleFrame_CursorLeft
+  commentId: P:NetAF.Rendering.IConsoleFrame.CursorLeft
+  fullName: NetAF.Rendering.IConsoleFrame.CursorLeft
+  nameWithType: IConsoleFrame.CursorLeft
+- uid: NetAF.Rendering.IConsoleFrame.CursorLeft*
+  name: CursorLeft
+  href: api/NetAF.Rendering.IConsoleFrame.html#NetAF_Rendering_IConsoleFrame_CursorLeft_
+  commentId: Overload:NetAF.Rendering.IConsoleFrame.CursorLeft
+  isSpec: "True"
+  fullName: NetAF.Rendering.IConsoleFrame.CursorLeft
+  nameWithType: IConsoleFrame.CursorLeft
+- uid: NetAF.Rendering.IConsoleFrame.CursorTop
+  name: CursorTop
+  href: api/NetAF.Rendering.IConsoleFrame.html#NetAF_Rendering_IConsoleFrame_CursorTop
+  commentId: P:NetAF.Rendering.IConsoleFrame.CursorTop
+  fullName: NetAF.Rendering.IConsoleFrame.CursorTop
+  nameWithType: IConsoleFrame.CursorTop
+- uid: NetAF.Rendering.IConsoleFrame.CursorTop*
+  name: CursorTop
+  href: api/NetAF.Rendering.IConsoleFrame.html#NetAF_Rendering_IConsoleFrame_CursorTop_
+  commentId: Overload:NetAF.Rendering.IConsoleFrame.CursorTop
+  isSpec: "True"
+  fullName: NetAF.Rendering.IConsoleFrame.CursorTop
+  nameWithType: IConsoleFrame.CursorTop
+- uid: NetAF.Rendering.IConsoleFrame.ShowCursor
+  name: ShowCursor
+  href: api/NetAF.Rendering.IConsoleFrame.html#NetAF_Rendering_IConsoleFrame_ShowCursor
+  commentId: P:NetAF.Rendering.IConsoleFrame.ShowCursor
+  fullName: NetAF.Rendering.IConsoleFrame.ShowCursor
+  nameWithType: IConsoleFrame.ShowCursor
+- uid: NetAF.Rendering.IConsoleFrame.ShowCursor*
+  name: ShowCursor
+  href: api/NetAF.Rendering.IConsoleFrame.html#NetAF_Rendering_IConsoleFrame_ShowCursor_
+  commentId: Overload:NetAF.Rendering.IConsoleFrame.ShowCursor
+  isSpec: "True"
+  fullName: NetAF.Rendering.IConsoleFrame.ShowCursor
+  nameWithType: IConsoleFrame.ShowCursor
 - uid: NetAF.Rendering.IFrame
   name: IFrame
   href: api/NetAF.Rendering.IFrame.html
   commentId: T:NetAF.Rendering.IFrame
   fullName: NetAF.Rendering.IFrame
   nameWithType: IFrame
-- uid: NetAF.Rendering.IFrame.CursorLeft
-  name: CursorLeft
-  href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_CursorLeft
-  commentId: P:NetAF.Rendering.IFrame.CursorLeft
-  fullName: NetAF.Rendering.IFrame.CursorLeft
-  nameWithType: IFrame.CursorLeft
-- uid: NetAF.Rendering.IFrame.CursorLeft*
-  name: CursorLeft
-  href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_CursorLeft_
-  commentId: Overload:NetAF.Rendering.IFrame.CursorLeft
-  isSpec: "True"
-  fullName: NetAF.Rendering.IFrame.CursorLeft
-  nameWithType: IFrame.CursorLeft
-- uid: NetAF.Rendering.IFrame.CursorTop
-  name: CursorTop
-  href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_CursorTop
-  commentId: P:NetAF.Rendering.IFrame.CursorTop
-  fullName: NetAF.Rendering.IFrame.CursorTop
-  nameWithType: IFrame.CursorTop
-- uid: NetAF.Rendering.IFrame.CursorTop*
-  name: CursorTop
-  href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_CursorTop_
-  commentId: Overload:NetAF.Rendering.IFrame.CursorTop
-  isSpec: "True"
-  fullName: NetAF.Rendering.IFrame.CursorTop
-  nameWithType: IFrame.CursorTop
 - uid: NetAF.Rendering.IFrame.Render(NetAF.Rendering.IFramePresenter)
   name: Render(IFramePresenter)
   href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_Render_NetAF_Rendering_IFramePresenter_
@@ -11587,34 +11597,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.IFrame.Render
   nameWithType: IFrame.Render
-- uid: NetAF.Rendering.IFrame.ShowCursor
-  name: ShowCursor
-  href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_ShowCursor
-  commentId: P:NetAF.Rendering.IFrame.ShowCursor
-  fullName: NetAF.Rendering.IFrame.ShowCursor
-  nameWithType: IFrame.ShowCursor
-- uid: NetAF.Rendering.IFrame.ShowCursor*
-  name: ShowCursor
-  href: api/NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_ShowCursor_
-  commentId: Overload:NetAF.Rendering.IFrame.ShowCursor
-  isSpec: "True"
-  fullName: NetAF.Rendering.IFrame.ShowCursor
-  nameWithType: IFrame.ShowCursor
 - uid: NetAF.Rendering.IFramePresenter
   name: IFramePresenter
   href: api/NetAF.Rendering.IFramePresenter.html
   commentId: T:NetAF.Rendering.IFramePresenter
   fullName: NetAF.Rendering.IFramePresenter
   nameWithType: IFramePresenter
-- uid: NetAF.Rendering.IFramePresenter.Write(System.Char)
-  name: Write(char)
-  href: api/NetAF.Rendering.IFramePresenter.html#NetAF_Rendering_IFramePresenter_Write_System_Char_
-  commentId: M:NetAF.Rendering.IFramePresenter.Write(System.Char)
-  name.vb: Write(Char)
-  fullName: NetAF.Rendering.IFramePresenter.Write(char)
-  fullName.vb: NetAF.Rendering.IFramePresenter.Write(Char)
-  nameWithType: IFramePresenter.Write(char)
-  nameWithType.vb: IFramePresenter.Write(Char)
 - uid: NetAF.Rendering.IFramePresenter.Write(System.String)
   name: Write(string)
   href: api/NetAF.Rendering.IFramePresenter.html#NetAF_Rendering_IFramePresenter_Write_System_String_

@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Interface IFrame | NetAF </title>
+      <title>Interface IConsoleFrame | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Interface IFrame | NetAF ">
+      <meta name="title" content="Interface IConsoleFrame | NetAF ">
     
-    <meta name="description" content="Represents any object that is a frame for displaying an interface.">
+    <meta name="description" content="Represents any object that is a frame that can display a command based interface.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,46 +76,97 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.IFrame">
+            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.IConsoleFrame">
 
 
 
-  <h1 id="NetAF_Rendering_IFrame" data-uid="NetAF.Rendering.IFrame" class="text-break">Interface IFrame</h1>
-  <div class="markdown level0 summary"><p>Represents any object that is a frame for displaying an interface.</p>
+  <h1 id="NetAF_Rendering_IConsoleFrame" data-uid="NetAF.Rendering.IConsoleFrame" class="text-break">Interface IConsoleFrame</h1>
+  <div class="markdown level0 summary"><p>Represents any object that is a frame that can display a command based interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_Render_NetAF_Rendering_IFramePresenter_">IFrame.Render(IFramePresenter)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Rendering.html">Rendering</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Rendering_IFrame_syntax">Syntax</h5>
+  <h5 id="NetAF_Rendering_IConsoleFrame_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IFrame</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IConsoleFrame : IFrame</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Rendering_IFrame_Render_" data-uid="NetAF.Rendering.IFrame.Render*"></a>
-  <h4 id="NetAF_Rendering_IFrame_Render_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Rendering.IFrame.Render(NetAF.Rendering.IFramePresenter)">Render(IFramePresenter)</h4>
-  <div class="markdown level1 summary"><p>Render this frame on a presenter.</p>
+  <a id="NetAF_Rendering_IConsoleFrame_CursorLeft_" data-uid="NetAF.Rendering.IConsoleFrame.CursorLeft*"></a>
+  <h4 id="NetAF_Rendering_IConsoleFrame_CursorLeft" data-uid="NetAF.Rendering.IConsoleFrame.CursorLeft">CursorLeft</h4>
+  <div class="markdown level1 summary"><p>Get the cursor left position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Render(IFramePresenter presenter)</code></pre>
+    <pre><code class="lang-csharp hljs">int CursorLeft { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></td>
-        <td><span class="parametername">presenter</span></td>
-        <td><p>The presenter.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_IConsoleFrame_CursorTop_" data-uid="NetAF.Rendering.IConsoleFrame.CursorTop*"></a>
+  <h4 id="NetAF_Rendering_IConsoleFrame_CursorTop" data-uid="NetAF.Rendering.IConsoleFrame.CursorTop">CursorTop</h4>
+  <div class="markdown level1 summary"><p>Get the cursor top position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int CursorTop { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_IConsoleFrame_ShowCursor_" data-uid="NetAF.Rendering.IConsoleFrame.ShowCursor*"></a>
+  <h4 id="NetAF_Rendering_IConsoleFrame_ShowCursor" data-uid="NetAF.Rendering.IConsoleFrame.ShowCursor">ShowCursor</h4>
+  <div class="markdown level1 summary"><p>Get or set if the cursor should be shown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ShowCursor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
