@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Struct AnsiColor | NetAF </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Struct AnsiColor | NetAF ">
+    
+    <meta name="description" content="Represents an ANSI color.">
+      <link rel="shortcut icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="NetAF">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.AnsiColor">
+
+
+
+  <h1 id="NetAF_Targets_Console_Rendering_AnsiColor" data-uid="NetAF.Targets.Console.Rendering.AnsiColor" class="text-break">Struct AnsiColor</h1>
+  <div class="markdown level0 summary"><p>Represents an ANSI color.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a></h6>
+  <h6><strong>Assembly</strong>: NetAF.dll</h6>
+  <h5 id="NetAF_Targets_Console_Rendering_AnsiColor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct AnsiColor : IEquatable&lt;AnsiColor&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor__ctor_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.#ctor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor__ctor_System_Byte_System_Byte_System_Byte_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.#ctor(System.Byte,System.Byte,System.Byte)">AnsiColor(byte, byte, byte)</h4>
+  <div class="markdown level1 summary"><p>Represents an ANSI color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor(byte r, byte g, byte b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>The red channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>The green channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue channel.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_B_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.B*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_B" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.B">B</h4>
+  <div class="markdown level1 summary"><p>Get the blue channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly byte B { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Black_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Black*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Black" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Black">Black</h4>
+  <div class="markdown level1 summary"><p>Black.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Black { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Blue_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Blue*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Blue" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Blue">Blue</h4>
+  <div class="markdown level1 summary"><p>Blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Blue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightBlack_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightBlack*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightBlack" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightBlack">BrightBlack</h4>
+  <div class="markdown level1 summary"><p>Bright black.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightBlack { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightBlue_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightBlue*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightBlue" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightBlue">BrightBlue</h4>
+  <div class="markdown level1 summary"><p>Bright blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightBlue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightCyan_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightCyan*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightCyan" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightCyan">BrightCyan</h4>
+  <div class="markdown level1 summary"><p>Bright cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightCyan { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightGreen_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightGreen*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightGreen" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightGreen">BrightGreen</h4>
+  <div class="markdown level1 summary"><p>Bright green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightGreen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightMagenta_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightMagenta*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightMagenta" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightMagenta">BrightMagenta</h4>
+  <div class="markdown level1 summary"><p>Bright magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightMagenta { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightRed_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightRed*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightRed" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightRed">BrightRed</h4>
+  <div class="markdown level1 summary"><p>Bright red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightRed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightWhite_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightWhite*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightWhite" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightWhite">BrightWhite</h4>
+  <div class="markdown level1 summary"><p>Bright white.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightWhite { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_BrightYellow_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightYellow*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_BrightYellow" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.BrightYellow">BrightYellow</h4>
+  <div class="markdown level1 summary"><p>Bright yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor BrightYellow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Cyan_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Cyan*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Cyan" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Cyan">Cyan</h4>
+  <div class="markdown level1 summary"><p>Cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Cyan { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_G_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.G*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_G" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.G">G</h4>
+  <div class="markdown level1 summary"><p>Get the green channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly byte G { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Green_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Green*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Green" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Green">Green</h4>
+  <div class="markdown level1 summary"><p>Green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Green { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Magenta_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Magenta*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Magenta" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Magenta">Magenta</h4>
+  <div class="markdown level1 summary"><p>Magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Magenta { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_R_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.R*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_R" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.R">R</h4>
+  <div class="markdown level1 summary"><p>Get the red channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly byte R { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Red_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Red*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Red" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Red">Red</h4>
+  <div class="markdown level1 summary"><p>Red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Red { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_White_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.White*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_White" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.White">White</h4>
+  <div class="markdown level1 summary"><p>White.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor White { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Yellow_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Yellow*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Yellow" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Yellow">Yellow</h4>
+  <div class="markdown level1 summary"><p>Yellow</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AnsiColor Yellow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Equals_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Equals*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Equals_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Equals(NetAF.Targets.Console.Rendering.AnsiColor)">Equals(AnsiColor)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(AnsiColor other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>An object to compare with this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_Equals_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Equals*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_Equals_System_Object_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.Equals(System.Object)">Equals(object)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>An object to compare with this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">obj</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a></div>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_GetHashCode_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.GetHashCode*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_GetHashCode" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>A hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a></div>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_ToGray_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.ToGray*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_ToGray" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.ToGray">ToGray()</h4>
+  <div class="markdown level1 summary"><p>Convert this color to the nearest gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor ToGray()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><p>The nearest gray.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+</h3>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_op_Equality_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.op_Equality*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_op_Equality_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.op_Equality(NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)">operator ==(AnsiColor, AnsiColor)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified AnsiColors have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(AnsiColor left, AnsiColor right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_AnsiColor_op_Inequality_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.op_Inequality*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiColor_op_Inequality_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.AnsiColor.op_Inequality(NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)">operator !=(AnsiColor, AnsiColor)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified AnsiColors have different values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(AnsiColor left, AnsiColor right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -12,48 +12,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Adapters.IIOAdapter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Adapters.IIOAdapter.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Adapters.IIOAdapter",
-      "Summary": "<p sourcefile=\"api/NetAF.Adapters.IIOAdapter.yml\" sourcestartlinenumber=\"1\">Represents any object that provides an adapter for input.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Adapters.SystemConsoleAdapter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Adapters.SystemConsoleAdapter.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Adapters.SystemConsoleAdapter",
-      "Summary": "<p sourcefile=\"api/NetAF.Adapters.SystemConsoleAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for the System.Console.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Adapters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Adapters.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Adapters",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.Attributes.Attribute.yml",
       "output": {
         ".html": {
@@ -1692,20 +1650,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Configuration.ConsoleGameConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.Configuration.ConsoleGameConfiguration",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Configuration.ConsoleGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a console game.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Configuration.IGameConfiguration.yml",
       "output": {
         ".html": {
@@ -1829,6 +1773,20 @@
       "IsMRef": true,
       "Title": "NetAF.Logic.GameState",
       "Summary": "<p sourcefile=\"api/NetAF.Logic.GameState.yml\" sourcestartlinenumber=\"1\">Enumeration of game states.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.IIOAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.IIOAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.IIOAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.IIOAdapter.yml\" sourcestartlinenumber=\"1\">Represents any object that provides an adapter for input.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2112,356 +2070,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.Ansi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.Ansi.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.Ansi",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.Ansi.yml\" sourcestartlinenumber=\"1\">Provides helper functions for ANSI colors.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.AnsiColor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.AnsiColor.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.AnsiColor",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.AnsiColor.yml\" sourcestartlinenumber=\"1\">Represents an ANSI color.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of console about frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of command list frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of completion frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of conversation frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of game over frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of reaction frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for scene frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of visual frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.FrameBuilders.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.FrameBuilders",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.GridStringBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.GridStringBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.GridStringBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridStringBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building strings as part of a grid.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.GridTextFrame.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.GridTextFrame.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.GridTextFrame",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridTextFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a command based interface.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.GridVisualBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.GridVisualBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.GridVisualBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridVisualBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building visuals in a grid.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.GridVisualFrame.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.GridVisualFrame.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.GridVisualFrame",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridVisualFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a visual.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.NetAFPalette.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.NetAFPalette.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.NetAFPalette",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.NetAFPalette.yml\" sourcestartlinenumber=\"1\">Provides a palette of ANSI colors.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.TextWriterPresenter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.TextWriterPresenter.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.TextWriterPresenter",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.TextWriterPresenter.yml\" sourcestartlinenumber=\"1\">Represents a presenter for TextWriter.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.Texture.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.Texture.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console.Texture",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.Texture.yml\" sourcestartlinenumber=\"1\">Provides texture made from a 2D array of characters.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.Console.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.Console.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.Console",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.yml\" sourcestartlinenumber=\"1\">Provides a container for console frame builder collections.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.yml",
       "output": {
         ".html": {
@@ -2473,6 +2081,20 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.FrameBuilders.FrameBuilderCollection",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.yml\" sourcestartlinenumber=\"1\">Provides a collection of all of the frame builders required to run a game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.FrameBuilderCollections",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.yml\" sourcestartlinenumber=\"1\">Provides a container for frame builder collections.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2697,20 +2319,6 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.FrameBuilders",
       "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.IConsoleFrame.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.IConsoleFrame.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.IConsoleFrame",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.IConsoleFrame.yml\" sourcestartlinenumber=\"1\">Represents any object that is a frame that can display a command based interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3004,6 +2612,692 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Serialization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.ConsoleAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.ConsoleAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.ConsoleAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.ConsoleAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for the System.Console.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.ConsoleGameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.ConsoleGameConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.ConsoleGameConfiguration",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.ConsoleGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a console game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.Ansi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.Ansi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.Ansi",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.Ansi.yml\" sourcestartlinenumber=\"1\">Provides helper functions for ANSI colors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.AnsiColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.AnsiColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.AnsiColor",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.AnsiColor.yml\" sourcestartlinenumber=\"1\">Represents an ANSI color.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleAboutFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleAboutFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleAboutFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of console about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCommandListFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCommandListFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCommandListFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of command list frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCompletionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCompletionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCompletionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of completion frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleConversationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleConversationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleConversationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of conversation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleGameOverFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleGameOverFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleGameOverFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of game over frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of reaction frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for scene frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleTitleFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleTitleFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleTitleFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of visual frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.GridStringBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.GridStringBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.GridStringBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.GridStringBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building strings as part of a grid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.GridTextFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.GridTextFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.GridTextFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.GridTextFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a command based interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.GridVisualBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.GridVisualBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.GridVisualBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building visuals in a grid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.GridVisualFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.GridVisualFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.GridVisualFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.GridVisualFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a visual.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.IConsoleFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.IConsoleFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.IConsoleFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IConsoleFrame.yml\" sourcestartlinenumber=\"1\">Represents any object that is a frame that can display a command based interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build region maps targeting the console.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build room maps targeting the console.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.NetAFPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.NetAFPalette.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.NetAFPalette",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.NetAFPalette.yml\" sourcestartlinenumber=\"1\">Provides a palette of ANSI colors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.TextWriterPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.TextWriterPresenter",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.TextWriterPresenter.yml\" sourcestartlinenumber=\"1\">Represents a presenter for TextWriter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.Texture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.Texture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.Texture",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.Texture.yml\" sourcestartlinenumber=\"1\">Provides texture made from a 2D array of characters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.HtmlAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.HtmlAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.HtmlAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.HtmlAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for HTML.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.HtmlGameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.HtmlGameConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.HtmlGameConfiguration",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.HtmlGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a Html game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCommandListFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCommandListFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCommandListFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of command list frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCompletionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCompletionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCompletionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of completion frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of conversation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlGameOverFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlGameOverFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlGameOverFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of game over frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHelpFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHelpFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHelpFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of reaction frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of scene frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlTitleFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlTitleFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlTitleFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.HtmlBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.HtmlBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.HtmlBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.HtmlBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building HTML.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.HtmlFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.HtmlFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.HtmlFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.HtmlFrame.yml\" sourcestartlinenumber=\"1\">Provides an HTML frame for displaying a command based interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html",
       "Summary": null
     },
     {
