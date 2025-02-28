@@ -3060,7 +3060,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Targets.Html.HtmlGameConfiguration",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.HtmlGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a Html game.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.HtmlGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a HTML game.</p>\n"
     },
     {
       "type": "ManagedReference",
