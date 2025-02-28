@@ -18,7 +18,11 @@
           "relative_path": "api/NetAF.Adapters.IIOAdapter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Adapters.IIOAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Adapters.IIOAdapter.yml\" sourcestartlinenumber=\"1\">Represents any object that provides an adapter for input.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/NetAF.Adapters.SystemConsoleAdapter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Adapters.SystemConsoleAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Adapters.SystemConsoleAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for the System.Console.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/NetAF.Adapters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Adapters",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/NetAF.Assets.Attributes.Attribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Attributes.Attribute",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Attributes.Attribute.yml\" sourcestartlinenumber=\"1\">Provides a description of an attribute.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/NetAF.Assets.Attributes.AttributeManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Attributes.AttributeManager",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Attributes.AttributeManager.yml\" sourcestartlinenumber=\"1\">Provides a class for managing attributes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/NetAF.Assets.Attributes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Attributes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/NetAF.Assets.Characters.Character.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Characters.Character",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Characters.Character.yml\" sourcestartlinenumber=\"1\">Represents a generic in game character.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/NetAF.Assets.Characters.IConverser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Characters.IConverser",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Characters.IConverser.yml\" sourcestartlinenumber=\"1\">Represents an object that can converse.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/NetAF.Assets.Characters.NonPlayableCharacter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Characters.NonPlayableCharacter",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Characters.NonPlayableCharacter.yml\" sourcestartlinenumber=\"1\">Represents a non-playable character.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/NetAF.Assets.Characters.PlayableCharacter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Characters.PlayableCharacter",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Characters.PlayableCharacter.yml\" sourcestartlinenumber=\"1\">Represents a playable character.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/NetAF.Assets.Characters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Characters",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/NetAF.Assets.Condition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Condition",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Condition.yml\" sourcestartlinenumber=\"1\">Represents a callback for conditions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/NetAF.Assets.ConditionalDescription.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.ConditionalDescription",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.ConditionalDescription.yml\" sourcestartlinenumber=\"1\">Represents a conditional description of an object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/NetAF.Assets.Description.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Description",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Description.yml\" sourcestartlinenumber=\"1\">Represents a description of an object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/NetAF.Assets.ExaminableObject.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.ExaminableObject",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.ExaminableObject.yml\" sourcestartlinenumber=\"1\">Represents an object that can be examined.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/NetAF.Assets.Examination.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Examination",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Examination.yml\" sourcestartlinenumber=\"1\">Represents an examination.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/NetAF.Assets.ExaminationCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.ExaminationCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.ExaminationCallback.yml\" sourcestartlinenumber=\"1\">Represents the callback for examinations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/NetAF.Assets.ExaminationRequest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.ExaminationRequest",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.ExaminationRequest.yml\" sourcestartlinenumber=\"1\">Represents a request to examine an IExaminable.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +270,11 @@
           "relative_path": "api/NetAF.Assets.ExaminationScene.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.ExaminationScene",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.ExaminationScene.yml\" sourcestartlinenumber=\"1\">Represents a scene that an examination occurs in.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -208,7 +284,11 @@
           "relative_path": "api/NetAF.Assets.IDescription.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.IDescription",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.IDescription.yml\" sourcestartlinenumber=\"1\">Provides a description of an object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -218,7 +298,11 @@
           "relative_path": "api/NetAF.Assets.IExaminable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.IExaminable",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.IExaminable.yml\" sourcestartlinenumber=\"1\">Represents any object that is examinable.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +312,11 @@
           "relative_path": "api/NetAF.Assets.IInteractWithItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.IInteractWithItem",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.IInteractWithItem.yml\" sourcestartlinenumber=\"1\">Represents any object that can interact with an item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -238,7 +326,11 @@
           "relative_path": "api/NetAF.Assets.IItemContainer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.IItemContainer",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.IItemContainer.yml\" sourcestartlinenumber=\"1\">Represents any object that is a container of items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -248,7 +340,11 @@
           "relative_path": "api/NetAF.Assets.IPlayerVisible.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.IPlayerVisible",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.IPlayerVisible.yml\" sourcestartlinenumber=\"1\">Represents any object that is visible to a player.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -258,7 +354,11 @@
           "relative_path": "api/NetAF.Assets.Identifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Identifier",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Identifier.yml\" sourcestartlinenumber=\"1\">Provides a class that can be used as an identifier.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -268,7 +368,11 @@
           "relative_path": "api/NetAF.Assets.Interaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Interaction",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Interaction.yml\" sourcestartlinenumber=\"1\">Represents an interaction.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +382,11 @@
           "relative_path": "api/NetAF.Assets.InteractionCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.InteractionCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.InteractionCallback.yml\" sourcestartlinenumber=\"1\">Represents the callback for interacting with objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -288,7 +396,11 @@
           "relative_path": "api/NetAF.Assets.InteractionResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.InteractionResult",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.InteractionResult.yml\" sourcestartlinenumber=\"1\">Enumeration of interaction results.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -298,7 +410,11 @@
           "relative_path": "api/NetAF.Assets.Item.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Item",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Item.yml\" sourcestartlinenumber=\"1\">Represents an item that can be used within the game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +424,11 @@
           "relative_path": "api/NetAF.Assets.Locations.Direction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.Direction",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.Direction.yml\" sourcestartlinenumber=\"1\">Enumeration of directions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +438,11 @@
           "relative_path": "api/NetAF.Assets.Locations.Exit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.Exit",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.Exit.yml\" sourcestartlinenumber=\"1\">Represents an exit from a room.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -328,7 +452,11 @@
           "relative_path": "api/NetAF.Assets.Locations.Matrix.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.Matrix",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.Matrix.yml\" sourcestartlinenumber=\"1\">Provides a 3D matrix of rooms.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -338,7 +466,11 @@
           "relative_path": "api/NetAF.Assets.Locations.Overworld.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.Overworld",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.Overworld.yml\" sourcestartlinenumber=\"1\">Represents an entire overworld.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -348,7 +480,11 @@
           "relative_path": "api/NetAF.Assets.Locations.Region.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.Region",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.Region.yml\" sourcestartlinenumber=\"1\">Represents a region.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -358,7 +494,11 @@
           "relative_path": "api/NetAF.Assets.Locations.Room.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.Room",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.Room.yml\" sourcestartlinenumber=\"1\">Represents a room.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +508,11 @@
           "relative_path": "api/NetAF.Assets.Locations.RoomPosition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.RoomPosition",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.RoomPosition.yml\" sourcestartlinenumber=\"1\">Represents a room position.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +522,11 @@
           "relative_path": "api/NetAF.Assets.Locations.ViewPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations.ViewPoint",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Locations.ViewPoint.yml\" sourcestartlinenumber=\"1\">Represents a view point from a room.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +536,11 @@
           "relative_path": "api/NetAF.Assets.Locations.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Locations",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -398,7 +550,11 @@
           "relative_path": "api/NetAF.Assets.Point2D.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Point2D",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Point2D.yml\" sourcestartlinenumber=\"1\">Represents a two-dimensional point.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -408,7 +564,11 @@
           "relative_path": "api/NetAF.Assets.Point3D.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Point3D",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Point3D.yml\" sourcestartlinenumber=\"1\">Represents a three-dimensional point.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,7 +578,11 @@
           "relative_path": "api/NetAF.Assets.Size.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.Size",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.Size.yml\" sourcestartlinenumber=\"1\">Represents a size.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -428,7 +592,11 @@
           "relative_path": "api/NetAF.Assets.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -438,7 +606,11 @@
           "relative_path": "api/NetAF.Commands.CommandHelp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.CommandHelp",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.CommandHelp.yml\" sourcestartlinenumber=\"1\">Provides help for a command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -448,7 +620,11 @@
           "relative_path": "api/NetAF.Commands.Conversation.Next.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Conversation.Next",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Conversation.Next.yml\" sourcestartlinenumber=\"1\">Represents the Next command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +634,11 @@
           "relative_path": "api/NetAF.Commands.Conversation.Respond.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Conversation.Respond",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Conversation.Respond.yml\" sourcestartlinenumber=\"1\">Represents the Respond command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -468,7 +648,11 @@
           "relative_path": "api/NetAF.Commands.Conversation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Conversation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -478,7 +662,11 @@
           "relative_path": "api/NetAF.Commands.CustomCommand.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.CustomCommand",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.CustomCommand.yml\" sourcestartlinenumber=\"1\">Provides a custom command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -488,7 +676,11 @@
           "relative_path": "api/NetAF.Commands.CustomCommandCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.CustomCommandCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.CustomCommandCallback.yml\" sourcestartlinenumber=\"1\">Provides a callback for custom commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -498,7 +690,11 @@
           "relative_path": "api/NetAF.Commands.Frame.CommandsOff.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame.CommandsOff",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOff.yml\" sourcestartlinenumber=\"1\">Represents the CommandsOff command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +704,11 @@
           "relative_path": "api/NetAF.Commands.Frame.CommandsOn.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame.CommandsOn",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOn.yml\" sourcestartlinenumber=\"1\">Represents the CommandsOn command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +718,11 @@
           "relative_path": "api/NetAF.Commands.Frame.KeyOff.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame.KeyOff",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOff.yml\" sourcestartlinenumber=\"1\">Represents the KeyOff command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -528,7 +732,11 @@
           "relative_path": "api/NetAF.Commands.Frame.KeyOn.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame.KeyOn",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOn.yml\" sourcestartlinenumber=\"1\">Represents the KeyOn command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -538,7 +746,11 @@
           "relative_path": "api/NetAF.Commands.Frame.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -548,7 +760,11 @@
           "relative_path": "api/NetAF.Commands.Global.About.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.About",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.About.yml\" sourcestartlinenumber=\"1\">Represents the About command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -558,7 +774,11 @@
           "relative_path": "api/NetAF.Commands.Global.CommandList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.CommandList",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.CommandList.yml\" sourcestartlinenumber=\"1\">Represents the Commands command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -568,7 +788,11 @@
           "relative_path": "api/NetAF.Commands.Global.End.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.End",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.End.yml\" sourcestartlinenumber=\"1\">Represents the End command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -578,7 +802,11 @@
           "relative_path": "api/NetAF.Commands.Global.Exit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.Exit",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.Exit.yml\" sourcestartlinenumber=\"1\">Represents the Exit command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -588,7 +816,11 @@
           "relative_path": "api/NetAF.Commands.Global.Help.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.Help",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.Help.yml\" sourcestartlinenumber=\"1\">Represents the Help command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -598,7 +830,11 @@
           "relative_path": "api/NetAF.Commands.Global.Map.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.Map",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.Map.yml\" sourcestartlinenumber=\"1\">Represents the Map command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -608,7 +844,11 @@
           "relative_path": "api/NetAF.Commands.Global.New.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global.New",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.New.yml\" sourcestartlinenumber=\"1\">Represents the New command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -618,7 +858,11 @@
           "relative_path": "api/NetAF.Commands.Global.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Global",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -628,7 +872,11 @@
           "relative_path": "api/NetAF.Commands.ICommand.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.ICommand",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.ICommand.yml\" sourcestartlinenumber=\"1\">Represents a command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +886,11 @@
           "relative_path": "api/NetAF.Commands.Persistence.Load.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Persistence.Load",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Persistence.Load.yml\" sourcestartlinenumber=\"1\">Represents the Load command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -648,7 +900,11 @@
           "relative_path": "api/NetAF.Commands.Persistence.Save.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Persistence.Save",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Persistence.Save.yml\" sourcestartlinenumber=\"1\">Represents the Save command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -658,7 +914,11 @@
           "relative_path": "api/NetAF.Commands.Persistence.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Persistence",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -668,7 +928,11 @@
           "relative_path": "api/NetAF.Commands.Reaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Reaction",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Reaction.yml\" sourcestartlinenumber=\"1\">Represents a reaction.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -678,7 +942,11 @@
           "relative_path": "api/NetAF.Commands.ReactionResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.ReactionResult",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.ReactionResult.yml\" sourcestartlinenumber=\"1\">Enumeration of reaction results.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -688,7 +956,11 @@
           "relative_path": "api/NetAF.Commands.RegionMap.Pan.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.RegionMap.Pan",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.RegionMap.Pan.yml\" sourcestartlinenumber=\"1\">Represents the Pan command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -698,7 +970,11 @@
           "relative_path": "api/NetAF.Commands.RegionMap.PanReset.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.RegionMap.PanReset",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.RegionMap.PanReset.yml\" sourcestartlinenumber=\"1\">Represents the PanReset command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +984,11 @@
           "relative_path": "api/NetAF.Commands.RegionMap.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.RegionMap",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -718,7 +998,11 @@
           "relative_path": "api/NetAF.Commands.Scene.Drop.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.Drop",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Drop.yml\" sourcestartlinenumber=\"1\">Represents the Drop command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -728,7 +1012,11 @@
           "relative_path": "api/NetAF.Commands.Scene.Examine.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.Examine",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Examine.yml\" sourcestartlinenumber=\"1\">Represents the Examine command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1026,11 @@
           "relative_path": "api/NetAF.Commands.Scene.Move.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.Move",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Move.yml\" sourcestartlinenumber=\"1\">Represents the Move command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1040,11 @@
           "relative_path": "api/NetAF.Commands.Scene.Take.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.Take",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Take.yml\" sourcestartlinenumber=\"1\">Represents the Take command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1054,11 @@
           "relative_path": "api/NetAF.Commands.Scene.TakeAll.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.TakeAll",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.TakeAll.yml\" sourcestartlinenumber=\"1\">Represents the Take all command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1068,11 @@
           "relative_path": "api/NetAF.Commands.Scene.Talk.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.Talk",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Talk.yml\" sourcestartlinenumber=\"1\">Represents the Talk command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1082,11 @@
           "relative_path": "api/NetAF.Commands.Scene.Unactionable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.Unactionable",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Unactionable.yml\" sourcestartlinenumber=\"1\">Represents the Unactionable command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1096,11 @@
           "relative_path": "api/NetAF.Commands.Scene.UseOn.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.UseOn",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.UseOn.yml\" sourcestartlinenumber=\"1\">Represents the UseOn command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1110,11 @@
           "relative_path": "api/NetAF.Commands.Scene.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1124,11 @@
           "relative_path": "api/NetAF.Commands.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1138,11 @@
           "relative_path": "api/NetAF.Conversations.Conversation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Conversation",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Conversation.yml\" sourcestartlinenumber=\"1\">Represents a conversation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1152,11 @@
           "relative_path": "api/NetAF.Conversations.ConversationActionCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.ConversationActionCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.ConversationActionCallback.yml\" sourcestartlinenumber=\"1\">Provides a callback that can be used in conversations invoking actions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1166,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.ByCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.ByCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.ByCallback.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs based on a callback.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1180,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.First.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.First",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.First.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs to the start.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1194,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.GoTo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.GoTo",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.GoTo.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs based on an absolute index.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1208,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.IEndOfPargraphInstruction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.IEndOfPargraphInstruction",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.IEndOfPargraphInstruction.yml\" sourcestartlinenumber=\"1\">Represents an instructon to be carried out at the end of a paragraph.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1222,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.Jump.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.Jump",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.Jump.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs based on a delta.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1236,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.Last.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.Last",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.Last.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs to the end.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1250,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.Next.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.Next",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.Next.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs to the next paragraph.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1264,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.Previous.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.Previous",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.Previous.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs to the previous paragraph.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1278,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.Repeat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.Repeat",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.Repeat.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that repeats.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1292,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.ToName.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions.ToName",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Instructions.ToName.yml\" sourcestartlinenumber=\"1\">An end of paragraph instruction that shifts paragraphs based on a name.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1306,11 @@
           "relative_path": "api/NetAF.Conversations.Instructions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Instructions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1320,11 @@
           "relative_path": "api/NetAF.Conversations.LogItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.LogItem",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.LogItem.yml\" sourcestartlinenumber=\"1\">Provides a container for log items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1334,11 @@
           "relative_path": "api/NetAF.Conversations.Paragraph.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Paragraph",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Paragraph.yml\" sourcestartlinenumber=\"1\">Represents a paragraph in a Conversation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1348,11 @@
           "relative_path": "api/NetAF.Conversations.Participant.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Participant",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Participant.yml\" sourcestartlinenumber=\"1\">Enumeration of participants in a conversation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1362,11 @@
           "relative_path": "api/NetAF.Conversations.Response.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations.Response",
+      "Summary": "<p sourcefile=\"api/NetAF.Conversations.Response.yml\" sourcestartlinenumber=\"1\">Provides a response to a conversation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1376,11 @@
           "relative_path": "api/NetAF.Conversations.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Conversations",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1390,11 @@
           "relative_path": "api/NetAF.Extensions.DirectionExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Extensions.DirectionExtensions",
+      "Summary": "<p sourcefile=\"api/NetAF.Extensions.DirectionExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension versions for Directions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1404,11 @@
           "relative_path": "api/NetAF.Extensions.StringBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Extensions.StringBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/NetAF.Extensions.StringBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for StringBuilder.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1418,11 @@
           "relative_path": "api/NetAF.Extensions.StringExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Extensions.StringExtensions",
+      "Summary": "<p sourcefile=\"api/NetAF.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for strings.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1432,11 @@
           "relative_path": "api/NetAF.Extensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Extensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1446,11 @@
           "relative_path": "api/NetAF.Interpretation.ConversationCommandInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.ConversationCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.ConversationCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting conversation commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1460,11 @@
           "relative_path": "api/NetAF.Interpretation.CustomCommandInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.CustomCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.CustomCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting custom commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1474,11 @@
           "relative_path": "api/NetAF.Interpretation.FrameCommandInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.FrameCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.FrameCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting frame commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1488,11 @@
           "relative_path": "api/NetAF.Interpretation.GlobalCommandInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.GlobalCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.GlobalCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting global commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1078,7 +1502,11 @@
           "relative_path": "api/NetAF.Interpretation.IInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.IInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.IInterpreter.yml\" sourcestartlinenumber=\"1\">Represents any object that can act as an interpreter for input.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1088,7 +1516,11 @@
           "relative_path": "api/NetAF.Interpretation.InputInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.InputInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.InputInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting game input.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1098,7 +1530,11 @@
           "relative_path": "api/NetAF.Interpretation.InterpretationResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.InterpretationResult",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.InterpretationResult.yml\" sourcestartlinenumber=\"1\">Represents the result of an interpretation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1108,7 +1544,11 @@
           "relative_path": "api/NetAF.Interpretation.Interpreters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.Interpreters",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.Interpreters.yml\" sourcestartlinenumber=\"1\">Provides collections of interpreters.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1118,7 +1558,11 @@
           "relative_path": "api/NetAF.Interpretation.RegionMapCommandInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.RegionMapCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.RegionMapCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting region map commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1572,11 @@
           "relative_path": "api/NetAF.Interpretation.SceneCommandInterpreter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.SceneCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.SceneCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting scene commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1586,11 @@
           "relative_path": "api/NetAF.Interpretation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1148,7 +1600,11 @@
           "relative_path": "api/NetAF.Logic.AssetCatalog.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.AssetCatalog",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.AssetCatalog.yml\" sourcestartlinenumber=\"1\">Provides a catalog of all assets in a game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1158,7 +1614,11 @@
           "relative_path": "api/NetAF.Logic.AssetGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.AssetGenerator",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.AssetGenerator.yml\" sourcestartlinenumber=\"1\">Represents a generator for game assets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1168,7 +1628,11 @@
           "relative_path": "api/NetAF.Logic.Callbacks.GameCreationCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Callbacks.GameCreationCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Callbacks.GameCreationCallback.yml\" sourcestartlinenumber=\"1\">Represents the callback used for Game creation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1178,7 +1642,11 @@
           "relative_path": "api/NetAF.Logic.Callbacks.GameSetupCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Callbacks.GameSetupCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Callbacks.GameSetupCallback.yml\" sourcestartlinenumber=\"1\">Represents the callback used for Game setup.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1188,7 +1656,11 @@
           "relative_path": "api/NetAF.Logic.Callbacks.OverworldCreationCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Callbacks.OverworldCreationCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Callbacks.OverworldCreationCallback.yml\" sourcestartlinenumber=\"1\">Represents a callback for Overworld creation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1670,11 @@
           "relative_path": "api/NetAF.Logic.Callbacks.PlayerCreationCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Callbacks.PlayerCreationCallback",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Callbacks.PlayerCreationCallback.yml\" sourcestartlinenumber=\"1\">Represents a callback for Player creation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1684,11 @@
           "relative_path": "api/NetAF.Logic.Callbacks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Callbacks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1218,7 +1698,11 @@
           "relative_path": "api/NetAF.Logic.Configuration.ConsoleGameConfiguration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Configuration.ConsoleGameConfiguration",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Configuration.ConsoleGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a console game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1228,7 +1712,11 @@
           "relative_path": "api/NetAF.Logic.Configuration.IGameConfiguration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Configuration.IGameConfiguration",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Configuration.IGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1238,7 +1726,11 @@
           "relative_path": "api/NetAF.Logic.Configuration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Configuration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1248,7 +1740,11 @@
           "relative_path": "api/NetAF.Logic.EndCheck.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.EndCheck",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.EndCheck.yml\" sourcestartlinenumber=\"1\">Represents the callback used for end checks.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1258,7 +1754,11 @@
           "relative_path": "api/NetAF.Logic.EndCheckResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.EndCheckResult",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.EndCheckResult.yml\" sourcestartlinenumber=\"1\">Represents the result of an end check.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1268,7 +1768,11 @@
           "relative_path": "api/NetAF.Logic.ExitMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.ExitMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.ExitMode.yml\" sourcestartlinenumber=\"1\">Enumeration of exit modes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1278,7 +1782,11 @@
           "relative_path": "api/NetAF.Logic.Game.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Game",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Game.yml\" sourcestartlinenumber=\"1\">Represents a game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1288,7 +1796,11 @@
           "relative_path": "api/NetAF.Logic.GameEndConditions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameEndConditions",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameEndConditions.yml\" sourcestartlinenumber=\"1\">Provides a container for game end conditions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1298,7 +1810,11 @@
           "relative_path": "api/NetAF.Logic.GameInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameInfo",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameInfo.yml\" sourcestartlinenumber=\"1\">Provides information about a game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1308,7 +1824,11 @@
           "relative_path": "api/NetAF.Logic.GameState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameState",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameState.yml\" sourcestartlinenumber=\"1\">Enumeration of game states.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1318,7 +1838,11 @@
           "relative_path": "api/NetAF.Logic.Modes.AboutMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.AboutMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.AboutMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for about.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1328,7 +1852,11 @@
           "relative_path": "api/NetAF.Logic.Modes.CommandListMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.CommandListMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.CommandListMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for command list.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1338,7 +1866,11 @@
           "relative_path": "api/NetAF.Logic.Modes.CompletionMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.CompletionMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.CompletionMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for completion.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1880,11 @@
           "relative_path": "api/NetAF.Logic.Modes.ConversationMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.ConversationMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.ConversationMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for conversation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1358,7 +1894,11 @@
           "relative_path": "api/NetAF.Logic.Modes.GameModeType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.GameModeType",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.GameModeType.yml\" sourcestartlinenumber=\"1\">Enumeration of game mode types.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1368,7 +1908,11 @@
           "relative_path": "api/NetAF.Logic.Modes.GameOverMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.GameOverMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.GameOverMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for game over.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1378,7 +1922,11 @@
           "relative_path": "api/NetAF.Logic.Modes.HelpMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.HelpMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.HelpMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for help.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1388,7 +1936,11 @@
           "relative_path": "api/NetAF.Logic.Modes.IGameMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.IGameMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.IGameMode.yml\" sourcestartlinenumber=\"1\">Represents a mode for a game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1398,7 +1950,11 @@
           "relative_path": "api/NetAF.Logic.Modes.ReactionMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.ReactionMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.ReactionMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for reaction.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1408,7 +1964,11 @@
           "relative_path": "api/NetAF.Logic.Modes.RegionMapMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.RegionMapMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.RegionMapMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for region map.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1978,11 @@
           "relative_path": "api/NetAF.Logic.Modes.SceneMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.SceneMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.SceneMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for a scene.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1428,7 +1992,11 @@
           "relative_path": "api/NetAF.Logic.Modes.TitleMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.TitleMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.TitleMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for title.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1438,7 +2006,11 @@
           "relative_path": "api/NetAF.Logic.Modes.VisualMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.VisualMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.VisualMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for rendering of visual frame.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1448,7 +2020,11 @@
           "relative_path": "api/NetAF.Logic.Modes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1458,7 +2034,11 @@
           "relative_path": "api/NetAF.Logic.PlayableCharacterLocation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.PlayableCharacterLocation",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.PlayableCharacterLocation.yml\" sourcestartlinenumber=\"1\">Provides a record of the location of a playable character.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1468,7 +2048,11 @@
           "relative_path": "api/NetAF.Logic.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +2062,11 @@
           "relative_path": "api/NetAF.Persistence.Json.JsonSave.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Persistence.Json.JsonSave",
+      "Summary": "<p sourcefile=\"api/NetAF.Persistence.Json.JsonSave.yml\" sourcestartlinenumber=\"1\">Provides persistence for a save in the Json format.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +2076,11 @@
           "relative_path": "api/NetAF.Persistence.Json.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Persistence.Json",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1498,7 +2090,11 @@
           "relative_path": "api/NetAF.Persistence.RestorePoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Persistence.RestorePoint",
+      "Summary": "<p sourcefile=\"api/NetAF.Persistence.RestorePoint.yml\" sourcestartlinenumber=\"1\">Represents a restore point for a Game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1508,7 +2104,11 @@
           "relative_path": "api/NetAF.Persistence.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Persistence",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1518,7 +2118,11 @@
           "relative_path": "api/NetAF.Rendering.Console.Ansi.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.Ansi",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.Ansi.yml\" sourcestartlinenumber=\"1\">Provides helper functions for ANSI colors.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1528,7 +2132,11 @@
           "relative_path": "api/NetAF.Rendering.Console.AnsiColor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.AnsiColor",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.AnsiColor.yml\" sourcestartlinenumber=\"1\">Represents an ANSI color.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1538,7 +2146,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of console about frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1548,7 +2160,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleCommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of command list frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1558,7 +2174,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleCompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of completion frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1568,7 +2188,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of conversation frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1578,7 +2202,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of game over frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1588,7 +2216,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1598,7 +2230,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of reaction frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1608,7 +2244,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1618,7 +2258,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1628,7 +2272,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1638,7 +2286,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleSceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for scene frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1648,7 +2300,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1658,7 +2314,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.FrameBuilders.ConsoleVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of visual frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1668,7 +2328,11 @@
           "relative_path": "api/NetAF.Rendering.Console.FrameBuilders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.FrameBuilders",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1678,7 +2342,11 @@
           "relative_path": "api/NetAF.Rendering.Console.GridStringBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.GridStringBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridStringBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building strings as part of a grid.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1688,7 +2356,11 @@
           "relative_path": "api/NetAF.Rendering.Console.GridTextFrame.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.GridTextFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridTextFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a command based interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1698,7 +2370,11 @@
           "relative_path": "api/NetAF.Rendering.Console.GridVisualBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.GridVisualBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridVisualBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building visuals in a grid.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1708,7 +2384,11 @@
           "relative_path": "api/NetAF.Rendering.Console.GridVisualFrame.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.GridVisualFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.GridVisualFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a visual.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1718,7 +2398,11 @@
           "relative_path": "api/NetAF.Rendering.Console.NetAFPalette.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.NetAFPalette",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.NetAFPalette.yml\" sourcestartlinenumber=\"1\">Provides a palette of ANSI colors.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1728,7 +2412,11 @@
           "relative_path": "api/NetAF.Rendering.Console.TextWriterPresenter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.TextWriterPresenter",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.TextWriterPresenter.yml\" sourcestartlinenumber=\"1\">Represents a presenter for TextWriter.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1738,7 +2426,11 @@
           "relative_path": "api/NetAF.Rendering.Console.Texture.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console.Texture",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Console.Texture.yml\" sourcestartlinenumber=\"1\">Provides texture made from a 2D array of characters.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1748,7 +2440,11 @@
           "relative_path": "api/NetAF.Rendering.Console.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Console",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1758,7 +2454,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ConsoleFrameBuilderCollections.yml\" sourcestartlinenumber=\"1\">Provides a container for console frame builder collections.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1768,7 +2468,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.FrameBuilderCollection",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.yml\" sourcestartlinenumber=\"1\">Provides a collection of all of the frame builders required to run a game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1778,7 +2482,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IAboutFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build about frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1788,7 +2496,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build command list frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1798,7 +2510,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ICompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build completion frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1808,7 +2524,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IConversationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build conversation frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1818,7 +2538,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1828,7 +2552,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build game over frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +2566,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IHelpFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build help frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1848,7 +2580,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IReactionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build reaction frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1858,7 +2594,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build region maps.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1868,7 +2608,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build region map frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1878,7 +2622,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build room maps.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1888,7 +2636,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.ISceneFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build scene frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1898,7 +2650,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.ITitleFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ITitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build title frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1908,7 +2664,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IVisualFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build visual frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1918,7 +2678,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.SceneHelper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.SceneHelper",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.SceneHelper.yml\" sourcestartlinenumber=\"1\">Provides helper functionality for scenes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1928,7 +2692,11 @@
           "relative_path": "api/NetAF.Rendering.FrameBuilders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1938,7 +2706,11 @@
           "relative_path": "api/NetAF.Rendering.IConsoleFrame.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.IConsoleFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.IConsoleFrame.yml\" sourcestartlinenumber=\"1\">Represents any object that is a frame that can display a command based interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1948,7 +2720,11 @@
           "relative_path": "api/NetAF.Rendering.IFrame.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.IFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.IFrame.yml\" sourcestartlinenumber=\"1\">Represents any object that is a frame for displaying an interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1958,7 +2734,11 @@
           "relative_path": "api/NetAF.Rendering.IFramePresenter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.IFramePresenter",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.IFramePresenter.yml\" sourcestartlinenumber=\"1\">Represents an object that can present a frame.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1968,7 +2748,11 @@
           "relative_path": "api/NetAF.Rendering.KeyType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.KeyType",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.KeyType.yml\" sourcestartlinenumber=\"1\">Enumeration of key types.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1978,7 +2762,11 @@
           "relative_path": "api/NetAF.Rendering.RegionMapMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.RegionMapMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.RegionMapMode.yml\" sourcestartlinenumber=\"1\">Enumeration of region map modes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1988,7 +2776,11 @@
           "relative_path": "api/NetAF.Rendering.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1998,7 +2790,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.AttributeAndValueSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.AttributeAndValueSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a KeyValuePair where key is an Attribute and value is a int.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2008,7 +2804,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.AttributeManagerSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.AttributeManagerSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.AttributeManagerSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of an AttributeManager.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2018,7 +2818,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.CharacterSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.CharacterSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.CharacterSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a Character.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2028,7 +2832,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.ConversationSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.ConversationSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.ConversationSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a Conversation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2038,7 +2846,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.ExaminableSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.ExaminableSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.ExaminableSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of an Examinable.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2048,7 +2860,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.ExitSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.ExitSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.ExitSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of an Exit.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2058,7 +2874,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.ItemSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.ItemSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.ItemSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of an Item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2068,7 +2888,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.NonPlayableCharacterSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a NonPlayableCharacter.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2078,7 +2902,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.OverworldSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.OverworldSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.OverworldSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of an Overworld.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2088,7 +2916,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.PlayableCharacterLocationSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a PlayableCharacterLocation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2098,7 +2930,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.RegionSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.RegionSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.RegionSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a Region.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2108,7 +2944,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.RoomSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.RoomSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.RoomSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a Room.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2118,7 +2958,11 @@
           "relative_path": "api/NetAF.Serialization.Assets.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2128,7 +2972,11 @@
           "relative_path": "api/NetAF.Serialization.CustomCommandSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.CustomCommandSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.CustomCommandSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a CustomCommand.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2138,7 +2986,11 @@
           "relative_path": "api/NetAF.Serialization.GameSerialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.GameSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.GameSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a Game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2148,7 +3000,11 @@
           "relative_path": "api/NetAF.Serialization.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2158,7 +3014,11 @@
           "relative_path": "api/NetAF.Utilities.IAssetTemplate-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Utilities.IAssetTemplate<T>",
+      "Summary": "<p sourcefile=\"api/NetAF.Utilities.IAssetTemplate-1.yml\" sourcestartlinenumber=\"1\">Represents any object that is a template for an asset.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2168,7 +3028,11 @@
           "relative_path": "api/NetAF.Utilities.OverworldMaker.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Utilities.OverworldMaker",
+      "Summary": "<p sourcefile=\"api/NetAF.Utilities.OverworldMaker.yml\" sourcestartlinenumber=\"1\">Provides a class for helping to make Regions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2178,7 +3042,11 @@
           "relative_path": "api/NetAF.Utilities.RegionMaker.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Utilities.RegionMaker",
+      "Summary": "<p sourcefile=\"api/NetAF.Utilities.RegionMaker.yml\" sourcestartlinenumber=\"1\">Provides a class for helping to make Regions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2188,7 +3056,11 @@
           "relative_path": "api/NetAF.Utilities.StringUtilities.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Utilities.StringUtilities",
+      "Summary": "<p sourcefile=\"api/NetAF.Utilities.StringUtilities.yml\" sourcestartlinenumber=\"1\">Provides a helper class for string interpretation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2198,17 +3070,21 @@
           "relative_path": "api/NetAF.Utilities.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Utilities",
+      "Summary": null
     },
     {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -2367,11 +3243,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
         }
       },
       "version": ""
@@ -2500,11 +3376,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
