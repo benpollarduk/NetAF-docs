@@ -124,13 +124,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder__ctor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.#ctor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)">ConsoleRegionMapFrameBuilder(GridStringBuilder, IRegionMapBuilder)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_System_Boolean_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Rendering.FrameBuilders.IRegionMapBuilder,System.Boolean)">ConsoleRegionMapFrameBuilder(GridStringBuilder, IRegionMapBuilder, bool)</h4>
   <div class="markdown level1 summary"><p>Provides a builder of region map frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConsoleRegionMapFrameBuilder(GridStringBuilder gridStringBuilder, IRegionMapBuilder regionMapBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public ConsoleRegionMapFrameBuilder(GridStringBuilder gridStringBuilder, IRegionMapBuilder regionMapBuilder, bool renderPrompt = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -152,6 +152,12 @@
         <td><a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a></td>
         <td><span class="parametername">regionMapBuilder</span></td>
         <td><p>A builder for region maps.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">renderPrompt</span></td>
+        <td><p>Specify if the prompt should be rendered.</p>
 </td>
       </tr>
     </tbody>
