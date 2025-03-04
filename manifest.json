@@ -2658,6 +2658,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.AnsiCell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.AnsiCell.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.AnsiCell",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.AnsiCell.yml\" sourcestartlinenumber=\"1\">Represents a cell containing ANSI data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.AnsiColor.yml",
       "output": {
         ".html": {
@@ -2921,6 +2935,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.GridVisualFrame",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.GridVisualFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying a visual.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.IAnsiGridFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.yml\" sourcestartlinenumber=\"1\">Represents any object that is an ANSI based grid frame.</p>\n"
     },
     {
       "type": "ManagedReference",

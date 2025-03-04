@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace NetAF.Targets.Console.Rendering | NetAF </title>
+      <title>Interface IAnsiGridFrame | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace NetAF.Targets.Console.Rendering | NetAF ">
+      <meta name="title" content="Interface IAnsiGridFrame | NetAF ">
     
-    
+    <meta name="description" content="Represents any object that is an ANSI based grid frame.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,64 +76,77 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.IAnsiGridFrame">
 
-  <h1 id="NetAF_Targets_Console_Rendering" data-uid="NetAF.Targets.Console.Rendering" class="text-break">Namespace NetAF.Targets.Console.Rendering</h1>
-  <div class="markdown level0 summary"></div>
+
+
+  <h1 id="NetAF_Targets_Console_Rendering_IAnsiGridFrame" data-uid="NetAF.Targets.Console.Rendering.IAnsiGridFrame" class="text-break">Interface IAnsiGridFrame</h1>
+  <div class="markdown level0 summary"><p>Represents any object that is an ANSI based grid frame.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetAF.Rendering.IFrame.html#NetAF_Rendering_IFrame_Render_NetAF_Rendering_IFramePresenter_">IFrame.Render(IFramePresenter)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a></h6>
+  <h6><strong>Assembly</strong>: NetAF.dll</h6>
+  <h5 id="NetAF_Targets_Console_Rendering_IAnsiGridFrame_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAnsiGridFrame : IFrame</code></pre>
+  </div>
+  <h3 id="methods">Methods
 </h3>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.Ansi.html">Ansi</a></h4>
-      <section><p>Provides helper functions for ANSI colors.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiCell.html">AnsiCell</a></h4>
-      <section><p>Represents a cell containing ANSI data.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></h4>
-      <section><p>Provides a class for building strings as part of a grid.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.GridTextFrame.html">GridTextFrame</a></h4>
-      <section><p>Provides a grid based frame for displaying a command based interface.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualBuilder.html">GridVisualBuilder</a></h4>
-      <section><p>Provides a class for building visuals in a grid.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualFrame.html">GridVisualFrame</a></h4>
-      <section><p>Provides a grid based frame for displaying a visual.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.NetAFPalette.html">NetAFPalette</a></h4>
-      <section><p>Provides a palette of ANSI colors.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.TextWriterPresenter.html">TextWriterPresenter</a></h4>
-      <section><p>Represents a presenter for TextWriter.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.Texture.html">Texture</a></h4>
-      <section><p>Provides texture made from a 2D array of characters.</p>
-</section>
-    <h3 id="structs">
-Structs
-</h3>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></h4>
-      <section><p>Represents an ANSI color.</p>
-</section>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.IAnsiGridFrame.html">IAnsiGridFrame</a></h4>
-      <section><p>Represents any object that is an ANSI based grid frame.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.IConsoleFrame.html">IConsoleFrame</a></h4>
-      <section><p>Represents any object that is a frame that can display a command based interface.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html">IConsoleRegionMapBuilder</a></h4>
-      <section><p>Represents any object that can build region maps targeting the console.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.html">IConsoleRoomMapBuilder</a></h4>
-      <section><p>Represents any object that can build room maps targeting the console.</p>
-</section>
-
+  <a id="NetAF_Targets_Console_Rendering_IAnsiGridFrame_GetCell_" data-uid="NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_IAnsiGridFrame_GetCell_System_Int32_System_Int32_" data-uid="NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell(System.Int32,System.Int32)">GetCell(int, int)</h4>
+  <div class="markdown level1 summary"><p>Get a cell from the grid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AnsiCell GetCell(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x position of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiCell.html">AnsiCell</a></td>
+        <td><p>The ANSI cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>

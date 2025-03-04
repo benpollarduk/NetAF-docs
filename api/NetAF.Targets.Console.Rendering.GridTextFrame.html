@@ -92,6 +92,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="NetAF.Targets.Console.Rendering.IConsoleFrame.html">IConsoleFrame</a></div>
+    <div><a class="xref" href="NetAF.Targets.Console.Rendering.IAnsiGridFrame.html">IAnsiGridFrame</a></div>
     <div><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></div>
   </div>
   <div class="inheritedMembers">
@@ -116,7 +117,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Console_Rendering_GridTextFrame_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class GridTextFrame : IConsoleFrame, IFrame</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class GridTextFrame : IConsoleFrame, IAnsiGridFrame, IFrame</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -265,6 +266,55 @@
   </table>
   <h3 id="methods">Methods
 </h3>
+  <a id="NetAF_Targets_Console_Rendering_GridTextFrame_GetCell_" data-uid="NetAF.Targets.Console.Rendering.GridTextFrame.GetCell*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_GridTextFrame_GetCell_System_Int32_System_Int32_" data-uid="NetAF.Targets.Console.Rendering.GridTextFrame.GetCell(System.Int32,System.Int32)">GetCell(int, int)</h4>
+  <div class="markdown level1 summary"><p>Get a cell from the grid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiCell GetCell(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x position of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y position of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiCell.html">AnsiCell</a></td>
+        <td><p>The ANSI cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Targets_Console_Rendering_GridTextFrame_Render_" data-uid="NetAF.Targets.Console.Rendering.GridTextFrame.Render*"></a>
   <h4 id="NetAF_Targets_Console_Rendering_GridTextFrame_Render_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Targets.Console.Rendering.GridTextFrame.Render(NetAF.Rendering.IFramePresenter)">Render(IFramePresenter)</h4>
   <div class="markdown level1 summary"><p>Render this frame on a presenter.</p>
@@ -322,6 +372,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="NetAF.Targets.Console.Rendering.IConsoleFrame.html">IConsoleFrame</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Targets.Console.Rendering.IAnsiGridFrame.html">IAnsiGridFrame</a>
   </div>
   <div>
       <a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a>

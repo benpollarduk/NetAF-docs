@@ -9420,6 +9420,70 @@ references:
   commentId: F:NetAF.Targets.Console.Rendering.Ansi.NO_COLOR
   fullName: NetAF.Targets.Console.Rendering.Ansi.NO_COLOR
   nameWithType: Ansi.NO_COLOR
+- uid: NetAF.Targets.Console.Rendering.AnsiCell
+  name: AnsiCell
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html
+  commentId: T:NetAF.Targets.Console.Rendering.AnsiCell
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell
+  nameWithType: AnsiCell
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.#ctor(System.Char,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
+  name: AnsiCell(char, AnsiColor, AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell__ctor_System_Char_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.AnsiCell.#ctor(System.Char,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
+  name.vb: New(Char, AnsiColor, AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.AnsiCell(char, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName.vb: NetAF.Targets.Console.Rendering.AnsiCell.New(Char, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: AnsiCell.AnsiCell(char, AnsiColor, AnsiColor)
+  nameWithType.vb: AnsiCell.New(Char, AnsiColor, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.#ctor*
+  name: AnsiCell
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.AnsiCell.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.AnsiCell
+  fullName.vb: NetAF.Targets.Console.Rendering.AnsiCell.New
+  nameWithType: AnsiCell.AnsiCell
+  nameWithType.vb: AnsiCell.New
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.Background
+  name: Background
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell_Background
+  commentId: P:NetAF.Targets.Console.Rendering.AnsiCell.Background
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.Background
+  nameWithType: AnsiCell.Background
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.Background*
+  name: Background
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell_Background_
+  commentId: Overload:NetAF.Targets.Console.Rendering.AnsiCell.Background
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.Background
+  nameWithType: AnsiCell.Background
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.Character
+  name: Character
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell_Character
+  commentId: P:NetAF.Targets.Console.Rendering.AnsiCell.Character
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.Character
+  nameWithType: AnsiCell.Character
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.Character*
+  name: Character
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell_Character_
+  commentId: Overload:NetAF.Targets.Console.Rendering.AnsiCell.Character
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.Character
+  nameWithType: AnsiCell.Character
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.Foreground
+  name: Foreground
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell_Foreground
+  commentId: P:NetAF.Targets.Console.Rendering.AnsiCell.Foreground
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.Foreground
+  nameWithType: AnsiCell.Foreground
+- uid: NetAF.Targets.Console.Rendering.AnsiCell.Foreground*
+  name: Foreground
+  href: api/NetAF.Targets.Console.Rendering.AnsiCell.html#NetAF_Targets_Console_Rendering_AnsiCell_Foreground_
+  commentId: Overload:NetAF.Targets.Console.Rendering.AnsiCell.Foreground
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.AnsiCell.Foreground
+  nameWithType: AnsiCell.Foreground
 - uid: NetAF.Targets.Console.Rendering.AnsiColor
   name: AnsiColor
   href: api/NetAF.Targets.Console.Rendering.AnsiColor.html
@@ -11778,6 +11842,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridTextFrame.CursorTop
   nameWithType: GridTextFrame.CursorTop
+- uid: NetAF.Targets.Console.Rendering.GridTextFrame.GetCell(System.Int32,System.Int32)
+  name: GetCell(int, int)
+  href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame_GetCell_System_Int32_System_Int32_
+  commentId: M:NetAF.Targets.Console.Rendering.GridTextFrame.GetCell(System.Int32,System.Int32)
+  name.vb: GetCell(Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.GridTextFrame.GetCell(int, int)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridTextFrame.GetCell(Integer, Integer)
+  nameWithType: GridTextFrame.GetCell(int, int)
+  nameWithType.vb: GridTextFrame.GetCell(Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.GridTextFrame.GetCell*
+  name: GetCell
+  href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame_GetCell_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridTextFrame.GetCell
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridTextFrame.GetCell
+  nameWithType: GridTextFrame.GetCell
 - uid: NetAF.Targets.Console.Rendering.GridTextFrame.Render(NetAF.Rendering.IFramePresenter)
   name: Render(IFramePresenter)
   href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame_Render_NetAF_Rendering_IFramePresenter_
@@ -12100,6 +12180,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.CursorTop
   nameWithType: GridVisualFrame.CursorTop
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell(System.Int32,System.Int32)
+  name: GetCell(int, int)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_GetCell_System_Int32_System_Int32_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell(System.Int32,System.Int32)
+  name.vb: GetCell(Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell(int, int)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell(Integer, Integer)
+  nameWithType: GridVisualFrame.GetCell(int, int)
+  nameWithType.vb: GridVisualFrame.GetCell(Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell*
+  name: GetCell
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_GetCell_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell
+  nameWithType: GridVisualFrame.GetCell
 - uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Render(NetAF.Rendering.IFramePresenter)
   name: Render(IFramePresenter)
   href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Render_NetAF_Rendering_IFramePresenter_
@@ -12126,6 +12222,28 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.ShowCursor
   nameWithType: GridVisualFrame.ShowCursor
+- uid: NetAF.Targets.Console.Rendering.IAnsiGridFrame
+  name: IAnsiGridFrame
+  href: api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.html
+  commentId: T:NetAF.Targets.Console.Rendering.IAnsiGridFrame
+  fullName: NetAF.Targets.Console.Rendering.IAnsiGridFrame
+  nameWithType: IAnsiGridFrame
+- uid: NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell(System.Int32,System.Int32)
+  name: GetCell(int, int)
+  href: api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.html#NetAF_Targets_Console_Rendering_IAnsiGridFrame_GetCell_System_Int32_System_Int32_
+  commentId: M:NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell(System.Int32,System.Int32)
+  name.vb: GetCell(Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell(int, int)
+  fullName.vb: NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell(Integer, Integer)
+  nameWithType: IAnsiGridFrame.GetCell(int, int)
+  nameWithType.vb: IAnsiGridFrame.GetCell(Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell*
+  name: GetCell
+  href: api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.html#NetAF_Targets_Console_Rendering_IAnsiGridFrame_GetCell_
+  commentId: Overload:NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.IAnsiGridFrame.GetCell
+  nameWithType: IAnsiGridFrame.GetCell
 - uid: NetAF.Targets.Console.Rendering.IConsoleFrame
   name: IConsoleFrame
   href: api/NetAF.Targets.Console.Rendering.IConsoleFrame.html

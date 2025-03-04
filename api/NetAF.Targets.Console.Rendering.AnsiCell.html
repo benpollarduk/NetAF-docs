@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class GridVisualFrame | NetAF </title>
+      <title>Class AnsiCell | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class GridVisualFrame | NetAF ">
+      <meta name="title" content="Class AnsiCell | NetAF ">
     
-    <meta name="description" content="Provides a grid based frame for displaying a visual.">
+    <meta name="description" content="Represents a cell containing ANSI data.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.AnsiCell">
 
 
 
-  <h1 id="NetAF_Targets_Console_Rendering_GridVisualFrame" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame" class="text-break">Class GridVisualFrame</h1>
-  <div class="markdown level0 summary"><p>Provides a grid based frame for displaying a visual.</p>
+  <h1 id="NetAF_Targets_Console_Rendering_AnsiCell" data-uid="NetAF.Targets.Console.Rendering.AnsiCell" class="text-break">Class AnsiCell</h1>
+  <div class="markdown level0 summary"><p>Represents a cell containing ANSI data.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">GridVisualFrame</span></div>
+    <div class="level1"><span class="xref">AnsiCell</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Targets.Console.Rendering.AnsiCell.html">AnsiCell</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,6 +108,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
@@ -116,20 +119,20 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Console_Rendering_GridVisualFrame_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Console_Rendering_AnsiCell_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class GridVisualFrame : IFrame</code></pre>
+    <pre><code class="lang-csharp hljs">public record AnsiCell : IEquatable&lt;AnsiCell&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_GridVisualFrame__ctor_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualFrame__ctor_NetAF_Targets_Console_Rendering_GridVisualBuilder_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualBuilder)">GridVisualFrame(GridVisualBuilder)</h4>
-  <div class="markdown level1 summary"><p>Provides a grid based frame for displaying a visual.</p>
+  <a id="NetAF_Targets_Console_Rendering_AnsiCell__ctor_" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.#ctor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiCell__ctor_System_Char_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.#ctor(System.Char,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)">AnsiCell(char, AnsiColor, AnsiColor)</h4>
+  <div class="markdown level1 summary"><p>Represents a cell containing ANSI data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GridVisualFrame(GridVisualBuilder builder)</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiCell(char Character, AnsiColor Foreground, AnsiColor Background)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -142,23 +145,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualBuilder.html">GridVisualBuilder</a></td>
-        <td><span class="parametername">builder</span></td>
-        <td><p>The builder that creates the frame.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><span class="parametername">Character</span></td>
+        <td><p>The character contained in the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">Foreground</span></td>
+        <td><p>The foreground of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><span class="parametername">Background</span></td>
+        <td><p>The background of the cell.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_GridVisualFrame_CursorLeft_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.CursorLeft*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualFrame_CursorLeft" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.CursorLeft">CursorLeft</h4>
-  <div class="markdown level1 summary"><p>Get the cursor left position.</p>
+  <a id="NetAF_Targets_Console_Rendering_AnsiCell_Background_" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.Background*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiCell_Background" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.Background">Background</h4>
+  <div class="markdown level1 summary"><p>The background of the cell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CursorLeft { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiColor Background { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -170,19 +185,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Console_Rendering_GridVisualFrame_CursorTop_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.CursorTop*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualFrame_CursorTop" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.CursorTop">CursorTop</h4>
-  <div class="markdown level1 summary"><p>Get the cursor top position.</p>
+  <a id="NetAF_Targets_Console_Rendering_AnsiCell_Character_" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.Character*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiCell_Character" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.Character">Character</h4>
+  <div class="markdown level1 summary"><p>The character contained in the cell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CursorTop { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public char Character { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -194,19 +209,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Console_Rendering_GridVisualFrame_ShowCursor_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.ShowCursor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualFrame_ShowCursor" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.ShowCursor">ShowCursor</h4>
-  <div class="markdown level1 summary"><p>Get or set if the cursor should be shown.</p>
+  <a id="NetAF_Targets_Console_Rendering_AnsiCell_Foreground_" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.Foreground*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_AnsiCell_Foreground" data-uid="NetAF.Targets.Console.Rendering.AnsiCell.Foreground">Foreground</h4>
+  <div class="markdown level1 summary"><p>The foreground of the cell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ShowCursor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiColor Foreground { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -218,92 +233,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <a id="NetAF_Targets_Console_Rendering_GridVisualFrame_GetCell_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualFrame_GetCell_System_Int32_System_Int32_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell(System.Int32,System.Int32)">GetCell(int, int)</h4>
-  <div class="markdown level1 summary"><p>Get a cell from the grid.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiCell GetCell(int x, int y)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">x</span></td>
-        <td><p>The x position of the cell.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">y</span></td>
-        <td><p>The y position of the cell.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiCell.html">AnsiCell</a></td>
-        <td><p>The ANSI cell.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_GridVisualFrame_Render_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.Render*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualFrame_Render_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Targets.Console.Rendering.GridVisualFrame.Render(NetAF.Rendering.IFramePresenter)">Render(IFramePresenter)</h4>
-  <div class="markdown level1 summary"><p>Render this frame on a presenter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Render(IFramePresenter presenter)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></td>
-        <td><span class="parametername">presenter</span></td>
-        <td><p>The presenter.</p>
-</td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
   </div>
 
 </article>
