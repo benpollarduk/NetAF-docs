@@ -12573,15 +12573,15 @@ references:
   commentId: T:NetAF.Targets.Html.HtmlGameConfiguration
   fullName: NetAF.Targets.Html.HtmlGameConfiguration
   nameWithType: HtmlGameConfiguration
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Targets.Html.HtmlAdapter,NetAF.Logic.ExitMode)
-  name: HtmlGameConfiguration(HtmlAdapter, ExitMode)
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration__ctor_NetAF_Targets_Html_HtmlAdapter_NetAF_Logic_ExitMode_
-  commentId: M:NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Targets.Html.HtmlAdapter,NetAF.Logic.ExitMode)
-  name.vb: New(HtmlAdapter, ExitMode)
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.HtmlGameConfiguration(NetAF.Targets.Html.HtmlAdapter, NetAF.Logic.ExitMode)
-  fullName.vb: NetAF.Targets.Html.HtmlGameConfiguration.New(NetAF.Targets.Html.HtmlAdapter, NetAF.Logic.ExitMode)
-  nameWithType: HtmlGameConfiguration.HtmlGameConfiguration(HtmlAdapter, ExitMode)
-  nameWithType.vb: HtmlGameConfiguration.New(HtmlAdapter, ExitMode)
+- uid: NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Logic.ExitMode)
+  name: HtmlGameConfiguration(IIOAdapter, ExitMode)
+  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Logic_ExitMode_
+  commentId: M:NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Logic.ExitMode)
+  name.vb: New(IIOAdapter, ExitMode)
+  fullName: NetAF.Targets.Html.HtmlGameConfiguration.HtmlGameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Logic.ExitMode)
+  fullName.vb: NetAF.Targets.Html.HtmlGameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Logic.ExitMode)
+  nameWithType: HtmlGameConfiguration.HtmlGameConfiguration(IIOAdapter, ExitMode)
+  nameWithType.vb: HtmlGameConfiguration.New(IIOAdapter, ExitMode)
 - uid: NetAF.Targets.Html.HtmlGameConfiguration.#ctor*
   name: HtmlGameConfiguration
   href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration__ctor_
