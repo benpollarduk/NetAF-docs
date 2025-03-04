@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class HtmlGameConfiguration | NetAF </title>
+      <title>Class GameConfiguration | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class HtmlGameConfiguration | NetAF ">
+      <meta name="title" content="Class GameConfiguration | NetAF ">
     
-    <meta name="description" content="Represents a configuration for a HTML game.">
+    <meta name="description" content="Represents a configuration for a console game.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Html.HtmlGameConfiguration">
+            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Configuration.GameConfiguration">
 
 
 
-  <h1 id="NetAF_Targets_Html_HtmlGameConfiguration" data-uid="NetAF.Targets.Html.HtmlGameConfiguration" class="text-break">Class HtmlGameConfiguration</h1>
-  <div class="markdown level0 summary"><p>Represents a configuration for a HTML game.</p>
+  <h1 id="NetAF_Logic_Configuration_GameConfiguration" data-uid="NetAF.Logic.Configuration.GameConfiguration" class="text-break">Class GameConfiguration</h1>
+  <div class="markdown level0 summary"><p>Represents a configuration for a console game.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">HtmlGameConfiguration</span></div>
+    <div class="level1"><span class="xref">GameConfiguration</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -114,22 +114,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Html.html">Html</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Configuration.html">Configuration</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Html_HtmlGameConfiguration_syntax">Syntax</h5>
+  <h5 id="NetAF_Logic_Configuration_GameConfiguration_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class HtmlGameConfiguration : IGameConfiguration</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class GameConfiguration : IGameConfiguration</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Targets_Html_HtmlGameConfiguration__ctor_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.#ctor*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlGameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Logic_ExitMode_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Logic.ExitMode)">HtmlGameConfiguration(IIOAdapter, ExitMode)</h4>
-  <div class="markdown level1 summary"><p>Represents a configuration for a HTML game.</p>
+  <a id="NetAF_Logic_Configuration_GameConfiguration__ctor_" data-uid="NetAF.Logic.Configuration.GameConfiguration.#ctor*"></a>
+  <h4 id="NetAF_Logic_Configuration_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_ExitMode_" data-uid="NetAF.Logic.Configuration.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.ExitMode)">GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, ExitMode)</h4>
+  <div class="markdown level1 summary"><p>Represents a configuration for a console game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HtmlGameConfiguration(IIOAdapter adapter, ExitMode exitMode)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameConfiguration(IIOAdapter adapter, FrameBuilderCollection frameBuilders, Size displaySize, ExitMode exitMode = ExitMode.ReturnToTitleScreen)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -148,6 +148,18 @@
 </td>
       </tr>
       <tr>
+        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
+        <td><span class="parametername">frameBuilders</span></td>
+        <td><p>The collection of frame builders to use to render the game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">displaySize</span></td>
+        <td><p>The display size.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="NetAF.Logic.ExitMode.html">ExitMode</a></td>
         <td><span class="parametername">exitMode</span></td>
         <td><p>The exit mode.</p>
@@ -157,8 +169,8 @@
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Targets_Html_HtmlGameConfiguration_Adapter_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.Adapter*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlGameConfiguration_Adapter" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.Adapter">Adapter</h4>
+  <a id="NetAF_Logic_Configuration_GameConfiguration_Adapter_" data-uid="NetAF.Logic.Configuration.GameConfiguration.Adapter*"></a>
+  <h4 id="NetAF_Logic_Configuration_GameConfiguration_Adapter" data-uid="NetAF.Logic.Configuration.GameConfiguration.Adapter">Adapter</h4>
   <div class="markdown level1 summary"><p>Get the I/O adapter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -181,8 +193,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Html_HtmlGameConfiguration_DisplaySize_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlGameConfiguration_DisplaySize" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize">DisplaySize</h4>
+  <a id="NetAF_Logic_Configuration_GameConfiguration_DisplaySize_" data-uid="NetAF.Logic.Configuration.GameConfiguration.DisplaySize*"></a>
+  <h4 id="NetAF_Logic_Configuration_GameConfiguration_DisplaySize" data-uid="NetAF.Logic.Configuration.GameConfiguration.DisplaySize">DisplaySize</h4>
   <div class="markdown level1 summary"><p>Get the display size.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -205,8 +217,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Html_HtmlGameConfiguration_ExitMode_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.ExitMode*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlGameConfiguration_ExitMode" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.ExitMode">ExitMode</h4>
+  <a id="NetAF_Logic_Configuration_GameConfiguration_ExitMode_" data-uid="NetAF.Logic.Configuration.GameConfiguration.ExitMode*"></a>
+  <h4 id="NetAF_Logic_Configuration_GameConfiguration_ExitMode" data-uid="NetAF.Logic.Configuration.GameConfiguration.ExitMode">ExitMode</h4>
   <div class="markdown level1 summary"><p>Get the exit mode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -229,8 +241,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Html_HtmlGameConfiguration_FrameBuilders_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlGameConfiguration_FrameBuilders" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders">FrameBuilders</h4>
+  <a id="NetAF_Logic_Configuration_GameConfiguration_FrameBuilders_" data-uid="NetAF.Logic.Configuration.GameConfiguration.FrameBuilders*"></a>
+  <h4 id="NetAF_Logic_Configuration_GameConfiguration_FrameBuilders" data-uid="NetAF.Logic.Configuration.GameConfiguration.FrameBuilders">FrameBuilders</h4>
   <div class="markdown level1 summary"><p>Get or set the collection of frame builders to use to render the game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -253,8 +265,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Html_HtmlGameConfiguration_Interpreter_" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.Interpreter*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlGameConfiguration_Interpreter" data-uid="NetAF.Targets.Html.HtmlGameConfiguration.Interpreter">Interpreter</h4>
+  <a id="NetAF_Logic_Configuration_GameConfiguration_Interpreter_" data-uid="NetAF.Logic.Configuration.GameConfiguration.Interpreter*"></a>
+  <h4 id="NetAF_Logic_Configuration_GameConfiguration_Interpreter" data-uid="NetAF.Logic.Configuration.GameConfiguration.Interpreter">Interpreter</h4>
   <div class="markdown level1 summary"><p>Get or set the interpreter used for interpreting input.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

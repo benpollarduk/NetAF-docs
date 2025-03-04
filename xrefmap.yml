@@ -6310,6 +6310,96 @@ references:
   commentId: N:NetAF.Logic.Configuration
   fullName: NetAF.Logic.Configuration
   nameWithType: NetAF.Logic.Configuration
+- uid: NetAF.Logic.Configuration.GameConfiguration
+  name: GameConfiguration
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html
+  commentId: T:NetAF.Logic.Configuration.GameConfiguration
+  fullName: NetAF.Logic.Configuration.GameConfiguration
+  nameWithType: GameConfiguration
+- uid: NetAF.Logic.Configuration.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.ExitMode)
+  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_ExitMode_
+  commentId: M:NetAF.Logic.Configuration.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.ExitMode)
+  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
+  fullName: NetAF.Logic.Configuration.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.ExitMode)
+  fullName.vb: NetAF.Logic.Configuration.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.ExitMode)
+  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
+  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
+- uid: NetAF.Logic.Configuration.GameConfiguration.#ctor*
+  name: GameConfiguration
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration__ctor_
+  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Configuration.GameConfiguration.GameConfiguration
+  fullName.vb: NetAF.Logic.Configuration.GameConfiguration.New
+  nameWithType: GameConfiguration.GameConfiguration
+  nameWithType.vb: GameConfiguration.New
+- uid: NetAF.Logic.Configuration.GameConfiguration.Adapter
+  name: Adapter
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Adapter
+  commentId: P:NetAF.Logic.Configuration.GameConfiguration.Adapter
+  fullName: NetAF.Logic.Configuration.GameConfiguration.Adapter
+  nameWithType: GameConfiguration.Adapter
+- uid: NetAF.Logic.Configuration.GameConfiguration.Adapter*
+  name: Adapter
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Adapter_
+  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.Adapter
+  isSpec: "True"
+  fullName: NetAF.Logic.Configuration.GameConfiguration.Adapter
+  nameWithType: GameConfiguration.Adapter
+- uid: NetAF.Logic.Configuration.GameConfiguration.DisplaySize
+  name: DisplaySize
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_DisplaySize
+  commentId: P:NetAF.Logic.Configuration.GameConfiguration.DisplaySize
+  fullName: NetAF.Logic.Configuration.GameConfiguration.DisplaySize
+  nameWithType: GameConfiguration.DisplaySize
+- uid: NetAF.Logic.Configuration.GameConfiguration.DisplaySize*
+  name: DisplaySize
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_DisplaySize_
+  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.DisplaySize
+  isSpec: "True"
+  fullName: NetAF.Logic.Configuration.GameConfiguration.DisplaySize
+  nameWithType: GameConfiguration.DisplaySize
+- uid: NetAF.Logic.Configuration.GameConfiguration.ExitMode
+  name: ExitMode
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_ExitMode
+  commentId: P:NetAF.Logic.Configuration.GameConfiguration.ExitMode
+  fullName: NetAF.Logic.Configuration.GameConfiguration.ExitMode
+  nameWithType: GameConfiguration.ExitMode
+- uid: NetAF.Logic.Configuration.GameConfiguration.ExitMode*
+  name: ExitMode
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_ExitMode_
+  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.ExitMode
+  isSpec: "True"
+  fullName: NetAF.Logic.Configuration.GameConfiguration.ExitMode
+  nameWithType: GameConfiguration.ExitMode
+- uid: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
+  name: FrameBuilders
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_FrameBuilders
+  commentId: P:NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
+  fullName: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
+  nameWithType: GameConfiguration.FrameBuilders
+- uid: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders*
+  name: FrameBuilders
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_FrameBuilders_
+  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
+  isSpec: "True"
+  fullName: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
+  nameWithType: GameConfiguration.FrameBuilders
+- uid: NetAF.Logic.Configuration.GameConfiguration.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Interpreter
+  commentId: P:NetAF.Logic.Configuration.GameConfiguration.Interpreter
+  fullName: NetAF.Logic.Configuration.GameConfiguration.Interpreter
+  nameWithType: GameConfiguration.Interpreter
+- uid: NetAF.Logic.Configuration.GameConfiguration.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Interpreter_
+  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Configuration.GameConfiguration.Interpreter
+  nameWithType: GameConfiguration.Interpreter
 - uid: NetAF.Logic.Configuration.IGameConfiguration
   name: IGameConfiguration
   href: api/NetAF.Logic.Configuration.IGameConfiguration.html
@@ -9243,109 +9333,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.ConsoleAdapter.WaitForInput
   nameWithType: ConsoleAdapter.WaitForInput
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration
-  name: ConsoleGameConfiguration
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html
-  commentId: T:NetAF.Targets.Console.ConsoleGameConfiguration
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration
-  nameWithType: ConsoleGameConfiguration
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Logic.IIOAdapter)
-  name: ConsoleGameConfiguration(Size, ExitMode, IIOAdapter)
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration__ctor_NetAF_Assets_Size_NetAF_Logic_ExitMode_NetAF_Logic_IIOAdapter_
-  commentId: M:NetAF.Targets.Console.ConsoleGameConfiguration.#ctor(NetAF.Assets.Size,NetAF.Logic.ExitMode,NetAF.Logic.IIOAdapter)
-  name.vb: New(Size, ExitMode, IIOAdapter)
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.ConsoleGameConfiguration(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Logic.IIOAdapter)
-  fullName.vb: NetAF.Targets.Console.ConsoleGameConfiguration.New(NetAF.Assets.Size, NetAF.Logic.ExitMode, NetAF.Logic.IIOAdapter)
-  nameWithType: ConsoleGameConfiguration.ConsoleGameConfiguration(Size, ExitMode, IIOAdapter)
-  nameWithType.vb: ConsoleGameConfiguration.New(Size, ExitMode, IIOAdapter)
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.#ctor*
-  name: ConsoleGameConfiguration
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration__ctor_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.ConsoleGameConfiguration
-  fullName.vb: NetAF.Targets.Console.ConsoleGameConfiguration.New
-  nameWithType: ConsoleGameConfiguration.ConsoleGameConfiguration
-  nameWithType.vb: ConsoleGameConfiguration.New
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.Adapter
-  name: Adapter
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_Adapter
-  commentId: P:NetAF.Targets.Console.ConsoleGameConfiguration.Adapter
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.Adapter
-  nameWithType: ConsoleGameConfiguration.Adapter
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.Adapter*
-  name: Adapter
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_Adapter_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.Adapter
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.Adapter
-  nameWithType: ConsoleGameConfiguration.Adapter
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.Default
-  name: Default
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_Default
-  commentId: P:NetAF.Targets.Console.ConsoleGameConfiguration.Default
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.Default
-  nameWithType: ConsoleGameConfiguration.Default
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.Default*
-  name: Default
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_Default_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.Default
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.Default
-  nameWithType: ConsoleGameConfiguration.Default
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.DisplaySize
-  name: DisplaySize
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_DisplaySize
-  commentId: P:NetAF.Targets.Console.ConsoleGameConfiguration.DisplaySize
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.DisplaySize
-  nameWithType: ConsoleGameConfiguration.DisplaySize
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.DisplaySize*
-  name: DisplaySize
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_DisplaySize_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.DisplaySize
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.DisplaySize
-  nameWithType: ConsoleGameConfiguration.DisplaySize
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.ExitMode
-  name: ExitMode
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_ExitMode
-  commentId: P:NetAF.Targets.Console.ConsoleGameConfiguration.ExitMode
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.ExitMode
-  nameWithType: ConsoleGameConfiguration.ExitMode
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.ExitMode*
-  name: ExitMode
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_ExitMode_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.ExitMode
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.ExitMode
-  nameWithType: ConsoleGameConfiguration.ExitMode
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.FrameBuilders
-  name: FrameBuilders
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_FrameBuilders
-  commentId: P:NetAF.Targets.Console.ConsoleGameConfiguration.FrameBuilders
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.FrameBuilders
-  nameWithType: ConsoleGameConfiguration.FrameBuilders
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.FrameBuilders*
-  name: FrameBuilders
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_FrameBuilders_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.FrameBuilders
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.FrameBuilders
-  nameWithType: ConsoleGameConfiguration.FrameBuilders
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.Interpreter
-  name: Interpreter
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_Interpreter
-  commentId: P:NetAF.Targets.Console.ConsoleGameConfiguration.Interpreter
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.Interpreter
-  nameWithType: ConsoleGameConfiguration.Interpreter
-- uid: NetAF.Targets.Console.ConsoleGameConfiguration.Interpreter*
-  name: Interpreter
-  href: api/NetAF.Targets.Console.ConsoleGameConfiguration.html#NetAF_Targets_Console_ConsoleGameConfiguration_Interpreter_
-  commentId: Overload:NetAF.Targets.Console.ConsoleGameConfiguration.Interpreter
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleGameConfiguration.Interpreter
-  nameWithType: ConsoleGameConfiguration.Interpreter
 - uid: NetAF.Targets.Console.Rendering
   name: NetAF.Targets.Console.Rendering
   href: api/NetAF.Targets.Console.Rendering.html
@@ -12567,96 +12554,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.HtmlAdapter.WaitForInput
   nameWithType: HtmlAdapter.WaitForInput
-- uid: NetAF.Targets.Html.HtmlGameConfiguration
-  name: HtmlGameConfiguration
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html
-  commentId: T:NetAF.Targets.Html.HtmlGameConfiguration
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration
-  nameWithType: HtmlGameConfiguration
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Logic.ExitMode)
-  name: HtmlGameConfiguration(IIOAdapter, ExitMode)
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Logic_ExitMode_
-  commentId: M:NetAF.Targets.Html.HtmlGameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Logic.ExitMode)
-  name.vb: New(IIOAdapter, ExitMode)
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.HtmlGameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Logic.ExitMode)
-  fullName.vb: NetAF.Targets.Html.HtmlGameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Logic.ExitMode)
-  nameWithType: HtmlGameConfiguration.HtmlGameConfiguration(IIOAdapter, ExitMode)
-  nameWithType.vb: HtmlGameConfiguration.New(IIOAdapter, ExitMode)
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.#ctor*
-  name: HtmlGameConfiguration
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration__ctor_
-  commentId: Overload:NetAF.Targets.Html.HtmlGameConfiguration.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.HtmlGameConfiguration
-  fullName.vb: NetAF.Targets.Html.HtmlGameConfiguration.New
-  nameWithType: HtmlGameConfiguration.HtmlGameConfiguration
-  nameWithType.vb: HtmlGameConfiguration.New
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.Adapter
-  name: Adapter
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_Adapter
-  commentId: P:NetAF.Targets.Html.HtmlGameConfiguration.Adapter
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.Adapter
-  nameWithType: HtmlGameConfiguration.Adapter
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.Adapter*
-  name: Adapter
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_Adapter_
-  commentId: Overload:NetAF.Targets.Html.HtmlGameConfiguration.Adapter
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.Adapter
-  nameWithType: HtmlGameConfiguration.Adapter
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize
-  name: DisplaySize
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_DisplaySize
-  commentId: P:NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize
-  nameWithType: HtmlGameConfiguration.DisplaySize
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize*
-  name: DisplaySize
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_DisplaySize_
-  commentId: Overload:NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.DisplaySize
-  nameWithType: HtmlGameConfiguration.DisplaySize
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.ExitMode
-  name: ExitMode
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_ExitMode
-  commentId: P:NetAF.Targets.Html.HtmlGameConfiguration.ExitMode
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.ExitMode
-  nameWithType: HtmlGameConfiguration.ExitMode
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.ExitMode*
-  name: ExitMode
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_ExitMode_
-  commentId: Overload:NetAF.Targets.Html.HtmlGameConfiguration.ExitMode
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.ExitMode
-  nameWithType: HtmlGameConfiguration.ExitMode
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders
-  name: FrameBuilders
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_FrameBuilders
-  commentId: P:NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders
-  nameWithType: HtmlGameConfiguration.FrameBuilders
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders*
-  name: FrameBuilders
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_FrameBuilders_
-  commentId: Overload:NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.FrameBuilders
-  nameWithType: HtmlGameConfiguration.FrameBuilders
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.Interpreter
-  name: Interpreter
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_Interpreter
-  commentId: P:NetAF.Targets.Html.HtmlGameConfiguration.Interpreter
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.Interpreter
-  nameWithType: HtmlGameConfiguration.Interpreter
-- uid: NetAF.Targets.Html.HtmlGameConfiguration.Interpreter*
-  name: Interpreter
-  href: api/NetAF.Targets.Html.HtmlGameConfiguration.html#NetAF_Targets_Html_HtmlGameConfiguration_Interpreter_
-  commentId: Overload:NetAF.Targets.Html.HtmlGameConfiguration.Interpreter
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlGameConfiguration.Interpreter
-  nameWithType: HtmlGameConfiguration.Interpreter
 - uid: NetAF.Targets.Html.Rendering
   name: NetAF.Targets.Html.Rendering
   href: api/NetAF.Targets.Html.Rendering.html

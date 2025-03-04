@@ -178,7 +178,7 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
                 &quot;Dave awakes to find himself in a cavern...&quot;,
                 AssetGenerator.Custom(overworldMaker.Make, CreatePlayer),
                 new GameEndConditions(IsGameComplete, IsGameOver),
-                ConsoleGameConfiguration.Default);
+                new GameConfiguration(new ConsoleAdapter(), FrameBuilderCollections.Console, new(80, 50)));
 </code></pre>
 <p>This requires some breaking down. The <strong>Game</strong> class has a <strong>Create</strong> method that can be used to create instances of <strong>Game</strong>. This takes the following arguments:</p>
 <ul>
@@ -249,7 +249,7 @@ namespace NetAF.GettingStarted
                 &quot;Dave awakes to find himself in a cavern...&quot;,
                 AssetGenerator.Custom(overworldMaker.Make, CreatePlayer),
                 new GameEndConditions(IsGameComplete, IsGameOver),
-                ConsoleGameConfiguration.Default);
+                new GameConfiguration(new ConsoleAdapter(), FrameBuilderCollections.Console, new(80, 50)));
 
             Game.Execute(gameCreator);
         }
