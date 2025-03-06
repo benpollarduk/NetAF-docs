@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace NetAF.Logic | NetAF </title>
+      <title>Execution | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace NetAF.Logic | NetAF ">
+      <meta name="title" content="Execution | NetAF ">
     
     
       <link rel="shortcut icon" href="../images/logo.png">
@@ -76,67 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logic">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="execution">Execution</h1>
 
-  <h1 id="NetAF_Logic" data-uid="NetAF.Logic" class="text-break">Namespace NetAF.Logic</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
-</h3>
-      <h4><a class="xref" href="NetAF.Logic.AssetCatalog.html">AssetCatalog</a></h4>
-      <section><p>Provides a catalog of all assets in a game.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.AssetGenerator.html">AssetGenerator</a></h4>
-      <section><p>Represents a generator for game assets.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.EndCheckResult.html">EndCheckResult</a></h4>
-      <section><p>Represents the result of an end check.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.Game.html">Game</a></h4>
-      <section><p>Represents a game.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.GameEndConditions.html">GameEndConditions</a></h4>
-      <section><p>Provides a container for game end conditions.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.GameExecutionException.html">GameExecutionException</a></h4>
-      <section><p>Represents errors that occur during game execution.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.GameExecutor.html">GameExecutor</a></h4>
-      <section><p>Handles the execution of a Game.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.GameInfo.html">GameInfo</a></h4>
-      <section><p>Provides information about a game.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.PlayableCharacterLocation.html">PlayableCharacterLocation</a></h4>
-      <section><p>Provides a record of the location of a playable character.</p>
-</section>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-      <h4><a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a></h4>
-      <section><p>Represents any object that provides an adapter for input.</p>
-</section>
-    <h3 id="enums">
-Enums
-</h3>
-      <h4><a class="xref" href="NetAF.Logic.ExitMode.html">ExitMode</a></h4>
-      <section><p>Enumeration of exit modes.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.GameExecutionMode.html">GameExecutionMode</a></h4>
-      <section><p>Enumeration of modes in which a game can be executed.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logic.GameState.html">GameState</a></h4>
-      <section><p>Enumeration of game states.</p>
-</section>
-    <h3 id="delegates">
-Delegates
-</h3>
-      <h4><a class="xref" href="NetAF.Logic.EndCheck.html">EndCheck</a></h4>
-      <section><p>Represents the callback used for end checks.</p>
-</section>
-
+<h2 id="overview">Overview</h2>
+<p>The <strong>GameExecutor</strong> is responsible for executing games.</p>
+<h2 id="execute">Execute</h2>
+<p>Calling <em>Execute</em> will begin execution of a game.</p>
+<pre><code class="lang-csharp">GameExecutor.Execute(game);
+</code></pre>
+<p>A game can be executed in one of 3 ways, <em>Manual</em>, <em>Automatic</em> and <em>BackgroundAutomatic</em>.</p>
+<h3 id="manual">Manual</h3>
+<p>Execution mode <em>Manual</em> is best suited for situations where the game cannot be run on a background thread and therefore blocking calls cannot be made while waiting for input. For example on a Blazor standalone web application. When using this mode the <strong>GameExecutor.Update()</strong> method should be called every time the game needs to be updated, for example following user input.</p>
+<h3 id="automatic">Automatic</h3>
+<p>Execution mode <em>Automatic</em> is best suited for situations where the game can be run on a background thread and blocking calls are desirable and be made while waiting for input. For example on a Console application. <strong>GameExecutor.Update()</strong> does not need to be called as the <strong>GameExecutor</strong> handles this automatically.</p>
+<h3 id="backgroundautomatic">BackgroundAutomatic</h3>
+<p>Execution mode <em>BackgroundAutomatic</em> is essentially the <em>Automatic</em> mode, but running on a background thread.</p>
 
 </article>
           </div>

@@ -1762,6 +1762,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameExecutionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameExecutionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameExecutionException",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameExecutionException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur during game execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameExecutionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameExecutionMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameExecutionMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameExecutionMode.yml\" sourcestartlinenumber=\"1\">Enumeration of modes in which a game can be executed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameExecutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameExecutor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameExecutor",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameExecutor.yml\" sourcestartlinenumber=\"1\">Handles the execution of a Game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.GameInfo.yml",
       "output": {
         ".html": {
@@ -3457,6 +3499,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/end-conditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/execution.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/execution.html"
         }
       },
       "version": ""

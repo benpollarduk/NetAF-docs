@@ -6675,19 +6675,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.EndConditions
   nameWithType: Game.EndConditions
-- uid: NetAF.Logic.Game.Execute(NetAF.Logic.Callbacks.GameCreationCallback)
-  name: Execute(GameCreationCallback)
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Execute_NetAF_Logic_Callbacks_GameCreationCallback_
-  commentId: M:NetAF.Logic.Game.Execute(NetAF.Logic.Callbacks.GameCreationCallback)
-  fullName: NetAF.Logic.Game.Execute(NetAF.Logic.Callbacks.GameCreationCallback)
-  nameWithType: Game.Execute(GameCreationCallback)
-- uid: NetAF.Logic.Game.Execute*
-  name: Execute
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Execute_
-  commentId: Overload:NetAF.Logic.Game.Execute
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.Execute
-  nameWithType: Game.Execute
 - uid: NetAF.Logic.Game.FindInteractionTarget(System.String)
   name: FindInteractionTarget(string)
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_FindInteractionTarget_System_String_
@@ -6898,6 +6885,116 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameEndConditions.NotEnded
   nameWithType: GameEndConditions.NotEnded
+- uid: NetAF.Logic.GameExecutionException
+  name: GameExecutionException
+  href: api/NetAF.Logic.GameExecutionException.html
+  commentId: T:NetAF.Logic.GameExecutionException
+  fullName: NetAF.Logic.GameExecutionException
+  nameWithType: GameExecutionException
+- uid: NetAF.Logic.GameExecutionException.#ctor(System.String)
+  name: GameExecutionException(string)
+  href: api/NetAF.Logic.GameExecutionException.html#NetAF_Logic_GameExecutionException__ctor_System_String_
+  commentId: M:NetAF.Logic.GameExecutionException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetAF.Logic.GameExecutionException.GameExecutionException(string)
+  fullName.vb: NetAF.Logic.GameExecutionException.New(String)
+  nameWithType: GameExecutionException.GameExecutionException(string)
+  nameWithType.vb: GameExecutionException.New(String)
+- uid: NetAF.Logic.GameExecutionException.#ctor*
+  name: GameExecutionException
+  href: api/NetAF.Logic.GameExecutionException.html#NetAF_Logic_GameExecutionException__ctor_
+  commentId: Overload:NetAF.Logic.GameExecutionException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.GameExecutionException.GameExecutionException
+  fullName.vb: NetAF.Logic.GameExecutionException.New
+  nameWithType: GameExecutionException.GameExecutionException
+  nameWithType.vb: GameExecutionException.New
+- uid: NetAF.Logic.GameExecutionMode
+  name: GameExecutionMode
+  href: api/NetAF.Logic.GameExecutionMode.html
+  commentId: T:NetAF.Logic.GameExecutionMode
+  fullName: NetAF.Logic.GameExecutionMode
+  nameWithType: GameExecutionMode
+- uid: NetAF.Logic.GameExecutionMode.Automatic
+  name: Automatic
+  href: api/NetAF.Logic.GameExecutionMode.html#NetAF_Logic_GameExecutionMode_Automatic
+  commentId: F:NetAF.Logic.GameExecutionMode.Automatic
+  fullName: NetAF.Logic.GameExecutionMode.Automatic
+  nameWithType: GameExecutionMode.Automatic
+- uid: NetAF.Logic.GameExecutionMode.BackgroundAutomatic
+  name: BackgroundAutomatic
+  href: api/NetAF.Logic.GameExecutionMode.html#NetAF_Logic_GameExecutionMode_BackgroundAutomatic
+  commentId: F:NetAF.Logic.GameExecutionMode.BackgroundAutomatic
+  fullName: NetAF.Logic.GameExecutionMode.BackgroundAutomatic
+  nameWithType: GameExecutionMode.BackgroundAutomatic
+- uid: NetAF.Logic.GameExecutionMode.Manual
+  name: Manual
+  href: api/NetAF.Logic.GameExecutionMode.html#NetAF_Logic_GameExecutionMode_Manual
+  commentId: F:NetAF.Logic.GameExecutionMode.Manual
+  fullName: NetAF.Logic.GameExecutionMode.Manual
+  nameWithType: GameExecutionMode.Manual
+- uid: NetAF.Logic.GameExecutor
+  name: GameExecutor
+  href: api/NetAF.Logic.GameExecutor.html
+  commentId: T:NetAF.Logic.GameExecutor
+  fullName: NetAF.Logic.GameExecutor
+  nameWithType: GameExecutor
+- uid: NetAF.Logic.GameExecutor.Cancel
+  name: Cancel()
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Cancel
+  commentId: M:NetAF.Logic.GameExecutor.Cancel
+  fullName: NetAF.Logic.GameExecutor.Cancel()
+  nameWithType: GameExecutor.Cancel()
+- uid: NetAF.Logic.GameExecutor.Cancel*
+  name: Cancel
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Cancel_
+  commentId: Overload:NetAF.Logic.GameExecutor.Cancel
+  isSpec: "True"
+  fullName: NetAF.Logic.GameExecutor.Cancel
+  nameWithType: GameExecutor.Cancel
+- uid: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback,NetAF.Logic.GameExecutionMode)
+  name: Execute(GameCreationCallback, GameExecutionMode)
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_NetAF_Logic_Callbacks_GameCreationCallback_NetAF_Logic_GameExecutionMode_
+  commentId: M:NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback,NetAF.Logic.GameExecutionMode)
+  fullName: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback, NetAF.Logic.GameExecutionMode)
+  nameWithType: GameExecutor.Execute(GameCreationCallback, GameExecutionMode)
+- uid: NetAF.Logic.GameExecutor.Execute*
+  name: Execute
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_
+  commentId: Overload:NetAF.Logic.GameExecutor.Execute
+  isSpec: "True"
+  fullName: NetAF.Logic.GameExecutor.Execute
+  nameWithType: GameExecutor.Execute
+- uid: NetAF.Logic.GameExecutor.IsExecuting
+  name: IsExecuting
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_IsExecuting
+  commentId: P:NetAF.Logic.GameExecutor.IsExecuting
+  fullName: NetAF.Logic.GameExecutor.IsExecuting
+  nameWithType: GameExecutor.IsExecuting
+- uid: NetAF.Logic.GameExecutor.IsExecuting*
+  name: IsExecuting
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_IsExecuting_
+  commentId: Overload:NetAF.Logic.GameExecutor.IsExecuting
+  isSpec: "True"
+  fullName: NetAF.Logic.GameExecutor.IsExecuting
+  nameWithType: GameExecutor.IsExecuting
+- uid: NetAF.Logic.GameExecutor.Update(System.String)
+  name: Update(string)
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Update_System_String_
+  commentId: M:NetAF.Logic.GameExecutor.Update(System.String)
+  name.vb: Update(String)
+  fullName: NetAF.Logic.GameExecutor.Update(string)
+  fullName.vb: NetAF.Logic.GameExecutor.Update(String)
+  nameWithType: GameExecutor.Update(string)
+  nameWithType.vb: GameExecutor.Update(String)
+- uid: NetAF.Logic.GameExecutor.Update*
+  name: Update
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Update_
+  commentId: Overload:NetAF.Logic.GameExecutor.Update
+  isSpec: "True"
+  fullName: NetAF.Logic.GameExecutor.Update
+  nameWithType: GameExecutor.Update
 - uid: NetAF.Logic.GameInfo
   name: GameInfo
   href: api/NetAF.Logic.GameInfo.html

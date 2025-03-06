@@ -189,8 +189,8 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
 <li><strong>GameConfiguration</strong> - a configuration for the game, including display size, error prefix and other elements.</li>
 </ul>
 <h3 id="executing-the-game">Executing the game</h3>
-<p>The game is executed simply by calling the static <strong>Execute</strong> method on <strong>Game</strong> and passing in the game creation callback.</p>
-<pre><code class="lang-csharp">Game.Execute(gameCreator);
+<p>The game is executed simply by calling the static <strong>Execute</strong> method on <strong>GameExecutor</strong> and passing in the game creation callback.</p>
+<pre><code class="lang-csharp">GameExecutor.Execute(gameCreator);
 </code></pre>
 <h3 id="bringing-it-all-together">Bringing it all together</h3>
 <p>The full example code should look like this:</p>
@@ -251,7 +251,7 @@ namespace NetAF.GettingStarted
                 new GameEndConditions(IsGameComplete, IsGameOver),
                 new GameConfiguration(new ConsoleAdapter(), FrameBuilderCollections.Console, new(80, 50)));
 
-            Game.Execute(gameCreator);
+            GameExecutor.Execute(gameCreator);
         }
     }
 }
