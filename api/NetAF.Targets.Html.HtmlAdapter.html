@@ -88,7 +88,6 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">HtmlAdapter</span></div>
-      <div class="level2"><a class="xref" href="NetAF.Targets.Html.ConsoleToHtmlAdapter.html">ConsoleToHtmlAdapter</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -109,9 +108,6 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
@@ -122,13 +118,13 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Html_HtmlAdapter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HtmlAdapter : IIOAdapter</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class HtmlAdapter : IIOAdapter</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Targets_Html_HtmlAdapter__ctor_" data-uid="NetAF.Targets.Html.HtmlAdapter.#ctor*"></a>
   <h4 id="NetAF_Targets_Html_HtmlAdapter__ctor_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Targets.Html.HtmlAdapter.#ctor(NetAF.Rendering.IFramePresenter)">HtmlAdapter(IFramePresenter)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the HtmlAdapter class.</p>
+  <div class="markdown level1 summary"><p>Provides an adapter for HTML.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -179,30 +175,6 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Html_HtmlAdapter_Presenter_" data-uid="NetAF.Targets.Html.HtmlAdapter.Presenter*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlAdapter_Presenter" data-uid="NetAF.Targets.Html.HtmlAdapter.Presenter">Presenter</h4>
-  <div class="markdown level1 summary"><p>Get the presenter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IFramePresenter Presenter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Html_HtmlAdapter_AcknowledgeReceived_" data-uid="NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived*"></a>
@@ -214,6 +186,55 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AcknowledgeReceived()</code></pre>
   </div>
+  <a id="NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_" data-uid="NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString*"></a>
+  <h4 id="NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_" data-uid="NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)">ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool)</h4>
+  <div class="markdown level1 summary"><p>Convert the contents of a GridStringBuilder to HTML.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertGridStringBuilderToHtmlString(GridStringBuilder builder, bool padEmptyCharacters = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>The GridStringBuilder to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">padEmptyCharacters</span></td>
+        <td><p>Specify if empty characters should be padded with a space.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>A HTML string representing the contents of the GridStringBuilder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Targets_Html_HtmlAdapter_InputReceived_" data-uid="NetAF.Targets.Html.HtmlAdapter.InputReceived*"></a>
   <h4 id="NetAF_Targets_Html_HtmlAdapter_InputReceived_System_String_" data-uid="NetAF.Targets.Html.HtmlAdapter.InputReceived(System.String)">InputReceived(string)</h4>
   <div class="markdown level1 summary"><p>Register that input was received.</p>
@@ -248,7 +269,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void RenderFrame(IFrame frame)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RenderFrame(IFrame frame)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

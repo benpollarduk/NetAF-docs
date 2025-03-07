@@ -3106,20 +3106,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Html.ConsoleToHtmlAdapter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Html.ConsoleToHtmlAdapter.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Html.ConsoleToHtmlAdapter",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.ConsoleToHtmlAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for adapting console to HTML.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Html.HtmlAdapter.yml",
       "output": {
         ".html": {
