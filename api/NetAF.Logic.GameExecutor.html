@@ -147,23 +147,23 @@
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Logic_GameExecutor_Cancel_" data-uid="NetAF.Logic.GameExecutor.Cancel*"></a>
-  <h4 id="NetAF_Logic_GameExecutor_Cancel" data-uid="NetAF.Logic.GameExecutor.Cancel">Cancel()</h4>
+  <a id="NetAF_Logic_GameExecutor_CancelExecution_" data-uid="NetAF.Logic.GameExecutor.CancelExecution*"></a>
+  <h4 id="NetAF_Logic_GameExecutor_CancelExecution" data-uid="NetAF.Logic.GameExecutor.CancelExecution">CancelExecution()</h4>
   <div class="markdown level1 summary"><p>Cancel execution of any executing game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Cancel()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void CancelExecution()</code></pre>
   </div>
   <a id="NetAF_Logic_GameExecutor_Execute_" data-uid="NetAF.Logic.GameExecutor.Execute*"></a>
-  <h4 id="NetAF_Logic_GameExecutor_Execute_NetAF_Logic_Callbacks_GameCreationCallback_NetAF_Logic_GameExecutionMode_" data-uid="NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback,NetAF.Logic.GameExecutionMode)">Execute(GameCreationCallback, GameExecutionMode)</h4>
+  <h4 id="NetAF_Logic_GameExecutor_Execute_NetAF_Logic_Callbacks_GameCreator_NetAF_Logic_IGameExecutionAutomationController_" data-uid="NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator,NetAF.Logic.IGameExecutionAutomationController)">Execute(GameCreator, IGameExecutionAutomationController)</h4>
   <div class="markdown level1 summary"><p>Execute a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Execute(GameCreationCallback creator, GameExecutionMode mode = GameExecutionMode.Automatic)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Execute(GameCreator creator, IGameExecutionAutomationController controller = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -176,19 +176,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.Callbacks.GameCreationCallback.html">GameCreationCallback</a></td>
+        <td><a class="xref" href="NetAF.Logic.Callbacks.GameCreator.html">GameCreator</a></td>
         <td><span class="parametername">creator</span></td>
-        <td><p>The GameCreationCallback used to create instances of the game.</p>
+        <td><p>The GameCreator used to create instances of the game.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.GameExecutionMode.html">GameExecutionMode</a></td>
-        <td><span class="parametername">mode</span></td>
-        <td><p>The mode to execute the game in.</p>
+        <td><a class="xref" href="NetAF.Logic.IGameExecutionAutomationController.html">IGameExecutionAutomationController</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>An optional controller to manage game automation.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Logic_GameExecutor_Restart_" data-uid="NetAF.Logic.GameExecutor.Restart*"></a>
+  <h4 id="NetAF_Logic_GameExecutor_Restart" data-uid="NetAF.Logic.GameExecutor.Restart">Restart()</h4>
+  <div class="markdown level1 summary"><p>Restart an executing game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Restart()</code></pre>
+  </div>
   <a id="NetAF_Logic_GameExecutor_Update_" data-uid="NetAF.Logic.GameExecutor.Update*"></a>
   <h4 id="NetAF_Logic_GameExecutor_Update_System_String_" data-uid="NetAF.Logic.GameExecutor.Update(System.String)">Update(string)</h4>
   <div class="markdown level1 summary"><p>Update to the next frame of the game.</p>
@@ -196,7 +205,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Update(string input = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public static UpdateResult Update(string input = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -216,18 +225,19 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Condition</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.GameExecutionException.html">GameExecutionException</a></td>
-        <td></td>
+        <td><a class="xref" href="NetAF.Logic.UpdateResult.html">UpdateResult</a></td>
+        <td><p>The result of the action.</p>
+</td>
       </tr>
     </tbody>
   </table>

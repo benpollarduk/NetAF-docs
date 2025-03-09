@@ -149,7 +149,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IGameConfiguration Configuration { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GameConfiguration Configuration { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -161,7 +161,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.Configuration.IGameConfiguration.html">IGameConfiguration</a></td>
+        <td><a class="xref" href="NetAF.Logic.GameConfiguration.html">GameConfiguration</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -373,13 +373,13 @@
     </tbody>
   </table>
   <a id="NetAF_Logic_Game_Create_" data-uid="NetAF.Logic.Game.Create*"></a>
-  <h4 id="NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_Configuration_IGameConfiguration_NetAF_Logic_Callbacks_GameSetupCallback_" data-uid="NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.Configuration.IGameConfiguration,NetAF.Logic.Callbacks.GameSetupCallback)">Create(GameInfo, string, AssetGenerator, GameEndConditions, IGameConfiguration, GameSetupCallback)</h4>
+  <h4 id="NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_GameConfiguration_NetAF_Logic_Callbacks_GameSetupCallback_" data-uid="NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.GameConfiguration,NetAF.Logic.Callbacks.GameSetupCallback)">Create(GameInfo, string, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)</h4>
   <div class="markdown level1 summary"><p>Create a new callback for generating instances of a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameCreationCallback Create(GameInfo info, string introduction, AssetGenerator assetGenerator, GameEndConditions conditions, IGameConfiguration configuration, GameSetupCallback setup = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static GameCreator Create(GameInfo info, string introduction, AssetGenerator assetGenerator, GameEndConditions conditions, GameConfiguration configuration, GameSetupCallback setup = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -416,7 +416,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.Configuration.IGameConfiguration.html">IGameConfiguration</a></td>
+        <td><a class="xref" href="NetAF.Logic.GameConfiguration.html">GameConfiguration</a></td>
         <td><span class="parametername">configuration</span></td>
         <td><p>The configuration for the game.</p>
 </td>
@@ -439,21 +439,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.Callbacks.GameCreationCallback.html">GameCreationCallback</a></td>
-        <td><p>A new GameCreationHelper that will create a GameCreator with the parameters specified.</p>
+        <td><a class="xref" href="NetAF.Logic.Callbacks.GameCreator.html">GameCreator</a></td>
+        <td><p>A GameCreator that will create instances of the game.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Logic_Game_End_" data-uid="NetAF.Logic.Game.End*"></a>
-  <h4 id="NetAF_Logic_Game_End" data-uid="NetAF.Logic.Game.End">End()</h4>
-  <div class="markdown level1 summary"><p>End the game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void End()</code></pre>
-  </div>
   <a id="NetAF_Logic_Game_FindInteractionTarget_" data-uid="NetAF.Logic.Game.FindInteractionTarget*"></a>
   <h4 id="NetAF_Logic_Game_FindInteractionTarget_System_String_" data-uid="NetAF.Logic.Game.FindInteractionTarget(System.String)">FindInteractionTarget(string)</h4>
   <div class="markdown level1 summary"><p>Find an interaction target within the current scope for this Game.</p>

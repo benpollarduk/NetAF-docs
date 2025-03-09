@@ -1580,17 +1580,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Callbacks.GameCreationCallback.yml",
+      "source_relative_path": "api/NetAF.Logic.Callbacks.GameCreator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Logic.Callbacks.GameCreationCallback.html"
+          "relative_path": "api/NetAF.Logic.Callbacks.GameCreator.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Logic.Callbacks.GameCreationCallback",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Callbacks.GameCreationCallback.yml\" sourcestartlinenumber=\"1\">Represents the callback used for Game creation.</p>\n"
+      "Title": "NetAF.Logic.Callbacks.GameCreator",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Callbacks.GameCreator.yml\" sourcestartlinenumber=\"1\">Represents the call used for Game creation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1650,48 +1650,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Configuration.GameConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.Configuration.GameConfiguration.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.Configuration.GameConfiguration",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Configuration.GameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a console game.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Configuration.IGameConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.Configuration.IGameConfiguration.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.Configuration.IGameConfiguration",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Configuration.IGameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a game.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Configuration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.Configuration.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.Configuration",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.EndCheck.yml",
       "output": {
         ".html": {
@@ -1720,17 +1678,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.ExitMode.yml",
+      "source_relative_path": "api/NetAF.Logic.FinishModes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Logic.ExitMode.html"
+          "relative_path": "api/NetAF.Logic.FinishModes.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Logic.ExitMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.ExitMode.yml\" sourcestartlinenumber=\"1\">Enumeration of exit modes.</p>\n"
+      "Title": "NetAF.Logic.FinishModes",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.FinishModes.yml\" sourcestartlinenumber=\"1\">Enumeration of game finish modes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1748,6 +1706,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.GameConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.GameConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.GameConfiguration",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameConfiguration.yml\" sourcestartlinenumber=\"1\">Represents a configuration for a console game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.GameEndConditions.yml",
       "output": {
         ".html": {
@@ -1759,34 +1731,6 @@
       "IsMRef": true,
       "Title": "NetAF.Logic.GameEndConditions",
       "Summary": "<p sourcefile=\"api/NetAF.Logic.GameEndConditions.yml\" sourcestartlinenumber=\"1\">Provides a container for game end conditions.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.GameExecutionException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.GameExecutionException.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.GameExecutionException",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameExecutionException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur during game execution.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.GameExecutionMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.GameExecutionMode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.GameExecutionMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameExecutionMode.yml\" sourcestartlinenumber=\"1\">Enumeration of modes in which a game can be executed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1818,17 +1762,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.GameState.yml",
+      "source_relative_path": "api/NetAF.Logic.IGameExecutionAutomationController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Logic.GameState.html"
+          "relative_path": "api/NetAF.Logic.IGameExecutionAutomationController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Logic.GameState",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.GameState.yml\" sourcestartlinenumber=\"1\">Enumeration of game states.</p>\n"
+      "Title": "NetAF.Logic.IGameExecutionAutomationController",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.IGameExecutionAutomationController.yml\" sourcestartlinenumber=\"1\">Represents any object that can control the automation of game execution.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2053,6 +1997,20 @@
       "IsMRef": true,
       "Title": "NetAF.Logic.PlayableCharacterLocation",
       "Summary": "<p sourcefile=\"api/NetAF.Logic.PlayableCharacterLocation.yml\" sourcestartlinenumber=\"1\">Provides a record of the location of a playable character.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.UpdateResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.UpdateResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.UpdateResult",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.UpdateResult.yml\" sourcestartlinenumber=\"1\">Represents the result of an update action.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2683,6 +2641,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.ConsoleAdapter",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.ConsoleAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for the System.Console.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.ConsoleExecutionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.ConsoleExecutionController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.ConsoleExecutionController",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.ConsoleExecutionController.yml\" sourcestartlinenumber=\"1\">Controls the automation of a game targeting the System.Console.</p>\n"
     },
     {
       "type": "ManagedReference",

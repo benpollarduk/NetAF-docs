@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace NetAF.Logic.Configuration | NetAF </title>
+      <title>Interface IGameExecutionAutomationController | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace NetAF.Logic.Configuration | NetAF ">
+      <meta name="title" content="Interface IGameExecutionAutomationController | NetAF ">
     
-    
+    <meta name="description" content="Represents any object that can control the automation of game execution.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,25 +76,89 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Configuration">
+            <article class="content wrap" id="_content" data-uid="NetAF.Logic.IGameExecutionAutomationController">
 
-  <h1 id="NetAF_Logic_Configuration" data-uid="NetAF.Logic.Configuration" class="text-break">Namespace NetAF.Logic.Configuration</h1>
-  <div class="markdown level0 summary"></div>
+
+
+  <h1 id="NetAF_Logic_IGameExecutionAutomationController" data-uid="NetAF.Logic.IGameExecutionAutomationController" class="text-break">Interface IGameExecutionAutomationController</h1>
+  <div class="markdown level0 summary"><p>Represents any object that can control the automation of game execution.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a></h6>
+  <h6><strong>Assembly</strong>: NetAF.dll</h6>
+  <h5 id="NetAF_Logic_IGameExecutionAutomationController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IGameExecutionAutomationController</code></pre>
+  </div>
+  <h3 id="methods">Methods
 </h3>
-      <h4><a class="xref" href="NetAF.Logic.Configuration.GameConfiguration.html">GameConfiguration</a></h4>
-      <section><p>Represents a configuration for a console game.</p>
-</section>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-      <h4><a class="xref" href="NetAF.Logic.Configuration.IGameConfiguration.html">IGameConfiguration</a></h4>
-      <section><p>Represents a configuration for a game.</p>
-</section>
-
+  <a id="NetAF_Logic_IGameExecutionAutomationController_BeginAsync_" data-uid="NetAF.Logic.IGameExecutionAutomationController.BeginAsync*"></a>
+  <h4 id="NetAF_Logic_IGameExecutionAutomationController_BeginAsync_NetAF_Logic_Game_" data-uid="NetAF.Logic.IGameExecutionAutomationController.BeginAsync(NetAF.Logic.Game)">BeginAsync(Game)</h4>
+  <div class="markdown level1 summary"><p>Begin execution of a game, asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BeginAsync(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Logic_IGameExecutionAutomationController_CancelAsync_" data-uid="NetAF.Logic.IGameExecutionAutomationController.CancelAsync*"></a>
+  <h4 id="NetAF_Logic_IGameExecutionAutomationController_CancelAsync" data-uid="NetAF.Logic.IGameExecutionAutomationController.CancelAsync">CancelAsync()</h4>
+  <div class="markdown level1 summary"><p>Cancel execution, asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CancelAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>

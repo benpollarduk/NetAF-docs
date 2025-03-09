@@ -81,17 +81,14 @@
 
 <h2 id="overview">Overview</h2>
 <p>The <strong>GameExecutor</strong> is responsible for executing games.</p>
-<h2 id="execute">Execute</h2>
+<h2 id="contol">Contol</h2>
 <p>Calling <em>Execute</em> will begin execution of a game.</p>
 <pre><code class="lang-csharp">GameExecutor.Execute(game);
 </code></pre>
-<p>A game can be executed in one of 3 ways, <em>Manual</em>, <em>Automatic</em> and <em>BackgroundAutomatic</em>.</p>
-<h3 id="manual">Manual</h3>
-<p>Execution mode <em>Manual</em> is best suited for situations where the game cannot be run on a background thread and therefore blocking calls cannot be made while waiting for input. For example on a Blazor standalone web application. When using this mode the <strong>GameExecutor.Update()</strong> method should be called every time the game needs to be updated, for example following user input.</p>
-<h3 id="automatic">Automatic</h3>
-<p>Execution mode <em>Automatic</em> is best suited for situations where the game can be run on a background thread and blocking calls are desirable and be made while waiting for input. For example on a Console application. <strong>GameExecutor.Update()</strong> does not need to be called as the <strong>GameExecutor</strong> handles this automatically.</p>
-<h3 id="backgroundautomatic">BackgroundAutomatic</h3>
-<p>Execution mode <em>BackgroundAutomatic</em> is essentially the <em>Automatic</em> mode, but running on a background thread.</p>
+<p>When an update needs to be made to the game the <strong>GameExecutor.Update()</strong> method should be called.</p>
+<pre><code class="lang-csharp">GameExecutor.Update(&quot;my command&quot;);
+</code></pre>
+<p>If a game should be cancelled then the <strong>GameExecutor.CancelExecution()</strong> method should be called. This will cancel the execution of any running game.</p>
 
 </article>
           </div>

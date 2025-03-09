@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class HtmlAdapter | NetAF </title>
+      <title>Class ConsoleExecutionController | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class HtmlAdapter | NetAF ">
+      <meta name="title" content="Class ConsoleExecutionController | NetAF ">
     
-    <meta name="description" content="Provides an adapter for HTML.">
+    <meta name="description" content="Controls the automation of a game targeting the System.Console.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Html.HtmlAdapter">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.ConsoleExecutionController">
 
 
 
-  <h1 id="NetAF_Targets_Html_HtmlAdapter" data-uid="NetAF.Targets.Html.HtmlAdapter" class="text-break">Class HtmlAdapter</h1>
-  <div class="markdown level0 summary"><p>Provides an adapter for HTML.</p>
+  <h1 id="NetAF_Targets_Console_ConsoleExecutionController" data-uid="NetAF.Targets.Console.ConsoleExecutionController" class="text-break">Class ConsoleExecutionController</h1>
+  <div class="markdown level0 summary"><p>Controls the automation of a game targeting the System.Console.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">HtmlAdapter</span></div>
+    <div class="level1"><span class="xref">ConsoleExecutionController</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a></div>
+    <div><a class="xref" href="NetAF.Logic.IGameExecutionAutomationController.html">IGameExecutionAutomationController</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,159 +108,31 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Html.html">Html</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Html_HtmlAdapter_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Console_ConsoleExecutionController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class HtmlAdapter : IIOAdapter</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConsoleExecutionController : IGameExecutionAutomationController</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <a id="NetAF_Targets_Html_HtmlAdapter__ctor_" data-uid="NetAF.Targets.Html.HtmlAdapter.#ctor*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlAdapter__ctor_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Targets.Html.HtmlAdapter.#ctor(NetAF.Rendering.IFramePresenter)">HtmlAdapter(IFramePresenter)</h4>
-  <div class="markdown level1 summary"><p>Provides an adapter for HTML.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HtmlAdapter(IFramePresenter presenter)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></td>
-        <td><span class="parametername">presenter</span></td>
-        <td><p>The presenter to use for presenting frames.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Targets_Html_HtmlAdapter_Game_" data-uid="NetAF.Targets.Html.HtmlAdapter.Game*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlAdapter_Game" data-uid="NetAF.Targets.Html.HtmlAdapter.Game">Game</h4>
-  <div class="markdown level1 summary"><p>Get the game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Game Game { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_" data-uid="NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_" data-uid="NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)">ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool)</h4>
-  <div class="markdown level1 summary"><p>Convert the contents of a GridStringBuilder to HTML.</p>
+  <a id="NetAF_Targets_Console_ConsoleExecutionController_BeginAsync_" data-uid="NetAF.Targets.Console.ConsoleExecutionController.BeginAsync*"></a>
+  <h4 id="NetAF_Targets_Console_ConsoleExecutionController_BeginAsync_NetAF_Logic_Game_" data-uid="NetAF.Targets.Console.ConsoleExecutionController.BeginAsync(NetAF.Logic.Game)">BeginAsync(Game)</h4>
+  <div class="markdown level1 summary"><p>Begin execution of a game, asynchronously.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ConvertGridStringBuilderToHtmlString(GridStringBuilder builder, bool padEmptyCharacters = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
-        <td><span class="parametername">builder</span></td>
-        <td><p>The GridStringBuilder to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">padEmptyCharacters</span></td>
-        <td><p>Specify if empty characters should be padded with a space.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>A HTML string representing the contents of the GridStringBuilder.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Html_HtmlAdapter_RenderFrame_" data-uid="NetAF.Targets.Html.HtmlAdapter.RenderFrame*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlAdapter_RenderFrame_NetAF_Rendering_IFrame_" data-uid="NetAF.Targets.Html.HtmlAdapter.RenderFrame(NetAF.Rendering.IFrame)">RenderFrame(IFrame)</h4>
-  <div class="markdown level1 summary"><p>Render a frame.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RenderFrame(IFrame frame)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
-        <td><span class="parametername">frame</span></td>
-        <td><p>The frame to render.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Html_HtmlAdapter_Setup_" data-uid="NetAF.Targets.Html.HtmlAdapter.Setup*"></a>
-  <h4 id="NetAF_Targets_Html_HtmlAdapter_Setup_NetAF_Logic_Game_" data-uid="NetAF.Targets.Html.HtmlAdapter.Setup(NetAF.Logic.Game)">Setup(Game)</h4>
-  <div class="markdown level1 summary"><p>Setup for a game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Setup(Game game)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task BeginAsync(Game game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -275,14 +147,106 @@
       <tr>
         <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
         <td><span class="parametername">game</span></td>
-        <td><p>The game to set up for.</p>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_ConsoleExecutionController_CancelAsync_" data-uid="NetAF.Targets.Console.ConsoleExecutionController.CancelAsync*"></a>
+  <h4 id="NetAF_Targets_Console_ConsoleExecutionController_CancelAsync" data-uid="NetAF.Targets.Console.ConsoleExecutionController.CancelAsync">CancelAsync()</h4>
+  <div class="markdown level1 summary"><p>Cancel execution, asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task CancelAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_ConsoleExecutionController_Finalize_" data-uid="NetAF.Targets.Console.ConsoleExecutionController.Finalize*"></a>
+  <h4 id="NetAF_Targets_Console_ConsoleExecutionController_Finalize" data-uid="NetAF.Targets.Console.ConsoleExecutionController.Finalize">~ConsoleExecutionController()</h4>
+  <div class="markdown level1 summary"><p>Handle destruction of the ConsoleExecutionController.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~ConsoleExecutionController()</code></pre>
+  </div>
+  <a id="NetAF_Targets_Console_ConsoleExecutionController_WaitForInputAsync_" data-uid="NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync*"></a>
+  <h4 id="NetAF_Targets_Console_ConsoleExecutionController_WaitForInputAsync_System_Threading_CancellationToken_" data-uid="NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync(System.Threading.CancellationToken)">WaitForInputAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Wait for input asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;string&gt; WaitForInputAsync(CancellationToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><p>The input.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a>
+      <a class="xref" href="NetAF.Logic.IGameExecutionAutomationController.html">IGameExecutionAutomationController</a>
   </div>
 
 </article>

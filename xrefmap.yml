@@ -6280,12 +6280,12 @@ references:
   commentId: N:NetAF.Logic.Callbacks
   fullName: NetAF.Logic.Callbacks
   nameWithType: NetAF.Logic.Callbacks
-- uid: NetAF.Logic.Callbacks.GameCreationCallback
-  name: GameCreationCallback
-  href: api/NetAF.Logic.Callbacks.GameCreationCallback.html
-  commentId: T:NetAF.Logic.Callbacks.GameCreationCallback
-  fullName: NetAF.Logic.Callbacks.GameCreationCallback
-  nameWithType: GameCreationCallback
+- uid: NetAF.Logic.Callbacks.GameCreator
+  name: GameCreator
+  href: api/NetAF.Logic.Callbacks.GameCreator.html
+  commentId: T:NetAF.Logic.Callbacks.GameCreator
+  fullName: NetAF.Logic.Callbacks.GameCreator
+  nameWithType: GameCreator
 - uid: NetAF.Logic.Callbacks.GameSetupCallback
   name: GameSetupCallback
   href: api/NetAF.Logic.Callbacks.GameSetupCallback.html
@@ -6304,173 +6304,6 @@ references:
   commentId: T:NetAF.Logic.Callbacks.PlayerCreationCallback
   fullName: NetAF.Logic.Callbacks.PlayerCreationCallback
   nameWithType: PlayerCreationCallback
-- uid: NetAF.Logic.Configuration
-  name: NetAF.Logic.Configuration
-  href: api/NetAF.Logic.Configuration.html
-  commentId: N:NetAF.Logic.Configuration
-  fullName: NetAF.Logic.Configuration
-  nameWithType: NetAF.Logic.Configuration
-- uid: NetAF.Logic.Configuration.GameConfiguration
-  name: GameConfiguration
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html
-  commentId: T:NetAF.Logic.Configuration.GameConfiguration
-  fullName: NetAF.Logic.Configuration.GameConfiguration
-  nameWithType: GameConfiguration
-- uid: NetAF.Logic.Configuration.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.ExitMode)
-  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_ExitMode_
-  commentId: M:NetAF.Logic.Configuration.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.ExitMode)
-  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
-  fullName: NetAF.Logic.Configuration.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.ExitMode)
-  fullName.vb: NetAF.Logic.Configuration.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.ExitMode)
-  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
-  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, ExitMode)
-- uid: NetAF.Logic.Configuration.GameConfiguration.#ctor*
-  name: GameConfiguration
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration__ctor_
-  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logic.Configuration.GameConfiguration.GameConfiguration
-  fullName.vb: NetAF.Logic.Configuration.GameConfiguration.New
-  nameWithType: GameConfiguration.GameConfiguration
-  nameWithType.vb: GameConfiguration.New
-- uid: NetAF.Logic.Configuration.GameConfiguration.Adapter
-  name: Adapter
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Adapter
-  commentId: P:NetAF.Logic.Configuration.GameConfiguration.Adapter
-  fullName: NetAF.Logic.Configuration.GameConfiguration.Adapter
-  nameWithType: GameConfiguration.Adapter
-- uid: NetAF.Logic.Configuration.GameConfiguration.Adapter*
-  name: Adapter
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Adapter_
-  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.Adapter
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.GameConfiguration.Adapter
-  nameWithType: GameConfiguration.Adapter
-- uid: NetAF.Logic.Configuration.GameConfiguration.DisplaySize
-  name: DisplaySize
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_DisplaySize
-  commentId: P:NetAF.Logic.Configuration.GameConfiguration.DisplaySize
-  fullName: NetAF.Logic.Configuration.GameConfiguration.DisplaySize
-  nameWithType: GameConfiguration.DisplaySize
-- uid: NetAF.Logic.Configuration.GameConfiguration.DisplaySize*
-  name: DisplaySize
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_DisplaySize_
-  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.DisplaySize
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.GameConfiguration.DisplaySize
-  nameWithType: GameConfiguration.DisplaySize
-- uid: NetAF.Logic.Configuration.GameConfiguration.ExitMode
-  name: ExitMode
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_ExitMode
-  commentId: P:NetAF.Logic.Configuration.GameConfiguration.ExitMode
-  fullName: NetAF.Logic.Configuration.GameConfiguration.ExitMode
-  nameWithType: GameConfiguration.ExitMode
-- uid: NetAF.Logic.Configuration.GameConfiguration.ExitMode*
-  name: ExitMode
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_ExitMode_
-  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.ExitMode
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.GameConfiguration.ExitMode
-  nameWithType: GameConfiguration.ExitMode
-- uid: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
-  name: FrameBuilders
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_FrameBuilders
-  commentId: P:NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
-  fullName: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
-  nameWithType: GameConfiguration.FrameBuilders
-- uid: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders*
-  name: FrameBuilders
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_FrameBuilders_
-  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.GameConfiguration.FrameBuilders
-  nameWithType: GameConfiguration.FrameBuilders
-- uid: NetAF.Logic.Configuration.GameConfiguration.Interpreter
-  name: Interpreter
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Interpreter
-  commentId: P:NetAF.Logic.Configuration.GameConfiguration.Interpreter
-  fullName: NetAF.Logic.Configuration.GameConfiguration.Interpreter
-  nameWithType: GameConfiguration.Interpreter
-- uid: NetAF.Logic.Configuration.GameConfiguration.Interpreter*
-  name: Interpreter
-  href: api/NetAF.Logic.Configuration.GameConfiguration.html#NetAF_Logic_Configuration_GameConfiguration_Interpreter_
-  commentId: Overload:NetAF.Logic.Configuration.GameConfiguration.Interpreter
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.GameConfiguration.Interpreter
-  nameWithType: GameConfiguration.Interpreter
-- uid: NetAF.Logic.Configuration.IGameConfiguration
-  name: IGameConfiguration
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html
-  commentId: T:NetAF.Logic.Configuration.IGameConfiguration
-  fullName: NetAF.Logic.Configuration.IGameConfiguration
-  nameWithType: IGameConfiguration
-- uid: NetAF.Logic.Configuration.IGameConfiguration.Adapter
-  name: Adapter
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_Adapter
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.Adapter
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.Adapter
-  nameWithType: IGameConfiguration.Adapter
-- uid: NetAF.Logic.Configuration.IGameConfiguration.Adapter*
-  name: Adapter
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_Adapter_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.Adapter
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.Adapter
-  nameWithType: IGameConfiguration.Adapter
-- uid: NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
-  name: DisplaySize
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_DisplaySize
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
-  nameWithType: IGameConfiguration.DisplaySize
-- uid: NetAF.Logic.Configuration.IGameConfiguration.DisplaySize*
-  name: DisplaySize
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_DisplaySize_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.DisplaySize
-  nameWithType: IGameConfiguration.DisplaySize
-- uid: NetAF.Logic.Configuration.IGameConfiguration.ExitMode
-  name: ExitMode
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_ExitMode
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.ExitMode
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.ExitMode
-  nameWithType: IGameConfiguration.ExitMode
-- uid: NetAF.Logic.Configuration.IGameConfiguration.ExitMode*
-  name: ExitMode
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_ExitMode_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.ExitMode
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.ExitMode
-  nameWithType: IGameConfiguration.ExitMode
-- uid: NetAF.Logic.Configuration.IGameConfiguration.FrameBuilders
-  name: FrameBuilders
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_FrameBuilders
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.FrameBuilders
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.FrameBuilders
-  nameWithType: IGameConfiguration.FrameBuilders
-- uid: NetAF.Logic.Configuration.IGameConfiguration.FrameBuilders*
-  name: FrameBuilders
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_FrameBuilders_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.FrameBuilders
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.FrameBuilders
-  nameWithType: IGameConfiguration.FrameBuilders
-- uid: NetAF.Logic.Configuration.IGameConfiguration.Interpreter
-  name: Interpreter
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_Interpreter
-  commentId: P:NetAF.Logic.Configuration.IGameConfiguration.Interpreter
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.Interpreter
-  nameWithType: IGameConfiguration.Interpreter
-- uid: NetAF.Logic.Configuration.IGameConfiguration.Interpreter*
-  name: Interpreter
-  href: api/NetAF.Logic.Configuration.IGameConfiguration.html#NetAF_Logic_Configuration_IGameConfiguration_Interpreter_
-  commentId: Overload:NetAF.Logic.Configuration.IGameConfiguration.Interpreter
-  isSpec: "True"
-  fullName: NetAF.Logic.Configuration.IGameConfiguration.Interpreter
-  nameWithType: IGameConfiguration.Interpreter
 - uid: NetAF.Logic.EndCheck
   name: EndCheck
   href: api/NetAF.Logic.EndCheck.html
@@ -6554,24 +6387,24 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.EndCheckResult.Title
   nameWithType: EndCheckResult.Title
-- uid: NetAF.Logic.ExitMode
-  name: ExitMode
-  href: api/NetAF.Logic.ExitMode.html
-  commentId: T:NetAF.Logic.ExitMode
-  fullName: NetAF.Logic.ExitMode
-  nameWithType: ExitMode
-- uid: NetAF.Logic.ExitMode.ExitApplication
-  name: ExitApplication
-  href: api/NetAF.Logic.ExitMode.html#NetAF_Logic_ExitMode_ExitApplication
-  commentId: F:NetAF.Logic.ExitMode.ExitApplication
-  fullName: NetAF.Logic.ExitMode.ExitApplication
-  nameWithType: ExitMode.ExitApplication
-- uid: NetAF.Logic.ExitMode.ReturnToTitleScreen
+- uid: NetAF.Logic.FinishModes
+  name: FinishModes
+  href: api/NetAF.Logic.FinishModes.html
+  commentId: T:NetAF.Logic.FinishModes
+  fullName: NetAF.Logic.FinishModes
+  nameWithType: FinishModes
+- uid: NetAF.Logic.FinishModes.Finish
+  name: Finish
+  href: api/NetAF.Logic.FinishModes.html#NetAF_Logic_FinishModes_Finish
+  commentId: F:NetAF.Logic.FinishModes.Finish
+  fullName: NetAF.Logic.FinishModes.Finish
+  nameWithType: FinishModes.Finish
+- uid: NetAF.Logic.FinishModes.ReturnToTitleScreen
   name: ReturnToTitleScreen
-  href: api/NetAF.Logic.ExitMode.html#NetAF_Logic_ExitMode_ReturnToTitleScreen
-  commentId: F:NetAF.Logic.ExitMode.ReturnToTitleScreen
-  fullName: NetAF.Logic.ExitMode.ReturnToTitleScreen
-  nameWithType: ExitMode.ReturnToTitleScreen
+  href: api/NetAF.Logic.FinishModes.html#NetAF_Logic_FinishModes_ReturnToTitleScreen
+  commentId: F:NetAF.Logic.FinishModes.ReturnToTitleScreen
+  fullName: NetAF.Logic.FinishModes.ReturnToTitleScreen
+  nameWithType: FinishModes.ReturnToTitleScreen
 - uid: NetAF.Logic.Game
   name: Game
   href: api/NetAF.Logic.Game.html
@@ -6633,15 +6466,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Configuration
   nameWithType: Game.Configuration
-- uid: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.Configuration.IGameConfiguration,NetAF.Logic.Callbacks.GameSetupCallback)
-  name: Create(GameInfo, string, AssetGenerator, GameEndConditions, IGameConfiguration, GameSetupCallback)
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_Configuration_IGameConfiguration_NetAF_Logic_Callbacks_GameSetupCallback_
-  commentId: M:NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.Configuration.IGameConfiguration,NetAF.Logic.Callbacks.GameSetupCallback)
-  name.vb: Create(GameInfo, String, AssetGenerator, GameEndConditions, IGameConfiguration, GameSetupCallback)
-  fullName: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo, string, NetAF.Logic.AssetGenerator, NetAF.Logic.GameEndConditions, NetAF.Logic.Configuration.IGameConfiguration, NetAF.Logic.Callbacks.GameSetupCallback)
-  fullName.vb: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo, String, NetAF.Logic.AssetGenerator, NetAF.Logic.GameEndConditions, NetAF.Logic.Configuration.IGameConfiguration, NetAF.Logic.Callbacks.GameSetupCallback)
-  nameWithType: Game.Create(GameInfo, string, AssetGenerator, GameEndConditions, IGameConfiguration, GameSetupCallback)
-  nameWithType.vb: Game.Create(GameInfo, String, AssetGenerator, GameEndConditions, IGameConfiguration, GameSetupCallback)
+- uid: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.GameConfiguration,NetAF.Logic.Callbacks.GameSetupCallback)
+  name: Create(GameInfo, string, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_NetAF_Logic_GameInfo_System_String_NetAF_Logic_AssetGenerator_NetAF_Logic_GameEndConditions_NetAF_Logic_GameConfiguration_NetAF_Logic_Callbacks_GameSetupCallback_
+  commentId: M:NetAF.Logic.Game.Create(NetAF.Logic.GameInfo,System.String,NetAF.Logic.AssetGenerator,NetAF.Logic.GameEndConditions,NetAF.Logic.GameConfiguration,NetAF.Logic.Callbacks.GameSetupCallback)
+  name.vb: Create(GameInfo, String, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
+  fullName: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo, string, NetAF.Logic.AssetGenerator, NetAF.Logic.GameEndConditions, NetAF.Logic.GameConfiguration, NetAF.Logic.Callbacks.GameSetupCallback)
+  fullName.vb: NetAF.Logic.Game.Create(NetAF.Logic.GameInfo, String, NetAF.Logic.AssetGenerator, NetAF.Logic.GameEndConditions, NetAF.Logic.GameConfiguration, NetAF.Logic.Callbacks.GameSetupCallback)
+  nameWithType: Game.Create(GameInfo, string, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
+  nameWithType.vb: Game.Create(GameInfo, String, AssetGenerator, GameEndConditions, GameConfiguration, GameSetupCallback)
 - uid: NetAF.Logic.Game.Create*
   name: Create
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Create_
@@ -6649,19 +6482,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Create
   nameWithType: Game.Create
-- uid: NetAF.Logic.Game.End
-  name: End()
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_End
-  commentId: M:NetAF.Logic.Game.End
-  fullName: NetAF.Logic.Game.End()
-  nameWithType: Game.End()
-- uid: NetAF.Logic.Game.End*
-  name: End
-  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_End_
-  commentId: Overload:NetAF.Logic.Game.End
-  isSpec: "True"
-  fullName: NetAF.Logic.Game.End
-  nameWithType: Game.End
 - uid: NetAF.Logic.Game.EndConditions
   name: EndConditions
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_EndConditions
@@ -6808,6 +6628,96 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.RestoreFrom
   nameWithType: Game.RestoreFrom
+- uid: NetAF.Logic.GameConfiguration
+  name: GameConfiguration
+  href: api/NetAF.Logic.GameConfiguration.html
+  commentId: T:NetAF.Logic.GameConfiguration
+  fullName: NetAF.Logic.GameConfiguration
+  nameWithType: GameConfiguration
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.FinishModes)
+  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_FinishModes_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.FinishModes)
+  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.FinishModes)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.FinishModes)
+  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
+  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
+- uid: NetAF.Logic.GameConfiguration.#ctor*
+  name: GameConfiguration
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
+  commentId: Overload:NetAF.Logic.GameConfiguration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration
+  fullName.vb: NetAF.Logic.GameConfiguration.New
+  nameWithType: GameConfiguration.GameConfiguration
+  nameWithType.vb: GameConfiguration.New
+- uid: NetAF.Logic.GameConfiguration.Adapter
+  name: Adapter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Adapter
+  commentId: P:NetAF.Logic.GameConfiguration.Adapter
+  fullName: NetAF.Logic.GameConfiguration.Adapter
+  nameWithType: GameConfiguration.Adapter
+- uid: NetAF.Logic.GameConfiguration.Adapter*
+  name: Adapter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Adapter_
+  commentId: Overload:NetAF.Logic.GameConfiguration.Adapter
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.Adapter
+  nameWithType: GameConfiguration.Adapter
+- uid: NetAF.Logic.GameConfiguration.DisplaySize
+  name: DisplaySize
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplaySize
+  commentId: P:NetAF.Logic.GameConfiguration.DisplaySize
+  fullName: NetAF.Logic.GameConfiguration.DisplaySize
+  nameWithType: GameConfiguration.DisplaySize
+- uid: NetAF.Logic.GameConfiguration.DisplaySize*
+  name: DisplaySize
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplaySize_
+  commentId: Overload:NetAF.Logic.GameConfiguration.DisplaySize
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.DisplaySize
+  nameWithType: GameConfiguration.DisplaySize
+- uid: NetAF.Logic.GameConfiguration.FinishMode
+  name: FinishMode
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_FinishMode
+  commentId: P:NetAF.Logic.GameConfiguration.FinishMode
+  fullName: NetAF.Logic.GameConfiguration.FinishMode
+  nameWithType: GameConfiguration.FinishMode
+- uid: NetAF.Logic.GameConfiguration.FinishMode*
+  name: FinishMode
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_FinishMode_
+  commentId: Overload:NetAF.Logic.GameConfiguration.FinishMode
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.FinishMode
+  nameWithType: GameConfiguration.FinishMode
+- uid: NetAF.Logic.GameConfiguration.FrameBuilders
+  name: FrameBuilders
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_FrameBuilders
+  commentId: P:NetAF.Logic.GameConfiguration.FrameBuilders
+  fullName: NetAF.Logic.GameConfiguration.FrameBuilders
+  nameWithType: GameConfiguration.FrameBuilders
+- uid: NetAF.Logic.GameConfiguration.FrameBuilders*
+  name: FrameBuilders
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_FrameBuilders_
+  commentId: Overload:NetAF.Logic.GameConfiguration.FrameBuilders
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.FrameBuilders
+  nameWithType: GameConfiguration.FrameBuilders
+- uid: NetAF.Logic.GameConfiguration.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Interpreter
+  commentId: P:NetAF.Logic.GameConfiguration.Interpreter
+  fullName: NetAF.Logic.GameConfiguration.Interpreter
+  nameWithType: GameConfiguration.Interpreter
+- uid: NetAF.Logic.GameConfiguration.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_Interpreter_
+  commentId: Overload:NetAF.Logic.GameConfiguration.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.Interpreter
+  nameWithType: GameConfiguration.Interpreter
 - uid: NetAF.Logic.GameEndConditions
   name: GameEndConditions
   href: api/NetAF.Logic.GameEndConditions.html
@@ -6885,80 +6795,31 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameEndConditions.NotEnded
   nameWithType: GameEndConditions.NotEnded
-- uid: NetAF.Logic.GameExecutionException
-  name: GameExecutionException
-  href: api/NetAF.Logic.GameExecutionException.html
-  commentId: T:NetAF.Logic.GameExecutionException
-  fullName: NetAF.Logic.GameExecutionException
-  nameWithType: GameExecutionException
-- uid: NetAF.Logic.GameExecutionException.#ctor(System.String)
-  name: GameExecutionException(string)
-  href: api/NetAF.Logic.GameExecutionException.html#NetAF_Logic_GameExecutionException__ctor_System_String_
-  commentId: M:NetAF.Logic.GameExecutionException.#ctor(System.String)
-  name.vb: New(String)
-  fullName: NetAF.Logic.GameExecutionException.GameExecutionException(string)
-  fullName.vb: NetAF.Logic.GameExecutionException.New(String)
-  nameWithType: GameExecutionException.GameExecutionException(string)
-  nameWithType.vb: GameExecutionException.New(String)
-- uid: NetAF.Logic.GameExecutionException.#ctor*
-  name: GameExecutionException
-  href: api/NetAF.Logic.GameExecutionException.html#NetAF_Logic_GameExecutionException__ctor_
-  commentId: Overload:NetAF.Logic.GameExecutionException.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logic.GameExecutionException.GameExecutionException
-  fullName.vb: NetAF.Logic.GameExecutionException.New
-  nameWithType: GameExecutionException.GameExecutionException
-  nameWithType.vb: GameExecutionException.New
-- uid: NetAF.Logic.GameExecutionMode
-  name: GameExecutionMode
-  href: api/NetAF.Logic.GameExecutionMode.html
-  commentId: T:NetAF.Logic.GameExecutionMode
-  fullName: NetAF.Logic.GameExecutionMode
-  nameWithType: GameExecutionMode
-- uid: NetAF.Logic.GameExecutionMode.Automatic
-  name: Automatic
-  href: api/NetAF.Logic.GameExecutionMode.html#NetAF_Logic_GameExecutionMode_Automatic
-  commentId: F:NetAF.Logic.GameExecutionMode.Automatic
-  fullName: NetAF.Logic.GameExecutionMode.Automatic
-  nameWithType: GameExecutionMode.Automatic
-- uid: NetAF.Logic.GameExecutionMode.BackgroundAutomatic
-  name: BackgroundAutomatic
-  href: api/NetAF.Logic.GameExecutionMode.html#NetAF_Logic_GameExecutionMode_BackgroundAutomatic
-  commentId: F:NetAF.Logic.GameExecutionMode.BackgroundAutomatic
-  fullName: NetAF.Logic.GameExecutionMode.BackgroundAutomatic
-  nameWithType: GameExecutionMode.BackgroundAutomatic
-- uid: NetAF.Logic.GameExecutionMode.Manual
-  name: Manual
-  href: api/NetAF.Logic.GameExecutionMode.html#NetAF_Logic_GameExecutionMode_Manual
-  commentId: F:NetAF.Logic.GameExecutionMode.Manual
-  fullName: NetAF.Logic.GameExecutionMode.Manual
-  nameWithType: GameExecutionMode.Manual
 - uid: NetAF.Logic.GameExecutor
   name: GameExecutor
   href: api/NetAF.Logic.GameExecutor.html
   commentId: T:NetAF.Logic.GameExecutor
   fullName: NetAF.Logic.GameExecutor
   nameWithType: GameExecutor
-- uid: NetAF.Logic.GameExecutor.Cancel
-  name: Cancel()
-  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Cancel
-  commentId: M:NetAF.Logic.GameExecutor.Cancel
-  fullName: NetAF.Logic.GameExecutor.Cancel()
-  nameWithType: GameExecutor.Cancel()
-- uid: NetAF.Logic.GameExecutor.Cancel*
-  name: Cancel
-  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Cancel_
-  commentId: Overload:NetAF.Logic.GameExecutor.Cancel
+- uid: NetAF.Logic.GameExecutor.CancelExecution
+  name: CancelExecution()
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_CancelExecution
+  commentId: M:NetAF.Logic.GameExecutor.CancelExecution
+  fullName: NetAF.Logic.GameExecutor.CancelExecution()
+  nameWithType: GameExecutor.CancelExecution()
+- uid: NetAF.Logic.GameExecutor.CancelExecution*
+  name: CancelExecution
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_CancelExecution_
+  commentId: Overload:NetAF.Logic.GameExecutor.CancelExecution
   isSpec: "True"
-  fullName: NetAF.Logic.GameExecutor.Cancel
-  nameWithType: GameExecutor.Cancel
-- uid: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback,NetAF.Logic.GameExecutionMode)
-  name: Execute(GameCreationCallback, GameExecutionMode)
-  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_NetAF_Logic_Callbacks_GameCreationCallback_NetAF_Logic_GameExecutionMode_
-  commentId: M:NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback,NetAF.Logic.GameExecutionMode)
-  fullName: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreationCallback, NetAF.Logic.GameExecutionMode)
-  nameWithType: GameExecutor.Execute(GameCreationCallback, GameExecutionMode)
+  fullName: NetAF.Logic.GameExecutor.CancelExecution
+  nameWithType: GameExecutor.CancelExecution
+- uid: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator,NetAF.Logic.IGameExecutionAutomationController)
+  name: Execute(GameCreator, IGameExecutionAutomationController)
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_NetAF_Logic_Callbacks_GameCreator_NetAF_Logic_IGameExecutionAutomationController_
+  commentId: M:NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator,NetAF.Logic.IGameExecutionAutomationController)
+  fullName: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator, NetAF.Logic.IGameExecutionAutomationController)
+  nameWithType: GameExecutor.Execute(GameCreator, IGameExecutionAutomationController)
 - uid: NetAF.Logic.GameExecutor.Execute*
   name: Execute
   href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_
@@ -6979,6 +6840,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameExecutor.IsExecuting
   nameWithType: GameExecutor.IsExecuting
+- uid: NetAF.Logic.GameExecutor.Restart
+  name: Restart()
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Restart
+  commentId: M:NetAF.Logic.GameExecutor.Restart
+  fullName: NetAF.Logic.GameExecutor.Restart()
+  nameWithType: GameExecutor.Restart()
+- uid: NetAF.Logic.GameExecutor.Restart*
+  name: Restart
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Restart_
+  commentId: Overload:NetAF.Logic.GameExecutor.Restart
+  isSpec: "True"
+  fullName: NetAF.Logic.GameExecutor.Restart
+  nameWithType: GameExecutor.Restart
 - uid: NetAF.Logic.GameExecutor.Update(System.String)
   name: Update(string)
   href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Update_System_String_
@@ -7059,36 +6933,38 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameInfo.Name
   nameWithType: GameInfo.Name
-- uid: NetAF.Logic.GameState
-  name: GameState
-  href: api/NetAF.Logic.GameState.html
-  commentId: T:NetAF.Logic.GameState
-  fullName: NetAF.Logic.GameState
-  nameWithType: GameState
-- uid: NetAF.Logic.GameState.Active
-  name: Active
-  href: api/NetAF.Logic.GameState.html#NetAF_Logic_GameState_Active
-  commentId: F:NetAF.Logic.GameState.Active
-  fullName: NetAF.Logic.GameState.Active
-  nameWithType: GameState.Active
-- uid: NetAF.Logic.GameState.Finished
-  name: Finished
-  href: api/NetAF.Logic.GameState.html#NetAF_Logic_GameState_Finished
-  commentId: F:NetAF.Logic.GameState.Finished
-  fullName: NetAF.Logic.GameState.Finished
-  nameWithType: GameState.Finished
-- uid: NetAF.Logic.GameState.Finishing
-  name: Finishing
-  href: api/NetAF.Logic.GameState.html#NetAF_Logic_GameState_Finishing
-  commentId: F:NetAF.Logic.GameState.Finishing
-  fullName: NetAF.Logic.GameState.Finishing
-  nameWithType: GameState.Finishing
-- uid: NetAF.Logic.GameState.NotStarted
-  name: NotStarted
-  href: api/NetAF.Logic.GameState.html#NetAF_Logic_GameState_NotStarted
-  commentId: F:NetAF.Logic.GameState.NotStarted
-  fullName: NetAF.Logic.GameState.NotStarted
-  nameWithType: GameState.NotStarted
+- uid: NetAF.Logic.IGameExecutionAutomationController
+  name: IGameExecutionAutomationController
+  href: api/NetAF.Logic.IGameExecutionAutomationController.html
+  commentId: T:NetAF.Logic.IGameExecutionAutomationController
+  fullName: NetAF.Logic.IGameExecutionAutomationController
+  nameWithType: IGameExecutionAutomationController
+- uid: NetAF.Logic.IGameExecutionAutomationController.BeginAsync(NetAF.Logic.Game)
+  name: BeginAsync(Game)
+  href: api/NetAF.Logic.IGameExecutionAutomationController.html#NetAF_Logic_IGameExecutionAutomationController_BeginAsync_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.IGameExecutionAutomationController.BeginAsync(NetAF.Logic.Game)
+  fullName: NetAF.Logic.IGameExecutionAutomationController.BeginAsync(NetAF.Logic.Game)
+  nameWithType: IGameExecutionAutomationController.BeginAsync(Game)
+- uid: NetAF.Logic.IGameExecutionAutomationController.BeginAsync*
+  name: BeginAsync
+  href: api/NetAF.Logic.IGameExecutionAutomationController.html#NetAF_Logic_IGameExecutionAutomationController_BeginAsync_
+  commentId: Overload:NetAF.Logic.IGameExecutionAutomationController.BeginAsync
+  isSpec: "True"
+  fullName: NetAF.Logic.IGameExecutionAutomationController.BeginAsync
+  nameWithType: IGameExecutionAutomationController.BeginAsync
+- uid: NetAF.Logic.IGameExecutionAutomationController.CancelAsync
+  name: CancelAsync()
+  href: api/NetAF.Logic.IGameExecutionAutomationController.html#NetAF_Logic_IGameExecutionAutomationController_CancelAsync
+  commentId: M:NetAF.Logic.IGameExecutionAutomationController.CancelAsync
+  fullName: NetAF.Logic.IGameExecutionAutomationController.CancelAsync()
+  nameWithType: IGameExecutionAutomationController.CancelAsync()
+- uid: NetAF.Logic.IGameExecutionAutomationController.CancelAsync*
+  name: CancelAsync
+  href: api/NetAF.Logic.IGameExecutionAutomationController.html#NetAF_Logic_IGameExecutionAutomationController_CancelAsync_
+  commentId: Overload:NetAF.Logic.IGameExecutionAutomationController.CancelAsync
+  isSpec: "True"
+  fullName: NetAF.Logic.IGameExecutionAutomationController.CancelAsync
+  nameWithType: IGameExecutionAutomationController.CancelAsync
 - uid: NetAF.Logic.IIOAdapter
   name: IIOAdapter
   href: api/NetAF.Logic.IIOAdapter.html
@@ -7121,32 +6997,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.IIOAdapter.Setup
   nameWithType: IIOAdapter.Setup
-- uid: NetAF.Logic.IIOAdapter.WaitForAcknowledge
-  name: WaitForAcknowledge()
-  href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_WaitForAcknowledge
-  commentId: M:NetAF.Logic.IIOAdapter.WaitForAcknowledge
-  fullName: NetAF.Logic.IIOAdapter.WaitForAcknowledge()
-  nameWithType: IIOAdapter.WaitForAcknowledge()
-- uid: NetAF.Logic.IIOAdapter.WaitForAcknowledge*
-  name: WaitForAcknowledge
-  href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_WaitForAcknowledge_
-  commentId: Overload:NetAF.Logic.IIOAdapter.WaitForAcknowledge
-  isSpec: "True"
-  fullName: NetAF.Logic.IIOAdapter.WaitForAcknowledge
-  nameWithType: IIOAdapter.WaitForAcknowledge
-- uid: NetAF.Logic.IIOAdapter.WaitForInput
-  name: WaitForInput()
-  href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_WaitForInput
-  commentId: M:NetAF.Logic.IIOAdapter.WaitForInput
-  fullName: NetAF.Logic.IIOAdapter.WaitForInput()
-  nameWithType: IIOAdapter.WaitForInput()
-- uid: NetAF.Logic.IIOAdapter.WaitForInput*
-  name: WaitForInput
-  href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_WaitForInput_
-  commentId: Overload:NetAF.Logic.IIOAdapter.WaitForInput
-  isSpec: "True"
-  fullName: NetAF.Logic.IIOAdapter.WaitForInput
-  nameWithType: IIOAdapter.WaitForInput
 - uid: NetAF.Logic.Modes
   name: NetAF.Logic.Modes
   href: api/NetAF.Logic.Modes.html
@@ -8018,6 +7868,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.PlayableCharacterLocation.RoomIdentifier
   nameWithType: PlayableCharacterLocation.RoomIdentifier
+- uid: NetAF.Logic.UpdateResult
+  name: UpdateResult
+  href: api/NetAF.Logic.UpdateResult.html
+  commentId: T:NetAF.Logic.UpdateResult
+  fullName: NetAF.Logic.UpdateResult
+  nameWithType: UpdateResult
+- uid: NetAF.Logic.UpdateResult.#ctor(System.Boolean,System.String)
+  name: UpdateResult(bool, string)
+  href: api/NetAF.Logic.UpdateResult.html#NetAF_Logic_UpdateResult__ctor_System_Boolean_System_String_
+  commentId: M:NetAF.Logic.UpdateResult.#ctor(System.Boolean,System.String)
+  name.vb: New(Boolean, String)
+  fullName: NetAF.Logic.UpdateResult.UpdateResult(bool, string)
+  fullName.vb: NetAF.Logic.UpdateResult.New(Boolean, String)
+  nameWithType: UpdateResult.UpdateResult(bool, string)
+  nameWithType.vb: UpdateResult.New(Boolean, String)
+- uid: NetAF.Logic.UpdateResult.#ctor*
+  name: UpdateResult
+  href: api/NetAF.Logic.UpdateResult.html#NetAF_Logic_UpdateResult__ctor_
+  commentId: Overload:NetAF.Logic.UpdateResult.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.UpdateResult.UpdateResult
+  fullName.vb: NetAF.Logic.UpdateResult.New
+  nameWithType: UpdateResult.UpdateResult
+  nameWithType.vb: UpdateResult.New
+- uid: NetAF.Logic.UpdateResult.Completed
+  name: Completed
+  href: api/NetAF.Logic.UpdateResult.html#NetAF_Logic_UpdateResult_Completed
+  commentId: P:NetAF.Logic.UpdateResult.Completed
+  fullName: NetAF.Logic.UpdateResult.Completed
+  nameWithType: UpdateResult.Completed
+- uid: NetAF.Logic.UpdateResult.Completed*
+  name: Completed
+  href: api/NetAF.Logic.UpdateResult.html#NetAF_Logic_UpdateResult_Completed_
+  commentId: Overload:NetAF.Logic.UpdateResult.Completed
+  isSpec: "True"
+  fullName: NetAF.Logic.UpdateResult.Completed
+  nameWithType: UpdateResult.Completed
+- uid: NetAF.Logic.UpdateResult.Description
+  name: Description
+  href: api/NetAF.Logic.UpdateResult.html#NetAF_Logic_UpdateResult_Description
+  commentId: P:NetAF.Logic.UpdateResult.Description
+  fullName: NetAF.Logic.UpdateResult.Description
+  nameWithType: UpdateResult.Description
+- uid: NetAF.Logic.UpdateResult.Description*
+  name: Description
+  href: api/NetAF.Logic.UpdateResult.html#NetAF_Logic_UpdateResult_Description_
+  commentId: Overload:NetAF.Logic.UpdateResult.Description
+  isSpec: "True"
+  fullName: NetAF.Logic.UpdateResult.Description
+  nameWithType: UpdateResult.Description
 - uid: NetAF.Persistence
   name: NetAF.Persistence
   href: api/NetAF.Persistence.html
@@ -9404,32 +9305,67 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.ConsoleAdapter.Setup
   nameWithType: ConsoleAdapter.Setup
-- uid: NetAF.Targets.Console.ConsoleAdapter.WaitForAcknowledge
-  name: WaitForAcknowledge()
-  href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_WaitForAcknowledge
-  commentId: M:NetAF.Targets.Console.ConsoleAdapter.WaitForAcknowledge
-  fullName: NetAF.Targets.Console.ConsoleAdapter.WaitForAcknowledge()
-  nameWithType: ConsoleAdapter.WaitForAcknowledge()
-- uid: NetAF.Targets.Console.ConsoleAdapter.WaitForAcknowledge*
-  name: WaitForAcknowledge
-  href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_WaitForAcknowledge_
-  commentId: Overload:NetAF.Targets.Console.ConsoleAdapter.WaitForAcknowledge
+- uid: NetAF.Targets.Console.ConsoleExecutionController
+  name: ConsoleExecutionController
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html
+  commentId: T:NetAF.Targets.Console.ConsoleExecutionController
+  fullName: NetAF.Targets.Console.ConsoleExecutionController
+  nameWithType: ConsoleExecutionController
+- uid: NetAF.Targets.Console.ConsoleExecutionController.BeginAsync(NetAF.Logic.Game)
+  name: BeginAsync(Game)
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_BeginAsync_NetAF_Logic_Game_
+  commentId: M:NetAF.Targets.Console.ConsoleExecutionController.BeginAsync(NetAF.Logic.Game)
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.BeginAsync(NetAF.Logic.Game)
+  nameWithType: ConsoleExecutionController.BeginAsync(Game)
+- uid: NetAF.Targets.Console.ConsoleExecutionController.BeginAsync*
+  name: BeginAsync
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_BeginAsync_
+  commentId: Overload:NetAF.Targets.Console.ConsoleExecutionController.BeginAsync
   isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleAdapter.WaitForAcknowledge
-  nameWithType: ConsoleAdapter.WaitForAcknowledge
-- uid: NetAF.Targets.Console.ConsoleAdapter.WaitForInput
-  name: WaitForInput()
-  href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_WaitForInput
-  commentId: M:NetAF.Targets.Console.ConsoleAdapter.WaitForInput
-  fullName: NetAF.Targets.Console.ConsoleAdapter.WaitForInput()
-  nameWithType: ConsoleAdapter.WaitForInput()
-- uid: NetAF.Targets.Console.ConsoleAdapter.WaitForInput*
-  name: WaitForInput
-  href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_WaitForInput_
-  commentId: Overload:NetAF.Targets.Console.ConsoleAdapter.WaitForInput
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.BeginAsync
+  nameWithType: ConsoleExecutionController.BeginAsync
+- uid: NetAF.Targets.Console.ConsoleExecutionController.CancelAsync
+  name: CancelAsync()
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_CancelAsync
+  commentId: M:NetAF.Targets.Console.ConsoleExecutionController.CancelAsync
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.CancelAsync()
+  nameWithType: ConsoleExecutionController.CancelAsync()
+- uid: NetAF.Targets.Console.ConsoleExecutionController.CancelAsync*
+  name: CancelAsync
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_CancelAsync_
+  commentId: Overload:NetAF.Targets.Console.ConsoleExecutionController.CancelAsync
   isSpec: "True"
-  fullName: NetAF.Targets.Console.ConsoleAdapter.WaitForInput
-  nameWithType: ConsoleAdapter.WaitForInput
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.CancelAsync
+  nameWithType: ConsoleExecutionController.CancelAsync
+- uid: NetAF.Targets.Console.ConsoleExecutionController.Finalize
+  name: ~ConsoleExecutionController()
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_Finalize
+  commentId: M:NetAF.Targets.Console.ConsoleExecutionController.Finalize
+  name.vb: ''
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.~ConsoleExecutionController()
+  fullName.vb: ''
+  nameWithType: ConsoleExecutionController.~ConsoleExecutionController()
+  nameWithType.vb: ''
+- uid: NetAF.Targets.Console.ConsoleExecutionController.Finalize*
+  name: ~ConsoleExecutionController
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_Finalize_
+  commentId: Overload:NetAF.Targets.Console.ConsoleExecutionController.Finalize
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.~ConsoleExecutionController
+  nameWithType: ConsoleExecutionController.~ConsoleExecutionController
+- uid: NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync(System.Threading.CancellationToken)
+  name: WaitForInputAsync(CancellationToken)
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_WaitForInputAsync_System_Threading_CancellationToken_
+  commentId: M:NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync(System.Threading.CancellationToken)
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync(System.Threading.CancellationToken)
+  nameWithType: ConsoleExecutionController.WaitForInputAsync(CancellationToken)
+- uid: NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync*
+  name: WaitForInputAsync
+  href: api/NetAF.Targets.Console.ConsoleExecutionController.html#NetAF_Targets_Console_ConsoleExecutionController_WaitForInputAsync_
+  commentId: Overload:NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.ConsoleExecutionController.WaitForInputAsync
+  nameWithType: ConsoleExecutionController.WaitForInputAsync
 - uid: NetAF.Targets.Console.Rendering
   name: NetAF.Targets.Console.Rendering
   href: api/NetAF.Targets.Console.Rendering.html
@@ -12666,19 +12602,6 @@ references:
   fullName.vb: NetAF.Targets.Html.HtmlAdapter.New
   nameWithType: HtmlAdapter.HtmlAdapter
   nameWithType.vb: HtmlAdapter.New
-- uid: NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived
-  name: AcknowledgeReceived()
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_AcknowledgeReceived
-  commentId: M:NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived
-  fullName: NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived()
-  nameWithType: HtmlAdapter.AcknowledgeReceived()
-- uid: NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived*
-  name: AcknowledgeReceived
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_AcknowledgeReceived_
-  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlAdapter.AcknowledgeReceived
-  nameWithType: HtmlAdapter.AcknowledgeReceived
 - uid: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)
   name: ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool)
   href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_
@@ -12708,22 +12631,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.HtmlAdapter.Game
   nameWithType: HtmlAdapter.Game
-- uid: NetAF.Targets.Html.HtmlAdapter.InputReceived(System.String)
-  name: InputReceived(string)
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_InputReceived_System_String_
-  commentId: M:NetAF.Targets.Html.HtmlAdapter.InputReceived(System.String)
-  name.vb: InputReceived(String)
-  fullName: NetAF.Targets.Html.HtmlAdapter.InputReceived(string)
-  fullName.vb: NetAF.Targets.Html.HtmlAdapter.InputReceived(String)
-  nameWithType: HtmlAdapter.InputReceived(string)
-  nameWithType.vb: HtmlAdapter.InputReceived(String)
-- uid: NetAF.Targets.Html.HtmlAdapter.InputReceived*
-  name: InputReceived
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_InputReceived_
-  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.InputReceived
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlAdapter.InputReceived
-  nameWithType: HtmlAdapter.InputReceived
 - uid: NetAF.Targets.Html.HtmlAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_RenderFrame_NetAF_Rendering_IFrame_
@@ -12750,41 +12657,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.HtmlAdapter.Setup
   nameWithType: HtmlAdapter.Setup
-- uid: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge
-  name: WaitForAcknowledge()
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_WaitForAcknowledge
-  commentId: M:NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge
-  fullName: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge()
-  nameWithType: HtmlAdapter.WaitForAcknowledge()
-- uid: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge(System.Int32)
-  name: WaitForAcknowledge(int)
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_WaitForAcknowledge_System_Int32_
-  commentId: M:NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge(System.Int32)
-  name.vb: WaitForAcknowledge(Integer)
-  fullName: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge(int)
-  fullName.vb: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge(Integer)
-  nameWithType: HtmlAdapter.WaitForAcknowledge(int)
-  nameWithType.vb: HtmlAdapter.WaitForAcknowledge(Integer)
-- uid: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge*
-  name: WaitForAcknowledge
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_WaitForAcknowledge_
-  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlAdapter.WaitForAcknowledge
-  nameWithType: HtmlAdapter.WaitForAcknowledge
-- uid: NetAF.Targets.Html.HtmlAdapter.WaitForInput
-  name: WaitForInput()
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_WaitForInput
-  commentId: M:NetAF.Targets.Html.HtmlAdapter.WaitForInput
-  fullName: NetAF.Targets.Html.HtmlAdapter.WaitForInput()
-  nameWithType: HtmlAdapter.WaitForInput()
-- uid: NetAF.Targets.Html.HtmlAdapter.WaitForInput*
-  name: WaitForInput
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_WaitForInput_
-  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.WaitForInput
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlAdapter.WaitForInput
-  nameWithType: HtmlAdapter.WaitForInput
 - uid: NetAF.Targets.Html.Rendering
   name: NetAF.Targets.Html.Rendering
   href: api/NetAF.Targets.Html.Rendering.html

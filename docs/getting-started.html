@@ -172,7 +172,7 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
 </code></pre>
 <h3 id="creating-the-game">Creating the game</h3>
 <p>The game now has all the required assets and logic it just needs some boilerplate to tie everything together before it is ready to play.</p>
-<p>A <strong>GameCreationCallback</strong> is required to instantiate an instance of a <strong>Game</strong>. This is so that new instances of the <strong>Game</strong> can be created as required.</p>
+<p>A <strong>GameCreator</strong> is required to instantiate an instance of a <strong>Game</strong>. This is so that new instances of the <strong>Game</strong> can be created as and when required.</p>
 <pre><code class="lang-csharp">var gameCreator = Game.Create(
                 new GameInfo(&quot;The Life of Dave&quot;, &quot;A very low budget adventure.&quot;, &quot;Ben Pollard&quot;),
                 &quot;Dave awakes to find himself in a cavern...&quot;,
@@ -189,8 +189,11 @@ var overworldMaker = new OverworldMaker(&quot;Daves World&quot;, &quot;An ancien
 <li><strong>GameConfiguration</strong> - a configuration for the game, including display size, error prefix and other elements.</li>
 </ul>
 <h3 id="executing-the-game">Executing the game</h3>
-<p>The game is executed simply by calling the static <strong>Execute</strong> method on <strong>GameExecutor</strong> and passing in the game creation callback.</p>
-<pre><code class="lang-csharp">GameExecutor.Execute(gameCreator);
+<p>The game is executed simply by calling the static <strong>Execute</strong> method on <strong>GameExecutor</strong> and passing in the game creator. Because this game is running on the console the <strong>ConsoleExecutionController</strong> class can be used to handle the quirks of executing the game on the console. In most cases no execution controller is required.</p>
+<pre><code class="lang-csharp">GameExecutor.Execute(gameCreator, new ConsoleExecutionController());
+</code></pre>
+<p>If the game was executing on a differen target, for example in a WPF application or a Blazor web app all that is required to update the game is to call <strong>GameExecutor.Update</strong> with any input that should be passed to the game.</p>
+<pre><code class="lang-csharp">GameExecutor.Update(&quot;Input to the game can be passed in like this.&quot;);
 </code></pre>
 <h3 id="bringing-it-all-together">Bringing it all together</h3>
 <p>The full example code should look like this:</p>
@@ -251,7 +254,7 @@ namespace NetAF.GettingStarted
                 new GameEndConditions(IsGameComplete, IsGameOver),
                 new GameConfiguration(new ConsoleAdapter(), FrameBuilderCollections.Console, new(80, 50)));
 
-            GameExecutor.Execute(gameCreator);
+            GameExecutor.Execute(gameCreator, new ConsoleExecutionController());
         }
     }
 }
