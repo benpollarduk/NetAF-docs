@@ -6280,12 +6280,6 @@ references:
   commentId: N:NetAF.Logic.Callbacks
   fullName: NetAF.Logic.Callbacks
   nameWithType: NetAF.Logic.Callbacks
-- uid: NetAF.Logic.Callbacks.GameCreator
-  name: GameCreator
-  href: api/NetAF.Logic.Callbacks.GameCreator.html
-  commentId: T:NetAF.Logic.Callbacks.GameCreator
-  fullName: NetAF.Logic.Callbacks.GameCreator
-  nameWithType: GameCreator
 - uid: NetAF.Logic.Callbacks.GameSetupCallback
   name: GameSetupCallback
   href: api/NetAF.Logic.Callbacks.GameSetupCallback.html
@@ -6718,6 +6712,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameConfiguration.Interpreter
   nameWithType: GameConfiguration.Interpreter
+- uid: NetAF.Logic.GameCreator
+  name: GameCreator
+  href: api/NetAF.Logic.GameCreator.html
+  commentId: T:NetAF.Logic.GameCreator
+  fullName: NetAF.Logic.GameCreator
+  nameWithType: GameCreator
 - uid: NetAF.Logic.GameEndConditions
   name: GameEndConditions
   href: api/NetAF.Logic.GameEndConditions.html
@@ -6814,11 +6814,11 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameExecutor.CancelExecution
   nameWithType: GameExecutor.CancelExecution
-- uid: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator,NetAF.Logic.IGameExecutionAutomationController)
+- uid: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.GameCreator,NetAF.Logic.IGameExecutionAutomationController)
   name: Execute(GameCreator, IGameExecutionAutomationController)
-  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_NetAF_Logic_Callbacks_GameCreator_NetAF_Logic_IGameExecutionAutomationController_
-  commentId: M:NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator,NetAF.Logic.IGameExecutionAutomationController)
-  fullName: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.Callbacks.GameCreator, NetAF.Logic.IGameExecutionAutomationController)
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_Execute_NetAF_Logic_GameCreator_NetAF_Logic_IGameExecutionAutomationController_
+  commentId: M:NetAF.Logic.GameExecutor.Execute(NetAF.Logic.GameCreator,NetAF.Logic.IGameExecutionAutomationController)
+  fullName: NetAF.Logic.GameExecutor.Execute(NetAF.Logic.GameCreator, NetAF.Logic.IGameExecutionAutomationController)
   nameWithType: GameExecutor.Execute(GameCreator, IGameExecutionAutomationController)
 - uid: NetAF.Logic.GameExecutor.Execute*
   name: Execute
