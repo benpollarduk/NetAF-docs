@@ -80,10 +80,11 @@
 <h1 id="frame-builders">Frame Builders</h1>
 
 <h2 id="overview">Overview</h2>
-<p>In NetAF output is handled using the <strong>FrameBuilders</strong>. A FrameBuilder is essentially a class that builds a <strong>Frame</strong> that can render a specific state in the game. This <strong>Frame</strong> can then be rendered on a <strong>TextWriter</strong> by calling its <strong>Render</strong> method. Think of the <strong>FrameBuilder</strong> as the instructions that build the output display and the <strong>Frame</strong> as the output itself.</p>
+<p>In NetAF output is handled using the <strong>FrameBuilders</strong>. A FrameBuilder is essentially a class that builds a <strong>Frame</strong> that can render a specific state in the game. This <strong>Frame</strong> can then be rendered on a target by calling its <strong>Render</strong> method. Think of the <strong>FrameBuilder</strong> as the builder of the output and the <strong>Frame</strong> as the output itself.</p>
 <p>There are a few types of <strong>FrameBuilder</strong>, each responsible for rendering a specific game state.</p>
 <ul>
-<li><strong>SceneFrameBuilder</strong> is responsible for building frames that render the scenes in a game.</li>
+<li><strong>SceneFrameBuilder</strong> is responsible for building frames that render the reactions to input in a game.</li>
+<li><strong>ReactionFrameBuilder</strong> is responsible for building frames that render the scenes in a game.</li>
 <li><strong>TitleFrameBuilder</strong> is responsible for building the title screen frame.</li>
 <li><strong>RegionMapFrameBuilder</strong> is responsible for building a frame that displays a map of a Region.</li>
 <li><strong>TransitionFrameBuilder</strong> is responsible for building frames that display transitions.</li>

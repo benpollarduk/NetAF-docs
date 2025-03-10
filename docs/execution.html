@@ -80,15 +80,198 @@
 <h1 id="execution">Execution</h1>
 
 <h2 id="overview">Overview</h2>
-<p>The <strong>GameExecutor</strong> is responsible for executing games.</p>
+<p>The <strong>GameExecutor</strong> is responsible for managing the execution of games. Only one game can be executed at a time.</p>
 <h2 id="contol">Contol</h2>
-<p>Calling <em>Execute</em> will begin execution of a game.</p>
-<pre><code class="lang-csharp">GameExecutor.Execute(game);
+<p>Calling <em>Execute</em> will begin execution of a game. An instance of <em>GameCreator</em> should be passed in.</p>
+<pre><code class="lang-csharp">GameExecutor.Execute(gameCreator);
 </code></pre>
-<p>When an update needs to be made to the game the <strong>GameExecutor.Update()</strong> method should be called.</p>
+<p>When an update needs to be made to the game the <em>GameExecutor.Update()</em> method should be called. Calling <em>Update</em> allows input to be passed to the game to be interpreted and actioned.</p>
 <pre><code class="lang-csharp">GameExecutor.Update(&quot;my command&quot;);
 </code></pre>
-<p>If a game should be cancelled then the <strong>GameExecutor.CancelExecution()</strong> method should be called. This will cancel the execution of any running game.</p>
+<p>If a game should be cancelled then the <em>GameExecutor.CancelExecution()</em> method should be called. This will cancel the execution of any running game.</p>
+<pre><code class="lang-csharp">GameExecutor.CancelExecution();
+</code></pre>
+<h2 id="custom-automation-execution-controllers">Custom Automation Execution Controllers</h2>
+<p>When calling <em>Execute</em> a <em>IGameExecutionAutomationController</em> can be optionally passed in as an argument. If this is left null then no controller will be used and the game will only update when <em>Update</em> is called. This is desirable for most targets, for example event-driven targets like WPF. However some targets have different execution models, like the System.Console which uses linear execution, require a little more work to get them running smoothly. In these cases an insance of <em>IGameExecutionAutomationController</em> can be created to assist with capturing input and updating the game.</p>
+<h3 id="consoleexecutioncontroller">ConsoleExecutionController</h3>
+<p>As an example, here is the code for the ConsoleExecutionController used for controlling updates for the System.Console.</p>
+<pre><code class="lang-csharp">using NetAF.Logic;
+using NetAF.Logic.Modes;
+using NetAF.Utilities;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace NetAF.Targets.Console
+{
+    /// &lt;summary&gt;
+    /// Controls the automation of a game targeting the System.Console.
+    /// &lt;/summary&gt;
+    public class ConsoleExecutionController : IGameExecutionAutomationController
+    {
+        #region Fields
+
+        private CancellationTokenSource tokenSource;
+
+        #endregion
+
+        #region Destructor
+
+        /// &lt;summary&gt;
+        /// Handle destruction of the ConsoleExecutionController.
+        /// &lt;/summary&gt;
+        ~ConsoleExecutionController()
+        {
+            tokenSource?.Dispose();
+        }
+
+        #endregion
+
+        #region StaticMethods
+
+        /// &lt;summary&gt;
+        /// Wait for a key press asynchronously.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;key&quot;&gt;The ASCII code of the key to wait for.&lt;/param&gt;
+        /// &lt;param name=&quot;token&quot;&gt;The cancellation token.&lt;/param&gt;
+        /// &lt;returns&gt;True if the key pressed returned the same ASCII character as the key property, else false.&lt;/returns&gt;
+        private static async Task&lt;bool&gt; WaitForKeyPressAsync(char key, CancellationToken token)
+        {
+            return await Task.Run(() =&gt;
+            {
+                bool result;
+
+                try
+                {
+                    result = System.Console.ReadKey().KeyChar == key;
+                }
+                catch (OperationCanceledException)
+                {
+                    result = false;
+                }
+
+                return result;
+            }, token);
+        }
+
+        /// &lt;summary&gt;
+        /// Wait for acknowledgment.
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;True if the acknowledgment was received correctly, else false.&lt;/returns&gt;
+        private static async Task&lt;bool&gt; WaitForAcknowledgeAsync(CancellationToken token)
+        {
+            return await Task.Run(async () =&gt;
+            {
+                bool result;
+
+                try
+                {
+                    result = await WaitForKeyPressAsync(StringUtilities.CR, token);
+                }
+                catch (OperationCanceledException)
+                {
+                    result = false;
+                }
+
+                return result;
+            }, token);
+        }
+
+        /// &lt;summary&gt;
+        /// Wait for input asynchronously.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;token&quot;&gt;The cancellation token.&lt;/param&gt;
+        /// &lt;returns&gt;The input.&lt;/returns&gt;
+        public static async Task&lt;string&gt; WaitForInputAsync(CancellationToken token)
+        {
+            return await Task.Run(async () =&gt;
+            {
+                string result;
+
+                try
+                {
+                    result = await System.Console.In.ReadLineAsync();
+                }
+                catch (OperationCanceledException)
+                {
+                    result = string.Empty;
+                }
+
+                return result;
+            }, token);
+        }
+
+
+        /// &lt;summary&gt;
+        /// Get input from the user asynchronously.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;game&quot;&gt;The game to get the input for.&lt;/param&gt;
+        /// &lt;param name=&quot;token&quot;&gt;The token.&lt;/param&gt;
+        /// &lt;returns&gt;The user input.&lt;/returns&gt;
+        private static async Task&lt;string&gt; GetInputAsync(Game game, CancellationToken token)
+        {
+            // input is handled based on the current modes type
+            switch (game.Mode.Type)
+            {
+                case GameModeType.Information:
+
+                    // wait for acknowledge
+                    while (!await WaitForAcknowledgeAsync(token))
+                    {
+                        // something other was entered, render again
+                        game.Mode.Render(game);
+                    }
+
+                    // acknowledge complete
+                    return string.Empty;
+
+                case GameModeType.Interactive:
+
+                    // get and return user input
+                    return await WaitForInputAsync(token);
+
+                default:
+
+                    throw new NotImplementedException($&quot;No handling for case {game.Mode.Type}.&quot;);
+            }
+        }
+
+        #endregion
+
+        #region Implementation of IGameExecutionAutomationController
+
+        /// &lt;summary&gt;
+        /// Begin execution of a game, asynchronously.
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;The task.&lt;/returns&gt;
+        public async Task BeginAsync(Game game)
+        {
+            tokenSource?.Dispose();
+            tokenSource = new CancellationTokenSource();
+
+            while (game.State != GameState.Finished &amp;&amp; !tokenSource.Token.IsCancellationRequested)
+            {
+                var input = await GetInputAsync(game, tokenSource.Token);
+                var result = GameExecutor.Update(input);
+
+                if (!result.Completed)
+                    break;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Cancel execution, asynchronously.
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;The task.&lt;/returns&gt;
+        public async Task CancelAsync()
+        {
+            await tokenSource.CancelAsync();
+        }
+
+        #endregion
+    }
+}
+</code></pre>
 
 </article>
           </div>
