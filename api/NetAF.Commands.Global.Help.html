@@ -123,13 +123,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Commands_Global_Help__ctor_" data-uid="NetAF.Commands.Global.Help.#ctor*"></a>
-  <h4 id="NetAF_Commands_Global_Help__ctor_NetAF_Commands_CommandHelp_" data-uid="NetAF.Commands.Global.Help.#ctor(NetAF.Commands.CommandHelp)">Help(CommandHelp)</h4>
+  <h4 id="NetAF_Commands_Global_Help__ctor_NetAF_Commands_CommandHelp_NetAF_Commands_Prompt___" data-uid="NetAF.Commands.Global.Help.#ctor(NetAF.Commands.CommandHelp,NetAF.Commands.Prompt[])">Help(CommandHelp, Prompt[])</h4>
   <div class="markdown level1 summary"><p>Represents the Help command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Help(CommandHelp command)</code></pre>
+    <pre><code class="lang-csharp hljs">public Help(CommandHelp command, Prompt[] prompts)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -145,6 +145,12 @@
         <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
         <td><span class="parametername">command</span></td>
         <td><p>The command to display help for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.Prompt.html">Prompt</a>[]</td>
+        <td><span class="parametername">prompts</span></td>
+        <td><p>The prompts to display for the command.</p>
 </td>
       </tr>
     </tbody>
@@ -177,6 +183,49 @@
   </table>
   <h3 id="methods">Methods
 </h3>
+  <a id="NetAF_Commands_Global_Help_GetPrompts_" data-uid="NetAF.Commands.Global.Help.GetPrompts*"></a>
+  <h4 id="NetAF_Commands_Global_Help_GetPrompts_NetAF_Logic_Game_" data-uid="NetAF.Commands.Global.Help.GetPrompts(NetAF.Logic.Game)">GetPrompts(Game)</h4>
+  <div class="markdown level1 summary"><p>Get all prompts for this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Prompt[] GetPrompts(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to get the prompts for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.Prompt.html">Prompt</a>[]</td>
+        <td><p>And array of prompts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Commands_Global_Help_Invoke_" data-uid="NetAF.Commands.Global.Help.Invoke*"></a>
   <h4 id="NetAF_Commands_Global_Help_Invoke_NetAF_Logic_Game_" data-uid="NetAF.Commands.Global.Help.Invoke(NetAF.Logic.Game)">Invoke(Game)</h4>
   <div class="markdown level1 summary"><p>Invoke the command.</p>
