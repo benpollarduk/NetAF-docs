@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class SceneMode | NetAF </title>
+      <title>Class ExecutionCommandInterpreter | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class SceneMode | NetAF ">
+      <meta name="title" content="Class ExecutionCommandInterpreter | NetAF ">
     
-    <meta name="description" content="Provides a display mode for a scene.">
+    <meta name="description" content="Provides an object that can be used for interpreting execution commands.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Modes.SceneMode">
+            <article class="content wrap" id="_content" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter">
 
 
 
-  <h1 id="NetAF_Logic_Modes_SceneMode" data-uid="NetAF.Logic.Modes.SceneMode" class="text-break">Class SceneMode</h1>
-  <div class="markdown level0 summary"><p>Provides a display mode for a scene.</p>
+  <h1 id="NetAF_Interpretation_ExecutionCommandInterpreter" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter" class="text-break">Class ExecutionCommandInterpreter</h1>
+  <div class="markdown level0 summary"><p>Provides an object that can be used for interpreting execution commands.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">SceneMode</span></div>
+    <div class="level1"><span class="xref">ExecutionCommandInterpreter</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></div>
+    <div><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,22 +114,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Interpretation.html">Interpretation</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Logic_Modes_SceneMode_syntax">Syntax</h5>
+  <h5 id="NetAF_Interpretation_ExecutionCommandInterpreter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class SceneMode : IGameMode</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ExecutionCommandInterpreter : IInterpreter</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Logic_Modes_SceneMode_CommandCategories_" data-uid="NetAF.Logic.Modes.SceneMode.CommandCategories*"></a>
-  <h4 id="NetAF_Logic_Modes_SceneMode_CommandCategories" data-uid="NetAF.Logic.Modes.SceneMode.CommandCategories">CommandCategories</h4>
-  <div class="markdown level1 summary"><p>Get or set the command categories to display.</p>
+  <a id="NetAF_Interpretation_ExecutionCommandInterpreter_DefaultSupportedCommands_" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands*"></a>
+  <h4 id="NetAF_Interpretation_ExecutionCommandInterpreter_DefaultSupportedCommands" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands">DefaultSupportedCommands</h4>
+  <div class="markdown level1 summary"><p>Get an array of all supported commands.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CommandCategory[] CommandCategories { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static CommandHelp[] DefaultSupportedCommands { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -141,19 +141,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Commands.CommandCategory.html">CommandCategory</a>[]</td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Logic_Modes_SceneMode_DisplayCommandList_" data-uid="NetAF.Logic.Modes.SceneMode.DisplayCommandList*"></a>
-  <h4 id="NetAF_Logic_Modes_SceneMode_DisplayCommandList" data-uid="NetAF.Logic.Modes.SceneMode.DisplayCommandList">DisplayCommandList</h4>
-  <div class="markdown level1 summary"><p>Get or set if the command list is displayed.</p>
+  <a id="NetAF_Interpretation_ExecutionCommandInterpreter_SupportedCommands_" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands*"></a>
+  <h4 id="NetAF_Interpretation_ExecutionCommandInterpreter_SupportedCommands" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands">SupportedCommands</h4>
+  <div class="markdown level1 summary"><p>Get an array of all supported commands.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool DisplayCommandList { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandHelp[] SupportedCommands { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -165,93 +165,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logic_Modes_SceneMode_Interpreter_" data-uid="NetAF.Logic.Modes.SceneMode.Interpreter*"></a>
-  <h4 id="NetAF_Logic_Modes_SceneMode_Interpreter" data-uid="NetAF.Logic.Modes.SceneMode.Interpreter">Interpreter</h4>
-  <div class="markdown level1 summary"><p>Get the interpreter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInterpreter Interpreter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logic_Modes_SceneMode_KeyType_" data-uid="NetAF.Logic.Modes.SceneMode.KeyType*"></a>
-  <h4 id="NetAF_Logic_Modes_SceneMode_KeyType" data-uid="NetAF.Logic.Modes.SceneMode.KeyType">KeyType</h4>
-  <div class="markdown level1 summary"><p>Get or set the type of key to use on the map.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static KeyType KeyType { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.KeyType.html">KeyType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logic_Modes_SceneMode_Type_" data-uid="NetAF.Logic.Modes.SceneMode.Type*"></a>
-  <h4 id="NetAF_Logic_Modes_SceneMode_Type" data-uid="NetAF.Logic.Modes.SceneMode.Type">Type</h4>
-  <div class="markdown level1 summary"><p>Get the type of mode this provides.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameModeType Type { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Modes.GameModeType.html">GameModeType</a></td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Logic_Modes_SceneMode_Render_" data-uid="NetAF.Logic.Modes.SceneMode.Render*"></a>
-  <h4 id="NetAF_Logic_Modes_SceneMode_Render_NetAF_Logic_Game_" data-uid="NetAF.Logic.Modes.SceneMode.Render(NetAF.Logic.Game)">Render(Game)</h4>
-  <div class="markdown level1 summary"><p>Render the current state of a game.</p>
+  <a id="NetAF_Interpretation_ExecutionCommandInterpreter_GetContextualCommandHelp_" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp*"></a>
+  <h4 id="NetAF_Interpretation_ExecutionCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)">GetContextualCommandHelp(Game)</h4>
+  <div class="markdown level1 summary"><p>Get contextual command help for a game, based on its current state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Render(Game game)</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandHelp[] GetContextualCommandHelp(Game game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -271,9 +199,74 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
+        <td><p>The contextual help.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Interpretation_ExecutionCommandInterpreter_Interpret_" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.Interpret*"></a>
+  <h4 id="NetAF_Interpretation_ExecutionCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_" data-uid="NetAF.Interpretation.ExecutionCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)">Interpret(string, Game)</h4>
+  <div class="markdown level1 summary"><p>Interpret a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InterpretationResult Interpret(string input, Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The string to interpret.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Interpretation.InterpretationResult.html">InterpretationResult</a></td>
+        <td><p>The result of the interpretation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a>
+      <a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a>
   </div>
 
 </article>

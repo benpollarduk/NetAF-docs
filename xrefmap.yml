@@ -2945,21 +2945,93 @@ references:
   commentId: N:NetAF.Commands
   fullName: NetAF.Commands
   nameWithType: NetAF.Commands
+- uid: NetAF.Commands.CommandCategory
+  name: CommandCategory
+  href: api/NetAF.Commands.CommandCategory.html
+  commentId: T:NetAF.Commands.CommandCategory
+  fullName: NetAF.Commands.CommandCategory
+  nameWithType: CommandCategory
+- uid: NetAF.Commands.CommandCategory.Conversation
+  name: Conversation
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Conversation
+  commentId: F:NetAF.Commands.CommandCategory.Conversation
+  fullName: NetAF.Commands.CommandCategory.Conversation
+  nameWithType: CommandCategory.Conversation
+- uid: NetAF.Commands.CommandCategory.Custom
+  name: Custom
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Custom
+  commentId: F:NetAF.Commands.CommandCategory.Custom
+  fullName: NetAF.Commands.CommandCategory.Custom
+  nameWithType: CommandCategory.Custom
+- uid: NetAF.Commands.CommandCategory.Execution
+  name: Execution
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Execution
+  commentId: F:NetAF.Commands.CommandCategory.Execution
+  fullName: NetAF.Commands.CommandCategory.Execution
+  nameWithType: CommandCategory.Execution
+- uid: NetAF.Commands.CommandCategory.Frame
+  name: Frame
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Frame
+  commentId: F:NetAF.Commands.CommandCategory.Frame
+  fullName: NetAF.Commands.CommandCategory.Frame
+  nameWithType: CommandCategory.Frame
+- uid: NetAF.Commands.CommandCategory.Global
+  name: Global
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Global
+  commentId: F:NetAF.Commands.CommandCategory.Global
+  fullName: NetAF.Commands.CommandCategory.Global
+  nameWithType: CommandCategory.Global
+- uid: NetAF.Commands.CommandCategory.Information
+  name: Information
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Information
+  commentId: F:NetAF.Commands.CommandCategory.Information
+  fullName: NetAF.Commands.CommandCategory.Information
+  nameWithType: CommandCategory.Information
+- uid: NetAF.Commands.CommandCategory.Movement
+  name: Movement
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Movement
+  commentId: F:NetAF.Commands.CommandCategory.Movement
+  fullName: NetAF.Commands.CommandCategory.Movement
+  nameWithType: CommandCategory.Movement
+- uid: NetAF.Commands.CommandCategory.Persistence
+  name: Persistence
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Persistence
+  commentId: F:NetAF.Commands.CommandCategory.Persistence
+  fullName: NetAF.Commands.CommandCategory.Persistence
+  nameWithType: CommandCategory.Persistence
+- uid: NetAF.Commands.CommandCategory.RegionMap
+  name: RegionMap
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_RegionMap
+  commentId: F:NetAF.Commands.CommandCategory.RegionMap
+  fullName: NetAF.Commands.CommandCategory.RegionMap
+  nameWithType: CommandCategory.RegionMap
+- uid: NetAF.Commands.CommandCategory.Scene
+  name: Scene
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Scene
+  commentId: F:NetAF.Commands.CommandCategory.Scene
+  fullName: NetAF.Commands.CommandCategory.Scene
+  nameWithType: CommandCategory.Scene
+- uid: NetAF.Commands.CommandCategory.Uncategorized
+  name: Uncategorized
+  href: api/NetAF.Commands.CommandCategory.html#NetAF_Commands_CommandCategory_Uncategorized
+  commentId: F:NetAF.Commands.CommandCategory.Uncategorized
+  fullName: NetAF.Commands.CommandCategory.Uncategorized
+  nameWithType: CommandCategory.Uncategorized
 - uid: NetAF.Commands.CommandHelp
   name: CommandHelp
   href: api/NetAF.Commands.CommandHelp.html
   commentId: T:NetAF.Commands.CommandHelp
   fullName: NetAF.Commands.CommandHelp
   nameWithType: CommandHelp
-- uid: NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String,System.String,System.String)
-  name: CommandHelp(string, string, string, string, string)
-  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:NetAF.Commands.CommandHelp.#ctor(System.String,System.String,System.String,System.String,System.String)
-  name.vb: New(String, String, String, String, String)
-  fullName: NetAF.Commands.CommandHelp.CommandHelp(string, string, string, string, string)
-  fullName.vb: NetAF.Commands.CommandHelp.New(String, String, String, String, String)
-  nameWithType: CommandHelp.CommandHelp(string, string, string, string, string)
-  nameWithType.vb: CommandHelp.New(String, String, String, String, String)
+- uid: NetAF.Commands.CommandHelp.#ctor(System.String,System.String,NetAF.Commands.CommandCategory,System.String,System.String,System.String)
+  name: CommandHelp(string, string, CommandCategory, string, string, string)
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_System_String_System_String_NetAF_Commands_CommandCategory_System_String_System_String_System_String_
+  commentId: M:NetAF.Commands.CommandHelp.#ctor(System.String,System.String,NetAF.Commands.CommandCategory,System.String,System.String,System.String)
+  name.vb: New(String, String, CommandCategory, String, String, String)
+  fullName: NetAF.Commands.CommandHelp.CommandHelp(string, string, NetAF.Commands.CommandCategory, string, string, string)
+  fullName.vb: NetAF.Commands.CommandHelp.New(String, String, NetAF.Commands.CommandCategory, String, String, String)
+  nameWithType: CommandHelp.CommandHelp(string, string, CommandCategory, string, string, string)
+  nameWithType.vb: CommandHelp.New(String, String, CommandCategory, String, String, String)
 - uid: NetAF.Commands.CommandHelp.#ctor*
   name: CommandHelp
   href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp__ctor_
@@ -2970,6 +3042,19 @@ references:
   fullName.vb: NetAF.Commands.CommandHelp.New
   nameWithType: CommandHelp.CommandHelp
   nameWithType.vb: CommandHelp.New
+- uid: NetAF.Commands.CommandHelp.Category
+  name: Category
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Category
+  commentId: P:NetAF.Commands.CommandHelp.Category
+  fullName: NetAF.Commands.CommandHelp.Category
+  nameWithType: CommandHelp.Category
+- uid: NetAF.Commands.CommandHelp.Category*
+  name: Category
+  href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Category_
+  commentId: Overload:NetAF.Commands.CommandHelp.Category
+  isSpec: "True"
+  fullName: NetAF.Commands.CommandHelp.Category
+  nameWithType: CommandHelp.Category
 - uid: NetAF.Commands.CommandHelp.Command
   name: Command
   href: api/NetAF.Commands.CommandHelp.html#NetAF_Commands_CommandHelp_Command
@@ -5958,6 +6043,67 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.CustomCommandInterpreter.SupportedCommands
   nameWithType: CustomCommandInterpreter.SupportedCommands
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter
+  name: ExecutionCommandInterpreter
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html
+  commentId: T:NetAF.Interpretation.ExecutionCommandInterpreter
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter
+  nameWithType: ExecutionCommandInterpreter
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_DefaultSupportedCommands
+  commentId: P:NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands
+  nameWithType: ExecutionCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands*
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_DefaultSupportedCommands_
+  commentId: Overload:NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands
+  nameWithType: ExecutionCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  name: GetContextualCommandHelp(Game)
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
+  commentId: M:NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
+  nameWithType: ExecutionCommandInterpreter.GetContextualCommandHelp(Game)
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp*
+  name: GetContextualCommandHelp
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_GetContextualCommandHelp_
+  commentId: Overload:NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp
+  isSpec: "True"
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp
+  nameWithType: ExecutionCommandInterpreter.GetContextualCommandHelp
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
+  name: Interpret(string, Game)
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_
+  commentId: M:NetAF.Interpretation.ExecutionCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)
+  name.vb: Interpret(String, Game)
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.Interpret(string, NetAF.Logic.Game)
+  fullName.vb: NetAF.Interpretation.ExecutionCommandInterpreter.Interpret(String, NetAF.Logic.Game)
+  nameWithType: ExecutionCommandInterpreter.Interpret(string, Game)
+  nameWithType.vb: ExecutionCommandInterpreter.Interpret(String, Game)
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.Interpret*
+  name: Interpret
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_Interpret_
+  commentId: Overload:NetAF.Interpretation.ExecutionCommandInterpreter.Interpret
+  isSpec: "True"
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.Interpret
+  nameWithType: ExecutionCommandInterpreter.Interpret
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands
+  name: SupportedCommands
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_SupportedCommands
+  commentId: P:NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands
+  nameWithType: ExecutionCommandInterpreter.SupportedCommands
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands*
+  name: SupportedCommands
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_SupportedCommands_
+  commentId: Overload:NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.SupportedCommands
+  nameWithType: ExecutionCommandInterpreter.SupportedCommands
 - uid: NetAF.Interpretation.FrameCommandInterpreter
   name: FrameCommandInterpreter
   href: api/NetAF.Interpretation.FrameCommandInterpreter.html
@@ -6278,6 +6424,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.Interpreters.ConversationInterpreter
   nameWithType: Interpreters.ConversationInterpreter
+- uid: NetAF.Interpretation.Interpreters.CustomCommandInterpreter
+  name: CustomCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_CustomCommandInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.CustomCommandInterpreter
+  fullName: NetAF.Interpretation.Interpreters.CustomCommandInterpreter
+  nameWithType: Interpreters.CustomCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.CustomCommandInterpreter*
+  name: CustomCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_CustomCommandInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.CustomCommandInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.CustomCommandInterpreter
+  nameWithType: Interpreters.CustomCommandInterpreter
 - uid: NetAF.Interpretation.Interpreters.Default
   name: Default
   href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_Default
@@ -6291,6 +6450,45 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.Interpreters.Default
   nameWithType: Interpreters.Default
+- uid: NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter
+  name: ExecutionCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_ExecutionCommandInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter
+  fullName: NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter
+  nameWithType: Interpreters.ExecutionCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter*
+  name: ExecutionCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_ExecutionCommandInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter
+  nameWithType: Interpreters.ExecutionCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.FrameCommandInterpreter
+  name: FrameCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_FrameCommandInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.FrameCommandInterpreter
+  fullName: NetAF.Interpretation.Interpreters.FrameCommandInterpreter
+  nameWithType: Interpreters.FrameCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.FrameCommandInterpreter*
+  name: FrameCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_FrameCommandInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.FrameCommandInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.FrameCommandInterpreter
+  nameWithType: Interpreters.FrameCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.GlobalCommandInterpreter
+  name: GlobalCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_GlobalCommandInterpreter
+  commentId: P:NetAF.Interpretation.Interpreters.GlobalCommandInterpreter
+  fullName: NetAF.Interpretation.Interpreters.GlobalCommandInterpreter
+  nameWithType: Interpreters.GlobalCommandInterpreter
+- uid: NetAF.Interpretation.Interpreters.GlobalCommandInterpreter*
+  name: GlobalCommandInterpreter
+  href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_GlobalCommandInterpreter_
+  commentId: Overload:NetAF.Interpretation.Interpreters.GlobalCommandInterpreter
+  isSpec: "True"
+  fullName: NetAF.Interpretation.Interpreters.GlobalCommandInterpreter
+  nameWithType: Interpreters.GlobalCommandInterpreter
 - uid: NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter
   name: RegionMapCommandInterpreter
   href: api/NetAF.Interpretation.Interpreters.html#NetAF_Interpretation_Interpreters_RegionMapCommandInterpreter
@@ -8028,6 +8226,19 @@ references:
   commentId: T:NetAF.Logic.Modes.SceneMode
   fullName: NetAF.Logic.Modes.SceneMode
   nameWithType: SceneMode
+- uid: NetAF.Logic.Modes.SceneMode.CommandCategories
+  name: CommandCategories
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_CommandCategories
+  commentId: P:NetAF.Logic.Modes.SceneMode.CommandCategories
+  fullName: NetAF.Logic.Modes.SceneMode.CommandCategories
+  nameWithType: SceneMode.CommandCategories
+- uid: NetAF.Logic.Modes.SceneMode.CommandCategories*
+  name: CommandCategories
+  href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_CommandCategories_
+  commentId: Overload:NetAF.Logic.Modes.SceneMode.CommandCategories
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.SceneMode.CommandCategories
+  nameWithType: SceneMode.CommandCategories
 - uid: NetAF.Logic.Modes.SceneMode.DisplayCommandList
   name: DisplayCommandList
   href: api/NetAF.Logic.Modes.SceneMode.html#NetAF_Logic_Modes_SceneMode_DisplayCommandList

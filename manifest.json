@@ -558,6 +558,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.CommandCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.CommandCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.CommandCategory",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.CommandCategory.yml\" sourcestartlinenumber=\"1\">Enumeration of command categories.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.CommandHelp.yml",
       "output": {
         ".html": {
@@ -1437,6 +1451,20 @@
       "IsMRef": true,
       "Title": "NetAF.Interpretation.CustomCommandInterpreter",
       "Summary": "<p sourcefile=\"api/NetAF.Interpretation.CustomCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting custom commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.ExecutionCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.ExecutionCommandInterpreter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.ExecutionCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.ExecutionCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting execution commands.</p>\n"
     },
     {
       "type": "ManagedReference",
