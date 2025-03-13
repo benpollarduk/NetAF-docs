@@ -2384,6 +2384,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.FindItem
   nameWithType: Room.FindItem
+- uid: NetAF.Assets.Locations.Room.GetAllInteractionTargets
+  name: GetAllInteractionTargets()
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_GetAllInteractionTargets
+  commentId: M:NetAF.Assets.Locations.Room.GetAllInteractionTargets
+  fullName: NetAF.Assets.Locations.Room.GetAllInteractionTargets()
+  nameWithType: Room.GetAllInteractionTargets()
+- uid: NetAF.Assets.Locations.Room.GetAllInteractionTargets*
+  name: GetAllInteractionTargets
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_GetAllInteractionTargets_
+  commentId: Overload:NetAF.Assets.Locations.Room.GetAllInteractionTargets
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Room.GetAllInteractionTargets
+  nameWithType: Room.GetAllInteractionTargets
 - uid: NetAF.Assets.Locations.Room.HasBeenVisited
   name: HasBeenVisited
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_HasBeenVisited
@@ -6868,6 +6881,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.FindInteractionTarget
   nameWithType: Game.FindInteractionTarget
+- uid: NetAF.Logic.Game.GetAllInteractionTargets
+  name: GetAllInteractionTargets()
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetAllInteractionTargets
+  commentId: M:NetAF.Logic.Game.GetAllInteractionTargets
+  fullName: NetAF.Logic.Game.GetAllInteractionTargets()
+  nameWithType: Game.GetAllInteractionTargets()
+- uid: NetAF.Logic.Game.GetAllInteractionTargets*
+  name: GetAllInteractionTargets
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetAllInteractionTargets_
+  commentId: Overload:NetAF.Logic.Game.GetAllInteractionTargets
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.GetAllInteractionTargets
+  nameWithType: Game.GetAllInteractionTargets
 - uid: NetAF.Logic.Game.GetAllPlayerVisibleExaminables
   name: GetAllPlayerVisibleExaminables()
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_GetAllPlayerVisibleExaminables
