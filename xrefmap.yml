@@ -13720,6 +13720,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.LowerLevel
   nameWithType: HtmlRegionMapBuilder.LowerLevel
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.MaxSize
+  name: MaxSize
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapBuilder_MaxSize
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.MaxSize
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.MaxSize
+  nameWithType: HtmlRegionMapBuilder.MaxSize
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.MaxSize*
+  name: MaxSize
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapBuilder_MaxSize_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.MaxSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.MaxSize
+  nameWithType: HtmlRegionMapBuilder.MaxSize
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.Player
   name: Player
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapBuilder_Player
@@ -13942,6 +13955,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.LockedExit
   nameWithType: HtmlRoomMapBuilder.LockedExit
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.MaxSize
+  name: MaxSize
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRoomMapBuilder_MaxSize
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.MaxSize
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.MaxSize
+  nameWithType: HtmlRoomMapBuilder.MaxSize
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.MaxSize*
+  name: MaxSize
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRoomMapBuilder_MaxSize_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.MaxSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.MaxSize
+  nameWithType: HtmlRoomMapBuilder.MaxSize
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.VerticalBoundary
   name: VerticalBoundary
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRoomMapBuilder_VerticalBoundary
