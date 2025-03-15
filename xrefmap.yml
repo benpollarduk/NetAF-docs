@@ -13253,6 +13253,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString
   nameWithType: HtmlAdapter.ConvertGridStringBuilderToHtmlString
+- uid: NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridVisualBuilder)
+  name: ConvertGridVisualBuilderToHtmlString(GridVisualBuilder)
+  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_ConvertGridVisualBuilderToHtmlString_NetAF_Targets_Console_Rendering_GridVisualBuilder_
+  commentId: M:NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridVisualBuilder)
+  fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridVisualBuilder)
+  nameWithType: HtmlAdapter.ConvertGridVisualBuilderToHtmlString(GridVisualBuilder)
+- uid: NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString*
+  name: ConvertGridVisualBuilderToHtmlString
+  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_ConvertGridVisualBuilderToHtmlString_
+  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString
+  nameWithType: HtmlAdapter.ConvertGridVisualBuilderToHtmlString
 - uid: NetAF.Targets.Html.HtmlAdapter.Game
   name: Game
   href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_Game
