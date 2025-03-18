@@ -3167,6 +3167,19 @@ references:
   commentId: T:NetAF.Commands.Conversation.Next
   fullName: NetAF.Commands.Conversation.Next
   nameWithType: Next
+- uid: NetAF.Commands.Conversation.Next.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Conversation.Next.html#NetAF_Commands_Conversation_Next_CommandHelp
+  commentId: P:NetAF.Commands.Conversation.Next.CommandHelp
+  fullName: NetAF.Commands.Conversation.Next.CommandHelp
+  nameWithType: Next.CommandHelp
+- uid: NetAF.Commands.Conversation.Next.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Conversation.Next.html#NetAF_Commands_Conversation_Next_CommandHelp_
+  commentId: Overload:NetAF.Commands.Conversation.Next.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Conversation.Next.CommandHelp
+  nameWithType: Next.CommandHelp
 - uid: NetAF.Commands.Conversation.Next.GetPrompts(NetAF.Logic.Game)
   name: GetPrompts(Game)
   href: api/NetAF.Commands.Conversation.Next.html#NetAF_Commands_Conversation_Next_GetPrompts_NetAF_Logic_Game_
