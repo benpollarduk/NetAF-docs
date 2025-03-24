@@ -666,7 +666,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Commands.Frame.CommandsOff",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOff.yml\" sourcestartlinenumber=\"1\">Represents the CommandsOff command.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOff.yml\" sourcestartlinenumber=\"1\">Represents the Commands Off command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -680,7 +680,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Commands.Frame.CommandsOn",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOn.yml\" sourcestartlinenumber=\"1\">Represents the CommandsOn command.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOn.yml\" sourcestartlinenumber=\"1\">Represents the Commands On command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -694,7 +694,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Commands.Frame.KeyOff",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOff.yml\" sourcestartlinenumber=\"1\">Represents the KeyOff command.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOff.yml\" sourcestartlinenumber=\"1\">Represents the Key Off command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +708,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Commands.Frame.KeyOn",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOn.yml\" sourcestartlinenumber=\"1\">Represents the KeyOn command.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOn.yml\" sourcestartlinenumber=\"1\">Represents the Key On command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -992,6 +992,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Scene.DropAll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Scene.DropAll.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Scene.DropAll",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.DropAll.yml\" sourcestartlinenumber=\"1\">Represents the Drop All command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Scene.Examine.yml",
       "output": {
         ".html": {
@@ -1044,7 +1058,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Commands.Scene.TakeAll",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.TakeAll.yml\" sourcestartlinenumber=\"1\">Represents the Take all command.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.TakeAll.yml\" sourcestartlinenumber=\"1\">Represents the Take All command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2378,6 +2392,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameProperties",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameProperties.yml\" sourcestartlinenumber=\"1\">Provides global properties for frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.IFrame.yml",
       "output": {
         ".html": {
@@ -2417,20 +2445,6 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.KeyType",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.KeyType.yml\" sourcestartlinenumber=\"1\">Enumeration of key types.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.RegionMapMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Rendering.RegionMapMode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Rendering.RegionMapMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.RegionMapMode.yml\" sourcestartlinenumber=\"1\">Enumeration of region map modes.</p>\n"
     },
     {
       "type": "ManagedReference",

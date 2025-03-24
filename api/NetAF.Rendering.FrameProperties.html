@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Enum RegionMapMode | NetAF </title>
+      <title>Class FrameProperties | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Enum RegionMapMode | NetAF ">
+      <meta name="title" content="Class FrameProperties | NetAF ">
     
-    <meta name="description" content="Enumeration of region map modes.">
+    <meta name="description" content="Provides global properties for frames.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,48 +76,100 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.RegionMapMode">
+            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.FrameProperties">
 
 
 
-
-  <h1 id="NetAF_Rendering_RegionMapMode" data-uid="NetAF.Rendering.RegionMapMode" class="text-break">Enum RegionMapMode</h1>
-  <div class="markdown level0 summary"><p>Enumeration of region map modes.</p>
+  <h1 id="NetAF_Rendering_FrameProperties" data-uid="NetAF.Rendering.FrameProperties" class="text-break">Class FrameProperties</h1>
+  <div class="markdown level0 summary"><p>Provides global properties for frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">FrameProperties</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Rendering.html">Rendering</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Rendering_RegionMapMode_syntax">Syntax</h5>
+  <h5 id="NetAF_Rendering_FrameProperties_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum RegionMapMode</code></pre>
+    <pre><code class="lang-csharp hljs">public static class FrameProperties</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
 </h3>
+  <a id="NetAF_Rendering_FrameProperties_DisplayCommandList_" data-uid="NetAF.Rendering.FrameProperties.DisplayCommandList*"></a>
+  <h4 id="NetAF_Rendering_FrameProperties_DisplayCommandList" data-uid="NetAF.Rendering.FrameProperties.DisplayCommandList">DisplayCommandList</h4>
+  <div class="markdown level1 summary"><p>Get or set if the command list is displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DisplayCommandList { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
-    </thead></thead><tbody>
+    </thead>
+    <tbody>
       <tr>
-        <td id="NetAF_Rendering_RegionMapMode_Detailed">Detailed</td>
-        <td><p>Shows rooms at a detailed level.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="NetAF_Rendering_RegionMapMode_Dynamic">Dynamic</td>
-        <td><p>Dynamic region map - uses detailed if there is room, else map will be undetailed.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="NetAF_Rendering_RegionMapMode_Undetailed">Undetailed</td>
-        <td><p>Shows rooms as one character, which allows larger maps to be displayed in a limited area.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Rendering_FrameProperties_KeyType_" data-uid="NetAF.Rendering.FrameProperties.KeyType*"></a>
+  <h4 id="NetAF_Rendering_FrameProperties_KeyType" data-uid="NetAF.Rendering.FrameProperties.KeyType">KeyType</h4>
+  <div class="markdown level1 summary"><p>Get or set the type of key to use on the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyType KeyType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.KeyType.html">KeyType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
 </article>
           </div>
 
