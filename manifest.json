@@ -656,6 +656,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Execution.Exit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Execution.Exit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Execution.Exit",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Execution.Exit.yml\" sourcestartlinenumber=\"1\">Represents the Exit command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Execution.New.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Execution.New.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Execution.New",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Execution.New.yml\" sourcestartlinenumber=\"1\">Represents the New command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Execution.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Execution",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Frame.CommandsOff.yml",
       "output": {
         ".html": {
@@ -726,20 +768,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Global.About.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Global.About.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Global.About",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.About.yml\" sourcestartlinenumber=\"1\">Represents the About command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Global.CommandList.yml",
       "output": {
         ".html": {
@@ -765,20 +793,6 @@
       "IsMRef": true,
       "Title": "NetAF.Commands.Global.End",
       "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.End.yml\" sourcestartlinenumber=\"1\">Represents the End command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Global.Exit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Global.Exit.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Global.Exit",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.Exit.yml\" sourcestartlinenumber=\"1\">Represents the Exit command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -810,20 +824,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Global.New.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Global.New.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Global.New",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.New.yml\" sourcestartlinenumber=\"1\">Represents the New command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Global.yml",
       "output": {
         ".html": {
@@ -849,6 +849,34 @@
       "IsMRef": true,
       "Title": "NetAF.Commands.ICommand",
       "Summary": "<p sourcefile=\"api/NetAF.Commands.ICommand.yml\" sourcestartlinenumber=\"1\">Represents a command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Information.About.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Information.About.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Information.About",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Information.About.yml\" sourcestartlinenumber=\"1\">Represents the About command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Information.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Information.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Information",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

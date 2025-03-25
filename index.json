@@ -229,6 +229,21 @@
     "title": "Delegate CustomCommandCallback | NetAF",
     "summary": "Delegate CustomCommandCallback Provides a callback for custom commands. Namespace: NetAF.Commands Assembly: NetAF.dll Syntax public delegate Reaction CustomCommandCallback(Game game, string[] arguments) Parameters Type Name Description Game game The game to invoke the command on. string[] arguments The arguments to invoke the command with. Returns Type Description Reaction The reaction to the command."
   },
+  "api/NetAF.Commands.Execution.Exit.html": {
+    "href": "api/NetAF.Commands.Execution.Exit.html",
+    "title": "Class Exit | NetAF",
+    "summary": "Class Exit Represents the Exit command. Inheritance object Exit Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Execution Assembly: NetAF.dll Syntax public sealed class Exit : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
+  },
+  "api/NetAF.Commands.Execution.New.html": {
+    "href": "api/NetAF.Commands.Execution.New.html",
+    "title": "Class New | NetAF",
+    "summary": "Class New Represents the New command. Inheritance object New Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Execution Assembly: NetAF.dll Syntax public sealed class New : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
+  },
+  "api/NetAF.Commands.Execution.html": {
+    "href": "api/NetAF.Commands.Execution.html",
+    "title": "Namespace NetAF.Commands.Execution | NetAF",
+    "summary": "Namespace NetAF.Commands.Execution Classes Exit Represents the Exit command. New Represents the New command."
+  },
   "api/NetAF.Commands.Frame.CommandsOff.html": {
     "href": "api/NetAF.Commands.Frame.CommandsOff.html",
     "title": "Class CommandsOff | NetAF",
@@ -254,11 +269,6 @@
     "title": "Namespace NetAF.Commands.Frame | NetAF",
     "summary": "Namespace NetAF.Commands.Frame Classes CommandsOff Represents the Commands Off command. CommandsOn Represents the Commands On command. KeyOff Represents the Key Off command. KeyOn Represents the Key On command."
   },
-  "api/NetAF.Commands.Global.About.html": {
-    "href": "api/NetAF.Commands.Global.About.html",
-    "title": "Class About | NetAF",
-    "summary": "Class About Represents the About command. Inheritance object About Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Global Assembly: NetAF.dll Syntax public sealed class About : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
-  },
   "api/NetAF.Commands.Global.CommandList.html": {
     "href": "api/NetAF.Commands.Global.CommandList.html",
     "title": "Class CommandList | NetAF",
@@ -268,11 +278,6 @@
     "href": "api/NetAF.Commands.Global.End.html",
     "title": "Class End | NetAF",
     "summary": "Class End Represents the End command. Inheritance object End Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Global Assembly: NetAF.dll Syntax public sealed class End : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
-  },
-  "api/NetAF.Commands.Global.Exit.html": {
-    "href": "api/NetAF.Commands.Global.Exit.html",
-    "title": "Class Exit | NetAF",
-    "summary": "Class Exit Represents the Exit command. Inheritance object Exit Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Global Assembly: NetAF.dll Syntax public sealed class Exit : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
   },
   "api/NetAF.Commands.Global.Help.html": {
     "href": "api/NetAF.Commands.Global.Help.html",
@@ -284,20 +289,25 @@
     "title": "Class Map | NetAF",
     "summary": "Class Map Represents the Map command. Inheritance object Map Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Global Assembly: NetAF.dll Syntax public sealed class Map : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
   },
-  "api/NetAF.Commands.Global.New.html": {
-    "href": "api/NetAF.Commands.Global.New.html",
-    "title": "Class New | NetAF",
-    "summary": "Class New Represents the New command. Inheritance object New Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Global Assembly: NetAF.dll Syntax public sealed class New : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
-  },
   "api/NetAF.Commands.Global.html": {
     "href": "api/NetAF.Commands.Global.html",
     "title": "Namespace NetAF.Commands.Global | NetAF",
-    "summary": "Namespace NetAF.Commands.Global Classes About Represents the About command. CommandList Represents the Commands command. End Represents the End command. Exit Represents the Exit command. Help Represents the Help command. Map Represents the Map command. New Represents the New command."
+    "summary": "Namespace NetAF.Commands.Global Classes CommandList Represents the Commands command. End Represents the End command. Help Represents the Help command. Map Represents the Map command."
   },
   "api/NetAF.Commands.ICommand.html": {
     "href": "api/NetAF.Commands.ICommand.html",
     "title": "Interface ICommand | NetAF",
     "summary": "Interface ICommand Represents a command. Namespace: NetAF.Commands Assembly: NetAF.dll Syntax public interface ICommand Methods GetPrompts(Game) Get all prompts for this command. Declaration Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction."
+  },
+  "api/NetAF.Commands.Information.About.html": {
+    "href": "api/NetAF.Commands.Information.About.html",
+    "title": "Class About | NetAF",
+    "summary": "Class About Represents the About command. Inheritance object About Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Commands.Information Assembly: NetAF.dll Syntax public sealed class About : ICommand Properties CommandHelp Get the command help. Declaration public static CommandHelp CommandHelp { get; } Property Value Type Description CommandHelp Methods GetPrompts(Game) Get all prompts for this command. Declaration public Prompt[] GetPrompts(Game game) Parameters Type Name Description Game game The game to get the prompts for. Returns Type Description Prompt[] And array of prompts. Invoke(Game) Invoke the command. Declaration public Reaction Invoke(Game game) Parameters Type Name Description Game game The game to invoke the command on. Returns Type Description Reaction The reaction. Implements ICommand"
+  },
+  "api/NetAF.Commands.Information.html": {
+    "href": "api/NetAF.Commands.Information.html",
+    "title": "Namespace NetAF.Commands.Information | NetAF",
+    "summary": "Namespace NetAF.Commands.Information Classes About Represents the About command."
   },
   "api/NetAF.Commands.Persistence.Load.html": {
     "href": "api/NetAF.Commands.Persistence.Load.html",
