@@ -13289,15 +13289,15 @@ references:
   fullName.vb: NetAF.Targets.Html.HtmlAdapter.New
   nameWithType: HtmlAdapter.HtmlAdapter
   nameWithType.vb: HtmlAdapter.New
-- uid: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)
-  name: ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool)
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_
-  commentId: M:NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)
-  name.vb: ConvertGridStringBuilderToHtmlString(GridStringBuilder, Boolean)
-  fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder, bool)
-  fullName.vb: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder, Boolean)
-  nameWithType: HtmlAdapter.ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool)
-  nameWithType.vb: HtmlAdapter.ConvertGridStringBuilderToHtmlString(GridStringBuilder, Boolean)
+- uid: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean,System.Boolean,System.Boolean)
+  name: ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool, bool, bool)
+  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: ConvertGridStringBuilderToHtmlString(GridStringBuilder, Boolean, Boolean, Boolean)
+  fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder, bool, bool, bool)
+  fullName.vb: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString(NetAF.Targets.Console.Rendering.GridStringBuilder, Boolean, Boolean, Boolean)
+  nameWithType: HtmlAdapter.ConvertGridStringBuilderToHtmlString(GridStringBuilder, bool, bool, bool)
+  nameWithType.vb: HtmlAdapter.ConvertGridStringBuilderToHtmlString(GridStringBuilder, Boolean, Boolean, Boolean)
 - uid: NetAF.Targets.Html.HtmlAdapter.ConvertGridStringBuilderToHtmlString*
   name: ConvertGridStringBuilderToHtmlString
   href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_ConvertGridStringBuilderToHtmlString_
