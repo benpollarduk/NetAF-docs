@@ -578,6 +578,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Characters.PlayableCharacter.CanTakeAndDropItems
   nameWithType: PlayableCharacter.CanTakeAndDropItems
+- uid: NetAF.Assets.Characters.PlayableCharacter.DefaultPlayableCharacterExamination
+  name: DefaultPlayableCharacterExamination
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter_DefaultPlayableCharacterExamination
+  commentId: P:NetAF.Assets.Characters.PlayableCharacter.DefaultPlayableCharacterExamination
+  fullName: NetAF.Assets.Characters.PlayableCharacter.DefaultPlayableCharacterExamination
+  nameWithType: PlayableCharacter.DefaultPlayableCharacterExamination
+- uid: NetAF.Assets.Characters.PlayableCharacter.DefaultPlayableCharacterExamination*
+  name: DefaultPlayableCharacterExamination
+  href: api/NetAF.Assets.Characters.PlayableCharacter.html#NetAF_Assets_Characters_PlayableCharacter_DefaultPlayableCharacterExamination_
+  commentId: Overload:NetAF.Assets.Characters.PlayableCharacter.DefaultPlayableCharacterExamination
+  isSpec: "True"
+  fullName: NetAF.Assets.Characters.PlayableCharacter.DefaultPlayableCharacterExamination
+  nameWithType: PlayableCharacter.DefaultPlayableCharacterExamination
 - uid: NetAF.Assets.Condition
   name: Condition
   href: api/NetAF.Assets.Condition.html
