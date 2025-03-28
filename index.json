@@ -1214,6 +1214,16 @@
     "title": "Namespace NetAF.Targets.Html | NetAF",
     "summary": "Namespace NetAF.Targets.Html Classes HtmlAdapter Provides an adapter for HTML."
   },
+  "api/NetAF.Targets.Text.TextAdapter.html": {
+    "href": "api/NetAF.Targets.Text.TextAdapter.html",
+    "title": "Class TextAdapter | NetAF",
+    "summary": "Class TextAdapter Provides an adapter for text. Inheritance object TextAdapter Implements IIOAdapter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Targets.Text Assembly: NetAF.dll Syntax public sealed class TextAdapter : IIOAdapter Constructors TextAdapter(IFramePresenter) Provides an adapter for text. Declaration public TextAdapter(IFramePresenter presenter) Parameters Type Name Description IFramePresenter presenter The presenter to use for presenting frames. Properties Game Get the game. Declaration public Game Game { get; } Property Value Type Description Game Methods RenderFrame(IFrame) Render a frame. Declaration public void RenderFrame(IFrame frame) Parameters Type Name Description IFrame frame The frame to render. Setup(Game) Setup for a game. Declaration public void Setup(Game game) Parameters Type Name Description Game game The game to set up for. Implements IIOAdapter"
+  },
+  "api/NetAF.Targets.Text.html": {
+    "href": "api/NetAF.Targets.Text.html",
+    "title": "Namespace NetAF.Targets.Text | NetAF",
+    "summary": "Namespace NetAF.Targets.Text Classes TextAdapter Provides an adapter for text."
+  },
   "api/NetAF.Utilities.IAssetTemplate-1.html": {
     "href": "api/NetAF.Utilities.IAssetTemplate-1.html",
     "title": "Interface IAssetTemplate<T> | NetAF",

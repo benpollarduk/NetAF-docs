@@ -3414,6 +3414,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.TextAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.TextAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.TextAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.TextAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for text.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Utilities.IAssetTemplate-1.yml",
       "output": {
         ".html": {
