@@ -9212,19 +9212,32 @@ references:
   commentId: T:NetAF.Rendering.SceneHelper
   fullName: NetAF.Rendering.SceneHelper
   nameWithType: SceneHelper
-- uid: NetAF.Rendering.SceneHelper.CreateNPCString(NetAF.Assets.Locations.Room)
-  name: CreateNPCString(Room)
-  href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateNPCString_NetAF_Assets_Locations_Room_
-  commentId: M:NetAF.Rendering.SceneHelper.CreateNPCString(NetAF.Assets.Locations.Room)
-  fullName: NetAF.Rendering.SceneHelper.CreateNPCString(NetAF.Assets.Locations.Room)
-  nameWithType: SceneHelper.CreateNPCString(Room)
-- uid: NetAF.Rendering.SceneHelper.CreateNPCString*
-  name: CreateNPCString
-  href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateNPCString_
-  commentId: Overload:NetAF.Rendering.SceneHelper.CreateNPCString
+- uid: NetAF.Rendering.SceneHelper.CreateCharactersString(NetAF.Assets.Locations.Room)
+  name: CreateCharactersString(Room)
+  href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateCharactersString_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Rendering.SceneHelper.CreateCharactersString(NetAF.Assets.Locations.Room)
+  fullName: NetAF.Rendering.SceneHelper.CreateCharactersString(NetAF.Assets.Locations.Room)
+  nameWithType: SceneHelper.CreateCharactersString(Room)
+- uid: NetAF.Rendering.SceneHelper.CreateCharactersString*
+  name: CreateCharactersString
+  href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateCharactersString_
+  commentId: Overload:NetAF.Rendering.SceneHelper.CreateCharactersString
   isSpec: "True"
-  fullName: NetAF.Rendering.SceneHelper.CreateNPCString
-  nameWithType: SceneHelper.CreateNPCString
+  fullName: NetAF.Rendering.SceneHelper.CreateCharactersString
+  nameWithType: SceneHelper.CreateCharactersString
+- uid: NetAF.Rendering.SceneHelper.CreateItemsString(NetAF.Assets.Locations.Room)
+  name: CreateItemsString(Room)
+  href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateItemsString_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Rendering.SceneHelper.CreateItemsString(NetAF.Assets.Locations.Room)
+  fullName: NetAF.Rendering.SceneHelper.CreateItemsString(NetAF.Assets.Locations.Room)
+  nameWithType: SceneHelper.CreateItemsString(Room)
+- uid: NetAF.Rendering.SceneHelper.CreateItemsString*
+  name: CreateItemsString
+  href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateItemsString_
+  commentId: Overload:NetAF.Rendering.SceneHelper.CreateItemsString
+  isSpec: "True"
+  fullName: NetAF.Rendering.SceneHelper.CreateItemsString
+  nameWithType: SceneHelper.CreateItemsString
 - uid: NetAF.Rendering.SceneHelper.CreateViewpointAsString(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint)
   name: CreateViewpointAsString(Room, ViewPoint)
   href: api/NetAF.Rendering.SceneHelper.html#NetAF_Rendering_SceneHelper_CreateViewpointAsString_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_
