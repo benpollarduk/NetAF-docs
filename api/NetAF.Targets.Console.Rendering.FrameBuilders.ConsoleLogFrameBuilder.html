@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class RegionMapMode | NetAF </title>
+      <title>Class ConsoleLogFrameBuilder | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class RegionMapMode | NetAF ">
+      <meta name="title" content="Class ConsoleLogFrameBuilder | NetAF ">
     
-    <meta name="description" content="Provides a display mode for the region map.">
+    <meta name="description" content="Provides a builder of log frames.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,23 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Modes.RegionMapMode">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder">
 
 
 
-  <h1 id="NetAF_Logic_Modes_RegionMapMode" data-uid="NetAF.Logic.Modes.RegionMapMode" class="text-break">Class RegionMapMode</h1>
-  <div class="markdown level0 summary"><p>Provides a display mode for the region map.</p>
+  <h1 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder" class="text-break">Class ConsoleLogFrameBuilder</h1>
+  <div class="markdown level0 summary"><p>Provides a builder of log frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">RegionMapMode</span></div>
+    <div class="level1"><span class="xref">ConsoleLogFrameBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html">ILogFrameBuilder</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,22 +115,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Logic_Modes_RegionMapMode_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class RegionMapMode : IGameMode</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ConsoleLogFrameBuilder : ILogFrameBuilder, IFrameBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Logic_Modes_RegionMapMode__ctor_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D)">RegionMapMode(Point3D)</h4>
-  <div class="markdown level1 summary"><p>Provides a display mode for the region map.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder__ctor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.#ctor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)">ConsoleLogFrameBuilder(GridStringBuilder)</h4>
+  <div class="markdown level1 summary"><p>Provides a builder of log frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RegionMapMode(Point3D focusPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public ConsoleLogFrameBuilder(GridStringBuilder gridStringBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -142,23 +143,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
-        <td><span class="parametername">focusPosition</span></td>
-        <td><p>The position to focus on. To use the player position use RegionMapMode.Player.</p>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
+        <td><span class="parametername">gridStringBuilder</span></td>
+        <td><p>A builder to use for the string layout.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Logic_Modes_RegionMapMode_FocusPosition_" data-uid="NetAF.Logic.Modes.RegionMapMode.FocusPosition*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_FocusPosition" data-uid="NetAF.Logic.Modes.RegionMapMode.FocusPosition">FocusPosition</h4>
-  <div class="markdown level1 summary"><p>Get or set the position to focus on. To use the player position use RegionMapMode.Player.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BackgroundColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BackgroundColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor">BackgroundColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the background color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Point3D FocusPosition { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiColor BackgroundColor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -170,19 +171,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Logic_Modes_RegionMapMode_Interpreter_" data-uid="NetAF.Logic.Modes.RegionMapMode.Interpreter*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_Interpreter" data-uid="NetAF.Logic.Modes.RegionMapMode.Interpreter">Interpreter</h4>
-  <div class="markdown level1 summary"><p>Get the interpreter.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BorderColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BorderColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor">BorderColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the border color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInterpreter Interpreter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiColor BorderColor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -194,19 +195,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Logic_Modes_RegionMapMode_Player_" data-uid="NetAF.Logic.Modes.RegionMapMode.Player*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_Player" data-uid="NetAF.Logic.Modes.RegionMapMode.Player">Player</h4>
-  <div class="markdown level1 summary"><p>Get the value to use to display the player level.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_DescriptionColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_DescriptionColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor">DescriptionColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the description color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Point3D Player { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiColor DescriptionColor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -218,19 +219,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Logic_Modes_RegionMapMode_Type_" data-uid="NetAF.Logic.Modes.RegionMapMode.Type*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_Type" data-uid="NetAF.Logic.Modes.RegionMapMode.Type">Type</h4>
-  <div class="markdown level1 summary"><p>Get the type of mode this provides.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_EntryColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_EntryColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor">EntryColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the entry color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameModeType Type { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AnsiColor EntryColor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -242,21 +243,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.Modes.GameModeType.html">GameModeType</a></td>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_TitleColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_TitleColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor">TitleColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the title color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnsiColor TitleColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Logic_Modes_RegionMapMode_CanPanToPosition_" data-uid="NetAF.Logic.Modes.RegionMapMode.CanPanToPosition*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_CanPanToPosition_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_" data-uid="NetAF.Logic.Modes.RegionMapMode.CanPanToPosition(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)">CanPanToPosition(Region, Point3D)</h4>
-  <div class="markdown level1 summary"><p>Determine if a pan position is valid.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_Build_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_Build_System_String_System_String_NetAF_Log_LogEntry___NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)">Build(string, string, LogEntry[], Size)</h4>
+  <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CanPanToPosition(Region region, Point3D position)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(string title, string description, LogEntry[] entries, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -269,15 +294,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>The region.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
-        <td><span class="parametername">position</span></td>
-        <td><p>The position.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Log.LogEntry.html">LogEntry</a>[]</td>
+        <td><span class="parametername">entries</span></td>
+        <td><p>The entries.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the frame.</p>
 </td>
       </tr>
     </tbody>
@@ -292,42 +329,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><p>True if the pan position is valid, else false.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logic_Modes_RegionMapMode_Render_" data-uid="NetAF.Logic.Modes.RegionMapMode.Render*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_Render_NetAF_Logic_Game_" data-uid="NetAF.Logic.Modes.RegionMapMode.Render(NetAF.Logic.Game)">Render(Game)</h4>
-  <div class="markdown level1 summary"><p>Render the current state of a game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Render(Game game)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td><span class="parametername">game</span></td>
-        <td><p>The game.</p>
+        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
+        <td><p>The frame.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html">ILogFrameBuilder</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a>
   </div>
 
 </article>

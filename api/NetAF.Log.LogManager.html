@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class GameSerialization | NetAF </title>
+      <title>Class LogManager | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class GameSerialization | NetAF ">
+      <meta name="title" content="Class LogManager | NetAF ">
     
-    <meta name="description" content="Represents a serialization of a Game.">
+    <meta name="description" content="Provides a manager for logs.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Serialization.GameSerialization">
+            <article class="content wrap" id="_content" data-uid="NetAF.Log.LogManager">
 
 
 
-  <h1 id="NetAF_Serialization_GameSerialization" data-uid="NetAF.Serialization.GameSerialization" class="text-break">Class GameSerialization</h1>
-  <div class="markdown level0 summary"><p>Represents a serialization of a Game.</p>
+  <h1 id="NetAF_Log_LogManager" data-uid="NetAF.Log.LogManager" class="text-break">Class LogManager</h1>
+  <div class="markdown level0 summary"><p>Provides a manager for logs.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">GameSerialization</span></div>
+    <div class="level1"><span class="xref">LogManager</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -113,22 +113,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Serialization.html">Serialization</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Log.html">Log</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Serialization_GameSerialization_syntax">Syntax</h5>
+  <h5 id="NetAF_Log_LogManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameSerialization</code></pre>
+    <pre><code class="lang-csharp hljs">public class LogManager</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Serialization_GameSerialization_ActivePlayerIdentifier_" data-uid="NetAF.Serialization.GameSerialization.ActivePlayerIdentifier*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_ActivePlayerIdentifier" data-uid="NetAF.Serialization.GameSerialization.ActivePlayerIdentifier">ActivePlayerIdentifier</h4>
-  <div class="markdown level1 summary"><p>Get or set the active player identifier.</p>
+  <a id="NetAF_Log_LogManager_Count_" data-uid="NetAF.Log.LogManager.Count*"></a>
+  <h4 id="NetAF_Log_LogManager_Count" data-uid="NetAF.Log.LogManager.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Get the number of entries.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ActivePlayerIdentifier { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -140,117 +140,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_InactivePlayerLocations_" data-uid="NetAF.Serialization.GameSerialization.InactivePlayerLocations*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_InactivePlayerLocations" data-uid="NetAF.Serialization.GameSerialization.InactivePlayerLocations">InactivePlayerLocations</h4>
-  <div class="markdown level1 summary"><p>Get or set the overworld serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayableCharacterLocationSerialization[] InactivePlayerLocations { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html">PlayableCharacterLocationSerialization</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_LogManager_" data-uid="NetAF.Serialization.GameSerialization.LogManager*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_LogManager" data-uid="NetAF.Serialization.GameSerialization.LogManager">LogManager</h4>
-  <div class="markdown level1 summary"><p>Get or set the log manager serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogManagerSerialization LogManager { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.LogManagerSerialization.html">LogManagerSerialization</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_Overworld_" data-uid="NetAF.Serialization.GameSerialization.Overworld*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_Overworld" data-uid="NetAF.Serialization.GameSerialization.Overworld">Overworld</h4>
-  <div class="markdown level1 summary"><p>Get or set the overworld serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OverworldSerialization Overworld { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.OverworldSerialization.html">OverworldSerialization</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_Players_" data-uid="NetAF.Serialization.GameSerialization.Players*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_Players" data-uid="NetAF.Serialization.GameSerialization.Players">Players</h4>
-  <div class="markdown level1 summary"><p>Get or set the player serializations.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterSerialization[] Players { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.CharacterSerialization.html">CharacterSerialization</a>[]</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Serialization_GameSerialization_FromGame_" data-uid="NetAF.Serialization.GameSerialization.FromGame*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_FromGame_NetAF_Logic_Game_" data-uid="NetAF.Serialization.GameSerialization.FromGame(NetAF.Logic.Game)">FromGame(Game)</h4>
-  <div class="markdown level1 summary"><p>Create a new serialization from a Game.</p>
+  <a id="NetAF_Log_LogManager_Add_" data-uid="NetAF.Log.LogManager.Add*"></a>
+  <h4 id="NetAF_Log_LogManager_Add_NetAF_Log_LogEntry_" data-uid="NetAF.Log.LogManager.Add(NetAF.Log.LogEntry)">Add(LogEntry)</h4>
+  <div class="markdown level1 summary"><p>Add a new entry.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameSerialization FromGame(Game game)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(LogEntry entry)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -263,9 +167,72 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td><span class="parametername">game</span></td>
-        <td><p>The Game to create the serialization from.</p>
+        <td><a class="xref" href="NetAF.Log.LogEntry.html">LogEntry</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td><p>The entry to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Log_LogManager_Clear_" data-uid="NetAF.Log.LogManager.Clear*"></a>
+  <h4 id="NetAF_Log_LogManager_Clear" data-uid="NetAF.Log.LogManager.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear all entries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <a id="NetAF_Log_LogManager_Expire_" data-uid="NetAF.Log.LogManager.Expire*"></a>
+  <h4 id="NetAF_Log_LogManager_Expire_System_String_" data-uid="NetAF.Log.LogManager.Expire(System.String)">Expire(string)</h4>
+  <div class="markdown level1 summary"><p>Expire an entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Expire(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the entry to expire.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Log_LogManager_FromSerialization_" data-uid="NetAF.Log.LogManager.FromSerialization*"></a>
+  <h4 id="NetAF_Log_LogManager_FromSerialization_NetAF_Serialization_Assets_LogManagerSerialization_" data-uid="NetAF.Log.LogManager.FromSerialization(NetAF.Serialization.Assets.LogManagerSerialization)">FromSerialization(LogManagerSerialization)</h4>
+  <div class="markdown level1 summary"><p>Create a new instance of LogManager from a serialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LogManager FromSerialization(LogManagerSerialization serialization)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Serialization.Assets.LogManagerSerialization.html">LogManagerSerialization</a></td>
+        <td><span class="parametername">serialization</span></td>
+        <td><p>The serialization.</p>
 </td>
       </tr>
     </tbody>
@@ -280,8 +247,60 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Serialization.GameSerialization.html">GameSerialization</a></td>
-        <td><p>The serialization.</p>
+        <td><a class="xref" href="NetAF.Log.LogManager.html">LogManager</a></td>
+        <td><p>The log manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Log_LogManager_GetAll_" data-uid="NetAF.Log.LogManager.GetAll*"></a>
+  <h4 id="NetAF_Log_LogManager_GetAll" data-uid="NetAF.Log.LogManager.GetAll">GetAll()</h4>
+  <div class="markdown level1 summary"><p>Get all entries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LogEntry[] GetAll()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Log.LogEntry.html">LogEntry</a>[]</td>
+        <td><p>An array of all entries.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Log_LogManager_Remove_" data-uid="NetAF.Log.LogManager.Remove*"></a>
+  <h4 id="NetAF_Log_LogManager_Remove_System_String_" data-uid="NetAF.Log.LogManager.Remove(System.String)">Remove(string)</h4>
+  <div class="markdown level1 summary"><p>Remove an entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the entry to remove.</p>
 </td>
       </tr>
     </tbody>

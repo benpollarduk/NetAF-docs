@@ -3962,6 +3962,51 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Information.About.Invoke
   nameWithType: About.Invoke
+- uid: NetAF.Commands.Information.Log
+  name: Log
+  href: api/NetAF.Commands.Information.Log.html
+  commentId: T:NetAF.Commands.Information.Log
+  fullName: NetAF.Commands.Information.Log
+  nameWithType: Log
+- uid: NetAF.Commands.Information.Log.CommandHelp
+  name: CommandHelp
+  href: api/NetAF.Commands.Information.Log.html#NetAF_Commands_Information_Log_CommandHelp
+  commentId: P:NetAF.Commands.Information.Log.CommandHelp
+  fullName: NetAF.Commands.Information.Log.CommandHelp
+  nameWithType: Log.CommandHelp
+- uid: NetAF.Commands.Information.Log.CommandHelp*
+  name: CommandHelp
+  href: api/NetAF.Commands.Information.Log.html#NetAF_Commands_Information_Log_CommandHelp_
+  commentId: Overload:NetAF.Commands.Information.Log.CommandHelp
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.Log.CommandHelp
+  nameWithType: Log.CommandHelp
+- uid: NetAF.Commands.Information.Log.GetPrompts(NetAF.Logic.Game)
+  name: GetPrompts(Game)
+  href: api/NetAF.Commands.Information.Log.html#NetAF_Commands_Information_Log_GetPrompts_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Information.Log.GetPrompts(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Information.Log.GetPrompts(NetAF.Logic.Game)
+  nameWithType: Log.GetPrompts(Game)
+- uid: NetAF.Commands.Information.Log.GetPrompts*
+  name: GetPrompts
+  href: api/NetAF.Commands.Information.Log.html#NetAF_Commands_Information_Log_GetPrompts_
+  commentId: Overload:NetAF.Commands.Information.Log.GetPrompts
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.Log.GetPrompts
+  nameWithType: Log.GetPrompts
+- uid: NetAF.Commands.Information.Log.Invoke(NetAF.Logic.Game)
+  name: Invoke(Game)
+  href: api/NetAF.Commands.Information.Log.html#NetAF_Commands_Information_Log_Invoke_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Information.Log.Invoke(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Information.Log.Invoke(NetAF.Logic.Game)
+  nameWithType: Log.Invoke(Game)
+- uid: NetAF.Commands.Information.Log.Invoke*
+  name: Invoke
+  href: api/NetAF.Commands.Information.Log.html#NetAF_Commands_Information_Log_Invoke_
+  commentId: Overload:NetAF.Commands.Information.Log.Invoke
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.Log.Invoke
+  nameWithType: Log.Invoke
 - uid: NetAF.Commands.Persistence
   name: NetAF.Commands.Persistence
   href: api/NetAF.Commands.Persistence.html
@@ -6720,6 +6765,205 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
   nameWithType: SceneCommandInterpreter.SupportedCommands
+- uid: NetAF.Log
+  name: NetAF.Log
+  href: api/NetAF.Log.html
+  commentId: N:NetAF.Log
+  fullName: NetAF.Log
+  nameWithType: NetAF.Log
+- uid: NetAF.Log.LogEntry
+  name: LogEntry
+  href: api/NetAF.Log.LogEntry.html
+  commentId: T:NetAF.Log.LogEntry
+  fullName: NetAF.Log.LogEntry
+  nameWithType: LogEntry
+- uid: NetAF.Log.LogEntry.#ctor(System.String,System.String)
+  name: LogEntry(string, string)
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry__ctor_System_String_System_String_
+  commentId: M:NetAF.Log.LogEntry.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: NetAF.Log.LogEntry.LogEntry(string, string)
+  fullName.vb: NetAF.Log.LogEntry.New(String, String)
+  nameWithType: LogEntry.LogEntry(string, string)
+  nameWithType.vb: LogEntry.New(String, String)
+- uid: NetAF.Log.LogEntry.#ctor*
+  name: LogEntry
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry__ctor_
+  commentId: Overload:NetAF.Log.LogEntry.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Log.LogEntry.LogEntry
+  fullName.vb: NetAF.Log.LogEntry.New
+  nameWithType: LogEntry.LogEntry
+  nameWithType.vb: LogEntry.New
+- uid: NetAF.Log.LogEntry.Content
+  name: Content
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_Content
+  commentId: P:NetAF.Log.LogEntry.Content
+  fullName: NetAF.Log.LogEntry.Content
+  nameWithType: LogEntry.Content
+- uid: NetAF.Log.LogEntry.Content*
+  name: Content
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_Content_
+  commentId: Overload:NetAF.Log.LogEntry.Content
+  isSpec: "True"
+  fullName: NetAF.Log.LogEntry.Content
+  nameWithType: LogEntry.Content
+- uid: NetAF.Log.LogEntry.Expire
+  name: Expire()
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_Expire
+  commentId: M:NetAF.Log.LogEntry.Expire
+  fullName: NetAF.Log.LogEntry.Expire()
+  nameWithType: LogEntry.Expire()
+- uid: NetAF.Log.LogEntry.Expire*
+  name: Expire
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_Expire_
+  commentId: Overload:NetAF.Log.LogEntry.Expire
+  isSpec: "True"
+  fullName: NetAF.Log.LogEntry.Expire
+  nameWithType: LogEntry.Expire
+- uid: NetAF.Log.LogEntry.FromSerialization(NetAF.Serialization.Assets.LogEntrySerialization)
+  name: FromSerialization(LogEntrySerialization)
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_FromSerialization_NetAF_Serialization_Assets_LogEntrySerialization_
+  commentId: M:NetAF.Log.LogEntry.FromSerialization(NetAF.Serialization.Assets.LogEntrySerialization)
+  fullName: NetAF.Log.LogEntry.FromSerialization(NetAF.Serialization.Assets.LogEntrySerialization)
+  nameWithType: LogEntry.FromSerialization(LogEntrySerialization)
+- uid: NetAF.Log.LogEntry.FromSerialization*
+  name: FromSerialization
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_FromSerialization_
+  commentId: Overload:NetAF.Log.LogEntry.FromSerialization
+  isSpec: "True"
+  fullName: NetAF.Log.LogEntry.FromSerialization
+  nameWithType: LogEntry.FromSerialization
+- uid: NetAF.Log.LogEntry.HasExpired
+  name: HasExpired
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_HasExpired
+  commentId: P:NetAF.Log.LogEntry.HasExpired
+  fullName: NetAF.Log.LogEntry.HasExpired
+  nameWithType: LogEntry.HasExpired
+- uid: NetAF.Log.LogEntry.HasExpired*
+  name: HasExpired
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_HasExpired_
+  commentId: Overload:NetAF.Log.LogEntry.HasExpired
+  isSpec: "True"
+  fullName: NetAF.Log.LogEntry.HasExpired
+  nameWithType: LogEntry.HasExpired
+- uid: NetAF.Log.LogEntry.Name
+  name: Name
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_Name
+  commentId: P:NetAF.Log.LogEntry.Name
+  fullName: NetAF.Log.LogEntry.Name
+  nameWithType: LogEntry.Name
+- uid: NetAF.Log.LogEntry.Name*
+  name: Name
+  href: api/NetAF.Log.LogEntry.html#NetAF_Log_LogEntry_Name_
+  commentId: Overload:NetAF.Log.LogEntry.Name
+  isSpec: "True"
+  fullName: NetAF.Log.LogEntry.Name
+  nameWithType: LogEntry.Name
+- uid: NetAF.Log.LogManager
+  name: LogManager
+  href: api/NetAF.Log.LogManager.html
+  commentId: T:NetAF.Log.LogManager
+  fullName: NetAF.Log.LogManager
+  nameWithType: LogManager
+- uid: NetAF.Log.LogManager.Add(NetAF.Log.LogEntry)
+  name: Add(LogEntry)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Add_NetAF_Log_LogEntry_
+  commentId: M:NetAF.Log.LogManager.Add(NetAF.Log.LogEntry)
+  fullName: NetAF.Log.LogManager.Add(NetAF.Log.LogEntry)
+  nameWithType: LogManager.Add(LogEntry)
+- uid: NetAF.Log.LogManager.Add*
+  name: Add
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Add_
+  commentId: Overload:NetAF.Log.LogManager.Add
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.Add
+  nameWithType: LogManager.Add
+- uid: NetAF.Log.LogManager.Clear
+  name: Clear()
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Clear
+  commentId: M:NetAF.Log.LogManager.Clear
+  fullName: NetAF.Log.LogManager.Clear()
+  nameWithType: LogManager.Clear()
+- uid: NetAF.Log.LogManager.Clear*
+  name: Clear
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Clear_
+  commentId: Overload:NetAF.Log.LogManager.Clear
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.Clear
+  nameWithType: LogManager.Clear
+- uid: NetAF.Log.LogManager.Count
+  name: Count
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Count
+  commentId: P:NetAF.Log.LogManager.Count
+  fullName: NetAF.Log.LogManager.Count
+  nameWithType: LogManager.Count
+- uid: NetAF.Log.LogManager.Count*
+  name: Count
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Count_
+  commentId: Overload:NetAF.Log.LogManager.Count
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.Count
+  nameWithType: LogManager.Count
+- uid: NetAF.Log.LogManager.Expire(System.String)
+  name: Expire(string)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Expire_System_String_
+  commentId: M:NetAF.Log.LogManager.Expire(System.String)
+  name.vb: Expire(String)
+  fullName: NetAF.Log.LogManager.Expire(string)
+  fullName.vb: NetAF.Log.LogManager.Expire(String)
+  nameWithType: LogManager.Expire(string)
+  nameWithType.vb: LogManager.Expire(String)
+- uid: NetAF.Log.LogManager.Expire*
+  name: Expire
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Expire_
+  commentId: Overload:NetAF.Log.LogManager.Expire
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.Expire
+  nameWithType: LogManager.Expire
+- uid: NetAF.Log.LogManager.FromSerialization(NetAF.Serialization.Assets.LogManagerSerialization)
+  name: FromSerialization(LogManagerSerialization)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_FromSerialization_NetAF_Serialization_Assets_LogManagerSerialization_
+  commentId: M:NetAF.Log.LogManager.FromSerialization(NetAF.Serialization.Assets.LogManagerSerialization)
+  fullName: NetAF.Log.LogManager.FromSerialization(NetAF.Serialization.Assets.LogManagerSerialization)
+  nameWithType: LogManager.FromSerialization(LogManagerSerialization)
+- uid: NetAF.Log.LogManager.FromSerialization*
+  name: FromSerialization
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_FromSerialization_
+  commentId: Overload:NetAF.Log.LogManager.FromSerialization
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.FromSerialization
+  nameWithType: LogManager.FromSerialization
+- uid: NetAF.Log.LogManager.GetAll
+  name: GetAll()
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_GetAll
+  commentId: M:NetAF.Log.LogManager.GetAll
+  fullName: NetAF.Log.LogManager.GetAll()
+  nameWithType: LogManager.GetAll()
+- uid: NetAF.Log.LogManager.GetAll*
+  name: GetAll
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_GetAll_
+  commentId: Overload:NetAF.Log.LogManager.GetAll
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.GetAll
+  nameWithType: LogManager.GetAll
+- uid: NetAF.Log.LogManager.Remove(System.String)
+  name: Remove(string)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Remove_System_String_
+  commentId: M:NetAF.Log.LogManager.Remove(System.String)
+  name.vb: Remove(String)
+  fullName: NetAF.Log.LogManager.Remove(string)
+  fullName.vb: NetAF.Log.LogManager.Remove(String)
+  nameWithType: LogManager.Remove(string)
+  nameWithType.vb: LogManager.Remove(String)
+- uid: NetAF.Log.LogManager.Remove*
+  name: Remove
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Remove_
+  commentId: Overload:NetAF.Log.LogManager.Remove
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.Remove
+  nameWithType: LogManager.Remove
 - uid: NetAF.Logic
   name: NetAF.Logic
   href: api/NetAF.Logic.html
@@ -7262,6 +7506,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Game.Introduction
   nameWithType: Game.Introduction
+- uid: NetAF.Logic.Game.LogManager
+  name: LogManager
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_LogManager
+  commentId: P:NetAF.Logic.Game.LogManager
+  fullName: NetAF.Logic.Game.LogManager
+  nameWithType: Game.LogManager
+- uid: NetAF.Logic.Game.LogManager*
+  name: LogManager
+  href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_LogManager_
+  commentId: Overload:NetAF.Logic.Game.LogManager
+  isSpec: "True"
+  fullName: NetAF.Logic.Game.LogManager
+  nameWithType: Game.LogManager
 - uid: NetAF.Logic.Game.Mode
   name: Mode
   href: api/NetAF.Logic.Game.html#NetAF_Logic_Game_Mode
@@ -8136,6 +8393,70 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.IGameMode.Type
   nameWithType: IGameMode.Type
+- uid: NetAF.Logic.Modes.LogMode
+  name: LogMode
+  href: api/NetAF.Logic.Modes.LogMode.html
+  commentId: T:NetAF.Logic.Modes.LogMode
+  fullName: NetAF.Logic.Modes.LogMode
+  nameWithType: LogMode
+- uid: NetAF.Logic.Modes.LogMode.#ctor(NetAF.Log.LogManager)
+  name: LogMode(LogManager)
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode__ctor_NetAF_Log_LogManager_
+  commentId: M:NetAF.Logic.Modes.LogMode.#ctor(NetAF.Log.LogManager)
+  name.vb: New(LogManager)
+  fullName: NetAF.Logic.Modes.LogMode.LogMode(NetAF.Log.LogManager)
+  fullName.vb: NetAF.Logic.Modes.LogMode.New(NetAF.Log.LogManager)
+  nameWithType: LogMode.LogMode(LogManager)
+  nameWithType.vb: LogMode.New(LogManager)
+- uid: NetAF.Logic.Modes.LogMode.#ctor*
+  name: LogMode
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.LogMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.LogMode.LogMode
+  fullName.vb: NetAF.Logic.Modes.LogMode.New
+  nameWithType: LogMode.LogMode
+  nameWithType.vb: LogMode.New
+- uid: NetAF.Logic.Modes.LogMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.LogMode.Interpreter
+  fullName: NetAF.Logic.Modes.LogMode.Interpreter
+  nameWithType: LogMode.Interpreter
+- uid: NetAF.Logic.Modes.LogMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.LogMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.LogMode.Interpreter
+  nameWithType: LogMode.Interpreter
+- uid: NetAF.Logic.Modes.LogMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.LogMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.LogMode.Render(NetAF.Logic.Game)
+  nameWithType: LogMode.Render(Game)
+- uid: NetAF.Logic.Modes.LogMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.LogMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.LogMode.Render
+  nameWithType: LogMode.Render
+- uid: NetAF.Logic.Modes.LogMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode_Type
+  commentId: P:NetAF.Logic.Modes.LogMode.Type
+  fullName: NetAF.Logic.Modes.LogMode.Type
+  nameWithType: LogMode.Type
+- uid: NetAF.Logic.Modes.LogMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.LogMode.html#NetAF_Logic_Modes_LogMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.LogMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.LogMode.Type
+  nameWithType: LogMode.Type
 - uid: NetAF.Logic.Modes.ReactionMode
   name: ReactionMode
   href: api/NetAF.Logic.Modes.ReactionMode.html
@@ -8961,6 +9282,28 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.Build
   nameWithType: IHelpFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.ILogFrameBuilder
+  name: ILogFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.ILogFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.ILogFrameBuilder
+  nameWithType: ILogFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)
+  name: Build(string, string, LogEntry[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html#NetAF_Rendering_FrameBuilders_ILogFrameBuilder_Build_System_String_System_String_NetAF_Log_LogEntry___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)
+  name.vb: Build(String, String, LogEntry(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build(string, string, NetAF.Log.LogEntry[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build(String, String, NetAF.Log.LogEntry(), NetAF.Assets.Size)
+  nameWithType: ILogFrameBuilder.Build(string, string, LogEntry[], Size)
+  nameWithType.vb: ILogFrameBuilder.Build(String, String, LogEntry(), Size)
+- uid: NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html#NetAF_Rendering_FrameBuilders_ILogFrameBuilder_Build_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.ILogFrameBuilder.Build
+  nameWithType: ILogFrameBuilder.Build
 - uid: NetAF.Rendering.FrameBuilders.IReactionFrameBuilder
   name: IReactionFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html
@@ -9587,6 +9930,96 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.ItemSerialization.FromItem
   nameWithType: ItemSerialization.FromItem
+- uid: NetAF.Serialization.Assets.LogEntrySerialization
+  name: LogEntrySerialization
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html
+  commentId: T:NetAF.Serialization.Assets.LogEntrySerialization
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization
+  nameWithType: LogEntrySerialization
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.Content
+  name: Content
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_Content
+  commentId: P:NetAF.Serialization.Assets.LogEntrySerialization.Content
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.Content
+  nameWithType: LogEntrySerialization.Content
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.Content*
+  name: Content
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_Content_
+  commentId: Overload:NetAF.Serialization.Assets.LogEntrySerialization.Content
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.Content
+  nameWithType: LogEntrySerialization.Content
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry(NetAF.Log.LogEntry)
+  name: FromLogEntry(LogEntry)
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_FromLogEntry_NetAF_Log_LogEntry_
+  commentId: M:NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry(NetAF.Log.LogEntry)
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry(NetAF.Log.LogEntry)
+  nameWithType: LogEntrySerialization.FromLogEntry(LogEntry)
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry*
+  name: FromLogEntry
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_FromLogEntry_
+  commentId: Overload:NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry
+  nameWithType: LogEntrySerialization.FromLogEntry
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.HasExpired
+  name: HasExpired
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_HasExpired
+  commentId: P:NetAF.Serialization.Assets.LogEntrySerialization.HasExpired
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.HasExpired
+  nameWithType: LogEntrySerialization.HasExpired
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.HasExpired*
+  name: HasExpired
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_HasExpired_
+  commentId: Overload:NetAF.Serialization.Assets.LogEntrySerialization.HasExpired
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.HasExpired
+  nameWithType: LogEntrySerialization.HasExpired
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.Name
+  name: Name
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_Name
+  commentId: P:NetAF.Serialization.Assets.LogEntrySerialization.Name
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.Name
+  nameWithType: LogEntrySerialization.Name
+- uid: NetAF.Serialization.Assets.LogEntrySerialization.Name*
+  name: Name
+  href: api/NetAF.Serialization.Assets.LogEntrySerialization.html#NetAF_Serialization_Assets_LogEntrySerialization_Name_
+  commentId: Overload:NetAF.Serialization.Assets.LogEntrySerialization.Name
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.LogEntrySerialization.Name
+  nameWithType: LogEntrySerialization.Name
+- uid: NetAF.Serialization.Assets.LogManagerSerialization
+  name: LogManagerSerialization
+  href: api/NetAF.Serialization.Assets.LogManagerSerialization.html
+  commentId: T:NetAF.Serialization.Assets.LogManagerSerialization
+  fullName: NetAF.Serialization.Assets.LogManagerSerialization
+  nameWithType: LogManagerSerialization
+- uid: NetAF.Serialization.Assets.LogManagerSerialization.Entries
+  name: Entries
+  href: api/NetAF.Serialization.Assets.LogManagerSerialization.html#NetAF_Serialization_Assets_LogManagerSerialization_Entries
+  commentId: P:NetAF.Serialization.Assets.LogManagerSerialization.Entries
+  fullName: NetAF.Serialization.Assets.LogManagerSerialization.Entries
+  nameWithType: LogManagerSerialization.Entries
+- uid: NetAF.Serialization.Assets.LogManagerSerialization.Entries*
+  name: Entries
+  href: api/NetAF.Serialization.Assets.LogManagerSerialization.html#NetAF_Serialization_Assets_LogManagerSerialization_Entries_
+  commentId: Overload:NetAF.Serialization.Assets.LogManagerSerialization.Entries
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.LogManagerSerialization.Entries
+  nameWithType: LogManagerSerialization.Entries
+- uid: NetAF.Serialization.Assets.LogManagerSerialization.FromLogManager(NetAF.Log.LogManager)
+  name: FromLogManager(LogManager)
+  href: api/NetAF.Serialization.Assets.LogManagerSerialization.html#NetAF_Serialization_Assets_LogManagerSerialization_FromLogManager_NetAF_Log_LogManager_
+  commentId: M:NetAF.Serialization.Assets.LogManagerSerialization.FromLogManager(NetAF.Log.LogManager)
+  fullName: NetAF.Serialization.Assets.LogManagerSerialization.FromLogManager(NetAF.Log.LogManager)
+  nameWithType: LogManagerSerialization.FromLogManager(LogManager)
+- uid: NetAF.Serialization.Assets.LogManagerSerialization.FromLogManager*
+  name: FromLogManager
+  href: api/NetAF.Serialization.Assets.LogManagerSerialization.html#NetAF_Serialization_Assets_LogManagerSerialization_FromLogManager_
+  commentId: Overload:NetAF.Serialization.Assets.LogManagerSerialization.FromLogManager
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.LogManagerSerialization.FromLogManager
+  nameWithType: LogManagerSerialization.FromLogManager
 - uid: NetAF.Serialization.Assets.NonPlayableCharacterSerialization
   name: NonPlayableCharacterSerialization
   href: api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.html
@@ -9941,6 +10374,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.GameSerialization.InactivePlayerLocations
   nameWithType: GameSerialization.InactivePlayerLocations
+- uid: NetAF.Serialization.GameSerialization.LogManager
+  name: LogManager
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_LogManager
+  commentId: P:NetAF.Serialization.GameSerialization.LogManager
+  fullName: NetAF.Serialization.GameSerialization.LogManager
+  nameWithType: GameSerialization.LogManager
+- uid: NetAF.Serialization.GameSerialization.LogManager*
+  name: LogManager
+  href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_LogManager_
+  commentId: Overload:NetAF.Serialization.GameSerialization.LogManager
+  isSpec: "True"
+  fullName: NetAF.Serialization.GameSerialization.LogManager
+  nameWithType: GameSerialization.LogManager
 - uid: NetAF.Serialization.GameSerialization.Overworld
   name: Overworld
   href: api/NetAF.Serialization.GameSerialization.html#NetAF_Serialization_GameSerialization_Overworld
@@ -11269,6 +11715,112 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder.TitleColor
   nameWithType: ConsoleHelpFrameBuilder.TitleColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder
+  name: ConsoleLogFrameBuilder
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html
+  commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder
+  nameWithType: ConsoleLogFrameBuilder
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  name: ConsoleLogFrameBuilder(GridStringBuilder)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  name.vb: New(GridStringBuilder)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ConsoleLogFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  nameWithType: ConsoleLogFrameBuilder.ConsoleLogFrameBuilder(GridStringBuilder)
+  nameWithType.vb: ConsoleLogFrameBuilder.New(GridStringBuilder)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.#ctor*
+  name: ConsoleLogFrameBuilder
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ConsoleLogFrameBuilder
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.New
+  nameWithType: ConsoleLogFrameBuilder.ConsoleLogFrameBuilder
+  nameWithType.vb: ConsoleLogFrameBuilder.New
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor
+  name: BackgroundColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BackgroundColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor
+  nameWithType: ConsoleLogFrameBuilder.BackgroundColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor*
+  name: BackgroundColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BackgroundColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BackgroundColor
+  nameWithType: ConsoleLogFrameBuilder.BackgroundColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor
+  name: BorderColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BorderColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor
+  nameWithType: ConsoleLogFrameBuilder.BorderColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor*
+  name: BorderColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_BorderColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.BorderColor
+  nameWithType: ConsoleLogFrameBuilder.BorderColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)
+  name: Build(string, string, LogEntry[], Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_Build_System_String_System_String_NetAF_Log_LogEntry___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)
+  name.vb: Build(String, String, LogEntry(), Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build(string, string, NetAF.Log.LogEntry[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build(String, String, NetAF.Log.LogEntry(), NetAF.Assets.Size)
+  nameWithType: ConsoleLogFrameBuilder.Build(string, string, LogEntry[], Size)
+  nameWithType.vb: ConsoleLogFrameBuilder.Build(String, String, LogEntry(), Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.Build
+  nameWithType: ConsoleLogFrameBuilder.Build
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor
+  name: DescriptionColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_DescriptionColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor
+  nameWithType: ConsoleLogFrameBuilder.DescriptionColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor*
+  name: DescriptionColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_DescriptionColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.DescriptionColor
+  nameWithType: ConsoleLogFrameBuilder.DescriptionColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor
+  name: EntryColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_EntryColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor
+  nameWithType: ConsoleLogFrameBuilder.EntryColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor*
+  name: EntryColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_EntryColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor
+  nameWithType: ConsoleLogFrameBuilder.EntryColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor
+  name: TitleColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_TitleColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor
+  nameWithType: ConsoleLogFrameBuilder.TitleColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor*
+  name: TitleColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_TitleColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor
+  nameWithType: ConsoleLogFrameBuilder.TitleColor
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder
   name: ConsoleReactionFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.html
@@ -13654,6 +14206,47 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHelpFrameBuilder.Build
   nameWithType: HtmlHelpFrameBuilder.Build
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder
+  name: HtmlLogFrameBuilder
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html
+  commentId: T:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder
+  nameWithType: HtmlLogFrameBuilder
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)
+  name: HtmlLogFrameBuilder(HtmlBuilder)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlLogFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)
+  name.vb: New(HtmlBuilder)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.HtmlLogFrameBuilder(NetAF.Targets.Html.Rendering.HtmlBuilder)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.New(NetAF.Targets.Html.Rendering.HtmlBuilder)
+  nameWithType: HtmlLogFrameBuilder.HtmlLogFrameBuilder(HtmlBuilder)
+  nameWithType.vb: HtmlLogFrameBuilder.New(HtmlBuilder)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.#ctor*
+  name: HtmlLogFrameBuilder
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlLogFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.HtmlLogFrameBuilder
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.New
+  nameWithType: HtmlLogFrameBuilder.HtmlLogFrameBuilder
+  nameWithType.vb: HtmlLogFrameBuilder.New
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)
+  name: Build(string, string, LogEntry[], Size)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlLogFrameBuilder_Build_System_String_System_String_NetAF_Log_LogEntry___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build(System.String,System.String,NetAF.Log.LogEntry[],NetAF.Assets.Size)
+  name.vb: Build(String, String, LogEntry(), Size)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build(string, string, NetAF.Log.LogEntry[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build(String, String, NetAF.Log.LogEntry(), NetAF.Assets.Size)
+  nameWithType: HtmlLogFrameBuilder.Build(string, string, LogEntry[], Size)
+  nameWithType.vb: HtmlLogFrameBuilder.Build(String, String, LogEntry(), Size)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlLogFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.Build
+  nameWithType: HtmlLogFrameBuilder.Build
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder
   name: HtmlReactionFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.html

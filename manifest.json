@@ -866,6 +866,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Information.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Information.Log.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Information.Log",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Information.Log.yml\" sourcestartlinenumber=\"1\">Represents the Log command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Information.yml",
       "output": {
         ".html": {
@@ -1636,6 +1650,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Log.LogEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Log.LogEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Log.LogEntry",
+      "Summary": "<p sourcefile=\"api/NetAF.Log.LogEntry.yml\" sourcestartlinenumber=\"1\">Provides a log entry.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Log.LogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Log.LogManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Log.LogManager",
+      "Summary": "<p sourcefile=\"api/NetAF.Log.LogManager.yml\" sourcestartlinenumber=\"1\">Provides a manager for logs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Log.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Log",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.AssetCatalog.yml",
       "output": {
         ".html": {
@@ -1986,6 +2042,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Modes.LogMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Modes.LogMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.LogMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.LogMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for the log.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.ReactionMode.yml",
       "output": {
         ".html": {
@@ -2010,7 +2080,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Logic.Modes.RegionMapMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.RegionMapMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for region map.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.RegionMapMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for the region map.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2291,6 +2361,20 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.FrameBuilders.IHelpFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build help frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.ILogFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build log frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2588,6 +2672,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.LogEntrySerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.LogEntrySerialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.LogEntrySerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.LogEntrySerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a LogEntry.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.LogManagerSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.LogManagerSerialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.LogManagerSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.LogManagerSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a LogManager.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.yml",
       "output": {
         ".html": {
@@ -2865,6 +2977,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of log frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3260,6 +3386,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of log frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.yml",
       "output": {
         ".html": {
@@ -3619,6 +3759,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/log.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/log.html"
         }
       },
       "version": ""
