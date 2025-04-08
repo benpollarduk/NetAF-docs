@@ -11808,6 +11808,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.EntryColor
   nameWithType: ConsoleLogFrameBuilder.EntryColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ExpiredEntryColor
+  name: ExpiredEntryColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_ExpiredEntryColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ExpiredEntryColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ExpiredEntryColor
+  nameWithType: ConsoleLogFrameBuilder.ExpiredEntryColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ExpiredEntryColor*
+  name: ExpiredEntryColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_ExpiredEntryColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ExpiredEntryColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.ExpiredEntryColor
+  nameWithType: ConsoleLogFrameBuilder.ExpiredEntryColor
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.TitleColor
   name: TitleColor
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLogFrameBuilder_TitleColor
