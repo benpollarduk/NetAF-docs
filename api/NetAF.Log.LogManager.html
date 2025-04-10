@@ -174,6 +174,39 @@
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Log_LogManager_Add_" data-uid="NetAF.Log.LogManager.Add*"></a>
+  <h4 id="NetAF_Log_LogManager_Add_System_String_System_String_" data-uid="NetAF.Log.LogManager.Add(System.String,System.String)">Add(string, string)</h4>
+  <div class="markdown level1 summary"><p>Add a new entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(string name, string content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the entry to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>The content of the entry to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Log_LogManager_Clear_" data-uid="NetAF.Log.LogManager.Clear*"></a>
   <h4 id="NetAF_Log_LogManager_Clear" data-uid="NetAF.Log.LogManager.Clear">Clear()</h4>
   <div class="markdown level1 summary"><p>Clear all entries.</p>
@@ -183,6 +216,49 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
+  <a id="NetAF_Log_LogManager_ContainsEntry_" data-uid="NetAF.Log.LogManager.ContainsEntry*"></a>
+  <h4 id="NetAF_Log_LogManager_ContainsEntry_System_String_" data-uid="NetAF.Log.LogManager.ContainsEntry(System.String)">ContainsEntry(string)</h4>
+  <div class="markdown level1 summary"><p>Get is an entry is present.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsEntry(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the entry to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if an entry with the same name is present.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Log_LogManager_Expire_" data-uid="NetAF.Log.LogManager.Expire*"></a>
   <h4 id="NetAF_Log_LogManager_Expire_System_String_" data-uid="NetAF.Log.LogManager.Expire(System.String)">Expire(string)</h4>
   <div class="markdown level1 summary"><p>Expire an entry.</p>
@@ -274,6 +350,49 @@
       <tr>
         <td><a class="xref" href="NetAF.Log.LogEntry.html">LogEntry</a>[]</td>
         <td><p>An array of all entries.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Log_LogManager_HasExpired_" data-uid="NetAF.Log.LogManager.HasExpired*"></a>
+  <h4 id="NetAF_Log_LogManager_HasExpired_System_String_" data-uid="NetAF.Log.LogManager.HasExpired(System.String)">HasExpired(string)</h4>
+  <div class="markdown level1 summary"><p>Get is an entry has expired.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExpired(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the entry to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if an entry with the same name is present and has expired, else false.</p>
 </td>
       </tr>
     </tbody>

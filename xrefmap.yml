@@ -6873,6 +6873,15 @@ references:
   commentId: M:NetAF.Log.LogManager.Add(NetAF.Log.LogEntry)
   fullName: NetAF.Log.LogManager.Add(NetAF.Log.LogEntry)
   nameWithType: LogManager.Add(LogEntry)
+- uid: NetAF.Log.LogManager.Add(System.String,System.String)
+  name: Add(string, string)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Add_System_String_System_String_
+  commentId: M:NetAF.Log.LogManager.Add(System.String,System.String)
+  name.vb: Add(String, String)
+  fullName: NetAF.Log.LogManager.Add(string, string)
+  fullName.vb: NetAF.Log.LogManager.Add(String, String)
+  nameWithType: LogManager.Add(string, string)
+  nameWithType.vb: LogManager.Add(String, String)
 - uid: NetAF.Log.LogManager.Add*
   name: Add
   href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Add_
@@ -6893,6 +6902,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Log.LogManager.Clear
   nameWithType: LogManager.Clear
+- uid: NetAF.Log.LogManager.ContainsEntry(System.String)
+  name: ContainsEntry(string)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_ContainsEntry_System_String_
+  commentId: M:NetAF.Log.LogManager.ContainsEntry(System.String)
+  name.vb: ContainsEntry(String)
+  fullName: NetAF.Log.LogManager.ContainsEntry(string)
+  fullName.vb: NetAF.Log.LogManager.ContainsEntry(String)
+  nameWithType: LogManager.ContainsEntry(string)
+  nameWithType.vb: LogManager.ContainsEntry(String)
+- uid: NetAF.Log.LogManager.ContainsEntry*
+  name: ContainsEntry
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_ContainsEntry_
+  commentId: Overload:NetAF.Log.LogManager.ContainsEntry
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.ContainsEntry
+  nameWithType: LogManager.ContainsEntry
 - uid: NetAF.Log.LogManager.Count
   name: Count
   href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Count
@@ -6948,6 +6973,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Log.LogManager.GetAll
   nameWithType: LogManager.GetAll
+- uid: NetAF.Log.LogManager.HasExpired(System.String)
+  name: HasExpired(string)
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_HasExpired_System_String_
+  commentId: M:NetAF.Log.LogManager.HasExpired(System.String)
+  name.vb: HasExpired(String)
+  fullName: NetAF.Log.LogManager.HasExpired(string)
+  fullName.vb: NetAF.Log.LogManager.HasExpired(String)
+  nameWithType: LogManager.HasExpired(string)
+  nameWithType.vb: LogManager.HasExpired(String)
+- uid: NetAF.Log.LogManager.HasExpired*
+  name: HasExpired
+  href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_HasExpired_
+  commentId: Overload:NetAF.Log.LogManager.HasExpired
+  isSpec: "True"
+  fullName: NetAF.Log.LogManager.HasExpired
+  nameWithType: LogManager.HasExpired
 - uid: NetAF.Log.LogManager.Remove(System.String)
   name: Remove(string)
   href: api/NetAF.Log.LogManager.html#NetAF_Log_LogManager_Remove_System_String_
