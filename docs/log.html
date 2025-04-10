@@ -84,7 +84,7 @@
 <p>This can then be viewed with the <em>Log</em> command.</p>
 <h2 id="adding-a-log">Adding a log</h2>
 <p>To add a new entry use the <strong>Add</strong> method on the games <strong>LogManager</strong>.</p>
-<pre><code class="lang-csharp">game.LogManager.Add(&quot;demo&quot;, &quot;This is my log entry.&quot;);
+<pre><code class="lang-csharp">game.LogManager.Add(new(&quot;demo&quot;, &quot;This is my log entry.&quot;));
 </code></pre>
 <p>Each entry has a <em>name</em> that allows the entry to be easily referenced and content, which is the content that is displayed to the user.</p>
 <h2 id="removing-a-log">Removing a log</h2>
@@ -96,6 +96,10 @@
 <pre><code class="lang-csharp">game.LogManager.Expire(&quot;demo&quot;);
 </code></pre>
 <p>Some frame builders may render expired logs differently.</p>
+<h2 id="getting-a-reference-to-game">Getting a reference to Game</h2>
+<p>In some contexts no local reference will be available to point to the instance of the running <em>Game</em>. In these cases <strong>GameExecutor.ExecutingGame</strong> can be used.</p>
+<pre><code class="lang-csharp">GameExecutor.ExecutingGame?.LogManager.Add(new(&quot;demo&quot;, &quot;This is my log entry.&quot;));
+</code></pre>
 
 </article>
           </div>

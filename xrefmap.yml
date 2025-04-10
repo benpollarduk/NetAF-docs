@@ -7776,6 +7776,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameExecutor.Execute
   nameWithType: GameExecutor.Execute
+- uid: NetAF.Logic.GameExecutor.ExecutingGame
+  name: ExecutingGame
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_ExecutingGame
+  commentId: P:NetAF.Logic.GameExecutor.ExecutingGame
+  fullName: NetAF.Logic.GameExecutor.ExecutingGame
+  nameWithType: GameExecutor.ExecutingGame
+- uid: NetAF.Logic.GameExecutor.ExecutingGame*
+  name: ExecutingGame
+  href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_ExecutingGame_
+  commentId: Overload:NetAF.Logic.GameExecutor.ExecutingGame
+  isSpec: "True"
+  fullName: NetAF.Logic.GameExecutor.ExecutingGame
+  nameWithType: GameExecutor.ExecutingGame
 - uid: NetAF.Logic.GameExecutor.IsExecuting
   name: IsExecuting
   href: api/NetAF.Logic.GameExecutor.html#NetAF_Logic_GameExecutor_IsExecuting
