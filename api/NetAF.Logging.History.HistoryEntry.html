@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class LogEntrySerialization | NetAF </title>
+      <title>Class HistoryEntry | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class LogEntrySerialization | NetAF ">
+      <meta name="title" content="Class HistoryEntry | NetAF ">
     
-    <meta name="description" content="Represents a serialization of a LogEntry.">
+    <meta name="description" content="Provides an entry to the history log.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Serialization.Assets.LogEntrySerialization">
+            <article class="content wrap" id="_content" data-uid="NetAF.Logging.History.HistoryEntry">
 
 
 
-  <h1 id="NetAF_Serialization_Assets_LogEntrySerialization" data-uid="NetAF.Serialization.Assets.LogEntrySerialization" class="text-break">Class LogEntrySerialization</h1>
-  <div class="markdown level0 summary"><p>Represents a serialization of a LogEntry.</p>
+  <h1 id="NetAF_Logging_History_HistoryEntry" data-uid="NetAF.Logging.History.HistoryEntry" class="text-break">Class HistoryEntry</h1>
+  <div class="markdown level0 summary"><p>Provides an entry to the history log.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">LogEntrySerialization</span></div>
+    <div class="level1"><span class="xref">HistoryEntry</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Logging.History.HistoryEntry.html">HistoryEntry</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,102 +108,31 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Serialization.html">Serialization</a>.<a class="xref" href="NetAF.Serialization.Assets.html">Assets</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logging.html">Logging</a>.<a class="xref" href="NetAF.Logging.History.html">History</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Serialization_Assets_LogEntrySerialization_syntax">Syntax</h5>
+  <h5 id="NetAF_Logging_History_HistoryEntry_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class LogEntrySerialization</code></pre>
+    <pre><code class="lang-csharp hljs">public record HistoryEntry : IEquatable&lt;HistoryEntry&gt;</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Serialization_Assets_LogEntrySerialization_Content_" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.Content*"></a>
-  <h4 id="NetAF_Serialization_Assets_LogEntrySerialization_Content" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.Content">Content</h4>
-  <div class="markdown level1 summary"><p>Get or set the content.</p>
+  <a id="NetAF_Logging_History_HistoryEntry__ctor_" data-uid="NetAF.Logging.History.HistoryEntry.#ctor*"></a>
+  <h4 id="NetAF_Logging_History_HistoryEntry__ctor_System_String_System_String_" data-uid="NetAF.Logging.History.HistoryEntry.#ctor(System.String,System.String)">HistoryEntry(string, string)</h4>
+  <div class="markdown level1 summary"><p>Provides an entry to the history log.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Content { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_Assets_LogEntrySerialization_HasExpired_" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.HasExpired*"></a>
-  <h4 id="NetAF_Serialization_Assets_LogEntrySerialization_HasExpired" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.HasExpired">HasExpired</h4>
-  <div class="markdown level1 summary"><p>Get or set if this has expired.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasExpired { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_Assets_LogEntrySerialization_Name_" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.Name*"></a>
-  <h4 id="NetAF_Serialization_Assets_LogEntrySerialization_Name" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Get or set the name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <a id="NetAF_Serialization_Assets_LogEntrySerialization_FromLogEntry_" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry*"></a>
-  <h4 id="NetAF_Serialization_Assets_LogEntrySerialization_FromLogEntry_NetAF_Log_LogEntry_" data-uid="NetAF.Serialization.Assets.LogEntrySerialization.FromLogEntry(NetAF.Log.LogEntry)">FromLogEntry(LogEntry)</h4>
-  <div class="markdown level1 summary"><p>Create a new serialization from a LogEntry.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LogEntrySerialization FromLogEntry(LogEntry LogEntry)</code></pre>
+    <pre><code class="lang-csharp hljs">public HistoryEntry(string name, string content)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -212,14 +145,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Log.LogEntry.html">LogEntry</a></td>
-        <td><span class="parametername">LogEntry</span></td>
-        <td><p>The LogEntry to create the serialization from.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the entry.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>The content of the entry.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Logging_History_HistoryEntry_Content_" data-uid="NetAF.Logging.History.HistoryEntry.Content*"></a>
+  <h4 id="NetAF_Logging_History_HistoryEntry_Content" data-uid="NetAF.Logging.History.HistoryEntry.Content">Content</h4>
+  <div class="markdown level1 summary"><p>Get the content of this entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Content { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -229,12 +179,111 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.LogEntrySerialization.html">LogEntrySerialization</a></td>
-        <td><p>The serialization.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Logging_History_HistoryEntry_CreationTime_" data-uid="NetAF.Logging.History.HistoryEntry.CreationTime*"></a>
+  <h4 id="NetAF_Logging_History_HistoryEntry_CreationTime" data-uid="NetAF.Logging.History.HistoryEntry.CreationTime">CreationTime</h4>
+  <div class="markdown level1 summary"><p>Get the time this element was created</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreationTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Logging_History_HistoryEntry_Name_" data-uid="NetAF.Logging.History.HistoryEntry.Name*"></a>
+  <h4 id="NetAF_Logging_History_HistoryEntry_Name" data-uid="NetAF.Logging.History.HistoryEntry.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Get the name of this entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Logging_History_HistoryEntry_content_" data-uid="NetAF.Logging.History.HistoryEntry.content*"></a>
+  <h4 id="NetAF_Logging_History_HistoryEntry_content" data-uid="NetAF.Logging.History.HistoryEntry.content">content</h4>
+  <div class="markdown level1 summary"><p>The content of the entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string content { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Logging_History_HistoryEntry_name_" data-uid="NetAF.Logging.History.HistoryEntry.name*"></a>
+  <h4 id="NetAF_Logging_History_HistoryEntry_name" data-uid="NetAF.Logging.History.HistoryEntry.name">name</h4>
+  <div class="markdown level1 summary"><p>The name of the entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
+  </div>
 
 </article>
           </div>

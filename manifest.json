@@ -866,17 +866,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Information.Log.yml",
+      "source_relative_path": "api/NetAF.Commands.Information.History.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Commands.Information.Log.html"
+          "relative_path": "api/NetAF.Commands.Information.History.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Commands.Information.Log",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Information.Log.yml\" sourcestartlinenumber=\"1\">Represents the Log command.</p>\n"
+      "Title": "NetAF.Commands.Information.History",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Information.History.yml\" sourcestartlinenumber=\"1\">Represents the History command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Information.Notes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Information.Notes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Information.Notes",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Information.Notes.yml\" sourcestartlinenumber=\"1\">Represents the Notes command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1650,44 +1664,86 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Log.LogEntry.yml",
+      "source_relative_path": "api/NetAF.Logging.History.HistoryEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Log.LogEntry.html"
+          "relative_path": "api/NetAF.Logging.History.HistoryEntry.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Log.LogEntry",
-      "Summary": "<p sourcefile=\"api/NetAF.Log.LogEntry.yml\" sourcestartlinenumber=\"1\">Provides a log entry.</p>\n"
+      "Title": "NetAF.Logging.History.HistoryEntry",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.History.HistoryEntry.yml\" sourcestartlinenumber=\"1\">Provides an entry to the history log.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Log.LogManager.yml",
+      "source_relative_path": "api/NetAF.Logging.History.HistoryManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Log.LogManager.html"
+          "relative_path": "api/NetAF.Logging.History.HistoryManager.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Log.LogManager",
-      "Summary": "<p sourcefile=\"api/NetAF.Log.LogManager.yml\" sourcestartlinenumber=\"1\">Provides a manager for logs.</p>\n"
+      "Title": "NetAF.Logging.History.HistoryManager",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.History.HistoryManager.yml\" sourcestartlinenumber=\"1\">Provides a manager for in-game history.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Log.yml",
+      "source_relative_path": "api/NetAF.Logging.History.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Log.html"
+          "relative_path": "api/NetAF.Logging.History.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Log",
+      "Title": "NetAF.Logging.History",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Notes.NoteEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Notes.NoteEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Notes.NoteEntry",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Notes.NoteEntry.yml\" sourcestartlinenumber=\"1\">Provides a note log entry.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Notes.NoteManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Notes.NoteManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Notes.NoteManager",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Notes.NoteManager.yml\" sourcestartlinenumber=\"1\">Provides a manager for in-game notes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Notes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Notes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Notes",
       "Summary": null
     },
     {
@@ -2028,6 +2084,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Modes.HistoryMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Modes.HistoryMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.HistoryMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.HistoryMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for the in-game history.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.IGameMode.yml",
       "output": {
         ".html": {
@@ -2042,17 +2112,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Modes.LogMode.yml",
+      "source_relative_path": "api/NetAF.Logic.Modes.NoteMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Logic.Modes.LogMode.html"
+          "relative_path": "api/NetAF.Logic.Modes.NoteMode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Logic.Modes.LogMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.LogMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for the log.</p>\n"
+      "Title": "NetAF.Logic.Modes.NoteMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.NoteMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for the in-game notes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2364,17 +2434,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IHistoryFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.html"
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IHistoryFrameBuilder.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Rendering.FrameBuilders.ILogFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.ILogFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build log frames.</p>\n"
+      "Title": "NetAF.Rendering.FrameBuilders.IHistoryFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.INoteFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.INoteFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.INoteFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.INoteFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build note frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2672,34 +2756,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Assets.LogEntrySerialization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Assets.LogEntrySerialization.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Serialization.Assets.LogEntrySerialization",
-      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.LogEntrySerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a LogEntry.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Serialization.Assets.LogManagerSerialization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Serialization.Assets.LogManagerSerialization.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Serialization.Assets.LogManagerSerialization",
-      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.LogManagerSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a LogManager.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.yml",
       "output": {
         ".html": {
@@ -2711,6 +2767,34 @@
       "IsMRef": true,
       "Title": "NetAF.Serialization.Assets.NonPlayableCharacterSerialization",
       "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.NonPlayableCharacterSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a NonPlayableCharacter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.NoteEntrySerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.NoteEntrySerialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.NoteEntrySerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.NoteEntrySerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a NoteEntry.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.NoteManagerSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.NoteManagerSerialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.NoteManagerSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.NoteManagerSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a NoteManager.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2980,17 +3064,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.html"
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLogFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of log frames.</p>\n"
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNoteFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNoteFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNoteFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNoteFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of note frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3386,17 +3484,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.yml",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.html"
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlLogFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of log frames.</p>\n"
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of note frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3765,20 +3877,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/log.md",
+      "source_relative_path": "docs/non-playable-character.md",
       "output": {
         ".html": {
-          "relative_path": "docs/log.html"
+          "relative_path": "docs/non-playable-character.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/non-playable-character.md",
+      "source_relative_path": "docs/notes.md",
       "output": {
         ".html": {
-          "relative_path": "docs/non-playable-character.html"
+          "relative_path": "docs/notes.html"
         }
       },
       "version": ""
