@@ -4161,6 +4161,15 @@ references:
   fullName.vb: NetAF.Commands.Reaction.New(NetAF.Commands.ReactionResult, String)
   nameWithType: Reaction.Reaction(ReactionResult, string)
   nameWithType.vb: Reaction.New(ReactionResult, String)
+- uid: NetAF.Commands.Reaction.#ctor(NetAF.Commands.ReactionResult,System.String,System.String)
+  name: Reaction(ReactionResult, string, string)
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction__ctor_NetAF_Commands_ReactionResult_System_String_System_String_
+  commentId: M:NetAF.Commands.Reaction.#ctor(NetAF.Commands.ReactionResult,System.String,System.String)
+  name.vb: New(ReactionResult, String, String)
+  fullName: NetAF.Commands.Reaction.Reaction(NetAF.Commands.ReactionResult, string, string)
+  fullName.vb: NetAF.Commands.Reaction.New(NetAF.Commands.ReactionResult, String, String)
+  nameWithType: Reaction.Reaction(ReactionResult, string, string)
+  nameWithType.vb: Reaction.New(ReactionResult, String, String)
 - uid: NetAF.Commands.Reaction.#ctor*
   name: Reaction
   href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction__ctor_
@@ -4197,6 +4206,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Reaction.Result
   nameWithType: Reaction.Result
+- uid: NetAF.Commands.Reaction.Title
+  name: Title
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Title
+  commentId: P:NetAF.Commands.Reaction.Title
+  fullName: NetAF.Commands.Reaction.Title
+  nameWithType: Reaction.Title
+- uid: NetAF.Commands.Reaction.Title*
+  name: Title
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Title_
+  commentId: Overload:NetAF.Commands.Reaction.Title
+  isSpec: "True"
+  fullName: NetAF.Commands.Reaction.Title
+  nameWithType: Reaction.Title
 - uid: NetAF.Commands.ReactionResult
   name: ReactionResult
   href: api/NetAF.Commands.ReactionResult.html
@@ -8802,15 +8824,15 @@ references:
   commentId: T:NetAF.Logic.Modes.ReactionMode
   fullName: NetAF.Logic.Modes.ReactionMode
   nameWithType: ReactionMode
-- uid: NetAF.Logic.Modes.ReactionMode.#ctor(System.String,NetAF.Commands.Reaction)
-  name: ReactionMode(string, Reaction)
-  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_System_String_NetAF_Commands_Reaction_
-  commentId: M:NetAF.Logic.Modes.ReactionMode.#ctor(System.String,NetAF.Commands.Reaction)
-  name.vb: New(String, Reaction)
-  fullName: NetAF.Logic.Modes.ReactionMode.ReactionMode(string, NetAF.Commands.Reaction)
-  fullName.vb: NetAF.Logic.Modes.ReactionMode.New(String, NetAF.Commands.Reaction)
-  nameWithType: ReactionMode.ReactionMode(string, Reaction)
-  nameWithType.vb: ReactionMode.New(String, Reaction)
+- uid: NetAF.Logic.Modes.ReactionMode.#ctor(NetAF.Commands.Reaction)
+  name: ReactionMode(Reaction)
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_NetAF_Commands_Reaction_
+  commentId: M:NetAF.Logic.Modes.ReactionMode.#ctor(NetAF.Commands.Reaction)
+  name.vb: New(Reaction)
+  fullName: NetAF.Logic.Modes.ReactionMode.ReactionMode(NetAF.Commands.Reaction)
+  fullName.vb: NetAF.Logic.Modes.ReactionMode.New(NetAF.Commands.Reaction)
+  nameWithType: ReactionMode.ReactionMode(Reaction)
+  nameWithType.vb: ReactionMode.New(Reaction)
 - uid: NetAF.Logic.Modes.ReactionMode.#ctor*
   name: ReactionMode
   href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode__ctor_
@@ -12169,6 +12191,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.EntryColor
   nameWithType: ConsoleHistoryFrameBuilder.EntryColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries
+  name: MaxEntries
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_MaxEntries
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries
+  nameWithType: ConsoleHistoryFrameBuilder.MaxEntries
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries*
+  name: MaxEntries
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_MaxEntries_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries
+  nameWithType: ConsoleHistoryFrameBuilder.MaxEntries
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.NoLimit
+  name: NoLimit
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_NoLimit
+  commentId: F:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.NoLimit
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.NoLimit
+  nameWithType: ConsoleHistoryFrameBuilder.NoLimit
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.TitleColor
   name: TitleColor
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_TitleColor
@@ -14727,6 +14768,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.Build
   nameWithType: HtmlHistoryFrameBuilder.Build
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries
+  name: MaxEntries
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlHistoryFrameBuilder_MaxEntries
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries
+  nameWithType: HtmlHistoryFrameBuilder.MaxEntries
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries*
+  name: MaxEntries
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlHistoryFrameBuilder_MaxEntries_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries
+  nameWithType: HtmlHistoryFrameBuilder.MaxEntries
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.NoLimit
+  name: NoLimit
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlHistoryFrameBuilder_NoLimit
+  commentId: F:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.NoLimit
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.NoLimit
+  nameWithType: HtmlHistoryFrameBuilder.NoLimit
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder
   name: HtmlNoteFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.html
