@@ -87,7 +87,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TextRegionMapBuilder</span></div>
+    <div class="level1"><a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html">HostedRegionMapBuilder</a></div>
+    <div class="level2"><span class="xref">TextRegionMapBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -95,6 +96,42 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_LockedExit">HostedRegionMapBuilder.LockedExit</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_UnLockedExit">HostedRegionMapBuilder.UnLockedExit</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_EmptySpace">HostedRegionMapBuilder.EmptySpace</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_VerticalBoundary">HostedRegionMapBuilder.VerticalBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_HorizontalBoundary">HostedRegionMapBuilder.HorizontalBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_LowerLevel">HostedRegionMapBuilder.LowerLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Player">HostedRegionMapBuilder.Player</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Focus">HostedRegionMapBuilder.Focus</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_CurrentFloorIndicator">HostedRegionMapBuilder.CurrentFloorIndicator</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_ShowLowerFloors">HostedRegionMapBuilder.ShowLowerFloors</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_MaxSize">HostedRegionMapBuilder.MaxSize</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_">HostedRegionMapBuilder.BuildRegionMap(Region, Point3D)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -118,7 +155,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TextRegionMapBuilder : IRegionMapBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TextRegionMapBuilder : HostedRegionMapBuilder, IRegionMapBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -149,282 +186,16 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_CurrentFloorIndicator_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_CurrentFloorIndicator" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator">CurrentFloorIndicator</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for the current floor.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char CurrentFloorIndicator { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_EmptySpace_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_EmptySpace" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace">EmptySpace</h4>
-  <div class="markdown level1 summary"><p>Get or set the character used for representing an empty space.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char EmptySpace { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Focus_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Focus" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus">Focus</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for indicating the focus.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char Focus { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_HorizontalBoundary_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_HorizontalBoundary" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary">HorizontalBoundary</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for horizontal boundaries.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char HorizontalBoundary { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LockedExit_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LockedExit" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit">LockedExit</h4>
-  <div class="markdown level1 summary"><p>Get or set the character used for representing a locked exit.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char LockedExit { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LowerLevel_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LowerLevel" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel">LowerLevel</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for lower levels.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char LowerLevel { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_MaxSize_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_MaxSize" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize">MaxSize</h4>
-  <div class="markdown level1 summary"><p>Get or set the maximum size.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Size MaxSize { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Player_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Player" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player">Player</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for indicating the player.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char Player { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_ShowLowerFloors_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_ShowLowerFloors" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors">ShowLowerFloors</h4>
-  <div class="markdown level1 summary"><p>Get or set if lower floors should be shown.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ShowLowerFloors { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_UnLockedExit_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_UnLockedExit" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit">UnLockedExit</h4>
-  <div class="markdown level1 summary"><p>Get or set the character used for representing an unlocked exit.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char UnLockedExit { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_VerticalBoundary_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_VerticalBoundary" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary">VerticalBoundary</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for vertical boundaries.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char VerticalBoundary { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_BuildRegionMap_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)">BuildRegionMap(Region, Point3D)</h4>
-  <div class="markdown level1 summary"><p>Build a map of a region.</p>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Adapt_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Adapt*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)">Adapt(GridStringBuilder)</h4>
+  <div class="markdown level1 summary"><p>Adapt the region map for the target.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Adapt(GridStringBuilder regionMapBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -437,19 +208,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>The region.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
-        <td><span class="parametername">focusPosition</span></td>
-        <td><p>The position to focus on.</p>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
+        <td><span class="parametername">regionMapBuilder</span></td>
+        <td><p>The region map builder.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_">HostedRegionMapBuilder.Adapt(GridStringBuilder)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a>

@@ -3386,6 +3386,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Hosted.Rendering.FrameBuilders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Html.HtmlAdapter.yml",
       "output": {
         ".html": {

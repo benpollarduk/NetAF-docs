@@ -87,7 +87,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TextRoomMapBuilder</span></div>
+    <div class="level1"><a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html">HostedRoomMapBuilder</a></div>
+    <div class="level2"><span class="xref">TextRoomMapBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -95,6 +96,36 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_LockedExit">HostedRoomMapBuilder.LockedExit</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_ItemOrCharacterInRoom">HostedRoomMapBuilder.ItemOrCharacterInRoom</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_VerticalBoundary">HostedRoomMapBuilder.VerticalBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_HorizontalBoundary">HostedRoomMapBuilder.HorizontalBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_VerticalExitBorder">HostedRoomMapBuilder.VerticalExitBorder</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_HorizontalExitBorder">HostedRoomMapBuilder.HorizontalExitBorder</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_Corner">HostedRoomMapBuilder.Corner</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_KeyPadding">HostedRoomMapBuilder.KeyPadding</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_MaxSize">HostedRoomMapBuilder.MaxSize</a>
+    </div>
+    <div>
+      <a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_">HostedRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -118,7 +149,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TextRoomMapBuilder : IRoomMapBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TextRoomMapBuilder : HostedRoomMapBuilder, IRoomMapBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -149,234 +180,16 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_Corner_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_Corner" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner">Corner</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for corners.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char Corner { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalBoundary_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalBoundary" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary">HorizontalBoundary</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for horizontal boundaries.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char HorizontalBoundary { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalExitBorder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalExitBorder" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder">HorizontalExitBorder</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for horizontal exit borders.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char HorizontalExitBorder { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_ItemOrCharacterInRoom_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_ItemOrCharacterInRoom" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom">ItemOrCharacterInRoom</h4>
-  <div class="markdown level1 summary"><p>Get or set the character used for representing there is an item or a character in the room.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char ItemOrCharacterInRoom { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_KeyPadding_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_KeyPadding" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding">KeyPadding</h4>
-  <div class="markdown level1 summary"><p>Get or set the padding between the key and the map.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int KeyPadding { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_LockedExit_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_LockedExit" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit">LockedExit</h4>
-  <div class="markdown level1 summary"><p>Get or set the character used for representing a locked exit.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char LockedExit { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_MaxSize_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_MaxSize" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize">MaxSize</h4>
-  <div class="markdown level1 summary"><p>Get or set the maximum size.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Size MaxSize { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalBoundary_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalBoundary" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary">VerticalBoundary</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for vertical boundaries.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char VerticalBoundary { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalExitBorder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalExitBorder" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder">VerticalExitBorder</h4>
-  <div class="markdown level1 summary"><p>Get or set the character to use for vertical exit borders.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char VerticalExitBorder { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_BuildRoomMap_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)">BuildRoomMap(Room, ViewPoint, KeyType)</h4>
-  <div class="markdown level1 summary"><p>Build a map for a room.</p>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_Adapt_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Adapt*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)">Adapt(GridStringBuilder)</h4>
+  <div class="markdown level1 summary"><p>Adapt the room map for the target.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BuildRoomMap(Room room, ViewPoint viewPoint, KeyType key)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Adapt(GridStringBuilder roomMapBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -389,25 +202,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Room.html">Room</a></td>
-        <td><span class="parametername">room</span></td>
-        <td><p>The room.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.ViewPoint.html">ViewPoint</a></td>
-        <td><span class="parametername">viewPoint</span></td>
-        <td><p>The viewpoint from the room.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.KeyType.html">KeyType</a></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key type.</p>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
+        <td><span class="parametername">roomMapBuilder</span></td>
+        <td><p>The room map builder.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_">HostedRoomMapBuilder.Adapt(GridStringBuilder)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html">IRoomMapBuilder</a>
