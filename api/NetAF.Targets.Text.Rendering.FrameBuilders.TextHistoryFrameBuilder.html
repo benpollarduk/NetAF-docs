@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ConsoleHistoryFrameBuilder | NetAF </title>
+      <title>Class TextHistoryFrameBuilder | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ConsoleHistoryFrameBuilder | NetAF ">
+      <meta name="title" content="Class TextHistoryFrameBuilder | NetAF ">
     
     <meta name="description" content="Provides a builder of history frames.">
       <link rel="shortcut icon" href="../images/logo.png">
@@ -76,18 +76,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder">
 
 
 
-  <h1 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder" class="text-break">Class ConsoleHistoryFrameBuilder</h1>
+  <h1 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder" class="text-break">Class TextHistoryFrameBuilder</h1>
   <div class="markdown level0 summary"><p>Provides a builder of history frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">ConsoleHistoryFrameBuilder</span></div>
+    <div class="level1"><span class="xref">TextHistoryFrameBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -115,22 +115,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Text.html">Text</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ConsoleHistoryFrameBuilder : IHistoryFrameBuilder, IFrameBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TextHistoryFrameBuilder : IHistoryFrameBuilder, IFrameBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder__ctor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.#ctor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)">ConsoleHistoryFrameBuilder(GridStringBuilder)</h4>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder__ctor_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.#ctor*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder__ctor_System_Text_StringBuilder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.#ctor(System.Text.StringBuilder)">TextHistoryFrameBuilder(StringBuilder)</h4>
   <div class="markdown level1 summary"><p>Provides a builder of history frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConsoleHistoryFrameBuilder(GridStringBuilder gridStringBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextHistoryFrameBuilder(StringBuilder builder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -143,113 +143,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
-        <td><span class="parametername">gridStringBuilder</span></td>
-        <td><p>A builder to use for the string layout.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>A builder to use for the text layout.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_BackgroundColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.BackgroundColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_BackgroundColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.BackgroundColor">BackgroundColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the background color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor BackgroundColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_BorderColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.BorderColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_BorderColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.BorderColor">BorderColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the border color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor BorderColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_DescriptionColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.DescriptionColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_DescriptionColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.DescriptionColor">DescriptionColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the description color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor DescriptionColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_EntryColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.EntryColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_EntryColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.EntryColor">EntryColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the entry color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor EntryColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_MaxEntries_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_MaxEntries" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries">MaxEntries</h4>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_MaxEntries_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_MaxEntries" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries">MaxEntries</h4>
   <div class="markdown level1 summary"><p>Get or set the maximum number of entries to be displayed. For unlimited use HistoryManager.NoLimit.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -272,34 +176,10 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_TitleColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.TitleColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_TitleColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.TitleColor">TitleColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the title color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor TitleColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_Build_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_Build_System_String_System_String_NetAF_Logging_History_HistoryEntry___NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.Build(System.String,System.String,NetAF.Logging.History.HistoryEntry[],NetAF.Assets.Size)">Build(string, string, HistoryEntry[], Size)</h4>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_Build_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_Build_System_String_System_String_NetAF_Logging_History_HistoryEntry___NetAF_Assets_Size_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build(System.String,System.String,NetAF.Logging.History.HistoryEntry[],NetAF.Assets.Size)">Build(string, string, HistoryEntry[], Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

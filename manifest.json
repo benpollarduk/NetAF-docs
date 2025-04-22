@@ -3666,6 +3666,244 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of command list frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of completion frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of conversation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of game over frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of note frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of reaction frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of scene frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.TextFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.TextFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.TextFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.TextFrame.yml\" sourcestartlinenumber=\"1\">Provides text frame for displaying a command based interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Text.TextAdapter.yml",
       "output": {
         ".html": {

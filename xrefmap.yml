@@ -6995,6 +6995,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Logging.History.HistoryManager.GetAll
   nameWithType: HistoryManager.GetAll
+- uid: NetAF.Logging.History.HistoryManager.MaxEntries
+  name: MaxEntries
+  href: api/NetAF.Logging.History.HistoryManager.html#NetAF_Logging_History_HistoryManager_MaxEntries
+  commentId: P:NetAF.Logging.History.HistoryManager.MaxEntries
+  fullName: NetAF.Logging.History.HistoryManager.MaxEntries
+  nameWithType: HistoryManager.MaxEntries
+- uid: NetAF.Logging.History.HistoryManager.MaxEntries*
+  name: MaxEntries
+  href: api/NetAF.Logging.History.HistoryManager.html#NetAF_Logging_History_HistoryManager_MaxEntries_
+  commentId: Overload:NetAF.Logging.History.HistoryManager.MaxEntries
+  isSpec: "True"
+  fullName: NetAF.Logging.History.HistoryManager.MaxEntries
+  nameWithType: HistoryManager.MaxEntries
+- uid: NetAF.Logging.History.HistoryManager.NoLimit
+  name: NoLimit
+  href: api/NetAF.Logging.History.HistoryManager.html#NetAF_Logging_History_HistoryManager_NoLimit
+  commentId: F:NetAF.Logging.History.HistoryManager.NoLimit
+  fullName: NetAF.Logging.History.HistoryManager.NoLimit
+  nameWithType: HistoryManager.NoLimit
 - uid: NetAF.Logging.Notes
   name: NetAF.Logging.Notes
   href: api/NetAF.Logging.Notes.html
@@ -9505,6 +9524,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Html
   nameWithType: FrameBuilderCollections.Html
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text
+  name: Text
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Text
+  commentId: P:NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text
+  nameWithType: FrameBuilderCollections.Text
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text*
+  name: Text
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Text_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text
+  nameWithType: FrameBuilderCollections.Text
 - uid: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder
   name: IAboutFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.html
@@ -12204,12 +12236,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.MaxEntries
   nameWithType: ConsoleHistoryFrameBuilder.MaxEntries
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.NoLimit
-  name: NoLimit
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_NoLimit
-  commentId: F:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.NoLimit
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.NoLimit
-  nameWithType: ConsoleHistoryFrameBuilder.NoLimit
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.TitleColor
   name: TitleColor
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHistoryFrameBuilder_TitleColor
@@ -13597,6 +13623,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridStringBuilder.SetCell
   nameWithType: GridStringBuilder.SetCell
+- uid: NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped(System.Boolean,System.Boolean)
+  name: ToCropped(bool, bool)
+  href: api/NetAF.Targets.Console.Rendering.GridStringBuilder.html#NetAF_Targets_Console_Rendering_GridStringBuilder_ToCropped_System_Boolean_System_Boolean_
+  commentId: M:NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped(System.Boolean,System.Boolean)
+  name.vb: ToCropped(Boolean, Boolean)
+  fullName: NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped(bool, bool)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped(Boolean, Boolean)
+  nameWithType: GridStringBuilder.ToCropped(bool, bool)
+  nameWithType.vb: GridStringBuilder.ToCropped(Boolean, Boolean)
+- uid: NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped*
+  name: ToCropped
+  href: api/NetAF.Targets.Console.Rendering.GridStringBuilder.html#NetAF_Targets_Console_Rendering_GridStringBuilder_ToCropped_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridStringBuilder.ToCropped
+  nameWithType: GridStringBuilder.ToCropped
 - uid: NetAF.Targets.Console.Rendering.GridTextFrame
   name: GridTextFrame
   href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html
@@ -14781,12 +14823,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.MaxEntries
   nameWithType: HtmlHistoryFrameBuilder.MaxEntries
-- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.NoLimit
-  name: NoLimit
-  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlHistoryFrameBuilder_NoLimit
-  commentId: F:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.NoLimit
-  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlHistoryFrameBuilder.NoLimit
-  nameWithType: HtmlHistoryFrameBuilder.NoLimit
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder
   name: HtmlNoteFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.html
@@ -15584,6 +15620,949 @@ references:
   commentId: N:NetAF.Targets.Text
   fullName: NetAF.Targets.Text
   nameWithType: NetAF.Targets.Text
+- uid: NetAF.Targets.Text.Rendering
+  name: NetAF.Targets.Text.Rendering
+  href: api/NetAF.Targets.Text.Rendering.html
+  commentId: N:NetAF.Targets.Text.Rendering
+  fullName: NetAF.Targets.Text.Rendering
+  nameWithType: NetAF.Targets.Text.Rendering
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders
+  name: NetAF.Targets.Text.Rendering.FrameBuilders
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.html
+  commentId: N:NetAF.Targets.Text.Rendering.FrameBuilders
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders
+  nameWithType: NetAF.Targets.Text.Rendering.FrameBuilders
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder
+  name: TextAboutFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder
+  nameWithType: TextAboutFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextAboutFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAboutFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.TextAboutFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextAboutFrameBuilder.TextAboutFrameBuilder(StringBuilder)
+  nameWithType.vb: TextAboutFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.#ctor*
+  name: TextAboutFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAboutFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.TextAboutFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.New
+  nameWithType: TextAboutFrameBuilder.TextAboutFrameBuilder
+  nameWithType.vb: TextAboutFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,NetAF.Assets.Size)
+  name: Build(string, Game, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAboutFrameBuilder_Build_System_String_NetAF_Logic_Game_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build(System.String,NetAF.Logic.Game,NetAF.Assets.Size)
+  name.vb: Build(String, Game, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build(string, NetAF.Logic.Game, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build(String, NetAF.Logic.Game, NetAF.Assets.Size)
+  nameWithType: TextAboutFrameBuilder.Build(string, Game, Size)
+  nameWithType.vb: TextAboutFrameBuilder.Build(String, Game, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAboutFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build
+  nameWithType: TextAboutFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder
+  name: TextCommandListFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder
+  nameWithType: TextCommandListFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextCommandListFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.TextCommandListFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextCommandListFrameBuilder.TextCommandListFrameBuilder(StringBuilder)
+  nameWithType.vb: TextCommandListFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.#ctor*
+  name: TextCommandListFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.TextCommandListFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.New
+  nameWithType: TextCommandListFrameBuilder.TextCommandListFrameBuilder
+  nameWithType.vb: TextCommandListFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, string, CommandHelp[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, String, CommandHelp(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build(string, string, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build(String, String, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: TextCommandListFrameBuilder.Build(string, string, CommandHelp[], Size)
+  nameWithType.vb: TextCommandListFrameBuilder.Build(String, String, CommandHelp(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build
+  nameWithType: TextCommandListFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder
+  name: TextCompletionFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder
+  nameWithType: TextCompletionFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextCompletionFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCompletionFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.TextCompletionFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextCompletionFrameBuilder.TextCompletionFrameBuilder(StringBuilder)
+  nameWithType.vb: TextCompletionFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.#ctor*
+  name: TextCompletionFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCompletionFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.TextCompletionFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.New
+  nameWithType: TextCompletionFrameBuilder.TextCompletionFrameBuilder
+  nameWithType.vb: TextCompletionFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCompletionFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: TextCompletionFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: TextCompletionFrameBuilder.Build(String, String, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextCompletionFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextCompletionFrameBuilder.Build
+  nameWithType: TextCompletionFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder
+  name: TextConversationFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder
+  nameWithType: TextConversationFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextConversationFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.TextConversationFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextConversationFrameBuilder.TextConversationFrameBuilder(StringBuilder)
+  nameWithType.vb: TextConversationFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor*
+  name: TextConversationFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.TextConversationFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.New
+  nameWithType: TextConversationFrameBuilder.TextConversationFrameBuilder
+  nameWithType.vb: TextConversationFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(string, IConverser, CommandHelp[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder_Build_System_String_NetAF_Assets_Characters_IConverser_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build(System.String,NetAF.Assets.Characters.IConverser,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(String, IConverser, CommandHelp(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build(string, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build(String, NetAF.Assets.Characters.IConverser, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: TextConversationFrameBuilder.Build(string, IConverser, CommandHelp[], Size)
+  nameWithType.vb: TextConversationFrameBuilder.Build(String, IConverser, CommandHelp(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.Build
+  nameWithType: TextConversationFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.CommandTitle
+  name: CommandTitle
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder_CommandTitle
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.CommandTitle
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.CommandTitle
+  nameWithType: TextConversationFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.CommandTitle*
+  name: CommandTitle
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder_CommandTitle_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.CommandTitle
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.CommandTitle
+  nameWithType: TextConversationFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder
+  name: TextGameOverFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder
+  nameWithType: TextGameOverFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextGameOverFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextGameOverFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.TextGameOverFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextGameOverFrameBuilder.TextGameOverFrameBuilder(StringBuilder)
+  nameWithType.vb: TextGameOverFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.#ctor*
+  name: TextGameOverFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextGameOverFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.TextGameOverFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.New
+  nameWithType: TextGameOverFrameBuilder.TextGameOverFrameBuilder
+  nameWithType.vb: TextGameOverFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextGameOverFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: TextGameOverFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: TextGameOverFrameBuilder.Build(String, String, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextGameOverFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextGameOverFrameBuilder.Build
+  nameWithType: TextGameOverFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder
+  name: TextHelpFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder
+  nameWithType: TextHelpFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextHelpFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHelpFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.TextHelpFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextHelpFrameBuilder.TextHelpFrameBuilder(StringBuilder)
+  nameWithType.vb: TextHelpFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.#ctor*
+  name: TextHelpFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHelpFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.TextHelpFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.New
+  nameWithType: TextHelpFrameBuilder.TextHelpFrameBuilder
+  nameWithType.vb: TextHelpFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build(System.String,NetAF.Commands.CommandHelp,NetAF.Commands.Prompt[],NetAF.Assets.Size)
+  name: Build(string, CommandHelp, Prompt[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHelpFrameBuilder_Build_System_String_NetAF_Commands_CommandHelp_NetAF_Commands_Prompt___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build(System.String,NetAF.Commands.CommandHelp,NetAF.Commands.Prompt[],NetAF.Assets.Size)
+  name.vb: Build(String, CommandHelp, Prompt(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build(string, NetAF.Commands.CommandHelp, NetAF.Commands.Prompt[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build(String, NetAF.Commands.CommandHelp, NetAF.Commands.Prompt(), NetAF.Assets.Size)
+  nameWithType: TextHelpFrameBuilder.Build(string, CommandHelp, Prompt[], Size)
+  nameWithType.vb: TextHelpFrameBuilder.Build(String, CommandHelp, Prompt(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHelpFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHelpFrameBuilder.Build
+  nameWithType: TextHelpFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder
+  name: TextHistoryFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder
+  nameWithType: TextHistoryFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextHistoryFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.TextHistoryFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextHistoryFrameBuilder.TextHistoryFrameBuilder(StringBuilder)
+  nameWithType.vb: TextHistoryFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.#ctor*
+  name: TextHistoryFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.TextHistoryFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.New
+  nameWithType: TextHistoryFrameBuilder.TextHistoryFrameBuilder
+  nameWithType.vb: TextHistoryFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build(System.String,System.String,NetAF.Logging.History.HistoryEntry[],NetAF.Assets.Size)
+  name: Build(string, string, HistoryEntry[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_Build_System_String_System_String_NetAF_Logging_History_HistoryEntry___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build(System.String,System.String,NetAF.Logging.History.HistoryEntry[],NetAF.Assets.Size)
+  name.vb: Build(String, String, HistoryEntry(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build(string, string, NetAF.Logging.History.HistoryEntry[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build(String, String, NetAF.Logging.History.HistoryEntry(), NetAF.Assets.Size)
+  nameWithType: TextHistoryFrameBuilder.Build(string, string, HistoryEntry[], Size)
+  nameWithType.vb: TextHistoryFrameBuilder.Build(String, String, HistoryEntry(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.Build
+  nameWithType: TextHistoryFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries
+  name: MaxEntries
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_MaxEntries
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries
+  nameWithType: TextHistoryFrameBuilder.MaxEntries
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries*
+  name: MaxEntries
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextHistoryFrameBuilder_MaxEntries_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.MaxEntries
+  nameWithType: TextHistoryFrameBuilder.MaxEntries
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder
+  name: TextNoteFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder
+  nameWithType: TextNoteFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextNoteFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNoteFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.TextNoteFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextNoteFrameBuilder.TextNoteFrameBuilder(StringBuilder)
+  nameWithType.vb: TextNoteFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.#ctor*
+  name: TextNoteFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNoteFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.TextNoteFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.New
+  nameWithType: TextNoteFrameBuilder.TextNoteFrameBuilder
+  nameWithType.vb: TextNoteFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build(System.String,System.String,NetAF.Logging.Notes.NoteEntry[],NetAF.Assets.Size)
+  name: Build(string, string, NoteEntry[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNoteFrameBuilder_Build_System_String_System_String_NetAF_Logging_Notes_NoteEntry___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build(System.String,System.String,NetAF.Logging.Notes.NoteEntry[],NetAF.Assets.Size)
+  name.vb: Build(String, String, NoteEntry(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build(string, string, NetAF.Logging.Notes.NoteEntry[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build(String, String, NetAF.Logging.Notes.NoteEntry(), NetAF.Assets.Size)
+  nameWithType: TextNoteFrameBuilder.Build(string, string, NoteEntry[], Size)
+  nameWithType.vb: TextNoteFrameBuilder.Build(String, String, NoteEntry(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNoteFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.Build
+  nameWithType: TextNoteFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder
+  name: TextReactionFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder
+  nameWithType: TextReactionFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextReactionFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextReactionFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.TextReactionFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextReactionFrameBuilder.TextReactionFrameBuilder(StringBuilder)
+  nameWithType.vb: TextReactionFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.#ctor*
+  name: TextReactionFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextReactionFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.TextReactionFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.New
+  nameWithType: TextReactionFrameBuilder.TextReactionFrameBuilder
+  nameWithType.vb: TextReactionFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)
+  name: Build(string, string, bool, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextReactionFrameBuilder_Build_System_String_System_String_System_Boolean_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)
+  name.vb: Build(String, String, Boolean, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build(string, string, bool, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build(String, String, Boolean, NetAF.Assets.Size)
+  nameWithType: TextReactionFrameBuilder.Build(string, string, bool, Size)
+  nameWithType.vb: TextReactionFrameBuilder.Build(String, String, Boolean, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextReactionFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextReactionFrameBuilder.Build
+  nameWithType: TextReactionFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder
+  name: TextRegionMapBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder
+  nameWithType: TextRegionMapBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.#ctor(System.Text.StringBuilder)
+  name: TextRegionMapBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.TextRegionMapBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextRegionMapBuilder.TextRegionMapBuilder(StringBuilder)
+  nameWithType.vb: TextRegionMapBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.#ctor*
+  name: TextRegionMapBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.TextRegionMapBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.New
+  nameWithType: TextRegionMapBuilder.TextRegionMapBuilder
+  nameWithType.vb: TextRegionMapBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
+  name: BuildRegionMap(Region, Point3D)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D)
+  nameWithType: TextRegionMapBuilder.BuildRegionMap(Region, Point3D)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap*
+  name: BuildRegionMap
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_BuildRegionMap_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.BuildRegionMap
+  nameWithType: TextRegionMapBuilder.BuildRegionMap
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator
+  name: CurrentFloorIndicator
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_CurrentFloorIndicator
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator
+  nameWithType: TextRegionMapBuilder.CurrentFloorIndicator
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator*
+  name: CurrentFloorIndicator
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_CurrentFloorIndicator_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.CurrentFloorIndicator
+  nameWithType: TextRegionMapBuilder.CurrentFloorIndicator
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace
+  name: EmptySpace
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_EmptySpace
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace
+  nameWithType: TextRegionMapBuilder.EmptySpace
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace*
+  name: EmptySpace
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_EmptySpace_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.EmptySpace
+  nameWithType: TextRegionMapBuilder.EmptySpace
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus
+  name: Focus
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Focus
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus
+  nameWithType: TextRegionMapBuilder.Focus
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus*
+  name: Focus
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Focus_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Focus
+  nameWithType: TextRegionMapBuilder.Focus
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary
+  name: HorizontalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_HorizontalBoundary
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary
+  nameWithType: TextRegionMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary*
+  name: HorizontalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_HorizontalBoundary_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.HorizontalBoundary
+  nameWithType: TextRegionMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit
+  name: LockedExit
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LockedExit
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit
+  nameWithType: TextRegionMapBuilder.LockedExit
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit*
+  name: LockedExit
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LockedExit_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LockedExit
+  nameWithType: TextRegionMapBuilder.LockedExit
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel
+  name: LowerLevel
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LowerLevel
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel
+  nameWithType: TextRegionMapBuilder.LowerLevel
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel*
+  name: LowerLevel
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_LowerLevel_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.LowerLevel
+  nameWithType: TextRegionMapBuilder.LowerLevel
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize
+  name: MaxSize
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_MaxSize
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize
+  nameWithType: TextRegionMapBuilder.MaxSize
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize*
+  name: MaxSize
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_MaxSize_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.MaxSize
+  nameWithType: TextRegionMapBuilder.MaxSize
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player
+  name: Player
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Player
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player
+  nameWithType: TextRegionMapBuilder.Player
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player*
+  name: Player
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_Player_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.Player
+  nameWithType: TextRegionMapBuilder.Player
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors
+  name: ShowLowerFloors
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_ShowLowerFloors
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors
+  nameWithType: TextRegionMapBuilder.ShowLowerFloors
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors*
+  name: ShowLowerFloors
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_ShowLowerFloors_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.ShowLowerFloors
+  nameWithType: TextRegionMapBuilder.ShowLowerFloors
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit
+  name: UnLockedExit
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_UnLockedExit
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit
+  nameWithType: TextRegionMapBuilder.UnLockedExit
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit*
+  name: UnLockedExit
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_UnLockedExit_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.UnLockedExit
+  nameWithType: TextRegionMapBuilder.UnLockedExit
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary
+  name: VerticalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_VerticalBoundary
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary
+  nameWithType: TextRegionMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary*
+  name: VerticalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapBuilder_VerticalBoundary_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapBuilder.VerticalBoundary
+  nameWithType: TextRegionMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder
+  name: TextRegionMapFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder
+  nameWithType: TextRegionMapFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  name: TextRegionMapFrameBuilder(StringBuilder, IRegionMapBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  name.vb: New(StringBuilder, IRegionMapBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.TextRegionMapFrameBuilder(System.Text.StringBuilder, NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.New(System.Text.StringBuilder, NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  nameWithType: TextRegionMapFrameBuilder.TextRegionMapFrameBuilder(StringBuilder, IRegionMapBuilder)
+  nameWithType.vb: TextRegionMapFrameBuilder.New(StringBuilder, IRegionMapBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.#ctor*
+  name: TextRegionMapFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.TextRegionMapFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.New
+  nameWithType: TextRegionMapFrameBuilder.TextRegionMapFrameBuilder
+  nameWithType.vb: TextRegionMapFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, CommandHelp[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, CommandHelp(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: TextRegionMapFrameBuilder.Build(Region, Point3D, CommandHelp[], Size)
+  nameWithType.vb: TextRegionMapFrameBuilder.Build(Region, Point3D, CommandHelp(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build
+  nameWithType: TextRegionMapFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle
+  name: CommandTitle
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_CommandTitle
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle
+  nameWithType: TextRegionMapFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle*
+  name: CommandTitle
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_CommandTitle_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle
+  nameWithType: TextRegionMapFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder
+  name: TextRoomMapBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder
+  nameWithType: TextRoomMapBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.#ctor(System.Text.StringBuilder)
+  name: TextRoomMapBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.TextRoomMapBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextRoomMapBuilder.TextRoomMapBuilder(StringBuilder)
+  nameWithType.vb: TextRoomMapBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.#ctor*
+  name: TextRoomMapBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.TextRoomMapBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.New
+  nameWithType: TextRoomMapBuilder.TextRoomMapBuilder
+  nameWithType.vb: TextRoomMapBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
+  name: BuildRoomMap(Room, ViewPoint, KeyType)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
+  nameWithType: TextRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap*
+  name: BuildRoomMap
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_BuildRoomMap_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.BuildRoomMap
+  nameWithType: TextRoomMapBuilder.BuildRoomMap
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner
+  name: Corner
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_Corner
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner
+  nameWithType: TextRoomMapBuilder.Corner
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner*
+  name: Corner
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_Corner_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.Corner
+  nameWithType: TextRoomMapBuilder.Corner
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary
+  name: HorizontalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalBoundary
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary
+  nameWithType: TextRoomMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary*
+  name: HorizontalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalBoundary_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalBoundary
+  nameWithType: TextRoomMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder
+  name: HorizontalExitBorder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalExitBorder
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder
+  nameWithType: TextRoomMapBuilder.HorizontalExitBorder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder*
+  name: HorizontalExitBorder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_HorizontalExitBorder_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.HorizontalExitBorder
+  nameWithType: TextRoomMapBuilder.HorizontalExitBorder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom
+  name: ItemOrCharacterInRoom
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_ItemOrCharacterInRoom
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom
+  nameWithType: TextRoomMapBuilder.ItemOrCharacterInRoom
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom*
+  name: ItemOrCharacterInRoom
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_ItemOrCharacterInRoom_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.ItemOrCharacterInRoom
+  nameWithType: TextRoomMapBuilder.ItemOrCharacterInRoom
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding
+  name: KeyPadding
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_KeyPadding
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding
+  nameWithType: TextRoomMapBuilder.KeyPadding
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding*
+  name: KeyPadding
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_KeyPadding_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.KeyPadding
+  nameWithType: TextRoomMapBuilder.KeyPadding
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit
+  name: LockedExit
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_LockedExit
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit
+  nameWithType: TextRoomMapBuilder.LockedExit
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit*
+  name: LockedExit
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_LockedExit_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.LockedExit
+  nameWithType: TextRoomMapBuilder.LockedExit
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize
+  name: MaxSize
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_MaxSize
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize
+  nameWithType: TextRoomMapBuilder.MaxSize
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize*
+  name: MaxSize
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_MaxSize_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.MaxSize
+  nameWithType: TextRoomMapBuilder.MaxSize
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary
+  name: VerticalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalBoundary
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary
+  nameWithType: TextRoomMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary*
+  name: VerticalBoundary
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalBoundary_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalBoundary
+  nameWithType: TextRoomMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder
+  name: VerticalExitBorder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalExitBorder
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder
+  nameWithType: TextRoomMapBuilder.VerticalExitBorder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder*
+  name: VerticalExitBorder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRoomMapBuilder_VerticalExitBorder_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.VerticalExitBorder
+  nameWithType: TextRoomMapBuilder.VerticalExitBorder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder
+  name: TextSceneFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder
+  nameWithType: TextSceneFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  name: TextSceneFrameBuilder(StringBuilder, IRoomMapBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Rendering_FrameBuilders_IRoomMapBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  name.vb: New(StringBuilder, IRoomMapBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.TextSceneFrameBuilder(System.Text.StringBuilder, NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.New(System.Text.StringBuilder, NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  nameWithType: TextSceneFrameBuilder.TextSceneFrameBuilder(StringBuilder, IRoomMapBuilder)
+  nameWithType.vb: TextSceneFrameBuilder.New(StringBuilder, IRoomMapBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.#ctor*
+  name: TextSceneFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.TextSceneFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.New
+  nameWithType: TextSceneFrameBuilder.TextSceneFrameBuilder
+  nameWithType.vb: TextSceneFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
+  nameWithType.vb: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build
+  nameWithType: TextSceneFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.CommandTitle
+  name: CommandTitle
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_CommandTitle
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.CommandTitle
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.CommandTitle
+  nameWithType: TextSceneFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.CommandTitle*
+  name: CommandTitle
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_CommandTitle_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.CommandTitle
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.CommandTitle
+  nameWithType: TextSceneFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder
+  name: TextTitleFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder
+  nameWithType: TextTitleFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.#ctor(System.Text.StringBuilder)
+  name: TextTitleFrameBuilder(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextTitleFrameBuilder__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.TextTitleFrameBuilder(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.New(System.Text.StringBuilder)
+  nameWithType: TextTitleFrameBuilder.TextTitleFrameBuilder(StringBuilder)
+  nameWithType.vb: TextTitleFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.#ctor*
+  name: TextTitleFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextTitleFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.TextTitleFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.New
+  nameWithType: TextTitleFrameBuilder.TextTitleFrameBuilder
+  nameWithType.vb: TextTitleFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name: Build(string, string, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextTitleFrameBuilder_Build_System_String_System_String_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build(System.String,System.String,NetAF.Assets.Size)
+  name.vb: Build(String, String, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build(string, string, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build(String, String, NetAF.Assets.Size)
+  nameWithType: TextTitleFrameBuilder.Build(string, string, Size)
+  nameWithType.vb: TextTitleFrameBuilder.Build(String, String, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextTitleFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.Build
+  nameWithType: TextTitleFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.TextFrame
+  name: TextFrame
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html
+  commentId: T:NetAF.Targets.Text.Rendering.TextFrame
+  fullName: NetAF.Targets.Text.Rendering.TextFrame
+  nameWithType: TextFrame
+- uid: NetAF.Targets.Text.Rendering.TextFrame.#ctor(System.Text.StringBuilder)
+  name: TextFrame(StringBuilder)
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html#NetAF_Targets_Text_Rendering_TextFrame__ctor_System_Text_StringBuilder_
+  commentId: M:NetAF.Targets.Text.Rendering.TextFrame.#ctor(System.Text.StringBuilder)
+  name.vb: New(StringBuilder)
+  fullName: NetAF.Targets.Text.Rendering.TextFrame.TextFrame(System.Text.StringBuilder)
+  fullName.vb: NetAF.Targets.Text.Rendering.TextFrame.New(System.Text.StringBuilder)
+  nameWithType: TextFrame.TextFrame(StringBuilder)
+  nameWithType.vb: TextFrame.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.TextFrame.#ctor*
+  name: TextFrame
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html#NetAF_Targets_Text_Rendering_TextFrame__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.TextFrame.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.TextFrame.TextFrame
+  fullName.vb: NetAF.Targets.Text.Rendering.TextFrame.New
+  nameWithType: TextFrame.TextFrame
+  nameWithType.vb: TextFrame.New
+- uid: NetAF.Targets.Text.Rendering.TextFrame.Render(NetAF.Rendering.IFramePresenter)
+  name: Render(IFramePresenter)
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html#NetAF_Targets_Text_Rendering_TextFrame_Render_NetAF_Rendering_IFramePresenter_
+  commentId: M:NetAF.Targets.Text.Rendering.TextFrame.Render(NetAF.Rendering.IFramePresenter)
+  fullName: NetAF.Targets.Text.Rendering.TextFrame.Render(NetAF.Rendering.IFramePresenter)
+  nameWithType: TextFrame.Render(IFramePresenter)
+- uid: NetAF.Targets.Text.Rendering.TextFrame.Render*
+  name: Render
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html#NetAF_Targets_Text_Rendering_TextFrame_Render_
+  commentId: Overload:NetAF.Targets.Text.Rendering.TextFrame.Render
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.TextFrame.Render
+  nameWithType: TextFrame.Render
+- uid: NetAF.Targets.Text.Rendering.TextFrame.ToString
+  name: ToString()
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html#NetAF_Targets_Text_Rendering_TextFrame_ToString
+  commentId: M:NetAF.Targets.Text.Rendering.TextFrame.ToString
+  fullName: NetAF.Targets.Text.Rendering.TextFrame.ToString()
+  nameWithType: TextFrame.ToString()
+- uid: NetAF.Targets.Text.Rendering.TextFrame.ToString*
+  name: ToString
+  href: api/NetAF.Targets.Text.Rendering.TextFrame.html#NetAF_Targets_Text_Rendering_TextFrame_ToString_
+  commentId: Overload:NetAF.Targets.Text.Rendering.TextFrame.ToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.TextFrame.ToString
+  nameWithType: TextFrame.ToString
 - uid: NetAF.Targets.Text.TextAdapter
   name: TextAdapter
   href: api/NetAF.Targets.Text.TextAdapter.html
@@ -15609,6 +16588,22 @@ references:
   fullName.vb: NetAF.Targets.Text.TextAdapter.New
   nameWithType: TextAdapter.TextAdapter
   nameWithType.vb: TextAdapter.New
+- uid: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)
+  name: ConvertGridStringBuilderToString(GridStringBuilder, bool)
+  href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_ConvertGridStringBuilderToString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_
+  commentId: M:NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)
+  name.vb: ConvertGridStringBuilderToString(GridStringBuilder, Boolean)
+  fullName: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString(NetAF.Targets.Console.Rendering.GridStringBuilder, bool)
+  fullName.vb: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString(NetAF.Targets.Console.Rendering.GridStringBuilder, Boolean)
+  nameWithType: TextAdapter.ConvertGridStringBuilderToString(GridStringBuilder, bool)
+  nameWithType.vb: TextAdapter.ConvertGridStringBuilderToString(GridStringBuilder, Boolean)
+- uid: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString*
+  name: ConvertGridStringBuilderToString
+  href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_ConvertGridStringBuilderToString_
+  commentId: Overload:NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString
+  nameWithType: TextAdapter.ConvertGridStringBuilderToString
 - uid: NetAF.Targets.Text.TextAdapter.Game
   name: Game
   href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_Game

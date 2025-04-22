@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class TextAdapter | NetAF </title>
+      <title>Class TextCommandListFrameBuilder | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class TextAdapter | NetAF ">
+      <meta name="title" content="Class TextCommandListFrameBuilder | NetAF ">
     
-    <meta name="description" content="Provides an adapter for text.">
+    <meta name="description" content="Provides a builder of command list frames.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,23 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Text.TextAdapter">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder">
 
 
 
-  <h1 id="NetAF_Targets_Text_TextAdapter" data-uid="NetAF.Targets.Text.TextAdapter" class="text-break">Class TextAdapter</h1>
-  <div class="markdown level0 summary"><p>Provides an adapter for text.</p>
+  <h1 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder" class="text-break">Class TextCommandListFrameBuilder</h1>
+  <div class="markdown level0 summary"><p>Provides a builder of command list frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TextAdapter</span></div>
+    <div class="level1"><span class="xref">TextCommandListFrameBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html">ICommandListFrameBuilder</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,22 +115,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Text.html">Text</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Text.html">Text</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Text_TextAdapter_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TextAdapter : IIOAdapter</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TextCommandListFrameBuilder : ICommandListFrameBuilder, IFrameBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Targets_Text_TextAdapter__ctor_" data-uid="NetAF.Targets.Text.TextAdapter.#ctor*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter__ctor_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Targets.Text.TextAdapter.#ctor(NetAF.Rendering.IFramePresenter)">TextAdapter(IFramePresenter)</h4>
-  <div class="markdown level1 summary"><p>Provides an adapter for text.</p>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder__ctor_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.#ctor*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder__ctor_System_Text_StringBuilder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.#ctor(System.Text.StringBuilder)">TextCommandListFrameBuilder(StringBuilder)</h4>
+  <div class="markdown level1 summary"><p>Provides a builder of command list frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextAdapter(IFramePresenter presenter)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextCommandListFrameBuilder(StringBuilder builder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -142,49 +143,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></td>
-        <td><span class="parametername">presenter</span></td>
-        <td><p>The presenter to use for presenting frames.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>A builder to use for the text layout.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Targets_Text_TextAdapter_Game_" data-uid="NetAF.Targets.Text.TextAdapter.Game*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_Game" data-uid="NetAF.Targets.Text.TextAdapter.Game">Game</h4>
-  <div class="markdown level1 summary"><p>Get the game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Game Game { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Text_TextAdapter_ConvertGridStringBuilderToString_" data-uid="NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_ConvertGridStringBuilderToString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_" data-uid="NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)">ConvertGridStringBuilderToString(GridStringBuilder, bool)</h4>
-  <div class="markdown level1 summary"><p>Convert the contents of a GridStringBuilder to a string.</p>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder_Build_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextCommandListFrameBuilder_Build_System_String_System_String_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.Build(System.String,System.String,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(string, string, CommandHelp[], Size)</h4>
+  <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ConvertGridStringBuilderToString(GridStringBuilder builder, bool padEmptyCharacters = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(string title, string description, CommandHelp[] commandHelp, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -197,15 +172,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
-        <td><span class="parametername">builder</span></td>
-        <td><p>The GridStringBuilder to convert.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">padEmptyCharacters</span></td>
-        <td><p>Specify if empty characters should be padded with a space.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
+        <td><span class="parametername">commandHelp</span></td>
+        <td><p>The command help.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the frame.</p>
 </td>
       </tr>
     </tbody>
@@ -220,69 +207,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>A string representing the contents of the GridStringBuilder.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_TextAdapter_RenderFrame_" data-uid="NetAF.Targets.Text.TextAdapter.RenderFrame*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_RenderFrame_NetAF_Rendering_IFrame_" data-uid="NetAF.Targets.Text.TextAdapter.RenderFrame(NetAF.Rendering.IFrame)">RenderFrame(IFrame)</h4>
-  <div class="markdown level1 summary"><p>Render a frame.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RenderFrame(IFrame frame)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
         <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
-        <td><span class="parametername">frame</span></td>
-        <td><p>The frame to render.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_TextAdapter_Setup_" data-uid="NetAF.Targets.Text.TextAdapter.Setup*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_Setup_NetAF_Logic_Game_" data-uid="NetAF.Targets.Text.TextAdapter.Setup(NetAF.Logic.Game)">Setup(Game)</h4>
-  <div class="markdown level1 summary"><p>Setup for a game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Setup(Game game)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td><span class="parametername">game</span></td>
-        <td><p>The game to set up for.</p>
+        <td><p>The frame.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html">ICommandListFrameBuilder</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a>
   </div>
 
 </article>
