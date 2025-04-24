@@ -6902,32 +6902,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logging.History.HistoryEntry.Name
   nameWithType: HistoryEntry.Name
-- uid: NetAF.Logging.History.HistoryEntry.content
-  name: content
-  href: api/NetAF.Logging.History.HistoryEntry.html#NetAF_Logging_History_HistoryEntry_content
-  commentId: P:NetAF.Logging.History.HistoryEntry.content
-  fullName: NetAF.Logging.History.HistoryEntry.content
-  nameWithType: HistoryEntry.content
-- uid: NetAF.Logging.History.HistoryEntry.content*
-  name: content
-  href: api/NetAF.Logging.History.HistoryEntry.html#NetAF_Logging_History_HistoryEntry_content_
-  commentId: Overload:NetAF.Logging.History.HistoryEntry.content
-  isSpec: "True"
-  fullName: NetAF.Logging.History.HistoryEntry.content
-  nameWithType: HistoryEntry.content
-- uid: NetAF.Logging.History.HistoryEntry.name
-  name: name
-  href: api/NetAF.Logging.History.HistoryEntry.html#NetAF_Logging_History_HistoryEntry_name
-  commentId: P:NetAF.Logging.History.HistoryEntry.name
-  fullName: NetAF.Logging.History.HistoryEntry.name
-  nameWithType: HistoryEntry.name
-- uid: NetAF.Logging.History.HistoryEntry.name*
-  name: name
-  href: api/NetAF.Logging.History.HistoryEntry.html#NetAF_Logging_History_HistoryEntry_name_
-  commentId: Overload:NetAF.Logging.History.HistoryEntry.name
-  isSpec: "True"
-  fullName: NetAF.Logging.History.HistoryEntry.name
-  nameWithType: HistoryEntry.name
 - uid: NetAF.Logging.History.HistoryManager
   name: HistoryManager
   href: api/NetAF.Logging.History.HistoryManager.html
