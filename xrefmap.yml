@@ -14399,336 +14399,336 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.Texture.Width
   nameWithType: Texture.Width
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders
-  name: NetAF.Targets.Hosted.Rendering.FrameBuilders
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.html
-  commentId: N:NetAF.Targets.Hosted.Rendering.FrameBuilders
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders
-  nameWithType: NetAF.Targets.Hosted.Rendering.FrameBuilders
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder
-  name: HostedRegionMapBuilder
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html
-  commentId: T:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder
-  nameWithType: HostedRegionMapBuilder
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
+- uid: NetAF.Targets.General.FrameBuilders
+  name: NetAF.Targets.General.FrameBuilders
+  href: api/NetAF.Targets.General.FrameBuilders.html
+  commentId: N:NetAF.Targets.General.FrameBuilders
+  fullName: NetAF.Targets.General.FrameBuilders
+  nameWithType: NetAF.Targets.General.FrameBuilders
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder
+  name: GeneralRegionMapBuilder
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html
+  commentId: T:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder
+  nameWithType: GeneralRegionMapBuilder
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
   name: Adapt(GridStringBuilder)
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_
-  commentId: M:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  nameWithType: HostedRegionMapBuilder.Adapt(GridStringBuilder)
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Adapt*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  nameWithType: GeneralRegionMapBuilder.Adapt(GridStringBuilder)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt*
   name: Adapt
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Adapt_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Adapt
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Adapt_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Adapt
-  nameWithType: HostedRegionMapBuilder.Adapt
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt
+  nameWithType: GeneralRegionMapBuilder.Adapt
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
   name: BuildRegionMap(Region, Point3D)
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_
-  commentId: M:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D)
-  nameWithType: HostedRegionMapBuilder.BuildRegionMap(Region, Point3D)
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.BuildRegionMap*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D)
+  nameWithType: GeneralRegionMapBuilder.BuildRegionMap(Region, Point3D)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_BuildRegionMap_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.BuildRegionMap
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.BuildRegionMap
-  nameWithType: HostedRegionMapBuilder.BuildRegionMap
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.CurrentFloorIndicator
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap
+  nameWithType: GeneralRegionMapBuilder.BuildRegionMap
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.CurrentFloorIndicator
   name: CurrentFloorIndicator
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_CurrentFloorIndicator
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.CurrentFloorIndicator
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.CurrentFloorIndicator
-  nameWithType: HostedRegionMapBuilder.CurrentFloorIndicator
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.CurrentFloorIndicator*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_CurrentFloorIndicator
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.CurrentFloorIndicator
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.CurrentFloorIndicator
+  nameWithType: GeneralRegionMapBuilder.CurrentFloorIndicator
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.CurrentFloorIndicator*
   name: CurrentFloorIndicator
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_CurrentFloorIndicator_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.CurrentFloorIndicator
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_CurrentFloorIndicator_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.CurrentFloorIndicator
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.CurrentFloorIndicator
-  nameWithType: HostedRegionMapBuilder.CurrentFloorIndicator
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.EmptySpace
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.CurrentFloorIndicator
+  nameWithType: GeneralRegionMapBuilder.CurrentFloorIndicator
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.EmptySpace
   name: EmptySpace
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_EmptySpace
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.EmptySpace
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.EmptySpace
-  nameWithType: HostedRegionMapBuilder.EmptySpace
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.EmptySpace*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_EmptySpace
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.EmptySpace
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.EmptySpace
+  nameWithType: GeneralRegionMapBuilder.EmptySpace
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.EmptySpace*
   name: EmptySpace
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_EmptySpace_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.EmptySpace
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_EmptySpace_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.EmptySpace
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.EmptySpace
-  nameWithType: HostedRegionMapBuilder.EmptySpace
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Focus
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.EmptySpace
+  nameWithType: GeneralRegionMapBuilder.EmptySpace
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Focus
   name: Focus
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Focus
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Focus
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Focus
-  nameWithType: HostedRegionMapBuilder.Focus
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Focus*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Focus
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Focus
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Focus
+  nameWithType: GeneralRegionMapBuilder.Focus
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Focus*
   name: Focus
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Focus_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Focus
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Focus_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Focus
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Focus
-  nameWithType: HostedRegionMapBuilder.Focus
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.HorizontalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Focus
+  nameWithType: GeneralRegionMapBuilder.Focus
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.HorizontalBoundary
   name: HorizontalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_HorizontalBoundary
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.HorizontalBoundary
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.HorizontalBoundary
-  nameWithType: HostedRegionMapBuilder.HorizontalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.HorizontalBoundary*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_HorizontalBoundary
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.HorizontalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.HorizontalBoundary
+  nameWithType: GeneralRegionMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.HorizontalBoundary*
   name: HorizontalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_HorizontalBoundary_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.HorizontalBoundary
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_HorizontalBoundary_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.HorizontalBoundary
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.HorizontalBoundary
-  nameWithType: HostedRegionMapBuilder.HorizontalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LockedExit
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.HorizontalBoundary
+  nameWithType: GeneralRegionMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LockedExit
   name: LockedExit
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_LockedExit
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LockedExit
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LockedExit
-  nameWithType: HostedRegionMapBuilder.LockedExit
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LockedExit*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_LockedExit
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LockedExit
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LockedExit
+  nameWithType: GeneralRegionMapBuilder.LockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LockedExit*
   name: LockedExit
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_LockedExit_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LockedExit
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_LockedExit_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LockedExit
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LockedExit
-  nameWithType: HostedRegionMapBuilder.LockedExit
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LowerLevel
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LockedExit
+  nameWithType: GeneralRegionMapBuilder.LockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel
   name: LowerLevel
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_LowerLevel
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LowerLevel
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LowerLevel
-  nameWithType: HostedRegionMapBuilder.LowerLevel
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LowerLevel*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_LowerLevel
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel
+  nameWithType: GeneralRegionMapBuilder.LowerLevel
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel*
   name: LowerLevel
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_LowerLevel_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LowerLevel
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_LowerLevel_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.LowerLevel
-  nameWithType: HostedRegionMapBuilder.LowerLevel
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.MaxSize
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel
+  nameWithType: GeneralRegionMapBuilder.LowerLevel
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
   name: MaxSize
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_MaxSize
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.MaxSize
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.MaxSize
-  nameWithType: HostedRegionMapBuilder.MaxSize
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.MaxSize*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_MaxSize
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
+  nameWithType: GeneralRegionMapBuilder.MaxSize
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize*
   name: MaxSize
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_MaxSize_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.MaxSize
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_MaxSize_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.MaxSize
-  nameWithType: HostedRegionMapBuilder.MaxSize
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Player
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
+  nameWithType: GeneralRegionMapBuilder.MaxSize
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player
   name: Player
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Player
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Player
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Player
-  nameWithType: HostedRegionMapBuilder.Player
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Player*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Player
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player
+  nameWithType: GeneralRegionMapBuilder.Player
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player*
   name: Player
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_Player_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Player
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Player_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.Player
-  nameWithType: HostedRegionMapBuilder.Player
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.ShowLowerFloors
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player
+  nameWithType: GeneralRegionMapBuilder.Player
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors
   name: ShowLowerFloors
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_ShowLowerFloors
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.ShowLowerFloors
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.ShowLowerFloors
-  nameWithType: HostedRegionMapBuilder.ShowLowerFloors
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.ShowLowerFloors*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_ShowLowerFloors
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors
+  nameWithType: GeneralRegionMapBuilder.ShowLowerFloors
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors*
   name: ShowLowerFloors
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_ShowLowerFloors_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.ShowLowerFloors
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_ShowLowerFloors_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.ShowLowerFloors
-  nameWithType: HostedRegionMapBuilder.ShowLowerFloors
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.UnLockedExit
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors
+  nameWithType: GeneralRegionMapBuilder.ShowLowerFloors
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit
   name: UnLockedExit
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_UnLockedExit
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.UnLockedExit
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.UnLockedExit
-  nameWithType: HostedRegionMapBuilder.UnLockedExit
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.UnLockedExit*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_UnLockedExit
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit
+  nameWithType: GeneralRegionMapBuilder.UnLockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit*
   name: UnLockedExit
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_UnLockedExit_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.UnLockedExit
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_UnLockedExit_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.UnLockedExit
-  nameWithType: HostedRegionMapBuilder.UnLockedExit
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.VerticalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit
+  nameWithType: GeneralRegionMapBuilder.UnLockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.VerticalBoundary
   name: VerticalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_VerticalBoundary
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.VerticalBoundary
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.VerticalBoundary
-  nameWithType: HostedRegionMapBuilder.VerticalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.VerticalBoundary*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_VerticalBoundary
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.VerticalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.VerticalBoundary
+  nameWithType: GeneralRegionMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.VerticalBoundary*
   name: VerticalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRegionMapBuilder_VerticalBoundary_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.VerticalBoundary
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_VerticalBoundary_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.VerticalBoundary
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.VerticalBoundary
-  nameWithType: HostedRegionMapBuilder.VerticalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder
-  name: HostedRoomMapBuilder
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html
-  commentId: T:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder
-  nameWithType: HostedRoomMapBuilder
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.VerticalBoundary
+  nameWithType: GeneralRegionMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder
+  name: GeneralRoomMapBuilder
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html
+  commentId: T:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder
+  nameWithType: GeneralRoomMapBuilder
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
   name: Adapt(GridStringBuilder)
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_
-  commentId: M:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  nameWithType: HostedRoomMapBuilder.Adapt(GridStringBuilder)
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Adapt*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_Adapt_NetAF_Targets_Console_Rendering_GridStringBuilder_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt(NetAF.Targets.Console.Rendering.GridStringBuilder)
+  nameWithType: GeneralRoomMapBuilder.Adapt(GridStringBuilder)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt*
   name: Adapt
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_Adapt_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Adapt
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_Adapt_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Adapt
-  nameWithType: HostedRoomMapBuilder.Adapt
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt
+  nameWithType: GeneralRoomMapBuilder.Adapt
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
   name: BuildRoomMap(Room, ViewPoint, KeyType)
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
-  commentId: M:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
-  nameWithType: HostedRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.BuildRoomMap*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
+  nameWithType: GeneralRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_BuildRoomMap_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.BuildRoomMap
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_BuildRoomMap_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.BuildRoomMap
-  nameWithType: HostedRoomMapBuilder.BuildRoomMap
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Corner
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap
+  nameWithType: GeneralRoomMapBuilder.BuildRoomMap
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Corner
   name: Corner
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_Corner
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Corner
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Corner
-  nameWithType: HostedRoomMapBuilder.Corner
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Corner*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_Corner
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Corner
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Corner
+  nameWithType: GeneralRoomMapBuilder.Corner
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Corner*
   name: Corner
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_Corner_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Corner
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_Corner_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Corner
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.Corner
-  nameWithType: HostedRoomMapBuilder.Corner
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Corner
+  nameWithType: GeneralRoomMapBuilder.Corner
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalBoundary
   name: HorizontalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_HorizontalBoundary
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalBoundary
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalBoundary
-  nameWithType: HostedRoomMapBuilder.HorizontalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalBoundary*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_HorizontalBoundary
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalBoundary
+  nameWithType: GeneralRoomMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalBoundary*
   name: HorizontalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_HorizontalBoundary_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalBoundary
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_HorizontalBoundary_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalBoundary
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalBoundary
-  nameWithType: HostedRoomMapBuilder.HorizontalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalExitBorder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalBoundary
+  nameWithType: GeneralRoomMapBuilder.HorizontalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder
   name: HorizontalExitBorder
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_HorizontalExitBorder
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalExitBorder
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalExitBorder
-  nameWithType: HostedRoomMapBuilder.HorizontalExitBorder
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalExitBorder*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_HorizontalExitBorder
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder
+  nameWithType: GeneralRoomMapBuilder.HorizontalExitBorder
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder*
   name: HorizontalExitBorder
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_HorizontalExitBorder_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalExitBorder
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_HorizontalExitBorder_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.HorizontalExitBorder
-  nameWithType: HostedRoomMapBuilder.HorizontalExitBorder
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.ItemOrCharacterInRoom
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder
+  nameWithType: GeneralRoomMapBuilder.HorizontalExitBorder
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
   name: ItemOrCharacterInRoom
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_ItemOrCharacterInRoom
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.ItemOrCharacterInRoom
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.ItemOrCharacterInRoom
-  nameWithType: HostedRoomMapBuilder.ItemOrCharacterInRoom
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.ItemOrCharacterInRoom*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_ItemOrCharacterInRoom
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
+  nameWithType: GeneralRoomMapBuilder.ItemOrCharacterInRoom
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom*
   name: ItemOrCharacterInRoom
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_ItemOrCharacterInRoom_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.ItemOrCharacterInRoom
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_ItemOrCharacterInRoom_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.ItemOrCharacterInRoom
-  nameWithType: HostedRoomMapBuilder.ItemOrCharacterInRoom
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.KeyPadding
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
+  nameWithType: GeneralRoomMapBuilder.ItemOrCharacterInRoom
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding
   name: KeyPadding
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_KeyPadding
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.KeyPadding
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.KeyPadding
-  nameWithType: HostedRoomMapBuilder.KeyPadding
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.KeyPadding*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_KeyPadding
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding
+  nameWithType: GeneralRoomMapBuilder.KeyPadding
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding*
   name: KeyPadding
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_KeyPadding_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.KeyPadding
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_KeyPadding_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.KeyPadding
-  nameWithType: HostedRoomMapBuilder.KeyPadding
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.LockedExit
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding
+  nameWithType: GeneralRoomMapBuilder.KeyPadding
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
   name: LockedExit
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_LockedExit
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.LockedExit
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.LockedExit
-  nameWithType: HostedRoomMapBuilder.LockedExit
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.LockedExit*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_LockedExit
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
+  nameWithType: GeneralRoomMapBuilder.LockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit*
   name: LockedExit
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_LockedExit_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.LockedExit
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_LockedExit_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.LockedExit
-  nameWithType: HostedRoomMapBuilder.LockedExit
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.MaxSize
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
+  nameWithType: GeneralRoomMapBuilder.LockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
   name: MaxSize
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_MaxSize
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.MaxSize
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.MaxSize
-  nameWithType: HostedRoomMapBuilder.MaxSize
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.MaxSize*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_MaxSize
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
+  nameWithType: GeneralRoomMapBuilder.MaxSize
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize*
   name: MaxSize
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_MaxSize_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.MaxSize
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_MaxSize_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.MaxSize
-  nameWithType: HostedRoomMapBuilder.MaxSize
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
+  nameWithType: GeneralRoomMapBuilder.MaxSize
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalBoundary
   name: VerticalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_VerticalBoundary
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalBoundary
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalBoundary
-  nameWithType: HostedRoomMapBuilder.VerticalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalBoundary*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_VerticalBoundary
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalBoundary
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalBoundary
+  nameWithType: GeneralRoomMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalBoundary*
   name: VerticalBoundary
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_VerticalBoundary_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalBoundary
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_VerticalBoundary_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalBoundary
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalBoundary
-  nameWithType: HostedRoomMapBuilder.VerticalBoundary
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalExitBorder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalBoundary
+  nameWithType: GeneralRoomMapBuilder.VerticalBoundary
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalExitBorder
   name: VerticalExitBorder
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_VerticalExitBorder
-  commentId: P:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalExitBorder
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalExitBorder
-  nameWithType: HostedRoomMapBuilder.VerticalExitBorder
-- uid: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalExitBorder*
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_VerticalExitBorder
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalExitBorder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalExitBorder
+  nameWithType: GeneralRoomMapBuilder.VerticalExitBorder
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalExitBorder*
   name: VerticalExitBorder
-  href: api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html#NetAF_Targets_Hosted_Rendering_FrameBuilders_HostedRoomMapBuilder_VerticalExitBorder_
-  commentId: Overload:NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalExitBorder
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_VerticalExitBorder_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalExitBorder
   isSpec: "True"
-  fullName: NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.VerticalExitBorder
-  nameWithType: HostedRoomMapBuilder.VerticalExitBorder
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.VerticalExitBorder
+  nameWithType: GeneralRoomMapBuilder.VerticalExitBorder
 - uid: NetAF.Targets.Html
   name: NetAF.Targets.Html
   href: api/NetAF.Targets.Html.html
@@ -14789,19 +14789,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString
   nameWithType: HtmlAdapter.ConvertGridVisualBuilderToHtmlString
-- uid: NetAF.Targets.Html.HtmlAdapter.Game
-  name: Game
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_Game
-  commentId: P:NetAF.Targets.Html.HtmlAdapter.Game
-  fullName: NetAF.Targets.Html.HtmlAdapter.Game
-  nameWithType: HtmlAdapter.Game
-- uid: NetAF.Targets.Html.HtmlAdapter.Game*
-  name: Game
-  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_Game_
-  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.Game
-  isSpec: "True"
-  fullName: NetAF.Targets.Html.HtmlAdapter.Game
-  nameWithType: HtmlAdapter.Game
 - uid: NetAF.Targets.Html.HtmlAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_RenderFrame_NetAF_Rendering_IFrame_
@@ -15575,6 +15562,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.HtmlBuilder.H4
   nameWithType: HtmlBuilder.H4
+- uid: NetAF.Targets.Html.Rendering.HtmlBuilder.Ol(System.String[])
+  name: Ol(params string[])
+  href: api/NetAF.Targets.Html.Rendering.HtmlBuilder.html#NetAF_Targets_Html_Rendering_HtmlBuilder_Ol_System_String___
+  commentId: M:NetAF.Targets.Html.Rendering.HtmlBuilder.Ol(System.String[])
+  name.vb: Ol(ParamArray String())
+  fullName: NetAF.Targets.Html.Rendering.HtmlBuilder.Ol(params string[])
+  fullName.vb: NetAF.Targets.Html.Rendering.HtmlBuilder.Ol(ParamArray String())
+  nameWithType: HtmlBuilder.Ol(params string[])
+  nameWithType.vb: HtmlBuilder.Ol(ParamArray String())
+- uid: NetAF.Targets.Html.Rendering.HtmlBuilder.Ol*
+  name: Ol
+  href: api/NetAF.Targets.Html.Rendering.HtmlBuilder.html#NetAF_Targets_Html_Rendering_HtmlBuilder_Ol_
+  commentId: Overload:NetAF.Targets.Html.Rendering.HtmlBuilder.Ol
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.HtmlBuilder.Ol
+  nameWithType: HtmlBuilder.Ol
 - uid: NetAF.Targets.Html.Rendering.HtmlBuilder.P(System.String)
   name: P(string)
   href: api/NetAF.Targets.Html.Rendering.HtmlBuilder.html#NetAF_Targets_Html_Rendering_HtmlBuilder_P_System_String_
@@ -15620,6 +15623,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.HtmlBuilder.ToString
   nameWithType: HtmlBuilder.ToString
+- uid: NetAF.Targets.Html.Rendering.HtmlBuilder.Ul(System.String[])
+  name: Ul(params string[])
+  href: api/NetAF.Targets.Html.Rendering.HtmlBuilder.html#NetAF_Targets_Html_Rendering_HtmlBuilder_Ul_System_String___
+  commentId: M:NetAF.Targets.Html.Rendering.HtmlBuilder.Ul(System.String[])
+  name.vb: Ul(ParamArray String())
+  fullName: NetAF.Targets.Html.Rendering.HtmlBuilder.Ul(params string[])
+  fullName.vb: NetAF.Targets.Html.Rendering.HtmlBuilder.Ul(ParamArray String())
+  nameWithType: HtmlBuilder.Ul(params string[])
+  nameWithType.vb: HtmlBuilder.Ul(ParamArray String())
+- uid: NetAF.Targets.Html.Rendering.HtmlBuilder.Ul*
+  name: Ul
+  href: api/NetAF.Targets.Html.Rendering.HtmlBuilder.html#NetAF_Targets_Html_Rendering_HtmlBuilder_Ul_
+  commentId: Overload:NetAF.Targets.Html.Rendering.HtmlBuilder.Ul
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.HtmlBuilder.Ul
+  nameWithType: HtmlBuilder.Ul
 - uid: NetAF.Targets.Html.Rendering.HtmlFrame
   name: HtmlFrame
   href: api/NetAF.Targets.Html.Rendering.HtmlFrame.html
@@ -16414,19 +16433,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString
   nameWithType: TextAdapter.ConvertGridStringBuilderToString
-- uid: NetAF.Targets.Text.TextAdapter.Game
-  name: Game
-  href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_Game
-  commentId: P:NetAF.Targets.Text.TextAdapter.Game
-  fullName: NetAF.Targets.Text.TextAdapter.Game
-  nameWithType: TextAdapter.Game
-- uid: NetAF.Targets.Text.TextAdapter.Game*
-  name: Game
-  href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_Game_
-  commentId: Overload:NetAF.Targets.Text.TextAdapter.Game
-  isSpec: "True"
-  fullName: NetAF.Targets.Text.TextAdapter.Game
-  nameWithType: TextAdapter.Game
 - uid: NetAF.Targets.Text.TextAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_RenderFrame_NetAF_Rendering_IFrame_

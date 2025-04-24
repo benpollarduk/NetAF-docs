@@ -3386,44 +3386,44 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.html"
+          "relative_path": "api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+      "Title": "NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.yml",
+      "source_relative_path": "api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.html"
+          "relative_path": "api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Hosted.Rendering.FrameBuilders.HostedRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+      "Title": "NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.yml",
+      "source_relative_path": "api/NetAF.Targets.General.FrameBuilders.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Targets.Hosted.Rendering.FrameBuilders.html"
+          "relative_path": "api/NetAF.Targets.General.FrameBuilders.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Targets.Hosted.Rendering.FrameBuilders",
+      "Title": "NetAF.Targets.General.FrameBuilders",
       "Summary": null
     },
     {
@@ -4046,11 +4046,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -4229,11 +4229,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -4362,11 +4362,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
