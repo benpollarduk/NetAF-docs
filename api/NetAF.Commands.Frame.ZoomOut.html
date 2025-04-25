@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class TextRegionMapFrameBuilder | NetAF </title>
+      <title>Class ZoomOut | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class TextRegionMapFrameBuilder | NetAF ">
+      <meta name="title" content="Class ZoomOut | NetAF ">
     
-    <meta name="description" content="Provides a builder of region map frames.">
+    <meta name="description" content="Represents the Zoom Out command.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,23 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder">
+            <article class="content wrap" id="_content" data-uid="NetAF.Commands.Frame.ZoomOut">
 
 
 
-  <h1 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder" class="text-break">Class TextRegionMapFrameBuilder</h1>
-  <div class="markdown level0 summary"><p>Provides a builder of region map frames.</p>
+  <h1 id="NetAF_Commands_Frame_ZoomOut" data-uid="NetAF.Commands.Frame.ZoomOut" class="text-break">Class ZoomOut</h1>
+  <div class="markdown level0 summary"><p>Represents the Zoom Out command.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TextRegionMapFrameBuilder</span></div>
+    <div class="level1"><span class="xref">ZoomOut</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html">IRegionMapFrameBuilder</a></div>
-    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a></div>
+    <div><a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,57 +114,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Text.html">Text</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Commands.html">Commands</a>.<a class="xref" href="NetAF.Commands.Frame.html">Frame</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_syntax">Syntax</h5>
+  <h5 id="NetAF_Commands_Frame_ZoomOut_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TextRegionMapFrameBuilder : IRegionMapFrameBuilder, IFrameBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ZoomOut : ICommand</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder__ctor_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.#ctor*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)">TextRegionMapFrameBuilder(StringBuilder, IRegionMapBuilder)</h4>
-  <div class="markdown level1 summary"><p>Provides a builder of region map frames.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextRegionMapFrameBuilder(StringBuilder builder, IRegionMapBuilder regionMapBuilder)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
-        <td><span class="parametername">builder</span></td>
-        <td><p>A builder to use for the string layout.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a></td>
-        <td><span class="parametername">regionMapBuilder</span></td>
-        <td><p>A builder for region maps.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_CommandTitle_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_CommandTitle" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle">CommandTitle</h4>
-  <div class="markdown level1 summary"><p>Get or set the command title.</p>
+  <a id="NetAF_Commands_Frame_ZoomOut_CommandHelp_" data-uid="NetAF.Commands.Frame.ZoomOut.CommandHelp*"></a>
+  <h4 id="NetAF_Commands_Frame_ZoomOut_CommandHelp" data-uid="NetAF.Commands.Frame.ZoomOut.CommandHelp">CommandHelp</h4>
+  <div class="markdown level1 summary"><p>Get the command help.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CommandTitle { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static CommandHelp CommandHelp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -177,21 +141,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)</h4>
-  <div class="markdown level1 summary"><p>Build a frame.</p>
+  <a id="NetAF_Commands_Frame_ZoomOut_GetPrompts_" data-uid="NetAF.Commands.Frame.ZoomOut.GetPrompts*"></a>
+  <h4 id="NetAF_Commands_Frame_ZoomOut_GetPrompts_NetAF_Logic_Game_" data-uid="NetAF.Commands.Frame.ZoomOut.GetPrompts(NetAF.Logic.Game)">GetPrompts(Game)</h4>
+  <div class="markdown level1 summary"><p>Get all prompts for this command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapDetail detail, CommandHelp[] contextualCommands, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public Prompt[] GetPrompts(Game game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -204,33 +168,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>The region.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
-        <td><span class="parametername">focusPosition</span></td>
-        <td><p>The position to focus on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
-        <td><span class="parametername">detail</span></td>
-        <td><p>The level of detail to use.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
-        <td><span class="parametername">contextualCommands</span></td>
-        <td><p>The contextual commands to display.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
-        <td><span class="parametername">size</span></td>
-        <td><p>The size of the frame.</p>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to get the prompts for.</p>
 </td>
       </tr>
     </tbody>
@@ -245,18 +185,58 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
-        <td><p>The frame.</p>
+        <td><a class="xref" href="NetAF.Commands.Prompt.html">Prompt</a>[]</td>
+        <td><p>And array of prompts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Commands_Frame_ZoomOut_Invoke_" data-uid="NetAF.Commands.Frame.ZoomOut.Invoke*"></a>
+  <h4 id="NetAF_Commands_Frame_ZoomOut_Invoke_NetAF_Logic_Game_" data-uid="NetAF.Commands.Frame.ZoomOut.Invoke(NetAF.Logic.Game)">Invoke(Game)</h4>
+  <div class="markdown level1 summary"><p>Invoke the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Reaction Invoke(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to invoke the command on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.Reaction.html">Reaction</a></td>
+        <td><p>The reaction.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html">IRegionMapFrameBuilder</a>
-  </div>
-  <div>
-      <a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a>
+      <a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a>
   </div>
 
 </article>

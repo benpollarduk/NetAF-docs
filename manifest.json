@@ -754,6 +754,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Frame.ZoomIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Frame.ZoomIn.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame.ZoomIn",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.ZoomIn.yml\" sourcestartlinenumber=\"1\">Represents the Zoom In command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Frame.ZoomOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Frame.ZoomOut.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Frame.ZoomOut",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.ZoomOut.yml\" sourcestartlinenumber=\"1\">Represents the Zoom Out command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Frame.yml",
       "output": {
         ".html": {
@@ -2630,6 +2658,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.RegionMapDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.RegionMapDetail.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.RegionMapDetail",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.RegionMapDetail.yml\" sourcestartlinenumber=\"1\">Enumeration of detail options for the region map.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.SceneHelper.yml",
       "output": {
         ".html": {
@@ -2991,6 +3033,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleAboutFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of console about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides an basic room map builder.</p>\n"
     },
     {
       "type": "ManagedReference",

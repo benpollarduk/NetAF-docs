@@ -311,13 +311,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_Build_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, CommandHelp[], Size)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, CommandHelp[] contextualCommands, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapDetail detail, CommandHelp[] contextualCommands, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -339,6 +339,12 @@
         <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
         <td><span class="parametername">focusPosition</span></td>
         <td><p>The position to focus on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
+        <td><span class="parametername">detail</span></td>
+        <td><p>The level of detail to use.</p>
 </td>
       </tr>
       <tr>
