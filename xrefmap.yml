@@ -9891,6 +9891,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build
   nameWithType: IRegionMapFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsPan
+  name: SupportsPan
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_SupportsPan
+  commentId: P:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsPan
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsPan
+  nameWithType: IRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsPan*
+  name: SupportsPan
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_SupportsPan_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsPan
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsPan
+  nameWithType: IRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsZoom
+  name: SupportsZoom
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_SupportsZoom
+  commentId: P:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsZoom
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsZoom
+  nameWithType: IRegionMapFrameBuilder.SupportsZoom
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsZoom*
+  name: SupportsZoom
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_SupportsZoom_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsZoom
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.SupportsZoom
+  nameWithType: IRegionMapFrameBuilder.SupportsZoom
 - uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder
   name: IRoomMapBuilder
   href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html
@@ -13162,6 +13188,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.InputColor
   nameWithType: ConsoleRegionMapFrameBuilder.InputColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsPan
+  name: SupportsPan
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_SupportsPan
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsPan
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsPan
+  nameWithType: ConsoleRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsPan*
+  name: SupportsPan
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_SupportsPan_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsPan
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsPan
+  nameWithType: ConsoleRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsZoom
+  name: SupportsZoom
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_SupportsZoom
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsZoom
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsZoom
+  nameWithType: ConsoleRegionMapFrameBuilder.SupportsZoom
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsZoom*
+  name: SupportsZoom
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_SupportsZoom_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsZoom
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.SupportsZoom
+  nameWithType: ConsoleRegionMapFrameBuilder.SupportsZoom
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.TitleColor
   name: TitleColor
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_TitleColor
@@ -14910,6 +14962,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.ShowLowerFloors
   nameWithType: GeneralRegionMapBuilder.ShowLowerFloors
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsPan
+  name: SupportsPan
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_SupportsPan
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsPan
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsPan
+  nameWithType: GeneralRegionMapBuilder.SupportsPan
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsPan*
+  name: SupportsPan
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_SupportsPan_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsPan
+  isSpec: "True"
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsPan
+  nameWithType: GeneralRegionMapBuilder.SupportsPan
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsZoom
+  name: SupportsZoom
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_SupportsZoom
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsZoom
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsZoom
+  nameWithType: GeneralRegionMapBuilder.SupportsZoom
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsZoom*
+  name: SupportsZoom
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_SupportsZoom_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsZoom
+  isSpec: "True"
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.SupportsZoom
+  nameWithType: GeneralRegionMapBuilder.SupportsZoom
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.UnLockedExit
   name: UnLockedExit
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_UnLockedExit
@@ -15683,6 +15761,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.CommandTitle
   nameWithType: HtmlRegionMapFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsPan
+  name: SupportsPan
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_SupportsPan
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsPan
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsPan
+  nameWithType: HtmlRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsPan*
+  name: SupportsPan
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_SupportsPan_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsPan
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsPan
+  nameWithType: HtmlRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsZoom
+  name: SupportsZoom
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_SupportsZoom
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsZoom
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsZoom
+  nameWithType: HtmlRegionMapFrameBuilder.SupportsZoom
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsZoom*
+  name: SupportsZoom
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_SupportsZoom_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsZoom
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.SupportsZoom
+  nameWithType: HtmlRegionMapFrameBuilder.SupportsZoom
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder
   name: HtmlRoomMapBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRoomMapBuilder.html
@@ -16577,6 +16681,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.CommandTitle
   nameWithType: TextRegionMapFrameBuilder.CommandTitle
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsPan
+  name: SupportsPan
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_SupportsPan
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsPan
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsPan
+  nameWithType: TextRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsPan*
+  name: SupportsPan
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_SupportsPan_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsPan
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsPan
+  nameWithType: TextRegionMapFrameBuilder.SupportsPan
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsZoom
+  name: SupportsZoom
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_SupportsZoom
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsZoom
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsZoom
+  nameWithType: TextRegionMapFrameBuilder.SupportsZoom
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsZoom*
+  name: SupportsZoom
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_SupportsZoom_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsZoom
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.SupportsZoom
+  nameWithType: TextRegionMapFrameBuilder.SupportsZoom
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder
   name: TextRoomMapBuilder
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRoomMapBuilder.html
