@@ -151,13 +151,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Assets_Locations_Room__ctor_" data-uid="NetAF.Assets.Locations.Room.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)">Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Room class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Room(Identifier identifier, IDescription description, IDescription introduction, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Room(Identifier identifier, IDescription description, IDescription introduction, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null, RoomTransitionCallback enterCallback = null, RoomTransitionCallback exitCallback = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -217,16 +217,28 @@
         <td><p>The examination.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">enterCallback</span></td>
+        <td><p>The callback to invoke when this room is entered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">exitCallback</span></td>
+        <td><p>The callback to invoke when this room is exited.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="NetAF_Assets_Locations_Room__ctor_" data-uid="NetAF.Assets.Locations.Room.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)">Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Room class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Room(Identifier identifier, IDescription description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Room(Identifier identifier, IDescription description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null, RoomTransitionCallback enterCallback = null, RoomTransitionCallback exitCallback = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -280,16 +292,28 @@
         <td><p>The examination.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">enterCallback</span></td>
+        <td><p>The callback to invoke when this room is entered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">exitCallback</span></td>
+        <td><p>The callback to invoke when this room is exited.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="NetAF_Assets_Locations_Room__ctor_" data-uid="NetAF.Assets.Locations.Room.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)">Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Room class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Room(string identifier, string description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Room(string identifier, string description, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null, RoomTransitionCallback enterCallback = null, RoomTransitionCallback exitCallback = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -343,16 +367,28 @@
         <td><p>The examination.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">enterCallback</span></td>
+        <td><p>The callback to invoke when this room is entered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">exitCallback</span></td>
+        <td><p>The callback to invoke when this room is exited.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="NetAF_Assets_Locations_Room__ctor_" data-uid="NetAF.Assets.Locations.Room.#ctor*"></a>
-  <h4 id="NetAF_Assets_Locations_Room__ctor_System_String_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)">Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)</h4>
+  <h4 id="NetAF_Assets_Locations_Room__ctor_System_String_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_" data-uid="NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)">Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the Room class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Room(string identifier, string description, string introduction, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Room(string identifier, string description, string introduction, Exit[] exits = null, Item[] items = null, CustomCommand[] commands = null, InteractionCallback interaction = null, ExaminationCallback examination = null, RoomTransitionCallback enterCallback = null, RoomTransitionCallback exitCallback = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -410,6 +446,18 @@
         <td><a class="xref" href="NetAF.Assets.ExaminationCallback.html">ExaminationCallback</a></td>
         <td><span class="parametername">examination</span></td>
         <td><p>The examination.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">enterCallback</span></td>
+        <td><p>The callback to invoke when this room is entered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td><span class="parametername">exitCallback</span></td>
+        <td><p>The callback to invoke when this room is exited.</p>
 </td>
       </tr>
     </tbody>
@@ -464,6 +512,30 @@
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Assets_Locations_Room_EnterCallback_" data-uid="NetAF.Assets.Locations.Room.EnterCallback*"></a>
+  <h4 id="NetAF_Assets_Locations_Room_EnterCallback" data-uid="NetAF.Assets.Locations.Room.EnterCallback">EnterCallback</h4>
+  <div class="markdown level1 summary"><p>Get the callback to invoke when this room is entered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoomTransitionCallback EnterCallback { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Assets_Locations_Room_EnteredFrom_" data-uid="NetAF.Assets.Locations.Room.EnteredFrom*"></a>
   <h4 id="NetAF_Assets_Locations_Room_EnteredFrom" data-uid="NetAF.Assets.Locations.Room.EnteredFrom">EnteredFrom</h4>
   <div class="markdown level1 summary"><p>Get which direction this room was entered from.</p>
@@ -484,6 +556,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Locations.Direction.html">Direction</a>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Assets_Locations_Room_ExitCallback_" data-uid="NetAF.Assets.Locations.Room.ExitCallback*"></a>
+  <h4 id="NetAF_Assets_Locations_Room_ExitCallback" data-uid="NetAF.Assets.Locations.Room.ExitCallback">ExitCallback</h4>
+  <div class="markdown level1 summary"><p>Get the callback to invoke when this room is exited.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoomTransitionCallback ExitCallback { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionCallback.html">RoomTransitionCallback</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1458,7 +1554,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MovedInto(Direction fromDirection)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MovedInto(Direction direction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1472,8 +1568,35 @@
     <tbody>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Locations.Direction.html">Direction</a></td>
-        <td><span class="parametername">fromDirection</span></td>
-        <td><p>The direction movement into this room.</p>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction of movement into this room.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Assets_Locations_Room_MovedOutOf_" data-uid="NetAF.Assets.Locations.Room.MovedOutOf*"></a>
+  <h4 id="NetAF_Assets_Locations_Room_MovedOutOf_System_Nullable_NetAF_Assets_Locations_Direction__" data-uid="NetAF.Assets.Locations.Room.MovedOutOf(System.Nullable{NetAF.Assets.Locations.Direction})">MovedOutOf(Direction?)</h4>
+  <div class="markdown level1 summary"><p>Handle movement out of this room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MovedOutOf(Direction? direction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Locations.Direction.html">Direction</a>?</td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction of movement out of this room.</p>
 </td>
       </tr>
     </tbody>

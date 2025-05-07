@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Attribute | NetAF </title>
+      <title>Class DescribedCondition | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Attribute | NetAF ">
+      <meta name="title" content="Class DescribedCondition | NetAF ">
     
-    <meta name="description" content="Provides a description of an attribute.">
+    <meta name="description" content="A described condition.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Assets.Attributes.Attribute">
+            <article class="content wrap" id="_content" data-uid="NetAF.Assets.DescribedCondition">
 
 
 
-  <h1 id="NetAF_Assets_Attributes_Attribute" data-uid="NetAF.Assets.Attributes.Attribute" class="text-break">Class Attribute</h1>
-  <div class="markdown level0 summary"><p>Provides a description of an attribute.</p>
+  <h1 id="NetAF_Assets_DescribedCondition" data-uid="NetAF.Assets.DescribedCondition" class="text-break">Class DescribedCondition</h1>
+  <div class="markdown level0 summary"><p>A described condition.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">Attribute</span></div>
+    <div class="level1"><span class="xref">DescribedCondition</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Assets.DescribedCondition.html">DescribedCondition</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,22 +114,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Assets.html">Assets</a>.<a class="xref" href="NetAF.Assets.Attributes.html">Attributes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Assets.html">Assets</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Assets_Attributes_Attribute_syntax">Syntax</h5>
+  <h5 id="NetAF_Assets_DescribedCondition_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Attribute : IPlayerVisible</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed record DescribedCondition : IEquatable&lt;DescribedCondition&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Assets_Attributes_Attribute__ctor_" data-uid="NetAF.Assets.Attributes.Attribute.#ctor*"></a>
-  <h4 id="NetAF_Assets_Attributes_Attribute__ctor_System_String_System_String_System_Int32_System_Int32_System_Boolean_" data-uid="NetAF.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32,System.Boolean)">Attribute(string, string, int, int, bool)</h4>
-  <div class="markdown level1 summary"><p>Provides a description of an attribute.</p>
+  <a id="NetAF_Assets_DescribedCondition__ctor_" data-uid="NetAF.Assets.DescribedCondition.#ctor*"></a>
+  <h4 id="NetAF_Assets_DescribedCondition__ctor_NetAF_Assets_Condition_System_String_" data-uid="NetAF.Assets.DescribedCondition.#ctor(NetAF.Assets.Condition,System.String)">DescribedCondition(Condition, string)</h4>
+  <div class="markdown level1 summary"><p>A described condition.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Attribute(string name, string description, int minimum, int maximum, bool isPlayerVisible)</code></pre>
+    <pre><code class="lang-csharp hljs">public DescribedCondition(Condition Condition, string Description)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -142,47 +142,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>Specify the name of the attribute.</p>
+        <td><a class="xref" href="NetAF.Assets.Condition.html">Condition</a></td>
+        <td><span class="parametername">Condition</span></td>
+        <td><p>The condition.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>Specify the description of the attribute.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">minimum</span></td>
-        <td><p>Specify the minimum limit of the attribute.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">maximum</span></td>
-        <td><p>Specify the maximum limit of the attribute.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">isPlayerVisible</span></td>
-        <td><p>Set if this is visible to the player.</p>
+        <td><span class="parametername">Description</span></td>
+        <td><p>The description of the condition.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Assets_Attributes_Attribute_Description_" data-uid="NetAF.Assets.Attributes.Attribute.Description*"></a>
-  <h4 id="NetAF_Assets_Attributes_Attribute_Description" data-uid="NetAF.Assets.Attributes.Attribute.Description">Description</h4>
-  <div class="markdown level1 summary"><p>Get the description of the attribute.</p>
+  <a id="NetAF_Assets_DescribedCondition_Condition_" data-uid="NetAF.Assets.DescribedCondition.Condition*"></a>
+  <h4 id="NetAF_Assets_DescribedCondition_Condition" data-uid="NetAF.Assets.DescribedCondition.Condition">Condition</h4>
+  <div class="markdown level1 summary"><p>The condition.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Condition Condition { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -194,91 +176,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="NetAF.Assets.Condition.html">Condition</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Assets_Attributes_Attribute_IsPlayerVisible_" data-uid="NetAF.Assets.Attributes.Attribute.IsPlayerVisible*"></a>
-  <h4 id="NetAF_Assets_Attributes_Attribute_IsPlayerVisible" data-uid="NetAF.Assets.Attributes.Attribute.IsPlayerVisible">IsPlayerVisible</h4>
-  <div class="markdown level1 summary"><p>Get or set if this is visible to the player.</p>
+  <a id="NetAF_Assets_DescribedCondition_Description_" data-uid="NetAF.Assets.DescribedCondition.Description*"></a>
+  <h4 id="NetAF_Assets_DescribedCondition_Description" data-uid="NetAF.Assets.DescribedCondition.Description">Description</h4>
+  <div class="markdown level1 summary"><p>The description of the condition.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsPlayerVisible { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Assets_Attributes_Attribute_Maximum_" data-uid="NetAF.Assets.Attributes.Attribute.Maximum*"></a>
-  <h4 id="NetAF_Assets_Attributes_Attribute_Maximum" data-uid="NetAF.Assets.Attributes.Attribute.Maximum">Maximum</h4>
-  <div class="markdown level1 summary"><p>Get the maximum limit of the attribute.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Maximum { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Assets_Attributes_Attribute_Minimum_" data-uid="NetAF.Assets.Attributes.Attribute.Minimum*"></a>
-  <h4 id="NetAF_Assets_Attributes_Attribute_Minimum" data-uid="NetAF.Assets.Attributes.Attribute.Minimum">Minimum</h4>
-  <div class="markdown level1 summary"><p>Get the minimum limit of the attribute.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Minimum { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Assets_Attributes_Attribute_Name_" data-uid="NetAF.Assets.Attributes.Attribute.Name*"></a>
-  <h4 id="NetAF_Assets_Attributes_Attribute_Name" data-uid="NetAF.Assets.Attributes.Attribute.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Get the name of the attribute.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Description { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -297,7 +207,7 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
   </div>
 
 </article>

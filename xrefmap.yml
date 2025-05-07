@@ -19,15 +19,15 @@ references:
   commentId: T:NetAF.Assets.Attributes.Attribute
   fullName: NetAF.Assets.Attributes.Attribute
   nameWithType: Attribute
-- uid: NetAF.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32)
-  name: Attribute(string, string, int, int)
-  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute__ctor_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:NetAF.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32)
-  name.vb: New(String, String, Integer, Integer)
-  fullName: NetAF.Assets.Attributes.Attribute.Attribute(string, string, int, int)
-  fullName.vb: NetAF.Assets.Attributes.Attribute.New(String, String, Integer, Integer)
-  nameWithType: Attribute.Attribute(string, string, int, int)
-  nameWithType.vb: Attribute.New(String, String, Integer, Integer)
+- uid: NetAF.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32,System.Boolean)
+  name: Attribute(string, string, int, int, bool)
+  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute__ctor_System_String_System_String_System_Int32_System_Int32_System_Boolean_
+  commentId: M:NetAF.Assets.Attributes.Attribute.#ctor(System.String,System.String,System.Int32,System.Int32,System.Boolean)
+  name.vb: New(String, String, Integer, Integer, Boolean)
+  fullName: NetAF.Assets.Attributes.Attribute.Attribute(string, string, int, int, bool)
+  fullName.vb: NetAF.Assets.Attributes.Attribute.New(String, String, Integer, Integer, Boolean)
+  nameWithType: Attribute.Attribute(string, string, int, int, bool)
+  nameWithType.vb: Attribute.New(String, String, Integer, Integer, Boolean)
 - uid: NetAF.Assets.Attributes.Attribute.#ctor*
   name: Attribute
   href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute__ctor_
@@ -51,6 +51,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Attributes.Attribute.Description
   nameWithType: Attribute.Description
+- uid: NetAF.Assets.Attributes.Attribute.IsPlayerVisible
+  name: IsPlayerVisible
+  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_IsPlayerVisible
+  commentId: P:NetAF.Assets.Attributes.Attribute.IsPlayerVisible
+  fullName: NetAF.Assets.Attributes.Attribute.IsPlayerVisible
+  nameWithType: Attribute.IsPlayerVisible
+- uid: NetAF.Assets.Attributes.Attribute.IsPlayerVisible*
+  name: IsPlayerVisible
+  href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_IsPlayerVisible_
+  commentId: Overload:NetAF.Assets.Attributes.Attribute.IsPlayerVisible
+  isSpec: "True"
+  fullName: NetAF.Assets.Attributes.Attribute.IsPlayerVisible
+  nameWithType: Attribute.IsPlayerVisible
 - uid: NetAF.Assets.Attributes.Attribute.Maximum
   name: Maximum
   href: api/NetAF.Assets.Attributes.Attribute.html#NetAF_Assets_Attributes_Attribute_Maximum
@@ -204,6 +217,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Attributes.AttributeManager.GetValue
   nameWithType: AttributeManager.GetValue
+- uid: NetAF.Assets.Attributes.AttributeManager.HasPlayerVisibleAttributes
+  name: HasPlayerVisibleAttributes
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_HasPlayerVisibleAttributes
+  commentId: P:NetAF.Assets.Attributes.AttributeManager.HasPlayerVisibleAttributes
+  fullName: NetAF.Assets.Attributes.AttributeManager.HasPlayerVisibleAttributes
+  nameWithType: AttributeManager.HasPlayerVisibleAttributes
+- uid: NetAF.Assets.Attributes.AttributeManager.HasPlayerVisibleAttributes*
+  name: HasPlayerVisibleAttributes
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_HasPlayerVisibleAttributes_
+  commentId: Overload:NetAF.Assets.Attributes.AttributeManager.HasPlayerVisibleAttributes
+  isSpec: "True"
+  fullName: NetAF.Assets.Attributes.AttributeManager.HasPlayerVisibleAttributes
+  nameWithType: AttributeManager.HasPlayerVisibleAttributes
 - uid: NetAF.Assets.Attributes.AttributeManager.Remove(NetAF.Assets.Attributes.Attribute)
   name: Remove(Attribute)
   href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Remove_NetAF_Assets_Attributes_Attribute_
@@ -635,6 +661,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.ConditionalDescription.GetDescription
   nameWithType: ConditionalDescription.GetDescription
+- uid: NetAF.Assets.DescribedCondition
+  name: DescribedCondition
+  href: api/NetAF.Assets.DescribedCondition.html
+  commentId: T:NetAF.Assets.DescribedCondition
+  fullName: NetAF.Assets.DescribedCondition
+  nameWithType: DescribedCondition
+- uid: NetAF.Assets.DescribedCondition.#ctor(NetAF.Assets.Condition,System.String)
+  name: DescribedCondition(Condition, string)
+  href: api/NetAF.Assets.DescribedCondition.html#NetAF_Assets_DescribedCondition__ctor_NetAF_Assets_Condition_System_String_
+  commentId: M:NetAF.Assets.DescribedCondition.#ctor(NetAF.Assets.Condition,System.String)
+  name.vb: New(Condition, String)
+  fullName: NetAF.Assets.DescribedCondition.DescribedCondition(NetAF.Assets.Condition, string)
+  fullName.vb: NetAF.Assets.DescribedCondition.New(NetAF.Assets.Condition, String)
+  nameWithType: DescribedCondition.DescribedCondition(Condition, string)
+  nameWithType.vb: DescribedCondition.New(Condition, String)
+- uid: NetAF.Assets.DescribedCondition.#ctor*
+  name: DescribedCondition
+  href: api/NetAF.Assets.DescribedCondition.html#NetAF_Assets_DescribedCondition__ctor_
+  commentId: Overload:NetAF.Assets.DescribedCondition.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.DescribedCondition.DescribedCondition
+  fullName.vb: NetAF.Assets.DescribedCondition.New
+  nameWithType: DescribedCondition.DescribedCondition
+  nameWithType.vb: DescribedCondition.New
+- uid: NetAF.Assets.DescribedCondition.Condition
+  name: Condition
+  href: api/NetAF.Assets.DescribedCondition.html#NetAF_Assets_DescribedCondition_Condition
+  commentId: P:NetAF.Assets.DescribedCondition.Condition
+  fullName: NetAF.Assets.DescribedCondition.Condition
+  nameWithType: DescribedCondition.Condition
+- uid: NetAF.Assets.DescribedCondition.Condition*
+  name: Condition
+  href: api/NetAF.Assets.DescribedCondition.html#NetAF_Assets_DescribedCondition_Condition_
+  commentId: Overload:NetAF.Assets.DescribedCondition.Condition
+  isSpec: "True"
+  fullName: NetAF.Assets.DescribedCondition.Condition
+  nameWithType: DescribedCondition.Condition
+- uid: NetAF.Assets.DescribedCondition.Description
+  name: Description
+  href: api/NetAF.Assets.DescribedCondition.html#NetAF_Assets_DescribedCondition_Description
+  commentId: P:NetAF.Assets.DescribedCondition.Description
+  fullName: NetAF.Assets.DescribedCondition.Description
+  nameWithType: DescribedCondition.Description
+- uid: NetAF.Assets.DescribedCondition.Description*
+  name: Description
+  href: api/NetAF.Assets.DescribedCondition.html#NetAF_Assets_DescribedCondition_Description_
+  commentId: Overload:NetAF.Assets.DescribedCondition.Description
+  isSpec: "True"
+  fullName: NetAF.Assets.DescribedCondition.Description
+  nameWithType: DescribedCondition.Description
 - uid: NetAF.Assets.Description
   name: Description
   href: api/NetAF.Assets.Description.html
@@ -2121,42 +2198,42 @@ references:
   commentId: T:NetAF.Assets.Locations.Room
   fullName: NetAF.Assets.Locations.Room
   nameWithType: Room
-- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, IDescription, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Room.Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Room.New(Identifier, IDescription, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(Identifier, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Room.Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Room.New(Identifier, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Room.Room(string, string, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Room.Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Room.New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name: Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_
-  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback)
-  name.vb: New(String, String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
-  fullName: NetAF.Assets.Locations.Room.Room(string, string, string, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback)
-  nameWithType: Room.Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback)
-  nameWithType.vb: Room.New(String, String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name: Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name.vb: New(Identifier, IDescription, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  nameWithType: Room.Room(Identifier, IDescription, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  nameWithType.vb: Room.New(Identifier, IDescription, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name: Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_NetAF_Assets_Identifier_NetAF_Assets_IDescription_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(NetAF.Assets.Identifier,NetAF.Assets.IDescription,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name.vb: New(Identifier, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(NetAF.Assets.Identifier, NetAF.Assets.IDescription, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  nameWithType: Room.Room(Identifier, IDescription, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  nameWithType.vb: Room.New(Identifier, IDescription, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name: Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name.vb: New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(string, string, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  nameWithType: Room.Room(string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  nameWithType.vb: Room.New(String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+- uid: NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name: Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_System_String_System_String_System_String_NetAF_Assets_Locations_Exit___NetAF_Assets_Item___NetAF_Commands_CustomCommand___NetAF_Assets_InteractionCallback_NetAF_Assets_ExaminationCallback_NetAF_Assets_RoomTransitionCallback_NetAF_Assets_RoomTransitionCallback_
+  commentId: M:NetAF.Assets.Locations.Room.#ctor(System.String,System.String,System.String,NetAF.Assets.Locations.Exit[],NetAF.Assets.Item[],NetAF.Commands.CustomCommand[],NetAF.Assets.InteractionCallback,NetAF.Assets.ExaminationCallback,NetAF.Assets.RoomTransitionCallback,NetAF.Assets.RoomTransitionCallback)
+  name.vb: New(String, String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  fullName: NetAF.Assets.Locations.Room.Room(string, string, string, NetAF.Assets.Locations.Exit[], NetAF.Assets.Item[], NetAF.Commands.CustomCommand[], NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  fullName.vb: NetAF.Assets.Locations.Room.New(String, String, String, NetAF.Assets.Locations.Exit(), NetAF.Assets.Item(), NetAF.Commands.CustomCommand(), NetAF.Assets.InteractionCallback, NetAF.Assets.ExaminationCallback, NetAF.Assets.RoomTransitionCallback, NetAF.Assets.RoomTransitionCallback)
+  nameWithType: Room.Room(string, string, string, Exit[], Item[], CustomCommand[], InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
+  nameWithType.vb: Room.New(String, String, String, Exit(), Item(), CustomCommand(), InteractionCallback, ExaminationCallback, RoomTransitionCallback, RoomTransitionCallback)
 - uid: NetAF.Assets.Locations.Room.#ctor*
   name: Room
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room__ctor_
@@ -2289,6 +2366,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.DefaultRoomExamination
   nameWithType: Room.DefaultRoomExamination
+- uid: NetAF.Assets.Locations.Room.EnterCallback
+  name: EnterCallback
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_EnterCallback
+  commentId: P:NetAF.Assets.Locations.Room.EnterCallback
+  fullName: NetAF.Assets.Locations.Room.EnterCallback
+  nameWithType: Room.EnterCallback
+- uid: NetAF.Assets.Locations.Room.EnterCallback*
+  name: EnterCallback
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_EnterCallback_
+  commentId: Overload:NetAF.Assets.Locations.Room.EnterCallback
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Room.EnterCallback
+  nameWithType: Room.EnterCallback
 - uid: NetAF.Assets.Locations.Room.EnteredFrom
   name: EnteredFrom
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_EnteredFrom
@@ -2302,6 +2392,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.EnteredFrom
   nameWithType: Room.EnteredFrom
+- uid: NetAF.Assets.Locations.Room.ExitCallback
+  name: ExitCallback
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ExitCallback
+  commentId: P:NetAF.Assets.Locations.Room.ExitCallback
+  fullName: NetAF.Assets.Locations.Room.ExitCallback
+  nameWithType: Room.ExitCallback
+- uid: NetAF.Assets.Locations.Room.ExitCallback*
+  name: ExitCallback
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_ExitCallback_
+  commentId: Overload:NetAF.Assets.Locations.Room.ExitCallback
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Room.ExitCallback
+  nameWithType: Room.ExitCallback
 - uid: NetAF.Assets.Locations.Room.Exits
   name: Exits
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_Exits
@@ -2545,6 +2648,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Room.MovedInto
   nameWithType: Room.MovedInto
+- uid: NetAF.Assets.Locations.Room.MovedOutOf(System.Nullable{NetAF.Assets.Locations.Direction})
+  name: MovedOutOf(Direction?)
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_MovedOutOf_System_Nullable_NetAF_Assets_Locations_Direction__
+  commentId: M:NetAF.Assets.Locations.Room.MovedOutOf(System.Nullable{NetAF.Assets.Locations.Direction})
+  fullName: NetAF.Assets.Locations.Room.MovedOutOf(NetAF.Assets.Locations.Direction?)
+  nameWithType: Room.MovedOutOf(Direction?)
+- uid: NetAF.Assets.Locations.Room.MovedOutOf*
+  name: MovedOutOf
+  href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_MovedOutOf_
+  commentId: Overload:NetAF.Assets.Locations.Room.MovedOutOf
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Room.MovedOutOf
+  nameWithType: Room.MovedOutOf
 - uid: NetAF.Assets.Locations.Room.RemoveCharacter(NetAF.Assets.Characters.NonPlayableCharacter)
   name: RemoveCharacter(NonPlayableCharacter)
   href: api/NetAF.Assets.Locations.Room.html#NetAF_Assets_Locations_Room_RemoveCharacter_NetAF_Assets_Characters_NonPlayableCharacter_
@@ -2766,6 +2882,44 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.ViewPoint.NoView
   nameWithType: ViewPoint.NoView
+- uid: NetAF.Assets.MultiConditionalDescription
+  name: MultiConditionalDescription
+  href: api/NetAF.Assets.MultiConditionalDescription.html
+  commentId: T:NetAF.Assets.MultiConditionalDescription
+  fullName: NetAF.Assets.MultiConditionalDescription
+  nameWithType: MultiConditionalDescription
+- uid: NetAF.Assets.MultiConditionalDescription.#ctor(System.String,NetAF.Assets.DescribedCondition[])
+  name: MultiConditionalDescription(string, params DescribedCondition[])
+  href: api/NetAF.Assets.MultiConditionalDescription.html#NetAF_Assets_MultiConditionalDescription__ctor_System_String_NetAF_Assets_DescribedCondition___
+  commentId: M:NetAF.Assets.MultiConditionalDescription.#ctor(System.String,NetAF.Assets.DescribedCondition[])
+  name.vb: New(String, ParamArray DescribedCondition())
+  fullName: NetAF.Assets.MultiConditionalDescription.MultiConditionalDescription(string, params NetAF.Assets.DescribedCondition[])
+  fullName.vb: NetAF.Assets.MultiConditionalDescription.New(String, ParamArray NetAF.Assets.DescribedCondition())
+  nameWithType: MultiConditionalDescription.MultiConditionalDescription(string, params DescribedCondition[])
+  nameWithType.vb: MultiConditionalDescription.New(String, ParamArray DescribedCondition())
+- uid: NetAF.Assets.MultiConditionalDescription.#ctor*
+  name: MultiConditionalDescription
+  href: api/NetAF.Assets.MultiConditionalDescription.html#NetAF_Assets_MultiConditionalDescription__ctor_
+  commentId: Overload:NetAF.Assets.MultiConditionalDescription.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.MultiConditionalDescription.MultiConditionalDescription
+  fullName.vb: NetAF.Assets.MultiConditionalDescription.New
+  nameWithType: MultiConditionalDescription.MultiConditionalDescription
+  nameWithType.vb: MultiConditionalDescription.New
+- uid: NetAF.Assets.MultiConditionalDescription.GetDescription
+  name: GetDescription()
+  href: api/NetAF.Assets.MultiConditionalDescription.html#NetAF_Assets_MultiConditionalDescription_GetDescription
+  commentId: M:NetAF.Assets.MultiConditionalDescription.GetDescription
+  fullName: NetAF.Assets.MultiConditionalDescription.GetDescription()
+  nameWithType: MultiConditionalDescription.GetDescription()
+- uid: NetAF.Assets.MultiConditionalDescription.GetDescription*
+  name: GetDescription
+  href: api/NetAF.Assets.MultiConditionalDescription.html#NetAF_Assets_MultiConditionalDescription_GetDescription_
+  commentId: Overload:NetAF.Assets.MultiConditionalDescription.GetDescription
+  isSpec: "True"
+  fullName: NetAF.Assets.MultiConditionalDescription.GetDescription
+  nameWithType: MultiConditionalDescription.GetDescription
 - uid: NetAF.Assets.Point2D
   name: Point2D
   href: api/NetAF.Assets.Point2D.html
@@ -2907,6 +3061,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Point3D.Z
   nameWithType: Point3D.Z
+- uid: NetAF.Assets.RoomTransitionCallback
+  name: RoomTransitionCallback
+  href: api/NetAF.Assets.RoomTransitionCallback.html
+  commentId: T:NetAF.Assets.RoomTransitionCallback
+  fullName: NetAF.Assets.RoomTransitionCallback
+  nameWithType: RoomTransitionCallback
 - uid: NetAF.Assets.Size
   name: Size
   href: api/NetAF.Assets.Size.html
@@ -10235,6 +10395,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.FromAttributeAndValue
   nameWithType: AttributeAndValueSerialization.FromAttributeAndValue
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.IsPlayerVisible
+  name: IsPlayerVisible
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_IsPlayerVisible
+  commentId: P:NetAF.Serialization.Assets.AttributeAndValueSerialization.IsPlayerVisible
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.IsPlayerVisible
+  nameWithType: AttributeAndValueSerialization.IsPlayerVisible
+- uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.IsPlayerVisible*
+  name: IsPlayerVisible
+  href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_IsPlayerVisible_
+  commentId: Overload:NetAF.Serialization.Assets.AttributeAndValueSerialization.IsPlayerVisible
+  isSpec: "True"
+  fullName: NetAF.Serialization.Assets.AttributeAndValueSerialization.IsPlayerVisible
+  nameWithType: AttributeAndValueSerialization.IsPlayerVisible
 - uid: NetAF.Serialization.Assets.AttributeAndValueSerialization.Maximum
   name: Maximum
   href: api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html#NetAF_Serialization_Assets_AttributeAndValueSerialization_Maximum

@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Conditional Descriptions | NetAF </title>
+      <title>Delegate RoomTransitionCallback | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Conditional Descriptions | NetAF ">
+      <meta name="title" content="Delegate RoomTransitionCallback | NetAF ">
     
-    
+    <meta name="description" content="Represents the callback for handling transitioning between rooms.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,56 +76,44 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="conditional-descriptions">Conditional Descriptions</h1>
+            <article class="content wrap" id="_content" data-uid="NetAF.Assets.RoomTransitionCallback">
 
-<h2 id="overview">Overview</h2>
-<p>Normally assets are assigned a <strong>Description</strong> during the constructor. This is what is returned when the asset is examined.</p>
-<p>Descriptions are usually specified as a string.</p>
-<pre><code class="lang-csharp">var item = new Item(&quot;The items name&quot;, &quot;The items description.&quot;);
-</code></pre>
-<p>They can also be specified as a <strong>Description</strong>.</p>
-<pre><code class="lang-csharp">var item = new Item(new Identifier(&quot;The items name&quot;), new Description(&quot;The items description.&quot;));
-</code></pre>
-<p>However, sometimes it may be desirable to have a conditional description that can change based on the state of the asset.</p>
-<p>Conditional descriptions can be specified with <strong>ConditionalDescription</strong> and contain a lambda which determines which one of two strings are returned when the asset is examined.</p>
-<pre><code class="lang-csharp">// the player, just for demo purposes
-var player = new PlayableCharacter(&quot;Ben&quot;, &quot;A man.&quot;);
 
-// the description to use when the condition is true
-var trueString = &quot;A gleaming sword, owned by Ben.&quot;;
 
-// the string to use when the condition is false
-var falseString = &quot;A gleaming sword, without an owner.&quot;;
-
-// a lambda that determines which string is returned
-Condition condition = () =&gt; player.FindItem(&quot;Sword&quot;, out _);
-
-// the conditional description itself
-var conditionalDescription = new ConditionalDescription(trueString, falseString, condition);
-
-// create the item with the conditional description
-var sword = new Item(new Identifier(&quot;Sword&quot;), conditionalDescription);
-</code></pre>
-<p>For more complicated scenarios the <strong>MultiConditionalDescription</strong> can be used to return a description for multiple different conditions.</p>
-<pre><code class="lang-csharp">// the player, just for demo purposes
-var player = new PlayableCharacter(&quot;Ben&quot;, &quot;A man.&quot;);
-
-// the description to use when no condition is true
-var fallbackString = &quot;No condition is true.&quot;;
-
-// the first described condition when
-var firstCondition = new DescribedCondition(() =&gt; player.Name == &quot;Ben&quot;, &quot;Condition 1 is true.&quot;);
-
-// the second described condition when
-var secondCondition = new DescribedCondition(() =&gt; player.Name == &quot;Dave&quot;, &quot;Condition 2 is true.&quot;);
-
-// the multi conditional description itself
-var multiConditionalDescription = new MultiConditionalDescription(fallbackString, firstCondition, secondCondition);
-
-// create the item with the conditional description
-var passport = new Item(new Identifier(&quot;Passport&quot;), multiConditionalDescription);
-</code></pre>
+  <h1 id="NetAF_Assets_RoomTransitionCallback" data-uid="NetAF.Assets.RoomTransitionCallback" class="text-break">Delegate RoomTransitionCallback</h1>
+  <div class="markdown level0 summary"><p>Represents the callback for handling transitioning between rooms.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Assets.html">Assets</a></h6>
+  <h6><strong>Assembly</strong>: NetAF.dll</h6>
+  <h5 id="NetAF_Assets_RoomTransitionCallback_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate void RoomTransitionCallback(Room room, Direction? direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Locations.Room.html">Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Locations.Direction.html">Direction</a>?</td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The direction of the transition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
