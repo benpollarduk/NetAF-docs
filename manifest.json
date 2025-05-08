@@ -558,6 +558,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Assets.RoomTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Assets.RoomTransition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Assets.RoomTransition",
+      "Summary": "<p sourcefile=\"api/NetAF.Assets.RoomTransition.yml\" sourcestartlinenumber=\"1\">Provides information on a transition between rooms.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Assets.RoomTransitionCallback.yml",
       "output": {
         ".html": {

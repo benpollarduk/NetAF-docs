@@ -88,7 +88,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Assets_RoomTransitionCallback_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void RoomTransitionCallback(Room room, Direction? direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void RoomTransitionCallback(RoomTransition transition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -101,15 +101,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Room.html">Room</a></td>
-        <td><span class="parametername">room</span></td>
-        <td><p>The room.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Direction.html">Direction</a>?</td>
-        <td><span class="parametername">direction</span></td>
-        <td><p>The direction of the transition.</p>
+        <td><a class="xref" href="NetAF.Assets.RoomTransition.html">RoomTransition</a></td>
+        <td><span class="parametername">transition</span></td>
+        <td><p>The transition.</p>
 </td>
       </tr>
     </tbody>
