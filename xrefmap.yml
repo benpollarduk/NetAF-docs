@@ -265,6 +265,31 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Attributes.AttributeManager.RemoveAll
   nameWithType: AttributeManager.RemoveAll
+- uid: NetAF.Assets.Attributes.AttributeManager.Set(NetAF.Assets.Attributes.Attribute,System.Int32)
+  name: Set(Attribute, int)
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Set_NetAF_Assets_Attributes_Attribute_System_Int32_
+  commentId: M:NetAF.Assets.Attributes.AttributeManager.Set(NetAF.Assets.Attributes.Attribute,System.Int32)
+  name.vb: Set(Attribute, Integer)
+  fullName: NetAF.Assets.Attributes.AttributeManager.Set(NetAF.Assets.Attributes.Attribute, int)
+  fullName.vb: NetAF.Assets.Attributes.AttributeManager.Set(NetAF.Assets.Attributes.Attribute, Integer)
+  nameWithType: AttributeManager.Set(Attribute, int)
+  nameWithType.vb: AttributeManager.Set(Attribute, Integer)
+- uid: NetAF.Assets.Attributes.AttributeManager.Set(System.String,System.Int32)
+  name: Set(string, int)
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Set_System_String_System_Int32_
+  commentId: M:NetAF.Assets.Attributes.AttributeManager.Set(System.String,System.Int32)
+  name.vb: Set(String, Integer)
+  fullName: NetAF.Assets.Attributes.AttributeManager.Set(string, int)
+  fullName.vb: NetAF.Assets.Attributes.AttributeManager.Set(String, Integer)
+  nameWithType: AttributeManager.Set(string, int)
+  nameWithType.vb: AttributeManager.Set(String, Integer)
+- uid: NetAF.Assets.Attributes.AttributeManager.Set*
+  name: Set
+  href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Set_
+  commentId: Overload:NetAF.Assets.Attributes.AttributeManager.Set
+  isSpec: "True"
+  fullName: NetAF.Assets.Attributes.AttributeManager.Set
+  nameWithType: AttributeManager.Set
 - uid: NetAF.Assets.Attributes.AttributeManager.Subtract(NetAF.Assets.Attributes.Attribute,System.Int32)
   name: Subtract(Attribute, int)
   href: api/NetAF.Assets.Attributes.AttributeManager.html#NetAF_Assets_Attributes_AttributeManager_Subtract_NetAF_Assets_Attributes_Attribute_System_Int32_
@@ -629,6 +654,15 @@ references:
   commentId: T:NetAF.Assets.ConditionalDescription
   fullName: NetAF.Assets.ConditionalDescription
   nameWithType: ConditionalDescription
+- uid: NetAF.Assets.ConditionalDescription.#ctor(System.String,NetAF.Assets.DescribedCondition)
+  name: ConditionalDescription(string, DescribedCondition)
+  href: api/NetAF.Assets.ConditionalDescription.html#NetAF_Assets_ConditionalDescription__ctor_System_String_NetAF_Assets_DescribedCondition_
+  commentId: M:NetAF.Assets.ConditionalDescription.#ctor(System.String,NetAF.Assets.DescribedCondition)
+  name.vb: New(String, DescribedCondition)
+  fullName: NetAF.Assets.ConditionalDescription.ConditionalDescription(string, NetAF.Assets.DescribedCondition)
+  fullName.vb: NetAF.Assets.ConditionalDescription.New(String, NetAF.Assets.DescribedCondition)
+  nameWithType: ConditionalDescription.ConditionalDescription(string, DescribedCondition)
+  nameWithType.vb: ConditionalDescription.New(String, DescribedCondition)
 - uid: NetAF.Assets.ConditionalDescription.#ctor(System.String,System.String,NetAF.Assets.Condition)
   name: ConditionalDescription(string, string, Condition)
   href: api/NetAF.Assets.ConditionalDescription.html#NetAF_Assets_ConditionalDescription__ctor_System_String_System_String_NetAF_Assets_Condition_
