@@ -88,7 +88,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Assets_RoomTransitionCallback_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void RoomTransitionCallback(RoomTransition transition)</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate RoomTransitionReaction RoomTransitionCallback(RoomTransition transition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -104,6 +104,22 @@
         <td><a class="xref" href="NetAF.Assets.RoomTransition.html">RoomTransition</a></td>
         <td><span class="parametername">transition</span></td>
         <td><p>The transition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.RoomTransitionReaction.html">RoomTransitionReaction</a></td>
+        <td><p>The reaction to the transition.</p>
 </td>
       </tr>
     </tbody>

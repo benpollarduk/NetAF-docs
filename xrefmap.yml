@@ -3069,15 +3069,15 @@ references:
   commentId: T:NetAF.Assets.RoomTransition
   fullName: NetAF.Assets.RoomTransition
   nameWithType: RoomTransition
-- uid: NetAF.Assets.RoomTransition.#ctor(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Exit,NetAF.Assets.Locations.Exit,System.Nullable{NetAF.Assets.Locations.Direction})
-  name: RoomTransition(Room, Room, Exit, Exit, Direction?)
-  href: api/NetAF.Assets.RoomTransition.html#NetAF_Assets_RoomTransition__ctor_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_Exit_NetAF_Assets_Locations_Exit_System_Nullable_NetAF_Assets_Locations_Direction__
-  commentId: M:NetAF.Assets.RoomTransition.#ctor(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Exit,NetAF.Assets.Locations.Exit,System.Nullable{NetAF.Assets.Locations.Direction})
-  name.vb: New(Room, Room, Exit, Exit, Direction?)
-  fullName: NetAF.Assets.RoomTransition.RoomTransition(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Direction?)
-  fullName.vb: NetAF.Assets.RoomTransition.New(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Direction?)
-  nameWithType: RoomTransition.RoomTransition(Room, Room, Exit, Exit, Direction?)
-  nameWithType.vb: RoomTransition.New(Room, Room, Exit, Exit, Direction?)
+- uid: NetAF.Assets.RoomTransition.#ctor(NetAF.Assets.Locations.Region,NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Exit,NetAF.Assets.Locations.Exit,System.Nullable{NetAF.Assets.Locations.Direction})
+  name: RoomTransition(Region, Room, Room, Exit, Exit, Direction?)
+  href: api/NetAF.Assets.RoomTransition.html#NetAF_Assets_RoomTransition__ctor_NetAF_Assets_Locations_Region_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_Exit_NetAF_Assets_Locations_Exit_System_Nullable_NetAF_Assets_Locations_Direction__
+  commentId: M:NetAF.Assets.RoomTransition.#ctor(NetAF.Assets.Locations.Region,NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Exit,NetAF.Assets.Locations.Exit,System.Nullable{NetAF.Assets.Locations.Direction})
+  name.vb: New(Region, Room, Room, Exit, Exit, Direction?)
+  fullName: NetAF.Assets.RoomTransition.RoomTransition(NetAF.Assets.Locations.Region, NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Direction?)
+  fullName.vb: NetAF.Assets.RoomTransition.New(NetAF.Assets.Locations.Region, NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Exit, NetAF.Assets.Locations.Direction?)
+  nameWithType: RoomTransition.RoomTransition(Region, Room, Room, Exit, Exit, Direction?)
+  nameWithType.vb: RoomTransition.New(Region, Room, Room, Exit, Exit, Direction?)
 - uid: NetAF.Assets.RoomTransition.#ctor*
   name: RoomTransition
   href: api/NetAF.Assets.RoomTransition.html#NetAF_Assets_RoomTransition__ctor_
@@ -3140,6 +3140,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.RoomTransition.Exit
   nameWithType: RoomTransition.Exit
+- uid: NetAF.Assets.RoomTransition.Region
+  name: Region
+  href: api/NetAF.Assets.RoomTransition.html#NetAF_Assets_RoomTransition_Region
+  commentId: P:NetAF.Assets.RoomTransition.Region
+  fullName: NetAF.Assets.RoomTransition.Region
+  nameWithType: RoomTransition.Region
+- uid: NetAF.Assets.RoomTransition.Region*
+  name: Region
+  href: api/NetAF.Assets.RoomTransition.html#NetAF_Assets_RoomTransition_Region_
+  commentId: Overload:NetAF.Assets.RoomTransition.Region
+  isSpec: "True"
+  fullName: NetAF.Assets.RoomTransition.Region
+  nameWithType: RoomTransition.Region
 - uid: NetAF.Assets.RoomTransition.Room
   name: Room
   href: api/NetAF.Assets.RoomTransition.html#NetAF_Assets_RoomTransition_Room
@@ -3159,6 +3172,57 @@ references:
   commentId: T:NetAF.Assets.RoomTransitionCallback
   fullName: NetAF.Assets.RoomTransitionCallback
   nameWithType: RoomTransitionCallback
+- uid: NetAF.Assets.RoomTransitionReaction
+  name: RoomTransitionReaction
+  href: api/NetAF.Assets.RoomTransitionReaction.html
+  commentId: T:NetAF.Assets.RoomTransitionReaction
+  fullName: NetAF.Assets.RoomTransitionReaction
+  nameWithType: RoomTransitionReaction
+- uid: NetAF.Assets.RoomTransitionReaction.#ctor(NetAF.Commands.Reaction,System.Boolean)
+  name: RoomTransitionReaction(Reaction, bool)
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction__ctor_NetAF_Commands_Reaction_System_Boolean_
+  commentId: M:NetAF.Assets.RoomTransitionReaction.#ctor(NetAF.Commands.Reaction,System.Boolean)
+  name.vb: New(Reaction, Boolean)
+  fullName: NetAF.Assets.RoomTransitionReaction.RoomTransitionReaction(NetAF.Commands.Reaction, bool)
+  fullName.vb: NetAF.Assets.RoomTransitionReaction.New(NetAF.Commands.Reaction, Boolean)
+  nameWithType: RoomTransitionReaction.RoomTransitionReaction(Reaction, bool)
+  nameWithType.vb: RoomTransitionReaction.New(Reaction, Boolean)
+- uid: NetAF.Assets.RoomTransitionReaction.#ctor*
+  name: RoomTransitionReaction
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction__ctor_
+  commentId: Overload:NetAF.Assets.RoomTransitionReaction.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Assets.RoomTransitionReaction.RoomTransitionReaction
+  fullName.vb: NetAF.Assets.RoomTransitionReaction.New
+  nameWithType: RoomTransitionReaction.RoomTransitionReaction
+  nameWithType.vb: RoomTransitionReaction.New
+- uid: NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
+  name: ContinueWithTransition
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_ContinueWithTransition
+  commentId: P:NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
+  fullName: NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
+  nameWithType: RoomTransitionReaction.ContinueWithTransition
+- uid: NetAF.Assets.RoomTransitionReaction.ContinueWithTransition*
+  name: ContinueWithTransition
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_ContinueWithTransition_
+  commentId: Overload:NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
+  isSpec: "True"
+  fullName: NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
+  nameWithType: RoomTransitionReaction.ContinueWithTransition
+- uid: NetAF.Assets.RoomTransitionReaction.Reaction
+  name: Reaction
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Reaction
+  commentId: P:NetAF.Assets.RoomTransitionReaction.Reaction
+  fullName: NetAF.Assets.RoomTransitionReaction.Reaction
+  nameWithType: RoomTransitionReaction.Reaction
+- uid: NetAF.Assets.RoomTransitionReaction.Reaction*
+  name: Reaction
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Reaction_
+  commentId: Overload:NetAF.Assets.RoomTransitionReaction.Reaction
+  isSpec: "True"
+  fullName: NetAF.Assets.RoomTransitionReaction.Reaction
+  nameWithType: RoomTransitionReaction.Reaction
 - uid: NetAF.Assets.Size
   name: Size
   href: api/NetAF.Assets.Size.html
