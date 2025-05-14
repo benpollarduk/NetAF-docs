@@ -3210,6 +3210,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
   nameWithType: RoomTransitionReaction.ContinueWithTransition
+- uid: NetAF.Assets.RoomTransitionReaction.Inform
+  name: Inform
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Inform
+  commentId: P:NetAF.Assets.RoomTransitionReaction.Inform
+  fullName: NetAF.Assets.RoomTransitionReaction.Inform
+  nameWithType: RoomTransitionReaction.Inform
+- uid: NetAF.Assets.RoomTransitionReaction.Inform*
+  name: Inform
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Inform_
+  commentId: Overload:NetAF.Assets.RoomTransitionReaction.Inform
+  isSpec: "True"
+  fullName: NetAF.Assets.RoomTransitionReaction.Inform
+  nameWithType: RoomTransitionReaction.Inform
 - uid: NetAF.Assets.RoomTransitionReaction.Reaction
   name: Reaction
   href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Reaction
@@ -3223,6 +3236,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.RoomTransitionReaction.Reaction
   nameWithType: RoomTransitionReaction.Reaction
+- uid: NetAF.Assets.RoomTransitionReaction.Silent
+  name: Silent
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Silent
+  commentId: P:NetAF.Assets.RoomTransitionReaction.Silent
+  fullName: NetAF.Assets.RoomTransitionReaction.Silent
+  nameWithType: RoomTransitionReaction.Silent
+- uid: NetAF.Assets.RoomTransitionReaction.Silent*
+  name: Silent
+  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Silent_
+  commentId: Overload:NetAF.Assets.RoomTransitionReaction.Silent
+  isSpec: "True"
+  fullName: NetAF.Assets.RoomTransitionReaction.Silent
+  nameWithType: RoomTransitionReaction.Silent
 - uid: NetAF.Assets.Size
   name: Size
   href: api/NetAF.Assets.Size.html
@@ -4631,6 +4657,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Reaction.Description
   nameWithType: Reaction.Description
+- uid: NetAF.Commands.Reaction.Inform
+  name: Inform
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Inform
+  commentId: P:NetAF.Commands.Reaction.Inform
+  fullName: NetAF.Commands.Reaction.Inform
+  nameWithType: Reaction.Inform
+- uid: NetAF.Commands.Reaction.Inform*
+  name: Inform
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Inform_
+  commentId: Overload:NetAF.Commands.Reaction.Inform
+  isSpec: "True"
+  fullName: NetAF.Commands.Reaction.Inform
+  nameWithType: Reaction.Inform
 - uid: NetAF.Commands.Reaction.Result
   name: Result
   href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Result
@@ -4644,6 +4683,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Reaction.Result
   nameWithType: Reaction.Result
+- uid: NetAF.Commands.Reaction.Silent
+  name: Silent
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Silent
+  commentId: P:NetAF.Commands.Reaction.Silent
+  fullName: NetAF.Commands.Reaction.Silent
+  nameWithType: Reaction.Silent
+- uid: NetAF.Commands.Reaction.Silent*
+  name: Silent
+  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Silent_
+  commentId: Overload:NetAF.Commands.Reaction.Silent
+  isSpec: "True"
+  fullName: NetAF.Commands.Reaction.Silent
+  nameWithType: Reaction.Silent
 - uid: NetAF.Commands.Reaction.Title
   name: Title
   href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Title
