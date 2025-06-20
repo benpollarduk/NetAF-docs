@@ -3210,19 +3210,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.RoomTransitionReaction.ContinueWithTransition
   nameWithType: RoomTransitionReaction.ContinueWithTransition
-- uid: NetAF.Assets.RoomTransitionReaction.Inform
-  name: Inform
-  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Inform
-  commentId: P:NetAF.Assets.RoomTransitionReaction.Inform
-  fullName: NetAF.Assets.RoomTransitionReaction.Inform
-  nameWithType: RoomTransitionReaction.Inform
-- uid: NetAF.Assets.RoomTransitionReaction.Inform*
-  name: Inform
-  href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Inform_
-  commentId: Overload:NetAF.Assets.RoomTransitionReaction.Inform
-  isSpec: "True"
-  fullName: NetAF.Assets.RoomTransitionReaction.Inform
-  nameWithType: RoomTransitionReaction.Inform
 - uid: NetAF.Assets.RoomTransitionReaction.Reaction
   name: Reaction
   href: api/NetAF.Assets.RoomTransitionReaction.html#NetAF_Assets_RoomTransitionReaction_Reaction
@@ -4657,19 +4644,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Reaction.Description
   nameWithType: Reaction.Description
-- uid: NetAF.Commands.Reaction.Inform
-  name: Inform
-  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Inform
-  commentId: P:NetAF.Commands.Reaction.Inform
-  fullName: NetAF.Commands.Reaction.Inform
-  nameWithType: Reaction.Inform
-- uid: NetAF.Commands.Reaction.Inform*
-  name: Inform
-  href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Inform_
-  commentId: Overload:NetAF.Commands.Reaction.Inform
-  isSpec: "True"
-  fullName: NetAF.Commands.Reaction.Inform
-  nameWithType: Reaction.Inform
 - uid: NetAF.Commands.Reaction.Result
   name: Result
   href: api/NetAF.Commands.Reaction.html#NetAF_Commands_Reaction_Result
