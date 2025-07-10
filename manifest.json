@@ -824,34 +824,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Frame.ZoomIn.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Frame.ZoomIn.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Frame.ZoomIn",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.ZoomIn.yml\" sourcestartlinenumber=\"1\">Represents the Zoom In command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Frame.ZoomOut.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Frame.ZoomOut.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Frame.ZoomOut",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.ZoomOut.yml\" sourcestartlinenumber=\"1\">Represents the Zoom Out command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Frame.yml",
       "output": {
         ".html": {
@@ -1115,6 +1087,34 @@
       "IsMRef": true,
       "Title": "NetAF.Commands.RegionMap.PanReset",
       "Summary": "<p sourcefile=\"api/NetAF.Commands.RegionMap.PanReset.yml\" sourcestartlinenumber=\"1\">Represents the PanReset command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.RegionMap.ZoomIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.RegionMap.ZoomIn.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.RegionMap.ZoomIn",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.RegionMap.ZoomIn.yml\" sourcestartlinenumber=\"1\">Represents the Zoom In command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.RegionMap.ZoomOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.RegionMap.ZoomOut.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.RegionMap.ZoomOut",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.RegionMap.ZoomOut.yml\" sourcestartlinenumber=\"1\">Represents the Zoom Out command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2966,6 +2966,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.VariableManagerSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.VariableManagerSerialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.VariableManagerSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.VariableManagerSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a VariableManager.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Serialization.Assets.VariableSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Serialization.Assets.VariableSerialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Serialization.Assets.VariableSerialization",
+      "Summary": "<p sourcefile=\"api/NetAF.Serialization.Assets.VariableSerialization.yml\" sourcestartlinenumber=\"1\">Represents a serialization of a Variable.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Serialization.Assets.yml",
       "output": {
         ".html": {
@@ -4169,6 +4197,48 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Variables.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Variables.Variable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Variables.Variable",
+      "Summary": "<p sourcefile=\"api/NetAF.Variables.Variable.yml\" sourcestartlinenumber=\"1\">Provides a variable.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Variables.VariableManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Variables.VariableManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Variables.VariableManager",
+      "Summary": "<p sourcefile=\"api/NetAF.Variables.VariableManager.yml\" sourcestartlinenumber=\"1\">Provides a manager for in-game variables.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Variables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Variables.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Variables",
+      "Summary": null
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
@@ -4360,6 +4430,16 @@
         },
         ".json": {
           "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/variables.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/variables.html"
         }
       },
       "version": ""

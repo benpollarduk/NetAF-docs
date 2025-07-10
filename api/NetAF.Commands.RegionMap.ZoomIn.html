@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class GameSerialization | NetAF </title>
+      <title>Class ZoomIn | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class GameSerialization | NetAF ">
+      <meta name="title" content="Class ZoomIn | NetAF ">
     
-    <meta name="description" content="Represents a serialization of a Game.">
+    <meta name="description" content="Represents the Zoom In command.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Serialization.GameSerialization">
+            <article class="content wrap" id="_content" data-uid="NetAF.Commands.RegionMap.ZoomIn">
 
 
 
-  <h1 id="NetAF_Serialization_GameSerialization" data-uid="NetAF.Serialization.GameSerialization" class="text-break">Class GameSerialization</h1>
-  <div class="markdown level0 summary"><p>Represents a serialization of a Game.</p>
+  <h1 id="NetAF_Commands_RegionMap_ZoomIn" data-uid="NetAF.Commands.RegionMap.ZoomIn" class="text-break">Class ZoomIn</h1>
+  <div class="markdown level0 summary"><p>Represents the Zoom In command.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">GameSerialization</span></div>
+    <div class="level1"><span class="xref">ZoomIn</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,31 +108,28 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Serialization.html">Serialization</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Commands.html">Commands</a>.<a class="xref" href="NetAF.Commands.RegionMap.html">RegionMap</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Serialization_GameSerialization_syntax">Syntax</h5>
+  <h5 id="NetAF_Commands_RegionMap_ZoomIn_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameSerialization</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ZoomIn : ICommand</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Serialization_GameSerialization_ActivePlayerIdentifier_" data-uid="NetAF.Serialization.GameSerialization.ActivePlayerIdentifier*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_ActivePlayerIdentifier" data-uid="NetAF.Serialization.GameSerialization.ActivePlayerIdentifier">ActivePlayerIdentifier</h4>
-  <div class="markdown level1 summary"><p>Get or set the active player identifier.</p>
+  <a id="NetAF_Commands_RegionMap_ZoomIn_CommandHelp_" data-uid="NetAF.Commands.RegionMap.ZoomIn.CommandHelp*"></a>
+  <h4 id="NetAF_Commands_RegionMap_ZoomIn_CommandHelp" data-uid="NetAF.Commands.RegionMap.ZoomIn.CommandHelp">CommandHelp</h4>
+  <div class="markdown level1 summary"><p>Get the command help.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ActivePlayerIdentifier { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static CommandHelp CommandHelp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -140,141 +141,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_InactivePlayerLocations_" data-uid="NetAF.Serialization.GameSerialization.InactivePlayerLocations*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_InactivePlayerLocations" data-uid="NetAF.Serialization.GameSerialization.InactivePlayerLocations">InactivePlayerLocations</h4>
-  <div class="markdown level1 summary"><p>Get or set the overworld serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayableCharacterLocationSerialization[] InactivePlayerLocations { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.PlayableCharacterLocationSerialization.html">PlayableCharacterLocationSerialization</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_NoteManager_" data-uid="NetAF.Serialization.GameSerialization.NoteManager*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_NoteManager" data-uid="NetAF.Serialization.GameSerialization.NoteManager">NoteManager</h4>
-  <div class="markdown level1 summary"><p>Get or set the note manager serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NoteManagerSerialization NoteManager { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.NoteManagerSerialization.html">NoteManagerSerialization</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_Overworld_" data-uid="NetAF.Serialization.GameSerialization.Overworld*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_Overworld" data-uid="NetAF.Serialization.GameSerialization.Overworld">Overworld</h4>
-  <div class="markdown level1 summary"><p>Get or set the overworld serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OverworldSerialization Overworld { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.OverworldSerialization.html">OverworldSerialization</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_Players_" data-uid="NetAF.Serialization.GameSerialization.Players*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_Players" data-uid="NetAF.Serialization.GameSerialization.Players">Players</h4>
-  <div class="markdown level1 summary"><p>Get or set the player serializations.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharacterSerialization[] Players { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.CharacterSerialization.html">CharacterSerialization</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Serialization_GameSerialization_VariableManager_" data-uid="NetAF.Serialization.GameSerialization.VariableManager*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_VariableManager" data-uid="NetAF.Serialization.GameSerialization.VariableManager">VariableManager</h4>
-  <div class="markdown level1 summary"><p>Get or set the variable manager serialization.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VariableManagerSerialization VariableManager { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Serialization.Assets.VariableManagerSerialization.html">VariableManagerSerialization</a></td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Serialization_GameSerialization_FromGame_" data-uid="NetAF.Serialization.GameSerialization.FromGame*"></a>
-  <h4 id="NetAF_Serialization_GameSerialization_FromGame_NetAF_Logic_Game_" data-uid="NetAF.Serialization.GameSerialization.FromGame(NetAF.Logic.Game)">FromGame(Game)</h4>
-  <div class="markdown level1 summary"><p>Create a new serialization from a Game.</p>
+  <a id="NetAF_Commands_RegionMap_ZoomIn_GetPrompts_" data-uid="NetAF.Commands.RegionMap.ZoomIn.GetPrompts*"></a>
+  <h4 id="NetAF_Commands_RegionMap_ZoomIn_GetPrompts_NetAF_Logic_Game_" data-uid="NetAF.Commands.RegionMap.ZoomIn.GetPrompts(NetAF.Logic.Game)">GetPrompts(Game)</h4>
+  <div class="markdown level1 summary"><p>Get all prompts for this command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameSerialization FromGame(Game game)</code></pre>
+    <pre><code class="lang-csharp hljs">public Prompt[] GetPrompts(Game game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -289,7 +170,7 @@
       <tr>
         <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
         <td><span class="parametername">game</span></td>
-        <td><p>The Game to create the serialization from.</p>
+        <td><p>The game to get the prompts for.</p>
 </td>
       </tr>
     </tbody>
@@ -304,12 +185,59 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Serialization.GameSerialization.html">GameSerialization</a></td>
-        <td><p>The serialization.</p>
+        <td><a class="xref" href="NetAF.Commands.Prompt.html">Prompt</a>[]</td>
+        <td><p>And array of prompts.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Commands_RegionMap_ZoomIn_Invoke_" data-uid="NetAF.Commands.RegionMap.ZoomIn.Invoke*"></a>
+  <h4 id="NetAF_Commands_RegionMap_ZoomIn_Invoke_NetAF_Logic_Game_" data-uid="NetAF.Commands.RegionMap.ZoomIn.Invoke(NetAF.Logic.Game)">Invoke(Game)</h4>
+  <div class="markdown level1 summary"><p>Invoke the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Reaction Invoke(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to invoke the command on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.Reaction.html">Reaction</a></td>
+        <td><p>The reaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a>
+  </div>
 
 </article>
           </div>
