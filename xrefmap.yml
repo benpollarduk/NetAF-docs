@@ -3656,6 +3656,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.CustomCommand.Arguments
   nameWithType: CustomCommand.Arguments
+- uid: NetAF.Commands.CustomCommand.ClearPrompts
+  name: ClearPrompts()
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_ClearPrompts
+  commentId: M:NetAF.Commands.CustomCommand.ClearPrompts
+  fullName: NetAF.Commands.CustomCommand.ClearPrompts()
+  nameWithType: CustomCommand.ClearPrompts()
+- uid: NetAF.Commands.CustomCommand.ClearPrompts*
+  name: ClearPrompts
+  href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_ClearPrompts_
+  commentId: Overload:NetAF.Commands.CustomCommand.ClearPrompts
+  isSpec: "True"
+  fullName: NetAF.Commands.CustomCommand.ClearPrompts
+  nameWithType: CustomCommand.ClearPrompts
 - uid: NetAF.Commands.CustomCommand.Clone
   name: Clone()
   href: api/NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Clone
