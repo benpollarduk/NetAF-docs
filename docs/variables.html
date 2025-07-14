@@ -91,13 +91,19 @@
 <pre><code class="lang-csharp">game.VariableManager.Remove(&quot;value 1&quot;);
 </code></pre>
 <h2 id="finding-a-variable">Finding a variable</h2>
-<p>To find a value use the <strong>Find</strong> method on the games <strong>VariableManager</strong>.</p>
-<pre><code class="lang-csharp">var variable = game.VariableManager.Find(&quot;value 1&quot;);
+<p>To find a value use the <strong>Get</strong> method on the games <strong>VariableManager</strong>.</p>
+<pre><code class="lang-csharp">var variable = game.VariableManager.Get(&quot;value 1&quot;);
+</code></pre>
+<p>or a shorter version:</p>
+<pre><code class="lang-csharp">var value = game.VariableManager[&quot;value 1&quot;];
 </code></pre>
 <h2 id="updating-a-variable">Updating a variable</h2>
-<p>To update a value use the <strong>Find</strong> method on the games <strong>VariableManager</strong>.</p>
-<pre><code class="lang-csharp">var variable = game.VariableManager.Find(&quot;value 1&quot;);
+<p>To update a value use the <strong>Get</strong> method on the games <strong>VariableManager</strong>.</p>
+<pre><code class="lang-csharp">var variable = game.VariableManager.Get(&quot;value 1&quot;);
 variable.Value = &quot;new value&quot;;
+</code></pre>
+<p>or a shorter version:</p>
+<pre><code class="lang-csharp">game.VariableManager[&quot;value 1&quot;] = &quot;new value&quot;;
 </code></pre>
 <h2 id="getting-a-reference-to-game">Getting a reference to Game</h2>
 <p>In some contexts no local reference will be available to point to the instance of the running <em>Game</em>. In these cases <strong>GameExecutor.ExecutingGame</strong> can be used.</p>

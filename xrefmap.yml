@@ -17907,6 +17907,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Variables.VariableManager.FromSerialization
   nameWithType: VariableManager.FromSerialization
+- uid: NetAF.Variables.VariableManager.Get(System.String)
+  name: Get(string)
+  href: api/NetAF.Variables.VariableManager.html#NetAF_Variables_VariableManager_Get_System_String_
+  commentId: M:NetAF.Variables.VariableManager.Get(System.String)
+  name.vb: Get(String)
+  fullName: NetAF.Variables.VariableManager.Get(string)
+  fullName.vb: NetAF.Variables.VariableManager.Get(String)
+  nameWithType: VariableManager.Get(string)
+  nameWithType.vb: VariableManager.Get(String)
+- uid: NetAF.Variables.VariableManager.Get*
+  name: Get
+  href: api/NetAF.Variables.VariableManager.html#NetAF_Variables_VariableManager_Get_
+  commentId: Overload:NetAF.Variables.VariableManager.Get
+  isSpec: "True"
+  fullName: NetAF.Variables.VariableManager.Get
+  nameWithType: VariableManager.Get
 - uid: NetAF.Variables.VariableManager.GetAll
   name: GetAll()
   href: api/NetAF.Variables.VariableManager.html#NetAF_Variables_VariableManager_GetAll
@@ -17920,6 +17936,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Variables.VariableManager.GetAll
   nameWithType: VariableManager.GetAll
+- uid: NetAF.Variables.VariableManager.Item(System.String)
+  name: this[string]
+  href: api/NetAF.Variables.VariableManager.html#NetAF_Variables_VariableManager_Item_System_String_
+  commentId: P:NetAF.Variables.VariableManager.Item(System.String)
+  name.vb: this[](String)
+  fullName: NetAF.Variables.VariableManager.this[string]
+  fullName.vb: NetAF.Variables.VariableManager.this[](String)
+  nameWithType: VariableManager.this[string]
+  nameWithType.vb: VariableManager.this[](String)
+- uid: NetAF.Variables.VariableManager.Item*
+  name: this
+  href: api/NetAF.Variables.VariableManager.html#NetAF_Variables_VariableManager_Item_
+  commentId: Overload:NetAF.Variables.VariableManager.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: NetAF.Variables.VariableManager.this
+  fullName.vb: NetAF.Variables.VariableManager.this[]
+  nameWithType: VariableManager.this
+  nameWithType.vb: VariableManager.this[]
 - uid: NetAF.Variables.VariableManager.Remove(NetAF.Variables.Variable)
   name: Remove(Variable)
   href: api/NetAF.Variables.VariableManager.html#NetAF_Variables_VariableManager_Remove_NetAF_Variables_Variable_
