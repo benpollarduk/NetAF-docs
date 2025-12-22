@@ -119,13 +119,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Logic_GameConfiguration__ctor_" data-uid="NetAF.Logic.GameConfiguration.#ctor*"></a>
-  <h4 id="NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_FinishModes_" data-uid="NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.FinishModes)">GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, FinishModes)</h4>
+  <h4 id="NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_StartModes_NetAF_Logic_FinishModes_" data-uid="NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.StartModes,NetAF.Logic.FinishModes)">GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)</h4>
   <div class="markdown level1 summary"><p>Represents a configuration for a console game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameConfiguration(IIOAdapter adapter, FrameBuilderCollection frameBuilders, Size displaySize, FinishModes finishMode = FinishModes.ReturnToTitleScreen)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameConfiguration(IIOAdapter adapter, FrameBuilderCollection frameBuilders, Size displaySize, StartModes startMode = StartModes.TitleScreen, FinishModes finishMode = FinishModes.ReturnToTitleScreen)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -153,6 +153,12 @@
         <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
         <td><span class="parametername">displaySize</span></td>
         <td><p>The display size.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.StartModes.html">StartModes</a></td>
+        <td><span class="parametername">startMode</span></td>
+        <td><p>The start mode.</p>
 </td>
       </tr>
       <tr>
@@ -281,6 +287,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Logic_GameConfiguration_StartMode_" data-uid="NetAF.Logic.GameConfiguration.StartMode*"></a>
+  <h4 id="NetAF_Logic_GameConfiguration_StartMode" data-uid="NetAF.Logic.GameConfiguration.StartMode">StartMode</h4>
+  <div class="markdown level1 summary"><p>Get the start mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StartModes StartMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.StartModes.html">StartModes</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -8344,15 +8344,15 @@ references:
   commentId: T:NetAF.Logic.GameConfiguration
   fullName: NetAF.Logic.GameConfiguration
   nameWithType: GameConfiguration
-- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.FinishModes)
-  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_FinishModes_
-  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.FinishModes)
-  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
-  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.FinishModes)
-  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.FinishModes)
-  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
-  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, FinishModes)
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.StartModes,NetAF.Logic.FinishModes)
+  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_StartModes_NetAF_Logic_FinishModes_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.StartModes,NetAF.Logic.FinishModes)
+  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.StartModes, NetAF.Logic.FinishModes)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.StartModes, NetAF.Logic.FinishModes)
+  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
+  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
 - uid: NetAF.Logic.GameConfiguration.#ctor*
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
@@ -8428,6 +8428,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameConfiguration.Interpreter
   nameWithType: GameConfiguration.Interpreter
+- uid: NetAF.Logic.GameConfiguration.StartMode
+  name: StartMode
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_StartMode
+  commentId: P:NetAF.Logic.GameConfiguration.StartMode
+  fullName: NetAF.Logic.GameConfiguration.StartMode
+  nameWithType: GameConfiguration.StartMode
+- uid: NetAF.Logic.GameConfiguration.StartMode*
+  name: StartMode
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_StartMode_
+  commentId: Overload:NetAF.Logic.GameConfiguration.StartMode
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.StartMode
+  nameWithType: GameConfiguration.StartMode
 - uid: NetAF.Logic.GameCreator
   name: GameCreator
   href: api/NetAF.Logic.GameCreator.html
@@ -9725,6 +9738,24 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.PlayableCharacterLocation.RoomIdentifier
   nameWithType: PlayableCharacterLocation.RoomIdentifier
+- uid: NetAF.Logic.StartModes
+  name: StartModes
+  href: api/NetAF.Logic.StartModes.html
+  commentId: T:NetAF.Logic.StartModes
+  fullName: NetAF.Logic.StartModes
+  nameWithType: StartModes
+- uid: NetAF.Logic.StartModes.Scene
+  name: Scene
+  href: api/NetAF.Logic.StartModes.html#NetAF_Logic_StartModes_Scene
+  commentId: F:NetAF.Logic.StartModes.Scene
+  fullName: NetAF.Logic.StartModes.Scene
+  nameWithType: StartModes.Scene
+- uid: NetAF.Logic.StartModes.TitleScreen
+  name: TitleScreen
+  href: api/NetAF.Logic.StartModes.html#NetAF_Logic_StartModes_TitleScreen
+  commentId: F:NetAF.Logic.StartModes.TitleScreen
+  fullName: NetAF.Logic.StartModes.TitleScreen
+  nameWithType: StartModes.TitleScreen
 - uid: NetAF.Logic.UpdateResult
   name: UpdateResult
   href: api/NetAF.Logic.UpdateResult.html

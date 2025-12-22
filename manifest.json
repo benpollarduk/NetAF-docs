@@ -2322,6 +2322,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.StartModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.StartModes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.StartModes",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.StartModes.yml\" sourcestartlinenumber=\"1\">Enumeration of game start modes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.UpdateResult.yml",
       "output": {
         ".html": {
