@@ -80,7 +80,7 @@
 <h1 id="frame-builders">Frame Builders</h1>
 
 <h2 id="overview">Overview</h2>
-<p>In NetAF output is handled using the <strong>FrameBuilders</strong>. A FrameBuilder is essentially a class that builds a <strong>Frame</strong> that can render a specific state in the game. This <strong>Frame</strong> can then be rendered on a target by calling its <strong>Render</strong> method. Think of the <strong>FrameBuilder</strong> as the builder of the output and the <strong>Frame</strong> as the output itself.</p>
+<p>In NetAF output is handled using the <strong>FrameBuilders</strong>. A <strong>FrameBuilder</strong> is essentially a class that builds a <strong>Frame</strong> that can render a specific state in the game. This <strong>Frame</strong> can then be rendered on a target by calling its <strong>Render</strong> method. Think of the <strong>FrameBuilder</strong> as the builder of the output and the <strong>Frame</strong> as the output itself.</p>
 <p>There are a few types of <strong>FrameBuilder</strong>, each responsible for rendering a specific game state.</p>
 <ul>
 <li><strong>SceneFrameBuilder</strong> is responsible for building frames that render the reactions to input in a game.</li>
@@ -95,6 +95,7 @@
 <li><strong>ConversationFrameBuilder</strong> is responsible for building a frame that can render a conversation.</li>
 <li><strong>VisualFrameBuilder</strong> is responsible for building a frame to render a visual.</li>
 <li><strong>LogFrameBuilder</strong> is responsible for building a frame to render any gathered information.</li>
+<li><strong>NarrativeFrameBuilder</strong> is responsible for building a frame to render narrative.</li>
 </ul>
 <p>A game accepts a <strong>FrameBuilderCollection</strong>. A <strong>FrameBuilderCollection</strong> is a collection of all the different <strong>FrameBuilders</strong> required to render a game. All <strong>FrameBuilders</strong> are extensible, so the output for all parts of the game can be fully customised.</p>
 

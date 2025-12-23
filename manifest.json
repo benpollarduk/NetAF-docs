@@ -2224,6 +2224,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Modes.NarrativeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Modes.NarrativeMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.NarrativeMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.NarrativeMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for narrative.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.NoteMode.yml",
       "output": {
         ".html": {
@@ -2374,6 +2388,48 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Logic",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Narratives.Narrative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Narratives.Narrative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Narratives.Narrative",
+      "Summary": "<p sourcefile=\"api/NetAF.Narratives.Narrative.yml\" sourcestartlinenumber=\"1\">Provides a narrative built up from sections.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Narratives.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Narratives.Section.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Narratives.Section",
+      "Summary": "<p sourcefile=\"api/NetAF.Narratives.Section.yml\" sourcestartlinenumber=\"1\">Provides a section of narrative.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Narratives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Narratives.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Narratives",
       "Summary": null
     },
     {
@@ -2571,6 +2627,20 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.FrameBuilders.IHistoryFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.INarrativeFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.INarrativeFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.INarrativeFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.INarrativeFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build narrative frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3260,6 +3330,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of narrative frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNoteFrameBuilder.yml",
       "output": {
         ".html": {
@@ -3722,6 +3806,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of narrative frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.yml",
       "output": {
         ".html": {
@@ -3985,6 +4083,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of narrative frames.</p>\n"
     },
     {
       "type": "ManagedReference",
