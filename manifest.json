@@ -866,17 +866,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Global.Help.yml",
+      "source_relative_path": "api/NetAF.Commands.Global.GeneralHelp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Commands.Global.Help.html"
+          "relative_path": "api/NetAF.Commands.Global.GeneralHelp.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Commands.Global.Help",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.Help.yml\" sourcestartlinenumber=\"1\">Represents the Help command.</p>\n"
+      "Title": "NetAF.Commands.Global.GeneralHelp",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Global.GeneralHelp.yml\" sourcestartlinenumber=\"1\">Represents the GeneralHelp command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1706,17 +1706,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Interpretation.Interpreters.yml",
+      "source_relative_path": "api/NetAF.Interpretation.InterpreterProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Interpretation.Interpreters.html"
+          "relative_path": "api/NetAF.Interpretation.InterpreterProvider.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Interpretation.Interpreters",
-      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.Interpreters.yml\" sourcestartlinenumber=\"1\">Provides collections of interpreters.</p>\n"
+      "Title": "NetAF.Interpretation.InterpreterProvider",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.InterpreterProvider.yml\" sourcestartlinenumber=\"1\">Provides functionality for providing instances of IInterpreter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.PersistenceCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.PersistenceCommandInterpreter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.PersistenceCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.PersistenceCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting persistence commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2262,7 +2276,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Logic.Modes.SceneMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.SceneMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for a scene.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.SceneMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for a scene.</p>\n<param name=\"interpreter\">Specify the interpreter used for interpreting commands in this mode.\n"
     },
     {
       "type": "ManagedReference",

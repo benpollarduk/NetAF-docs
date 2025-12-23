@@ -87,47 +87,14 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="NetAF.Commands.CustomCommand.html">CustomCommand</a></div>
-    <div class="level2"><span class="xref">Load</span></div>
+    <div class="level1"><span class="xref">Load</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a></div>
-    <div><a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a></div>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Arguments">CustomCommand.Arguments</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Help">CustomCommand.Help</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_InterpretIfNotPlayerVisible">CustomCommand.InterpretIfNotPlayerVisible</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_AddPrompt_NetAF_Commands_Prompt_">CustomCommand.AddPrompt(Prompt)</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_RemovePrompt_NetAF_Commands_Prompt_">CustomCommand.RemovePrompt(Prompt)</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Invoke_NetAF_Logic_Game_">CustomCommand.Invoke(Game)</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_GetPrompts_NetAF_Logic_Game_">CustomCommand.GetPrompts(Game)</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_ClearPrompts">CustomCommand.ClearPrompts()</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_IsPlayerVisible">CustomCommand.IsPlayerVisible</a>
-    </div>
-    <div>
-      <a class="xref" href="NetAF.Commands.CustomCommand.html#NetAF_Commands_CustomCommand_Clone">CustomCommand.Clone()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -151,28 +118,178 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Commands_Persistence_Load_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Load : CustomCommand, ICommand, IPlayerVisible, ICloneable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Load : ICommand</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Commands_Persistence_Load__ctor_" data-uid="NetAF.Commands.Persistence.Load.#ctor*"></a>
-  <h4 id="NetAF_Commands_Persistence_Load__ctor" data-uid="NetAF.Commands.Persistence.Load.#ctor">Load()</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the Load class.</p>
+  <h4 id="NetAF_Commands_Persistence_Load__ctor_System_String_" data-uid="NetAF.Commands.Persistence.Load.#ctor(System.String)">Load(string)</h4>
+  <div class="markdown level1 summary"><p>Represents the Load command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Load()</code></pre>
+    <pre><code class="lang-csharp hljs">public Load(string path)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Commands_Persistence_Load_CommandHelp_" data-uid="NetAF.Commands.Persistence.Load.CommandHelp*"></a>
+  <h4 id="NetAF_Commands_Persistence_Load_CommandHelp" data-uid="NetAF.Commands.Persistence.Load.CommandHelp">CommandHelp</h4>
+  <div class="markdown level1 summary"><p>Get the command help.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CommandHelp CommandHelp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Commands_Persistence_Load_Help_" data-uid="NetAF.Commands.Persistence.Load.Help*"></a>
+  <h4 id="NetAF_Commands_Persistence_Load_Help" data-uid="NetAF.Commands.Persistence.Load.Help">Help</h4>
+  <div class="markdown level1 summary"><p>Get the help for this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CommandHelp Help { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="NetAF_Commands_Persistence_Load_GetPrompts_" data-uid="NetAF.Commands.Persistence.Load.GetPrompts*"></a>
+  <h4 id="NetAF_Commands_Persistence_Load_GetPrompts_NetAF_Logic_Game_" data-uid="NetAF.Commands.Persistence.Load.GetPrompts(NetAF.Logic.Game)">GetPrompts(Game)</h4>
+  <div class="markdown level1 summary"><p>Get all prompts for this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Prompt[] GetPrompts(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to get the prompts for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.Prompt.html">Prompt</a>[]</td>
+        <td><p>And array of prompts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Commands_Persistence_Load_Invoke_" data-uid="NetAF.Commands.Persistence.Load.Invoke*"></a>
+  <h4 id="NetAF_Commands_Persistence_Load_Invoke_NetAF_Logic_Game_" data-uid="NetAF.Commands.Persistence.Load.Invoke(NetAF.Logic.Game)">Invoke(Game)</h4>
+  <div class="markdown level1 summary"><p>Invoke the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Reaction Invoke(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to invoke the command on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.Reaction.html">Reaction</a></td>
+        <td><p>The reaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="NetAF.Commands.ICommand.html">ICommand</a>
-  </div>
-  <div>
-      <a class="xref" href="NetAF.Assets.IPlayerVisible.html">IPlayerVisible</a>
-  </div>
-  <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a>
   </div>
 
 </article>

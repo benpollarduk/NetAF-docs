@@ -123,13 +123,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Logic_Modes_RegionMapMode__ctor_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)">RegionMapMode(Point3D, RegionMapDetail)</h4>
+  <h4 id="NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Interpretation_IInterpreter_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Interpretation.IInterpreter)">RegionMapMode(Point3D, RegionMapDetail, IInterpreter)</h4>
   <div class="markdown level1 summary"><p>Provides a display mode for the region map.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RegionMapMode(Point3D focusPosition, RegionMapDetail detail)</code></pre>
+    <pre><code class="lang-csharp hljs">public RegionMapMode(Point3D focusPosition, RegionMapDetail detail, IInterpreter interpreter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -151,6 +151,12 @@
         <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
         <td><span class="parametername">detail</span></td>
         <td><p>The level of detail to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td><span class="parametername">interpreter</span></td>
+        <td><p>Specify the interpreter used for interpreting commands in this mode.</p>
 </td>
       </tr>
     </tbody>

@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Interpreters | NetAF </title>
+      <title>Class PersistenceCommandInterpreter | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Interpreters | NetAF ">
+      <meta name="title" content="Class PersistenceCommandInterpreter | NetAF ">
     
-    <meta name="description" content="Provides collections of interpreters.">
+    <meta name="description" content="Provides an object that can be used for interpreting persistence commands.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Interpretation.Interpreters">
+            <article class="content wrap" id="_content" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter">
 
 
 
-  <h1 id="NetAF_Interpretation_Interpreters" data-uid="NetAF.Interpretation.Interpreters" class="text-break">Class Interpreters</h1>
-  <div class="markdown level0 summary"><p>Provides collections of interpreters.</p>
+  <h1 id="NetAF_Interpretation_PersistenceCommandInterpreter" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter" class="text-break">Class PersistenceCommandInterpreter</h1>
+  <div class="markdown level0 summary"><p>Provides an object that can be used for interpreting persistence commands.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">Interpreters</span></div>
+    <div class="level1"><span class="xref">PersistenceCommandInterpreter</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,9 +108,6 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
@@ -115,20 +116,20 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Interpretation.html">Interpretation</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Interpretation_Interpreters_syntax">Syntax</h5>
+  <h5 id="NetAF_Interpretation_PersistenceCommandInterpreter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Interpreters</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PersistenceCommandInterpreter : IInterpreter</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Interpretation_Interpreters_ConversationInterpreter_" data-uid="NetAF.Interpretation.Interpreters.ConversationInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_ConversationInterpreter" data-uid="NetAF.Interpretation.Interpreters.ConversationInterpreter">ConversationInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the conversation command interpreter.</p>
+  <a id="NetAF_Interpretation_PersistenceCommandInterpreter_DefaultSupportedCommands_" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.DefaultSupportedCommands*"></a>
+  <h4 id="NetAF_Interpretation_PersistenceCommandInterpreter_DefaultSupportedCommands" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.DefaultSupportedCommands">DefaultSupportedCommands</h4>
+  <div class="markdown level1 summary"><p>Get an array of all supported commands.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter ConversationInterpreter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static CommandHelp[] DefaultSupportedCommands { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -140,19 +141,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Interpretation_Interpreters_CustomCommandInterpreter_" data-uid="NetAF.Interpretation.Interpreters.CustomCommandInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_CustomCommandInterpreter" data-uid="NetAF.Interpretation.Interpreters.CustomCommandInterpreter">CustomCommandInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the custom command interpreter.</p>
+  <a id="NetAF_Interpretation_PersistenceCommandInterpreter_SupportedCommands_" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.SupportedCommands*"></a>
+  <h4 id="NetAF_Interpretation_PersistenceCommandInterpreter_SupportedCommands" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.SupportedCommands">SupportedCommands</h4>
+  <div class="markdown level1 summary"><p>Get an array of all supported commands.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter CustomCommandInterpreter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandHelp[] SupportedCommands { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -164,21 +165,41 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Interpretation_Interpreters_Default_" data-uid="NetAF.Interpretation.Interpreters.Default*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_Default" data-uid="NetAF.Interpretation.Interpreters.Default">Default</h4>
-  <div class="markdown level1 summary"><p>Get the default interpreters.</p>
+  <h3 id="methods">Methods
+</h3>
+  <a id="NetAF_Interpretation_PersistenceCommandInterpreter_GetContextualCommandHelp_" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.GetContextualCommandHelp*"></a>
+  <h4 id="NetAF_Interpretation_PersistenceCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)">GetContextualCommandHelp(Game)</h4>
+  <div class="markdown level1 summary"><p>Get contextual command help for a game, based on its current state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter Default { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandHelp[] GetContextualCommandHelp(Game game)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -188,21 +209,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
+        <td><p>The contextual help.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Interpretation_Interpreters_ExecutionCommandInterpreter_" data-uid="NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_ExecutionCommandInterpreter" data-uid="NetAF.Interpretation.Interpreters.ExecutionCommandInterpreter">ExecutionCommandInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the execution command interpreter.</p>
+  <a id="NetAF_Interpretation_PersistenceCommandInterpreter_Interpret_" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.Interpret*"></a>
+  <h4 id="NetAF_Interpretation_PersistenceCommandInterpreter_Interpret_System_String_NetAF_Logic_Game_" data-uid="NetAF.Interpretation.PersistenceCommandInterpreter.Interpret(System.String,NetAF.Logic.Game)">Interpret(string, Game)</h4>
+  <div class="markdown level1 summary"><p>Interpret a string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter ExecutionCommandInterpreter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public InterpretationResult Interpret(string input, Game game)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The string to interpret.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -212,107 +258,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
+        <td><a class="xref" href="NetAF.Interpretation.InterpretationResult.html">InterpretationResult</a></td>
+        <td><p>The result of the interpretation.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Interpretation_Interpreters_FrameCommandInterpreter_" data-uid="NetAF.Interpretation.Interpreters.FrameCommandInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_FrameCommandInterpreter" data-uid="NetAF.Interpretation.Interpreters.FrameCommandInterpreter">FrameCommandInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the frame command interpreter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter FrameCommandInterpreter { get; }</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Interpretation_Interpreters_GlobalCommandInterpreter_" data-uid="NetAF.Interpretation.Interpreters.GlobalCommandInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_GlobalCommandInterpreter" data-uid="NetAF.Interpretation.Interpreters.GlobalCommandInterpreter">GlobalCommandInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the frame command interpreter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter GlobalCommandInterpreter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Interpretation_Interpreters_RegionMapCommandInterpreter_" data-uid="NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_RegionMapCommandInterpreter" data-uid="NetAF.Interpretation.Interpreters.RegionMapCommandInterpreter">RegionMapCommandInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the region map command interpreter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter RegionMapCommandInterpreter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Interpretation_Interpreters_SceneInterpreter_" data-uid="NetAF.Interpretation.Interpreters.SceneInterpreter*"></a>
-  <h4 id="NetAF_Interpretation_Interpreters_SceneInterpreter" data-uid="NetAF.Interpretation.Interpreters.SceneInterpreter">SceneInterpreter</h4>
-  <div class="markdown level1 summary"><p>Get the scene command interpreter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IInterpreter SceneInterpreter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 
 </article>
           </div>
