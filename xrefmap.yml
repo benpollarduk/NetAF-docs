@@ -3261,6 +3261,12 @@ references:
   fullName.vb: NetAF.Assets.Size.New
   nameWithType: Size.Size
   nameWithType.vb: Size.New
+- uid: NetAF.Assets.Size.Dynamic
+  name: Dynamic
+  href: api/NetAF.Assets.Size.html#NetAF_Assets_Size_Dynamic
+  commentId: F:NetAF.Assets.Size.Dynamic
+  fullName: NetAF.Assets.Size.Dynamic
+  nameWithType: Size.Dynamic
 - uid: NetAF.Assets.Size.Height
   name: Height
   href: api/NetAF.Assets.Size.html#NetAF_Assets_Size_Height
@@ -9203,6 +9209,19 @@ references:
   commentId: T:NetAF.Logic.IIOAdapter
   fullName: NetAF.Logic.IIOAdapter
   nameWithType: IIOAdapter
+- uid: NetAF.Logic.IIOAdapter.CurrentOutputSize
+  name: CurrentOutputSize
+  href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_CurrentOutputSize
+  commentId: P:NetAF.Logic.IIOAdapter.CurrentOutputSize
+  fullName: NetAF.Logic.IIOAdapter.CurrentOutputSize
+  nameWithType: IIOAdapter.CurrentOutputSize
+- uid: NetAF.Logic.IIOAdapter.CurrentOutputSize*
+  name: CurrentOutputSize
+  href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_CurrentOutputSize_
+  commentId: Overload:NetAF.Logic.IIOAdapter.CurrentOutputSize
+  isSpec: "True"
+  fullName: NetAF.Logic.IIOAdapter.CurrentOutputSize
+  nameWithType: IIOAdapter.CurrentOutputSize
 - uid: NetAF.Logic.IIOAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Logic.IIOAdapter.html#NetAF_Logic_IIOAdapter_RenderFrame_NetAF_Rendering_IFrame_
@@ -11242,6 +11261,19 @@ references:
   commentId: T:NetAF.Rendering.IFramePresenter
   fullName: NetAF.Rendering.IFramePresenter
   nameWithType: IFramePresenter
+- uid: NetAF.Rendering.IFramePresenter.GetPresentableSize
+  name: GetPresentableSize()
+  href: api/NetAF.Rendering.IFramePresenter.html#NetAF_Rendering_IFramePresenter_GetPresentableSize
+  commentId: M:NetAF.Rendering.IFramePresenter.GetPresentableSize
+  fullName: NetAF.Rendering.IFramePresenter.GetPresentableSize()
+  nameWithType: IFramePresenter.GetPresentableSize()
+- uid: NetAF.Rendering.IFramePresenter.GetPresentableSize*
+  name: GetPresentableSize
+  href: api/NetAF.Rendering.IFramePresenter.html#NetAF_Rendering_IFramePresenter_GetPresentableSize_
+  commentId: Overload:NetAF.Rendering.IFramePresenter.GetPresentableSize
+  isSpec: "True"
+  fullName: NetAF.Rendering.IFramePresenter.GetPresentableSize
+  nameWithType: IFramePresenter.GetPresentableSize
 - uid: NetAF.Rendering.IFramePresenter.Present(System.String)
   name: Present(string)
   href: api/NetAF.Rendering.IFramePresenter.html#NetAF_Rendering_IFramePresenter_Present_System_String_
@@ -12292,6 +12324,19 @@ references:
   commentId: T:NetAF.Targets.Console.ConsoleAdapter
   fullName: NetAF.Targets.Console.ConsoleAdapter
   nameWithType: ConsoleAdapter
+- uid: NetAF.Targets.Console.ConsoleAdapter.CurrentOutputSize
+  name: CurrentOutputSize
+  href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_CurrentOutputSize
+  commentId: P:NetAF.Targets.Console.ConsoleAdapter.CurrentOutputSize
+  fullName: NetAF.Targets.Console.ConsoleAdapter.CurrentOutputSize
+  nameWithType: ConsoleAdapter.CurrentOutputSize
+- uid: NetAF.Targets.Console.ConsoleAdapter.CurrentOutputSize*
+  name: CurrentOutputSize
+  href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_CurrentOutputSize_
+  commentId: Overload:NetAF.Targets.Console.ConsoleAdapter.CurrentOutputSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.ConsoleAdapter.CurrentOutputSize
+  nameWithType: ConsoleAdapter.CurrentOutputSize
 - uid: NetAF.Targets.Console.ConsoleAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Targets.Console.ConsoleAdapter.html#NetAF_Targets_Console_ConsoleAdapter_RenderFrame_NetAF_Rendering_IFrame_
@@ -12888,6 +12933,54 @@ references:
   fullName.vb: NetAF.Targets.Console.Rendering.AnsiColor.<>
   nameWithType: AnsiColor.operator !=
   nameWithType.vb: AnsiColor.<>
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter
+  name: ConsoleWriterPresenter
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html
+  commentId: T:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter
+  nameWithType: ConsoleWriterPresenter
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize
+  name: GetPresentableSize()
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html#NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_GetPresentableSize
+  commentId: M:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize()
+  nameWithType: ConsoleWriterPresenter.GetPresentableSize()
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize*
+  name: GetPresentableSize
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html#NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_GetPresentableSize_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize
+  nameWithType: ConsoleWriterPresenter.GetPresentableSize
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present(System.String)
+  name: Present(string)
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html#NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_Present_System_String_
+  commentId: M:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present(System.String)
+  name.vb: Present(String)
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present(string)
+  fullName.vb: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present(String)
+  nameWithType: ConsoleWriterPresenter.Present(string)
+  nameWithType.vb: ConsoleWriterPresenter.Present(String)
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present*
+  name: Present
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html#NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_Present_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present
+  nameWithType: ConsoleWriterPresenter.Present
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString
+  name: ToString()
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html#NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_ToString
+  commentId: M:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString()
+  nameWithType: ConsoleWriterPresenter.ToString()
+- uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString*
+  name: ToString
+  href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html#NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_ToString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString
+  nameWithType: ConsoleWriterPresenter.ToString
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders
   name: NetAF.Targets.Console.Rendering.FrameBuilders
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.html
@@ -16013,15 +16106,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.TextWriterPresenter
   fullName: NetAF.Targets.Console.Rendering.TextWriterPresenter
   nameWithType: TextWriterPresenter
-- uid: NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor(System.IO.TextWriter)
-  name: TextWriterPresenter(TextWriter)
-  href: api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html#NetAF_Targets_Console_Rendering_TextWriterPresenter__ctor_System_IO_TextWriter_
-  commentId: M:NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor(System.IO.TextWriter)
-  name.vb: New(TextWriter)
-  fullName: NetAF.Targets.Console.Rendering.TextWriterPresenter.TextWriterPresenter(System.IO.TextWriter)
-  fullName.vb: NetAF.Targets.Console.Rendering.TextWriterPresenter.New(System.IO.TextWriter)
-  nameWithType: TextWriterPresenter.TextWriterPresenter(TextWriter)
-  nameWithType.vb: TextWriterPresenter.New(TextWriter)
+- uid: NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor(System.IO.TextWriter,NetAF.Assets.Size)
+  name: TextWriterPresenter(TextWriter, Size)
+  href: api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html#NetAF_Targets_Console_Rendering_TextWriterPresenter__ctor_System_IO_TextWriter_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor(System.IO.TextWriter,NetAF.Assets.Size)
+  name.vb: New(TextWriter, Size)
+  fullName: NetAF.Targets.Console.Rendering.TextWriterPresenter.TextWriterPresenter(System.IO.TextWriter, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Console.Rendering.TextWriterPresenter.New(System.IO.TextWriter, NetAF.Assets.Size)
+  nameWithType: TextWriterPresenter.TextWriterPresenter(TextWriter, Size)
+  nameWithType.vb: TextWriterPresenter.New(TextWriter, Size)
 - uid: NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor*
   name: TextWriterPresenter
   href: api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html#NetAF_Targets_Console_Rendering_TextWriterPresenter__ctor_
@@ -16032,6 +16125,19 @@ references:
   fullName.vb: NetAF.Targets.Console.Rendering.TextWriterPresenter.New
   nameWithType: TextWriterPresenter.TextWriterPresenter
   nameWithType.vb: TextWriterPresenter.New
+- uid: NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize
+  name: GetPresentableSize()
+  href: api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html#NetAF_Targets_Console_Rendering_TextWriterPresenter_GetPresentableSize
+  commentId: M:NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize
+  fullName: NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize()
+  nameWithType: TextWriterPresenter.GetPresentableSize()
+- uid: NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize*
+  name: GetPresentableSize
+  href: api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html#NetAF_Targets_Console_Rendering_TextWriterPresenter_GetPresentableSize_
+  commentId: Overload:NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize
+  nameWithType: TextWriterPresenter.GetPresentableSize
 - uid: NetAF.Targets.Console.Rendering.TextWriterPresenter.Present(System.String)
   name: Present(string)
   href: api/NetAF.Targets.Console.Rendering.TextWriterPresenter.html#NetAF_Targets_Console_Rendering_TextWriterPresenter_Present_System_String_
@@ -16586,6 +16692,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.HtmlAdapter.ConvertGridVisualBuilderToHtmlString
   nameWithType: HtmlAdapter.ConvertGridVisualBuilderToHtmlString
+- uid: NetAF.Targets.Html.HtmlAdapter.CurrentOutputSize
+  name: CurrentOutputSize
+  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_CurrentOutputSize
+  commentId: P:NetAF.Targets.Html.HtmlAdapter.CurrentOutputSize
+  fullName: NetAF.Targets.Html.HtmlAdapter.CurrentOutputSize
+  nameWithType: HtmlAdapter.CurrentOutputSize
+- uid: NetAF.Targets.Html.HtmlAdapter.CurrentOutputSize*
+  name: CurrentOutputSize
+  href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_CurrentOutputSize_
+  commentId: Overload:NetAF.Targets.Html.HtmlAdapter.CurrentOutputSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.HtmlAdapter.CurrentOutputSize
+  nameWithType: HtmlAdapter.CurrentOutputSize
 - uid: NetAF.Targets.Html.HtmlAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Targets.Html.HtmlAdapter.html#NetAF_Targets_Html_HtmlAdapter_RenderFrame_NetAF_Rendering_IFrame_
@@ -18358,6 +18477,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString
   nameWithType: TextAdapter.ConvertGridStringBuilderToString
+- uid: NetAF.Targets.Text.TextAdapter.CurrentOutputSize
+  name: CurrentOutputSize
+  href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_CurrentOutputSize
+  commentId: P:NetAF.Targets.Text.TextAdapter.CurrentOutputSize
+  fullName: NetAF.Targets.Text.TextAdapter.CurrentOutputSize
+  nameWithType: TextAdapter.CurrentOutputSize
+- uid: NetAF.Targets.Text.TextAdapter.CurrentOutputSize*
+  name: CurrentOutputSize
+  href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_CurrentOutputSize_
+  commentId: Overload:NetAF.Targets.Text.TextAdapter.CurrentOutputSize
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.TextAdapter.CurrentOutputSize
+  nameWithType: TextAdapter.CurrentOutputSize
 - uid: NetAF.Targets.Text.TextAdapter.RenderFrame(NetAF.Rendering.IFrame)
   name: RenderFrame(IFrame)
   href: api/NetAF.Targets.Text.TextAdapter.html#NetAF_Targets_Text_TextAdapter_RenderFrame_NetAF_Rendering_IFrame_
@@ -18693,6 +18825,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Utilities.StringUtilities.PreenInput
   nameWithType: StringUtilities.PreenInput
+- uid: NetAF.Utilities.StringUtilities.PreenOutput(System.String)
+  name: PreenOutput(string)
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_PreenOutput_System_String_
+  commentId: M:NetAF.Utilities.StringUtilities.PreenOutput(System.String)
+  name.vb: PreenOutput(String)
+  fullName: NetAF.Utilities.StringUtilities.PreenOutput(string)
+  fullName.vb: NetAF.Utilities.StringUtilities.PreenOutput(String)
+  nameWithType: StringUtilities.PreenOutput(string)
+  nameWithType.vb: StringUtilities.PreenOutput(String)
+- uid: NetAF.Utilities.StringUtilities.PreenOutput*
+  name: PreenOutput
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_PreenOutput_
+  commentId: Overload:NetAF.Utilities.StringUtilities.PreenOutput
+  isSpec: "True"
+  fullName: NetAF.Utilities.StringUtilities.PreenOutput
+  nameWithType: StringUtilities.PreenOutput
 - uid: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(System.String,System.String@,System.String@)
   name: SplitTextToVerbAndNoun(string, out string, out string)
   href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitTextToVerbAndNoun_System_String_System_String__System_String__

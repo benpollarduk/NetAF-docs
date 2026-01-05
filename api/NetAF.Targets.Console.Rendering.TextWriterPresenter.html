@@ -120,13 +120,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Targets_Console_Rendering_TextWriterPresenter__ctor_" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_TextWriterPresenter__ctor_System_IO_TextWriter_" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor(System.IO.TextWriter)">TextWriterPresenter(TextWriter)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_TextWriterPresenter__ctor_System_IO_TextWriter_NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.#ctor(System.IO.TextWriter,NetAF.Assets.Size)">TextWriterPresenter(TextWriter, Size)</h4>
   <div class="markdown level1 summary"><p>Represents a presenter for TextWriter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextWriterPresenter(TextWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextWriterPresenter(TextWriter writer, Size presentableSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -144,10 +144,41 @@
         <td><p>The writer.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">presentableSize</span></td>
+        <td><p>The presentable size of the text writer.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
+  <a id="NetAF_Targets_Console_Rendering_TextWriterPresenter_GetPresentableSize_" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_TextWriterPresenter_GetPresentableSize" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.GetPresentableSize">GetPresentableSize()</h4>
+  <div class="markdown level1 summary"><p>Get the size of the presentable area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size GetPresentableSize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><p>The size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Targets_Console_Rendering_TextWriterPresenter_Present_" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.Present*"></a>
   <h4 id="NetAF_Targets_Console_Rendering_TextWriterPresenter_Present_System_String_" data-uid="NetAF.Targets.Console.Rendering.TextWriterPresenter.Present(System.String)">Present(string)</h4>
   <div class="markdown level1 summary"><p>Present a frame.</p>

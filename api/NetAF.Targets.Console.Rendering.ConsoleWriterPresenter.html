@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class TextAdapter | NetAF </title>
+      <title>Class ConsoleWriterPresenter | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class TextAdapter | NetAF ">
+      <meta name="title" content="Class ConsoleWriterPresenter | NetAF ">
     
-    <meta name="description" content="Provides an adapter for text.">
+    <meta name="description" content="Represents a presenter for the System.Console.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Text.TextAdapter">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter">
 
 
 
-  <h1 id="NetAF_Targets_Text_TextAdapter" data-uid="NetAF.Targets.Text.TextAdapter" class="text-break">Class TextAdapter</h1>
-  <div class="markdown level0 summary"><p>Provides an adapter for text.</p>
+  <h1 id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter" class="text-break">Class ConsoleWriterPresenter</h1>
+  <div class="markdown level0 summary"><p>Represents a presenter for the System.Console.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">TextAdapter</span></div>
+    <div class="level1"><span class="xref">ConsoleWriterPresenter</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a></div>
+    <div><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -110,57 +110,25 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Text.html">Text</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Text_TextAdapter_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TextAdapter : IIOAdapter</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ConsoleWriterPresenter : IFramePresenter</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Text_TextAdapter__ctor_" data-uid="NetAF.Targets.Text.TextAdapter.#ctor*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter__ctor_NetAF_Rendering_IFramePresenter_" data-uid="NetAF.Targets.Text.TextAdapter.#ctor(NetAF.Rendering.IFramePresenter)">TextAdapter(IFramePresenter)</h4>
-  <div class="markdown level1 summary"><p>Provides an adapter for text.</p>
+  <a id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_GetPresentableSize_" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_GetPresentableSize" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.GetPresentableSize">GetPresentableSize()</h4>
+  <div class="markdown level1 summary"><p>Get the size of the presentable area.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextAdapter(IFramePresenter presenter)</code></pre>
+    <pre><code class="lang-csharp hljs">public Size GetPresentableSize()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a></td>
-        <td><span class="parametername">presenter</span></td>
-        <td><p>The presenter to use for presenting frames.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Targets_Text_TextAdapter_CurrentOutputSize_" data-uid="NetAF.Targets.Text.TextAdapter.CurrentOutputSize*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_CurrentOutputSize" data-uid="NetAF.Targets.Text.TextAdapter.CurrentOutputSize">CurrentOutputSize</h4>
-  <div class="markdown level1 summary"><p>Get the current size of the output.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Size CurrentOutputSize { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -171,20 +139,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
-        <td></td>
+        <td><p>The size.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-</h3>
-  <a id="NetAF_Targets_Text_TextAdapter_ConvertGridStringBuilderToString_" data-uid="NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_ConvertGridStringBuilderToString_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Boolean_" data-uid="NetAF.Targets.Text.TextAdapter.ConvertGridStringBuilderToString(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Boolean)">ConvertGridStringBuilderToString(GridStringBuilder, bool)</h4>
-  <div class="markdown level1 summary"><p>Convert the contents of a GridStringBuilder to a string.</p>
+  <a id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_Present_" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_Present_System_String_" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.Present(System.String)">Present(string)</h4>
+  <div class="markdown level1 summary"><p>Present a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ConvertGridStringBuilderToString(GridStringBuilder builder, bool padEmptyCharacters = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Present(string frame)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -197,19 +164,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
-        <td><span class="parametername">builder</span></td>
-        <td><p>The GridStringBuilder to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">padEmptyCharacters</span></td>
-        <td><p>Specify if empty characters should be padded with a space.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The frame to write, as a string.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_ToString_" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_ConsoleWriterPresenter_ToString" data-uid="NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -221,68 +191,16 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>A string representing the contents of the GridStringBuilder.</p>
+        <td><p>A string that represents the current object.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Text_TextAdapter_RenderFrame_" data-uid="NetAF.Targets.Text.TextAdapter.RenderFrame*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_RenderFrame_NetAF_Rendering_IFrame_" data-uid="NetAF.Targets.Text.TextAdapter.RenderFrame(NetAF.Rendering.IFrame)">RenderFrame(IFrame)</h4>
-  <div class="markdown level1 summary"><p>Render a frame.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RenderFrame(IFrame frame)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
-        <td><span class="parametername">frame</span></td>
-        <td><p>The frame to render.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Text_TextAdapter_Setup_" data-uid="NetAF.Targets.Text.TextAdapter.Setup*"></a>
-  <h4 id="NetAF_Targets_Text_TextAdapter_Setup_NetAF_Logic_Game_" data-uid="NetAF.Targets.Text.TextAdapter.Setup(NetAF.Logic.Game)">Setup(Game)</h4>
-  <div class="markdown level1 summary"><p>Setup for a game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Setup(Game game)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td><span class="parametername">game</span></td>
-        <td><p>The game to set up for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Logic.IIOAdapter.html">IIOAdapter</a>
+      <a class="xref" href="NetAF.Rendering.IFramePresenter.html">IFramePresenter</a>
   </div>
 
 </article>

@@ -2094,7 +2094,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Logic.IIOAdapter",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.IIOAdapter.yml\" sourcestartlinenumber=\"1\">Represents any object that provides an adapter for input.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.IIOAdapter.yml\" sourcestartlinenumber=\"1\">Represents any object that provides an adapter for input and output.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3215,6 +3215,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.AnsiColor",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.AnsiColor.yml\" sourcestartlinenumber=\"1\">Represents an ANSI color.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.ConsoleWriterPresenter",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.yml\" sourcestartlinenumber=\"1\">Represents a presenter for the System.Console.</p>\n"
     },
     {
       "type": "ManagedReference",
