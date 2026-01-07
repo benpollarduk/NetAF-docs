@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Items | NetAF </title>
+      <title>Namespace NetAF.Logging.Events | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Items | NetAF ">
+      <meta name="title" content="Namespace NetAF.Logging.Events | NetAF ">
     
     
       <link rel="shortcut icon" href="../images/logo.png">
@@ -76,40 +76,46 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="items">Items</h1>
+            <article class="content wrap" id="_content" data-uid="NetAF.Logging.Events">
 
-<h2 id="overview">Overview</h2>
-<p>Items can be used to add interactivity with a game. Items can be something that a player can take with them, or they may be static in a Room.</p>
-<h2 id="use">Use</h2>
-<p>An Item can be simply instantiated with a name and description.</p>
-<pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;);
-</code></pre>
-<p>By default, an Item is not takeable and is tied to a Room. If it is takeable this can be specified in the constructor.</p>
-<pre><code class="lang-csharp">var sword = new Item(&quot;Sword&quot;, &quot;A heroes sword.&quot;, true);
-</code></pre>
-<p>Like all Examinable objects, an Item can be assigned custom commands.</p>
-<pre><code class="lang-csharp">Item bomb = new(&quot;Bomb&quot;, &quot;A bomb&quot;, commands:
-[
-    new CustomCommand(new CommandHelp(&quot;Cut wire&quot;, &quot;Cut the red wire.&quot;), true, (game, args) =&gt;
-    {
-        game.Player.Kill();
-        return new Reaction(ReactionResult.Fatal, &quot;Boom!&quot;);
-    })
-]);
-</code></pre>
-<h2 id="interaction">Interaction</h2>
-<p>Interactions can be set up between different assets in the game. The <strong>Interaction</strong> contains the result of the interaction, and allows the game to react to the interaction.</p>
-<pre><code class="lang-csharp">var dartsBoard = new Item(&quot;Darts board&quot;, &quot;A darts board.&quot;);
+  <h1 id="NetAF_Logging_Events" data-uid="NetAF.Logging.Events" class="text-break">Namespace NetAF.Logging.Events</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">
+Classes
+</h3>
+      <h4><a class="xref" href="NetAF.Logging.Events.BaseEvent.html">BaseEvent</a></h4>
+      <section><p>Provides a base event.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.CharacterDied.html">CharacterDied</a></h4>
+      <section><p>Provides an event for when a character died.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.EventBus.html">EventBus</a></h4>
+      <section><p>Provides an event bus for handling the centralization of events.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.ItemReceived.html">ItemReceived</a></h4>
+      <section><p>Provides an event for when a character received an item.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.ItemRemoved.html">ItemRemoved</a></h4>
+      <section><p>Provides an event for when an item is removed from a character.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.ItemUsed.html">ItemUsed</a></h4>
+      <section><p>Provides an event for when an item is used on a target.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.RegionEntered.html">RegionEntered</a></h4>
+      <section><p>Provides an event for when a region is entered.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.RegionExited.html">RegionExited</a></h4>
+      <section><p>Provides an event for when a region is exited.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.RoomEntered.html">RoomEntered</a></h4>
+      <section><p>Provides an event for when a room is entered.</p>
+</section>
+      <h4><a class="xref" href="NetAF.Logging.Events.RoomExited.html">RoomExited</a></h4>
+      <section><p>Provides an event for when a room is exited.</p>
+</section>
 
-var dart = new Item(&quot;Dart&quot;, &quot;A dart&quot;, interaction: item =&gt;
-{
-    if (item == dartsBoard)
-        return new Interaction(InteractionResult.NoChange, item, &quot;The dart stuck in the darts board.&quot;);
-
-     return new Interaction(InteractionResult.NoChange, item);
-});
-</code></pre>
 
 </article>
           </div>

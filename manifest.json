@@ -1776,6 +1776,160 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.BaseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.BaseEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.BaseEvent",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.BaseEvent.yml\" sourcestartlinenumber=\"1\">Provides a base event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.CharacterDied.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.CharacterDied.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.CharacterDied",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.CharacterDied.yml\" sourcestartlinenumber=\"1\">Provides an event for when a character died.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.EventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.EventBus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.EventBus",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.EventBus.yml\" sourcestartlinenumber=\"1\">Provides an event bus for handling the centralization of events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.ItemReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.ItemReceived.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.ItemReceived",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.ItemReceived.yml\" sourcestartlinenumber=\"1\">Provides an event for when a character received an item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.ItemRemoved.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.ItemRemoved.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.ItemRemoved",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.ItemRemoved.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is removed from a character.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.ItemUsed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.ItemUsed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.ItemUsed",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.ItemUsed.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is used on a target.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.RegionEntered.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.RegionEntered.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.RegionEntered",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RegionEntered.yml\" sourcestartlinenumber=\"1\">Provides an event for when a region is entered.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.RegionExited.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.RegionExited.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.RegionExited",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RegionExited.yml\" sourcestartlinenumber=\"1\">Provides an event for when a region is exited.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.RoomEntered.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.RoomEntered.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.RoomEntered",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RoomEntered.yml\" sourcestartlinenumber=\"1\">Provides an event for when a room is entered.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.RoomExited.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.RoomExited.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.RoomExited",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RoomExited.yml\" sourcestartlinenumber=\"1\">Provides an event for when a room is exited.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logging.History.HistoryEntry.yml",
       "output": {
         ".html": {
@@ -4451,6 +4605,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/end-conditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/events.html"
         }
       },
       "version": ""
