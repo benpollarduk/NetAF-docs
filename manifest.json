@@ -3400,20 +3400,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleBasicRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides an basic room map builder.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleCommandListFrameBuilder.yml",
       "output": {
         ".html": {
@@ -3484,6 +3470,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a high detail room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHistoryFrameBuilder.yml",
       "output": {
         ".html": {
@@ -3498,6 +3498,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a low detail room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.yml",
       "output": {
         ".html": {
@@ -3509,6 +3523,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of narrative frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a normal detail room map builder.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3565,20 +3593,6 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
     },
     {
       "type": "ManagedReference",
