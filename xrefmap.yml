@@ -19339,22 +19339,38 @@ references:
   isSpec: "True"
   fullName: NetAF.Utilities.StringUtilities.PreenOutput
   nameWithType: StringUtilities.PreenOutput
-- uid: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(System.String,System.String@,System.String@)
-  name: SplitTextToVerbAndNoun(string, out string, out string)
-  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitTextToVerbAndNoun_System_String_System_String__System_String__
-  commentId: M:NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(System.String,System.String@,System.String@)
-  name.vb: SplitTextToVerbAndNoun(String, String, String)
-  fullName: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(string, out string, out string)
-  fullName.vb: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun(String, String, String)
-  nameWithType: StringUtilities.SplitTextToVerbAndNoun(string, out string, out string)
-  nameWithType.vb: StringUtilities.SplitTextToVerbAndNoun(String, String, String)
-- uid: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun*
-  name: SplitTextToVerbAndNoun
-  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitTextToVerbAndNoun_
-  commentId: Overload:NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun
+- uid: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument(System.String,System.String@,System.String@)
+  name: SplitInputToCommandAndArgument(string, out string, out string)
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitInputToCommandAndArgument_System_String_System_String__System_String__
+  commentId: M:NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument(System.String,System.String@,System.String@)
+  name.vb: SplitInputToCommandAndArgument(String, String, String)
+  fullName: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument(string, out string, out string)
+  fullName.vb: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument(String, String, String)
+  nameWithType: StringUtilities.SplitInputToCommandAndArgument(string, out string, out string)
+  nameWithType.vb: StringUtilities.SplitInputToCommandAndArgument(String, String, String)
+- uid: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument*
+  name: SplitInputToCommandAndArgument
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitInputToCommandAndArgument_
+  commentId: Overload:NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument
   isSpec: "True"
-  fullName: NetAF.Utilities.StringUtilities.SplitTextToVerbAndNoun
-  nameWithType: StringUtilities.SplitTextToVerbAndNoun
+  fullName: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArgument
+  nameWithType: StringUtilities.SplitInputToCommandAndArgument
+- uid: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments(System.String,System.String@,System.String[]@)
+  name: SplitInputToCommandAndArguments(string, out string, out string[])
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitInputToCommandAndArguments_System_String_System_String__System_String____
+  commentId: M:NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments(System.String,System.String@,System.String[]@)
+  name.vb: SplitInputToCommandAndArguments(String, String, String())
+  fullName: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments(string, out string, out string[])
+  fullName.vb: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments(String, String, String())
+  nameWithType: StringUtilities.SplitInputToCommandAndArguments(string, out string, out string[])
+  nameWithType.vb: StringUtilities.SplitInputToCommandAndArguments(String, String, String())
+- uid: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments*
+  name: SplitInputToCommandAndArguments
+  href: api/NetAF.Utilities.StringUtilities.html#NetAF_Utilities_StringUtilities_SplitInputToCommandAndArguments_
+  commentId: Overload:NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments
+  isSpec: "True"
+  fullName: NetAF.Utilities.StringUtilities.SplitInputToCommandAndArguments
+  nameWithType: StringUtilities.SplitInputToCommandAndArguments
 - uid: NetAF.Variables
   name: NetAF.Variables
   href: api/NetAF.Variables.html
