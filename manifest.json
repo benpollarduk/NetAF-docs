@@ -4474,7 +4474,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Utilities.OverworldMaker",
-      "Summary": "<p sourcefile=\"api/NetAF.Utilities.OverworldMaker.yml\" sourcestartlinenumber=\"1\">Provides a class for helping to make Regions.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Utilities.OverworldMaker.yml\" sourcestartlinenumber=\"1\">Provides a class for helping to make Overworlds.</p>\n"
     },
     {
       "type": "ManagedReference",
