@@ -121,6 +121,49 @@
   </div>
   <h3 id="methods">Methods
 </h3>
+  <a id="NetAF_Logging_Events_EventBus_Publish_" data-uid="NetAF.Logging.Events.EventBus.Publish*"></a>
+  <h4 id="NetAF_Logging_Events_EventBus_Publish__1___0_" data-uid="NetAF.Logging.Events.EventBus.Publish``1(``0)">Publish&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Publish an event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Publish&lt;T&gt;(T eventData) where T : BaseEvent</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p>The data to pass when the event is raised.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The specific type of <a class="xref" href="NetAF.Logging.Events.html">NetAF.Logging.Events</a> to publish.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Logging_Events_EventBus_Subscribe_" data-uid="NetAF.Logging.Events.EventBus.Subscribe*"></a>
   <h4 id="NetAF_Logging_Events_EventBus_Subscribe__1_System_Action___0__" data-uid="NetAF.Logging.Events.EventBus.Subscribe``1(System.Action{``0})">Subscribe&lt;T&gt;(Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Registers a callback to be executed whenever an event of type <code class="typeparamref">T</code> is published.</p>

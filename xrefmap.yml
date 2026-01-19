@@ -7861,6 +7861,22 @@ references:
   commentId: T:NetAF.Logging.Events.EventBus
   fullName: NetAF.Logging.Events.EventBus
   nameWithType: EventBus
+- uid: NetAF.Logging.Events.EventBus.Publish*
+  name: Publish
+  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Publish_
+  commentId: Overload:NetAF.Logging.Events.EventBus.Publish
+  isSpec: "True"
+  fullName: NetAF.Logging.Events.EventBus.Publish
+  nameWithType: EventBus.Publish
+- uid: NetAF.Logging.Events.EventBus.Publish``1(``0)
+  name: Publish<T>(T)
+  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Publish__1___0_
+  commentId: M:NetAF.Logging.Events.EventBus.Publish``1(``0)
+  name.vb: Publish(Of T)(T)
+  fullName: NetAF.Logging.Events.EventBus.Publish<T>(T)
+  fullName.vb: NetAF.Logging.Events.EventBus.Publish(Of T)(T)
+  nameWithType: EventBus.Publish<T>(T)
+  nameWithType.vb: EventBus.Publish(Of T)(T)
 - uid: NetAF.Logging.Events.EventBus.Subscribe*
   name: Subscribe
   href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Subscribe_
