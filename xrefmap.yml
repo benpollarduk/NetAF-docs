@@ -1459,12 +1459,24 @@ references:
   commentId: F:NetAF.Assets.InteractionResult.NoChange
   fullName: NetAF.Assets.InteractionResult.NoChange
   nameWithType: InteractionResult.NoChange
+- uid: NetAF.Assets.InteractionResult.NonPlayableCharacterReceivesItem
+  name: NonPlayableCharacterReceivesItem
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_NonPlayableCharacterReceivesItem
+  commentId: F:NetAF.Assets.InteractionResult.NonPlayableCharacterReceivesItem
+  fullName: NetAF.Assets.InteractionResult.NonPlayableCharacterReceivesItem
+  nameWithType: InteractionResult.NonPlayableCharacterReceivesItem
 - uid: NetAF.Assets.InteractionResult.PlayerDies
   name: PlayerDies
   href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_PlayerDies
   commentId: F:NetAF.Assets.InteractionResult.PlayerDies
   fullName: NetAF.Assets.InteractionResult.PlayerDies
   nameWithType: InteractionResult.PlayerDies
+- uid: NetAF.Assets.InteractionResult.PlayerReceivesItem
+  name: PlayerReceivesItem
+  href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_PlayerReceivesItem
+  commentId: F:NetAF.Assets.InteractionResult.PlayerReceivesItem
+  fullName: NetAF.Assets.InteractionResult.PlayerReceivesItem
+  nameWithType: InteractionResult.PlayerReceivesItem
 - uid: NetAF.Assets.InteractionResult.TargetExpires
   name: TargetExpires
   href: api/NetAF.Assets.InteractionResult.html#NetAF_Assets_InteractionResult_TargetExpires
@@ -7922,6 +7934,120 @@ references:
   fullName.vb: NetAF.Logging.Events.EventBus.Unsubscribe(Of T)(System.Action(Of T))
   nameWithType: EventBus.Unsubscribe<T>(Action<T>)
   nameWithType.vb: EventBus.Unsubscribe(Of T)(Action(Of T))
+- uid: NetAF.Logging.Events.GameFinished
+  name: GameFinished
+  href: api/NetAF.Logging.Events.GameFinished.html
+  commentId: T:NetAF.Logging.Events.GameFinished
+  fullName: NetAF.Logging.Events.GameFinished
+  nameWithType: GameFinished
+- uid: NetAF.Logging.Events.GameFinished.#ctor(NetAF.Logic.Game)
+  name: GameFinished(Game)
+  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Logging.Events.GameFinished.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Logging.Events.GameFinished.GameFinished(NetAF.Logic.Game)
+  fullName.vb: NetAF.Logging.Events.GameFinished.New(NetAF.Logic.Game)
+  nameWithType: GameFinished.GameFinished(Game)
+  nameWithType.vb: GameFinished.New(Game)
+- uid: NetAF.Logging.Events.GameFinished.#ctor*
+  name: GameFinished
+  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished__ctor_
+  commentId: Overload:NetAF.Logging.Events.GameFinished.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logging.Events.GameFinished.GameFinished
+  fullName.vb: NetAF.Logging.Events.GameFinished.New
+  nameWithType: GameFinished.GameFinished
+  nameWithType.vb: GameFinished.New
+- uid: NetAF.Logging.Events.GameFinished.Game
+  name: Game
+  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished_Game
+  commentId: P:NetAF.Logging.Events.GameFinished.Game
+  fullName: NetAF.Logging.Events.GameFinished.Game
+  nameWithType: GameFinished.Game
+- uid: NetAF.Logging.Events.GameFinished.Game*
+  name: Game
+  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished_Game_
+  commentId: Overload:NetAF.Logging.Events.GameFinished.Game
+  isSpec: "True"
+  fullName: NetAF.Logging.Events.GameFinished.Game
+  nameWithType: GameFinished.Game
+- uid: NetAF.Logging.Events.GameStarted
+  name: GameStarted
+  href: api/NetAF.Logging.Events.GameStarted.html
+  commentId: T:NetAF.Logging.Events.GameStarted
+  fullName: NetAF.Logging.Events.GameStarted
+  nameWithType: GameStarted
+- uid: NetAF.Logging.Events.GameStarted.#ctor(NetAF.Logic.Game)
+  name: GameStarted(Game)
+  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Logging.Events.GameStarted.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Logging.Events.GameStarted.GameStarted(NetAF.Logic.Game)
+  fullName.vb: NetAF.Logging.Events.GameStarted.New(NetAF.Logic.Game)
+  nameWithType: GameStarted.GameStarted(Game)
+  nameWithType.vb: GameStarted.New(Game)
+- uid: NetAF.Logging.Events.GameStarted.#ctor*
+  name: GameStarted
+  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted__ctor_
+  commentId: Overload:NetAF.Logging.Events.GameStarted.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logging.Events.GameStarted.GameStarted
+  fullName.vb: NetAF.Logging.Events.GameStarted.New
+  nameWithType: GameStarted.GameStarted
+  nameWithType.vb: GameStarted.New
+- uid: NetAF.Logging.Events.GameStarted.Game
+  name: Game
+  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted_Game
+  commentId: P:NetAF.Logging.Events.GameStarted.Game
+  fullName: NetAF.Logging.Events.GameStarted.Game
+  nameWithType: GameStarted.Game
+- uid: NetAF.Logging.Events.GameStarted.Game*
+  name: Game
+  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted_Game_
+  commentId: Overload:NetAF.Logging.Events.GameStarted.Game
+  isSpec: "True"
+  fullName: NetAF.Logging.Events.GameStarted.Game
+  nameWithType: GameStarted.Game
+- uid: NetAF.Logging.Events.GameUpdated
+  name: GameUpdated
+  href: api/NetAF.Logging.Events.GameUpdated.html
+  commentId: T:NetAF.Logging.Events.GameUpdated
+  fullName: NetAF.Logging.Events.GameUpdated
+  nameWithType: GameUpdated
+- uid: NetAF.Logging.Events.GameUpdated.#ctor(NetAF.Logic.Game)
+  name: GameUpdated(Game)
+  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Logging.Events.GameUpdated.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Logging.Events.GameUpdated.GameUpdated(NetAF.Logic.Game)
+  fullName.vb: NetAF.Logging.Events.GameUpdated.New(NetAF.Logic.Game)
+  nameWithType: GameUpdated.GameUpdated(Game)
+  nameWithType.vb: GameUpdated.New(Game)
+- uid: NetAF.Logging.Events.GameUpdated.#ctor*
+  name: GameUpdated
+  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated__ctor_
+  commentId: Overload:NetAF.Logging.Events.GameUpdated.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logging.Events.GameUpdated.GameUpdated
+  fullName.vb: NetAF.Logging.Events.GameUpdated.New
+  nameWithType: GameUpdated.GameUpdated
+  nameWithType.vb: GameUpdated.New
+- uid: NetAF.Logging.Events.GameUpdated.Game
+  name: Game
+  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated_Game
+  commentId: P:NetAF.Logging.Events.GameUpdated.Game
+  fullName: NetAF.Logging.Events.GameUpdated.Game
+  nameWithType: GameUpdated.Game
+- uid: NetAF.Logging.Events.GameUpdated.Game*
+  name: Game
+  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated_Game_
+  commentId: Overload:NetAF.Logging.Events.GameUpdated.Game
+  isSpec: "True"
+  fullName: NetAF.Logging.Events.GameUpdated.Game
+  nameWithType: GameUpdated.Game
 - uid: NetAF.Logging.Events.ItemReceived
   name: ItemReceived
   href: api/NetAF.Logging.Events.ItemReceived.html

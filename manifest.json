@@ -1818,6 +1818,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.GameFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.GameFinished.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.GameFinished",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.GameFinished.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game finishes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.GameStarted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.GameStarted.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.GameStarted",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.GameStarted.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game is started.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logging.Events.GameUpdated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logging.Events.GameUpdated.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logging.Events.GameUpdated",
+      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.GameUpdated.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game is updated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logging.Events.ItemReceived.yml",
       "output": {
         ".html": {
