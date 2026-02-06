@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class FrameBuilderCollections | NetAF </title>
+      <title>Class MarkupNarrativeFrameBuilder | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class FrameBuilderCollections | NetAF ">
+      <meta name="title" content="Class MarkupNarrativeFrameBuilder | NetAF ">
     
-    <meta name="description" content="Provides a container for frame builder collections.">
+    <meta name="description" content="Provides a builder of narrative frames.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,18 +76,23 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder">
 
 
 
-  <h1 id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections" class="text-break">Class FrameBuilderCollections</h1>
-  <div class="markdown level0 summary"><p>Provides a container for frame builder collections.</p>
+  <h1 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder" class="text-break">Class MarkupNarrativeFrameBuilder</h1>
+  <div class="markdown level0 summary"><p>Provides a builder of narrative frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">FrameBuilderCollections</span></div>
+    <div class="level1"><span class="xref">MarkupNarrativeFrameBuilder</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.INarrativeFrameBuilder.html">INarrativeFrameBuilder</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,33 +109,83 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Markup.html">Markup</a>.<a class="xref" href="NetAF.Targets.Markup.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Markup.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class FrameBuilderCollections</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MarkupNarrativeFrameBuilder : INarrativeFrameBuilder, IFrameBuilder</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Console_" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Console*"></a>
-  <h4 id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Console" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Console">Console</h4>
-  <div class="markdown level1 summary"><p>Get the default console frame builder collection.</p>
+  <a id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder__ctor_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor*"></a>
+  <h4 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder__ctor_NetAF_Targets_Markup_Rendering_MarkupBuilder_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder)">MarkupNarrativeFrameBuilder(MarkupBuilder)</h4>
+  <div class="markdown level1 summary"><p>Provides a builder of narrative frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static FrameBuilderCollection Console { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MarkupNarrativeFrameBuilder(MarkupBuilder builder)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Markup.Rendering.MarkupBuilder.html">MarkupBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>A builder to use for the text layout.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder_Build_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.Build*"></a>
+  <h4 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder_Build_NetAF_Narratives_Narrative_NetAF_Assets_Size_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.Build(NetAF.Narratives.Narrative,NetAF.Assets.Size)">Build(Narrative, Size)</h4>
+  <div class="markdown level1 summary"><p>Build a frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFrame Build(Narrative narrative, Size size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Narratives.Narrative.html">Narrative</a></td>
+        <td><span class="parametername">narrative</span></td>
+        <td><p>The narrative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -140,83 +195,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
-        <td></td>
+        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
+        <td><p>The frame.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Html_" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Html*"></a>
-  <h4 id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Html" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Html">Html</h4>
-  <div class="markdown level1 summary"><p>Get the default HTML frame builder collection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static FrameBuilderCollection Html { get; }</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.INarrativeFrameBuilder.html">INarrativeFrameBuilder</a>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Markup_" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Markup*"></a>
-  <h4 id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Markup" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Markup">Markup</h4>
-  <div class="markdown level1 summary"><p>Get the default markup frame builder collection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static FrameBuilderCollection Markup { get; }</code></pre>
+  <div>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Text_" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text*"></a>
-  <h4 id="NetAF_Rendering_FrameBuilders_FrameBuilderCollections_Text" data-uid="NetAF.Rendering.FrameBuilders.FrameBuilderCollections.Text">Text</h4>
-  <div class="markdown level1 summary"><p>Get the default text frame builder collection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static FrameBuilderCollection Text { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html">FrameBuilderCollection</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 
 </article>
           </div>

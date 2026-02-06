@@ -4212,6 +4212,482 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.AstParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.AstParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.AstParser",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.AstParser.yml\" sourcestartlinenumber=\"1\">Provides parsing functionality between various formats and the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.DocumentNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.yml\" sourcestartlinenumber=\"1\">Represents a document in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.HeadingNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.yml\" sourcestartlinenumber=\"1\">Represents a heading node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.IBlockNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.yml\" sourcestartlinenumber=\"1\">Represents a block node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.IInlineNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.yml\" sourcestartlinenumber=\"1\">Represents an inline node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.INode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.INode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.INode.yml\" sourcestartlinenumber=\"1\">Represents a node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.ParagraphNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.yml\" sourcestartlinenumber=\"1\">Get a node representing a paragraph in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.yml\" sourcestartlinenumber=\"1\">Represents a style span node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.TextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes.TextNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.TextNode.yml\" sourcestartlinenumber=\"1\">Represents a text node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast.Nodes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Ast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Ast.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Ast",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.HeadingLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.HeadingLevel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.HeadingLevel",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.HeadingLevel.yml\" sourcestartlinenumber=\"1\">Enumeration of heading levels.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.MarkupAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.MarkupAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.MarkupAdapter",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.MarkupAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for markup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAboutFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAboutFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAboutFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of command list frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCompletionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCompletionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCompletionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCompletionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of completion frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of conversation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupGameOverFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupGameOverFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupGameOverFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupGameOverFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of game over frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHelpFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHelpFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHelpFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHelpFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of help frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHistoryFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHistoryFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHistoryFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupHistoryFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of history frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of narrative frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNoteFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNoteFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNoteFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNoteFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of note frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupReactionFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupReactionFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupReactionFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupReactionFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of reaction frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of region map frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRoomMapBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRoomMapBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRoomMapBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of scene frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupTitleFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupTitleFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupTitleFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.MarkupBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.MarkupBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.MarkupBuilder.yml\" sourcestartlinenumber=\"1\">Provides a class for building markup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.MarkupFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.MarkupFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.MarkupFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.MarkupFrame.yml\" sourcestartlinenumber=\"1\">Provides a markup frame for displaying a command based interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.TextStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.TextStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.TextStyle",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.TextStyle.yml\" sourcestartlinenumber=\"1\">Represents styling for text.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.yml",
       "output": {
         ".html": {
