@@ -19567,31 +19567,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Raw
   nameWithType: MarkupBuilder.Raw
-- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(System.String)
-  name: Text(string)
-  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_Text_System_String_
-  commentId: M:NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(System.String)
-  name.vb: Text(String)
-  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(string)
-  fullName.vb: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(String)
-  nameWithType: MarkupBuilder.Text(string)
-  nameWithType.vb: MarkupBuilder.Text(String)
-- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(System.String,NetAF.Targets.Markup.TextStyle)
-  name: Text(string, TextStyle)
-  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_Text_System_String_NetAF_Targets_Markup_TextStyle_
-  commentId: M:NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(System.String,NetAF.Targets.Markup.TextStyle)
-  name.vb: Text(String, TextStyle)
-  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(string, NetAF.Targets.Markup.TextStyle)
-  fullName.vb: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text(String, NetAF.Targets.Markup.TextStyle)
-  nameWithType: MarkupBuilder.Text(string, TextStyle)
-  nameWithType.vb: MarkupBuilder.Text(String, TextStyle)
-- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text*
-  name: Text
-  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_Text_
-  commentId: Overload:NetAF.Targets.Markup.Rendering.MarkupBuilder.Text
-  isSpec: "True"
-  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Text
-  nameWithType: MarkupBuilder.Text
 - uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.ToString
   name: ToString()
   href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_ToString
@@ -19605,6 +19580,56 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.ToString
   nameWithType: MarkupBuilder.ToString
+- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(System.String)
+  name: Write(string)
+  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_System_String_
+  commentId: M:NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(System.String)
+  name.vb: Write(String)
+  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(string)
+  fullName.vb: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(String)
+  nameWithType: MarkupBuilder.Write(string)
+  nameWithType.vb: MarkupBuilder.Write(String)
+- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(System.String,NetAF.Targets.Markup.TextStyle)
+  name: Write(string, TextStyle)
+  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_System_String_NetAF_Targets_Markup_TextStyle_
+  commentId: M:NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(System.String,NetAF.Targets.Markup.TextStyle)
+  name.vb: Write(String, TextStyle)
+  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(string, NetAF.Targets.Markup.TextStyle)
+  fullName.vb: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(String, NetAF.Targets.Markup.TextStyle)
+  nameWithType: MarkupBuilder.Write(string, TextStyle)
+  nameWithType.vb: MarkupBuilder.Write(String, TextStyle)
+- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write*
+  name: Write
+  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_
+  commentId: Overload:NetAF.Targets.Markup.Rendering.MarkupBuilder.Write
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.Write
+  nameWithType: MarkupBuilder.Write
+- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String)
+  name: WriteLine(string)
+  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_System_String_
+  commentId: M:NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String)
+  name.vb: WriteLine(String)
+  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(string)
+  fullName.vb: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(String)
+  nameWithType: MarkupBuilder.WriteLine(string)
+  nameWithType.vb: MarkupBuilder.WriteLine(String)
+- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String,NetAF.Targets.Markup.TextStyle)
+  name: WriteLine(string, TextStyle)
+  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_System_String_NetAF_Targets_Markup_TextStyle_
+  commentId: M:NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String,NetAF.Targets.Markup.TextStyle)
+  name.vb: WriteLine(String, TextStyle)
+  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(string, NetAF.Targets.Markup.TextStyle)
+  fullName.vb: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(String, NetAF.Targets.Markup.TextStyle)
+  nameWithType: MarkupBuilder.WriteLine(string, TextStyle)
+  nameWithType.vb: MarkupBuilder.WriteLine(String, TextStyle)
+- uid: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine*
+  name: WriteLine
+  href: api/NetAF.Targets.Markup.Rendering.MarkupBuilder.html#NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_
+  commentId: Overload:NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine
+  nameWithType: MarkupBuilder.WriteLine
 - uid: NetAF.Targets.Markup.Rendering.MarkupFrame
   name: MarkupFrame
   href: api/NetAF.Targets.Markup.Rendering.MarkupFrame.html
