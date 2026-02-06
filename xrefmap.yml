@@ -19569,15 +19569,15 @@ references:
   commentId: T:NetAF.Targets.Markup.TextStyle
   fullName: NetAF.Targets.Markup.TextStyle
   nameWithType: TextStyle
-- uid: NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
-  name: TextStyle(bool, bool, bool, bool, Color?, Color?)
-  href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
-  commentId: M:NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
-  name.vb: New(Boolean, Boolean, Boolean, Boolean, Color?, Color?)
-  fullName: NetAF.Targets.Markup.TextStyle.TextStyle(bool, bool, bool, bool, System.Drawing.Color?, System.Drawing.Color?)
-  fullName.vb: NetAF.Targets.Markup.TextStyle.New(Boolean, Boolean, Boolean, Boolean, System.Drawing.Color?, System.Drawing.Color?)
-  nameWithType: TextStyle.TextStyle(bool, bool, bool, bool, Color?, Color?)
-  nameWithType.vb: TextStyle.New(Boolean, Boolean, Boolean, Boolean, Color?, Color?)
+- uid: NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name: TextStyle(bool, bool, bool, bool, bool, Color?, Color?)
+  href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
+  commentId: M:NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name.vb: New(Boolean, Boolean, Boolean, Boolean, Boolean, Color?, Color?)
+  fullName: NetAF.Targets.Markup.TextStyle.TextStyle(bool, bool, bool, bool, bool, System.Drawing.Color?, System.Drawing.Color?)
+  fullName.vb: NetAF.Targets.Markup.TextStyle.New(Boolean, Boolean, Boolean, Boolean, Boolean, System.Drawing.Color?, System.Drawing.Color?)
+  nameWithType: TextStyle.TextStyle(bool, bool, bool, bool, bool, Color?, Color?)
+  nameWithType.vb: TextStyle.New(Boolean, Boolean, Boolean, Boolean, Boolean, Color?, Color?)
 - uid: NetAF.Targets.Markup.TextStyle.#ctor*
   name: TextStyle
   href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle__ctor_
@@ -19679,6 +19679,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Markup.TextStyle.Strikethrough
   nameWithType: TextStyle.Strikethrough
+- uid: NetAF.Targets.Markup.TextStyle.Underline
+  name: Underline
+  href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle_Underline
+  commentId: P:NetAF.Targets.Markup.TextStyle.Underline
+  fullName: NetAF.Targets.Markup.TextStyle.Underline
+  nameWithType: TextStyle.Underline
+- uid: NetAF.Targets.Markup.TextStyle.Underline*
+  name: Underline
+  href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle_Underline_
+  commentId: Overload:NetAF.Targets.Markup.TextStyle.Underline
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.TextStyle.Underline
+  nameWithType: TextStyle.Underline
 - uid: NetAF.Targets.Text
   name: NetAF.Targets.Text
   href: api/NetAF.Targets.Text.html
