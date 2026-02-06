@@ -4212,157 +4212,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.AstParser.yml",
+      "source_relative_path": "api/NetAF.Targets.Markup.Color.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.AstParser.html"
+          "relative_path": "api/NetAF.Targets.Markup.Color.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.AstParser",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.AstParser.yml\" sourcestartlinenumber=\"1\">Provides parsing functionality between various formats and the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.DocumentNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.yml\" sourcestartlinenumber=\"1\">Represents a document in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.HeadingNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.yml\" sourcestartlinenumber=\"1\">Represents a heading node in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.IBlockNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.yml\" sourcestartlinenumber=\"1\">Represents a block node in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.IInlineNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.yml\" sourcestartlinenumber=\"1\">Represents an inline node in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.INode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.INode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.INode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.INode.yml\" sourcestartlinenumber=\"1\">Represents a node in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.ParagraphNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.yml\" sourcestartlinenumber=\"1\">Get a node representing a paragraph in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.yml\" sourcestartlinenumber=\"1\">Represents a style span node in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.TextNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes.TextNode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Ast.Nodes.TextNode.yml\" sourcestartlinenumber=\"1\">Represents a text node in the abstract syntax tree.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.Nodes.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast.Nodes",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Markup.Ast.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Markup.Ast.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Markup.Ast",
-      "Summary": null
+      "Title": "NetAF.Targets.Markup.Color",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Color.yml\" sourcestartlinenumber=\"1\">Represents a 24-bit color.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4391,6 +4251,160 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Markup.MarkupAdapter",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.MarkupAdapter.yml\" sourcestartlinenumber=\"1\">Provides an adapter for markup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.ModelParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.ModelParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.ModelParser",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.ModelParser.yml\" sourcestartlinenumber=\"1\">Provides parsing functionality between various formats and the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.DocumentNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.DocumentNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.DocumentNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.DocumentNode.yml\" sourcestartlinenumber=\"1\">Represents a document in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.HeadingNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.yml\" sourcestartlinenumber=\"1\">Represents a heading node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.IBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.IBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.IBlockNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.IBlockNode.yml\" sourcestartlinenumber=\"1\">Represents a block node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.IInlineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.IInlineNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.IInlineNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.IInlineNode.yml\" sourcestartlinenumber=\"1\">Represents an inline node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.INode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.INode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.INode.yml\" sourcestartlinenumber=\"1\">Represents a node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.ParagraphNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.ParagraphNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.ParagraphNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.ParagraphNode.yml\" sourcestartlinenumber=\"1\">Get a node representing a paragraph in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.StyleSpanNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.yml\" sourcestartlinenumber=\"1\">Represents a style span node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.TextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.TextNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes.TextNode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Model.Nodes.TextNode.yml\" sourcestartlinenumber=\"1\">Represents a text node in the abstract syntax tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.Nodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model.Nodes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Model",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class StyleSpanNode | NetAF </title>
+      <title>Class ModelParser | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class StyleSpanNode | NetAF ">
+      <meta name="title" content="Class ModelParser | NetAF ">
     
-    <meta name="description" content="Represents a style span node in the abstract syntax tree.">
+    <meta name="description" content="Provides parsing functionality between various formats and the abstract syntax tree.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,23 +76,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Markup.Model.ModelParser">
 
 
 
-  <h1 id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode" class="text-break">Class StyleSpanNode</h1>
-  <div class="markdown level0 summary"><p>Represents a style span node in the abstract syntax tree.</p>
+  <h1 id="NetAF_Targets_Markup_Model_ModelParser" data-uid="NetAF.Targets.Markup.Model.ModelParser" class="text-break">Class ModelParser</h1>
+  <div class="markdown level0 summary"><p>Provides parsing functionality between various formats and the abstract syntax tree.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">StyleSpanNode</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Targets.Markup.Ast.Nodes.IInlineNode.html">IInlineNode</a></div>
-    <div><a class="xref" href="NetAF.Targets.Markup.Ast.Nodes.INode.html">INode</a></div>
+    <div class="level1"><span class="xref">ModelParser</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -118,22 +113,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Markup.html">Markup</a>.<a class="xref" href="NetAF.Targets.Markup.Ast.html">Ast</a>.<a class="xref" href="NetAF.Targets.Markup.Ast.Nodes.html">Nodes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Markup.html">Markup</a>.<a class="xref" href="NetAF.Targets.Markup.Model.html">Model</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Markup_Model_ModelParser_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StyleSpanNode : IInlineNode, INode</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ModelParser</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode__ctor_" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.#ctor*"></a>
-  <h4 id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode__ctor_NetAF_Targets_Markup_TextStyle_" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.#ctor(NetAF.Targets.Markup.TextStyle)">StyleSpanNode(TextStyle)</h4>
-  <div class="markdown level1 summary"><p>Represents a style span node in the abstract syntax tree.</p>
+  <a id="NetAF_Targets_Markup_Model_ModelParser_TryParse_" data-uid="NetAF.Targets.Markup.Model.ModelParser.TryParse*"></a>
+  <h4 id="NetAF_Targets_Markup_Model_ModelParser_TryParse_System_String_NetAF_Targets_Markup_Model_Nodes_DocumentNode__" data-uid="NetAF.Targets.Markup.Model.ModelParser.TryParse(System.String,NetAF.Targets.Markup.Model.Nodes.DocumentNode@)">TryParse(string, out DocumentNode)</h4>
+  <div class="markdown level1 summary"><p>Try and parse a string to a DocumentNode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StyleSpanNode(TextStyle style)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string input, out DocumentNode documentNode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -146,24 +141,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Markup.TextStyle.html">TextStyle</a></td>
-        <td><span class="parametername">style</span></td>
-        <td></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The input to try and parse.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Markup.Model.Nodes.DocumentNode.html">DocumentNode</a></td>
+        <td><span class="parametername">documentNode</span></td>
+        <td><p>The parsed document node.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Inlines_" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines*"></a>
-  <h4 id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Inlines" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines">Inlines</h4>
-  <div class="markdown level1 summary"><p>Get all inlines in this node.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;IInlineNode&gt; Inlines { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -173,42 +164,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="NetAF.Targets.Markup.Ast.Nodes.IInlineNode.html">IInlineNode</a>&gt;</td>
-        <td></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True of the parse was successful, else false.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Style_" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style*"></a>
-  <h4 id="NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Style" data-uid="NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style">Style</h4>
-  <div class="markdown level1 summary"><p>Get the style.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextStyle Style { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Markup.TextStyle.html">TextStyle</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="NetAF.Targets.Markup.Ast.Nodes.IInlineNode.html">IInlineNode</a>
-  </div>
-  <div>
-      <a class="xref" href="NetAF.Targets.Markup.Ast.Nodes.INode.html">INode</a>
-  </div>
 
 </article>
           </div>

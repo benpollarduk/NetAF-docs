@@ -18342,236 +18342,99 @@ references:
   commentId: N:NetAF.Targets.Markup
   fullName: NetAF.Targets.Markup
   nameWithType: NetAF.Targets.Markup
-- uid: NetAF.Targets.Markup.Ast
-  name: NetAF.Targets.Markup.Ast
-  href: api/NetAF.Targets.Markup.Ast.html
-  commentId: N:NetAF.Targets.Markup.Ast
-  fullName: NetAF.Targets.Markup.Ast
-  nameWithType: NetAF.Targets.Markup.Ast
-- uid: NetAF.Targets.Markup.Ast.AstParser
-  name: AstParser
-  href: api/NetAF.Targets.Markup.Ast.AstParser.html
-  commentId: T:NetAF.Targets.Markup.Ast.AstParser
-  fullName: NetAF.Targets.Markup.Ast.AstParser
-  nameWithType: AstParser
-- uid: NetAF.Targets.Markup.Ast.AstParser.TryParse(System.String,NetAF.Targets.Markup.Ast.Nodes.DocumentNode@)
-  name: TryParse(string, out DocumentNode)
-  href: api/NetAF.Targets.Markup.Ast.AstParser.html#NetAF_Targets_Markup_Ast_AstParser_TryParse_System_String_NetAF_Targets_Markup_Ast_Nodes_DocumentNode__
-  commentId: M:NetAF.Targets.Markup.Ast.AstParser.TryParse(System.String,NetAF.Targets.Markup.Ast.Nodes.DocumentNode@)
-  name.vb: TryParse(String, DocumentNode)
-  fullName: NetAF.Targets.Markup.Ast.AstParser.TryParse(string, out NetAF.Targets.Markup.Ast.Nodes.DocumentNode)
-  fullName.vb: NetAF.Targets.Markup.Ast.AstParser.TryParse(String, NetAF.Targets.Markup.Ast.Nodes.DocumentNode)
-  nameWithType: AstParser.TryParse(string, out DocumentNode)
-  nameWithType.vb: AstParser.TryParse(String, DocumentNode)
-- uid: NetAF.Targets.Markup.Ast.AstParser.TryParse*
-  name: TryParse
-  href: api/NetAF.Targets.Markup.Ast.AstParser.html#NetAF_Targets_Markup_Ast_AstParser_TryParse_
-  commentId: Overload:NetAF.Targets.Markup.Ast.AstParser.TryParse
-  isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.AstParser.TryParse
-  nameWithType: AstParser.TryParse
-- uid: NetAF.Targets.Markup.Ast.Nodes
-  name: NetAF.Targets.Markup.Ast.Nodes
-  href: api/NetAF.Targets.Markup.Ast.Nodes.html
-  commentId: N:NetAF.Targets.Markup.Ast.Nodes
-  fullName: NetAF.Targets.Markup.Ast.Nodes
-  nameWithType: NetAF.Targets.Markup.Ast.Nodes
-- uid: NetAF.Targets.Markup.Ast.Nodes.DocumentNode
-  name: DocumentNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.DocumentNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.DocumentNode
-  nameWithType: DocumentNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.DocumentNode.Blocks
-  name: Blocks
-  href: api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.html#NetAF_Targets_Markup_Ast_Nodes_DocumentNode_Blocks
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.DocumentNode.Blocks
-  fullName: NetAF.Targets.Markup.Ast.Nodes.DocumentNode.Blocks
-  nameWithType: DocumentNode.Blocks
-- uid: NetAF.Targets.Markup.Ast.Nodes.DocumentNode.Blocks*
-  name: Blocks
-  href: api/NetAF.Targets.Markup.Ast.Nodes.DocumentNode.html#NetAF_Targets_Markup_Ast_Nodes_DocumentNode_Blocks_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.DocumentNode.Blocks
-  isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.DocumentNode.Blocks
-  nameWithType: DocumentNode.Blocks
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode
-  name: HeadingNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.HeadingNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode
-  nameWithType: HeadingNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.#ctor(System.String,NetAF.Targets.Markup.HeadingLevel)
-  name: HeadingNode(string, HeadingLevel)
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html#NetAF_Targets_Markup_Ast_Nodes_HeadingNode__ctor_System_String_NetAF_Targets_Markup_HeadingLevel_
-  commentId: M:NetAF.Targets.Markup.Ast.Nodes.HeadingNode.#ctor(System.String,NetAF.Targets.Markup.HeadingLevel)
-  name.vb: New(String, HeadingLevel)
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.HeadingNode(string, NetAF.Targets.Markup.HeadingLevel)
-  fullName.vb: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.New(String, NetAF.Targets.Markup.HeadingLevel)
-  nameWithType: HeadingNode.HeadingNode(string, HeadingLevel)
-  nameWithType.vb: HeadingNode.New(String, HeadingLevel)
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.#ctor*
-  name: HeadingNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html#NetAF_Targets_Markup_Ast_Nodes_HeadingNode__ctor_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.HeadingNode.#ctor
+- uid: NetAF.Targets.Markup.Color
+  name: Color
+  href: api/NetAF.Targets.Markup.Color.html
+  commentId: T:NetAF.Targets.Markup.Color
+  fullName: NetAF.Targets.Markup.Color
+  nameWithType: Color
+- uid: NetAF.Targets.Markup.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  name: Color(byte, byte, byte)
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color__ctor_System_Byte_System_Byte_System_Byte_
+  commentId: M:NetAF.Targets.Markup.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  name.vb: New(Byte, Byte, Byte)
+  fullName: NetAF.Targets.Markup.Color.Color(byte, byte, byte)
+  fullName.vb: NetAF.Targets.Markup.Color.New(Byte, Byte, Byte)
+  nameWithType: Color.Color(byte, byte, byte)
+  nameWithType.vb: Color.New(Byte, Byte, Byte)
+- uid: NetAF.Targets.Markup.Color.#ctor*
+  name: Color
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color__ctor_
+  commentId: Overload:NetAF.Targets.Markup.Color.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.HeadingNode
-  fullName.vb: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.New
-  nameWithType: HeadingNode.HeadingNode
-  nameWithType.vb: HeadingNode.New
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Level
-  name: Level
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html#NetAF_Targets_Markup_Ast_Nodes_HeadingNode_Level
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Level
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Level
-  nameWithType: HeadingNode.Level
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Level*
-  name: Level
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html#NetAF_Targets_Markup_Ast_Nodes_HeadingNode_Level_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Level
+  fullName: NetAF.Targets.Markup.Color.Color
+  fullName.vb: NetAF.Targets.Markup.Color.New
+  nameWithType: Color.Color
+  nameWithType.vb: Color.New
+- uid: NetAF.Targets.Markup.Color.Blue
+  name: Blue
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_Blue
+  commentId: P:NetAF.Targets.Markup.Color.Blue
+  fullName: NetAF.Targets.Markup.Color.Blue
+  nameWithType: Color.Blue
+- uid: NetAF.Targets.Markup.Color.Blue*
+  name: Blue
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_Blue_
+  commentId: Overload:NetAF.Targets.Markup.Color.Blue
   isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Level
-  nameWithType: HeadingNode.Level
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Text
-  name: Text
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html#NetAF_Targets_Markup_Ast_Nodes_HeadingNode_Text
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Text
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Text
-  nameWithType: HeadingNode.Text
-- uid: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Text*
-  name: Text
-  href: api/NetAF.Targets.Markup.Ast.Nodes.HeadingNode.html#NetAF_Targets_Markup_Ast_Nodes_HeadingNode_Text_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Text
+  fullName: NetAF.Targets.Markup.Color.Blue
+  nameWithType: Color.Blue
+- uid: NetAF.Targets.Markup.Color.FromHtml(System.String)
+  name: FromHtml(string)
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_FromHtml_System_String_
+  commentId: M:NetAF.Targets.Markup.Color.FromHtml(System.String)
+  name.vb: FromHtml(String)
+  fullName: NetAF.Targets.Markup.Color.FromHtml(string)
+  fullName.vb: NetAF.Targets.Markup.Color.FromHtml(String)
+  nameWithType: Color.FromHtml(string)
+  nameWithType.vb: Color.FromHtml(String)
+- uid: NetAF.Targets.Markup.Color.FromHtml*
+  name: FromHtml
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_FromHtml_
+  commentId: Overload:NetAF.Targets.Markup.Color.FromHtml
   isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.HeadingNode.Text
-  nameWithType: HeadingNode.Text
-- uid: NetAF.Targets.Markup.Ast.Nodes.IBlockNode
-  name: IBlockNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.IBlockNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.IBlockNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.IBlockNode
-  nameWithType: IBlockNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.IInlineNode
-  name: IInlineNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.IInlineNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.IInlineNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.IInlineNode
-  nameWithType: IInlineNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.INode
-  name: INode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.INode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.INode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.INode
-  nameWithType: INode
-- uid: NetAF.Targets.Markup.Ast.Nodes.ParagraphNode
-  name: ParagraphNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.ParagraphNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.ParagraphNode
-  nameWithType: ParagraphNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.Inlines
-  name: Inlines
-  href: api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.html#NetAF_Targets_Markup_Ast_Nodes_ParagraphNode_Inlines
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.Inlines
-  fullName: NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.Inlines
-  nameWithType: ParagraphNode.Inlines
-- uid: NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.Inlines*
-  name: Inlines
-  href: api/NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.html#NetAF_Targets_Markup_Ast_Nodes_ParagraphNode_Inlines_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.Inlines
+  fullName: NetAF.Targets.Markup.Color.FromHtml
+  nameWithType: Color.FromHtml
+- uid: NetAF.Targets.Markup.Color.Green
+  name: Green
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_Green
+  commentId: P:NetAF.Targets.Markup.Color.Green
+  fullName: NetAF.Targets.Markup.Color.Green
+  nameWithType: Color.Green
+- uid: NetAF.Targets.Markup.Color.Green*
+  name: Green
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_Green_
+  commentId: Overload:NetAF.Targets.Markup.Color.Green
   isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.ParagraphNode.Inlines
-  nameWithType: ParagraphNode.Inlines
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode
-  name: StyleSpanNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode
-  nameWithType: StyleSpanNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.#ctor(NetAF.Targets.Markup.TextStyle)
-  name: StyleSpanNode(TextStyle)
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode__ctor_NetAF_Targets_Markup_TextStyle_
-  commentId: M:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.#ctor(NetAF.Targets.Markup.TextStyle)
-  name.vb: New(TextStyle)
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.StyleSpanNode(NetAF.Targets.Markup.TextStyle)
-  fullName.vb: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.New(NetAF.Targets.Markup.TextStyle)
-  nameWithType: StyleSpanNode.StyleSpanNode(TextStyle)
-  nameWithType.vb: StyleSpanNode.New(TextStyle)
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.#ctor*
-  name: StyleSpanNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode__ctor_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.#ctor
+  fullName: NetAF.Targets.Markup.Color.Green
+  nameWithType: Color.Green
+- uid: NetAF.Targets.Markup.Color.Red
+  name: Red
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_Red
+  commentId: P:NetAF.Targets.Markup.Color.Red
+  fullName: NetAF.Targets.Markup.Color.Red
+  nameWithType: Color.Red
+- uid: NetAF.Targets.Markup.Color.Red*
+  name: Red
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_Red_
+  commentId: Overload:NetAF.Targets.Markup.Color.Red
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.StyleSpanNode
-  fullName.vb: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.New
-  nameWithType: StyleSpanNode.StyleSpanNode
-  nameWithType.vb: StyleSpanNode.New
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines
-  name: Inlines
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Inlines
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines
-  nameWithType: StyleSpanNode.Inlines
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines*
-  name: Inlines
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Inlines_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines
+  fullName: NetAF.Targets.Markup.Color.Red
+  nameWithType: Color.Red
+- uid: NetAF.Targets.Markup.Color.ToHtml
+  name: ToHtml()
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_ToHtml
+  commentId: M:NetAF.Targets.Markup.Color.ToHtml
+  fullName: NetAF.Targets.Markup.Color.ToHtml()
+  nameWithType: Color.ToHtml()
+- uid: NetAF.Targets.Markup.Color.ToHtml*
+  name: ToHtml
+  href: api/NetAF.Targets.Markup.Color.html#NetAF_Targets_Markup_Color_ToHtml_
+  commentId: Overload:NetAF.Targets.Markup.Color.ToHtml
   isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Inlines
-  nameWithType: StyleSpanNode.Inlines
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style
-  name: Style
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Style
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style
-  nameWithType: StyleSpanNode.Style
-- uid: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style*
-  name: Style
-  href: api/NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Ast_Nodes_StyleSpanNode_Style_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style
-  isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.StyleSpanNode.Style
-  nameWithType: StyleSpanNode.Style
-- uid: NetAF.Targets.Markup.Ast.Nodes.TextNode
-  name: TextNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html
-  commentId: T:NetAF.Targets.Markup.Ast.Nodes.TextNode
-  fullName: NetAF.Targets.Markup.Ast.Nodes.TextNode
-  nameWithType: TextNode
-- uid: NetAF.Targets.Markup.Ast.Nodes.TextNode.#ctor(System.String)
-  name: TextNode(string)
-  href: api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html#NetAF_Targets_Markup_Ast_Nodes_TextNode__ctor_System_String_
-  commentId: M:NetAF.Targets.Markup.Ast.Nodes.TextNode.#ctor(System.String)
-  name.vb: New(String)
-  fullName: NetAF.Targets.Markup.Ast.Nodes.TextNode.TextNode(string)
-  fullName.vb: NetAF.Targets.Markup.Ast.Nodes.TextNode.New(String)
-  nameWithType: TextNode.TextNode(string)
-  nameWithType.vb: TextNode.New(String)
-- uid: NetAF.Targets.Markup.Ast.Nodes.TextNode.#ctor*
-  name: TextNode
-  href: api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html#NetAF_Targets_Markup_Ast_Nodes_TextNode__ctor_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.TextNode.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Targets.Markup.Ast.Nodes.TextNode.TextNode
-  fullName.vb: NetAF.Targets.Markup.Ast.Nodes.TextNode.New
-  nameWithType: TextNode.TextNode
-  nameWithType.vb: TextNode.New
-- uid: NetAF.Targets.Markup.Ast.Nodes.TextNode.Text
-  name: Text
-  href: api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html#NetAF_Targets_Markup_Ast_Nodes_TextNode_Text
-  commentId: P:NetAF.Targets.Markup.Ast.Nodes.TextNode.Text
-  fullName: NetAF.Targets.Markup.Ast.Nodes.TextNode.Text
-  nameWithType: TextNode.Text
-- uid: NetAF.Targets.Markup.Ast.Nodes.TextNode.Text*
-  name: Text
-  href: api/NetAF.Targets.Markup.Ast.Nodes.TextNode.html#NetAF_Targets_Markup_Ast_Nodes_TextNode_Text_
-  commentId: Overload:NetAF.Targets.Markup.Ast.Nodes.TextNode.Text
-  isSpec: "True"
-  fullName: NetAF.Targets.Markup.Ast.Nodes.TextNode.Text
-  nameWithType: TextNode.Text
+  fullName: NetAF.Targets.Markup.Color.ToHtml
+  nameWithType: Color.ToHtml
 - uid: NetAF.Targets.Markup.HeadingLevel
   name: HeadingLevel
   href: api/NetAF.Targets.Markup.HeadingLevel.html
@@ -18695,6 +18558,236 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Markup.MarkupAdapter.Setup
   nameWithType: MarkupAdapter.Setup
+- uid: NetAF.Targets.Markup.Model
+  name: NetAF.Targets.Markup.Model
+  href: api/NetAF.Targets.Markup.Model.html
+  commentId: N:NetAF.Targets.Markup.Model
+  fullName: NetAF.Targets.Markup.Model
+  nameWithType: NetAF.Targets.Markup.Model
+- uid: NetAF.Targets.Markup.Model.ModelParser
+  name: ModelParser
+  href: api/NetAF.Targets.Markup.Model.ModelParser.html
+  commentId: T:NetAF.Targets.Markup.Model.ModelParser
+  fullName: NetAF.Targets.Markup.Model.ModelParser
+  nameWithType: ModelParser
+- uid: NetAF.Targets.Markup.Model.ModelParser.TryParse(System.String,NetAF.Targets.Markup.Model.Nodes.DocumentNode@)
+  name: TryParse(string, out DocumentNode)
+  href: api/NetAF.Targets.Markup.Model.ModelParser.html#NetAF_Targets_Markup_Model_ModelParser_TryParse_System_String_NetAF_Targets_Markup_Model_Nodes_DocumentNode__
+  commentId: M:NetAF.Targets.Markup.Model.ModelParser.TryParse(System.String,NetAF.Targets.Markup.Model.Nodes.DocumentNode@)
+  name.vb: TryParse(String, DocumentNode)
+  fullName: NetAF.Targets.Markup.Model.ModelParser.TryParse(string, out NetAF.Targets.Markup.Model.Nodes.DocumentNode)
+  fullName.vb: NetAF.Targets.Markup.Model.ModelParser.TryParse(String, NetAF.Targets.Markup.Model.Nodes.DocumentNode)
+  nameWithType: ModelParser.TryParse(string, out DocumentNode)
+  nameWithType.vb: ModelParser.TryParse(String, DocumentNode)
+- uid: NetAF.Targets.Markup.Model.ModelParser.TryParse*
+  name: TryParse
+  href: api/NetAF.Targets.Markup.Model.ModelParser.html#NetAF_Targets_Markup_Model_ModelParser_TryParse_
+  commentId: Overload:NetAF.Targets.Markup.Model.ModelParser.TryParse
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.ModelParser.TryParse
+  nameWithType: ModelParser.TryParse
+- uid: NetAF.Targets.Markup.Model.Nodes
+  name: NetAF.Targets.Markup.Model.Nodes
+  href: api/NetAF.Targets.Markup.Model.Nodes.html
+  commentId: N:NetAF.Targets.Markup.Model.Nodes
+  fullName: NetAF.Targets.Markup.Model.Nodes
+  nameWithType: NetAF.Targets.Markup.Model.Nodes
+- uid: NetAF.Targets.Markup.Model.Nodes.DocumentNode
+  name: DocumentNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.DocumentNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.DocumentNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.DocumentNode
+  nameWithType: DocumentNode
+- uid: NetAF.Targets.Markup.Model.Nodes.DocumentNode.Blocks
+  name: Blocks
+  href: api/NetAF.Targets.Markup.Model.Nodes.DocumentNode.html#NetAF_Targets_Markup_Model_Nodes_DocumentNode_Blocks
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.DocumentNode.Blocks
+  fullName: NetAF.Targets.Markup.Model.Nodes.DocumentNode.Blocks
+  nameWithType: DocumentNode.Blocks
+- uid: NetAF.Targets.Markup.Model.Nodes.DocumentNode.Blocks*
+  name: Blocks
+  href: api/NetAF.Targets.Markup.Model.Nodes.DocumentNode.html#NetAF_Targets_Markup_Model_Nodes_DocumentNode_Blocks_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.DocumentNode.Blocks
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.DocumentNode.Blocks
+  nameWithType: DocumentNode.Blocks
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode
+  name: HeadingNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.HeadingNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode
+  nameWithType: HeadingNode
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode.#ctor(System.String,NetAF.Targets.Markup.HeadingLevel)
+  name: HeadingNode(string, HeadingLevel)
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html#NetAF_Targets_Markup_Model_Nodes_HeadingNode__ctor_System_String_NetAF_Targets_Markup_HeadingLevel_
+  commentId: M:NetAF.Targets.Markup.Model.Nodes.HeadingNode.#ctor(System.String,NetAF.Targets.Markup.HeadingLevel)
+  name.vb: New(String, HeadingLevel)
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode.HeadingNode(string, NetAF.Targets.Markup.HeadingLevel)
+  fullName.vb: NetAF.Targets.Markup.Model.Nodes.HeadingNode.New(String, NetAF.Targets.Markup.HeadingLevel)
+  nameWithType: HeadingNode.HeadingNode(string, HeadingLevel)
+  nameWithType.vb: HeadingNode.New(String, HeadingLevel)
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode.#ctor*
+  name: HeadingNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html#NetAF_Targets_Markup_Model_Nodes_HeadingNode__ctor_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.HeadingNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode.HeadingNode
+  fullName.vb: NetAF.Targets.Markup.Model.Nodes.HeadingNode.New
+  nameWithType: HeadingNode.HeadingNode
+  nameWithType.vb: HeadingNode.New
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Level
+  name: Level
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html#NetAF_Targets_Markup_Model_Nodes_HeadingNode_Level
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.HeadingNode.Level
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Level
+  nameWithType: HeadingNode.Level
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Level*
+  name: Level
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html#NetAF_Targets_Markup_Model_Nodes_HeadingNode_Level_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.HeadingNode.Level
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Level
+  nameWithType: HeadingNode.Level
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Text
+  name: Text
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html#NetAF_Targets_Markup_Model_Nodes_HeadingNode_Text
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.HeadingNode.Text
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Text
+  nameWithType: HeadingNode.Text
+- uid: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Text*
+  name: Text
+  href: api/NetAF.Targets.Markup.Model.Nodes.HeadingNode.html#NetAF_Targets_Markup_Model_Nodes_HeadingNode_Text_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.HeadingNode.Text
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.HeadingNode.Text
+  nameWithType: HeadingNode.Text
+- uid: NetAF.Targets.Markup.Model.Nodes.IBlockNode
+  name: IBlockNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.IBlockNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.IBlockNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.IBlockNode
+  nameWithType: IBlockNode
+- uid: NetAF.Targets.Markup.Model.Nodes.IInlineNode
+  name: IInlineNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.IInlineNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.IInlineNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.IInlineNode
+  nameWithType: IInlineNode
+- uid: NetAF.Targets.Markup.Model.Nodes.INode
+  name: INode
+  href: api/NetAF.Targets.Markup.Model.Nodes.INode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.INode
+  fullName: NetAF.Targets.Markup.Model.Nodes.INode
+  nameWithType: INode
+- uid: NetAF.Targets.Markup.Model.Nodes.ParagraphNode
+  name: ParagraphNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.ParagraphNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.ParagraphNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.ParagraphNode
+  nameWithType: ParagraphNode
+- uid: NetAF.Targets.Markup.Model.Nodes.ParagraphNode.Inlines
+  name: Inlines
+  href: api/NetAF.Targets.Markup.Model.Nodes.ParagraphNode.html#NetAF_Targets_Markup_Model_Nodes_ParagraphNode_Inlines
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.ParagraphNode.Inlines
+  fullName: NetAF.Targets.Markup.Model.Nodes.ParagraphNode.Inlines
+  nameWithType: ParagraphNode.Inlines
+- uid: NetAF.Targets.Markup.Model.Nodes.ParagraphNode.Inlines*
+  name: Inlines
+  href: api/NetAF.Targets.Markup.Model.Nodes.ParagraphNode.html#NetAF_Targets_Markup_Model_Nodes_ParagraphNode_Inlines_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.ParagraphNode.Inlines
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.ParagraphNode.Inlines
+  nameWithType: ParagraphNode.Inlines
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode
+  name: StyleSpanNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode
+  nameWithType: StyleSpanNode
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.#ctor(NetAF.Targets.Markup.TextStyle)
+  name: StyleSpanNode(TextStyle)
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Model_Nodes_StyleSpanNode__ctor_NetAF_Targets_Markup_TextStyle_
+  commentId: M:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.#ctor(NetAF.Targets.Markup.TextStyle)
+  name.vb: New(TextStyle)
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.StyleSpanNode(NetAF.Targets.Markup.TextStyle)
+  fullName.vb: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.New(NetAF.Targets.Markup.TextStyle)
+  nameWithType: StyleSpanNode.StyleSpanNode(TextStyle)
+  nameWithType.vb: StyleSpanNode.New(TextStyle)
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.#ctor*
+  name: StyleSpanNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Model_Nodes_StyleSpanNode__ctor_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.StyleSpanNode
+  fullName.vb: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.New
+  nameWithType: StyleSpanNode.StyleSpanNode
+  nameWithType.vb: StyleSpanNode.New
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Inlines
+  name: Inlines
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Model_Nodes_StyleSpanNode_Inlines
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Inlines
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Inlines
+  nameWithType: StyleSpanNode.Inlines
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Inlines*
+  name: Inlines
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Model_Nodes_StyleSpanNode_Inlines_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Inlines
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Inlines
+  nameWithType: StyleSpanNode.Inlines
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Style
+  name: Style
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Model_Nodes_StyleSpanNode_Style
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Style
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Style
+  nameWithType: StyleSpanNode.Style
+- uid: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Style*
+  name: Style
+  href: api/NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.html#NetAF_Targets_Markup_Model_Nodes_StyleSpanNode_Style_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Style
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.StyleSpanNode.Style
+  nameWithType: StyleSpanNode.Style
+- uid: NetAF.Targets.Markup.Model.Nodes.TextNode
+  name: TextNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.TextNode.html
+  commentId: T:NetAF.Targets.Markup.Model.Nodes.TextNode
+  fullName: NetAF.Targets.Markup.Model.Nodes.TextNode
+  nameWithType: TextNode
+- uid: NetAF.Targets.Markup.Model.Nodes.TextNode.#ctor(System.String)
+  name: TextNode(string)
+  href: api/NetAF.Targets.Markup.Model.Nodes.TextNode.html#NetAF_Targets_Markup_Model_Nodes_TextNode__ctor_System_String_
+  commentId: M:NetAF.Targets.Markup.Model.Nodes.TextNode.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetAF.Targets.Markup.Model.Nodes.TextNode.TextNode(string)
+  fullName.vb: NetAF.Targets.Markup.Model.Nodes.TextNode.New(String)
+  nameWithType: TextNode.TextNode(string)
+  nameWithType.vb: TextNode.New(String)
+- uid: NetAF.Targets.Markup.Model.Nodes.TextNode.#ctor*
+  name: TextNode
+  href: api/NetAF.Targets.Markup.Model.Nodes.TextNode.html#NetAF_Targets_Markup_Model_Nodes_TextNode__ctor_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.TextNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Markup.Model.Nodes.TextNode.TextNode
+  fullName.vb: NetAF.Targets.Markup.Model.Nodes.TextNode.New
+  nameWithType: TextNode.TextNode
+  nameWithType.vb: TextNode.New
+- uid: NetAF.Targets.Markup.Model.Nodes.TextNode.Text
+  name: Text
+  href: api/NetAF.Targets.Markup.Model.Nodes.TextNode.html#NetAF_Targets_Markup_Model_Nodes_TextNode_Text
+  commentId: P:NetAF.Targets.Markup.Model.Nodes.TextNode.Text
+  fullName: NetAF.Targets.Markup.Model.Nodes.TextNode.Text
+  nameWithType: TextNode.Text
+- uid: NetAF.Targets.Markup.Model.Nodes.TextNode.Text*
+  name: Text
+  href: api/NetAF.Targets.Markup.Model.Nodes.TextNode.html#NetAF_Targets_Markup_Model_Nodes_TextNode_Text_
+  commentId: Overload:NetAF.Targets.Markup.Model.Nodes.TextNode.Text
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Model.Nodes.TextNode.Text
+  nameWithType: TextNode.Text
 - uid: NetAF.Targets.Markup.Rendering
   name: NetAF.Targets.Markup.Rendering
   href: api/NetAF.Targets.Markup.Rendering.html
@@ -19569,15 +19662,15 @@ references:
   commentId: T:NetAF.Targets.Markup.TextStyle
   fullName: NetAF.Targets.Markup.TextStyle
   nameWithType: TextStyle
-- uid: NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
-  name: TextStyle(bool, bool, bool, bool, bool, Color?, Color?)
-  href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
-  commentId: M:NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
-  name.vb: New(Boolean, Boolean, Boolean, Boolean, Boolean, Color?, Color?)
-  fullName: NetAF.Targets.Markup.TextStyle.TextStyle(bool, bool, bool, bool, bool, System.Drawing.Color?, System.Drawing.Color?)
-  fullName.vb: NetAF.Targets.Markup.TextStyle.New(Boolean, Boolean, Boolean, Boolean, Boolean, System.Drawing.Color?, System.Drawing.Color?)
-  nameWithType: TextStyle.TextStyle(bool, bool, bool, bool, bool, Color?, Color?)
-  nameWithType.vb: TextStyle.New(Boolean, Boolean, Boolean, Boolean, Boolean, Color?, Color?)
+- uid: NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,NetAF.Targets.Markup.Color,NetAF.Targets.Markup.Color)
+  name: TextStyle(bool, bool, bool, bool, bool, Color, Color)
+  href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_NetAF_Targets_Markup_Color_NetAF_Targets_Markup_Color_
+  commentId: M:NetAF.Targets.Markup.TextStyle.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,NetAF.Targets.Markup.Color,NetAF.Targets.Markup.Color)
+  name.vb: New(Boolean, Boolean, Boolean, Boolean, Boolean, Color, Color)
+  fullName: NetAF.Targets.Markup.TextStyle.TextStyle(bool, bool, bool, bool, bool, NetAF.Targets.Markup.Color, NetAF.Targets.Markup.Color)
+  fullName.vb: NetAF.Targets.Markup.TextStyle.New(Boolean, Boolean, Boolean, Boolean, Boolean, NetAF.Targets.Markup.Color, NetAF.Targets.Markup.Color)
+  nameWithType: TextStyle.TextStyle(bool, bool, bool, bool, bool, Color, Color)
+  nameWithType.vb: TextStyle.New(Boolean, Boolean, Boolean, Boolean, Boolean, Color, Color)
 - uid: NetAF.Targets.Markup.TextStyle.#ctor*
   name: TextStyle
   href: api/NetAF.Targets.Markup.TextStyle.html#NetAF_Targets_Markup_TextStyle__ctor_
