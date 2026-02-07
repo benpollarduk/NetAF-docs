@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Interface IRegionMapBuilder | NetAF </title>
+      <title>Class RoomExited | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Interface IRegionMapBuilder | NetAF ">
+      <meta name="title" content="Class RoomExited | NetAF ">
     
-    <meta name="description" content="Represents any object that can build region maps.">
+    <meta name="description" content="Provides an event for when a room is exited.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,30 +76,65 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.FrameBuilders.IRegionMapBuilder">
+            <article class="content wrap" id="_content" data-uid="NetAF.Events.RoomExited">
 
 
 
-  <h1 id="NetAF_Rendering_FrameBuilders_IRegionMapBuilder" data-uid="NetAF.Rendering.FrameBuilders.IRegionMapBuilder" class="text-break">Interface IRegionMapBuilder</h1>
-  <div class="markdown level0 summary"><p>Represents any object that can build region maps.</p>
+  <h1 id="NetAF_Events_RoomExited" data-uid="NetAF.Events.RoomExited" class="text-break">Class RoomExited</h1>
+  <div class="markdown level0 summary"><p>Provides an event for when a room is exited.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
-  <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Rendering_FrameBuilders_IRegionMapBuilder_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRegionMapBuilder</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="NetAF.Events.BaseEvent.html">BaseEvent</a></div>
+    <div class="level2"><span class="xref">RoomExited</span></div>
   </div>
-  <h3 id="methods">Methods
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Events.BaseEvent.html">BaseEvent</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Events.RoomExited.html">RoomExited</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Events.html">Events</a></h6>
+  <h6><strong>Assembly</strong>: NetAF.dll</h6>
+  <h5 id="NetAF_Events_RoomExited_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public record RoomExited : BaseEvent, IEquatable&lt;BaseEvent&gt;, IEquatable&lt;RoomExited&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_" data-uid="NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap*"></a>
-  <h4 id="NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_" data-uid="NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)">BuildRegionMap(Region, Point3D, RegionMapDetail, Size)</h4>
-  <div class="markdown level1 summary"><p>Build a map of a region.</p>
+  <a id="NetAF_Events_RoomExited__ctor_" data-uid="NetAF.Events.RoomExited.#ctor*"></a>
+  <h4 id="NetAF_Events_RoomExited__ctor_NetAF_Assets_Locations_Room_" data-uid="NetAF.Events.RoomExited.#ctor(NetAF.Assets.Locations.Room)">RoomExited(Room)</h4>
+  <div class="markdown level1 summary"><p>Provides an event for when a room is exited.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void BuildRegionMap(Region region, Point3D focusPosition, RegionMapDetail detail, Size maxSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public RoomExited(Room Room)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -112,31 +147,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Locations.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>The region.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
-        <td><span class="parametername">focusPosition</span></td>
-        <td><p>The position to focus on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
-        <td><span class="parametername">detail</span></td>
-        <td><p>The level of detail to use.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
-        <td><span class="parametername">maxSize</span></td>
-        <td><p>The maximum size available in which to build the map.</p>
+        <td><a class="xref" href="NetAF.Assets.Locations.Room.html">Room</a></td>
+        <td><span class="parametername">Room</span></td>
+        <td><p>The room that was exited.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Events_RoomExited_Room_" data-uid="NetAF.Events.RoomExited.Room*"></a>
+  <h4 id="NetAF_Events_RoomExited_Room" data-uid="NetAF.Events.RoomExited.Room">Room</h4>
+  <div class="markdown level1 summary"><p>The room that was exited.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Room Room { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Locations.Room.html">Room</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
+  </div>
 
 </article>
           </div>

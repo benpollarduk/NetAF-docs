@@ -6777,6 +6777,580 @@ references:
   isSpec: "True"
   fullName: NetAF.Conversations.Response.Line
   nameWithType: Response.Line
+- uid: NetAF.Events
+  name: NetAF.Events
+  href: api/NetAF.Events.html
+  commentId: N:NetAF.Events
+  fullName: NetAF.Events
+  nameWithType: NetAF.Events
+- uid: NetAF.Events.BaseEvent
+  name: BaseEvent
+  href: api/NetAF.Events.BaseEvent.html
+  commentId: T:NetAF.Events.BaseEvent
+  fullName: NetAF.Events.BaseEvent
+  nameWithType: BaseEvent
+- uid: NetAF.Events.CharacterDied
+  name: CharacterDied
+  href: api/NetAF.Events.CharacterDied.html
+  commentId: T:NetAF.Events.CharacterDied
+  fullName: NetAF.Events.CharacterDied
+  nameWithType: CharacterDied
+- uid: NetAF.Events.CharacterDied.#ctor(NetAF.Assets.Characters.Character)
+  name: CharacterDied(Character)
+  href: api/NetAF.Events.CharacterDied.html#NetAF_Events_CharacterDied__ctor_NetAF_Assets_Characters_Character_
+  commentId: M:NetAF.Events.CharacterDied.#ctor(NetAF.Assets.Characters.Character)
+  name.vb: New(Character)
+  fullName: NetAF.Events.CharacterDied.CharacterDied(NetAF.Assets.Characters.Character)
+  fullName.vb: NetAF.Events.CharacterDied.New(NetAF.Assets.Characters.Character)
+  nameWithType: CharacterDied.CharacterDied(Character)
+  nameWithType.vb: CharacterDied.New(Character)
+- uid: NetAF.Events.CharacterDied.#ctor*
+  name: CharacterDied
+  href: api/NetAF.Events.CharacterDied.html#NetAF_Events_CharacterDied__ctor_
+  commentId: Overload:NetAF.Events.CharacterDied.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.CharacterDied.CharacterDied
+  fullName.vb: NetAF.Events.CharacterDied.New
+  nameWithType: CharacterDied.CharacterDied
+  nameWithType.vb: CharacterDied.New
+- uid: NetAF.Events.CharacterDied.Character
+  name: Character
+  href: api/NetAF.Events.CharacterDied.html#NetAF_Events_CharacterDied_Character
+  commentId: P:NetAF.Events.CharacterDied.Character
+  fullName: NetAF.Events.CharacterDied.Character
+  nameWithType: CharacterDied.Character
+- uid: NetAF.Events.CharacterDied.Character*
+  name: Character
+  href: api/NetAF.Events.CharacterDied.html#NetAF_Events_CharacterDied_Character_
+  commentId: Overload:NetAF.Events.CharacterDied.Character
+  isSpec: "True"
+  fullName: NetAF.Events.CharacterDied.Character
+  nameWithType: CharacterDied.Character
+- uid: NetAF.Events.EventBus
+  name: EventBus
+  href: api/NetAF.Events.EventBus.html
+  commentId: T:NetAF.Events.EventBus
+  fullName: NetAF.Events.EventBus
+  nameWithType: EventBus
+- uid: NetAF.Events.EventBus.Publish*
+  name: Publish
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_Publish_
+  commentId: Overload:NetAF.Events.EventBus.Publish
+  isSpec: "True"
+  fullName: NetAF.Events.EventBus.Publish
+  nameWithType: EventBus.Publish
+- uid: NetAF.Events.EventBus.Publish``1(``0)
+  name: Publish<T>(T)
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_Publish__1___0_
+  commentId: M:NetAF.Events.EventBus.Publish``1(``0)
+  name.vb: Publish(Of T)(T)
+  fullName: NetAF.Events.EventBus.Publish<T>(T)
+  fullName.vb: NetAF.Events.EventBus.Publish(Of T)(T)
+  nameWithType: EventBus.Publish<T>(T)
+  nameWithType.vb: EventBus.Publish(Of T)(T)
+- uid: NetAF.Events.EventBus.Subscribe*
+  name: Subscribe
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_Subscribe_
+  commentId: Overload:NetAF.Events.EventBus.Subscribe
+  isSpec: "True"
+  fullName: NetAF.Events.EventBus.Subscribe
+  nameWithType: EventBus.Subscribe
+- uid: NetAF.Events.EventBus.Subscribe``1(System.Action{``0})
+  name: Subscribe<T>(Action<T>)
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_Subscribe__1_System_Action___0__
+  commentId: M:NetAF.Events.EventBus.Subscribe``1(System.Action{``0})
+  name.vb: Subscribe(Of T)(Action(Of T))
+  fullName: NetAF.Events.EventBus.Subscribe<T>(System.Action<T>)
+  fullName.vb: NetAF.Events.EventBus.Subscribe(Of T)(System.Action(Of T))
+  nameWithType: EventBus.Subscribe<T>(Action<T>)
+  nameWithType.vb: EventBus.Subscribe(Of T)(Action(Of T))
+- uid: NetAF.Events.EventBus.Unsubscribe*
+  name: Unsubscribe
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_Unsubscribe_
+  commentId: Overload:NetAF.Events.EventBus.Unsubscribe
+  isSpec: "True"
+  fullName: NetAF.Events.EventBus.Unsubscribe
+  nameWithType: EventBus.Unsubscribe
+- uid: NetAF.Events.EventBus.UnsubscribeAll
+  name: UnsubscribeAll()
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_UnsubscribeAll
+  commentId: M:NetAF.Events.EventBus.UnsubscribeAll
+  fullName: NetAF.Events.EventBus.UnsubscribeAll()
+  nameWithType: EventBus.UnsubscribeAll()
+- uid: NetAF.Events.EventBus.UnsubscribeAll*
+  name: UnsubscribeAll
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_UnsubscribeAll_
+  commentId: Overload:NetAF.Events.EventBus.UnsubscribeAll
+  isSpec: "True"
+  fullName: NetAF.Events.EventBus.UnsubscribeAll
+  nameWithType: EventBus.UnsubscribeAll
+- uid: NetAF.Events.EventBus.Unsubscribe``1(System.Action{``0})
+  name: Unsubscribe<T>(Action<T>)
+  href: api/NetAF.Events.EventBus.html#NetAF_Events_EventBus_Unsubscribe__1_System_Action___0__
+  commentId: M:NetAF.Events.EventBus.Unsubscribe``1(System.Action{``0})
+  name.vb: Unsubscribe(Of T)(Action(Of T))
+  fullName: NetAF.Events.EventBus.Unsubscribe<T>(System.Action<T>)
+  fullName.vb: NetAF.Events.EventBus.Unsubscribe(Of T)(System.Action(Of T))
+  nameWithType: EventBus.Unsubscribe<T>(Action<T>)
+  nameWithType.vb: EventBus.Unsubscribe(Of T)(Action(Of T))
+- uid: NetAF.Events.GameFinished
+  name: GameFinished
+  href: api/NetAF.Events.GameFinished.html
+  commentId: T:NetAF.Events.GameFinished
+  fullName: NetAF.Events.GameFinished
+  nameWithType: GameFinished
+- uid: NetAF.Events.GameFinished.#ctor(NetAF.Logic.Game)
+  name: GameFinished(Game)
+  href: api/NetAF.Events.GameFinished.html#NetAF_Events_GameFinished__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Events.GameFinished.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Events.GameFinished.GameFinished(NetAF.Logic.Game)
+  fullName.vb: NetAF.Events.GameFinished.New(NetAF.Logic.Game)
+  nameWithType: GameFinished.GameFinished(Game)
+  nameWithType.vb: GameFinished.New(Game)
+- uid: NetAF.Events.GameFinished.#ctor*
+  name: GameFinished
+  href: api/NetAF.Events.GameFinished.html#NetAF_Events_GameFinished__ctor_
+  commentId: Overload:NetAF.Events.GameFinished.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.GameFinished.GameFinished
+  fullName.vb: NetAF.Events.GameFinished.New
+  nameWithType: GameFinished.GameFinished
+  nameWithType.vb: GameFinished.New
+- uid: NetAF.Events.GameFinished.Game
+  name: Game
+  href: api/NetAF.Events.GameFinished.html#NetAF_Events_GameFinished_Game
+  commentId: P:NetAF.Events.GameFinished.Game
+  fullName: NetAF.Events.GameFinished.Game
+  nameWithType: GameFinished.Game
+- uid: NetAF.Events.GameFinished.Game*
+  name: Game
+  href: api/NetAF.Events.GameFinished.html#NetAF_Events_GameFinished_Game_
+  commentId: Overload:NetAF.Events.GameFinished.Game
+  isSpec: "True"
+  fullName: NetAF.Events.GameFinished.Game
+  nameWithType: GameFinished.Game
+- uid: NetAF.Events.GameModeChanged
+  name: GameModeChanged
+  href: api/NetAF.Events.GameModeChanged.html
+  commentId: T:NetAF.Events.GameModeChanged
+  fullName: NetAF.Events.GameModeChanged
+  nameWithType: GameModeChanged
+- uid: NetAF.Events.GameModeChanged.#ctor(NetAF.Logic.Modes.IGameMode)
+  name: GameModeChanged(IGameMode)
+  href: api/NetAF.Events.GameModeChanged.html#NetAF_Events_GameModeChanged__ctor_NetAF_Logic_Modes_IGameMode_
+  commentId: M:NetAF.Events.GameModeChanged.#ctor(NetAF.Logic.Modes.IGameMode)
+  name.vb: New(IGameMode)
+  fullName: NetAF.Events.GameModeChanged.GameModeChanged(NetAF.Logic.Modes.IGameMode)
+  fullName.vb: NetAF.Events.GameModeChanged.New(NetAF.Logic.Modes.IGameMode)
+  nameWithType: GameModeChanged.GameModeChanged(IGameMode)
+  nameWithType.vb: GameModeChanged.New(IGameMode)
+- uid: NetAF.Events.GameModeChanged.#ctor*
+  name: GameModeChanged
+  href: api/NetAF.Events.GameModeChanged.html#NetAF_Events_GameModeChanged__ctor_
+  commentId: Overload:NetAF.Events.GameModeChanged.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.GameModeChanged.GameModeChanged
+  fullName.vb: NetAF.Events.GameModeChanged.New
+  nameWithType: GameModeChanged.GameModeChanged
+  nameWithType.vb: GameModeChanged.New
+- uid: NetAF.Events.GameModeChanged.Mode
+  name: Mode
+  href: api/NetAF.Events.GameModeChanged.html#NetAF_Events_GameModeChanged_Mode
+  commentId: P:NetAF.Events.GameModeChanged.Mode
+  fullName: NetAF.Events.GameModeChanged.Mode
+  nameWithType: GameModeChanged.Mode
+- uid: NetAF.Events.GameModeChanged.Mode*
+  name: Mode
+  href: api/NetAF.Events.GameModeChanged.html#NetAF_Events_GameModeChanged_Mode_
+  commentId: Overload:NetAF.Events.GameModeChanged.Mode
+  isSpec: "True"
+  fullName: NetAF.Events.GameModeChanged.Mode
+  nameWithType: GameModeChanged.Mode
+- uid: NetAF.Events.GameStarted
+  name: GameStarted
+  href: api/NetAF.Events.GameStarted.html
+  commentId: T:NetAF.Events.GameStarted
+  fullName: NetAF.Events.GameStarted
+  nameWithType: GameStarted
+- uid: NetAF.Events.GameStarted.#ctor(NetAF.Logic.Game)
+  name: GameStarted(Game)
+  href: api/NetAF.Events.GameStarted.html#NetAF_Events_GameStarted__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Events.GameStarted.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Events.GameStarted.GameStarted(NetAF.Logic.Game)
+  fullName.vb: NetAF.Events.GameStarted.New(NetAF.Logic.Game)
+  nameWithType: GameStarted.GameStarted(Game)
+  nameWithType.vb: GameStarted.New(Game)
+- uid: NetAF.Events.GameStarted.#ctor*
+  name: GameStarted
+  href: api/NetAF.Events.GameStarted.html#NetAF_Events_GameStarted__ctor_
+  commentId: Overload:NetAF.Events.GameStarted.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.GameStarted.GameStarted
+  fullName.vb: NetAF.Events.GameStarted.New
+  nameWithType: GameStarted.GameStarted
+  nameWithType.vb: GameStarted.New
+- uid: NetAF.Events.GameStarted.Game
+  name: Game
+  href: api/NetAF.Events.GameStarted.html#NetAF_Events_GameStarted_Game
+  commentId: P:NetAF.Events.GameStarted.Game
+  fullName: NetAF.Events.GameStarted.Game
+  nameWithType: GameStarted.Game
+- uid: NetAF.Events.GameStarted.Game*
+  name: Game
+  href: api/NetAF.Events.GameStarted.html#NetAF_Events_GameStarted_Game_
+  commentId: Overload:NetAF.Events.GameStarted.Game
+  isSpec: "True"
+  fullName: NetAF.Events.GameStarted.Game
+  nameWithType: GameStarted.Game
+- uid: NetAF.Events.GameUpdated
+  name: GameUpdated
+  href: api/NetAF.Events.GameUpdated.html
+  commentId: T:NetAF.Events.GameUpdated
+  fullName: NetAF.Events.GameUpdated
+  nameWithType: GameUpdated
+- uid: NetAF.Events.GameUpdated.#ctor(NetAF.Logic.Game)
+  name: GameUpdated(Game)
+  href: api/NetAF.Events.GameUpdated.html#NetAF_Events_GameUpdated__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Events.GameUpdated.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Events.GameUpdated.GameUpdated(NetAF.Logic.Game)
+  fullName.vb: NetAF.Events.GameUpdated.New(NetAF.Logic.Game)
+  nameWithType: GameUpdated.GameUpdated(Game)
+  nameWithType.vb: GameUpdated.New(Game)
+- uid: NetAF.Events.GameUpdated.#ctor*
+  name: GameUpdated
+  href: api/NetAF.Events.GameUpdated.html#NetAF_Events_GameUpdated__ctor_
+  commentId: Overload:NetAF.Events.GameUpdated.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.GameUpdated.GameUpdated
+  fullName.vb: NetAF.Events.GameUpdated.New
+  nameWithType: GameUpdated.GameUpdated
+  nameWithType.vb: GameUpdated.New
+- uid: NetAF.Events.GameUpdated.Game
+  name: Game
+  href: api/NetAF.Events.GameUpdated.html#NetAF_Events_GameUpdated_Game
+  commentId: P:NetAF.Events.GameUpdated.Game
+  fullName: NetAF.Events.GameUpdated.Game
+  nameWithType: GameUpdated.Game
+- uid: NetAF.Events.GameUpdated.Game*
+  name: Game
+  href: api/NetAF.Events.GameUpdated.html#NetAF_Events_GameUpdated_Game_
+  commentId: Overload:NetAF.Events.GameUpdated.Game
+  isSpec: "True"
+  fullName: NetAF.Events.GameUpdated.Game
+  nameWithType: GameUpdated.Game
+- uid: NetAF.Events.ItemReceived
+  name: ItemReceived
+  href: api/NetAF.Events.ItemReceived.html
+  commentId: T:NetAF.Events.ItemReceived
+  fullName: NetAF.Events.ItemReceived
+  nameWithType: ItemReceived
+- uid: NetAF.Events.ItemReceived.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
+  name: ItemReceived(Character, Item)
+  href: api/NetAF.Events.ItemReceived.html#NetAF_Events_ItemReceived__ctor_NetAF_Assets_Characters_Character_NetAF_Assets_Item_
+  commentId: M:NetAF.Events.ItemReceived.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
+  name.vb: New(Character, Item)
+  fullName: NetAF.Events.ItemReceived.ItemReceived(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
+  fullName.vb: NetAF.Events.ItemReceived.New(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
+  nameWithType: ItemReceived.ItemReceived(Character, Item)
+  nameWithType.vb: ItemReceived.New(Character, Item)
+- uid: NetAF.Events.ItemReceived.#ctor*
+  name: ItemReceived
+  href: api/NetAF.Events.ItemReceived.html#NetAF_Events_ItemReceived__ctor_
+  commentId: Overload:NetAF.Events.ItemReceived.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.ItemReceived.ItemReceived
+  fullName.vb: NetAF.Events.ItemReceived.New
+  nameWithType: ItemReceived.ItemReceived
+  nameWithType.vb: ItemReceived.New
+- uid: NetAF.Events.ItemReceived.Character
+  name: Character
+  href: api/NetAF.Events.ItemReceived.html#NetAF_Events_ItemReceived_Character
+  commentId: P:NetAF.Events.ItemReceived.Character
+  fullName: NetAF.Events.ItemReceived.Character
+  nameWithType: ItemReceived.Character
+- uid: NetAF.Events.ItemReceived.Character*
+  name: Character
+  href: api/NetAF.Events.ItemReceived.html#NetAF_Events_ItemReceived_Character_
+  commentId: Overload:NetAF.Events.ItemReceived.Character
+  isSpec: "True"
+  fullName: NetAF.Events.ItemReceived.Character
+  nameWithType: ItemReceived.Character
+- uid: NetAF.Events.ItemReceived.Item
+  name: Item
+  href: api/NetAF.Events.ItemReceived.html#NetAF_Events_ItemReceived_Item
+  commentId: P:NetAF.Events.ItemReceived.Item
+  fullName: NetAF.Events.ItemReceived.Item
+  nameWithType: ItemReceived.Item
+- uid: NetAF.Events.ItemReceived.Item*
+  name: Item
+  href: api/NetAF.Events.ItemReceived.html#NetAF_Events_ItemReceived_Item_
+  commentId: Overload:NetAF.Events.ItemReceived.Item
+  isSpec: "True"
+  fullName: NetAF.Events.ItemReceived.Item
+  nameWithType: ItemReceived.Item
+- uid: NetAF.Events.ItemRemoved
+  name: ItemRemoved
+  href: api/NetAF.Events.ItemRemoved.html
+  commentId: T:NetAF.Events.ItemRemoved
+  fullName: NetAF.Events.ItemRemoved
+  nameWithType: ItemRemoved
+- uid: NetAF.Events.ItemRemoved.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
+  name: ItemRemoved(Character, Item)
+  href: api/NetAF.Events.ItemRemoved.html#NetAF_Events_ItemRemoved__ctor_NetAF_Assets_Characters_Character_NetAF_Assets_Item_
+  commentId: M:NetAF.Events.ItemRemoved.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
+  name.vb: New(Character, Item)
+  fullName: NetAF.Events.ItemRemoved.ItemRemoved(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
+  fullName.vb: NetAF.Events.ItemRemoved.New(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
+  nameWithType: ItemRemoved.ItemRemoved(Character, Item)
+  nameWithType.vb: ItemRemoved.New(Character, Item)
+- uid: NetAF.Events.ItemRemoved.#ctor*
+  name: ItemRemoved
+  href: api/NetAF.Events.ItemRemoved.html#NetAF_Events_ItemRemoved__ctor_
+  commentId: Overload:NetAF.Events.ItemRemoved.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.ItemRemoved.ItemRemoved
+  fullName.vb: NetAF.Events.ItemRemoved.New
+  nameWithType: ItemRemoved.ItemRemoved
+  nameWithType.vb: ItemRemoved.New
+- uid: NetAF.Events.ItemRemoved.Character
+  name: Character
+  href: api/NetAF.Events.ItemRemoved.html#NetAF_Events_ItemRemoved_Character
+  commentId: P:NetAF.Events.ItemRemoved.Character
+  fullName: NetAF.Events.ItemRemoved.Character
+  nameWithType: ItemRemoved.Character
+- uid: NetAF.Events.ItemRemoved.Character*
+  name: Character
+  href: api/NetAF.Events.ItemRemoved.html#NetAF_Events_ItemRemoved_Character_
+  commentId: Overload:NetAF.Events.ItemRemoved.Character
+  isSpec: "True"
+  fullName: NetAF.Events.ItemRemoved.Character
+  nameWithType: ItemRemoved.Character
+- uid: NetAF.Events.ItemRemoved.Item
+  name: Item
+  href: api/NetAF.Events.ItemRemoved.html#NetAF_Events_ItemRemoved_Item
+  commentId: P:NetAF.Events.ItemRemoved.Item
+  fullName: NetAF.Events.ItemRemoved.Item
+  nameWithType: ItemRemoved.Item
+- uid: NetAF.Events.ItemRemoved.Item*
+  name: Item
+  href: api/NetAF.Events.ItemRemoved.html#NetAF_Events_ItemRemoved_Item_
+  commentId: Overload:NetAF.Events.ItemRemoved.Item
+  isSpec: "True"
+  fullName: NetAF.Events.ItemRemoved.Item
+  nameWithType: ItemRemoved.Item
+- uid: NetAF.Events.ItemUsed
+  name: ItemUsed
+  href: api/NetAF.Events.ItemUsed.html
+  commentId: T:NetAF.Events.ItemUsed
+  fullName: NetAF.Events.ItemUsed
+  nameWithType: ItemUsed
+- uid: NetAF.Events.ItemUsed.#ctor(NetAF.Assets.Item,NetAF.Assets.IInteractWithItem)
+  name: ItemUsed(Item, IInteractWithItem)
+  href: api/NetAF.Events.ItemUsed.html#NetAF_Events_ItemUsed__ctor_NetAF_Assets_Item_NetAF_Assets_IInteractWithItem_
+  commentId: M:NetAF.Events.ItemUsed.#ctor(NetAF.Assets.Item,NetAF.Assets.IInteractWithItem)
+  name.vb: New(Item, IInteractWithItem)
+  fullName: NetAF.Events.ItemUsed.ItemUsed(NetAF.Assets.Item, NetAF.Assets.IInteractWithItem)
+  fullName.vb: NetAF.Events.ItemUsed.New(NetAF.Assets.Item, NetAF.Assets.IInteractWithItem)
+  nameWithType: ItemUsed.ItemUsed(Item, IInteractWithItem)
+  nameWithType.vb: ItemUsed.New(Item, IInteractWithItem)
+- uid: NetAF.Events.ItemUsed.#ctor*
+  name: ItemUsed
+  href: api/NetAF.Events.ItemUsed.html#NetAF_Events_ItemUsed__ctor_
+  commentId: Overload:NetAF.Events.ItemUsed.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.ItemUsed.ItemUsed
+  fullName.vb: NetAF.Events.ItemUsed.New
+  nameWithType: ItemUsed.ItemUsed
+  nameWithType.vb: ItemUsed.New
+- uid: NetAF.Events.ItemUsed.Item
+  name: Item
+  href: api/NetAF.Events.ItemUsed.html#NetAF_Events_ItemUsed_Item
+  commentId: P:NetAF.Events.ItemUsed.Item
+  fullName: NetAF.Events.ItemUsed.Item
+  nameWithType: ItemUsed.Item
+- uid: NetAF.Events.ItemUsed.Item*
+  name: Item
+  href: api/NetAF.Events.ItemUsed.html#NetAF_Events_ItemUsed_Item_
+  commentId: Overload:NetAF.Events.ItemUsed.Item
+  isSpec: "True"
+  fullName: NetAF.Events.ItemUsed.Item
+  nameWithType: ItemUsed.Item
+- uid: NetAF.Events.ItemUsed.Target
+  name: Target
+  href: api/NetAF.Events.ItemUsed.html#NetAF_Events_ItemUsed_Target
+  commentId: P:NetAF.Events.ItemUsed.Target
+  fullName: NetAF.Events.ItemUsed.Target
+  nameWithType: ItemUsed.Target
+- uid: NetAF.Events.ItemUsed.Target*
+  name: Target
+  href: api/NetAF.Events.ItemUsed.html#NetAF_Events_ItemUsed_Target_
+  commentId: Overload:NetAF.Events.ItemUsed.Target
+  isSpec: "True"
+  fullName: NetAF.Events.ItemUsed.Target
+  nameWithType: ItemUsed.Target
+- uid: NetAF.Events.RegionEntered
+  name: RegionEntered
+  href: api/NetAF.Events.RegionEntered.html
+  commentId: T:NetAF.Events.RegionEntered
+  fullName: NetAF.Events.RegionEntered
+  nameWithType: RegionEntered
+- uid: NetAF.Events.RegionEntered.#ctor(NetAF.Assets.Locations.Region)
+  name: RegionEntered(Region)
+  href: api/NetAF.Events.RegionEntered.html#NetAF_Events_RegionEntered__ctor_NetAF_Assets_Locations_Region_
+  commentId: M:NetAF.Events.RegionEntered.#ctor(NetAF.Assets.Locations.Region)
+  name.vb: New(Region)
+  fullName: NetAF.Events.RegionEntered.RegionEntered(NetAF.Assets.Locations.Region)
+  fullName.vb: NetAF.Events.RegionEntered.New(NetAF.Assets.Locations.Region)
+  nameWithType: RegionEntered.RegionEntered(Region)
+  nameWithType.vb: RegionEntered.New(Region)
+- uid: NetAF.Events.RegionEntered.#ctor*
+  name: RegionEntered
+  href: api/NetAF.Events.RegionEntered.html#NetAF_Events_RegionEntered__ctor_
+  commentId: Overload:NetAF.Events.RegionEntered.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.RegionEntered.RegionEntered
+  fullName.vb: NetAF.Events.RegionEntered.New
+  nameWithType: RegionEntered.RegionEntered
+  nameWithType.vb: RegionEntered.New
+- uid: NetAF.Events.RegionEntered.Region
+  name: Region
+  href: api/NetAF.Events.RegionEntered.html#NetAF_Events_RegionEntered_Region
+  commentId: P:NetAF.Events.RegionEntered.Region
+  fullName: NetAF.Events.RegionEntered.Region
+  nameWithType: RegionEntered.Region
+- uid: NetAF.Events.RegionEntered.Region*
+  name: Region
+  href: api/NetAF.Events.RegionEntered.html#NetAF_Events_RegionEntered_Region_
+  commentId: Overload:NetAF.Events.RegionEntered.Region
+  isSpec: "True"
+  fullName: NetAF.Events.RegionEntered.Region
+  nameWithType: RegionEntered.Region
+- uid: NetAF.Events.RegionExited
+  name: RegionExited
+  href: api/NetAF.Events.RegionExited.html
+  commentId: T:NetAF.Events.RegionExited
+  fullName: NetAF.Events.RegionExited
+  nameWithType: RegionExited
+- uid: NetAF.Events.RegionExited.#ctor(NetAF.Assets.Locations.Region)
+  name: RegionExited(Region)
+  href: api/NetAF.Events.RegionExited.html#NetAF_Events_RegionExited__ctor_NetAF_Assets_Locations_Region_
+  commentId: M:NetAF.Events.RegionExited.#ctor(NetAF.Assets.Locations.Region)
+  name.vb: New(Region)
+  fullName: NetAF.Events.RegionExited.RegionExited(NetAF.Assets.Locations.Region)
+  fullName.vb: NetAF.Events.RegionExited.New(NetAF.Assets.Locations.Region)
+  nameWithType: RegionExited.RegionExited(Region)
+  nameWithType.vb: RegionExited.New(Region)
+- uid: NetAF.Events.RegionExited.#ctor*
+  name: RegionExited
+  href: api/NetAF.Events.RegionExited.html#NetAF_Events_RegionExited__ctor_
+  commentId: Overload:NetAF.Events.RegionExited.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.RegionExited.RegionExited
+  fullName.vb: NetAF.Events.RegionExited.New
+  nameWithType: RegionExited.RegionExited
+  nameWithType.vb: RegionExited.New
+- uid: NetAF.Events.RegionExited.Region
+  name: Region
+  href: api/NetAF.Events.RegionExited.html#NetAF_Events_RegionExited_Region
+  commentId: P:NetAF.Events.RegionExited.Region
+  fullName: NetAF.Events.RegionExited.Region
+  nameWithType: RegionExited.Region
+- uid: NetAF.Events.RegionExited.Region*
+  name: Region
+  href: api/NetAF.Events.RegionExited.html#NetAF_Events_RegionExited_Region_
+  commentId: Overload:NetAF.Events.RegionExited.Region
+  isSpec: "True"
+  fullName: NetAF.Events.RegionExited.Region
+  nameWithType: RegionExited.Region
+- uid: NetAF.Events.RoomEntered
+  name: RoomEntered
+  href: api/NetAF.Events.RoomEntered.html
+  commentId: T:NetAF.Events.RoomEntered
+  fullName: NetAF.Events.RoomEntered
+  nameWithType: RoomEntered
+- uid: NetAF.Events.RoomEntered.#ctor(NetAF.Assets.Locations.Room)
+  name: RoomEntered(Room)
+  href: api/NetAF.Events.RoomEntered.html#NetAF_Events_RoomEntered__ctor_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Events.RoomEntered.#ctor(NetAF.Assets.Locations.Room)
+  name.vb: New(Room)
+  fullName: NetAF.Events.RoomEntered.RoomEntered(NetAF.Assets.Locations.Room)
+  fullName.vb: NetAF.Events.RoomEntered.New(NetAF.Assets.Locations.Room)
+  nameWithType: RoomEntered.RoomEntered(Room)
+  nameWithType.vb: RoomEntered.New(Room)
+- uid: NetAF.Events.RoomEntered.#ctor*
+  name: RoomEntered
+  href: api/NetAF.Events.RoomEntered.html#NetAF_Events_RoomEntered__ctor_
+  commentId: Overload:NetAF.Events.RoomEntered.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.RoomEntered.RoomEntered
+  fullName.vb: NetAF.Events.RoomEntered.New
+  nameWithType: RoomEntered.RoomEntered
+  nameWithType.vb: RoomEntered.New
+- uid: NetAF.Events.RoomEntered.Room
+  name: Room
+  href: api/NetAF.Events.RoomEntered.html#NetAF_Events_RoomEntered_Room
+  commentId: P:NetAF.Events.RoomEntered.Room
+  fullName: NetAF.Events.RoomEntered.Room
+  nameWithType: RoomEntered.Room
+- uid: NetAF.Events.RoomEntered.Room*
+  name: Room
+  href: api/NetAF.Events.RoomEntered.html#NetAF_Events_RoomEntered_Room_
+  commentId: Overload:NetAF.Events.RoomEntered.Room
+  isSpec: "True"
+  fullName: NetAF.Events.RoomEntered.Room
+  nameWithType: RoomEntered.Room
+- uid: NetAF.Events.RoomExited
+  name: RoomExited
+  href: api/NetAF.Events.RoomExited.html
+  commentId: T:NetAF.Events.RoomExited
+  fullName: NetAF.Events.RoomExited
+  nameWithType: RoomExited
+- uid: NetAF.Events.RoomExited.#ctor(NetAF.Assets.Locations.Room)
+  name: RoomExited(Room)
+  href: api/NetAF.Events.RoomExited.html#NetAF_Events_RoomExited__ctor_NetAF_Assets_Locations_Room_
+  commentId: M:NetAF.Events.RoomExited.#ctor(NetAF.Assets.Locations.Room)
+  name.vb: New(Room)
+  fullName: NetAF.Events.RoomExited.RoomExited(NetAF.Assets.Locations.Room)
+  fullName.vb: NetAF.Events.RoomExited.New(NetAF.Assets.Locations.Room)
+  nameWithType: RoomExited.RoomExited(Room)
+  nameWithType.vb: RoomExited.New(Room)
+- uid: NetAF.Events.RoomExited.#ctor*
+  name: RoomExited
+  href: api/NetAF.Events.RoomExited.html#NetAF_Events_RoomExited__ctor_
+  commentId: Overload:NetAF.Events.RoomExited.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.RoomExited.RoomExited
+  fullName.vb: NetAF.Events.RoomExited.New
+  nameWithType: RoomExited.RoomExited
+  nameWithType.vb: RoomExited.New
+- uid: NetAF.Events.RoomExited.Room
+  name: Room
+  href: api/NetAF.Events.RoomExited.html#NetAF_Events_RoomExited_Room
+  commentId: P:NetAF.Events.RoomExited.Room
+  fullName: NetAF.Events.RoomExited.Room
+  nameWithType: RoomExited.Room
+- uid: NetAF.Events.RoomExited.Room*
+  name: Room
+  href: api/NetAF.Events.RoomExited.html#NetAF_Events_RoomExited_Room_
+  commentId: Overload:NetAF.Events.RoomExited.Room
+  isSpec: "True"
+  fullName: NetAF.Events.RoomExited.Room
+  nameWithType: RoomExited.Room
 - uid: NetAF.Extensions
   name: NetAF.Extensions
   href: api/NetAF.Extensions.html
@@ -7817,542 +8391,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.SceneCommandInterpreter.SupportedCommands
   nameWithType: SceneCommandInterpreter.SupportedCommands
-- uid: NetAF.Logging.Events
-  name: NetAF.Logging.Events
-  href: api/NetAF.Logging.Events.html
-  commentId: N:NetAF.Logging.Events
-  fullName: NetAF.Logging.Events
-  nameWithType: NetAF.Logging.Events
-- uid: NetAF.Logging.Events.BaseEvent
-  name: BaseEvent
-  href: api/NetAF.Logging.Events.BaseEvent.html
-  commentId: T:NetAF.Logging.Events.BaseEvent
-  fullName: NetAF.Logging.Events.BaseEvent
-  nameWithType: BaseEvent
-- uid: NetAF.Logging.Events.CharacterDied
-  name: CharacterDied
-  href: api/NetAF.Logging.Events.CharacterDied.html
-  commentId: T:NetAF.Logging.Events.CharacterDied
-  fullName: NetAF.Logging.Events.CharacterDied
-  nameWithType: CharacterDied
-- uid: NetAF.Logging.Events.CharacterDied.#ctor(NetAF.Assets.Characters.Character)
-  name: CharacterDied(Character)
-  href: api/NetAF.Logging.Events.CharacterDied.html#NetAF_Logging_Events_CharacterDied__ctor_NetAF_Assets_Characters_Character_
-  commentId: M:NetAF.Logging.Events.CharacterDied.#ctor(NetAF.Assets.Characters.Character)
-  name.vb: New(Character)
-  fullName: NetAF.Logging.Events.CharacterDied.CharacterDied(NetAF.Assets.Characters.Character)
-  fullName.vb: NetAF.Logging.Events.CharacterDied.New(NetAF.Assets.Characters.Character)
-  nameWithType: CharacterDied.CharacterDied(Character)
-  nameWithType.vb: CharacterDied.New(Character)
-- uid: NetAF.Logging.Events.CharacterDied.#ctor*
-  name: CharacterDied
-  href: api/NetAF.Logging.Events.CharacterDied.html#NetAF_Logging_Events_CharacterDied__ctor_
-  commentId: Overload:NetAF.Logging.Events.CharacterDied.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.CharacterDied.CharacterDied
-  fullName.vb: NetAF.Logging.Events.CharacterDied.New
-  nameWithType: CharacterDied.CharacterDied
-  nameWithType.vb: CharacterDied.New
-- uid: NetAF.Logging.Events.CharacterDied.Character
-  name: Character
-  href: api/NetAF.Logging.Events.CharacterDied.html#NetAF_Logging_Events_CharacterDied_Character
-  commentId: P:NetAF.Logging.Events.CharacterDied.Character
-  fullName: NetAF.Logging.Events.CharacterDied.Character
-  nameWithType: CharacterDied.Character
-- uid: NetAF.Logging.Events.CharacterDied.Character*
-  name: Character
-  href: api/NetAF.Logging.Events.CharacterDied.html#NetAF_Logging_Events_CharacterDied_Character_
-  commentId: Overload:NetAF.Logging.Events.CharacterDied.Character
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.CharacterDied.Character
-  nameWithType: CharacterDied.Character
-- uid: NetAF.Logging.Events.EventBus
-  name: EventBus
-  href: api/NetAF.Logging.Events.EventBus.html
-  commentId: T:NetAF.Logging.Events.EventBus
-  fullName: NetAF.Logging.Events.EventBus
-  nameWithType: EventBus
-- uid: NetAF.Logging.Events.EventBus.Publish*
-  name: Publish
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Publish_
-  commentId: Overload:NetAF.Logging.Events.EventBus.Publish
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.EventBus.Publish
-  nameWithType: EventBus.Publish
-- uid: NetAF.Logging.Events.EventBus.Publish``1(``0)
-  name: Publish<T>(T)
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Publish__1___0_
-  commentId: M:NetAF.Logging.Events.EventBus.Publish``1(``0)
-  name.vb: Publish(Of T)(T)
-  fullName: NetAF.Logging.Events.EventBus.Publish<T>(T)
-  fullName.vb: NetAF.Logging.Events.EventBus.Publish(Of T)(T)
-  nameWithType: EventBus.Publish<T>(T)
-  nameWithType.vb: EventBus.Publish(Of T)(T)
-- uid: NetAF.Logging.Events.EventBus.Subscribe*
-  name: Subscribe
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Subscribe_
-  commentId: Overload:NetAF.Logging.Events.EventBus.Subscribe
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.EventBus.Subscribe
-  nameWithType: EventBus.Subscribe
-- uid: NetAF.Logging.Events.EventBus.Subscribe``1(System.Action{``0})
-  name: Subscribe<T>(Action<T>)
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Subscribe__1_System_Action___0__
-  commentId: M:NetAF.Logging.Events.EventBus.Subscribe``1(System.Action{``0})
-  name.vb: Subscribe(Of T)(Action(Of T))
-  fullName: NetAF.Logging.Events.EventBus.Subscribe<T>(System.Action<T>)
-  fullName.vb: NetAF.Logging.Events.EventBus.Subscribe(Of T)(System.Action(Of T))
-  nameWithType: EventBus.Subscribe<T>(Action<T>)
-  nameWithType.vb: EventBus.Subscribe(Of T)(Action(Of T))
-- uid: NetAF.Logging.Events.EventBus.Unsubscribe*
-  name: Unsubscribe
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Unsubscribe_
-  commentId: Overload:NetAF.Logging.Events.EventBus.Unsubscribe
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.EventBus.Unsubscribe
-  nameWithType: EventBus.Unsubscribe
-- uid: NetAF.Logging.Events.EventBus.UnsubscribeAll
-  name: UnsubscribeAll()
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_UnsubscribeAll
-  commentId: M:NetAF.Logging.Events.EventBus.UnsubscribeAll
-  fullName: NetAF.Logging.Events.EventBus.UnsubscribeAll()
-  nameWithType: EventBus.UnsubscribeAll()
-- uid: NetAF.Logging.Events.EventBus.UnsubscribeAll*
-  name: UnsubscribeAll
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_UnsubscribeAll_
-  commentId: Overload:NetAF.Logging.Events.EventBus.UnsubscribeAll
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.EventBus.UnsubscribeAll
-  nameWithType: EventBus.UnsubscribeAll
-- uid: NetAF.Logging.Events.EventBus.Unsubscribe``1(System.Action{``0})
-  name: Unsubscribe<T>(Action<T>)
-  href: api/NetAF.Logging.Events.EventBus.html#NetAF_Logging_Events_EventBus_Unsubscribe__1_System_Action___0__
-  commentId: M:NetAF.Logging.Events.EventBus.Unsubscribe``1(System.Action{``0})
-  name.vb: Unsubscribe(Of T)(Action(Of T))
-  fullName: NetAF.Logging.Events.EventBus.Unsubscribe<T>(System.Action<T>)
-  fullName.vb: NetAF.Logging.Events.EventBus.Unsubscribe(Of T)(System.Action(Of T))
-  nameWithType: EventBus.Unsubscribe<T>(Action<T>)
-  nameWithType.vb: EventBus.Unsubscribe(Of T)(Action(Of T))
-- uid: NetAF.Logging.Events.GameFinished
-  name: GameFinished
-  href: api/NetAF.Logging.Events.GameFinished.html
-  commentId: T:NetAF.Logging.Events.GameFinished
-  fullName: NetAF.Logging.Events.GameFinished
-  nameWithType: GameFinished
-- uid: NetAF.Logging.Events.GameFinished.#ctor(NetAF.Logic.Game)
-  name: GameFinished(Game)
-  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished__ctor_NetAF_Logic_Game_
-  commentId: M:NetAF.Logging.Events.GameFinished.#ctor(NetAF.Logic.Game)
-  name.vb: New(Game)
-  fullName: NetAF.Logging.Events.GameFinished.GameFinished(NetAF.Logic.Game)
-  fullName.vb: NetAF.Logging.Events.GameFinished.New(NetAF.Logic.Game)
-  nameWithType: GameFinished.GameFinished(Game)
-  nameWithType.vb: GameFinished.New(Game)
-- uid: NetAF.Logging.Events.GameFinished.#ctor*
-  name: GameFinished
-  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished__ctor_
-  commentId: Overload:NetAF.Logging.Events.GameFinished.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.GameFinished.GameFinished
-  fullName.vb: NetAF.Logging.Events.GameFinished.New
-  nameWithType: GameFinished.GameFinished
-  nameWithType.vb: GameFinished.New
-- uid: NetAF.Logging.Events.GameFinished.Game
-  name: Game
-  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished_Game
-  commentId: P:NetAF.Logging.Events.GameFinished.Game
-  fullName: NetAF.Logging.Events.GameFinished.Game
-  nameWithType: GameFinished.Game
-- uid: NetAF.Logging.Events.GameFinished.Game*
-  name: Game
-  href: api/NetAF.Logging.Events.GameFinished.html#NetAF_Logging_Events_GameFinished_Game_
-  commentId: Overload:NetAF.Logging.Events.GameFinished.Game
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.GameFinished.Game
-  nameWithType: GameFinished.Game
-- uid: NetAF.Logging.Events.GameStarted
-  name: GameStarted
-  href: api/NetAF.Logging.Events.GameStarted.html
-  commentId: T:NetAF.Logging.Events.GameStarted
-  fullName: NetAF.Logging.Events.GameStarted
-  nameWithType: GameStarted
-- uid: NetAF.Logging.Events.GameStarted.#ctor(NetAF.Logic.Game)
-  name: GameStarted(Game)
-  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted__ctor_NetAF_Logic_Game_
-  commentId: M:NetAF.Logging.Events.GameStarted.#ctor(NetAF.Logic.Game)
-  name.vb: New(Game)
-  fullName: NetAF.Logging.Events.GameStarted.GameStarted(NetAF.Logic.Game)
-  fullName.vb: NetAF.Logging.Events.GameStarted.New(NetAF.Logic.Game)
-  nameWithType: GameStarted.GameStarted(Game)
-  nameWithType.vb: GameStarted.New(Game)
-- uid: NetAF.Logging.Events.GameStarted.#ctor*
-  name: GameStarted
-  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted__ctor_
-  commentId: Overload:NetAF.Logging.Events.GameStarted.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.GameStarted.GameStarted
-  fullName.vb: NetAF.Logging.Events.GameStarted.New
-  nameWithType: GameStarted.GameStarted
-  nameWithType.vb: GameStarted.New
-- uid: NetAF.Logging.Events.GameStarted.Game
-  name: Game
-  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted_Game
-  commentId: P:NetAF.Logging.Events.GameStarted.Game
-  fullName: NetAF.Logging.Events.GameStarted.Game
-  nameWithType: GameStarted.Game
-- uid: NetAF.Logging.Events.GameStarted.Game*
-  name: Game
-  href: api/NetAF.Logging.Events.GameStarted.html#NetAF_Logging_Events_GameStarted_Game_
-  commentId: Overload:NetAF.Logging.Events.GameStarted.Game
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.GameStarted.Game
-  nameWithType: GameStarted.Game
-- uid: NetAF.Logging.Events.GameUpdated
-  name: GameUpdated
-  href: api/NetAF.Logging.Events.GameUpdated.html
-  commentId: T:NetAF.Logging.Events.GameUpdated
-  fullName: NetAF.Logging.Events.GameUpdated
-  nameWithType: GameUpdated
-- uid: NetAF.Logging.Events.GameUpdated.#ctor(NetAF.Logic.Game)
-  name: GameUpdated(Game)
-  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated__ctor_NetAF_Logic_Game_
-  commentId: M:NetAF.Logging.Events.GameUpdated.#ctor(NetAF.Logic.Game)
-  name.vb: New(Game)
-  fullName: NetAF.Logging.Events.GameUpdated.GameUpdated(NetAF.Logic.Game)
-  fullName.vb: NetAF.Logging.Events.GameUpdated.New(NetAF.Logic.Game)
-  nameWithType: GameUpdated.GameUpdated(Game)
-  nameWithType.vb: GameUpdated.New(Game)
-- uid: NetAF.Logging.Events.GameUpdated.#ctor*
-  name: GameUpdated
-  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated__ctor_
-  commentId: Overload:NetAF.Logging.Events.GameUpdated.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.GameUpdated.GameUpdated
-  fullName.vb: NetAF.Logging.Events.GameUpdated.New
-  nameWithType: GameUpdated.GameUpdated
-  nameWithType.vb: GameUpdated.New
-- uid: NetAF.Logging.Events.GameUpdated.Game
-  name: Game
-  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated_Game
-  commentId: P:NetAF.Logging.Events.GameUpdated.Game
-  fullName: NetAF.Logging.Events.GameUpdated.Game
-  nameWithType: GameUpdated.Game
-- uid: NetAF.Logging.Events.GameUpdated.Game*
-  name: Game
-  href: api/NetAF.Logging.Events.GameUpdated.html#NetAF_Logging_Events_GameUpdated_Game_
-  commentId: Overload:NetAF.Logging.Events.GameUpdated.Game
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.GameUpdated.Game
-  nameWithType: GameUpdated.Game
-- uid: NetAF.Logging.Events.ItemReceived
-  name: ItemReceived
-  href: api/NetAF.Logging.Events.ItemReceived.html
-  commentId: T:NetAF.Logging.Events.ItemReceived
-  fullName: NetAF.Logging.Events.ItemReceived
-  nameWithType: ItemReceived
-- uid: NetAF.Logging.Events.ItemReceived.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
-  name: ItemReceived(Character, Item)
-  href: api/NetAF.Logging.Events.ItemReceived.html#NetAF_Logging_Events_ItemReceived__ctor_NetAF_Assets_Characters_Character_NetAF_Assets_Item_
-  commentId: M:NetAF.Logging.Events.ItemReceived.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
-  name.vb: New(Character, Item)
-  fullName: NetAF.Logging.Events.ItemReceived.ItemReceived(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
-  fullName.vb: NetAF.Logging.Events.ItemReceived.New(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
-  nameWithType: ItemReceived.ItemReceived(Character, Item)
-  nameWithType.vb: ItemReceived.New(Character, Item)
-- uid: NetAF.Logging.Events.ItemReceived.#ctor*
-  name: ItemReceived
-  href: api/NetAF.Logging.Events.ItemReceived.html#NetAF_Logging_Events_ItemReceived__ctor_
-  commentId: Overload:NetAF.Logging.Events.ItemReceived.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.ItemReceived.ItemReceived
-  fullName.vb: NetAF.Logging.Events.ItemReceived.New
-  nameWithType: ItemReceived.ItemReceived
-  nameWithType.vb: ItemReceived.New
-- uid: NetAF.Logging.Events.ItemReceived.Character
-  name: Character
-  href: api/NetAF.Logging.Events.ItemReceived.html#NetAF_Logging_Events_ItemReceived_Character
-  commentId: P:NetAF.Logging.Events.ItemReceived.Character
-  fullName: NetAF.Logging.Events.ItemReceived.Character
-  nameWithType: ItemReceived.Character
-- uid: NetAF.Logging.Events.ItemReceived.Character*
-  name: Character
-  href: api/NetAF.Logging.Events.ItemReceived.html#NetAF_Logging_Events_ItemReceived_Character_
-  commentId: Overload:NetAF.Logging.Events.ItemReceived.Character
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.ItemReceived.Character
-  nameWithType: ItemReceived.Character
-- uid: NetAF.Logging.Events.ItemReceived.Item
-  name: Item
-  href: api/NetAF.Logging.Events.ItemReceived.html#NetAF_Logging_Events_ItemReceived_Item
-  commentId: P:NetAF.Logging.Events.ItemReceived.Item
-  fullName: NetAF.Logging.Events.ItemReceived.Item
-  nameWithType: ItemReceived.Item
-- uid: NetAF.Logging.Events.ItemReceived.Item*
-  name: Item
-  href: api/NetAF.Logging.Events.ItemReceived.html#NetAF_Logging_Events_ItemReceived_Item_
-  commentId: Overload:NetAF.Logging.Events.ItemReceived.Item
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.ItemReceived.Item
-  nameWithType: ItemReceived.Item
-- uid: NetAF.Logging.Events.ItemRemoved
-  name: ItemRemoved
-  href: api/NetAF.Logging.Events.ItemRemoved.html
-  commentId: T:NetAF.Logging.Events.ItemRemoved
-  fullName: NetAF.Logging.Events.ItemRemoved
-  nameWithType: ItemRemoved
-- uid: NetAF.Logging.Events.ItemRemoved.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
-  name: ItemRemoved(Character, Item)
-  href: api/NetAF.Logging.Events.ItemRemoved.html#NetAF_Logging_Events_ItemRemoved__ctor_NetAF_Assets_Characters_Character_NetAF_Assets_Item_
-  commentId: M:NetAF.Logging.Events.ItemRemoved.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)
-  name.vb: New(Character, Item)
-  fullName: NetAF.Logging.Events.ItemRemoved.ItemRemoved(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
-  fullName.vb: NetAF.Logging.Events.ItemRemoved.New(NetAF.Assets.Characters.Character, NetAF.Assets.Item)
-  nameWithType: ItemRemoved.ItemRemoved(Character, Item)
-  nameWithType.vb: ItemRemoved.New(Character, Item)
-- uid: NetAF.Logging.Events.ItemRemoved.#ctor*
-  name: ItemRemoved
-  href: api/NetAF.Logging.Events.ItemRemoved.html#NetAF_Logging_Events_ItemRemoved__ctor_
-  commentId: Overload:NetAF.Logging.Events.ItemRemoved.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.ItemRemoved.ItemRemoved
-  fullName.vb: NetAF.Logging.Events.ItemRemoved.New
-  nameWithType: ItemRemoved.ItemRemoved
-  nameWithType.vb: ItemRemoved.New
-- uid: NetAF.Logging.Events.ItemRemoved.Character
-  name: Character
-  href: api/NetAF.Logging.Events.ItemRemoved.html#NetAF_Logging_Events_ItemRemoved_Character
-  commentId: P:NetAF.Logging.Events.ItemRemoved.Character
-  fullName: NetAF.Logging.Events.ItemRemoved.Character
-  nameWithType: ItemRemoved.Character
-- uid: NetAF.Logging.Events.ItemRemoved.Character*
-  name: Character
-  href: api/NetAF.Logging.Events.ItemRemoved.html#NetAF_Logging_Events_ItemRemoved_Character_
-  commentId: Overload:NetAF.Logging.Events.ItemRemoved.Character
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.ItemRemoved.Character
-  nameWithType: ItemRemoved.Character
-- uid: NetAF.Logging.Events.ItemRemoved.Item
-  name: Item
-  href: api/NetAF.Logging.Events.ItemRemoved.html#NetAF_Logging_Events_ItemRemoved_Item
-  commentId: P:NetAF.Logging.Events.ItemRemoved.Item
-  fullName: NetAF.Logging.Events.ItemRemoved.Item
-  nameWithType: ItemRemoved.Item
-- uid: NetAF.Logging.Events.ItemRemoved.Item*
-  name: Item
-  href: api/NetAF.Logging.Events.ItemRemoved.html#NetAF_Logging_Events_ItemRemoved_Item_
-  commentId: Overload:NetAF.Logging.Events.ItemRemoved.Item
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.ItemRemoved.Item
-  nameWithType: ItemRemoved.Item
-- uid: NetAF.Logging.Events.ItemUsed
-  name: ItemUsed
-  href: api/NetAF.Logging.Events.ItemUsed.html
-  commentId: T:NetAF.Logging.Events.ItemUsed
-  fullName: NetAF.Logging.Events.ItemUsed
-  nameWithType: ItemUsed
-- uid: NetAF.Logging.Events.ItemUsed.#ctor(NetAF.Assets.Item,NetAF.Assets.IInteractWithItem)
-  name: ItemUsed(Item, IInteractWithItem)
-  href: api/NetAF.Logging.Events.ItemUsed.html#NetAF_Logging_Events_ItemUsed__ctor_NetAF_Assets_Item_NetAF_Assets_IInteractWithItem_
-  commentId: M:NetAF.Logging.Events.ItemUsed.#ctor(NetAF.Assets.Item,NetAF.Assets.IInteractWithItem)
-  name.vb: New(Item, IInteractWithItem)
-  fullName: NetAF.Logging.Events.ItemUsed.ItemUsed(NetAF.Assets.Item, NetAF.Assets.IInteractWithItem)
-  fullName.vb: NetAF.Logging.Events.ItemUsed.New(NetAF.Assets.Item, NetAF.Assets.IInteractWithItem)
-  nameWithType: ItemUsed.ItemUsed(Item, IInteractWithItem)
-  nameWithType.vb: ItemUsed.New(Item, IInteractWithItem)
-- uid: NetAF.Logging.Events.ItemUsed.#ctor*
-  name: ItemUsed
-  href: api/NetAF.Logging.Events.ItemUsed.html#NetAF_Logging_Events_ItemUsed__ctor_
-  commentId: Overload:NetAF.Logging.Events.ItemUsed.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.ItemUsed.ItemUsed
-  fullName.vb: NetAF.Logging.Events.ItemUsed.New
-  nameWithType: ItemUsed.ItemUsed
-  nameWithType.vb: ItemUsed.New
-- uid: NetAF.Logging.Events.ItemUsed.Item
-  name: Item
-  href: api/NetAF.Logging.Events.ItemUsed.html#NetAF_Logging_Events_ItemUsed_Item
-  commentId: P:NetAF.Logging.Events.ItemUsed.Item
-  fullName: NetAF.Logging.Events.ItemUsed.Item
-  nameWithType: ItemUsed.Item
-- uid: NetAF.Logging.Events.ItemUsed.Item*
-  name: Item
-  href: api/NetAF.Logging.Events.ItemUsed.html#NetAF_Logging_Events_ItemUsed_Item_
-  commentId: Overload:NetAF.Logging.Events.ItemUsed.Item
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.ItemUsed.Item
-  nameWithType: ItemUsed.Item
-- uid: NetAF.Logging.Events.ItemUsed.Target
-  name: Target
-  href: api/NetAF.Logging.Events.ItemUsed.html#NetAF_Logging_Events_ItemUsed_Target
-  commentId: P:NetAF.Logging.Events.ItemUsed.Target
-  fullName: NetAF.Logging.Events.ItemUsed.Target
-  nameWithType: ItemUsed.Target
-- uid: NetAF.Logging.Events.ItemUsed.Target*
-  name: Target
-  href: api/NetAF.Logging.Events.ItemUsed.html#NetAF_Logging_Events_ItemUsed_Target_
-  commentId: Overload:NetAF.Logging.Events.ItemUsed.Target
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.ItemUsed.Target
-  nameWithType: ItemUsed.Target
-- uid: NetAF.Logging.Events.RegionEntered
-  name: RegionEntered
-  href: api/NetAF.Logging.Events.RegionEntered.html
-  commentId: T:NetAF.Logging.Events.RegionEntered
-  fullName: NetAF.Logging.Events.RegionEntered
-  nameWithType: RegionEntered
-- uid: NetAF.Logging.Events.RegionEntered.#ctor(NetAF.Assets.Locations.Region)
-  name: RegionEntered(Region)
-  href: api/NetAF.Logging.Events.RegionEntered.html#NetAF_Logging_Events_RegionEntered__ctor_NetAF_Assets_Locations_Region_
-  commentId: M:NetAF.Logging.Events.RegionEntered.#ctor(NetAF.Assets.Locations.Region)
-  name.vb: New(Region)
-  fullName: NetAF.Logging.Events.RegionEntered.RegionEntered(NetAF.Assets.Locations.Region)
-  fullName.vb: NetAF.Logging.Events.RegionEntered.New(NetAF.Assets.Locations.Region)
-  nameWithType: RegionEntered.RegionEntered(Region)
-  nameWithType.vb: RegionEntered.New(Region)
-- uid: NetAF.Logging.Events.RegionEntered.#ctor*
-  name: RegionEntered
-  href: api/NetAF.Logging.Events.RegionEntered.html#NetAF_Logging_Events_RegionEntered__ctor_
-  commentId: Overload:NetAF.Logging.Events.RegionEntered.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.RegionEntered.RegionEntered
-  fullName.vb: NetAF.Logging.Events.RegionEntered.New
-  nameWithType: RegionEntered.RegionEntered
-  nameWithType.vb: RegionEntered.New
-- uid: NetAF.Logging.Events.RegionEntered.Region
-  name: Region
-  href: api/NetAF.Logging.Events.RegionEntered.html#NetAF_Logging_Events_RegionEntered_Region
-  commentId: P:NetAF.Logging.Events.RegionEntered.Region
-  fullName: NetAF.Logging.Events.RegionEntered.Region
-  nameWithType: RegionEntered.Region
-- uid: NetAF.Logging.Events.RegionEntered.Region*
-  name: Region
-  href: api/NetAF.Logging.Events.RegionEntered.html#NetAF_Logging_Events_RegionEntered_Region_
-  commentId: Overload:NetAF.Logging.Events.RegionEntered.Region
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.RegionEntered.Region
-  nameWithType: RegionEntered.Region
-- uid: NetAF.Logging.Events.RegionExited
-  name: RegionExited
-  href: api/NetAF.Logging.Events.RegionExited.html
-  commentId: T:NetAF.Logging.Events.RegionExited
-  fullName: NetAF.Logging.Events.RegionExited
-  nameWithType: RegionExited
-- uid: NetAF.Logging.Events.RegionExited.#ctor(NetAF.Assets.Locations.Region)
-  name: RegionExited(Region)
-  href: api/NetAF.Logging.Events.RegionExited.html#NetAF_Logging_Events_RegionExited__ctor_NetAF_Assets_Locations_Region_
-  commentId: M:NetAF.Logging.Events.RegionExited.#ctor(NetAF.Assets.Locations.Region)
-  name.vb: New(Region)
-  fullName: NetAF.Logging.Events.RegionExited.RegionExited(NetAF.Assets.Locations.Region)
-  fullName.vb: NetAF.Logging.Events.RegionExited.New(NetAF.Assets.Locations.Region)
-  nameWithType: RegionExited.RegionExited(Region)
-  nameWithType.vb: RegionExited.New(Region)
-- uid: NetAF.Logging.Events.RegionExited.#ctor*
-  name: RegionExited
-  href: api/NetAF.Logging.Events.RegionExited.html#NetAF_Logging_Events_RegionExited__ctor_
-  commentId: Overload:NetAF.Logging.Events.RegionExited.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.RegionExited.RegionExited
-  fullName.vb: NetAF.Logging.Events.RegionExited.New
-  nameWithType: RegionExited.RegionExited
-  nameWithType.vb: RegionExited.New
-- uid: NetAF.Logging.Events.RegionExited.Region
-  name: Region
-  href: api/NetAF.Logging.Events.RegionExited.html#NetAF_Logging_Events_RegionExited_Region
-  commentId: P:NetAF.Logging.Events.RegionExited.Region
-  fullName: NetAF.Logging.Events.RegionExited.Region
-  nameWithType: RegionExited.Region
-- uid: NetAF.Logging.Events.RegionExited.Region*
-  name: Region
-  href: api/NetAF.Logging.Events.RegionExited.html#NetAF_Logging_Events_RegionExited_Region_
-  commentId: Overload:NetAF.Logging.Events.RegionExited.Region
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.RegionExited.Region
-  nameWithType: RegionExited.Region
-- uid: NetAF.Logging.Events.RoomEntered
-  name: RoomEntered
-  href: api/NetAF.Logging.Events.RoomEntered.html
-  commentId: T:NetAF.Logging.Events.RoomEntered
-  fullName: NetAF.Logging.Events.RoomEntered
-  nameWithType: RoomEntered
-- uid: NetAF.Logging.Events.RoomEntered.#ctor(NetAF.Assets.Locations.Room)
-  name: RoomEntered(Room)
-  href: api/NetAF.Logging.Events.RoomEntered.html#NetAF_Logging_Events_RoomEntered__ctor_NetAF_Assets_Locations_Room_
-  commentId: M:NetAF.Logging.Events.RoomEntered.#ctor(NetAF.Assets.Locations.Room)
-  name.vb: New(Room)
-  fullName: NetAF.Logging.Events.RoomEntered.RoomEntered(NetAF.Assets.Locations.Room)
-  fullName.vb: NetAF.Logging.Events.RoomEntered.New(NetAF.Assets.Locations.Room)
-  nameWithType: RoomEntered.RoomEntered(Room)
-  nameWithType.vb: RoomEntered.New(Room)
-- uid: NetAF.Logging.Events.RoomEntered.#ctor*
-  name: RoomEntered
-  href: api/NetAF.Logging.Events.RoomEntered.html#NetAF_Logging_Events_RoomEntered__ctor_
-  commentId: Overload:NetAF.Logging.Events.RoomEntered.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.RoomEntered.RoomEntered
-  fullName.vb: NetAF.Logging.Events.RoomEntered.New
-  nameWithType: RoomEntered.RoomEntered
-  nameWithType.vb: RoomEntered.New
-- uid: NetAF.Logging.Events.RoomEntered.Room
-  name: Room
-  href: api/NetAF.Logging.Events.RoomEntered.html#NetAF_Logging_Events_RoomEntered_Room
-  commentId: P:NetAF.Logging.Events.RoomEntered.Room
-  fullName: NetAF.Logging.Events.RoomEntered.Room
-  nameWithType: RoomEntered.Room
-- uid: NetAF.Logging.Events.RoomEntered.Room*
-  name: Room
-  href: api/NetAF.Logging.Events.RoomEntered.html#NetAF_Logging_Events_RoomEntered_Room_
-  commentId: Overload:NetAF.Logging.Events.RoomEntered.Room
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.RoomEntered.Room
-  nameWithType: RoomEntered.Room
-- uid: NetAF.Logging.Events.RoomExited
-  name: RoomExited
-  href: api/NetAF.Logging.Events.RoomExited.html
-  commentId: T:NetAF.Logging.Events.RoomExited
-  fullName: NetAF.Logging.Events.RoomExited
-  nameWithType: RoomExited
-- uid: NetAF.Logging.Events.RoomExited.#ctor(NetAF.Assets.Locations.Room)
-  name: RoomExited(Room)
-  href: api/NetAF.Logging.Events.RoomExited.html#NetAF_Logging_Events_RoomExited__ctor_NetAF_Assets_Locations_Room_
-  commentId: M:NetAF.Logging.Events.RoomExited.#ctor(NetAF.Assets.Locations.Room)
-  name.vb: New(Room)
-  fullName: NetAF.Logging.Events.RoomExited.RoomExited(NetAF.Assets.Locations.Room)
-  fullName.vb: NetAF.Logging.Events.RoomExited.New(NetAF.Assets.Locations.Room)
-  nameWithType: RoomExited.RoomExited(Room)
-  nameWithType.vb: RoomExited.New(Room)
-- uid: NetAF.Logging.Events.RoomExited.#ctor*
-  name: RoomExited
-  href: api/NetAF.Logging.Events.RoomExited.html#NetAF_Logging_Events_RoomExited__ctor_
-  commentId: Overload:NetAF.Logging.Events.RoomExited.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logging.Events.RoomExited.RoomExited
-  fullName.vb: NetAF.Logging.Events.RoomExited.New
-  nameWithType: RoomExited.RoomExited
-  nameWithType.vb: RoomExited.New
-- uid: NetAF.Logging.Events.RoomExited.Room
-  name: Room
-  href: api/NetAF.Logging.Events.RoomExited.html#NetAF_Logging_Events_RoomExited_Room
-  commentId: P:NetAF.Logging.Events.RoomExited.Room
-  fullName: NetAF.Logging.Events.RoomExited.Room
-  nameWithType: RoomExited.Room
-- uid: NetAF.Logging.Events.RoomExited.Room*
-  name: Room
-  href: api/NetAF.Logging.Events.RoomExited.html#NetAF_Logging_Events_RoomExited_Room_
-  commentId: Overload:NetAF.Logging.Events.RoomExited.Room
-  isSpec: "True"
-  fullName: NetAF.Logging.Events.RoomExited.Room
-  nameWithType: RoomExited.Room
 - uid: NetAF.Logging.History
   name: NetAF.Logging.History
   href: api/NetAF.Logging.History.html
@@ -11593,12 +11631,12 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   nameWithType: IRegionMapBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail)
-  href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_
-  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)
-  fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail)
-  nameWithType: IRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail)
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size)
+  nameWithType: IRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
 - uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_
@@ -15193,18 +15231,18 @@ references:
   fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.New
   nameWithType: ConsoleRegionMapBuilder.ConsoleRegionMapBuilder
   nameWithType.vb: ConsoleRegionMapBuilder.New
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail)
-  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail)
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Point2D,NetAF.Assets.Size)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Point2D, Size)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Point2D_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Point2D,NetAF.Assets.Size)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Point2D, NetAF.Assets.Size)
-  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Point2D, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size)
+  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_NetAF_Assets_Point2D_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size, NetAF.Assets.Point2D)
+  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_
@@ -16660,12 +16698,12 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder
   fullName: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder
   nameWithType: IConsoleRegionMapBuilder
-- uid: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Point2D,NetAF.Assets.Size)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Point2D, Size)
-  href: api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Point2D_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Point2D,NetAF.Assets.Size)
-  fullName: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Point2D, NetAF.Assets.Size)
-  nameWithType: IConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Point2D, Size)
+- uid: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
+  href: api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_NetAF_Assets_Point2D_
+  commentId: M:NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  fullName: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size, NetAF.Assets.Point2D)
+  nameWithType: IConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
 - uid: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRegionMapBuilder_BuildRegionMap_
@@ -16941,12 +16979,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt
   nameWithType: GeneralRegionMapBuilder.Adapt
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail)
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_
-  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail)
-  nameWithType: GeneralRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size)
+  nameWithType: GeneralRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_
@@ -17032,19 +17070,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.LowerLevel
   nameWithType: GeneralRegionMapBuilder.LowerLevel
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
-  name: MaxSize
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_MaxSize
-  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
-  nameWithType: GeneralRegionMapBuilder.MaxSize
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize*
-  name: MaxSize
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_MaxSize_
-  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
-  isSpec: "True"
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize
-  nameWithType: GeneralRegionMapBuilder.MaxSize
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player
   name: Player
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Player
@@ -17233,19 +17258,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
   nameWithType: GeneralRoomMapBuilder.LockedExit
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
-  name: MaxSize
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_MaxSize
-  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
-  nameWithType: GeneralRoomMapBuilder.MaxSize
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize*
-  name: MaxSize
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_MaxSize_
-  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
-  isSpec: "True"
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.MaxSize
-  nameWithType: GeneralRoomMapBuilder.MaxSize
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.RenderedSize
   name: RenderedSize
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_RenderedSize

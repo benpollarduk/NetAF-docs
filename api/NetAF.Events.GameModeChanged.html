@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ItemUsed | NetAF </title>
+      <title>Class GameModeChanged | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ItemUsed | NetAF ">
+      <meta name="title" content="Class GameModeChanged | NetAF ">
     
-    <meta name="description" content="Provides an event for when an item is used on a target.">
+    <meta name="description" content="Provides an event for when a game mode changes.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,24 +76,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logging.Events.ItemUsed">
+            <article class="content wrap" id="_content" data-uid="NetAF.Events.GameModeChanged">
 
 
 
-  <h1 id="NetAF_Logging_Events_ItemUsed" data-uid="NetAF.Logging.Events.ItemUsed" class="text-break">Class ItemUsed</h1>
-  <div class="markdown level0 summary"><p>Provides an event for when an item is used on a target.</p>
+  <h1 id="NetAF_Events_GameModeChanged" data-uid="NetAF.Events.GameModeChanged" class="text-break">Class GameModeChanged</h1>
+  <div class="markdown level0 summary"><p>Provides an event for when a game mode changes.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="NetAF.Logging.Events.BaseEvent.html">BaseEvent</a></div>
-    <div class="level2"><span class="xref">ItemUsed</span></div>
+    <div class="level1"><a class="xref" href="NetAF.Events.BaseEvent.html">BaseEvent</a></div>
+    <div class="level2"><span class="xref">GameModeChanged</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Logging.Events.BaseEvent.html">BaseEvent</a>&gt;</div>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Logging.Events.ItemUsed.html">ItemUsed</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Events.BaseEvent.html">BaseEvent</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Events.GameModeChanged.html">GameModeChanged</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -119,22 +119,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logging.html">Logging</a>.<a class="xref" href="NetAF.Logging.Events.html">Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Events.html">Events</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Logging_Events_ItemUsed_syntax">Syntax</h5>
+  <h5 id="NetAF_Events_GameModeChanged_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record ItemUsed : BaseEvent, IEquatable&lt;BaseEvent&gt;, IEquatable&lt;ItemUsed&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public record GameModeChanged : BaseEvent, IEquatable&lt;BaseEvent&gt;, IEquatable&lt;GameModeChanged&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Logging_Events_ItemUsed__ctor_" data-uid="NetAF.Logging.Events.ItemUsed.#ctor*"></a>
-  <h4 id="NetAF_Logging_Events_ItemUsed__ctor_NetAF_Assets_Item_NetAF_Assets_IInteractWithItem_" data-uid="NetAF.Logging.Events.ItemUsed.#ctor(NetAF.Assets.Item,NetAF.Assets.IInteractWithItem)">ItemUsed(Item, IInteractWithItem)</h4>
-  <div class="markdown level1 summary"><p>Provides an event for when an item is used on a target.</p>
+  <a id="NetAF_Events_GameModeChanged__ctor_" data-uid="NetAF.Events.GameModeChanged.#ctor*"></a>
+  <h4 id="NetAF_Events_GameModeChanged__ctor_NetAF_Logic_Modes_IGameMode_" data-uid="NetAF.Events.GameModeChanged.#ctor(NetAF.Logic.Modes.IGameMode)">GameModeChanged(IGameMode)</h4>
+  <div class="markdown level1 summary"><p>Provides an event for when a game mode changes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemUsed(Item Item, IInteractWithItem Target)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameModeChanged(IGameMode Mode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -147,29 +147,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Item.html">Item</a></td>
-        <td><span class="parametername">Item</span></td>
-        <td><p>The item.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.IInteractWithItem.html">IInteractWithItem</a></td>
-        <td><span class="parametername">Target</span></td>
-        <td><p>The target.</p>
+        <td><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></td>
+        <td><span class="parametername">Mode</span></td>
+        <td><p>The mode the game changed to.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Logging_Events_ItemUsed_Item_" data-uid="NetAF.Logging.Events.ItemUsed.Item*"></a>
-  <h4 id="NetAF_Logging_Events_ItemUsed_Item" data-uid="NetAF.Logging.Events.ItemUsed.Item">Item</h4>
-  <div class="markdown level1 summary"><p>The item.</p>
+  <a id="NetAF_Events_GameModeChanged_Mode_" data-uid="NetAF.Events.GameModeChanged.Mode*"></a>
+  <h4 id="NetAF_Events_GameModeChanged_Mode" data-uid="NetAF.Events.GameModeChanged.Mode">Mode</h4>
+  <div class="markdown level1 summary"><p>The mode the game changed to.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Item Item { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IGameMode Mode { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -181,31 +175,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Assets.Item.html">Item</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logging_Events_ItemUsed_Target_" data-uid="NetAF.Logging.Events.ItemUsed.Target*"></a>
-  <h4 id="NetAF_Logging_Events_ItemUsed_Target" data-uid="NetAF.Logging.Events.ItemUsed.Target">Target</h4>
-  <div class="markdown level1 summary"><p>The target.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInteractWithItem Target { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.IInteractWithItem.html">IInteractWithItem</a></td>
+        <td><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ItemReceived | NetAF </title>
+      <title>Class CharacterDied | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ItemReceived | NetAF ">
+      <meta name="title" content="Class CharacterDied | NetAF ">
     
-    <meta name="description" content="Provides an event for when a character received an item.">
+    <meta name="description" content="Provides an event for when a character died.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,24 +76,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logging.Events.ItemReceived">
+            <article class="content wrap" id="_content" data-uid="NetAF.Events.CharacterDied">
 
 
 
-  <h1 id="NetAF_Logging_Events_ItemReceived" data-uid="NetAF.Logging.Events.ItemReceived" class="text-break">Class ItemReceived</h1>
-  <div class="markdown level0 summary"><p>Provides an event for when a character received an item.</p>
+  <h1 id="NetAF_Events_CharacterDied" data-uid="NetAF.Events.CharacterDied" class="text-break">Class CharacterDied</h1>
+  <div class="markdown level0 summary"><p>Provides an event for when a character died.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="NetAF.Logging.Events.BaseEvent.html">BaseEvent</a></div>
-    <div class="level2"><span class="xref">ItemReceived</span></div>
+    <div class="level1"><a class="xref" href="NetAF.Events.BaseEvent.html">BaseEvent</a></div>
+    <div class="level2"><span class="xref">CharacterDied</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Logging.Events.BaseEvent.html">BaseEvent</a>&gt;</div>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Logging.Events.ItemReceived.html">ItemReceived</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Events.BaseEvent.html">BaseEvent</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Events.CharacterDied.html">CharacterDied</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -119,22 +119,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logging.html">Logging</a>.<a class="xref" href="NetAF.Logging.Events.html">Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Events.html">Events</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Logging_Events_ItemReceived_syntax">Syntax</h5>
+  <h5 id="NetAF_Events_CharacterDied_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record ItemReceived : BaseEvent, IEquatable&lt;BaseEvent&gt;, IEquatable&lt;ItemReceived&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public record CharacterDied : BaseEvent, IEquatable&lt;BaseEvent&gt;, IEquatable&lt;CharacterDied&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Logging_Events_ItemReceived__ctor_" data-uid="NetAF.Logging.Events.ItemReceived.#ctor*"></a>
-  <h4 id="NetAF_Logging_Events_ItemReceived__ctor_NetAF_Assets_Characters_Character_NetAF_Assets_Item_" data-uid="NetAF.Logging.Events.ItemReceived.#ctor(NetAF.Assets.Characters.Character,NetAF.Assets.Item)">ItemReceived(Character, Item)</h4>
-  <div class="markdown level1 summary"><p>Provides an event for when a character received an item.</p>
+  <a id="NetAF_Events_CharacterDied__ctor_" data-uid="NetAF.Events.CharacterDied.#ctor*"></a>
+  <h4 id="NetAF_Events_CharacterDied__ctor_NetAF_Assets_Characters_Character_" data-uid="NetAF.Events.CharacterDied.#ctor(NetAF.Assets.Characters.Character)">CharacterDied(Character)</h4>
+  <div class="markdown level1 summary"><p>Provides an event for when a character died.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemReceived(Character Character, Item Item)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterDied(Character Character)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -149,22 +149,16 @@
       <tr>
         <td><a class="xref" href="NetAF.Assets.Characters.Character.html">Character</a></td>
         <td><span class="parametername">Character</span></td>
-        <td><p>The character that received the item.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Item.html">Item</a></td>
-        <td><span class="parametername">Item</span></td>
-        <td><p>The item.</p>
+        <td><p>The character that died.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Logging_Events_ItemReceived_Character_" data-uid="NetAF.Logging.Events.ItemReceived.Character*"></a>
-  <h4 id="NetAF_Logging_Events_ItemReceived_Character" data-uid="NetAF.Logging.Events.ItemReceived.Character">Character</h4>
-  <div class="markdown level1 summary"><p>The character that received the item.</p>
+  <a id="NetAF_Events_CharacterDied_Character_" data-uid="NetAF.Events.CharacterDied.Character*"></a>
+  <h4 id="NetAF_Events_CharacterDied_Character" data-uid="NetAF.Events.CharacterDied.Character">Character</h4>
+  <div class="markdown level1 summary"><p>The character that died.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -182,30 +176,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="NetAF.Assets.Characters.Character.html">Character</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logging_Events_ItemReceived_Item_" data-uid="NetAF.Logging.Events.ItemReceived.Item*"></a>
-  <h4 id="NetAF_Logging_Events_ItemReceived_Item" data-uid="NetAF.Logging.Events.ItemReceived.Item">Item</h4>
-  <div class="markdown level1 summary"><p>The item.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Item Item { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Item.html">Item</a></td>
         <td></td>
       </tr>
     </tbody>

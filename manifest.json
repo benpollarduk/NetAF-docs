@@ -1538,6 +1538,216 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.BaseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.BaseEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.BaseEvent",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.BaseEvent.yml\" sourcestartlinenumber=\"1\">Provides a base event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.CharacterDied.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.CharacterDied.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.CharacterDied",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.CharacterDied.yml\" sourcestartlinenumber=\"1\">Provides an event for when a character died.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.EventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.EventBus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.EventBus",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.EventBus.yml\" sourcestartlinenumber=\"1\">Provides an event bus for handling the centralization of events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.GameFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.GameFinished.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.GameFinished",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.GameFinished.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game finishes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.GameModeChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.GameModeChanged.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.GameModeChanged",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.GameModeChanged.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game mode changes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.GameStarted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.GameStarted.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.GameStarted",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.GameStarted.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game is started.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.GameUpdated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.GameUpdated.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.GameUpdated",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.GameUpdated.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game is updated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.ItemReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.ItemReceived.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.ItemReceived",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.ItemReceived.yml\" sourcestartlinenumber=\"1\">Provides an event for when a character received an item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.ItemRemoved.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.ItemRemoved.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.ItemRemoved",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.ItemRemoved.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is removed from a character.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.ItemUsed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.ItemUsed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.ItemUsed",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.ItemUsed.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is used on a target.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.RegionEntered.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.RegionEntered.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.RegionEntered",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.RegionEntered.yml\" sourcestartlinenumber=\"1\">Provides an event for when a region is entered.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.RegionExited.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.RegionExited.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.RegionExited",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.RegionExited.yml\" sourcestartlinenumber=\"1\">Provides an event for when a region is exited.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.RoomEntered.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.RoomEntered.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.RoomEntered",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.RoomEntered.yml\" sourcestartlinenumber=\"1\">Provides an event for when a room is entered.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.RoomExited.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.RoomExited.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.RoomExited",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.RoomExited.yml\" sourcestartlinenumber=\"1\">Provides an event for when a room is exited.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Extensions.DirectionExtensions.yml",
       "output": {
         ".html": {
@@ -1772,202 +1982,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Interpretation",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.BaseEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.BaseEvent.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.BaseEvent",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.BaseEvent.yml\" sourcestartlinenumber=\"1\">Provides a base event.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.CharacterDied.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.CharacterDied.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.CharacterDied",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.CharacterDied.yml\" sourcestartlinenumber=\"1\">Provides an event for when a character died.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.EventBus.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.EventBus.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.EventBus",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.EventBus.yml\" sourcestartlinenumber=\"1\">Provides an event bus for handling the centralization of events.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.GameFinished.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.GameFinished.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.GameFinished",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.GameFinished.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game finishes.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.GameStarted.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.GameStarted.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.GameStarted",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.GameStarted.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game is started.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.GameUpdated.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.GameUpdated.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.GameUpdated",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.GameUpdated.yml\" sourcestartlinenumber=\"1\">Provides an event for when a game is updated.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.ItemReceived.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.ItemReceived.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.ItemReceived",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.ItemReceived.yml\" sourcestartlinenumber=\"1\">Provides an event for when a character received an item.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.ItemRemoved.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.ItemRemoved.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.ItemRemoved",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.ItemRemoved.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is removed from a character.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.ItemUsed.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.ItemUsed.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.ItemUsed",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.ItemUsed.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is used on a target.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.RegionEntered.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.RegionEntered.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.RegionEntered",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RegionEntered.yml\" sourcestartlinenumber=\"1\">Provides an event for when a region is entered.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.RegionExited.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.RegionExited.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.RegionExited",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RegionExited.yml\" sourcestartlinenumber=\"1\">Provides an event for when a region is exited.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.RoomEntered.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.RoomEntered.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.RoomEntered",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RoomEntered.yml\" sourcestartlinenumber=\"1\">Provides an event for when a room is entered.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.RoomExited.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.RoomExited.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events.RoomExited",
-      "Summary": "<p sourcefile=\"api/NetAF.Logging.Events.RoomExited.yml\" sourcestartlinenumber=\"1\">Provides an event for when a room is exited.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logging.Events.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logging.Events.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logging.Events",
       "Summary": null
     },
     {
@@ -5211,6 +5225,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/markup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/markup.html"
         }
       },
       "version": ""

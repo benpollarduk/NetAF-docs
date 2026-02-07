@@ -272,30 +272,6 @@
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_MaxSize_" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize*"></a>
-  <h4 id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_MaxSize" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.MaxSize">MaxSize</h4>
-  <div class="markdown level1 summary"><p>Get or set the maximum size.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Size MaxSize { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Player_" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player*"></a>
   <h4 id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_Player" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Player">Player</h4>
   <div class="markdown level1 summary"><p>Get or set the character to use for indicating the player.</p>
@@ -470,13 +446,13 @@
     </tbody>
   </table>
   <a id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap*"></a>
-  <h4 id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail)">BuildRegionMap(Region, Point3D, RegionMapDetail)</h4>
+  <h4 id="NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_" data-uid="NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)">BuildRegionMap(Region, Point3D, RegionMapDetail, Size)</h4>
   <div class="markdown level1 summary"><p>Build a map of a region.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition, RegionMapDetail detail)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition, RegionMapDetail detail, Size maxSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -504,6 +480,12 @@
         <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
         <td><span class="parametername">detail</span></td>
         <td><p>The level of detail to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td><p>The maximum size available in which to build the map.</p>
 </td>
       </tr>
     </tbody>

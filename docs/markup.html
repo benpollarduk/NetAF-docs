@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace NetAF.Logging.Events | NetAF </title>
+      <title>Markup | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace NetAF.Logging.Events | NetAF ">
+      <meta name="title" content="Markup | NetAF ">
     
     
       <link rel="shortcut icon" href="../images/logo.png">
@@ -76,55 +76,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logging.Events">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="markup">Markup</h1>
 
-  <h1 id="NetAF_Logging_Events" data-uid="NetAF.Logging.Events" class="text-break">Namespace NetAF.Logging.Events</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
-</h3>
-      <h4><a class="xref" href="NetAF.Logging.Events.BaseEvent.html">BaseEvent</a></h4>
-      <section><p>Provides a base event.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.CharacterDied.html">CharacterDied</a></h4>
-      <section><p>Provides an event for when a character died.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.EventBus.html">EventBus</a></h4>
-      <section><p>Provides an event bus for handling the centralization of events.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.GameFinished.html">GameFinished</a></h4>
-      <section><p>Provides an event for when a game finishes.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.GameStarted.html">GameStarted</a></h4>
-      <section><p>Provides an event for when a game is started.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.GameUpdated.html">GameUpdated</a></h4>
-      <section><p>Provides an event for when a game is updated.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.ItemReceived.html">ItemReceived</a></h4>
-      <section><p>Provides an event for when a character received an item.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.ItemRemoved.html">ItemRemoved</a></h4>
-      <section><p>Provides an event for when an item is removed from a character.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.ItemUsed.html">ItemUsed</a></h4>
-      <section><p>Provides an event for when an item is used on a target.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.RegionEntered.html">RegionEntered</a></h4>
-      <section><p>Provides an event for when a region is entered.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.RegionExited.html">RegionExited</a></h4>
-      <section><p>Provides an event for when a region is exited.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.RoomEntered.html">RoomEntered</a></h4>
-      <section><p>Provides an event for when a room is entered.</p>
-</section>
-      <h4><a class="xref" href="NetAF.Logging.Events.RoomExited.html">RoomExited</a></h4>
-      <section><p>Provides an event for when a room is exited.</p>
-</section>
+<h2 id="introduction">Introduction</h2>
+<p>Markup allows rich text frames to be described in a simple target agnostic language and then rendered in various formats.</p>
+<h2 id="process">Process</h2>
+<p>NetAF provides the <strong>MarkupBuilder</strong> to simplify generating markup for frames and the <strong>MarkupAdapter</strong> for rendering them in a project. This allows custom implementations of <strong>IFramePresenter</strong> to be written to render to different targets.</p>
+<p>When writing a custom implementation of <strong>IFramePresenter</strong> it is advisable to first use the <strong>Tokenizer</strong> to tokenize the markup and then the tokens can be passed to the <strong>MarkupParser</strong> to parse to generate a model. This model is much easier to work with and is essentially an abstract syntax tree. The root of the model is a <strong>DocumentNode</strong>. The model can be thought of as a simple DOM (Document Object Model).</p>
+<p><em>Markup -&gt; Tokens -&gt; Model -&gt; Renderer</em></p>
+<p>The <strong>ModelParser</strong> allows markup to be parsed directly to a <strong>DocumentNode</strong>, handling all tokenizaton for you to simplify the process.</p>
+<pre><code class="lang-csharp">ModelParser.TryParse(markup, out DocumentNode? doc);
+</code></pre>
+<h2 id="syntax">Syntax</h2>
+<p>The following syntax is supported.</p>
+<pre><code># Example - heading 1.
+## Example - heading 2.
+### Example - heading 3.
+#### Example - heading 4.
 
+[bold]Example[/bold] - all text between the tags is bold.
+
+[italic]Example[/italic] - all text between the tags is bold.
+
+[stikethrough]Example[/stikethrough] - all text between the tags uses strikethrough.
+
+[underline]Example[/underline] - all text between the tags uses underline.
+
+[monospace]Example[/monospace] - all text between the tags should be monospace.
+
+[foreground:#FFFFFF]Example[/foreground] - all text between the tags has a specified foreground color in hex, RRGGBB.
+
+[background:#FFFFFF]Example[/background] - all text between the tags has a specified background color in hex, RRGGBB.
+
+\n - newline.
+</code></pre>
+<h1 id="example">Example</h1>
+<pre><code># Markup Example
+
+## This is a sub heading
+This is a paragraph. So far the same as markdown.
+
+[bold]Here is some text in bold![/bold] And some in [italic]italics[/italic]. And some [bold][italic]bold italics[/italic][/bold].
+
+You can [underline]underline sections of text[/underline], and also [strikethrough]strike through sections[/strikethrough] if desired.
+
+[foreground:#FF0000]This will be in red.[/foreground]
+
+[background:#0000FF]And this will have a blue background.[/background]
+
+Sometimes, particularly when rendering maps and other visuals monospace is needed to ensure the horizontal spacing looks correct.
+
+[monospace]|---------|[/monospace]
+</code></pre>
 
 </article>
           </div>
