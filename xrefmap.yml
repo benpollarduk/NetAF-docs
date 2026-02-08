@@ -15821,15 +15821,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder
   nameWithType: ConsoleVisualFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Assets.Size,NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
-  name: ConsoleVisualFrameBuilder(GridStringBuilder, Size, VisualFrameResizeMode)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Assets_Size_NetAF_Targets_Console_Rendering_VisualFrameResizeMode_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Assets.Size,NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
-  name.vb: New(GridStringBuilder, Size, VisualFrameResizeMode)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.ConsoleVisualFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Assets.Size, NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Assets.Size, NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
-  nameWithType: ConsoleVisualFrameBuilder.ConsoleVisualFrameBuilder(GridStringBuilder, Size, VisualFrameResizeMode)
-  nameWithType.vb: ConsoleVisualFrameBuilder.New(GridStringBuilder, Size, VisualFrameResizeMode)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
+  name: ConsoleVisualFrameBuilder(GridStringBuilder, VisualFrameResizeMode)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_VisualFrameResizeMode_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
+  name.vb: New(GridStringBuilder, VisualFrameResizeMode)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.ConsoleVisualFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.VisualFrameResizeMode)
+  nameWithType: ConsoleVisualFrameBuilder.ConsoleVisualFrameBuilder(GridStringBuilder, VisualFrameResizeMode)
+  nameWithType.vb: ConsoleVisualFrameBuilder.New(GridStringBuilder, VisualFrameResizeMode)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor*
   name: ConsoleVisualFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder__ctor_
@@ -15895,19 +15895,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DescriptionColor
   nameWithType: ConsoleVisualFrameBuilder.DescriptionColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize
-  name: DesignSize
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_DesignSize
-  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize
-  nameWithType: ConsoleVisualFrameBuilder.DesignSize
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize*
-  name: DesignSize
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_DesignSize_
-  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize
-  nameWithType: ConsoleVisualFrameBuilder.DesignSize
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.ResizeMode
   name: ResizeMode
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_ResizeMode
