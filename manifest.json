@@ -3862,6 +3862,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.VisualFrameResizeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.VisualFrameResizeMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.VisualFrameResizeMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.VisualFrameResizeMode.yml\" sourcestartlinenumber=\"1\">Enumeration of resize modes for visual frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.yml",
       "output": {
         ".html": {

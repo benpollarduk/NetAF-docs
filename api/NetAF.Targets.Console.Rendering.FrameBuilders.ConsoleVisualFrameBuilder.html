@@ -124,13 +124,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder__ctor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)">ConsoleVisualFrameBuilder(GridStringBuilder)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Assets_Size_NetAF_Targets_Console_Rendering_VisualFrameResizeMode_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Assets.Size,NetAF.Targets.Console.Rendering.VisualFrameResizeMode)">ConsoleVisualFrameBuilder(GridStringBuilder, Size, VisualFrameResizeMode)</h4>
   <div class="markdown level1 summary"><p>Provides a builder of visual frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConsoleVisualFrameBuilder(GridStringBuilder gridStringBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public ConsoleVisualFrameBuilder(GridStringBuilder gridStringBuilder, Size designSize, VisualFrameResizeMode resizeMode = VisualFrameResizeMode.Scale)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -146,6 +146,18 @@
         <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridStringBuilder.html">GridStringBuilder</a></td>
         <td><span class="parametername">gridStringBuilder</span></td>
         <td><p>A builder to use for the string layout.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">designSize</span></td>
+        <td><p>The size that was used when designing the frame.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.VisualFrameResizeMode.html">VisualFrameResizeMode</a></td>
+        <td><span class="parametername">resizeMode</span></td>
+        <td><p>The mode to use when the design size and the render size differ and the content needs to be resized.</p>
 </td>
       </tr>
     </tbody>
@@ -224,6 +236,54 @@
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_DesignSize_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_DesignSize" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.DesignSize">DesignSize</h4>
+  <div class="markdown level1 summary"><p>Get the size that was used when the frame was designed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size DesignSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_ResizeMode_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.ResizeMode*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_ResizeMode" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.ResizeMode">ResizeMode</h4>
+  <div class="markdown level1 summary"><p>Get or set the mode to use when the design size and the render size differ and the content needs to be resized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisualFrameResizeMode ResizeMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.VisualFrameResizeMode.html">VisualFrameResizeMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_TitleColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.TitleColor*"></a>
   <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleVisualFrameBuilder_TitleColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleVisualFrameBuilder.TitleColor">TitleColor</h4>
   <div class="markdown level1 summary"><p>Get or set the title color.</p>
@@ -284,7 +344,7 @@
       <tr>
         <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualBuilder.html">GridVisualBuilder</a></td>
         <td><span class="parametername">gridVisualBuilder</span></td>
-        <td><p>The grid visual builder.</p>
+        <td><p>The grid visual builder containing the visual.</p>
 </td>
       </tr>
       <tr>
