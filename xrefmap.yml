@@ -11344,6 +11344,22 @@ references:
   fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.GetFrameBuilder(Of T)()
   nameWithType: FrameBuilderCollection.GetFrameBuilder<T>()
   nameWithType.vb: FrameBuilderCollection.GetFrameBuilder(Of T)()
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder*
+  name: SetFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_SetFrameBuilder_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder
+  nameWithType: FrameBuilderCollection.SetFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder``1(``0)
+  name: SetFrameBuilder<T>(T)
+  href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollection.html#NetAF_Rendering_FrameBuilders_FrameBuilderCollection_SetFrameBuilder__1___0_
+  commentId: M:NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder``1(``0)
+  name.vb: SetFrameBuilder(Of T)(T)
+  fullName: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder<T>(T)
+  fullName.vb: NetAF.Rendering.FrameBuilders.FrameBuilderCollection.SetFrameBuilder(Of T)(T)
+  nameWithType: FrameBuilderCollection.SetFrameBuilder<T>(T)
+  nameWithType.vb: FrameBuilderCollection.SetFrameBuilder(Of T)(T)
 - uid: NetAF.Rendering.FrameBuilders.FrameBuilderCollections
   name: FrameBuilderCollections
   href: api/NetAF.Rendering.FrameBuilders.FrameBuilderCollections.html
