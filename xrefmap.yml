@@ -11746,15 +11746,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   nameWithType: ISceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
-  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
 - uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_
@@ -11851,6 +11851,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameProperties.MapDetail
   nameWithType: FrameProperties.MapDetail
+- uid: NetAF.Rendering.FrameProperties.ShowMapInScenes
+  name: ShowMapInScenes
+  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_ShowMapInScenes
+  commentId: P:NetAF.Rendering.FrameProperties.ShowMapInScenes
+  fullName: NetAF.Rendering.FrameProperties.ShowMapInScenes
+  nameWithType: FrameProperties.ShowMapInScenes
+- uid: NetAF.Rendering.FrameProperties.ShowMapInScenes*
+  name: ShowMapInScenes
+  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_ShowMapInScenes_
+  commentId: Overload:NetAF.Rendering.FrameProperties.ShowMapInScenes
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameProperties.ShowMapInScenes
+  nameWithType: FrameProperties.ShowMapInScenes
 - uid: NetAF.Rendering.IFrame
   name: IFrame
   href: api/NetAF.Rendering.IFrame.html
@@ -15676,15 +15689,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.BorderColor
   nameWithType: ConsoleSceneFrameBuilder.BorderColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleSceneFrameBuilder_Build_
@@ -18075,15 +18088,15 @@ references:
   fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.New
   nameWithType: HtmlSceneFrameBuilder.HtmlSceneFrameBuilder
   nameWithType.vb: HtmlSceneFrameBuilder.New
-- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
-  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  nameWithType.vb: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  nameWithType.vb: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_
@@ -19479,15 +19492,15 @@ references:
   fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.New
   nameWithType: MarkupSceneFrameBuilder.MarkupSceneFrameBuilder
   nameWithType.vb: MarkupSceneFrameBuilder.New
-- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
-  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  nameWithType.vb: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  nameWithType.vb: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupSceneFrameBuilder_Build_
@@ -20507,15 +20520,15 @@ references:
   fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.New
   nameWithType: TextSceneFrameBuilder.TextSceneFrameBuilder
   nameWithType.vb: TextSceneFrameBuilder.New
-- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
-  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)
-  nameWithType.vb: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), KeyType, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
+  nameWithType: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
+  nameWithType.vb: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_

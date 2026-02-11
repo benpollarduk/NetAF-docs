@@ -185,13 +185,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___NetAF_Rendering_KeyType_NetAF_Assets_Size_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],NetAF.Rendering.KeyType,NetAF.Assets.Size)">Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], KeyType, Size)</h4>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)">Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(Room room, ViewPoint viewPoint, PlayableCharacter player, CommandHelp[] contextualCommands, KeyType keyType, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(Room room, ViewPoint viewPoint, PlayableCharacter player, CommandHelp[] contextualCommands, bool showMap, KeyType keyType, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -228,9 +228,15 @@
 </td>
       </tr>
       <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">showMap</span></td>
+        <td><p>Specify if the map should be shown.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="NetAF.Rendering.KeyType.html">KeyType</a></td>
         <td><span class="parametername">keyType</span></td>
-        <td><p>The type of key to use.</p>
+        <td><p>The type of key to use with the map, if it is shown.</p>
 </td>
       </tr>
       <tr>
