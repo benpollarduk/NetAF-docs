@@ -93,13 +93,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Rendering_FrameBuilders_IVisualFrameBuilder_Build_" data-uid="NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Rendering_FrameBuilders_IVisualFrameBuilder_Build_System_String_System_String_NetAF_Targets_Console_Rendering_GridVisualBuilder_NetAF_Assets_Size_" data-uid="NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.Build(System.String,System.String,NetAF.Targets.Console.Rendering.GridVisualBuilder,NetAF.Assets.Size)">Build(string, string, GridVisualBuilder, Size)</h4>
+  <h4 id="NetAF_Rendering_FrameBuilders_IVisualFrameBuilder_Build_NetAF_Rendering_Visual_NetAF_Assets_Size_" data-uid="NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.Build(NetAF.Rendering.Visual,NetAF.Assets.Size)">Build(Visual, Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IFrame Build(string title, string description, GridVisualBuilder gridVisualBuilder, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">IFrame Build(Visual visual, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -112,21 +112,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">title</span></td>
-        <td><p>The title.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualBuilder.html">GridVisualBuilder</a></td>
-        <td><span class="parametername">gridVisualBuilder</span></td>
-        <td><p>The grid visual builder containing the visual.</p>
+        <td><a class="xref" href="NetAF.Rendering.Visual.html">Visual</a></td>
+        <td><span class="parametername">visual</span></td>
+        <td><p>The visual.</p>
 </td>
       </tr>
       <tr>

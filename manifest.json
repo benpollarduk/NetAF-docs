@@ -2528,7 +2528,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Logic.Modes.VisualMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.VisualMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for rendering of visual frame.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.VisualMode.yml\" sourcestartlinenumber=\"1\">Provides a mode for displaying a visual.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3061,6 +3061,34 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.SceneHelper",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.SceneHelper.yml\" sourcestartlinenumber=\"1\">Provides helper functionality for scenes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Visual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Visual.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Visual",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Visual.yml\" sourcestartlinenumber=\"1\">Represents a visual.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.VisualResizeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.VisualResizeMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.VisualResizeMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.VisualResizeMode.yml\" sourcestartlinenumber=\"1\">Enumeration of resize modes for visuals.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3862,20 +3890,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Targets.Console.Rendering.VisualFrameResizeMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Targets.Console.Rendering.VisualFrameResizeMode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Targets.Console.Rendering.VisualFrameResizeMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.VisualFrameResizeMode.yml\" sourcestartlinenumber=\"1\">Enumeration of resize modes for visual frames.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.yml",
       "output": {
         ".html": {
@@ -4167,6 +4181,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlTitleFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlVisualFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlVisualFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlVisualFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of visual frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4646,6 +4674,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupVisualFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupVisualFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupVisualFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of visual frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.yml",
       "output": {
         ".html": {
@@ -4937,6 +4979,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextTitleFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of title frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of visual frames.</p>\n"
     },
     {
       "type": "ManagedReference",

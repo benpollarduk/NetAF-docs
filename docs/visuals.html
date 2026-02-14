@@ -100,12 +100,11 @@ builder.DrawRectangle(1, 4, 9, 1, canopy, canopy);
 builder.DrawRectangle(0, 5, 11, 1, canopy, canopy);
 builder.DrawRectangle(5, 5, 1, 6, trunk, trunk);
 
-// create a frame
-var frameBuilder = new ConsoleVisualFrameBuilder(new GridStringBuilder());
-var frame = frameBuilder.Build(&quot;Tree&quot;, &quot;A visual of a tree.&quot;, builder, game.Configuration.DisplaySize);
+// create a visual
+var visual = new Visual(&quot;Tree&quot;, &quot;A visual of a tree.&quot;, builder);
 
-// display the frame in the game
-game.ChangeMode(new VisualMode(frame));
+// display the visual in the game
+game.ChangeMode(new VisualMode(visual));
 </code></pre>
 <p>This will render the following:</p>
 <p><img src="../images/visuals-tree.png" alt="Tree"></p>

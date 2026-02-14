@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class VisualMode | NetAF </title>
+      <title>Class TextVisualFrameBuilder | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class VisualMode | NetAF ">
+      <meta name="title" content="Class TextVisualFrameBuilder | NetAF ">
     
-    <meta name="description" content="Provides a mode for displaying a visual.">
+    <meta name="description" content="Provides a builder of visual frames.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,22 +76,23 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Logic.Modes.VisualMode">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder">
 
 
 
-  <h1 id="NetAF_Logic_Modes_VisualMode" data-uid="NetAF.Logic.Modes.VisualMode" class="text-break">Class VisualMode</h1>
-  <div class="markdown level0 summary"><p>Provides a mode for displaying a visual.</p>
+  <h1 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder" class="text-break">Class TextVisualFrameBuilder</h1>
+  <div class="markdown level0 summary"><p>Provides a builder of visual frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">VisualMode</span></div>
+    <div class="level1"><span class="xref">TextVisualFrameBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.html">IVisualFrameBuilder</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,22 +115,83 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Text.html">Text</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Text.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Logic_Modes_VisualMode_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class VisualMode : IGameMode</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TextVisualFrameBuilder : IVisualFrameBuilder, IFrameBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Logic_Modes_VisualMode__ctor_" data-uid="NetAF.Logic.Modes.VisualMode.#ctor*"></a>
-  <h4 id="NetAF_Logic_Modes_VisualMode__ctor_NetAF_Rendering_Visual_" data-uid="NetAF.Logic.Modes.VisualMode.#ctor(NetAF.Rendering.Visual)">VisualMode(Visual)</h4>
-  <div class="markdown level1 summary"><p>Provides a mode for displaying a visual.</p>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder__ctor_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.#ctor*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Rendering_VisualResizeMode_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.VisualResizeMode)">TextVisualFrameBuilder(StringBuilder, VisualResizeMode)</h4>
+  <div class="markdown level1 summary"><p>Provides a builder of visual frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VisualMode(Visual visual)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextVisualFrameBuilder(StringBuilder builder, VisualResizeMode resizeMode = VisualResizeMode.Scale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>A builder to use for the text layout.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.VisualResizeMode.html">VisualResizeMode</a></td>
+        <td><span class="parametername">resizeMode</span></td>
+        <td><p>The mode to use when the design size and the render size differ and the content needs to be resized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder_ResizeMode_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.ResizeMode*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder_ResizeMode" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.ResizeMode">ResizeMode</h4>
+  <div class="markdown level1 summary"><p>Get or set the mode to use when the design size and the render size differ and the content needs to be resized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisualResizeMode ResizeMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.VisualResizeMode.html">VisualResizeMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder_Build_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.Build*"></a>
+  <h4 id="NetAF_Targets_Text_Rendering_FrameBuilders_TextVisualFrameBuilder_Build_NetAF_Rendering_Visual_NetAF_Assets_Size_" data-uid="NetAF.Targets.Text.Rendering.FrameBuilders.TextVisualFrameBuilder.Build(NetAF.Rendering.Visual,NetAF.Assets.Size)">Build(Visual, Size)</h4>
+  <div class="markdown level1 summary"><p>Build a frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFrame Build(Visual visual, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -147,20 +209,15 @@
         <td><p>The visual.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the frame.</p>
+</td>
+      </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-  <a id="NetAF_Logic_Modes_VisualMode_Interpreter_" data-uid="NetAF.Logic.Modes.VisualMode.Interpreter*"></a>
-  <h4 id="NetAF_Logic_Modes_VisualMode_Interpreter" data-uid="NetAF.Logic.Modes.VisualMode.Interpreter">Interpreter</h4>
-  <div class="markdown level1 summary"><p>Get the interpreter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IInterpreter Interpreter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
@@ -170,67 +227,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Logic_Modes_VisualMode_Type_" data-uid="NetAF.Logic.Modes.VisualMode.Type*"></a>
-  <h4 id="NetAF_Logic_Modes_VisualMode_Type" data-uid="NetAF.Logic.Modes.VisualMode.Type">Type</h4>
-  <div class="markdown level1 summary"><p>Get the type of mode this provides.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameModeType Type { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Modes.GameModeType.html">GameModeType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <a id="NetAF_Logic_Modes_VisualMode_Render_" data-uid="NetAF.Logic.Modes.VisualMode.Render*"></a>
-  <h4 id="NetAF_Logic_Modes_VisualMode_Render_NetAF_Logic_Game_" data-uid="NetAF.Logic.Modes.VisualMode.Render(NetAF.Logic.Game)">Render(Game)</h4>
-  <div class="markdown level1 summary"><p>Render the current state of a game.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Render(Game game)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td><span class="parametername">game</span></td>
-        <td><p>The game.</p>
+        <td><a class="xref" href="NetAF.Rendering.IFrame.html">IFrame</a></td>
+        <td><p>The frame.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Logic.Modes.IGameMode.html">IGameMode</a>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.IVisualFrameBuilder.html">IVisualFrameBuilder</a>
+  </div>
+  <div>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a>
   </div>
 
 </article>
