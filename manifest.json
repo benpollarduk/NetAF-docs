@@ -2532,20 +2532,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.Modes.VisualNarrativeMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.Modes.VisualNarrativeMode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.Modes.VisualNarrativeMode",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.VisualNarrativeMode.yml\" sourcestartlinenumber=\"1\">Provides a display mode for a visual narrative.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.yml",
       "output": {
         ".html": {
@@ -2571,20 +2557,6 @@
       "IsMRef": true,
       "Title": "NetAF.Logic.PlayableCharacterLocation",
       "Summary": "<p sourcefile=\"api/NetAF.Logic.PlayableCharacterLocation.yml\" sourcestartlinenumber=\"1\">Provides a record of the location of a playable character.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Logic.StartModes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Logic.StartModes.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Logic.StartModes",
-      "Summary": "<p sourcefile=\"api/NetAF.Logic.StartModes.yml\" sourcestartlinenumber=\"1\">Enumeration of game start modes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2641,20 +2613,6 @@
       "IsMRef": true,
       "Title": "NetAF.Narratives.Section",
       "Summary": "<p sourcefile=\"api/NetAF.Narratives.Section.yml\" sourcestartlinenumber=\"1\">Provides a section of narrative.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Narratives.VisualNarrative.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Narratives.VisualNarrative.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Narratives.VisualNarrative",
-      "Summary": "<p sourcefile=\"api/NetAF.Narratives.VisualNarrative.yml\" sourcestartlinenumber=\"1\">Provides a visual narrative built up from visuals.</p>\n"
     },
     {
       "type": "ManagedReference",

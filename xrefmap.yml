@@ -2225,6 +2225,38 @@ references:
   isSpec: "True"
   fullName: NetAF.Assets.Locations.Region.TryFindRoom
   nameWithType: Region.TryFindRoom
+- uid: NetAF.Assets.Locations.Region.TryFindShortestPath(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room,System.Collections.Generic.Queue{NetAF.Assets.Locations.Room}@)
+  name: TryFindShortestPath(Room, Room, out Queue<Room>)
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_TryFindShortestPath_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_Room_System_Collections_Generic_Queue_NetAF_Assets_Locations_Room___
+  commentId: M:NetAF.Assets.Locations.Region.TryFindShortestPath(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.Room,System.Collections.Generic.Queue{NetAF.Assets.Locations.Room}@)
+  name.vb: TryFindShortestPath(Room, Room, Queue(Of Room))
+  fullName: NetAF.Assets.Locations.Region.TryFindShortestPath(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room, out System.Collections.Generic.Queue<NetAF.Assets.Locations.Room>)
+  fullName.vb: NetAF.Assets.Locations.Region.TryFindShortestPath(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.Room, System.Collections.Generic.Queue(Of NetAF.Assets.Locations.Room))
+  nameWithType: Region.TryFindShortestPath(Room, Room, out Queue<Room>)
+  nameWithType.vb: Region.TryFindShortestPath(Room, Room, Queue(Of Room))
+- uid: NetAF.Assets.Locations.Region.TryFindShortestPath*
+  name: TryFindShortestPath
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_TryFindShortestPath_
+  commentId: Overload:NetAF.Assets.Locations.Region.TryFindShortestPath
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Region.TryFindShortestPath
+  nameWithType: Region.TryFindShortestPath
+- uid: NetAF.Assets.Locations.Region.TryLocateItem(NetAF.Assets.Item,NetAF.Assets.Locations.Room@)
+  name: TryLocateItem(Item, out Room)
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_TryLocateItem_NetAF_Assets_Item_NetAF_Assets_Locations_Room__
+  commentId: M:NetAF.Assets.Locations.Region.TryLocateItem(NetAF.Assets.Item,NetAF.Assets.Locations.Room@)
+  name.vb: TryLocateItem(Item, Room)
+  fullName: NetAF.Assets.Locations.Region.TryLocateItem(NetAF.Assets.Item, out NetAF.Assets.Locations.Room)
+  fullName.vb: NetAF.Assets.Locations.Region.TryLocateItem(NetAF.Assets.Item, NetAF.Assets.Locations.Room)
+  nameWithType: Region.TryLocateItem(Item, out Room)
+  nameWithType.vb: Region.TryLocateItem(Item, Room)
+- uid: NetAF.Assets.Locations.Region.TryLocateItem*
+  name: TryLocateItem
+  href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_TryLocateItem_
+  commentId: Overload:NetAF.Assets.Locations.Region.TryLocateItem
+  isSpec: "True"
+  fullName: NetAF.Assets.Locations.Region.TryLocateItem
+  nameWithType: Region.TryLocateItem
 - uid: NetAF.Assets.Locations.Region.UnlockDoorPair(NetAF.Assets.Locations.Direction)
   name: UnlockDoorPair(Direction)
   href: api/NetAF.Assets.Locations.Region.html#NetAF_Assets_Locations_Region_UnlockDoorPair_NetAF_Assets_Locations_Direction_
@@ -5997,6 +6029,19 @@ references:
   fullName.vb: NetAF.Commands.Scene.UseOn.New
   nameWithType: UseOn.UseOn
   nameWithType.vb: UseOn.New
+- uid: NetAF.Commands.Scene.UseOn.GetItemPrompts(NetAF.Logic.Game)
+  name: GetItemPrompts(Game)
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_GetItemPrompts_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.UseOn.GetItemPrompts(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.UseOn.GetItemPrompts(NetAF.Logic.Game)
+  nameWithType: UseOn.GetItemPrompts(Game)
+- uid: NetAF.Commands.Scene.UseOn.GetItemPrompts*
+  name: GetItemPrompts
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_GetItemPrompts_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.GetItemPrompts
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.GetItemPrompts
+  nameWithType: UseOn.GetItemPrompts
 - uid: NetAF.Commands.Scene.UseOn.GetPrompts(NetAF.Logic.Game)
   name: GetPrompts(Game)
   href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_GetPrompts_NetAF_Logic_Game_
@@ -6010,6 +6055,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Scene.UseOn.GetPrompts
   nameWithType: UseOn.GetPrompts
+- uid: NetAF.Commands.Scene.UseOn.GetTargetPrompts(NetAF.Logic.Game)
+  name: GetTargetPrompts(Game)
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_GetTargetPrompts_NetAF_Logic_Game_
+  commentId: M:NetAF.Commands.Scene.UseOn.GetTargetPrompts(NetAF.Logic.Game)
+  fullName: NetAF.Commands.Scene.UseOn.GetTargetPrompts(NetAF.Logic.Game)
+  nameWithType: UseOn.GetTargetPrompts(Game)
+- uid: NetAF.Commands.Scene.UseOn.GetTargetPrompts*
+  name: GetTargetPrompts
+  href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_GetTargetPrompts_
+  commentId: Overload:NetAF.Commands.Scene.UseOn.GetTargetPrompts
+  isSpec: "True"
+  fullName: NetAF.Commands.Scene.UseOn.GetTargetPrompts
+  nameWithType: UseOn.GetTargetPrompts
 - uid: NetAF.Commands.Scene.UseOn.Help
   name: Help
   href: api/NetAF.Commands.Scene.UseOn.html#NetAF_Commands_Scene_UseOn_Help
@@ -9117,12 +9175,12 @@ references:
   commentId: F:NetAF.Logic.FinishModes.Finish
   fullName: NetAF.Logic.FinishModes.Finish
   nameWithType: FinishModes.Finish
-- uid: NetAF.Logic.FinishModes.ReturnToTitleScreen
-  name: ReturnToTitleScreen
-  href: api/NetAF.Logic.FinishModes.html#NetAF_Logic_FinishModes_ReturnToTitleScreen
-  commentId: F:NetAF.Logic.FinishModes.ReturnToTitleScreen
-  fullName: NetAF.Logic.FinishModes.ReturnToTitleScreen
-  nameWithType: FinishModes.ReturnToTitleScreen
+- uid: NetAF.Logic.FinishModes.Restart
+  name: Restart
+  href: api/NetAF.Logic.FinishModes.html#NetAF_Logic_FinishModes_Restart
+  commentId: F:NetAF.Logic.FinishModes.Restart
+  fullName: NetAF.Logic.FinishModes.Restart
+  nameWithType: FinishModes.Restart
 - uid: NetAF.Logic.Game
   name: Game
   href: api/NetAF.Logic.Game.html
@@ -9426,15 +9484,15 @@ references:
   commentId: T:NetAF.Logic.GameConfiguration
   fullName: NetAF.Logic.GameConfiguration
   nameWithType: GameConfiguration
-- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.StartModes,NetAF.Logic.FinishModes)
-  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_StartModes_NetAF_Logic_FinishModes_
-  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.StartModes,NetAF.Logic.FinishModes)
-  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
-  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.StartModes, NetAF.Logic.FinishModes)
-  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.StartModes, NetAF.Logic.FinishModes)
-  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
-  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, StartModes, FinishModes)
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.Modes.IGameMode,NetAF.Logic.FinishModes)
+  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_Modes_IGameMode_NetAF_Logic_FinishModes_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.Modes.IGameMode,NetAF.Logic.FinishModes)
+  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.Modes.IGameMode, NetAF.Logic.FinishModes)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.Modes.IGameMode, NetAF.Logic.FinishModes)
+  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
+  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
 - uid: NetAF.Logic.GameConfiguration.#ctor*
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
@@ -10845,70 +10903,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.VisualMode.Type
   nameWithType: VisualMode.Type
-- uid: NetAF.Logic.Modes.VisualNarrativeMode
-  name: VisualNarrativeMode
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html
-  commentId: T:NetAF.Logic.Modes.VisualNarrativeMode
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode
-  nameWithType: VisualNarrativeMode
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.#ctor(NetAF.Narratives.VisualNarrative)
-  name: VisualNarrativeMode(VisualNarrative)
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode__ctor_NetAF_Narratives_VisualNarrative_
-  commentId: M:NetAF.Logic.Modes.VisualNarrativeMode.#ctor(NetAF.Narratives.VisualNarrative)
-  name.vb: New(VisualNarrative)
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.VisualNarrativeMode(NetAF.Narratives.VisualNarrative)
-  fullName.vb: NetAF.Logic.Modes.VisualNarrativeMode.New(NetAF.Narratives.VisualNarrative)
-  nameWithType: VisualNarrativeMode.VisualNarrativeMode(VisualNarrative)
-  nameWithType.vb: VisualNarrativeMode.New(VisualNarrative)
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.#ctor*
-  name: VisualNarrativeMode
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode__ctor_
-  commentId: Overload:NetAF.Logic.Modes.VisualNarrativeMode.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.VisualNarrativeMode
-  fullName.vb: NetAF.Logic.Modes.VisualNarrativeMode.New
-  nameWithType: VisualNarrativeMode.VisualNarrativeMode
-  nameWithType.vb: VisualNarrativeMode.New
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.Interpreter
-  name: Interpreter
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode_Interpreter
-  commentId: P:NetAF.Logic.Modes.VisualNarrativeMode.Interpreter
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.Interpreter
-  nameWithType: VisualNarrativeMode.Interpreter
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.Interpreter*
-  name: Interpreter
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode_Interpreter_
-  commentId: Overload:NetAF.Logic.Modes.VisualNarrativeMode.Interpreter
-  isSpec: "True"
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.Interpreter
-  nameWithType: VisualNarrativeMode.Interpreter
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.Render(NetAF.Logic.Game)
-  name: Render(Game)
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode_Render_NetAF_Logic_Game_
-  commentId: M:NetAF.Logic.Modes.VisualNarrativeMode.Render(NetAF.Logic.Game)
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.Render(NetAF.Logic.Game)
-  nameWithType: VisualNarrativeMode.Render(Game)
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.Render*
-  name: Render
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode_Render_
-  commentId: Overload:NetAF.Logic.Modes.VisualNarrativeMode.Render
-  isSpec: "True"
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.Render
-  nameWithType: VisualNarrativeMode.Render
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.Type
-  name: Type
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode_Type
-  commentId: P:NetAF.Logic.Modes.VisualNarrativeMode.Type
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.Type
-  nameWithType: VisualNarrativeMode.Type
-- uid: NetAF.Logic.Modes.VisualNarrativeMode.Type*
-  name: Type
-  href: api/NetAF.Logic.Modes.VisualNarrativeMode.html#NetAF_Logic_Modes_VisualNarrativeMode_Type_
-  commentId: Overload:NetAF.Logic.Modes.VisualNarrativeMode.Type
-  isSpec: "True"
-  fullName: NetAF.Logic.Modes.VisualNarrativeMode.Type
-  nameWithType: VisualNarrativeMode.Type
 - uid: NetAF.Logic.PlayableCharacterLocation
   name: PlayableCharacterLocation
   href: api/NetAF.Logic.PlayableCharacterLocation.html
@@ -10986,24 +10980,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.PlayableCharacterLocation.RoomIdentifier
   nameWithType: PlayableCharacterLocation.RoomIdentifier
-- uid: NetAF.Logic.StartModes
-  name: StartModes
-  href: api/NetAF.Logic.StartModes.html
-  commentId: T:NetAF.Logic.StartModes
-  fullName: NetAF.Logic.StartModes
-  nameWithType: StartModes
-- uid: NetAF.Logic.StartModes.Scene
-  name: Scene
-  href: api/NetAF.Logic.StartModes.html#NetAF_Logic_StartModes_Scene
-  commentId: F:NetAF.Logic.StartModes.Scene
-  fullName: NetAF.Logic.StartModes.Scene
-  nameWithType: StartModes.Scene
-- uid: NetAF.Logic.StartModes.TitleScreen
-  name: TitleScreen
-  href: api/NetAF.Logic.StartModes.html#NetAF_Logic_StartModes_TitleScreen
-  commentId: F:NetAF.Logic.StartModes.TitleScreen
-  fullName: NetAF.Logic.StartModes.TitleScreen
-  nameWithType: StartModes.TitleScreen
 - uid: NetAF.Logic.UpdateResult
   name: UpdateResult
   href: api/NetAF.Logic.UpdateResult.html
@@ -11099,6 +11075,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Narratives.Narrative.AllUntilCurrent
   nameWithType: Narrative.AllUntilCurrent
+- uid: NetAF.Narratives.Narrative.CurrentVisual
+  name: CurrentVisual
+  href: api/NetAF.Narratives.Narrative.html#NetAF_Narratives_Narrative_CurrentVisual
+  commentId: P:NetAF.Narratives.Narrative.CurrentVisual
+  fullName: NetAF.Narratives.Narrative.CurrentVisual
+  nameWithType: Narrative.CurrentVisual
+- uid: NetAF.Narratives.Narrative.CurrentVisual*
+  name: CurrentVisual
+  href: api/NetAF.Narratives.Narrative.html#NetAF_Narratives_Narrative_CurrentVisual_
+  commentId: Overload:NetAF.Narratives.Narrative.CurrentVisual
+  isSpec: "True"
+  fullName: NetAF.Narratives.Narrative.CurrentVisual
+  nameWithType: Narrative.CurrentVisual
 - uid: NetAF.Narratives.Narrative.IsComplete
   name: IsComplete
   href: api/NetAF.Narratives.Narrative.html#NetAF_Narratives_Narrative_IsComplete
@@ -11157,15 +11146,15 @@ references:
   commentId: T:NetAF.Narratives.Section
   fullName: NetAF.Narratives.Section
   nameWithType: Section
-- uid: NetAF.Narratives.Section.#ctor(System.String[])
-  name: Section(string[])
-  href: api/NetAF.Narratives.Section.html#NetAF_Narratives_Section__ctor_System_String___
-  commentId: M:NetAF.Narratives.Section.#ctor(System.String[])
-  name.vb: New(String())
-  fullName: NetAF.Narratives.Section.Section(string[])
-  fullName.vb: NetAF.Narratives.Section.New(String())
-  nameWithType: Section.Section(string[])
-  nameWithType.vb: Section.New(String())
+- uid: NetAF.Narratives.Section.#ctor(System.String[],NetAF.Rendering.Visual)
+  name: Section(string[], Visual)
+  href: api/NetAF.Narratives.Section.html#NetAF_Narratives_Section__ctor_System_String___NetAF_Rendering_Visual_
+  commentId: M:NetAF.Narratives.Section.#ctor(System.String[],NetAF.Rendering.Visual)
+  name.vb: New(String(), Visual)
+  fullName: NetAF.Narratives.Section.Section(string[], NetAF.Rendering.Visual)
+  fullName.vb: NetAF.Narratives.Section.New(String(), NetAF.Rendering.Visual)
+  nameWithType: Section.Section(string[], Visual)
+  nameWithType.vb: Section.New(String(), Visual)
 - uid: NetAF.Narratives.Section.#ctor*
   name: Section
   href: api/NetAF.Narratives.Section.html#NetAF_Narratives_Section__ctor_
@@ -11215,70 +11204,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Narratives.Section.Next
   nameWithType: Section.Next
-- uid: NetAF.Narratives.VisualNarrative
-  name: VisualNarrative
-  href: api/NetAF.Narratives.VisualNarrative.html
-  commentId: T:NetAF.Narratives.VisualNarrative
-  fullName: NetAF.Narratives.VisualNarrative
-  nameWithType: VisualNarrative
-- uid: NetAF.Narratives.VisualNarrative.#ctor(NetAF.Rendering.Visual[])
-  name: VisualNarrative(Visual[])
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative__ctor_NetAF_Rendering_Visual___
-  commentId: M:NetAF.Narratives.VisualNarrative.#ctor(NetAF.Rendering.Visual[])
-  name.vb: New(Visual())
-  fullName: NetAF.Narratives.VisualNarrative.VisualNarrative(NetAF.Rendering.Visual[])
-  fullName.vb: NetAF.Narratives.VisualNarrative.New(NetAF.Rendering.Visual())
-  nameWithType: VisualNarrative.VisualNarrative(Visual[])
-  nameWithType.vb: VisualNarrative.New(Visual())
-- uid: NetAF.Narratives.VisualNarrative.#ctor*
-  name: VisualNarrative
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative__ctor_
-  commentId: Overload:NetAF.Narratives.VisualNarrative.#ctor
+- uid: NetAF.Narratives.Section.Visual
+  name: Visual
+  href: api/NetAF.Narratives.Section.html#NetAF_Narratives_Section_Visual
+  commentId: P:NetAF.Narratives.Section.Visual
+  fullName: NetAF.Narratives.Section.Visual
+  nameWithType: Section.Visual
+- uid: NetAF.Narratives.Section.Visual*
+  name: Visual
+  href: api/NetAF.Narratives.Section.html#NetAF_Narratives_Section_Visual_
+  commentId: Overload:NetAF.Narratives.Section.Visual
   isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Narratives.VisualNarrative.VisualNarrative
-  fullName.vb: NetAF.Narratives.VisualNarrative.New
-  nameWithType: VisualNarrative.VisualNarrative
-  nameWithType.vb: VisualNarrative.New
-- uid: NetAF.Narratives.VisualNarrative.AllUntilCurrent
-  name: AllUntilCurrent()
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative_AllUntilCurrent
-  commentId: M:NetAF.Narratives.VisualNarrative.AllUntilCurrent
-  fullName: NetAF.Narratives.VisualNarrative.AllUntilCurrent()
-  nameWithType: VisualNarrative.AllUntilCurrent()
-- uid: NetAF.Narratives.VisualNarrative.AllUntilCurrent*
-  name: AllUntilCurrent
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative_AllUntilCurrent_
-  commentId: Overload:NetAF.Narratives.VisualNarrative.AllUntilCurrent
-  isSpec: "True"
-  fullName: NetAF.Narratives.VisualNarrative.AllUntilCurrent
-  nameWithType: VisualNarrative.AllUntilCurrent
-- uid: NetAF.Narratives.VisualNarrative.IsComplete
-  name: IsComplete
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative_IsComplete
-  commentId: P:NetAF.Narratives.VisualNarrative.IsComplete
-  fullName: NetAF.Narratives.VisualNarrative.IsComplete
-  nameWithType: VisualNarrative.IsComplete
-- uid: NetAF.Narratives.VisualNarrative.IsComplete*
-  name: IsComplete
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative_IsComplete_
-  commentId: Overload:NetAF.Narratives.VisualNarrative.IsComplete
-  isSpec: "True"
-  fullName: NetAF.Narratives.VisualNarrative.IsComplete
-  nameWithType: VisualNarrative.IsComplete
-- uid: NetAF.Narratives.VisualNarrative.Next
-  name: Next()
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative_Next
-  commentId: M:NetAF.Narratives.VisualNarrative.Next
-  fullName: NetAF.Narratives.VisualNarrative.Next()
-  nameWithType: VisualNarrative.Next()
-- uid: NetAF.Narratives.VisualNarrative.Next*
-  name: Next
-  href: api/NetAF.Narratives.VisualNarrative.html#NetAF_Narratives_VisualNarrative_Next_
-  commentId: Overload:NetAF.Narratives.VisualNarrative.Next
-  isSpec: "True"
-  fullName: NetAF.Narratives.VisualNarrative.Next
-  nameWithType: VisualNarrative.Next
+  fullName: NetAF.Narratives.Section.Visual
+  nameWithType: Section.Visual
 - uid: NetAF.Persistence
   name: NetAF.Persistence
   href: api/NetAF.Persistence.html
@@ -12200,6 +12138,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.Visual.Name
   nameWithType: Visual.Name
+- uid: NetAF.Rendering.Visual.ResizeIfNeeded(NetAF.Assets.Size,NetAF.Rendering.VisualResizeMode)
+  name: ResizeIfNeeded(Size, VisualResizeMode)
+  href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_ResizeIfNeeded_NetAF_Assets_Size_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Rendering.Visual.ResizeIfNeeded(NetAF.Assets.Size,NetAF.Rendering.VisualResizeMode)
+  fullName: NetAF.Rendering.Visual.ResizeIfNeeded(NetAF.Assets.Size, NetAF.Rendering.VisualResizeMode)
+  nameWithType: Visual.ResizeIfNeeded(Size, VisualResizeMode)
+- uid: NetAF.Rendering.Visual.ResizeIfNeeded*
+  name: ResizeIfNeeded
+  href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_ResizeIfNeeded_
+  commentId: Overload:NetAF.Rendering.Visual.ResizeIfNeeded
+  isSpec: "True"
+  fullName: NetAF.Rendering.Visual.ResizeIfNeeded
+  nameWithType: Visual.ResizeIfNeeded
 - uid: NetAF.Rendering.Visual.Scale(NetAF.Assets.Size)
   name: Scale(Size)
   href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_Scale_NetAF_Assets_Size_
@@ -15014,15 +14965,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder
   nameWithType: ConsoleNarrativeFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  name: ConsoleNarrativeFrameBuilder(GridStringBuilder)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNarrativeFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  name.vb: New(GridStringBuilder)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ConsoleNarrativeFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder)
-  nameWithType: ConsoleNarrativeFrameBuilder.ConsoleNarrativeFrameBuilder(GridStringBuilder)
-  nameWithType.vb: ConsoleNarrativeFrameBuilder.New(GridStringBuilder)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Rendering.VisualResizeMode)
+  name: ConsoleNarrativeFrameBuilder(GridStringBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNarrativeFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(GridStringBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ConsoleNarrativeFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: ConsoleNarrativeFrameBuilder.ConsoleNarrativeFrameBuilder(GridStringBuilder, VisualResizeMode)
+  nameWithType.vb: ConsoleNarrativeFrameBuilder.New(GridStringBuilder, VisualResizeMode)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.#ctor*
   name: ConsoleNarrativeFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNarrativeFrameBuilder__ctor_
@@ -15085,6 +15036,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.NarrativeColor
   nameWithType: ConsoleNarrativeFrameBuilder.NarrativeColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNarrativeFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ResizeMode
+  nameWithType: ConsoleNarrativeFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNarrativeFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.ResizeMode
+  nameWithType: ConsoleNarrativeFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.TitleColor
   name: TitleColor
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNarrativeFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNarrativeFrameBuilder_TitleColor
@@ -18005,15 +17969,15 @@ references:
   commentId: T:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder
   nameWithType: HtmlNarrativeFrameBuilder
-- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  name: HtmlNarrativeFrameBuilder(HtmlBuilder)
-  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlNarrativeFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_
-  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  name.vb: New(HtmlBuilder)
-  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.HtmlNarrativeFrameBuilder(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.New(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  nameWithType: HtmlNarrativeFrameBuilder.HtmlNarrativeFrameBuilder(HtmlBuilder)
-  nameWithType.vb: HtmlNarrativeFrameBuilder.New(HtmlBuilder)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Rendering.VisualResizeMode)
+  name: HtmlNarrativeFrameBuilder(HtmlBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlNarrativeFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(HtmlBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.HtmlNarrativeFrameBuilder(NetAF.Targets.Html.Rendering.HtmlBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.New(NetAF.Targets.Html.Rendering.HtmlBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: HtmlNarrativeFrameBuilder.HtmlNarrativeFrameBuilder(HtmlBuilder, VisualResizeMode)
+  nameWithType.vb: HtmlNarrativeFrameBuilder.New(HtmlBuilder, VisualResizeMode)
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.#ctor*
   name: HtmlNarrativeFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlNarrativeFrameBuilder__ctor_
@@ -18037,6 +18001,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.Build
   nameWithType: HtmlNarrativeFrameBuilder.Build
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlNarrativeFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.ResizeMode
+  nameWithType: HtmlNarrativeFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlNarrativeFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNarrativeFrameBuilder.ResizeMode
+  nameWithType: HtmlNarrativeFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder
   name: HtmlNoteFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlNoteFrameBuilder.html
@@ -19460,15 +19437,15 @@ references:
   commentId: T:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder
   fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder
   nameWithType: MarkupNarrativeFrameBuilder
-- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  name: MarkupNarrativeFrameBuilder(MarkupBuilder)
-  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder__ctor_NetAF_Targets_Markup_Rendering_MarkupBuilder_
-  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  name.vb: New(MarkupBuilder)
-  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.MarkupNarrativeFrameBuilder(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.New(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  nameWithType: MarkupNarrativeFrameBuilder.MarkupNarrativeFrameBuilder(MarkupBuilder)
-  nameWithType.vb: MarkupNarrativeFrameBuilder.New(MarkupBuilder)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder,NetAF.Rendering.VisualResizeMode)
+  name: MarkupNarrativeFrameBuilder(MarkupBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder__ctor_NetAF_Targets_Markup_Rendering_MarkupBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(MarkupBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.MarkupNarrativeFrameBuilder(NetAF.Targets.Markup.Rendering.MarkupBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.New(NetAF.Targets.Markup.Rendering.MarkupBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: MarkupNarrativeFrameBuilder.MarkupNarrativeFrameBuilder(MarkupBuilder, VisualResizeMode)
+  nameWithType.vb: MarkupNarrativeFrameBuilder.New(MarkupBuilder, VisualResizeMode)
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.#ctor*
   name: MarkupNarrativeFrameBuilder
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder__ctor_
@@ -19492,6 +19469,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.Build
   nameWithType: MarkupNarrativeFrameBuilder.Build
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.ResizeMode
+  nameWithType: MarkupNarrativeFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupNarrativeFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNarrativeFrameBuilder.ResizeMode
+  nameWithType: MarkupNarrativeFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNoteFrameBuilder
   name: MarkupNoteFrameBuilder
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupNoteFrameBuilder.html
@@ -20539,15 +20529,15 @@ references:
   commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder
   fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder
   nameWithType: TextNarrativeFrameBuilder
-- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.#ctor(System.Text.StringBuilder)
-  name: TextNarrativeFrameBuilder(StringBuilder)
-  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNarrativeFrameBuilder__ctor_System_Text_StringBuilder_
-  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.#ctor(System.Text.StringBuilder)
-  name.vb: New(StringBuilder)
-  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.TextNarrativeFrameBuilder(System.Text.StringBuilder)
-  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.New(System.Text.StringBuilder)
-  nameWithType: TextNarrativeFrameBuilder.TextNarrativeFrameBuilder(StringBuilder)
-  nameWithType.vb: TextNarrativeFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.VisualResizeMode)
+  name: TextNarrativeFrameBuilder(StringBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNarrativeFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(StringBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.TextNarrativeFrameBuilder(System.Text.StringBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.New(System.Text.StringBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: TextNarrativeFrameBuilder.TextNarrativeFrameBuilder(StringBuilder, VisualResizeMode)
+  nameWithType.vb: TextNarrativeFrameBuilder.New(StringBuilder, VisualResizeMode)
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.#ctor*
   name: TextNarrativeFrameBuilder
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNarrativeFrameBuilder__ctor_
@@ -20571,6 +20561,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.Build
   nameWithType: TextNarrativeFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNarrativeFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.ResizeMode
+  nameWithType: TextNarrativeFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextNarrativeFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextNarrativeFrameBuilder.ResizeMode
+  nameWithType: TextNarrativeFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder
   name: TextNoteFrameBuilder
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextNoteFrameBuilder.html
