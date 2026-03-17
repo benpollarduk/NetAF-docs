@@ -1636,6 +1636,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.HistoryUpdated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.HistoryUpdated.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.HistoryUpdated",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.HistoryUpdated.yml\" sourcestartlinenumber=\"1\">Provides an event for when the history is updated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Events.ItemReceived.yml",
       "output": {
         ".html": {
@@ -1675,6 +1689,34 @@
       "IsMRef": true,
       "Title": "NetAF.Events.ItemUsed",
       "Summary": "<p sourcefile=\"api/NetAF.Events.ItemUsed.yml\" sourcestartlinenumber=\"1\">Provides an event for when an item is used on a target.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.NoteAdded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.NoteAdded.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.NoteAdded",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.NoteAdded.yml\" sourcestartlinenumber=\"1\">Provides an event for when a note is added.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Events.NoteUpdated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Events.NoteUpdated.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Events.NoteUpdated",
+      "Summary": "<p sourcefile=\"api/NetAF.Events.NoteUpdated.yml\" sourcestartlinenumber=\"1\">Provides an event for when a note is updated.</p>\n"
     },
     {
       "type": "ManagedReference",

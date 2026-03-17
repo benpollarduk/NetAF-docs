@@ -7104,6 +7104,44 @@ references:
   isSpec: "True"
   fullName: NetAF.Events.GameUpdated.Game
   nameWithType: GameUpdated.Game
+- uid: NetAF.Events.HistoryUpdated
+  name: HistoryUpdated
+  href: api/NetAF.Events.HistoryUpdated.html
+  commentId: T:NetAF.Events.HistoryUpdated
+  fullName: NetAF.Events.HistoryUpdated
+  nameWithType: HistoryUpdated
+- uid: NetAF.Events.HistoryUpdated.#ctor(NetAF.Logging.History.HistoryEntry)
+  name: HistoryUpdated(HistoryEntry)
+  href: api/NetAF.Events.HistoryUpdated.html#NetAF_Events_HistoryUpdated__ctor_NetAF_Logging_History_HistoryEntry_
+  commentId: M:NetAF.Events.HistoryUpdated.#ctor(NetAF.Logging.History.HistoryEntry)
+  name.vb: New(HistoryEntry)
+  fullName: NetAF.Events.HistoryUpdated.HistoryUpdated(NetAF.Logging.History.HistoryEntry)
+  fullName.vb: NetAF.Events.HistoryUpdated.New(NetAF.Logging.History.HistoryEntry)
+  nameWithType: HistoryUpdated.HistoryUpdated(HistoryEntry)
+  nameWithType.vb: HistoryUpdated.New(HistoryEntry)
+- uid: NetAF.Events.HistoryUpdated.#ctor*
+  name: HistoryUpdated
+  href: api/NetAF.Events.HistoryUpdated.html#NetAF_Events_HistoryUpdated__ctor_
+  commentId: Overload:NetAF.Events.HistoryUpdated.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.HistoryUpdated.HistoryUpdated
+  fullName.vb: NetAF.Events.HistoryUpdated.New
+  nameWithType: HistoryUpdated.HistoryUpdated
+  nameWithType.vb: HistoryUpdated.New
+- uid: NetAF.Events.HistoryUpdated.Entry
+  name: Entry
+  href: api/NetAF.Events.HistoryUpdated.html#NetAF_Events_HistoryUpdated_Entry
+  commentId: P:NetAF.Events.HistoryUpdated.Entry
+  fullName: NetAF.Events.HistoryUpdated.Entry
+  nameWithType: HistoryUpdated.Entry
+- uid: NetAF.Events.HistoryUpdated.Entry*
+  name: Entry
+  href: api/NetAF.Events.HistoryUpdated.html#NetAF_Events_HistoryUpdated_Entry_
+  commentId: Overload:NetAF.Events.HistoryUpdated.Entry
+  isSpec: "True"
+  fullName: NetAF.Events.HistoryUpdated.Entry
+  nameWithType: HistoryUpdated.Entry
 - uid: NetAF.Events.ItemReceived
   name: ItemReceived
   href: api/NetAF.Events.ItemReceived.html
@@ -7257,6 +7295,82 @@ references:
   isSpec: "True"
   fullName: NetAF.Events.ItemUsed.Target
   nameWithType: ItemUsed.Target
+- uid: NetAF.Events.NoteAdded
+  name: NoteAdded
+  href: api/NetAF.Events.NoteAdded.html
+  commentId: T:NetAF.Events.NoteAdded
+  fullName: NetAF.Events.NoteAdded
+  nameWithType: NoteAdded
+- uid: NetAF.Events.NoteAdded.#ctor(NetAF.Logging.Notes.NoteEntry)
+  name: NoteAdded(NoteEntry)
+  href: api/NetAF.Events.NoteAdded.html#NetAF_Events_NoteAdded__ctor_NetAF_Logging_Notes_NoteEntry_
+  commentId: M:NetAF.Events.NoteAdded.#ctor(NetAF.Logging.Notes.NoteEntry)
+  name.vb: New(NoteEntry)
+  fullName: NetAF.Events.NoteAdded.NoteAdded(NetAF.Logging.Notes.NoteEntry)
+  fullName.vb: NetAF.Events.NoteAdded.New(NetAF.Logging.Notes.NoteEntry)
+  nameWithType: NoteAdded.NoteAdded(NoteEntry)
+  nameWithType.vb: NoteAdded.New(NoteEntry)
+- uid: NetAF.Events.NoteAdded.#ctor*
+  name: NoteAdded
+  href: api/NetAF.Events.NoteAdded.html#NetAF_Events_NoteAdded__ctor_
+  commentId: Overload:NetAF.Events.NoteAdded.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.NoteAdded.NoteAdded
+  fullName.vb: NetAF.Events.NoteAdded.New
+  nameWithType: NoteAdded.NoteAdded
+  nameWithType.vb: NoteAdded.New
+- uid: NetAF.Events.NoteAdded.Note
+  name: Note
+  href: api/NetAF.Events.NoteAdded.html#NetAF_Events_NoteAdded_Note
+  commentId: P:NetAF.Events.NoteAdded.Note
+  fullName: NetAF.Events.NoteAdded.Note
+  nameWithType: NoteAdded.Note
+- uid: NetAF.Events.NoteAdded.Note*
+  name: Note
+  href: api/NetAF.Events.NoteAdded.html#NetAF_Events_NoteAdded_Note_
+  commentId: Overload:NetAF.Events.NoteAdded.Note
+  isSpec: "True"
+  fullName: NetAF.Events.NoteAdded.Note
+  nameWithType: NoteAdded.Note
+- uid: NetAF.Events.NoteUpdated
+  name: NoteUpdated
+  href: api/NetAF.Events.NoteUpdated.html
+  commentId: T:NetAF.Events.NoteUpdated
+  fullName: NetAF.Events.NoteUpdated
+  nameWithType: NoteUpdated
+- uid: NetAF.Events.NoteUpdated.#ctor(NetAF.Logging.Notes.NoteEntry)
+  name: NoteUpdated(NoteEntry)
+  href: api/NetAF.Events.NoteUpdated.html#NetAF_Events_NoteUpdated__ctor_NetAF_Logging_Notes_NoteEntry_
+  commentId: M:NetAF.Events.NoteUpdated.#ctor(NetAF.Logging.Notes.NoteEntry)
+  name.vb: New(NoteEntry)
+  fullName: NetAF.Events.NoteUpdated.NoteUpdated(NetAF.Logging.Notes.NoteEntry)
+  fullName.vb: NetAF.Events.NoteUpdated.New(NetAF.Logging.Notes.NoteEntry)
+  nameWithType: NoteUpdated.NoteUpdated(NoteEntry)
+  nameWithType.vb: NoteUpdated.New(NoteEntry)
+- uid: NetAF.Events.NoteUpdated.#ctor*
+  name: NoteUpdated
+  href: api/NetAF.Events.NoteUpdated.html#NetAF_Events_NoteUpdated__ctor_
+  commentId: Overload:NetAF.Events.NoteUpdated.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.NoteUpdated.NoteUpdated
+  fullName.vb: NetAF.Events.NoteUpdated.New
+  nameWithType: NoteUpdated.NoteUpdated
+  nameWithType.vb: NoteUpdated.New
+- uid: NetAF.Events.NoteUpdated.Note
+  name: Note
+  href: api/NetAF.Events.NoteUpdated.html#NetAF_Events_NoteUpdated_Note
+  commentId: P:NetAF.Events.NoteUpdated.Note
+  fullName: NetAF.Events.NoteUpdated.Note
+  nameWithType: NoteUpdated.Note
+- uid: NetAF.Events.NoteUpdated.Note*
+  name: Note
+  href: api/NetAF.Events.NoteUpdated.html#NetAF_Events_NoteUpdated_Note_
+  commentId: Overload:NetAF.Events.NoteUpdated.Note
+  isSpec: "True"
+  fullName: NetAF.Events.NoteUpdated.Note
+  nameWithType: NoteUpdated.Note
 - uid: NetAF.Events.RegionEntered
   name: RegionEntered
   href: api/NetAF.Events.RegionEntered.html
@@ -9484,15 +9598,15 @@ references:
   commentId: T:NetAF.Logic.GameConfiguration
   fullName: NetAF.Logic.GameConfiguration
   nameWithType: GameConfiguration
-- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.Modes.IGameMode,NetAF.Logic.FinishModes)
-  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_Modes_IGameMode_NetAF_Logic_FinishModes_
-  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.Modes.IGameMode,NetAF.Logic.FinishModes)
-  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
-  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.Modes.IGameMode, NetAF.Logic.FinishModes)
-  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.Modes.IGameMode, NetAF.Logic.FinishModes)
-  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
-  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, IGameMode, FinishModes)
+- uid: NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.Modes.IGameMode[],NetAF.Logic.FinishModes)
+  name: GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, IGameMode[], FinishModes)
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_NetAF_Logic_IIOAdapter_NetAF_Rendering_FrameBuilders_FrameBuilderCollection_NetAF_Assets_Size_NetAF_Logic_Modes_IGameMode___NetAF_Logic_FinishModes_
+  commentId: M:NetAF.Logic.GameConfiguration.#ctor(NetAF.Logic.IIOAdapter,NetAF.Rendering.FrameBuilders.FrameBuilderCollection,NetAF.Assets.Size,NetAF.Logic.Modes.IGameMode[],NetAF.Logic.FinishModes)
+  name.vb: New(IIOAdapter, FrameBuilderCollection, Size, IGameMode(), FinishModes)
+  fullName: NetAF.Logic.GameConfiguration.GameConfiguration(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.Modes.IGameMode[], NetAF.Logic.FinishModes)
+  fullName.vb: NetAF.Logic.GameConfiguration.New(NetAF.Logic.IIOAdapter, NetAF.Rendering.FrameBuilders.FrameBuilderCollection, NetAF.Assets.Size, NetAF.Logic.Modes.IGameMode(), NetAF.Logic.FinishModes)
+  nameWithType: GameConfiguration.GameConfiguration(IIOAdapter, FrameBuilderCollection, Size, IGameMode[], FinishModes)
+  nameWithType.vb: GameConfiguration.New(IIOAdapter, FrameBuilderCollection, Size, IGameMode(), FinishModes)
 - uid: NetAF.Logic.GameConfiguration.#ctor*
   name: GameConfiguration
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration__ctor_
@@ -9568,19 +9682,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameConfiguration.InterpreterProvider
   nameWithType: GameConfiguration.InterpreterProvider
-- uid: NetAF.Logic.GameConfiguration.StartMode
-  name: StartMode
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_StartMode
-  commentId: P:NetAF.Logic.GameConfiguration.StartMode
-  fullName: NetAF.Logic.GameConfiguration.StartMode
-  nameWithType: GameConfiguration.StartMode
-- uid: NetAF.Logic.GameConfiguration.StartMode*
-  name: StartMode
-  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_StartMode_
-  commentId: Overload:NetAF.Logic.GameConfiguration.StartMode
+- uid: NetAF.Logic.GameConfiguration.StartModes
+  name: StartModes
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_StartModes
+  commentId: P:NetAF.Logic.GameConfiguration.StartModes
+  fullName: NetAF.Logic.GameConfiguration.StartModes
+  nameWithType: GameConfiguration.StartModes
+- uid: NetAF.Logic.GameConfiguration.StartModes*
+  name: StartModes
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_StartModes_
+  commentId: Overload:NetAF.Logic.GameConfiguration.StartModes
   isSpec: "True"
-  fullName: NetAF.Logic.GameConfiguration.StartMode
-  nameWithType: GameConfiguration.StartMode
+  fullName: NetAF.Logic.GameConfiguration.StartModes
+  nameWithType: GameConfiguration.StartModes
 - uid: NetAF.Logic.GameCreator
   name: GameCreator
   href: api/NetAF.Logic.GameCreator.html
