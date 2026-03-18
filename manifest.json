@@ -768,59 +768,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Frame.CommandsOff.yml",
+      "source_relative_path": "api/NetAF.Commands.Frame.Option.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NetAF.Commands.Frame.CommandsOff.html"
+          "relative_path": "api/NetAF.Commands.Frame.Option.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "NetAF.Commands.Frame.CommandsOff",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOff.yml\" sourcestartlinenumber=\"1\">Represents the Commands Off command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Frame.CommandsOn.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Frame.CommandsOn.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Frame.CommandsOn",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.CommandsOn.yml\" sourcestartlinenumber=\"1\">Represents the Commands On command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Frame.KeyOff.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Frame.KeyOff.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Frame.KeyOff",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOff.yml\" sourcestartlinenumber=\"1\">Represents the Key Off command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Frame.KeyOn.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Frame.KeyOn.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Frame.KeyOn",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.KeyOn.yml\" sourcestartlinenumber=\"1\">Represents the Key On command.</p>\n"
+      "Title": "NetAF.Commands.Frame.Option",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Frame.Option.yml\" sourcestartlinenumber=\"1\">Represents the Options command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2725,6 +2683,20 @@
       "IsMRef": true,
       "Title": "NetAF.Persistence",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.CommandListType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.CommandListType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.CommandListType",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.CommandListType.yml\" sourcestartlinenumber=\"1\">Enumeration of types of command list.</p>\n"
     },
     {
       "type": "ManagedReference",
