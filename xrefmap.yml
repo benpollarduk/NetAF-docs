@@ -8792,6 +8792,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logging.Notes.NoteManager.Add
   nameWithType: NoteManager.Add
+- uid: NetAF.Logging.Notes.NoteManager.Clean
+  name: Clean()
+  href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager_Clean
+  commentId: M:NetAF.Logging.Notes.NoteManager.Clean
+  fullName: NetAF.Logging.Notes.NoteManager.Clean()
+  nameWithType: NoteManager.Clean()
+- uid: NetAF.Logging.Notes.NoteManager.Clean*
+  name: Clean
+  href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager_Clean_
+  commentId: Overload:NetAF.Logging.Notes.NoteManager.Clean
+  isSpec: "True"
+  fullName: NetAF.Logging.Notes.NoteManager.Clean
+  nameWithType: NoteManager.Clean
 - uid: NetAF.Logging.Notes.NoteManager.Clear
   name: Clear()
   href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager_Clear
