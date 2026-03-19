@@ -12308,6 +12308,12 @@ references:
   commentId: F:NetAF.Rendering.VisualResizeMode.Scale
   fullName: NetAF.Rendering.VisualResizeMode.Scale
   nameWithType: VisualResizeMode.Scale
+- uid: NetAF.Rendering.VisualResizeMode.ScaleDown
+  name: ScaleDown
+  href: api/NetAF.Rendering.VisualResizeMode.html#NetAF_Rendering_VisualResizeMode_ScaleDown
+  commentId: F:NetAF.Rendering.VisualResizeMode.ScaleDown
+  fullName: NetAF.Rendering.VisualResizeMode.ScaleDown
+  nameWithType: VisualResizeMode.ScaleDown
 - uid: NetAF.Serialization
   name: NetAF.Serialization
   href: api/NetAF.Serialization.html
