@@ -4523,6 +4523,47 @@ references:
   commentId: T:NetAF.Commands.Information.History
   fullName: NetAF.Commands.Information.History
   nameWithType: History
+- uid: NetAF.Commands.Information.History.#ctor
+  name: History()
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History__ctor
+  commentId: M:NetAF.Commands.Information.History.#ctor
+  name.vb: New()
+  fullName: NetAF.Commands.Information.History.History()
+  fullName.vb: NetAF.Commands.Information.History.New()
+  nameWithType: History.History()
+  nameWithType.vb: History.New()
+- uid: NetAF.Commands.Information.History.#ctor(System.String)
+  name: History(string)
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History__ctor_System_String_
+  commentId: M:NetAF.Commands.Information.History.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetAF.Commands.Information.History.History(string)
+  fullName.vb: NetAF.Commands.Information.History.New(String)
+  nameWithType: History.History(string)
+  nameWithType.vb: History.New(String)
+- uid: NetAF.Commands.Information.History.#ctor*
+  name: History
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History__ctor_
+  commentId: Overload:NetAF.Commands.Information.History.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Information.History.History
+  fullName.vb: NetAF.Commands.Information.History.New
+  nameWithType: History.History
+  nameWithType.vb: History.New
+- uid: NetAF.Commands.Information.History.Clear
+  name: Clear
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History_Clear
+  commentId: P:NetAF.Commands.Information.History.Clear
+  fullName: NetAF.Commands.Information.History.Clear
+  nameWithType: History.Clear
+- uid: NetAF.Commands.Information.History.Clear*
+  name: Clear
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History_Clear_
+  commentId: Overload:NetAF.Commands.Information.History.Clear
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.History.Clear
+  nameWithType: History.Clear
 - uid: NetAF.Commands.Information.History.CommandHelp
   name: CommandHelp
   href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History_CommandHelp
@@ -4575,12 +4616,79 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Information.History.Invoke
   nameWithType: History.Invoke
+- uid: NetAF.Commands.Information.History.Show
+  name: Show
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History_Show
+  commentId: P:NetAF.Commands.Information.History.Show
+  fullName: NetAF.Commands.Information.History.Show
+  nameWithType: History.Show
+- uid: NetAF.Commands.Information.History.Show*
+  name: Show
+  href: api/NetAF.Commands.Information.History.html#NetAF_Commands_Information_History_Show_
+  commentId: Overload:NetAF.Commands.Information.History.Show
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.History.Show
+  nameWithType: History.Show
 - uid: NetAF.Commands.Information.Notes
   name: Notes
   href: api/NetAF.Commands.Information.Notes.html
   commentId: T:NetAF.Commands.Information.Notes
   fullName: NetAF.Commands.Information.Notes
   nameWithType: Notes
+- uid: NetAF.Commands.Information.Notes.#ctor
+  name: Notes()
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes__ctor
+  commentId: M:NetAF.Commands.Information.Notes.#ctor
+  name.vb: New()
+  fullName: NetAF.Commands.Information.Notes.Notes()
+  fullName.vb: NetAF.Commands.Information.Notes.New()
+  nameWithType: Notes.Notes()
+  nameWithType.vb: Notes.New()
+- uid: NetAF.Commands.Information.Notes.#ctor(System.String)
+  name: Notes(string)
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes__ctor_System_String_
+  commentId: M:NetAF.Commands.Information.Notes.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NetAF.Commands.Information.Notes.Notes(string)
+  fullName.vb: NetAF.Commands.Information.Notes.New(String)
+  nameWithType: Notes.Notes(string)
+  nameWithType.vb: Notes.New(String)
+- uid: NetAF.Commands.Information.Notes.#ctor*
+  name: Notes
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes__ctor_
+  commentId: Overload:NetAF.Commands.Information.Notes.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Commands.Information.Notes.Notes
+  fullName.vb: NetAF.Commands.Information.Notes.New
+  nameWithType: Notes.Notes
+  nameWithType.vb: Notes.New
+- uid: NetAF.Commands.Information.Notes.Clean
+  name: Clean
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Clean
+  commentId: P:NetAF.Commands.Information.Notes.Clean
+  fullName: NetAF.Commands.Information.Notes.Clean
+  nameWithType: Notes.Clean
+- uid: NetAF.Commands.Information.Notes.Clean*
+  name: Clean
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Clean_
+  commentId: Overload:NetAF.Commands.Information.Notes.Clean
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.Notes.Clean
+  nameWithType: Notes.Clean
+- uid: NetAF.Commands.Information.Notes.Clear
+  name: Clear
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Clear
+  commentId: P:NetAF.Commands.Information.Notes.Clear
+  fullName: NetAF.Commands.Information.Notes.Clear
+  nameWithType: Notes.Clear
+- uid: NetAF.Commands.Information.Notes.Clear*
+  name: Clear
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Clear_
+  commentId: Overload:NetAF.Commands.Information.Notes.Clear
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.Notes.Clear
+  nameWithType: Notes.Clear
 - uid: NetAF.Commands.Information.Notes.CommandHelp
   name: CommandHelp
   href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_CommandHelp
@@ -4633,6 +4741,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Information.Notes.Invoke
   nameWithType: Notes.Invoke
+- uid: NetAF.Commands.Information.Notes.Show
+  name: Show
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Show
+  commentId: P:NetAF.Commands.Information.Notes.Show
+  fullName: NetAF.Commands.Information.Notes.Show
+  nameWithType: Notes.Show
+- uid: NetAF.Commands.Information.Notes.Show*
+  name: Show
+  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Show_
+  commentId: Overload:NetAF.Commands.Information.Notes.Show
+  isSpec: "True"
+  fullName: NetAF.Commands.Information.Notes.Show
+  nameWithType: Notes.Show
 - uid: NetAF.Commands.Persistence
   name: NetAF.Commands.Persistence
   href: api/NetAF.Commands.Persistence.html
@@ -8770,6 +8891,34 @@ references:
   commentId: T:NetAF.Logging.Notes.NoteManager
   fullName: NetAF.Logging.Notes.NoteManager
   nameWithType: NoteManager
+- uid: NetAF.Logging.Notes.NoteManager.#ctor
+  name: NoteManager()
+  href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager__ctor
+  commentId: M:NetAF.Logging.Notes.NoteManager.#ctor
+  name.vb: New()
+  fullName: NetAF.Logging.Notes.NoteManager.NoteManager()
+  fullName.vb: NetAF.Logging.Notes.NoteManager.New()
+  nameWithType: NoteManager.NoteManager()
+  nameWithType.vb: NoteManager.New()
+- uid: NetAF.Logging.Notes.NoteManager.#ctor(NetAF.Logging.Notes.NoteEntry[])
+  name: NoteManager(NoteEntry[])
+  href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager__ctor_NetAF_Logging_Notes_NoteEntry___
+  commentId: M:NetAF.Logging.Notes.NoteManager.#ctor(NetAF.Logging.Notes.NoteEntry[])
+  name.vb: New(NoteEntry())
+  fullName: NetAF.Logging.Notes.NoteManager.NoteManager(NetAF.Logging.Notes.NoteEntry[])
+  fullName.vb: NetAF.Logging.Notes.NoteManager.New(NetAF.Logging.Notes.NoteEntry())
+  nameWithType: NoteManager.NoteManager(NoteEntry[])
+  nameWithType.vb: NoteManager.New(NoteEntry())
+- uid: NetAF.Logging.Notes.NoteManager.#ctor*
+  name: NoteManager
+  href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager__ctor_
+  commentId: Overload:NetAF.Logging.Notes.NoteManager.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logging.Notes.NoteManager.NoteManager
+  fullName.vb: NetAF.Logging.Notes.NoteManager.New
+  nameWithType: NoteManager.NoteManager
+  nameWithType.vb: NoteManager.New
 - uid: NetAF.Logging.Notes.NoteManager.Add(NetAF.Logging.Notes.NoteEntry)
   name: Add(NoteEntry)
   href: api/NetAF.Logging.Notes.NoteManager.html#NetAF_Logging_Notes_NoteManager_Add_NetAF_Logging_Notes_NoteEntry_
@@ -9605,6 +9754,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.GameConfiguration.Adapter
   nameWithType: GameConfiguration.Adapter
+- uid: NetAF.Logic.GameConfiguration.AutoSaveEvent
+  name: AutoSaveEvent
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_AutoSaveEvent
+  commentId: P:NetAF.Logic.GameConfiguration.AutoSaveEvent
+  fullName: NetAF.Logic.GameConfiguration.AutoSaveEvent
+  nameWithType: GameConfiguration.AutoSaveEvent
+- uid: NetAF.Logic.GameConfiguration.AutoSaveEvent*
+  name: AutoSaveEvent
+  href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_AutoSaveEvent_
+  commentId: Overload:NetAF.Logic.GameConfiguration.AutoSaveEvent
+  isSpec: "True"
+  fullName: NetAF.Logic.GameConfiguration.AutoSaveEvent
+  nameWithType: GameConfiguration.AutoSaveEvent
 - uid: NetAF.Logic.GameConfiguration.DisplaySize
   name: DisplaySize
   href: api/NetAF.Logic.GameConfiguration.html#NetAF_Logic_GameConfiguration_DisplaySize
@@ -11312,6 +11474,36 @@ references:
   commentId: N:NetAF.Persistence
   fullName: NetAF.Persistence
   nameWithType: NetAF.Persistence
+- uid: NetAF.Persistence.AutoSaveEvent
+  name: AutoSaveEvent
+  href: api/NetAF.Persistence.AutoSaveEvent.html
+  commentId: T:NetAF.Persistence.AutoSaveEvent
+  fullName: NetAF.Persistence.AutoSaveEvent
+  nameWithType: AutoSaveEvent
+- uid: NetAF.Persistence.AutoSaveEvent.ItemReceived
+  name: ItemReceived
+  href: api/NetAF.Persistence.AutoSaveEvent.html#NetAF_Persistence_AutoSaveEvent_ItemReceived
+  commentId: F:NetAF.Persistence.AutoSaveEvent.ItemReceived
+  fullName: NetAF.Persistence.AutoSaveEvent.ItemReceived
+  nameWithType: AutoSaveEvent.ItemReceived
+- uid: NetAF.Persistence.AutoSaveEvent.None
+  name: None
+  href: api/NetAF.Persistence.AutoSaveEvent.html#NetAF_Persistence_AutoSaveEvent_None
+  commentId: F:NetAF.Persistence.AutoSaveEvent.None
+  fullName: NetAF.Persistence.AutoSaveEvent.None
+  nameWithType: AutoSaveEvent.None
+- uid: NetAF.Persistence.AutoSaveEvent.RegionEntered
+  name: RegionEntered
+  href: api/NetAF.Persistence.AutoSaveEvent.html#NetAF_Persistence_AutoSaveEvent_RegionEntered
+  commentId: F:NetAF.Persistence.AutoSaveEvent.RegionEntered
+  fullName: NetAF.Persistence.AutoSaveEvent.RegionEntered
+  nameWithType: AutoSaveEvent.RegionEntered
+- uid: NetAF.Persistence.AutoSaveEvent.RoomEntered
+  name: RoomEntered
+  href: api/NetAF.Persistence.AutoSaveEvent.html#NetAF_Persistence_AutoSaveEvent_RoomEntered
+  commentId: F:NetAF.Persistence.AutoSaveEvent.RoomEntered
+  fullName: NetAF.Persistence.AutoSaveEvent.RoomEntered
+  nameWithType: AutoSaveEvent.RoomEntered
 - uid: NetAF.Persistence.Json
   name: NetAF.Persistence.Json
   href: api/NetAF.Persistence.Json.html
@@ -11446,6 +11638,185 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.RestorePoint.Name
   nameWithType: RestorePoint.Name
+- uid: NetAF.Persistence.RestorePointManager
+  name: RestorePointManager
+  href: api/NetAF.Persistence.RestorePointManager.html
+  commentId: T:NetAF.Persistence.RestorePointManager
+  fullName: NetAF.Persistence.RestorePointManager
+  nameWithType: RestorePointManager
+- uid: NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game,System.String,System.String@)
+  name: Apply(Game, string, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Apply_NetAF_Logic_Game_System_String_System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game,System.String,System.String@)
+  name.vb: Apply(Game, String, String)
+  fullName: NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game, string, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game, String, String)
+  nameWithType: RestorePointManager.Apply(Game, string, out string)
+  nameWithType.vb: RestorePointManager.Apply(Game, String, String)
+- uid: NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game,System.String@)
+  name: Apply(Game, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Apply_NetAF_Logic_Game_System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game,System.String@)
+  name.vb: Apply(Game, String)
+  fullName: NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Apply(NetAF.Logic.Game, String)
+  nameWithType: RestorePointManager.Apply(Game, out string)
+  nameWithType.vb: RestorePointManager.Apply(Game, String)
+- uid: NetAF.Persistence.RestorePointManager.Apply*
+  name: Apply
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Apply_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.Apply
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.Apply
+  nameWithType: RestorePointManager.Apply
+- uid: NetAF.Persistence.RestorePointManager.AutoFileName
+  name: AutoFileName
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_AutoFileName
+  commentId: P:NetAF.Persistence.RestorePointManager.AutoFileName
+  fullName: NetAF.Persistence.RestorePointManager.AutoFileName
+  nameWithType: RestorePointManager.AutoFileName
+- uid: NetAF.Persistence.RestorePointManager.AutoFileName*
+  name: AutoFileName
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_AutoFileName_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.AutoFileName
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.AutoFileName
+  nameWithType: RestorePointManager.AutoFileName
+- uid: NetAF.Persistence.RestorePointManager.DefaultRootDirectory
+  name: DefaultRootDirectory
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_DefaultRootDirectory
+  commentId: P:NetAF.Persistence.RestorePointManager.DefaultRootDirectory
+  fullName: NetAF.Persistence.RestorePointManager.DefaultRootDirectory
+  nameWithType: RestorePointManager.DefaultRootDirectory
+- uid: NetAF.Persistence.RestorePointManager.DefaultRootDirectory*
+  name: DefaultRootDirectory
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_DefaultRootDirectory_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.DefaultRootDirectory
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.DefaultRootDirectory
+  nameWithType: RestorePointManager.DefaultRootDirectory
+- uid: NetAF.Persistence.RestorePointManager.Exists(NetAF.Logic.Game,System.String)
+  name: Exists(Game, string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Exists_NetAF_Logic_Game_System_String_
+  commentId: M:NetAF.Persistence.RestorePointManager.Exists(NetAF.Logic.Game,System.String)
+  name.vb: Exists(Game, String)
+  fullName: NetAF.Persistence.RestorePointManager.Exists(NetAF.Logic.Game, string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Exists(NetAF.Logic.Game, String)
+  nameWithType: RestorePointManager.Exists(Game, string)
+  nameWithType.vb: RestorePointManager.Exists(Game, String)
+- uid: NetAF.Persistence.RestorePointManager.Exists*
+  name: Exists
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Exists_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.Exists
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.Exists
+  nameWithType: RestorePointManager.Exists
+- uid: NetAF.Persistence.RestorePointManager.Extension
+  name: Extension
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Extension
+  commentId: P:NetAF.Persistence.RestorePointManager.Extension
+  fullName: NetAF.Persistence.RestorePointManager.Extension
+  nameWithType: RestorePointManager.Extension
+- uid: NetAF.Persistence.RestorePointManager.Extension*
+  name: Extension
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Extension_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.Extension
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.Extension
+  nameWithType: RestorePointManager.Extension
+- uid: NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames(NetAF.Logic.Game)
+  name: GetAvailableRestorePointNames(Game)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAvailableRestorePointNames_NetAF_Logic_Game_
+  commentId: M:NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames(NetAF.Logic.Game)
+  fullName: NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames(NetAF.Logic.Game)
+  nameWithType: RestorePointManager.GetAvailableRestorePointNames(Game)
+- uid: NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames*
+  name: GetAvailableRestorePointNames
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAvailableRestorePointNames_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames
+  nameWithType: RestorePointManager.GetAvailableRestorePointNames
+- uid: NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints(NetAF.Logic.Game)
+  name: GetAvailableRestorePoints(Game)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAvailableRestorePoints_NetAF_Logic_Game_
+  commentId: M:NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints(NetAF.Logic.Game)
+  fullName: NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints(NetAF.Logic.Game)
+  nameWithType: RestorePointManager.GetAvailableRestorePoints(Game)
+- uid: NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints*
+  name: GetAvailableRestorePoints
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAvailableRestorePoints_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints
+  nameWithType: RestorePointManager.GetAvailableRestorePoints
+- uid: NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game,System.String)
+  name: GetFilePath(Game, string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetFilePath_NetAF_Logic_Game_System_String_
+  commentId: M:NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game,System.String)
+  name.vb: GetFilePath(Game, String)
+  fullName: NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game, string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game, String)
+  nameWithType: RestorePointManager.GetFilePath(Game, string)
+  nameWithType.vb: RestorePointManager.GetFilePath(Game, String)
+- uid: NetAF.Persistence.RestorePointManager.GetFilePath*
+  name: GetFilePath
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetFilePath_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.GetFilePath
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.GetFilePath
+  nameWithType: RestorePointManager.GetFilePath
+- uid: NetAF.Persistence.RestorePointManager.GetRestorePointDirectory(NetAF.Logic.Game)
+  name: GetRestorePointDirectory(Game)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetRestorePointDirectory_NetAF_Logic_Game_
+  commentId: M:NetAF.Persistence.RestorePointManager.GetRestorePointDirectory(NetAF.Logic.Game)
+  fullName: NetAF.Persistence.RestorePointManager.GetRestorePointDirectory(NetAF.Logic.Game)
+  nameWithType: RestorePointManager.GetRestorePointDirectory(Game)
+- uid: NetAF.Persistence.RestorePointManager.GetRestorePointDirectory*
+  name: GetRestorePointDirectory
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetRestorePointDirectory_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.GetRestorePointDirectory
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.GetRestorePointDirectory
+  nameWithType: RestorePointManager.GetRestorePointDirectory
+- uid: NetAF.Persistence.RestorePointManager.RootDirectory
+  name: RootDirectory
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_RootDirectory
+  commentId: P:NetAF.Persistence.RestorePointManager.RootDirectory
+  fullName: NetAF.Persistence.RestorePointManager.RootDirectory
+  nameWithType: RestorePointManager.RootDirectory
+- uid: NetAF.Persistence.RestorePointManager.RootDirectory*
+  name: RootDirectory
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_RootDirectory_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.RootDirectory
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.RootDirectory
+  nameWithType: RestorePointManager.RootDirectory
+- uid: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,System.String@)
+  name: Save(Game, string, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String_System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,System.String@)
+  name.vb: Save(Game, String, String)
+  fullName: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, string, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, String, String)
+  nameWithType: RestorePointManager.Save(Game, string, out string)
+  nameWithType.vb: RestorePointManager.Save(Game, String, String)
+- uid: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String@)
+  name: Save(Game, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String@)
+  name.vb: Save(Game, String)
+  fullName: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, String)
+  nameWithType: RestorePointManager.Save(Game, out string)
+  nameWithType.vb: RestorePointManager.Save(Game, String)
+- uid: NetAF.Persistence.RestorePointManager.Save*
+  name: Save
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.Save
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.Save
+  nameWithType: RestorePointManager.Save
 - uid: NetAF.Rendering
   name: NetAF.Rendering
   href: api/NetAF.Rendering.html
