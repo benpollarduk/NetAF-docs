@@ -551,13 +551,13 @@
     </tbody>
   </table>
   <a id="NetAF_Persistence_RestorePointManager_Save_" data-uid="NetAF.Persistence.RestorePointManager.Save*"></a>
-  <h4 id="NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String_System_String__" data-uid="NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,System.String@)">Save(Game, string, out string)</h4>
-  <div class="markdown level1 summary"><p>Save a game.</p>
+  <h4 id="NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_NetAF_Persistence_RestorePoint__System_String__" data-uid="NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,NetAF.Persistence.RestorePoint@,System.String@)">Save(Game, out RestorePoint, out string)</h4>
+  <div class="markdown level1 summary"><p>Autosave a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Save(Game game, string name, out string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Save(Game game, out RestorePoint restorePoint, out string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -576,9 +576,9 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the restore point.</p>
+        <td><a class="xref" href="NetAF.Persistence.RestorePoint.html">RestorePoint</a></td>
+        <td><span class="parametername">restorePoint</span></td>
+        <td><p>The created restore point.</p>
 </td>
       </tr>
       <tr>
@@ -606,13 +606,13 @@
     </tbody>
   </table>
   <a id="NetAF_Persistence_RestorePointManager_Save_" data-uid="NetAF.Persistence.RestorePointManager.Save*"></a>
-  <h4 id="NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String__" data-uid="NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String@)">Save(Game, out string)</h4>
-  <div class="markdown level1 summary"><p>Autosave a game.</p>
+  <h4 id="NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String_NetAF_Persistence_RestorePoint__System_String__" data-uid="NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,NetAF.Persistence.RestorePoint@,System.String@)">Save(Game, string, out RestorePoint, out string)</h4>
+  <div class="markdown level1 summary"><p>Save a game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Save(Game game, out string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Save(Game game, string name, out RestorePoint restorePoint, out string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -628,6 +628,18 @@
         <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
         <td><span class="parametername">game</span></td>
         <td><p>The game to save.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the restore point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Persistence.RestorePoint.html">RestorePoint</a></td>
+        <td><span class="parametername">restorePoint</span></td>
+        <td><p>The created restore point.</p>
 </td>
       </tr>
       <tr>

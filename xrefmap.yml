@@ -6911,6 +6911,44 @@ references:
   commentId: N:NetAF.Events
   fullName: NetAF.Events
   nameWithType: NetAF.Events
+- uid: NetAF.Events.AutoSaved
+  name: AutoSaved
+  href: api/NetAF.Events.AutoSaved.html
+  commentId: T:NetAF.Events.AutoSaved
+  fullName: NetAF.Events.AutoSaved
+  nameWithType: AutoSaved
+- uid: NetAF.Events.AutoSaved.#ctor(NetAF.Persistence.RestorePoint)
+  name: AutoSaved(RestorePoint)
+  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved__ctor_NetAF_Persistence_RestorePoint_
+  commentId: M:NetAF.Events.AutoSaved.#ctor(NetAF.Persistence.RestorePoint)
+  name.vb: New(RestorePoint)
+  fullName: NetAF.Events.AutoSaved.AutoSaved(NetAF.Persistence.RestorePoint)
+  fullName.vb: NetAF.Events.AutoSaved.New(NetAF.Persistence.RestorePoint)
+  nameWithType: AutoSaved.AutoSaved(RestorePoint)
+  nameWithType.vb: AutoSaved.New(RestorePoint)
+- uid: NetAF.Events.AutoSaved.#ctor*
+  name: AutoSaved
+  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved__ctor_
+  commentId: Overload:NetAF.Events.AutoSaved.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.AutoSaved.AutoSaved
+  fullName.vb: NetAF.Events.AutoSaved.New
+  nameWithType: AutoSaved.AutoSaved
+  nameWithType.vb: AutoSaved.New
+- uid: NetAF.Events.AutoSaved.RestorePoint
+  name: RestorePoint
+  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved_RestorePoint
+  commentId: P:NetAF.Events.AutoSaved.RestorePoint
+  fullName: NetAF.Events.AutoSaved.RestorePoint
+  nameWithType: AutoSaved.RestorePoint
+- uid: NetAF.Events.AutoSaved.RestorePoint*
+  name: RestorePoint
+  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved_RestorePoint_
+  commentId: Overload:NetAF.Events.AutoSaved.RestorePoint
+  isSpec: "True"
+  fullName: NetAF.Events.AutoSaved.RestorePoint
+  nameWithType: AutoSaved.RestorePoint
 - uid: NetAF.Events.BaseEvent
   name: BaseEvent
   href: api/NetAF.Events.BaseEvent.html
@@ -11792,24 +11830,24 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.RestorePointManager.RootDirectory
   nameWithType: RestorePointManager.RootDirectory
-- uid: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,System.String@)
-  name: Save(Game, string, out string)
-  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String_System_String__
-  commentId: M:NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,System.String@)
-  name.vb: Save(Game, String, String)
-  fullName: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, string, out string)
-  fullName.vb: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, String, String)
-  nameWithType: RestorePointManager.Save(Game, string, out string)
-  nameWithType.vb: RestorePointManager.Save(Game, String, String)
-- uid: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String@)
-  name: Save(Game, out string)
-  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String__
-  commentId: M:NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String@)
-  name.vb: Save(Game, String)
-  fullName: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, out string)
-  fullName.vb: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, String)
-  nameWithType: RestorePointManager.Save(Game, out string)
-  nameWithType.vb: RestorePointManager.Save(Game, String)
+- uid: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,NetAF.Persistence.RestorePoint@,System.String@)
+  name: Save(Game, out RestorePoint, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_NetAF_Persistence_RestorePoint__System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,NetAF.Persistence.RestorePoint@,System.String@)
+  name.vb: Save(Game, RestorePoint, String)
+  fullName: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, out NetAF.Persistence.RestorePoint, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, NetAF.Persistence.RestorePoint, String)
+  nameWithType: RestorePointManager.Save(Game, out RestorePoint, out string)
+  nameWithType.vb: RestorePointManager.Save(Game, RestorePoint, String)
+- uid: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,NetAF.Persistence.RestorePoint@,System.String@)
+  name: Save(Game, string, out RestorePoint, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_NetAF_Logic_Game_System_String_NetAF_Persistence_RestorePoint__System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game,System.String,NetAF.Persistence.RestorePoint@,System.String@)
+  name.vb: Save(Game, String, RestorePoint, String)
+  fullName: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, string, out NetAF.Persistence.RestorePoint, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.Save(NetAF.Logic.Game, String, NetAF.Persistence.RestorePoint, String)
+  nameWithType: RestorePointManager.Save(Game, string, out RestorePoint, out string)
+  nameWithType.vb: RestorePointManager.Save(Game, String, RestorePoint, String)
 - uid: NetAF.Persistence.RestorePointManager.Save*
   name: Save
   href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_Save_
