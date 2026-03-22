@@ -4676,19 +4676,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Information.Notes.Clean
   nameWithType: Notes.Clean
-- uid: NetAF.Commands.Information.Notes.Clear
-  name: Clear
-  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Clear
-  commentId: P:NetAF.Commands.Information.Notes.Clear
-  fullName: NetAF.Commands.Information.Notes.Clear
-  nameWithType: Notes.Clear
-- uid: NetAF.Commands.Information.Notes.Clear*
-  name: Clear
-  href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_Clear_
-  commentId: Overload:NetAF.Commands.Information.Notes.Clear
-  isSpec: "True"
-  fullName: NetAF.Commands.Information.Notes.Clear
-  nameWithType: Notes.Clear
 - uid: NetAF.Commands.Information.Notes.CommandHelp
   name: CommandHelp
   href: api/NetAF.Commands.Information.Notes.html#NetAF_Commands_Information_Notes_CommandHelp
