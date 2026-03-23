@@ -6898,44 +6898,6 @@ references:
   commentId: N:NetAF.Events
   fullName: NetAF.Events
   nameWithType: NetAF.Events
-- uid: NetAF.Events.AutoSaved
-  name: AutoSaved
-  href: api/NetAF.Events.AutoSaved.html
-  commentId: T:NetAF.Events.AutoSaved
-  fullName: NetAF.Events.AutoSaved
-  nameWithType: AutoSaved
-- uid: NetAF.Events.AutoSaved.#ctor(NetAF.Persistence.RestorePoint)
-  name: AutoSaved(RestorePoint)
-  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved__ctor_NetAF_Persistence_RestorePoint_
-  commentId: M:NetAF.Events.AutoSaved.#ctor(NetAF.Persistence.RestorePoint)
-  name.vb: New(RestorePoint)
-  fullName: NetAF.Events.AutoSaved.AutoSaved(NetAF.Persistence.RestorePoint)
-  fullName.vb: NetAF.Events.AutoSaved.New(NetAF.Persistence.RestorePoint)
-  nameWithType: AutoSaved.AutoSaved(RestorePoint)
-  nameWithType.vb: AutoSaved.New(RestorePoint)
-- uid: NetAF.Events.AutoSaved.#ctor*
-  name: AutoSaved
-  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved__ctor_
-  commentId: Overload:NetAF.Events.AutoSaved.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NetAF.Events.AutoSaved.AutoSaved
-  fullName.vb: NetAF.Events.AutoSaved.New
-  nameWithType: AutoSaved.AutoSaved
-  nameWithType.vb: AutoSaved.New
-- uid: NetAF.Events.AutoSaved.RestorePoint
-  name: RestorePoint
-  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved_RestorePoint
-  commentId: P:NetAF.Events.AutoSaved.RestorePoint
-  fullName: NetAF.Events.AutoSaved.RestorePoint
-  nameWithType: AutoSaved.RestorePoint
-- uid: NetAF.Events.AutoSaved.RestorePoint*
-  name: RestorePoint
-  href: api/NetAF.Events.AutoSaved.html#NetAF_Events_AutoSaved_RestorePoint_
-  commentId: Overload:NetAF.Events.AutoSaved.RestorePoint
-  isSpec: "True"
-  fullName: NetAF.Events.AutoSaved.RestorePoint
-  nameWithType: AutoSaved.RestorePoint
 - uid: NetAF.Events.BaseEvent
   name: BaseEvent
   href: api/NetAF.Events.BaseEvent.html
@@ -7047,6 +7009,44 @@ references:
   fullName.vb: NetAF.Events.EventBus.Unsubscribe(Of T)(System.Action(Of T))
   nameWithType: EventBus.Unsubscribe<T>(Action<T>)
   nameWithType.vb: EventBus.Unsubscribe(Of T)(Action(Of T))
+- uid: NetAF.Events.GameAutoSaved
+  name: GameAutoSaved
+  href: api/NetAF.Events.GameAutoSaved.html
+  commentId: T:NetAF.Events.GameAutoSaved
+  fullName: NetAF.Events.GameAutoSaved
+  nameWithType: GameAutoSaved
+- uid: NetAF.Events.GameAutoSaved.#ctor(NetAF.Persistence.RestorePoint)
+  name: GameAutoSaved(RestorePoint)
+  href: api/NetAF.Events.GameAutoSaved.html#NetAF_Events_GameAutoSaved__ctor_NetAF_Persistence_RestorePoint_
+  commentId: M:NetAF.Events.GameAutoSaved.#ctor(NetAF.Persistence.RestorePoint)
+  name.vb: New(RestorePoint)
+  fullName: NetAF.Events.GameAutoSaved.GameAutoSaved(NetAF.Persistence.RestorePoint)
+  fullName.vb: NetAF.Events.GameAutoSaved.New(NetAF.Persistence.RestorePoint)
+  nameWithType: GameAutoSaved.GameAutoSaved(RestorePoint)
+  nameWithType.vb: GameAutoSaved.New(RestorePoint)
+- uid: NetAF.Events.GameAutoSaved.#ctor*
+  name: GameAutoSaved
+  href: api/NetAF.Events.GameAutoSaved.html#NetAF_Events_GameAutoSaved__ctor_
+  commentId: Overload:NetAF.Events.GameAutoSaved.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.GameAutoSaved.GameAutoSaved
+  fullName.vb: NetAF.Events.GameAutoSaved.New
+  nameWithType: GameAutoSaved.GameAutoSaved
+  nameWithType.vb: GameAutoSaved.New
+- uid: NetAF.Events.GameAutoSaved.RestorePoint
+  name: RestorePoint
+  href: api/NetAF.Events.GameAutoSaved.html#NetAF_Events_GameAutoSaved_RestorePoint
+  commentId: P:NetAF.Events.GameAutoSaved.RestorePoint
+  fullName: NetAF.Events.GameAutoSaved.RestorePoint
+  nameWithType: GameAutoSaved.RestorePoint
+- uid: NetAF.Events.GameAutoSaved.RestorePoint*
+  name: RestorePoint
+  href: api/NetAF.Events.GameAutoSaved.html#NetAF_Events_GameAutoSaved_RestorePoint_
+  commentId: Overload:NetAF.Events.GameAutoSaved.RestorePoint
+  isSpec: "True"
+  fullName: NetAF.Events.GameAutoSaved.RestorePoint
+  nameWithType: GameAutoSaved.RestorePoint
 - uid: NetAF.Events.GameFinished
   name: GameFinished
   href: api/NetAF.Events.GameFinished.html
@@ -7123,6 +7123,44 @@ references:
   isSpec: "True"
   fullName: NetAF.Events.GameModeChanged.Mode
   nameWithType: GameModeChanged.Mode
+- uid: NetAF.Events.GameRestored
+  name: GameRestored
+  href: api/NetAF.Events.GameRestored.html
+  commentId: T:NetAF.Events.GameRestored
+  fullName: NetAF.Events.GameRestored
+  nameWithType: GameRestored
+- uid: NetAF.Events.GameRestored.#ctor(NetAF.Logic.Game)
+  name: GameRestored(Game)
+  href: api/NetAF.Events.GameRestored.html#NetAF_Events_GameRestored__ctor_NetAF_Logic_Game_
+  commentId: M:NetAF.Events.GameRestored.#ctor(NetAF.Logic.Game)
+  name.vb: New(Game)
+  fullName: NetAF.Events.GameRestored.GameRestored(NetAF.Logic.Game)
+  fullName.vb: NetAF.Events.GameRestored.New(NetAF.Logic.Game)
+  nameWithType: GameRestored.GameRestored(Game)
+  nameWithType.vb: GameRestored.New(Game)
+- uid: NetAF.Events.GameRestored.#ctor*
+  name: GameRestored
+  href: api/NetAF.Events.GameRestored.html#NetAF_Events_GameRestored__ctor_
+  commentId: Overload:NetAF.Events.GameRestored.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Events.GameRestored.GameRestored
+  fullName.vb: NetAF.Events.GameRestored.New
+  nameWithType: GameRestored.GameRestored
+  nameWithType.vb: GameRestored.New
+- uid: NetAF.Events.GameRestored.Game
+  name: Game
+  href: api/NetAF.Events.GameRestored.html#NetAF_Events_GameRestored_Game
+  commentId: P:NetAF.Events.GameRestored.Game
+  fullName: NetAF.Events.GameRestored.Game
+  nameWithType: GameRestored.Game
+- uid: NetAF.Events.GameRestored.Game*
+  name: Game
+  href: api/NetAF.Events.GameRestored.html#NetAF_Events_GameRestored_Game_
+  commentId: Overload:NetAF.Events.GameRestored.Game
+  isSpec: "True"
+  fullName: NetAF.Events.GameRestored.Game
+  nameWithType: GameRestored.Game
 - uid: NetAF.Events.GameStarted
   name: GameStarted
   href: api/NetAF.Events.GameStarted.html
