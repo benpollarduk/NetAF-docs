@@ -11694,19 +11694,48 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.RestorePointManager.Apply
   nameWithType: RestorePointManager.Apply
-- uid: NetAF.Persistence.RestorePointManager.AutoFileName
-  name: AutoFileName
-  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_AutoFileName
-  commentId: P:NetAF.Persistence.RestorePointManager.AutoFileName
-  fullName: NetAF.Persistence.RestorePointManager.AutoFileName
-  nameWithType: RestorePointManager.AutoFileName
-- uid: NetAF.Persistence.RestorePointManager.AutoFileName*
-  name: AutoFileName
-  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_AutoFileName_
-  commentId: Overload:NetAF.Persistence.RestorePointManager.AutoFileName
+- uid: NetAF.Persistence.RestorePointManager.AutoName
+  name: AutoName
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_AutoName
+  commentId: P:NetAF.Persistence.RestorePointManager.AutoName
+  fullName: NetAF.Persistence.RestorePointManager.AutoName
+  nameWithType: RestorePointManager.AutoName
+- uid: NetAF.Persistence.RestorePointManager.AutoName*
+  name: AutoName
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_AutoName_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.AutoName
   isSpec: "True"
-  fullName: NetAF.Persistence.RestorePointManager.AutoFileName
-  nameWithType: RestorePointManager.AutoFileName
+  fullName: NetAF.Persistence.RestorePointManager.AutoName
+  nameWithType: RestorePointManager.AutoName
+- uid: NetAF.Persistence.RestorePointManager.CreateFileName(System.DateTime)
+  name: CreateFileName(DateTime)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_CreateFileName_System_DateTime_
+  commentId: M:NetAF.Persistence.RestorePointManager.CreateFileName(System.DateTime)
+  name.vb: CreateFileName(Date)
+  fullName: NetAF.Persistence.RestorePointManager.CreateFileName(System.DateTime)
+  fullName.vb: NetAF.Persistence.RestorePointManager.CreateFileName(Date)
+  nameWithType: RestorePointManager.CreateFileName(DateTime)
+  nameWithType.vb: RestorePointManager.CreateFileName(Date)
+- uid: NetAF.Persistence.RestorePointManager.CreateFileName*
+  name: CreateFileName
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_CreateFileName_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.CreateFileName
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.CreateFileName
+  nameWithType: RestorePointManager.CreateFileName
+- uid: NetAF.Persistence.RestorePointManager.CreateNewFilePath(NetAF.Logic.Game)
+  name: CreateNewFilePath(Game)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_CreateNewFilePath_NetAF_Logic_Game_
+  commentId: M:NetAF.Persistence.RestorePointManager.CreateNewFilePath(NetAF.Logic.Game)
+  fullName: NetAF.Persistence.RestorePointManager.CreateNewFilePath(NetAF.Logic.Game)
+  nameWithType: RestorePointManager.CreateNewFilePath(Game)
+- uid: NetAF.Persistence.RestorePointManager.CreateNewFilePath*
+  name: CreateNewFilePath
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_CreateNewFilePath_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.CreateNewFilePath
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.CreateNewFilePath
+  nameWithType: RestorePointManager.CreateNewFilePath
 - uid: NetAF.Persistence.RestorePointManager.DefaultRootDirectory
   name: DefaultRootDirectory
   href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_DefaultRootDirectory
@@ -11749,6 +11778,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.RestorePointManager.Extension
   nameWithType: RestorePointManager.Extension
+- uid: NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths(NetAF.Logic.Game)
+  name: GetAllRestorePointPaths(Game)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAllRestorePointPaths_NetAF_Logic_Game_
+  commentId: M:NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths(NetAF.Logic.Game)
+  fullName: NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths(NetAF.Logic.Game)
+  nameWithType: RestorePointManager.GetAllRestorePointPaths(Game)
+- uid: NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths*
+  name: GetAllRestorePointPaths
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAllRestorePointPaths_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths
+  nameWithType: RestorePointManager.GetAllRestorePointPaths
 - uid: NetAF.Persistence.RestorePointManager.GetAvailableRestorePointNames(NetAF.Logic.Game)
   name: GetAvailableRestorePointNames(Game)
   href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetAvailableRestorePointNames_NetAF_Logic_Game_
@@ -11775,22 +11817,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.RestorePointManager.GetAvailableRestorePoints
   nameWithType: RestorePointManager.GetAvailableRestorePoints
-- uid: NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game,System.String)
-  name: GetFilePath(Game, string)
-  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetFilePath_NetAF_Logic_Game_System_String_
-  commentId: M:NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game,System.String)
-  name.vb: GetFilePath(Game, String)
-  fullName: NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game, string)
-  fullName.vb: NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game, String)
-  nameWithType: RestorePointManager.GetFilePath(Game, string)
-  nameWithType.vb: RestorePointManager.GetFilePath(Game, String)
-- uid: NetAF.Persistence.RestorePointManager.GetFilePath*
-  name: GetFilePath
-  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetFilePath_
-  commentId: Overload:NetAF.Persistence.RestorePointManager.GetFilePath
-  isSpec: "True"
-  fullName: NetAF.Persistence.RestorePointManager.GetFilePath
-  nameWithType: RestorePointManager.GetFilePath
 - uid: NetAF.Persistence.RestorePointManager.GetRestorePointDirectory(NetAF.Logic.Game)
   name: GetRestorePointDirectory(Game)
   href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_GetRestorePointDirectory_NetAF_Logic_Game_
@@ -11842,6 +11868,38 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.RestorePointManager.Save
   nameWithType: RestorePointManager.Save
+- uid: NetAF.Persistence.RestorePointManager.TryFindFile(NetAF.Logic.Game,System.String,System.String@)
+  name: TryFindFile(Game, string, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_TryFindFile_NetAF_Logic_Game_System_String_System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.TryFindFile(NetAF.Logic.Game,System.String,System.String@)
+  name.vb: TryFindFile(Game, String, String)
+  fullName: NetAF.Persistence.RestorePointManager.TryFindFile(NetAF.Logic.Game, string, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.TryFindFile(NetAF.Logic.Game, String, String)
+  nameWithType: RestorePointManager.TryFindFile(Game, string, out string)
+  nameWithType.vb: RestorePointManager.TryFindFile(Game, String, String)
+- uid: NetAF.Persistence.RestorePointManager.TryFindFile*
+  name: TryFindFile
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_TryFindFile_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.TryFindFile
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.TryFindFile
+  nameWithType: RestorePointManager.TryFindFile
+- uid: NetAF.Persistence.RestorePointManager.TryPeekName(System.String,System.String@)
+  name: TryPeekName(string, out string)
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_TryPeekName_System_String_System_String__
+  commentId: M:NetAF.Persistence.RestorePointManager.TryPeekName(System.String,System.String@)
+  name.vb: TryPeekName(String, String)
+  fullName: NetAF.Persistence.RestorePointManager.TryPeekName(string, out string)
+  fullName.vb: NetAF.Persistence.RestorePointManager.TryPeekName(String, String)
+  nameWithType: RestorePointManager.TryPeekName(string, out string)
+  nameWithType.vb: RestorePointManager.TryPeekName(String, String)
+- uid: NetAF.Persistence.RestorePointManager.TryPeekName*
+  name: TryPeekName
+  href: api/NetAF.Persistence.RestorePointManager.html#NetAF_Persistence_RestorePointManager_TryPeekName_
+  commentId: Overload:NetAF.Persistence.RestorePointManager.TryPeekName
+  isSpec: "True"
+  fullName: NetAF.Persistence.RestorePointManager.TryPeekName
+  nameWithType: RestorePointManager.TryPeekName
 - uid: NetAF.Rendering
   name: NetAF.Rendering
   href: api/NetAF.Rendering.html

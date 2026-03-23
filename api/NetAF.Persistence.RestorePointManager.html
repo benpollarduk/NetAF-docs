@@ -121,14 +121,14 @@
   </div>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Persistence_RestorePointManager_AutoFileName_" data-uid="NetAF.Persistence.RestorePointManager.AutoFileName*"></a>
-  <h4 id="NetAF_Persistence_RestorePointManager_AutoFileName" data-uid="NetAF.Persistence.RestorePointManager.AutoFileName">AutoFileName</h4>
+  <a id="NetAF_Persistence_RestorePointManager_AutoName_" data-uid="NetAF.Persistence.RestorePointManager.AutoName*"></a>
+  <h4 id="NetAF_Persistence_RestorePointManager_AutoName" data-uid="NetAF.Persistence.RestorePointManager.AutoName">AutoName</h4>
   <div class="markdown level1 summary"><p>Get or set the name to use for auto saves.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string AutoFileName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string AutoName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -323,6 +323,92 @@
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Persistence_RestorePointManager_CreateFileName_" data-uid="NetAF.Persistence.RestorePointManager.CreateFileName*"></a>
+  <h4 id="NetAF_Persistence_RestorePointManager_CreateFileName_System_DateTime_" data-uid="NetAF.Persistence.RestorePointManager.CreateFileName(System.DateTime)">CreateFileName(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Create a file name, based on a date/time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CreateFileName(DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td><p>The date/time to base the file name on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The file name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Persistence_RestorePointManager_CreateNewFilePath_" data-uid="NetAF.Persistence.RestorePointManager.CreateNewFilePath*"></a>
+  <h4 id="NetAF_Persistence_RestorePointManager_CreateNewFilePath_NetAF_Logic_Game_" data-uid="NetAF.Persistence.RestorePointManager.CreateNewFilePath(NetAF.Logic.Game)">CreateNewFilePath(Game)</h4>
+  <div class="markdown level1 summary"><p>Create a new file path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CreateNewFilePath(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The full path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Persistence_RestorePointManager_Exists_" data-uid="NetAF.Persistence.RestorePointManager.Exists*"></a>
   <h4 id="NetAF_Persistence_RestorePointManager_Exists_NetAF_Logic_Game_System_String_" data-uid="NetAF.Persistence.RestorePointManager.Exists(NetAF.Logic.Game,System.String)">Exists(Game, string)</h4>
   <div class="markdown level1 summary"><p>Determine if a restore point exists.</p>
@@ -368,6 +454,49 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><p>True if the restore point exists, else false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Persistence_RestorePointManager_GetAllRestorePointPaths_" data-uid="NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths*"></a>
+  <h4 id="NetAF_Persistence_RestorePointManager_GetAllRestorePointPaths_NetAF_Logic_Game_" data-uid="NetAF.Persistence.RestorePointManager.GetAllRestorePointPaths(NetAF.Logic.Game)">GetAllRestorePointPaths(Game)</h4>
+  <div class="markdown level1 summary"><p>Get all restore point paths for a game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetAllRestorePointPaths(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game to get the restore point paths for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><p>An array containing all restore point paths.</p>
 </td>
       </tr>
     </tbody>
@@ -454,55 +583,6 @@
       <tr>
         <td><a class="xref" href="NetAF.Persistence.RestorePoint.html">RestorePoint</a>[]</td>
         <td><p>An array containing all the available restore points for a game.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Persistence_RestorePointManager_GetFilePath_" data-uid="NetAF.Persistence.RestorePointManager.GetFilePath*"></a>
-  <h4 id="NetAF_Persistence_RestorePointManager_GetFilePath_NetAF_Logic_Game_System_String_" data-uid="NetAF.Persistence.RestorePointManager.GetFilePath(NetAF.Logic.Game,System.String)">GetFilePath(Game, string)</h4>
-  <div class="markdown level1 summary"><p>Get a file path.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetFilePath(Game game, string name)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
-        <td><span class="parametername">game</span></td>
-        <td><p>The game.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the restore point.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>The full path.</p>
 </td>
       </tr>
     </tbody>
@@ -662,6 +742,110 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><p>True if the save was successful, else false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Persistence_RestorePointManager_TryFindFile_" data-uid="NetAF.Persistence.RestorePointManager.TryFindFile*"></a>
+  <h4 id="NetAF_Persistence_RestorePointManager_TryFindFile_NetAF_Logic_Game_System_String_System_String__" data-uid="NetAF.Persistence.RestorePointManager.TryFindFile(NetAF.Logic.Game,System.String,System.String@)">TryFindFile(Game, string, out string)</h4>
+  <div class="markdown level1 summary"><p>Try and find a file from the name of a restore point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryFindFile(Game game, string name, out string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Logic.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>The game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the restore point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path to the restore point, if the restore point was found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if the restore point could be found, else false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Persistence_RestorePointManager_TryPeekName_" data-uid="NetAF.Persistence.RestorePointManager.TryPeekName*"></a>
+  <h4 id="NetAF_Persistence_RestorePointManager_TryPeekName_System_String_System_String__" data-uid="NetAF.Persistence.RestorePointManager.TryPeekName(System.String,System.String@)">TryPeekName(string, out string)</h4>
+  <div class="markdown level1 summary"><p>Try and peek the name of a restore point from a file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryPeekName(string path, out string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path to the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name, if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if the name could be found, else false.</p>
 </td>
       </tr>
     </tbody>
