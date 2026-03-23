@@ -754,6 +754,11 @@
     "title": "Delegate GameSetupCallback | NetAF",
     "summary": "Delegate GameSetupCallback Represents the callback used for Game setup. Namespace: NetAF.Logic.Callbacks Assembly: NetAF.dll Syntax public delegate void GameSetupCallback(Game game) Parameters Type Name Description Game game The game to setup."
   },
+  "api/NetAF.Logic.Callbacks.NarrativeEndCallback.html": {
+    "href": "api/NetAF.Logic.Callbacks.NarrativeEndCallback.html",
+    "title": "Delegate NarrativeEndCallback | NetAF",
+    "summary": "Delegate NarrativeEndCallback Represents the callback used for when a narrative ends. Namespace: NetAF.Logic.Callbacks Assembly: NetAF.dll Syntax public delegate void NarrativeEndCallback(Game game) Parameters Type Name Description Game game The executing game."
+  },
   "api/NetAF.Logic.Callbacks.OverworldCreationCallback.html": {
     "href": "api/NetAF.Logic.Callbacks.OverworldCreationCallback.html",
     "title": "Delegate OverworldCreationCallback | NetAF",
@@ -767,7 +772,7 @@
   "api/NetAF.Logic.Callbacks.html": {
     "href": "api/NetAF.Logic.Callbacks.html",
     "title": "Namespace NetAF.Logic.Callbacks | NetAF",
-    "summary": "Namespace NetAF.Logic.Callbacks Delegates GameSetupCallback Represents the callback used for Game setup. OverworldCreationCallback Represents a callback for Overworld creation. PlayerCreationCallback Represents a callback for Player creation."
+    "summary": "Namespace NetAF.Logic.Callbacks Delegates GameSetupCallback Represents the callback used for Game setup. NarrativeEndCallback Represents the callback used for when a narrative ends. OverworldCreationCallback Represents a callback for Overworld creation. PlayerCreationCallback Represents a callback for Player creation."
   },
   "api/NetAF.Logic.EndCheck.html": {
     "href": "api/NetAF.Logic.EndCheck.html",
@@ -872,7 +877,7 @@
   "api/NetAF.Logic.Modes.NarrativeMode.html": {
     "href": "api/NetAF.Logic.Modes.NarrativeMode.html",
     "title": "Class NarrativeMode | NetAF",
-    "summary": "Class NarrativeMode Provides a display mode for narrative. Inheritance object NarrativeMode Implements IGameMode Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Logic.Modes Assembly: NetAF.dll Syntax public sealed class NarrativeMode : IGameMode Constructors NarrativeMode(Narrative) Provides a display mode for narrative. Declaration public NarrativeMode(Narrative narrative) Parameters Type Name Description Narrative narrative The narrative. Properties Interpreter Get the interpreter. Declaration public IInterpreter Interpreter { get; } Property Value Type Description IInterpreter Type Get the type of mode this provides. Declaration public GameModeType Type { get; } Property Value Type Description GameModeType Methods Render(Game) Render the current state of a game. Declaration public void Render(Game game) Parameters Type Name Description Game game The game. Implements IGameMode"
+    "summary": "Class NarrativeMode Provides a display mode for narrative. Inheritance object NarrativeMode Implements IGameMode Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Namespace: NetAF.Logic.Modes Assembly: NetAF.dll Syntax public sealed class NarrativeMode : IGameMode Constructors NarrativeMode(Narrative, NarrativeEndCallback) Provides a display mode for narrative. Declaration public NarrativeMode(Narrative narrative, NarrativeEndCallback endCallback = null) Parameters Type Name Description Narrative narrative The narrative. NarrativeEndCallback endCallback An optional callback to invoke when the narrative ends. Properties Interpreter Get the interpreter. Declaration public IInterpreter Interpreter { get; } Property Value Type Description IInterpreter Type Get the type of mode this provides. Declaration public GameModeType Type { get; } Property Value Type Description GameModeType Methods Render(Game) Render the current state of a game. Declaration public void Render(Game game) Parameters Type Name Description Game game The game. Implements IGameMode"
   },
   "api/NetAF.Logic.Modes.NoteMode.html": {
     "href": "api/NetAF.Logic.Modes.NoteMode.html",

@@ -9318,6 +9318,12 @@ references:
   commentId: T:NetAF.Logic.Callbacks.GameSetupCallback
   fullName: NetAF.Logic.Callbacks.GameSetupCallback
   nameWithType: GameSetupCallback
+- uid: NetAF.Logic.Callbacks.NarrativeEndCallback
+  name: NarrativeEndCallback
+  href: api/NetAF.Logic.Callbacks.NarrativeEndCallback.html
+  commentId: T:NetAF.Logic.Callbacks.NarrativeEndCallback
+  fullName: NetAF.Logic.Callbacks.NarrativeEndCallback
+  nameWithType: NarrativeEndCallback
 - uid: NetAF.Logic.Callbacks.OverworldCreationCallback
   name: OverworldCreationCallback
   href: api/NetAF.Logic.Callbacks.OverworldCreationCallback.html
@@ -10691,15 +10697,15 @@ references:
   commentId: T:NetAF.Logic.Modes.NarrativeMode
   fullName: NetAF.Logic.Modes.NarrativeMode
   nameWithType: NarrativeMode
-- uid: NetAF.Logic.Modes.NarrativeMode.#ctor(NetAF.Narratives.Narrative)
-  name: NarrativeMode(Narrative)
-  href: api/NetAF.Logic.Modes.NarrativeMode.html#NetAF_Logic_Modes_NarrativeMode__ctor_NetAF_Narratives_Narrative_
-  commentId: M:NetAF.Logic.Modes.NarrativeMode.#ctor(NetAF.Narratives.Narrative)
-  name.vb: New(Narrative)
-  fullName: NetAF.Logic.Modes.NarrativeMode.NarrativeMode(NetAF.Narratives.Narrative)
-  fullName.vb: NetAF.Logic.Modes.NarrativeMode.New(NetAF.Narratives.Narrative)
-  nameWithType: NarrativeMode.NarrativeMode(Narrative)
-  nameWithType.vb: NarrativeMode.New(Narrative)
+- uid: NetAF.Logic.Modes.NarrativeMode.#ctor(NetAF.Narratives.Narrative,NetAF.Logic.Callbacks.NarrativeEndCallback)
+  name: NarrativeMode(Narrative, NarrativeEndCallback)
+  href: api/NetAF.Logic.Modes.NarrativeMode.html#NetAF_Logic_Modes_NarrativeMode__ctor_NetAF_Narratives_Narrative_NetAF_Logic_Callbacks_NarrativeEndCallback_
+  commentId: M:NetAF.Logic.Modes.NarrativeMode.#ctor(NetAF.Narratives.Narrative,NetAF.Logic.Callbacks.NarrativeEndCallback)
+  name.vb: New(Narrative, NarrativeEndCallback)
+  fullName: NetAF.Logic.Modes.NarrativeMode.NarrativeMode(NetAF.Narratives.Narrative, NetAF.Logic.Callbacks.NarrativeEndCallback)
+  fullName.vb: NetAF.Logic.Modes.NarrativeMode.New(NetAF.Narratives.Narrative, NetAF.Logic.Callbacks.NarrativeEndCallback)
+  nameWithType: NarrativeMode.NarrativeMode(Narrative, NarrativeEndCallback)
+  nameWithType.vb: NarrativeMode.New(Narrative, NarrativeEndCallback)
 - uid: NetAF.Logic.Modes.NarrativeMode.#ctor*
   name: NarrativeMode
   href: api/NetAF.Logic.Modes.NarrativeMode.html#NetAF_Logic_Modes_NarrativeMode__ctor_
