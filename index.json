@@ -1104,6 +1104,11 @@
     "title": "Interface IUpdatableFrame | NetAF",
     "summary": "Interface IUpdatableFrame Represents any object that is an updateable frame for displaying an interface. Inherited Members IFrame.Render(IFramePresenter) Namespace: NetAF.Rendering Assembly: NetAF.dll Syntax public interface IUpdatableFrame : IFrame Methods Start() Start updating. Declaration void Start() Stop() Stop updating. Declaration void Stop() Events Updated Occurs when the frame is updated. Declaration event EventHandler<IFrame> Updated Event Type Type Description EventHandler<IFrame>"
   },
+  "api/NetAF.Rendering.IUpdatableFramePresenter.html": {
+    "href": "api/NetAF.Rendering.IUpdatableFramePresenter.html",
+    "title": "Interface IUpdatableFramePresenter | NetAF",
+    "summary": "Interface IUpdatableFramePresenter Represents an object that can present a frame. Inherited Members IFramePresenter.Present(string) IFramePresenter.GetPresentableSize() Namespace: NetAF.Rendering Assembly: NetAF.dll Syntax public interface IUpdatableFramePresenter : IFramePresenter Methods PresentUpdate(string) Present an updated frame. Declaration void PresentUpdate(string frame) Parameters Type Name Description string frame The udated frame to write, as a string."
+  },
   "api/NetAF.Rendering.KeyType.html": {
     "href": "api/NetAF.Rendering.KeyType.html",
     "title": "Enum KeyType | NetAF",
@@ -1132,7 +1137,7 @@
   "api/NetAF.Rendering.html": {
     "href": "api/NetAF.Rendering.html",
     "title": "Namespace NetAF.Rendering | NetAF",
-    "summary": "Namespace NetAF.Rendering Classes FrameProperties Provides global properties for frames. SceneHelper Provides helper functionality for scenes. Visual Represents a visual. Interfaces IFrame Represents any object that is a frame for displaying an interface. IFramePresenter Represents an object that can present a frame. IUpdatableFrame Represents any object that is an updateable frame for displaying an interface. Enums CommandListType Enumeration of types of command list. KeyType Enumeration of key types. RegionMapDetail Enumeration of detail options for the region map. VisualResizeMode Enumeration of resize modes for visuals."
+    "summary": "Namespace NetAF.Rendering Classes FrameProperties Provides global properties for frames. SceneHelper Provides helper functionality for scenes. Visual Represents a visual. Interfaces IFrame Represents any object that is a frame for displaying an interface. IFramePresenter Represents an object that can present a frame. IUpdatableFrame Represents any object that is an updateable frame for displaying an interface. IUpdatableFramePresenter Represents an object that can present a frame. Enums CommandListType Enumeration of types of command list. KeyType Enumeration of key types. RegionMapDetail Enumeration of detail options for the region map. VisualResizeMode Enumeration of resize modes for visuals."
   },
   "api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html": {
     "href": "api/NetAF.Serialization.Assets.AttributeAndValueSerialization.html",

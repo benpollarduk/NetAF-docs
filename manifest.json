@@ -3106,6 +3106,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.IUpdatableFramePresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.IUpdatableFramePresenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.IUpdatableFramePresenter",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.IUpdatableFramePresenter.yml\" sourcestartlinenumber=\"1\">Represents an object that can present a frame.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.KeyType.yml",
       "output": {
         ".html": {

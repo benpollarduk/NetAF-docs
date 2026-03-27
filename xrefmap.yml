@@ -12630,6 +12630,28 @@ references:
   commentId: E:NetAF.Rendering.IUpdatableFrame.Updated
   fullName: NetAF.Rendering.IUpdatableFrame.Updated
   nameWithType: IUpdatableFrame.Updated
+- uid: NetAF.Rendering.IUpdatableFramePresenter
+  name: IUpdatableFramePresenter
+  href: api/NetAF.Rendering.IUpdatableFramePresenter.html
+  commentId: T:NetAF.Rendering.IUpdatableFramePresenter
+  fullName: NetAF.Rendering.IUpdatableFramePresenter
+  nameWithType: IUpdatableFramePresenter
+- uid: NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate(System.String)
+  name: PresentUpdate(string)
+  href: api/NetAF.Rendering.IUpdatableFramePresenter.html#NetAF_Rendering_IUpdatableFramePresenter_PresentUpdate_System_String_
+  commentId: M:NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate(System.String)
+  name.vb: PresentUpdate(String)
+  fullName: NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate(string)
+  fullName.vb: NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate(String)
+  nameWithType: IUpdatableFramePresenter.PresentUpdate(string)
+  nameWithType.vb: IUpdatableFramePresenter.PresentUpdate(String)
+- uid: NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate*
+  name: PresentUpdate
+  href: api/NetAF.Rendering.IUpdatableFramePresenter.html#NetAF_Rendering_IUpdatableFramePresenter_PresentUpdate_
+  commentId: Overload:NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate
+  isSpec: "True"
+  fullName: NetAF.Rendering.IUpdatableFramePresenter.PresentUpdate
+  nameWithType: IUpdatableFramePresenter.PresentUpdate
 - uid: NetAF.Rendering.KeyType
   name: KeyType
   href: api/NetAF.Rendering.KeyType.html
