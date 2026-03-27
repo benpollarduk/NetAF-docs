@@ -12592,6 +12592,44 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.IFramePresenter.Present
   nameWithType: IFramePresenter.Present
+- uid: NetAF.Rendering.IUpdatableFrame
+  name: IUpdatableFrame
+  href: api/NetAF.Rendering.IUpdatableFrame.html
+  commentId: T:NetAF.Rendering.IUpdatableFrame
+  fullName: NetAF.Rendering.IUpdatableFrame
+  nameWithType: IUpdatableFrame
+- uid: NetAF.Rendering.IUpdatableFrame.Start
+  name: Start()
+  href: api/NetAF.Rendering.IUpdatableFrame.html#NetAF_Rendering_IUpdatableFrame_Start
+  commentId: M:NetAF.Rendering.IUpdatableFrame.Start
+  fullName: NetAF.Rendering.IUpdatableFrame.Start()
+  nameWithType: IUpdatableFrame.Start()
+- uid: NetAF.Rendering.IUpdatableFrame.Start*
+  name: Start
+  href: api/NetAF.Rendering.IUpdatableFrame.html#NetAF_Rendering_IUpdatableFrame_Start_
+  commentId: Overload:NetAF.Rendering.IUpdatableFrame.Start
+  isSpec: "True"
+  fullName: NetAF.Rendering.IUpdatableFrame.Start
+  nameWithType: IUpdatableFrame.Start
+- uid: NetAF.Rendering.IUpdatableFrame.Stop
+  name: Stop()
+  href: api/NetAF.Rendering.IUpdatableFrame.html#NetAF_Rendering_IUpdatableFrame_Stop
+  commentId: M:NetAF.Rendering.IUpdatableFrame.Stop
+  fullName: NetAF.Rendering.IUpdatableFrame.Stop()
+  nameWithType: IUpdatableFrame.Stop()
+- uid: NetAF.Rendering.IUpdatableFrame.Stop*
+  name: Stop
+  href: api/NetAF.Rendering.IUpdatableFrame.html#NetAF_Rendering_IUpdatableFrame_Stop_
+  commentId: Overload:NetAF.Rendering.IUpdatableFrame.Stop
+  isSpec: "True"
+  fullName: NetAF.Rendering.IUpdatableFrame.Stop
+  nameWithType: IUpdatableFrame.Stop
+- uid: NetAF.Rendering.IUpdatableFrame.Updated
+  name: Updated
+  href: api/NetAF.Rendering.IUpdatableFrame.html#NetAF_Rendering_IUpdatableFrame_Updated
+  commentId: E:NetAF.Rendering.IUpdatableFrame.Updated
+  fullName: NetAF.Rendering.IUpdatableFrame.Updated
+  nameWithType: IUpdatableFrame.Updated
 - uid: NetAF.Rendering.KeyType
   name: KeyType
   href: api/NetAF.Rendering.KeyType.html
@@ -14213,6 +14251,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.AnsiColor.Equals
   nameWithType: AnsiColor.Equals
+- uid: NetAF.Targets.Console.Rendering.AnsiColor.FromString(System.String)
+  name: FromString(string)
+  href: api/NetAF.Targets.Console.Rendering.AnsiColor.html#NetAF_Targets_Console_Rendering_AnsiColor_FromString_System_String_
+  commentId: M:NetAF.Targets.Console.Rendering.AnsiColor.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: NetAF.Targets.Console.Rendering.AnsiColor.FromString(string)
+  fullName.vb: NetAF.Targets.Console.Rendering.AnsiColor.FromString(String)
+  nameWithType: AnsiColor.FromString(string)
+  nameWithType.vb: AnsiColor.FromString(String)
+- uid: NetAF.Targets.Console.Rendering.AnsiColor.FromString*
+  name: FromString
+  href: api/NetAF.Targets.Console.Rendering.AnsiColor.html#NetAF_Targets_Console_Rendering_AnsiColor_FromString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.AnsiColor.FromString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.AnsiColor.FromString
+  nameWithType: AnsiColor.FromString
 - uid: NetAF.Targets.Console.Rendering.AnsiColor.G
   name: G
   href: api/NetAF.Targets.Console.Rendering.AnsiColor.html#NetAF_Targets_Console_Rendering_AnsiColor_G
@@ -14304,6 +14358,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.AnsiColor.ToGray
   nameWithType: AnsiColor.ToGray
+- uid: NetAF.Targets.Console.Rendering.AnsiColor.ToString
+  name: ToString()
+  href: api/NetAF.Targets.Console.Rendering.AnsiColor.html#NetAF_Targets_Console_Rendering_AnsiColor_ToString
+  commentId: M:NetAF.Targets.Console.Rendering.AnsiColor.ToString
+  fullName: NetAF.Targets.Console.Rendering.AnsiColor.ToString()
+  nameWithType: AnsiColor.ToString()
+- uid: NetAF.Targets.Console.Rendering.AnsiColor.ToString*
+  name: ToString
+  href: api/NetAF.Targets.Console.Rendering.AnsiColor.html#NetAF_Targets_Console_Rendering_AnsiColor_ToString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.AnsiColor.ToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.AnsiColor.ToString
+  nameWithType: AnsiColor.ToString
 - uid: NetAF.Targets.Console.Rendering.AnsiColor.White
   name: White
   href: api/NetAF.Targets.Console.Rendering.AnsiColor.html#NetAF_Targets_Console_Rendering_AnsiColor_White
@@ -17197,6 +17264,47 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DisplaySize
   nameWithType: GridVisualBuilder.DisplaySize
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
+  name: DrawBorder(int, int, int, AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
+  name.vb: DrawBorder(Integer, Integer, Integer, AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(int, int, int, NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: GridVisualBuilder.DrawBorder(int, int, int, AnsiColor)
+  nameWithType.vb: GridVisualBuilder.DrawBorder(Integer, Integer, Integer, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
+  name: DrawBorder(int, int, int, int, AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
+  name.vb: DrawBorder(Integer, Integer, Integer, Integer, AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(int, int, int, int, NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(Integer, Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: GridVisualBuilder.DrawBorder(int, int, int, int, AnsiColor)
+  nameWithType.vb: GridVisualBuilder.DrawBorder(Integer, Integer, Integer, Integer, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder*
+  name: DrawBorder
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder
+  nameWithType: GridVisualBuilder.DrawBorder
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
+  name: DrawCircle(int, int, int, AnsiColor, AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
+  name.vb: DrawCircle(Integer, Integer, Integer, AnsiColor, AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: GridVisualBuilder.DrawCircle(int, int, int, AnsiColor, AnsiColor)
+  nameWithType.vb: GridVisualBuilder.DrawCircle(Integer, Integer, Integer, AnsiColor, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle*
+  name: DrawCircle
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle
+  nameWithType: GridVisualBuilder.DrawCircle
 - uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
   name: DrawRectangle(int, int, int, int, AnsiColor, AnsiColor)
   href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_
@@ -17213,6 +17321,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle
   nameWithType: GridVisualBuilder.DrawRectangle
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText(System.Int32,System.Int32,System.String,NetAF.Targets.Console.Rendering.AnsiColor)
+  name: DrawText(int, int, string, AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawText_System_Int32_System_Int32_System_String_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText(System.Int32,System.Int32,System.String,NetAF.Targets.Console.Rendering.AnsiColor)
+  name.vb: DrawText(Integer, Integer, String, AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText(int, int, string, NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText(Integer, Integer, String, NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: GridVisualBuilder.DrawText(int, int, string, AnsiColor)
+  nameWithType.vb: GridVisualBuilder.DrawText(Integer, Integer, String, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText*
+  name: DrawText
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawText_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawText
+  nameWithType: GridVisualBuilder.DrawText
 - uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawTexture(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.Texture,NetAF.Targets.Console.Rendering.AnsiColor)
   name: DrawTexture(int, int, int, int, Texture, AnsiColor)
   href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawTexture_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_Texture_NetAF_Targets_Console_Rendering_AnsiColor_
@@ -17258,6 +17382,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.Flush
   nameWithType: GridVisualBuilder.Flush
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString(System.String)
+  name: FromString(string)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_FromString_System_String_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString(string)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString(String)
+  nameWithType: GridVisualBuilder.FromString(string)
+  nameWithType.vb: GridVisualBuilder.FromString(String)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString*
+  name: FromString
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_FromString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString
+  nameWithType: GridVisualBuilder.FromString
 - uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.GetCellBackgroundColor(System.Int32,System.Int32)
   name: GetCellBackgroundColor(int, int)
   href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_GetCellBackgroundColor_System_Int32_System_Int32_
@@ -17391,6 +17531,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.SetCell
   nameWithType: GridVisualBuilder.SetCell
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.ToString
+  name: ToString()
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_ToString
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.ToString
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.ToString()
+  nameWithType: GridVisualBuilder.ToString()
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.ToString*
+  name: ToString
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_ToString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualBuilder.ToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.ToString
+  nameWithType: GridVisualBuilder.ToString
 - uid: NetAF.Targets.Console.Rendering.GridVisualFrame
   name: GridVisualFrame
   href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html
