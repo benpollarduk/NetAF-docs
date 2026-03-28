@@ -17572,15 +17572,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.GridVisualFrame
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame
   nameWithType: GridVisualFrame
-- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualBuilder)
-  name: GridVisualFrame(GridVisualBuilder)
-  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame__ctor_NetAF_Targets_Console_Rendering_GridVisualBuilder_
-  commentId: M:NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualBuilder)
-  name.vb: New(GridVisualBuilder)
-  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.GridVisualFrame(NetAF.Targets.Console.Rendering.GridVisualBuilder)
-  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualFrame.New(NetAF.Targets.Console.Rendering.GridVisualBuilder)
-  nameWithType: GridVisualFrame.GridVisualFrame(GridVisualBuilder)
-  nameWithType.vb: GridVisualFrame.New(GridVisualBuilder)
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualBuilder,System.Int32,System.Int32)
+  name: GridVisualFrame(GridVisualBuilder, int, int)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame__ctor_NetAF_Targets_Console_Rendering_GridVisualBuilder_System_Int32_System_Int32_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualBuilder,System.Int32,System.Int32)
+  name.vb: New(GridVisualBuilder, Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.GridVisualFrame(NetAF.Targets.Console.Rendering.GridVisualBuilder, int, int)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualFrame.New(NetAF.Targets.Console.Rendering.GridVisualBuilder, Integer, Integer)
+  nameWithType: GridVisualFrame.GridVisualFrame(GridVisualBuilder, int, int)
+  nameWithType.vb: GridVisualFrame.New(GridVisualBuilder, Integer, Integer)
 - uid: NetAF.Targets.Console.Rendering.GridVisualFrame.#ctor*
   name: GridVisualFrame
   href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame__ctor_
