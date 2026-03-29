@@ -14457,6 +14457,44 @@ references:
   fullName.vb: NetAF.Targets.Console.Rendering.AnsiColor.<>
   nameWithType: AnsiColor.operator !=
   nameWithType.vb: AnsiColor.<>
+- uid: NetAF.Targets.Console.Rendering.ColorVariationGenerator
+  name: ColorVariationGenerator
+  href: api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.html
+  commentId: T:NetAF.Targets.Console.Rendering.ColorVariationGenerator
+  fullName: NetAF.Targets.Console.Rendering.ColorVariationGenerator
+  nameWithType: ColorVariationGenerator
+- uid: NetAF.Targets.Console.Rendering.ColorVariationGenerator.#ctor(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
+  name: ColorVariationGenerator(byte, byte, byte, byte, byte, byte)
+  href: api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.html#NetAF_Targets_Console_Rendering_ColorVariationGenerator__ctor_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_
+  commentId: M:NetAF.Targets.Console.Rendering.ColorVariationGenerator.#ctor(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
+  name.vb: New(Byte, Byte, Byte, Byte, Byte, Byte)
+  fullName: NetAF.Targets.Console.Rendering.ColorVariationGenerator.ColorVariationGenerator(byte, byte, byte, byte, byte, byte)
+  fullName.vb: NetAF.Targets.Console.Rendering.ColorVariationGenerator.New(Byte, Byte, Byte, Byte, Byte, Byte)
+  nameWithType: ColorVariationGenerator.ColorVariationGenerator(byte, byte, byte, byte, byte, byte)
+  nameWithType.vb: ColorVariationGenerator.New(Byte, Byte, Byte, Byte, Byte, Byte)
+- uid: NetAF.Targets.Console.Rendering.ColorVariationGenerator.#ctor*
+  name: ColorVariationGenerator
+  href: api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.html#NetAF_Targets_Console_Rendering_ColorVariationGenerator__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ColorVariationGenerator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.ColorVariationGenerator.ColorVariationGenerator
+  fullName.vb: NetAF.Targets.Console.Rendering.ColorVariationGenerator.New
+  nameWithType: ColorVariationGenerator.ColorVariationGenerator
+  nameWithType.vb: ColorVariationGenerator.New
+- uid: NetAF.Targets.Console.Rendering.ColorVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  name: Vary(AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.html#NetAF_Targets_Console_Rendering_ColorVariationGenerator_Vary_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.ColorVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.ColorVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: ColorVariationGenerator.Vary(AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.ColorVariationGenerator.Vary*
+  name: Vary
+  href: api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.html#NetAF_Targets_Console_Rendering_ColorVariationGenerator_Vary_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ColorVariationGenerator.Vary
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ColorVariationGenerator.Vary
+  nameWithType: ColorVariationGenerator.Vary
 - uid: NetAF.Targets.Console.Rendering.ConsoleWriterPresenter
   name: ConsoleWriterPresenter
   href: api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.html
@@ -17286,24 +17324,24 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DisplaySize
   nameWithType: GridVisualBuilder.DisplaySize
-- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
-  name: DrawBorder(int, int, int, AnsiColor)
-  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_
-  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
-  name.vb: DrawBorder(Integer, Integer, Integer, AnsiColor)
-  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(int, int, int, NetAF.Targets.Console.Rendering.AnsiColor)
-  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor)
-  nameWithType: GridVisualBuilder.DrawBorder(int, int, int, AnsiColor)
-  nameWithType.vb: GridVisualBuilder.DrawBorder(Integer, Integer, Integer, AnsiColor)
-- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
-  name: DrawBorder(int, int, int, int, AnsiColor)
-  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_
-  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
-  name.vb: DrawBorder(Integer, Integer, Integer, Integer, AnsiColor)
-  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(int, int, int, int, NetAF.Targets.Console.Rendering.AnsiColor)
-  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(Integer, Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor)
-  nameWithType: GridVisualBuilder.DrawBorder(int, int, int, int, AnsiColor)
-  nameWithType.vb: GridVisualBuilder.DrawBorder(Integer, Integer, Integer, Integer, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name: DrawBorder(int, int, int, AnsiColor, IVariationGenerator)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name.vb: DrawBorder(Integer, Integer, Integer, AnsiColor, IVariationGenerator)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  nameWithType: GridVisualBuilder.DrawBorder(int, int, int, AnsiColor, IVariationGenerator)
+  nameWithType.vb: GridVisualBuilder.DrawBorder(Integer, Integer, Integer, AnsiColor, IVariationGenerator)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name: DrawBorder(int, int, int, int, AnsiColor, IVariationGenerator)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name.vb: DrawBorder(Integer, Integer, Integer, Integer, AnsiColor, IVariationGenerator)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(int, int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(Integer, Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  nameWithType: GridVisualBuilder.DrawBorder(int, int, int, int, AnsiColor, IVariationGenerator)
+  nameWithType.vb: GridVisualBuilder.DrawBorder(Integer, Integer, Integer, Integer, AnsiColor, IVariationGenerator)
 - uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder*
   name: DrawBorder
   href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_
@@ -17311,15 +17349,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder
   nameWithType: GridVisualBuilder.DrawBorder
-- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
-  name: DrawCircle(int, int, int, AnsiColor, AnsiColor)
-  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_
-  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
-  name.vb: DrawCircle(Integer, Integer, Integer, AnsiColor, AnsiColor)
-  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
-  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
-  nameWithType: GridVisualBuilder.DrawCircle(int, int, int, AnsiColor, AnsiColor)
-  nameWithType.vb: GridVisualBuilder.DrawCircle(Integer, Integer, Integer, AnsiColor, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name: DrawCircle(int, int, int, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_NetAF_Targets_Console_Rendering_IVariationGenerator_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name.vb: DrawCircle(Integer, Integer, Integer, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  nameWithType: GridVisualBuilder.DrawCircle(int, int, int, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
+  nameWithType.vb: GridVisualBuilder.DrawCircle(Integer, Integer, Integer, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
 - uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle*
   name: DrawCircle
   href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_
@@ -17327,15 +17365,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle
   nameWithType: GridVisualBuilder.DrawCircle
-- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
-  name: DrawRectangle(int, int, int, int, AnsiColor, AnsiColor)
-  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_
-  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
-  name.vb: DrawRectangle(Integer, Integer, Integer, Integer, AnsiColor, AnsiColor)
-  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(int, int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
-  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(Integer, Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
-  nameWithType: GridVisualBuilder.DrawRectangle(int, int, int, int, AnsiColor, AnsiColor)
-  nameWithType.vb: GridVisualBuilder.DrawRectangle(Integer, Integer, Integer, Integer, AnsiColor, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name: DrawRectangle(int, int, int, int, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
+  href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_NetAF_Targets_Console_Rendering_IVariationGenerator_
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator,NetAF.Targets.Console.Rendering.IVariationGenerator)
+  name.vb: DrawRectangle(Integer, Integer, Integer, Integer, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
+  fullName: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(int, int, int, int, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(Integer, Integer, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.IVariationGenerator, NetAF.Targets.Console.Rendering.IVariationGenerator)
+  nameWithType: GridVisualBuilder.DrawRectangle(int, int, int, int, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
+  nameWithType.vb: GridVisualBuilder.DrawRectangle(Integer, Integer, Integer, Integer, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)
 - uid: NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle*
   name: DrawRectangle
   href: api/NetAF.Targets.Console.Rendering.GridVisualBuilder.html#NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_
@@ -17767,6 +17805,63 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap
   nameWithType: IConsoleRoomMapBuilder.BuildRoomMap
+- uid: NetAF.Targets.Console.Rendering.IVariationGenerator
+  name: IVariationGenerator
+  href: api/NetAF.Targets.Console.Rendering.IVariationGenerator.html
+  commentId: T:NetAF.Targets.Console.Rendering.IVariationGenerator
+  fullName: NetAF.Targets.Console.Rendering.IVariationGenerator
+  nameWithType: IVariationGenerator
+- uid: NetAF.Targets.Console.Rendering.IVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  name: Vary(AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.IVariationGenerator.html#NetAF_Targets_Console_Rendering_IVariationGenerator_Vary_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.IVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.IVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: IVariationGenerator.Vary(AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.IVariationGenerator.Vary*
+  name: Vary
+  href: api/NetAF.Targets.Console.Rendering.IVariationGenerator.html#NetAF_Targets_Console_Rendering_IVariationGenerator_Vary_
+  commentId: Overload:NetAF.Targets.Console.Rendering.IVariationGenerator.Vary
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.IVariationGenerator.Vary
+  nameWithType: IVariationGenerator.Vary
+- uid: NetAF.Targets.Console.Rendering.IntensityVariationGenerator
+  name: IntensityVariationGenerator
+  href: api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.html
+  commentId: T:NetAF.Targets.Console.Rendering.IntensityVariationGenerator
+  fullName: NetAF.Targets.Console.Rendering.IntensityVariationGenerator
+  nameWithType: IntensityVariationGenerator
+- uid: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.#ctor(System.Byte,System.Byte)
+  name: IntensityVariationGenerator(byte, byte)
+  href: api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.html#NetAF_Targets_Console_Rendering_IntensityVariationGenerator__ctor_System_Byte_System_Byte_
+  commentId: M:NetAF.Targets.Console.Rendering.IntensityVariationGenerator.#ctor(System.Byte,System.Byte)
+  name.vb: New(Byte, Byte)
+  fullName: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.IntensityVariationGenerator(byte, byte)
+  fullName.vb: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.New(Byte, Byte)
+  nameWithType: IntensityVariationGenerator.IntensityVariationGenerator(byte, byte)
+  nameWithType.vb: IntensityVariationGenerator.New(Byte, Byte)
+- uid: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.#ctor*
+  name: IntensityVariationGenerator
+  href: api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.html#NetAF_Targets_Console_Rendering_IntensityVariationGenerator__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.IntensityVariationGenerator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.IntensityVariationGenerator
+  fullName.vb: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.New
+  nameWithType: IntensityVariationGenerator.IntensityVariationGenerator
+  nameWithType.vb: IntensityVariationGenerator.New
+- uid: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  name: Vary(AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.html#NetAF_Targets_Console_Rendering_IntensityVariationGenerator_Vary_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.IntensityVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.Vary(NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: IntensityVariationGenerator.Vary(AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.Vary*
+  name: Vary
+  href: api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.html#NetAF_Targets_Console_Rendering_IntensityVariationGenerator_Vary_
+  commentId: Overload:NetAF.Targets.Console.Rendering.IntensityVariationGenerator.Vary
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.IntensityVariationGenerator.Vary
+  nameWithType: IntensityVariationGenerator.Vary
 - uid: NetAF.Targets.Console.Rendering.NetAFPalette
   name: NetAFPalette
   href: api/NetAF.Targets.Console.Rendering.NetAFPalette.html

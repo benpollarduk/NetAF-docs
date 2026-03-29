@@ -3554,6 +3554,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.ColorVariationGenerator",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.ColorVariationGenerator.yml\" sourcestartlinenumber=\"1\">Provides a variation generator that generates by intensity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.ConsoleWriterPresenter.yml",
       "output": {
         ".html": {
@@ -3943,6 +3957,34 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build room maps targeting the console.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.IVariationGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.IVariationGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.IVariationGenerator",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IVariationGenerator.yml\" sourcestartlinenumber=\"1\">Represents any object that can vary a color.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.IntensityVariationGenerator",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.IntensityVariationGenerator.yml\" sourcestartlinenumber=\"1\">Provides a variation generator that generates by intensity.</p>\n"
     },
     {
       "type": "ManagedReference",

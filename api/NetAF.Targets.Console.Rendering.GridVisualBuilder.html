@@ -204,13 +204,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)">DrawBorder(int, int, int, AnsiColor)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator)">DrawBorder(int, int, int, AnsiColor, IVariationGenerator)</h4>
   <div class="markdown level1 summary"><p>Draw a circular border.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DrawBorder(int centerX, int centerY, int radius, AnsiColor borderColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DrawBorder(int centerX, int centerY, int radius, AnsiColor borderColor, IVariationGenerator borderColorVarier = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -246,16 +246,22 @@
         <td><p>The border color of the circle.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.IVariationGenerator.html">IVariationGenerator</a></td>
+        <td><span class="parametername">borderColorVarier</span></td>
+        <td><p>An option variation generator to use for the border color.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)">DrawBorder(int, int, int, int, AnsiColor)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawBorder_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawBorder(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator)">DrawBorder(int, int, int, int, AnsiColor, IVariationGenerator)</h4>
   <div class="markdown level1 summary"><p>Draw a border.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DrawBorder(int left, int top, int width, int height, AnsiColor borderColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DrawBorder(int left, int top, int width, int height, AnsiColor borderColor, IVariationGenerator borderColorVarier = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -297,16 +303,22 @@
         <td><p>The border color of the cell.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.IVariationGenerator.html">IVariationGenerator</a></td>
+        <td><span class="parametername">borderColorVarier</span></td>
+        <td><p>An option variation generator to use for the border color.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)">DrawCircle(int, int, int, AnsiColor, AnsiColor)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawCircle_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_NetAF_Targets_Console_Rendering_IVariationGenerator_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawCircle(System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator,NetAF.Targets.Console.Rendering.IVariationGenerator)">DrawCircle(int, int, int, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)</h4>
   <div class="markdown level1 summary"><p>Draw a filled circle with a border.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DrawCircle(int centerX, int centerY, int radius, AnsiColor borderColor, AnsiColor fillColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DrawCircle(int centerX, int centerY, int radius, AnsiColor borderColor, AnsiColor fillColor, IVariationGenerator borderColorVarier = null, IVariationGenerator fillColorVarier = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -348,16 +360,28 @@
         <td><p>The fill color of the circle.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.IVariationGenerator.html">IVariationGenerator</a></td>
+        <td><span class="parametername">borderColorVarier</span></td>
+        <td><p>An option variation generator to use for the border color.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.IVariationGenerator.html">IVariationGenerator</a></td>
+        <td><span class="parametername">fillColorVarier</span></td>
+        <td><p>An option variation generator to use for the fill color.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)">DrawRectangle(int, int, int, int, AnsiColor, AnsiColor)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_DrawRectangle_System_Int32_System_Int32_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_IVariationGenerator_NetAF_Targets_Console_Rendering_IVariationGenerator_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.DrawRectangle(System.Int32,System.Int32,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.IVariationGenerator,NetAF.Targets.Console.Rendering.IVariationGenerator)">DrawRectangle(int, int, int, int, AnsiColor, AnsiColor, IVariationGenerator, IVariationGenerator)</h4>
   <div class="markdown level1 summary"><p>Draw a rectangle.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DrawRectangle(int left, int top, int width, int height, AnsiColor borderColor, AnsiColor fillColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DrawRectangle(int left, int top, int width, int height, AnsiColor borderColor, AnsiColor fillColor, IVariationGenerator borderColorVarier = null, IVariationGenerator fillColorVarier = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -403,6 +427,18 @@
         <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
         <td><span class="parametername">fillColor</span></td>
         <td><p>The fill color of the cell.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.IVariationGenerator.html">IVariationGenerator</a></td>
+        <td><span class="parametername">borderColorVarier</span></td>
+        <td><p>An option variation generator to use for the border color.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.IVariationGenerator.html">IVariationGenerator</a></td>
+        <td><span class="parametername">fillColorVarier</span></td>
+        <td><p>An option variation generator to use for the fill color.</p>
 </td>
       </tr>
     </tbody>
