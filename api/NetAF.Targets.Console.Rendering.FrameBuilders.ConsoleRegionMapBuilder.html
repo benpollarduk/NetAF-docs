@@ -539,13 +539,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)">BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)">BuildRegionMap(Region, Point3D, RegionMapRenderOptions, RoomMapRenderOptions, Size)</h4>
   <div class="markdown level1 summary"><p>Build a map of a region.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition, RegionMapRenderOptions options, Size maxSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition, RegionMapRenderOptions regionMapOptions, RoomMapRenderOptions roomMapOptions, Size maxSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -571,8 +571,14 @@
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>The render options to use.</p>
+        <td><span class="parametername">regionMapOptions</span></td>
+        <td><p>The region map render options to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.RoomMapRenderOptions.html">RoomMapRenderOptions</a></td>
+        <td><span class="parametername">roomMapOptions</span></td>
+        <td><p>The room map render options to use.</p>
 </td>
       </tr>
       <tr>
@@ -584,13 +590,13 @@
     </tbody>
   </table>
   <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_NetAF_Assets_Point2D_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size,NetAF.Assets.Point2D)">BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size, Point2D)</h4>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_NetAF_Assets_Point2D_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size,NetAF.Assets.Point2D)">BuildRegionMap(Region, Point3D, RegionMapRenderOptions, RoomMapRenderOptions, Size, Point2D)</h4>
   <div class="markdown level1 summary"><p>Build a map of a region.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition, RegionMapRenderOptions options, Size maxSize, Point2D startPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BuildRegionMap(Region region, Point3D focusPosition, RegionMapRenderOptions regionMapOptions, RoomMapRenderOptions roomMapOptions, Size maxSize, Point2D startPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -616,8 +622,14 @@
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>The render options to use.</p>
+        <td><span class="parametername">regionMapOptions</span></td>
+        <td><p>The region map render options to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.RoomMapRenderOptions.html">RoomMapRenderOptions</a></td>
+        <td><span class="parametername">roomMapOptions</span></td>
+        <td><p>The room map render options to use.</p>
 </td>
       </tr>
       <tr>

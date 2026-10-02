@@ -233,13 +233,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_Build_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)</h4>
+  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Rendering_RoomMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Rendering.RoomMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapRenderOptions, RoomMapRenderOptions, CommandHelp[], Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapRenderOptions options, CommandHelp[] contextualCommands, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapRenderOptions regionMapOptions, RoomMapRenderOptions roomMapOptions, CommandHelp[] contextualCommands, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -265,8 +265,14 @@
       </tr>
       <tr>
         <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>The render options to use.</p>
+        <td><span class="parametername">regionMapOptions</span></td>
+        <td><p>The region map render options to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.RoomMapRenderOptions.html">RoomMapRenderOptions</a></td>
+        <td><span class="parametername">roomMapOptions</span></td>
+        <td><p>The room map render options to use.</p>
 </td>
       </tr>
       <tr>
