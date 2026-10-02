@@ -1,4 +1,5 @@
 {
+  "docfx_version": "2.81.0+ba844df625370a6bd7c1ecab0d0ec4d1d9128ac4",
   "source_base_path": "/home/runner/work/NetAF/NetAF/docs/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -3134,6 +3135,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.PointOfInterestDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.PointOfInterestDetail.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.PointOfInterestDetail",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.PointOfInterestDetail.yml\" sourcestartlinenumber=\"1\">Enumeration of detailing options for points of interest on maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.RegionMapDetail.yml",
       "output": {
         ".html": {
@@ -3145,6 +3160,34 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.RegionMapDetail",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.RegionMapDetail.yml\" sourcestartlinenumber=\"1\">Enumeration of detail options for the region map.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.RegionMapRenderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.RegionMapRenderOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.RegionMapRenderOptions",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.RegionMapRenderOptions.yml\" sourcestartlinenumber=\"1\">Render options for region maps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.RoomMapRenderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.RoomMapRenderOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.RoomMapRenderOptions",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.RoomMapRenderOptions.yml\" sourcestartlinenumber=\"1\">Render options for room maps.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5320,11 +5363,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -5523,11 +5566,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -5666,11 +5709,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

@@ -4151,6 +4151,45 @@ references:
   isSpec: "True"
   fullName: NetAF.Commands.Frame.Option.MapInScenesOn
   nameWithType: Option.MapInScenesOn
+- uid: NetAF.Commands.Frame.Option.PointOfInterestHigh
+  name: PointOfInterestHigh
+  href: api/NetAF.Commands.Frame.Option.html#NetAF_Commands_Frame_Option_PointOfInterestHigh
+  commentId: P:NetAF.Commands.Frame.Option.PointOfInterestHigh
+  fullName: NetAF.Commands.Frame.Option.PointOfInterestHigh
+  nameWithType: Option.PointOfInterestHigh
+- uid: NetAF.Commands.Frame.Option.PointOfInterestHigh*
+  name: PointOfInterestHigh
+  href: api/NetAF.Commands.Frame.Option.html#NetAF_Commands_Frame_Option_PointOfInterestHigh_
+  commentId: Overload:NetAF.Commands.Frame.Option.PointOfInterestHigh
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.Option.PointOfInterestHigh
+  nameWithType: Option.PointOfInterestHigh
+- uid: NetAF.Commands.Frame.Option.PointOfInterestLow
+  name: PointOfInterestLow
+  href: api/NetAF.Commands.Frame.Option.html#NetAF_Commands_Frame_Option_PointOfInterestLow
+  commentId: P:NetAF.Commands.Frame.Option.PointOfInterestLow
+  fullName: NetAF.Commands.Frame.Option.PointOfInterestLow
+  nameWithType: Option.PointOfInterestLow
+- uid: NetAF.Commands.Frame.Option.PointOfInterestLow*
+  name: PointOfInterestLow
+  href: api/NetAF.Commands.Frame.Option.html#NetAF_Commands_Frame_Option_PointOfInterestLow_
+  commentId: Overload:NetAF.Commands.Frame.Option.PointOfInterestLow
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.Option.PointOfInterestLow
+  nameWithType: Option.PointOfInterestLow
+- uid: NetAF.Commands.Frame.Option.PointOfInterestNone
+  name: PointOfInterestNone
+  href: api/NetAF.Commands.Frame.Option.html#NetAF_Commands_Frame_Option_PointOfInterestNone
+  commentId: P:NetAF.Commands.Frame.Option.PointOfInterestNone
+  fullName: NetAF.Commands.Frame.Option.PointOfInterestNone
+  nameWithType: Option.PointOfInterestNone
+- uid: NetAF.Commands.Frame.Option.PointOfInterestNone*
+  name: PointOfInterestNone
+  href: api/NetAF.Commands.Frame.Option.html#NetAF_Commands_Frame_Option_PointOfInterestNone_
+  commentId: Overload:NetAF.Commands.Frame.Option.PointOfInterestNone
+  isSpec: "True"
+  fullName: NetAF.Commands.Frame.Option.PointOfInterestNone
+  nameWithType: Option.PointOfInterestNone
 - uid: NetAF.Commands.Global
   name: NetAF.Commands.Global
   href: api/NetAF.Commands.Global.html
@@ -10927,15 +10966,15 @@ references:
   commentId: T:NetAF.Logic.Modes.RegionMapMode
   fullName: NetAF.Logic.Modes.RegionMapMode
   nameWithType: RegionMapMode
-- uid: NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Interpretation.IInterpreter)
-  name: RegionMapMode(Point3D, RegionMapDetail, IInterpreter)
-  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Interpretation_IInterpreter_
-  commentId: M:NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Interpretation.IInterpreter)
-  name.vb: New(Point3D, RegionMapDetail, IInterpreter)
-  fullName: NetAF.Logic.Modes.RegionMapMode.RegionMapMode(NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Interpretation.IInterpreter)
-  fullName.vb: NetAF.Logic.Modes.RegionMapMode.New(NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Interpretation.IInterpreter)
-  nameWithType: RegionMapMode.RegionMapMode(Point3D, RegionMapDetail, IInterpreter)
-  nameWithType.vb: RegionMapMode.New(Point3D, RegionMapDetail, IInterpreter)
+- uid: NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Interpretation.IInterpreter)
+  name: RegionMapMode(Point3D, RegionMapRenderOptions, IInterpreter)
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Interpretation_IInterpreter_
+  commentId: M:NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Interpretation.IInterpreter)
+  name.vb: New(Point3D, RegionMapRenderOptions, IInterpreter)
+  fullName: NetAF.Logic.Modes.RegionMapMode.RegionMapMode(NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Interpretation.IInterpreter)
+  fullName.vb: NetAF.Logic.Modes.RegionMapMode.New(NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Interpretation.IInterpreter)
+  nameWithType: RegionMapMode.RegionMapMode(Point3D, RegionMapRenderOptions, IInterpreter)
+  nameWithType.vb: RegionMapMode.New(Point3D, RegionMapRenderOptions, IInterpreter)
 - uid: NetAF.Logic.Modes.RegionMapMode.#ctor*
   name: RegionMapMode
   href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode__ctor_
@@ -10959,19 +10998,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.RegionMapMode.CanPanToPosition
   nameWithType: RegionMapMode.CanPanToPosition
-- uid: NetAF.Logic.Modes.RegionMapMode.Detail
-  name: Detail
-  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Detail
-  commentId: P:NetAF.Logic.Modes.RegionMapMode.Detail
-  fullName: NetAF.Logic.Modes.RegionMapMode.Detail
-  nameWithType: RegionMapMode.Detail
-- uid: NetAF.Logic.Modes.RegionMapMode.Detail*
-  name: Detail
-  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Detail_
-  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.Detail
-  isSpec: "True"
-  fullName: NetAF.Logic.Modes.RegionMapMode.Detail
-  nameWithType: RegionMapMode.Detail
 - uid: NetAF.Logic.Modes.RegionMapMode.FocusPosition
   name: FocusPosition
   href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_FocusPosition
@@ -10998,6 +11024,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.RegionMapMode.Interpreter
   nameWithType: RegionMapMode.Interpreter
+- uid: NetAF.Logic.Modes.RegionMapMode.Options
+  name: Options
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Options
+  commentId: P:NetAF.Logic.Modes.RegionMapMode.Options
+  fullName: NetAF.Logic.Modes.RegionMapMode.Options
+  nameWithType: RegionMapMode.Options
+- uid: NetAF.Logic.Modes.RegionMapMode.Options*
+  name: Options
+  href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Options_
+  commentId: Overload:NetAF.Logic.Modes.RegionMapMode.Options
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.RegionMapMode.Options
+  nameWithType: RegionMapMode.Options
 - uid: NetAF.Logic.Modes.RegionMapMode.Player
   name: Player
   href: api/NetAF.Logic.Modes.RegionMapMode.html#NetAF_Logic_Modes_RegionMapMode_Player
@@ -12324,12 +12363,12 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder
   nameWithType: IRegionMapBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
-  href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
-  fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size)
-  nameWithType: IRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: IRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)
 - uid: NetAF.Rendering.FrameBuilders.IRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapBuilder_BuildRegionMap_
@@ -12343,15 +12382,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder
   nameWithType: IRegionMapFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
-  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: IRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  nameWithType.vb: IRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
+- uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
+  fullName: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: IRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  nameWithType.vb: IRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
 - uid: NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html#NetAF_Rendering_FrameBuilders_IRegionMapFrameBuilder_Build_
@@ -12391,12 +12430,12 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.IRoomMapBuilder
   fullName: NetAF.Rendering.FrameBuilders.IRoomMapBuilder
   nameWithType: IRoomMapBuilder
-- uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  name: BuildRoomMap(Room, ViewPoint, KeyType)
-  href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_IRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
-  commentId: M:NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  fullName: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
-  nameWithType: IRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
+- uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+  href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_IRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_
+  commentId: M:NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  fullName: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions)
+  nameWithType: IRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
 - uid: NetAF.Rendering.FrameBuilders.IRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Rendering.FrameBuilders.IRoomMapBuilder.html#NetAF_Rendering_FrameBuilders_IRoomMapBuilder_BuildRoomMap_
@@ -12423,15 +12462,15 @@ references:
   commentId: T:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder
   nameWithType: ISceneFrameBuilder
-- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
-  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+- uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
+  fullName: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  fullName.vb: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  nameWithType.vb: ISceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
 - uid: NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Rendering.FrameBuilders.ISceneFrameBuilder.html#NetAF_Rendering_FrameBuilders_ISceneFrameBuilder_Build_
@@ -12499,32 +12538,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameProperties.CommandListType
   nameWithType: FrameProperties.CommandListType
-- uid: NetAF.Rendering.FrameProperties.KeyType
-  name: KeyType
-  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_KeyType
-  commentId: P:NetAF.Rendering.FrameProperties.KeyType
-  fullName: NetAF.Rendering.FrameProperties.KeyType
-  nameWithType: FrameProperties.KeyType
-- uid: NetAF.Rendering.FrameProperties.KeyType*
-  name: KeyType
-  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_KeyType_
-  commentId: Overload:NetAF.Rendering.FrameProperties.KeyType
+- uid: NetAF.Rendering.FrameProperties.RegionMapRenderOptions
+  name: RegionMapRenderOptions
+  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_RegionMapRenderOptions
+  commentId: P:NetAF.Rendering.FrameProperties.RegionMapRenderOptions
+  fullName: NetAF.Rendering.FrameProperties.RegionMapRenderOptions
+  nameWithType: FrameProperties.RegionMapRenderOptions
+- uid: NetAF.Rendering.FrameProperties.RegionMapRenderOptions*
+  name: RegionMapRenderOptions
+  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_RegionMapRenderOptions_
+  commentId: Overload:NetAF.Rendering.FrameProperties.RegionMapRenderOptions
   isSpec: "True"
-  fullName: NetAF.Rendering.FrameProperties.KeyType
-  nameWithType: FrameProperties.KeyType
-- uid: NetAF.Rendering.FrameProperties.MapDetail
-  name: MapDetail
-  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_MapDetail
-  commentId: P:NetAF.Rendering.FrameProperties.MapDetail
-  fullName: NetAF.Rendering.FrameProperties.MapDetail
-  nameWithType: FrameProperties.MapDetail
-- uid: NetAF.Rendering.FrameProperties.MapDetail*
-  name: MapDetail
-  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_MapDetail_
-  commentId: Overload:NetAF.Rendering.FrameProperties.MapDetail
+  fullName: NetAF.Rendering.FrameProperties.RegionMapRenderOptions
+  nameWithType: FrameProperties.RegionMapRenderOptions
+- uid: NetAF.Rendering.FrameProperties.RoomMapRenderOptions
+  name: RoomMapRenderOptions
+  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_RoomMapRenderOptions
+  commentId: P:NetAF.Rendering.FrameProperties.RoomMapRenderOptions
+  fullName: NetAF.Rendering.FrameProperties.RoomMapRenderOptions
+  nameWithType: FrameProperties.RoomMapRenderOptions
+- uid: NetAF.Rendering.FrameProperties.RoomMapRenderOptions*
+  name: RoomMapRenderOptions
+  href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_RoomMapRenderOptions_
+  commentId: Overload:NetAF.Rendering.FrameProperties.RoomMapRenderOptions
   isSpec: "True"
-  fullName: NetAF.Rendering.FrameProperties.MapDetail
-  nameWithType: FrameProperties.MapDetail
+  fullName: NetAF.Rendering.FrameProperties.RoomMapRenderOptions
+  nameWithType: FrameProperties.RoomMapRenderOptions
 - uid: NetAF.Rendering.FrameProperties.ShowMapInScenes
   name: ShowMapInScenes
   href: api/NetAF.Rendering.FrameProperties.html#NetAF_Rendering_FrameProperties_ShowMapInScenes
@@ -12676,6 +12715,30 @@ references:
   commentId: F:NetAF.Rendering.KeyType.None
   fullName: NetAF.Rendering.KeyType.None
   nameWithType: KeyType.None
+- uid: NetAF.Rendering.PointOfInterestDetail
+  name: PointOfInterestDetail
+  href: api/NetAF.Rendering.PointOfInterestDetail.html
+  commentId: T:NetAF.Rendering.PointOfInterestDetail
+  fullName: NetAF.Rendering.PointOfInterestDetail
+  nameWithType: PointOfInterestDetail
+- uid: NetAF.Rendering.PointOfInterestDetail.High
+  name: High
+  href: api/NetAF.Rendering.PointOfInterestDetail.html#NetAF_Rendering_PointOfInterestDetail_High
+  commentId: F:NetAF.Rendering.PointOfInterestDetail.High
+  fullName: NetAF.Rendering.PointOfInterestDetail.High
+  nameWithType: PointOfInterestDetail.High
+- uid: NetAF.Rendering.PointOfInterestDetail.Low
+  name: Low
+  href: api/NetAF.Rendering.PointOfInterestDetail.html#NetAF_Rendering_PointOfInterestDetail_Low
+  commentId: F:NetAF.Rendering.PointOfInterestDetail.Low
+  fullName: NetAF.Rendering.PointOfInterestDetail.Low
+  nameWithType: PointOfInterestDetail.Low
+- uid: NetAF.Rendering.PointOfInterestDetail.None
+  name: None
+  href: api/NetAF.Rendering.PointOfInterestDetail.html#NetAF_Rendering_PointOfInterestDetail_None
+  commentId: F:NetAF.Rendering.PointOfInterestDetail.None
+  fullName: NetAF.Rendering.PointOfInterestDetail.None
+  nameWithType: PointOfInterestDetail.None
 - uid: NetAF.Rendering.RegionMapDetail
   name: RegionMapDetail
   href: api/NetAF.Rendering.RegionMapDetail.html
@@ -12700,6 +12763,57 @@ references:
   commentId: F:NetAF.Rendering.RegionMapDetail.Normal
   fullName: NetAF.Rendering.RegionMapDetail.Normal
   nameWithType: RegionMapDetail.Normal
+- uid: NetAF.Rendering.RegionMapRenderOptions
+  name: RegionMapRenderOptions
+  href: api/NetAF.Rendering.RegionMapRenderOptions.html
+  commentId: T:NetAF.Rendering.RegionMapRenderOptions
+  fullName: NetAF.Rendering.RegionMapRenderOptions
+  nameWithType: RegionMapRenderOptions
+- uid: NetAF.Rendering.RegionMapRenderOptions.MapDetail
+  name: MapDetail
+  href: api/NetAF.Rendering.RegionMapRenderOptions.html#NetAF_Rendering_RegionMapRenderOptions_MapDetail
+  commentId: P:NetAF.Rendering.RegionMapRenderOptions.MapDetail
+  fullName: NetAF.Rendering.RegionMapRenderOptions.MapDetail
+  nameWithType: RegionMapRenderOptions.MapDetail
+- uid: NetAF.Rendering.RegionMapRenderOptions.MapDetail*
+  name: MapDetail
+  href: api/NetAF.Rendering.RegionMapRenderOptions.html#NetAF_Rendering_RegionMapRenderOptions_MapDetail_
+  commentId: Overload:NetAF.Rendering.RegionMapRenderOptions.MapDetail
+  isSpec: "True"
+  fullName: NetAF.Rendering.RegionMapRenderOptions.MapDetail
+  nameWithType: RegionMapRenderOptions.MapDetail
+- uid: NetAF.Rendering.RoomMapRenderOptions
+  name: RoomMapRenderOptions
+  href: api/NetAF.Rendering.RoomMapRenderOptions.html
+  commentId: T:NetAF.Rendering.RoomMapRenderOptions
+  fullName: NetAF.Rendering.RoomMapRenderOptions
+  nameWithType: RoomMapRenderOptions
+- uid: NetAF.Rendering.RoomMapRenderOptions.KeyType
+  name: KeyType
+  href: api/NetAF.Rendering.RoomMapRenderOptions.html#NetAF_Rendering_RoomMapRenderOptions_KeyType
+  commentId: P:NetAF.Rendering.RoomMapRenderOptions.KeyType
+  fullName: NetAF.Rendering.RoomMapRenderOptions.KeyType
+  nameWithType: RoomMapRenderOptions.KeyType
+- uid: NetAF.Rendering.RoomMapRenderOptions.KeyType*
+  name: KeyType
+  href: api/NetAF.Rendering.RoomMapRenderOptions.html#NetAF_Rendering_RoomMapRenderOptions_KeyType_
+  commentId: Overload:NetAF.Rendering.RoomMapRenderOptions.KeyType
+  isSpec: "True"
+  fullName: NetAF.Rendering.RoomMapRenderOptions.KeyType
+  nameWithType: RoomMapRenderOptions.KeyType
+- uid: NetAF.Rendering.RoomMapRenderOptions.PointOfInterestDetail
+  name: PointOfInterestDetail
+  href: api/NetAF.Rendering.RoomMapRenderOptions.html#NetAF_Rendering_RoomMapRenderOptions_PointOfInterestDetail
+  commentId: P:NetAF.Rendering.RoomMapRenderOptions.PointOfInterestDetail
+  fullName: NetAF.Rendering.RoomMapRenderOptions.PointOfInterestDetail
+  nameWithType: RoomMapRenderOptions.PointOfInterestDetail
+- uid: NetAF.Rendering.RoomMapRenderOptions.PointOfInterestDetail*
+  name: PointOfInterestDetail
+  href: api/NetAF.Rendering.RoomMapRenderOptions.html#NetAF_Rendering_RoomMapRenderOptions_PointOfInterestDetail_
+  commentId: Overload:NetAF.Rendering.RoomMapRenderOptions.PointOfInterestDetail
+  isSpec: "True"
+  fullName: NetAF.Rendering.RoomMapRenderOptions.PointOfInterestDetail
+  nameWithType: RoomMapRenderOptions.PointOfInterestDetail
 - uid: NetAF.Rendering.SceneHelper
   name: SceneHelper
   href: api/NetAF.Rendering.SceneHelper.html
@@ -15275,21 +15389,21 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BoundaryColor
   nameWithType: ConsoleHighDetailRoomMapBuilder.BoundaryColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  name: BuildRoomMap(Room, ViewPoint, KeyType)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
-  nameWithType: ConsoleHighDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_NetAF_Assets_Point2D_System_Int32__System_Int32__
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, out int, out int)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, Integer, Integer)
-  nameWithType: ConsoleHighDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  nameWithType.vb: ConsoleHighDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions)
+  nameWithType: ConsoleHighDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Point2D_System_Int32__System_Int32__
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name.vb: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, out int, out int)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, Integer, Integer)
+  nameWithType: ConsoleHighDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  nameWithType.vb: ConsoleHighDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_BuildRoomMap_
@@ -15349,32 +15463,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.HorizontalExitBorder
   nameWithType: ConsoleHighDetailRoomMapBuilder.HorizontalExitBorder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-  name: ItemOrCharacterColor
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_ItemOrCharacterColor
-  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-  nameWithType: ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor*
-  name: ItemOrCharacterColor
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_ItemOrCharacterColor_
-  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-  nameWithType: ConsoleHighDetailRoomMapBuilder.ItemOrCharacterColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
-  name: ItemOrCharacterInRoom
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_ItemOrCharacterInRoom
-  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
-  nameWithType: ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom*
-  name: ItemOrCharacterInRoom
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_ItemOrCharacterInRoom_
-  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
-  nameWithType: ConsoleHighDetailRoomMapBuilder.ItemOrCharacterInRoom
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.KeyPadding
   name: KeyPadding
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_KeyPadding
@@ -15420,6 +15508,45 @@ references:
   commentId: F:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.MaximumKeySize
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.MaximumKeySize
   nameWithType: ConsoleHighDetailRoomMapBuilder.MaximumKeySize
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+  name: NoPointOfInterest
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_NoPointOfInterest
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+  nameWithType: ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.NoPointOfInterest*
+  name: NoPointOfInterest
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_NoPointOfInterest_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+  nameWithType: ConsoleHighDetailRoomMapBuilder.NoPointOfInterest
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterest
+  name: PointOfInterest
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_PointOfInterest
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterest
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterest
+  nameWithType: ConsoleHighDetailRoomMapBuilder.PointOfInterest
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterest*
+  name: PointOfInterest
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_PointOfInterest_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterest
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterest
+  nameWithType: ConsoleHighDetailRoomMapBuilder.PointOfInterest
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
+  name: PointOfInterestColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_PointOfInterestColor
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
+  nameWithType: ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterestColor*
+  name: PointOfInterestColor
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_PointOfInterestColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
+  nameWithType: ConsoleHighDetailRoomMapBuilder.PointOfInterestColor
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.RenderedSize
   name: RenderedSize
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleHighDetailRoomMapBuilder_RenderedSize
@@ -15642,21 +15769,21 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BoundaryColor
   nameWithType: ConsoleLowDetailRoomMapBuilder.BoundaryColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  name: BuildRoomMap(Room, ViewPoint, KeyType)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLowDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
-  nameWithType: ConsoleLowDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLowDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_NetAF_Assets_Point2D_System_Int32__System_Int32__
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, out int, out int)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, Integer, Integer)
-  nameWithType: ConsoleLowDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  nameWithType.vb: ConsoleLowDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLowDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions)
+  nameWithType: ConsoleLowDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLowDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Point2D_System_Int32__System_Int32__
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name.vb: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, out int, out int)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, Integer, Integer)
+  nameWithType: ConsoleLowDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  nameWithType.vb: ConsoleLowDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleLowDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleLowDetailRoomMapBuilder_BuildRoomMap_
@@ -15844,21 +15971,21 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BoundaryColor
   nameWithType: ConsoleNormalDetailRoomMapBuilder.BoundaryColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  name: BuildRoomMap(Room, ViewPoint, KeyType)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNormalDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
-  nameWithType: ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNormalDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_NetAF_Assets_Point2D_System_Int32__System_Int32__
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, out int, out int)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, Integer, Integer)
-  nameWithType: ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  nameWithType.vb: ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNormalDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions)
+  nameWithType: ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNormalDetailRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Point2D_System_Int32__System_Int32__
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name.vb: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, out int, out int)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, Integer, Integer)
+  nameWithType: ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  nameWithType.vb: ConsoleNormalDetailRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleNormalDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleNormalDetailRoomMapBuilder_BuildRoomMap_
@@ -16207,18 +16334,18 @@ references:
   fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.New
   nameWithType: ConsoleRegionMapBuilder.ConsoleRegionMapBuilder
   nameWithType.vb: ConsoleRegionMapBuilder.New
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size)
-  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_NetAF_Assets_Point2D_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size, NetAF.Assets.Point2D)
-  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  name: BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size, Point2D)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_NetAF_Assets_Point2D_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Assets.Size, NetAF.Assets.Point2D)
+  nameWithType: ConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size, Point2D)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapBuilder_BuildRegionMap_
@@ -16485,15 +16612,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.BorderColor
   nameWithType: ConsoleRegionMapFrameBuilder.BorderColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: ConsoleRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  nameWithType.vb: ConsoleRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: ConsoleRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  nameWithType.vb: ConsoleRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleRegionMapFrameBuilder_Build_
@@ -16630,15 +16757,15 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.BorderColor
   nameWithType: ConsoleSceneFrameBuilder.BorderColor
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  nameWithType.vb: ConsoleSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleSceneFrameBuilder_Build_
@@ -17770,12 +17897,12 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder
   fullName: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder
   nameWithType: IConsoleRegionMapBuilder
-- uid: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
-  href: api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_NetAF_Assets_Point2D_
-  commentId: M:NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size,NetAF.Assets.Point2D)
-  fullName: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size, NetAF.Assets.Point2D)
-  nameWithType: IConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size, Point2D)
+- uid: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  name: BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size, Point2D)
+  href: api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_NetAF_Assets_Point2D_
+  commentId: M:NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size,NetAF.Assets.Point2D)
+  fullName: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Assets.Size, NetAF.Assets.Point2D)
+  nameWithType: IConsoleRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size, Point2D)
 - uid: NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Targets.Console.Rendering.IConsoleRegionMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRegionMapBuilder_BuildRegionMap_
@@ -17789,15 +17916,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder
   fullName: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder
   nameWithType: IConsoleRoomMapBuilder
-- uid: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  href: api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_NetAF_Assets_Point2D_System_Int32__System_Int32__
-  commentId: M:NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
-  name.vb: BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
-  fullName: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, out int, out int)
-  fullName.vb: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType, NetAF.Assets.Point2D, Integer, Integer)
-  nameWithType: IConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, out int, out int)
-  nameWithType.vb: IConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType, Point2D, Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  href: api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Point2D_System_Int32__System_Int32__
+  commentId: M:NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Point2D,System.Int32@,System.Int32@)
+  name.vb: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, out int, out int)
+  fullName.vb: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Point2D, Integer, Integer)
+  nameWithType: IConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, out int, out int)
+  nameWithType.vb: IConsoleRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions, Point2D, Integer, Integer)
 - uid: NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Targets.Console.Rendering.IConsoleRoomMapBuilder.html#NetAF_Targets_Console_Rendering_IConsoleRoomMapBuilder_BuildRoomMap_
@@ -18108,12 +18235,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.Adapt
   nameWithType: GeneralRegionMapBuilder.Adapt
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
-  name: BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Assets.Size)
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Assets.Size)
-  nameWithType: GeneralRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapDetail, Size)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)
+  name: BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Assets.Size)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: GeneralRegionMapBuilder.BuildRegionMap(Region, Point3D, RegionMapRenderOptions, Size)
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.BuildRegionMap*
   name: BuildRegionMap
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRegionMapBuilder_BuildRegionMap_
@@ -18296,12 +18423,12 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.Adapt
   nameWithType: GeneralRoomMapBuilder.Adapt
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  name: BuildRoomMap(Room, ViewPoint, KeyType)
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_KeyType_
-  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.KeyType)
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.KeyType)
-  nameWithType: GeneralRoomMapBuilder.BuildRoomMap(Room, ViewPoint, KeyType)
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  name: BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_BuildRoomMap_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_
+  commentId: M:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Rendering.RoomMapRenderOptions)
+  nameWithType: GeneralRoomMapBuilder.BuildRoomMap(Room, ViewPoint, RoomMapRenderOptions)
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.BuildRoomMap*
   name: BuildRoomMap
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_BuildRoomMap_
@@ -18348,19 +18475,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.HorizontalExitBorder
   nameWithType: GeneralRoomMapBuilder.HorizontalExitBorder
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
-  name: ItemOrCharacterInRoom
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_ItemOrCharacterInRoom
-  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
-  nameWithType: GeneralRoomMapBuilder.ItemOrCharacterInRoom
-- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom*
-  name: ItemOrCharacterInRoom
-  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_ItemOrCharacterInRoom_
-  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
-  isSpec: "True"
-  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.ItemOrCharacterInRoom
-  nameWithType: GeneralRoomMapBuilder.ItemOrCharacterInRoom
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.KeyPadding
   name: KeyPadding
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_KeyPadding
@@ -18387,6 +18501,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.LockedExit
   nameWithType: GeneralRoomMapBuilder.LockedExit
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.PointOfInterest
+  name: PointOfInterest
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_PointOfInterest
+  commentId: P:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.PointOfInterest
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.PointOfInterest
+  nameWithType: GeneralRoomMapBuilder.PointOfInterest
+- uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.PointOfInterest*
+  name: PointOfInterest
+  href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_PointOfInterest_
+  commentId: Overload:NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.PointOfInterest
+  isSpec: "True"
+  fullName: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.PointOfInterest
+  nameWithType: GeneralRoomMapBuilder.PointOfInterest
 - uid: NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.RenderedSize
   name: RenderedSize
   href: api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.html#NetAF_Targets_General_FrameBuilders_GeneralRoomMapBuilder_RenderedSize
@@ -19046,15 +19173,15 @@ references:
   fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.New
   nameWithType: HtmlRegionMapFrameBuilder.HtmlRegionMapFrameBuilder
   nameWithType.vb: HtmlRegionMapFrameBuilder.New
-- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
-  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: HtmlRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  nameWithType.vb: HtmlRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: HtmlRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  nameWithType.vb: HtmlRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlRegionMapFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlRegionMapFrameBuilder_Build_
@@ -19164,15 +19291,15 @@ references:
   fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.New
   nameWithType: HtmlSceneFrameBuilder.HtmlSceneFrameBuilder
   nameWithType.vb: HtmlSceneFrameBuilder.New
-- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
-  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  nameWithType.vb: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  nameWithType.vb: HtmlSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_
@@ -20514,15 +20641,15 @@ references:
   fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.New
   nameWithType: MarkupRegionMapFrameBuilder.MarkupRegionMapFrameBuilder
   nameWithType.vb: MarkupRegionMapFrameBuilder.New
-- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
-  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: MarkupRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  nameWithType.vb: MarkupRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: MarkupRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  nameWithType.vb: MarkupRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_Build_
@@ -20632,15 +20759,15 @@ references:
   fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.New
   nameWithType: MarkupSceneFrameBuilder.MarkupSceneFrameBuilder
   nameWithType.vb: MarkupSceneFrameBuilder.New
-- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
-  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  nameWithType.vb: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  nameWithType.vb: MarkupSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupSceneFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupSceneFrameBuilder_Build_
@@ -21606,15 +21733,15 @@ references:
   fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.New
   nameWithType: TextRegionMapFrameBuilder.TextRegionMapFrameBuilder
   nameWithType.vb: TextRegionMapFrameBuilder.New
-- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name: Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
-  name.vb: Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
-  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapDetail, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
-  nameWithType: TextRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)
-  nameWithType.vb: TextRegionMapFrameBuilder.Build(Region, Point3D, RegionMapDetail, CommandHelp(), Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)
+  name.vb: Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp[], NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region, NetAF.Assets.Point3D, NetAF.Rendering.RegionMapRenderOptions, NetAF.Commands.CommandHelp(), NetAF.Assets.Size)
+  nameWithType: TextRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)
+  nameWithType.vb: TextRegionMapFrameBuilder.Build(Region, Point3D, RegionMapRenderOptions, CommandHelp(), Size)
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextRegionMapFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextRegionMapFrameBuilder_Build_
@@ -21724,15 +21851,15 @@ references:
   fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.New
   nameWithType: TextSceneFrameBuilder.TextSceneFrameBuilder
   nameWithType.vb: TextSceneFrameBuilder.New
-- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_
-  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)
-  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
-  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.KeyType, NetAF.Assets.Size)
-  nameWithType: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)
-  nameWithType.vb: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, KeyType, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name: Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)
+  name.vb: Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp[], bool, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build(NetAF.Assets.Locations.Room, NetAF.Assets.Locations.ViewPoint, NetAF.Assets.Characters.PlayableCharacter, NetAF.Commands.CommandHelp(), Boolean, NetAF.Rendering.RoomMapRenderOptions, NetAF.Assets.Size)
+  nameWithType: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)
+  nameWithType.vb: TextSceneFrameBuilder.Build(Room, ViewPoint, PlayableCharacter, CommandHelp(), Boolean, RoomMapRenderOptions, Size)
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.Build*
   name: Build
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextSceneFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextSceneFrameBuilder_Build_

@@ -115,7 +115,7 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Markup.html">Markup</a>.<a class="xref" href="NetAF.Targets.Markup.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Markup.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Namespace</strong>: <span class="xref">NetAF</span>.<span class="xref">Targets</span>.<a class="xref" href="NetAF.Targets.Markup.html">Markup</a>.<a class="xref" href="NetAF.Targets.Markup.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Markup.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
@@ -233,13 +233,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_Build_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapDetail, CommandHelp[], Size)</h4>
+  <h4 id="NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapRenderOptions, CommandHelp[], Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapDetail detail, CommandHelp[] contextualCommands, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapRenderOptions options, CommandHelp[] contextualCommands, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -264,9 +264,9 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
-        <td><span class="parametername">detail</span></td>
-        <td><p>The level of detail to use.</p>
+        <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The render options to use.</p>
 </td>
       </tr>
       <tr>

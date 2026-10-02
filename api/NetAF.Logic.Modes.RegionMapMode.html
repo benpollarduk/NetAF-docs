@@ -114,7 +114,7 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
+  <h6><strong>Namespace</strong>: <span class="xref">NetAF</span>.<a class="xref" href="NetAF.Logic.html">Logic</a>.<a class="xref" href="NetAF.Logic.Modes.html">Modes</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Logic_Modes_RegionMapMode_syntax">Syntax</h5>
   <div class="codewrapper">
@@ -123,13 +123,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Logic_Modes_RegionMapMode__ctor_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapDetail_NetAF_Interpretation_IInterpreter_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapDetail,NetAF.Interpretation.IInterpreter)">RegionMapMode(Point3D, RegionMapDetail, IInterpreter)</h4>
+  <h4 id="NetAF_Logic_Modes_RegionMapMode__ctor_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Interpretation_IInterpreter_" data-uid="NetAF.Logic.Modes.RegionMapMode.#ctor(NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Interpretation.IInterpreter)">RegionMapMode(Point3D, RegionMapRenderOptions, IInterpreter)</h4>
   <div class="markdown level1 summary"><p>Provides a display mode for the region map.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RegionMapMode(Point3D focusPosition, RegionMapDetail detail, IInterpreter interpreter)</code></pre>
+    <pre><code class="lang-csharp hljs">public RegionMapMode(Point3D focusPosition, RegionMapRenderOptions options, IInterpreter interpreter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -148,9 +148,9 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
-        <td><span class="parametername">detail</span></td>
-        <td><p>The level of detail to use.</p>
+        <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The render options to use.</p>
 </td>
       </tr>
       <tr>
@@ -163,30 +163,6 @@
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Logic_Modes_RegionMapMode_Detail_" data-uid="NetAF.Logic.Modes.RegionMapMode.Detail*"></a>
-  <h4 id="NetAF_Logic_Modes_RegionMapMode_Detail" data-uid="NetAF.Logic.Modes.RegionMapMode.Detail">Detail</h4>
-  <div class="markdown level1 summary"><p>Get or set the level of detail to use.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RegionMapDetail Detail { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Rendering.RegionMapDetail.html">RegionMapDetail</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="NetAF_Logic_Modes_RegionMapMode_FocusPosition_" data-uid="NetAF.Logic.Modes.RegionMapMode.FocusPosition*"></a>
   <h4 id="NetAF_Logic_Modes_RegionMapMode_FocusPosition" data-uid="NetAF.Logic.Modes.RegionMapMode.FocusPosition">FocusPosition</h4>
   <div class="markdown level1 summary"><p>Get or set the position to focus on. To use the player position use RegionMapMode.Player.</p>
@@ -231,6 +207,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="NetAF.Interpretation.IInterpreter.html">IInterpreter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Logic_Modes_RegionMapMode_Options_" data-uid="NetAF.Logic.Modes.RegionMapMode.Options*"></a>
+  <h4 id="NetAF_Logic_Modes_RegionMapMode_Options" data-uid="NetAF.Logic.Modes.RegionMapMode.Options">Options</h4>
+  <div class="markdown level1 summary"><p>Get or set the render options to use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RegionMapRenderOptions Options { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -115,7 +115,7 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetAF.html">NetAF</a>.<a class="xref" href="NetAF.Targets.html">Targets</a>.<a class="xref" href="NetAF.Targets.Html.html">Html</a>.<a class="xref" href="NetAF.Targets.Html.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Html.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Namespace</strong>: <span class="xref">NetAF</span>.<span class="xref">Targets</span>.<a class="xref" href="NetAF.Targets.Html.html">Html</a>.<a class="xref" href="NetAF.Targets.Html.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Html.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
@@ -185,13 +185,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_KeyType_NetAF_Assets_Size_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.KeyType,NetAF.Assets.Size)">Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, KeyType, Size)</h4>
+  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlSceneFrameBuilder_Build_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Assets_Characters_PlayableCharacter_NetAF_Commands_CommandHelp___System_Boolean_NetAF_Rendering_RoomMapRenderOptions_NetAF_Assets_Size_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlSceneFrameBuilder.Build(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Assets.Characters.PlayableCharacter,NetAF.Commands.CommandHelp[],System.Boolean,NetAF.Rendering.RoomMapRenderOptions,NetAF.Assets.Size)">Build(Room, ViewPoint, PlayableCharacter, CommandHelp[], bool, RoomMapRenderOptions, Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(Room room, ViewPoint viewPoint, PlayableCharacter player, CommandHelp[] contextualCommands, bool showMap, KeyType keyType, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(Room room, ViewPoint viewPoint, PlayableCharacter player, CommandHelp[] contextualCommands, bool showMap, RoomMapRenderOptions options, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -234,9 +234,9 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="NetAF.Rendering.KeyType.html">KeyType</a></td>
-        <td><span class="parametername">keyType</span></td>
-        <td><p>The type of key to use with the map, if it is shown.</p>
+        <td><a class="xref" href="NetAF.Rendering.RoomMapRenderOptions.html">RoomMapRenderOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The render options to use with the map, if it is shown.</p>
 </td>
       </tr>
       <tr>
