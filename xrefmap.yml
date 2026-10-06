@@ -8042,6 +8042,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.ConversationCommandInterpreter.DefaultSupportedCommands
   nameWithType: ConversationCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.ConversationCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.ConversationCommandInterpreter.html#NetAF_Interpretation_ConversationCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.ConversationCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.ConversationCommandInterpreter.ExcludedCommands
+  nameWithType: ConversationCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.ConversationCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.ConversationCommandInterpreter.html#NetAF_Interpretation_ConversationCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.ConversationCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.ConversationCommandInterpreter.ExcludedCommands
+  nameWithType: ConversationCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.ConversationCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.ConversationCommandInterpreter.html#NetAF_Interpretation_ConversationCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8090,6 +8103,32 @@ references:
   commentId: T:NetAF.Interpretation.CustomCommandInterpreter
   fullName: NetAF.Interpretation.CustomCommandInterpreter
   nameWithType: CustomCommandInterpreter
+- uid: NetAF.Interpretation.CustomCommandInterpreter.DefaultSupportedCommands
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.CustomCommandInterpreter.html#NetAF_Interpretation_CustomCommandInterpreter_DefaultSupportedCommands
+  commentId: P:NetAF.Interpretation.CustomCommandInterpreter.DefaultSupportedCommands
+  fullName: NetAF.Interpretation.CustomCommandInterpreter.DefaultSupportedCommands
+  nameWithType: CustomCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.CustomCommandInterpreter.DefaultSupportedCommands*
+  name: DefaultSupportedCommands
+  href: api/NetAF.Interpretation.CustomCommandInterpreter.html#NetAF_Interpretation_CustomCommandInterpreter_DefaultSupportedCommands_
+  commentId: Overload:NetAF.Interpretation.CustomCommandInterpreter.DefaultSupportedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.CustomCommandInterpreter.DefaultSupportedCommands
+  nameWithType: CustomCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.CustomCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.CustomCommandInterpreter.html#NetAF_Interpretation_CustomCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.CustomCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.CustomCommandInterpreter.ExcludedCommands
+  nameWithType: CustomCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.CustomCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.CustomCommandInterpreter.html#NetAF_Interpretation_CustomCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.CustomCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.CustomCommandInterpreter.ExcludedCommands
+  nameWithType: CustomCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.CustomCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.CustomCommandInterpreter.html#NetAF_Interpretation_CustomCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8151,6 +8190,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.ExecutionCommandInterpreter.DefaultSupportedCommands
   nameWithType: ExecutionCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.ExecutionCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.ExcludedCommands
+  nameWithType: ExecutionCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.ExecutionCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.ExecutionCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.ExecutionCommandInterpreter.ExcludedCommands
+  nameWithType: ExecutionCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.ExecutionCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.ExecutionCommandInterpreter.html#NetAF_Interpretation_ExecutionCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8212,6 +8264,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.FrameCommandInterpreter.DefaultSupportedCommands
   nameWithType: FrameCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.FrameCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.FrameCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.FrameCommandInterpreter.ExcludedCommands
+  nameWithType: FrameCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.FrameCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.FrameCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.FrameCommandInterpreter.ExcludedCommands
+  nameWithType: FrameCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.FrameCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.FrameCommandInterpreter.html#NetAF_Interpretation_FrameCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8273,6 +8338,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.GlobalCommandInterpreter.DefaultSupportedCommands
   nameWithType: GlobalCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.GlobalCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.GlobalCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.GlobalCommandInterpreter.ExcludedCommands
+  nameWithType: GlobalCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.GlobalCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.GlobalCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.GlobalCommandInterpreter.ExcludedCommands
+  nameWithType: GlobalCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.GlobalCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.GlobalCommandInterpreter.html#NetAF_Interpretation_GlobalCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8321,6 +8399,19 @@ references:
   commentId: T:NetAF.Interpretation.IInterpreter
   fullName: NetAF.Interpretation.IInterpreter
   nameWithType: IInterpreter
+- uid: NetAF.Interpretation.IInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.IInterpreter.html#NetAF_Interpretation_IInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.IInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.IInterpreter.ExcludedCommands
+  nameWithType: IInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.IInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.IInterpreter.html#NetAF_Interpretation_IInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.IInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.IInterpreter.ExcludedCommands
+  nameWithType: IInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.IInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.IInterpreter.html#NetAF_Interpretation_IInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8388,6 +8479,19 @@ references:
   fullName.vb: NetAF.Interpretation.InputInterpreter.New
   nameWithType: InputInterpreter.InputInterpreter
   nameWithType.vb: InputInterpreter.New
+- uid: NetAF.Interpretation.InputInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.InputInterpreter.html#NetAF_Interpretation_InputInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.InputInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.InputInterpreter.ExcludedCommands
+  nameWithType: InputInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.InputInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.InputInterpreter.html#NetAF_Interpretation_InputInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.InputInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.InputInterpreter.ExcludedCommands
+  nameWithType: InputInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.InputInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.InputInterpreter.html#NetAF_Interpretation_InputInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8571,6 +8675,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.PersistenceCommandInterpreter.DefaultSupportedCommands
   nameWithType: PersistenceCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.PersistenceCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.PersistenceCommandInterpreter.html#NetAF_Interpretation_PersistenceCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.PersistenceCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.PersistenceCommandInterpreter.ExcludedCommands
+  nameWithType: PersistenceCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.PersistenceCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.PersistenceCommandInterpreter.html#NetAF_Interpretation_PersistenceCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.PersistenceCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.PersistenceCommandInterpreter.ExcludedCommands
+  nameWithType: PersistenceCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.PersistenceCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.PersistenceCommandInterpreter.html#NetAF_Interpretation_PersistenceCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8632,6 +8749,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.RegionMapCommandInterpreter.DefaultSupportedCommands
   nameWithType: RegionMapCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.RegionMapCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.ExcludedCommands
+  nameWithType: RegionMapCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.RegionMapCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.RegionMapCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.RegionMapCommandInterpreter.ExcludedCommands
+  nameWithType: RegionMapCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.RegionMapCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.RegionMapCommandInterpreter.html#NetAF_Interpretation_RegionMapCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
@@ -8693,6 +8823,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Interpretation.SceneCommandInterpreter.DefaultSupportedCommands
   nameWithType: SceneCommandInterpreter.DefaultSupportedCommands
+- uid: NetAF.Interpretation.SceneCommandInterpreter.ExcludedCommands
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_ExcludedCommands
+  commentId: P:NetAF.Interpretation.SceneCommandInterpreter.ExcludedCommands
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.ExcludedCommands
+  nameWithType: SceneCommandInterpreter.ExcludedCommands
+- uid: NetAF.Interpretation.SceneCommandInterpreter.ExcludedCommands*
+  name: ExcludedCommands
+  href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_ExcludedCommands_
+  commentId: Overload:NetAF.Interpretation.SceneCommandInterpreter.ExcludedCommands
+  isSpec: "True"
+  fullName: NetAF.Interpretation.SceneCommandInterpreter.ExcludedCommands
+  nameWithType: SceneCommandInterpreter.ExcludedCommands
 - uid: NetAF.Interpretation.SceneCommandInterpreter.GetContextualCommandHelp(NetAF.Logic.Game)
   name: GetContextualCommandHelp(Game)
   href: api/NetAF.Interpretation.SceneCommandInterpreter.html#NetAF_Interpretation_SceneCommandInterpreter_GetContextualCommandHelp_NetAF_Logic_Game_
