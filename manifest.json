@@ -937,6 +937,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Movement.Move.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Movement.Move.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Movement.Move",
+      "Summary": "<p sourcefile=\"api/NetAF.Commands.Movement.Move.yml\" sourcestartlinenumber=\"1\">Represents the Move command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Commands.Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Commands.Movement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Commands.Movement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Commands.Persistence.Load.yml",
       "output": {
         ".html": {
@@ -1130,20 +1158,6 @@
       "IsMRef": true,
       "Title": "NetAF.Commands.Scene.Examine",
       "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Examine.yml\" sourcestartlinenumber=\"1\">Represents the Examine command.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NetAF.Commands.Scene.Move.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NetAF.Commands.Scene.Move.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "NetAF.Commands.Scene.Move",
-      "Summary": "<p sourcefile=\"api/NetAF.Commands.Scene.Move.yml\" sourcestartlinenumber=\"1\">Represents the Move command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1956,6 +1970,20 @@
       "IsMRef": true,
       "Title": "NetAF.Interpretation.InterpreterProvider",
       "Summary": "<p sourcefile=\"api/NetAF.Interpretation.InterpreterProvider.yml\" sourcestartlinenumber=\"1\">Provides functionality for providing instances of IInterpreter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Interpretation.MovementCommandInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Interpretation.MovementCommandInterpreter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Interpretation.MovementCommandInterpreter",
+      "Summary": "<p sourcefile=\"api/NetAF.Interpretation.MovementCommandInterpreter.yml\" sourcestartlinenumber=\"1\">Provides an object that can be used for interpreting movement commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3121,6 +3149,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.KeyPlacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.KeyPlacement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.KeyPlacement",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.KeyPlacement.yml\" sourcestartlinenumber=\"1\">Enumeration of key placements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.KeyType.yml",
       "output": {
         ".html": {
@@ -4111,7 +4153,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder for region maps.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.General.FrameBuilders.GeneralRegionMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a general builder for region maps.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4125,7 +4167,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder",
-      "Summary": "<p sourcefile=\"api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a room map builder.</p>\n"
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.General.FrameBuilders.GeneralRoomMapBuilder.yml\" sourcestartlinenumber=\"1\">Provides a general builder for room maps.</p>\n"
     },
     {
       "type": "ManagedReference",
