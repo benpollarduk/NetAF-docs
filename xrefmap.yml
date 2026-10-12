@@ -6353,6 +6353,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Conversations.Conversation.CurrentParagraph
   nameWithType: Conversation.CurrentParagraph
+- uid: NetAF.Conversations.Conversation.IsAtEnd
+  name: IsAtEnd
+  href: api/NetAF.Conversations.Conversation.html#NetAF_Conversations_Conversation_IsAtEnd
+  commentId: P:NetAF.Conversations.Conversation.IsAtEnd
+  fullName: NetAF.Conversations.Conversation.IsAtEnd
+  nameWithType: Conversation.IsAtEnd
+- uid: NetAF.Conversations.Conversation.IsAtEnd*
+  name: IsAtEnd
+  href: api/NetAF.Conversations.Conversation.html#NetAF_Conversations_Conversation_IsAtEnd_
+  commentId: Overload:NetAF.Conversations.Conversation.IsAtEnd
+  isSpec: "True"
+  fullName: NetAF.Conversations.Conversation.IsAtEnd
+  nameWithType: Conversation.IsAtEnd
 - uid: NetAF.Conversations.Conversation.Log
   name: Log
   href: api/NetAF.Conversations.Conversation.html#NetAF_Conversations_Conversation_Log
@@ -6392,6 +6405,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Conversations.Conversation.Paragraphs
   nameWithType: Conversation.Paragraphs
+- uid: NetAF.Conversations.Conversation.Reset
+  name: Reset()
+  href: api/NetAF.Conversations.Conversation.html#NetAF_Conversations_Conversation_Reset
+  commentId: M:NetAF.Conversations.Conversation.Reset
+  fullName: NetAF.Conversations.Conversation.Reset()
+  nameWithType: Conversation.Reset()
+- uid: NetAF.Conversations.Conversation.Reset*
+  name: Reset
+  href: api/NetAF.Conversations.Conversation.html#NetAF_Conversations_Conversation_Reset_
+  commentId: Overload:NetAF.Conversations.Conversation.Reset
+  isSpec: "True"
+  fullName: NetAF.Conversations.Conversation.Reset
+  nameWithType: Conversation.Reset
 - uid: NetAF.Conversations.Conversation.Respond(NetAF.Conversations.Response,NetAF.Logic.Game)
   name: Respond(Response, Game)
   href: api/NetAF.Conversations.Conversation.html#NetAF_Conversations_Conversation_Respond_NetAF_Conversations_Response_NetAF_Logic_Game_
