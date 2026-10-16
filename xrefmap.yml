@@ -15616,6 +15616,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.BorderColor
   nameWithType: ConsoleRenderProperties.BorderColor
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Clone
+  name: Clone()
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_Clone
+  commentId: M:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Clone
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Clone()
+  nameWithType: ConsoleRenderProperties.Clone()
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Clone*
+  name: Clone
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_Clone_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Clone
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Clone
+  nameWithType: ConsoleRenderProperties.Clone
 - uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.CommandColor
   name: CommandColor
   href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_CommandColor
