@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ConsoleReactionFrameBuilder | NetAF </title>
+      <title>Class ConsoleLegacyRegionMapFrameBuilder | NetAF </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ConsoleReactionFrameBuilder | NetAF ">
+      <meta name="title" content="Class ConsoleLegacyRegionMapFrameBuilder | NetAF ">
     
-    <meta name="description" content="Provides a builder of reaction frames.">
+    <meta name="description" content="Provides a builder of region map frames.">
       <link rel="shortcut icon" href="../images/logo.png">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,26 +76,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder">
+            <article class="content wrap" id="_content" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder">
 
 
 
-  <h1 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder" class="text-break">Class ConsoleReactionFrameBuilder</h1>
-  <div class="markdown level0 summary"><p>Provides a builder of reaction frames.</p>
+  <h1 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder" class="text-break">Class ConsoleLegacyRegionMapFrameBuilder</h1>
+  <div class="markdown level0 summary"><p>Provides a builder of region map frames.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">ConsoleReactionFrameBuilder</span></div>
+    <div class="level1"><a class="xref" href="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyFrameBuilder.html">ConsoleLegacyFrameBuilder</a></div>
+    <div class="level2"><span class="xref">ConsoleLegacyRegionMapFrameBuilder</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html">IReactionFrameBuilder</a></div>
+    <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html">IRegionMapFrameBuilder</a></div>
     <div><a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyFrameBuilder_GetConstrainedWidth_System_Int32_System_Int32_">ConsoleLegacyFrameBuilder.GetConstrainedWidth(int, int)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -115,22 +119,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <span class="xref">NetAF</span>.<span class="xref">Targets</span>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.FrameBuilders.html">FrameBuilders</a></h6>
+  <h6><strong>Namespace</strong>: <span class="xref">NetAF</span>.<span class="xref">Targets</span>.<a class="xref" href="NetAF.Targets.Console.html">Console</a>.<a class="xref" href="NetAF.Targets.Console.Rendering.html">Rendering</a>.<span class="xref">FrameBuilders</span>.<a class="xref" href="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.html">Legacy</a></h6>
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
-  <h5 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_syntax">Syntax</h5>
+  <h5 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ConsoleReactionFrameBuilder : IReactionFrameBuilder, IFrameBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ConsoleLegacyRegionMapFrameBuilder : ConsoleLegacyFrameBuilder, IRegionMapFrameBuilder, IFrameBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder__ctor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.#ctor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder)">ConsoleReactionFrameBuilder(GridStringBuilder)</h4>
-  <div class="markdown level1 summary"><p>Provides a builder of reaction frames.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder__ctor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_System_Boolean_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder,System.Boolean)">ConsoleLegacyRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, bool)</h4>
+  <div class="markdown level1 summary"><p>Provides a builder of region map frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConsoleReactionFrameBuilder(GridStringBuilder gridStringBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public ConsoleLegacyRegionMapFrameBuilder(GridStringBuilder gridStringBuilder, ConsoleRenderProperties properties, IRegionMapBuilder regionMapBuilder, bool renderPrompt = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -148,18 +152,36 @@
         <td><p>A builder to use for the string layout.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html">ConsoleRenderProperties</a></td>
+        <td><span class="parametername">properties</span></td>
+        <td><p>The render properties.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapBuilder.html">IRegionMapBuilder</a></td>
+        <td><span class="parametername">regionMapBuilder</span></td>
+        <td><p>A builder for region maps.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">renderPrompt</span></td>
+        <td><p>Specify if the prompt should be rendered.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_BackgroundColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.BackgroundColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_BackgroundColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.BackgroundColor">BackgroundColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the background color.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_CommandTitle_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.CommandTitle*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_CommandTitle" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.CommandTitle">CommandTitle</h4>
+  <div class="markdown level1 summary"><p>Get or set the command title.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor BackgroundColor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CommandTitle { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -171,19 +193,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_BorderColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.BorderColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_BorderColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.BorderColor">BorderColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the border color.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_SupportsPan_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.SupportsPan*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_SupportsPan" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.SupportsPan">SupportsPan</h4>
+  <div class="markdown level1 summary"><p>Get if this frame builder supports panning.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor BorderColor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SupportsPan { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -195,19 +217,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_ErrorMessageColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.ErrorMessageColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_ErrorMessageColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.ErrorMessageColor">ErrorMessageColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the error message color.</p>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_SupportsZoom_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.SupportsZoom*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_SupportsZoom" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.SupportsZoom">SupportsZoom</h4>
+  <div class="markdown level1 summary"><p>Get if this frame builder supports zooming.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor ErrorMessageColor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SupportsZoom { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -219,69 +241,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_MessageColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.MessageColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_MessageColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.MessageColor">MessageColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the message color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor MessageColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_TitleColor_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.TitleColor*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_TitleColor" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.TitleColor">TitleColor</h4>
-  <div class="markdown level1 summary"><p>Get or set the title color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnsiColor TitleColor { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="NetAF.Targets.Console.Rendering.AnsiColor.html">AnsiColor</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_Build_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_ConsoleReactionFrameBuilder_Build_System_String_System_String_System_Boolean_NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.ConsoleReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)">Build(string, string, bool, Size)</h4>
+  <a id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_Build_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.Build*"></a>
+  <h4 id="NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder_Build_NetAF_Assets_Locations_Region_NetAF_Assets_Point3D_NetAF_Rendering_RegionMapRenderOptions_NetAF_Rendering_RoomMapRenderOptions_NetAF_Commands_CommandHelp___NetAF_Assets_Size_" data-uid="NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.Build(NetAF.Assets.Locations.Region,NetAF.Assets.Point3D,NetAF.Rendering.RegionMapRenderOptions,NetAF.Rendering.RoomMapRenderOptions,NetAF.Commands.CommandHelp[],NetAF.Assets.Size)">Build(Region, Point3D, RegionMapRenderOptions, RoomMapRenderOptions, CommandHelp[], Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(string title, string message, bool isError, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(Region region, Point3D focusPosition, RegionMapRenderOptions regionMapOptions, RoomMapRenderOptions roomMapOptions, CommandHelp[] contextualCommands, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -294,21 +268,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">title</span></td>
-        <td><p>The title to display to the user.</p>
+        <td><a class="xref" href="NetAF.Assets.Locations.Region.html">Region</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message to display to the user.</p>
+        <td><a class="xref" href="NetAF.Assets.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">focusPosition</span></td>
+        <td><p>The position to focus on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">isError</span></td>
-        <td><p>If the message is an error.</p>
+        <td><a class="xref" href="NetAF.Rendering.RegionMapRenderOptions.html">RegionMapRenderOptions</a></td>
+        <td><span class="parametername">regionMapOptions</span></td>
+        <td><p>The region map render options to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.RoomMapRenderOptions.html">RoomMapRenderOptions</a></td>
+        <td><span class="parametername">roomMapOptions</span></td>
+        <td><p>The room map render options to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Commands.CommandHelp.html">CommandHelp</a>[]</td>
+        <td><span class="parametername">contextualCommands</span></td>
+        <td><p>The contextual commands to display.</p>
 </td>
       </tr>
       <tr>
@@ -337,7 +323,7 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="NetAF.Rendering.FrameBuilders.IReactionFrameBuilder.html">IReactionFrameBuilder</a>
+      <a class="xref" href="NetAF.Rendering.FrameBuilders.IRegionMapFrameBuilder.html">IRegionMapFrameBuilder</a>
   </div>
   <div>
       <a class="xref" href="NetAF.Rendering.FrameBuilders.IFrameBuilder.html">IFrameBuilder</a>

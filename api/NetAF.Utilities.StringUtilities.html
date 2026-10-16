@@ -419,6 +419,159 @@
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Utilities_StringUtilities_FindKeywords_" data-uid="NetAF.Utilities.StringUtilities.FindKeywords*"></a>
+  <h4 id="NetAF_Utilities_StringUtilities_FindKeywords_NetAF_Assets_ExaminationScene_" data-uid="NetAF.Utilities.StringUtilities.FindKeywords(NetAF.Assets.ExaminationScene)">FindKeywords(ExaminationScene)</h4>
+  <div class="markdown level1 summary"><p>Find all keywords for a scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] FindKeywords(ExaminationScene scene = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.ExaminationScene.html">ExaminationScene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td><p>The examination scene.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><p>An array of keywords.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Utilities_StringUtilities_GetHighlightMask_" data-uid="NetAF.Utilities.StringUtilities.GetHighlightMask*"></a>
+  <h4 id="NetAF_Utilities_StringUtilities_GetHighlightMask_System_String_NetAF_Utilities_StringMarker___System_Boolean_" data-uid="NetAF.Utilities.StringUtilities.GetHighlightMask(System.String,NetAF.Utilities.StringMarker[],System.Boolean)">GetHighlightMask(string, StringMarker[], bool)</h4>
+  <div class="markdown level1 summary"><p>Determine which characters within a string should be highlighted based on a set of markers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool[] GetHighlightMask(string value, StringMarker[] markers, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string being evaluated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Utilities.StringMarker.html">StringMarker</a>[]</td>
+        <td><span class="parametername">markers</span></td>
+        <td><p>The markers indicating which parts of the string to highlight.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Whether the search should be case-sensitive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>[]</td>
+        <td><p>An array of booleans, one per character in the string, indicating whether that character should be highlighted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Utilities_StringUtilities_LocateStringMarkers_" data-uid="NetAF.Utilities.StringUtilities.LocateStringMarkers*"></a>
+  <h4 id="NetAF_Utilities_StringUtilities_LocateStringMarkers_System_String_System_String___System_Boolean_" data-uid="NetAF.Utilities.StringUtilities.LocateStringMarkers(System.String,System.String[],System.Boolean)">LocateStringMarkers(string, string[], bool)</h4>
+  <div class="markdown level1 summary"><p>Locate all instances of a set of keywords in a string and return their positions as an array of StringMarkers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StringMarker[] LocateStringMarkers(string value, string[] keyWords, bool caseSensitive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to search within.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">keyWords</span></td>
+        <td><p>The keywords to locate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">caseSensitive</span></td>
+        <td><p>Whether the search should be case-sensitive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Utilities.StringMarker.html">StringMarker</a>[]</td>
+        <td><p>An array of StringMarkers indicating the positions of the keywords.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Utilities_StringUtilities_PreenInput_" data-uid="NetAF.Utilities.StringUtilities.PreenInput*"></a>
   <h4 id="NetAF_Utilities_StringUtilities_PreenInput_System_String_" data-uid="NetAF.Utilities.StringUtilities.PreenInput(System.String)">PreenInput(string)</h4>
   <div class="markdown level1 summary"><p>Preen input to remove any ambiguity around special characters.</p>

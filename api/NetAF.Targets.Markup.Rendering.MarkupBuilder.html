@@ -104,9 +104,6 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
   </div>
@@ -114,7 +111,7 @@
   <h6><strong>Assembly</strong>: NetAF.dll</h6>
   <h5 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MarkupBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MarkupBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -127,6 +124,32 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public MarkupBuilder()</code></pre>
   </div>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_TextStyle_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.TextStyle*"></a>
+  <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_TextStyle" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.TextStyle">TextStyle</h4>
+  <div class="markdown level1 summary"><p>Get or set the default text style.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextStyle TextStyle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Markup.TextStyle.html">TextStyle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_Clear_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.Clear*"></a>
@@ -294,9 +317,81 @@
       </tr>
     </tbody>
   </table>
+  <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.Write*"></a>
+  <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_System_String_NetAF_Targets_Markup_TextStyle_NetAF_Utilities_StringMarker___" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(System.String,NetAF.Targets.Markup.TextStyle,NetAF.Utilities.StringMarker[])">Write(string, TextStyle, StringMarker[])</h4>
+  <div class="markdown level1 summary"><p>Append text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(string text, TextStyle style, StringMarker[] markers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to append.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Markup.TextStyle.html">TextStyle</a></td>
+        <td><span class="parametername">style</span></td>
+        <td><p>The style to use for the text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Utilities.StringMarker.html">StringMarker</a>[]</td>
+        <td><span class="parametername">markers</span></td>
+        <td><p>The markers indicating which parts of the text to highlight.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.Write*"></a>
+  <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_Write_System_String_NetAF_Utilities_StringMarker___" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.Write(System.String,NetAF.Utilities.StringMarker[])">Write(string, StringMarker[])</h4>
+  <div class="markdown level1 summary"><p>Append text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(string text, StringMarker[] markers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to append.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Utilities.StringMarker.html">StringMarker</a>[]</td>
+        <td><span class="parametername">markers</span></td>
+        <td><p>The markers indicating which parts of the text to highlight.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine*"></a>
   <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_System_String_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String)">WriteLine(string)</h4>
-  <div class="markdown level1 summary"><p>Append text, terminating in a newline character</p>
+  <div class="markdown level1 summary"><p>Append text, terminating in a newline character.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -322,13 +417,13 @@
     </tbody>
   </table>
   <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine*"></a>
-  <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_System_String_NetAF_Targets_Markup_TextStyle_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String,NetAF.Targets.Markup.TextStyle)">WriteLine(string, TextStyle)</h4>
-  <div class="markdown level1 summary"><p>Append styled text, terminating in a newline character.</p>
+  <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_System_String_NetAF_Targets_Markup_TextStyle_NetAF_Utilities_StringMarker___" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String,NetAF.Targets.Markup.TextStyle,NetAF.Utilities.StringMarker[])">WriteLine(string, TextStyle, StringMarker[])</h4>
+  <div class="markdown level1 summary"><p>Append text, terminating in a newline character, with highlighted words styled, terminating in a newline character.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void WriteLine(string text, TextStyle style)</code></pre>
+    <pre><code class="lang-csharp hljs">public void WriteLine(string text, TextStyle style, StringMarker[] markers = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -350,6 +445,45 @@
         <td><a class="xref" href="NetAF.Targets.Markup.TextStyle.html">TextStyle</a></td>
         <td><span class="parametername">style</span></td>
         <td><p>The style to use for the text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Utilities.StringMarker.html">StringMarker</a>[]</td>
+        <td><span class="parametername">markers</span></td>
+        <td><p>The markers indicating which parts of the text to highlight.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine*"></a>
+  <h4 id="NetAF_Targets_Markup_Rendering_MarkupBuilder_WriteLine_System_String_NetAF_Utilities_StringMarker___" data-uid="NetAF.Targets.Markup.Rendering.MarkupBuilder.WriteLine(System.String,NetAF.Utilities.StringMarker[])">WriteLine(string, StringMarker[])</h4>
+  <div class="markdown level1 summary"><p>Append text, terminating in a newline character, with highlighted words styled, terminating in a newline character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteLine(string text, StringMarker[] markers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to append.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Utilities.StringMarker.html">StringMarker</a>[]</td>
+        <td><span class="parametername">markers</span></td>
+        <td><p>The markers indicating which parts of the text to highlight.</p>
 </td>
       </tr>
     </tbody>

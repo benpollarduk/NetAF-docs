@@ -124,13 +124,13 @@
   <h3 id="constructors">Constructors
 </h3>
   <a id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlReactionFrameBuilder__ctor_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.#ctor*"></a>
-  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlReactionFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)">HtmlReactionFrameBuilder(HtmlBuilder)</h4>
+  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlReactionFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_NetAF_Targets_Html_Rendering_HtmlRenderProperties_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Targets.Html.Rendering.HtmlRenderProperties)">HtmlReactionFrameBuilder(HtmlBuilder, HtmlRenderProperties)</h4>
   <div class="markdown level1 summary"><p>Provides a builder of reaction frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HtmlReactionFrameBuilder(HtmlBuilder builder)</code></pre>
+    <pre><code class="lang-csharp hljs">public HtmlReactionFrameBuilder(HtmlBuilder builder, HtmlRenderProperties properties)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -148,18 +148,24 @@
         <td><p>A builder to use for the text layout.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Html.Rendering.HtmlRenderProperties.html">HtmlRenderProperties</a></td>
+        <td><span class="parametername">properties</span></td>
+        <td><p>The render properties.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
 </h3>
   <a id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlReactionFrameBuilder_Build_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.Build*"></a>
-  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlReactionFrameBuilder_Build_System_String_System_String_System_Boolean_NetAF_Assets_Size_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.Build(System.String,System.String,System.Boolean,NetAF.Assets.Size)">Build(string, string, bool, Size)</h4>
+  <h4 id="NetAF_Targets_Html_Rendering_FrameBuilders_HtmlReactionFrameBuilder_Build_System_String_System_String_System_Boolean_System_String___NetAF_Assets_Size_" data-uid="NetAF.Targets.Html.Rendering.FrameBuilders.HtmlReactionFrameBuilder.Build(System.String,System.String,System.Boolean,System.String[],NetAF.Assets.Size)">Build(string, string, bool, string[], Size)</h4>
   <div class="markdown level1 summary"><p>Build a frame.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IFrame Build(string title, string message, bool isError, Size size)</code></pre>
+    <pre><code class="lang-csharp hljs">public IFrame Build(string title, string message, bool isError, string[] keywords, Size size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -187,6 +193,12 @@
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">isError</span></td>
         <td><p>If the message is an error.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">keywords</span></td>
+        <td><p>Any keywords to highlight.</p>
 </td>
       </tr>
       <tr>
