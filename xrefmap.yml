@@ -15772,6 +15772,32 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.OptionDescriptionColor
   nameWithType: ConsoleRenderProperties.OptionDescriptionColor
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Prompt
+  name: Prompt
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_Prompt
+  commentId: P:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Prompt
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Prompt
+  nameWithType: ConsoleRenderProperties.Prompt
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Prompt*
+  name: Prompt
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_Prompt_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Prompt
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.Prompt
+  nameWithType: ConsoleRenderProperties.Prompt
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.PromptColor
+  name: PromptColor
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_PromptColor
+  commentId: P:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.PromptColor
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.PromptColor
+  nameWithType: ConsoleRenderProperties.PromptColor
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.PromptColor*
+  name: PromptColor
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_PromptColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.PromptColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.PromptColor
+  nameWithType: ConsoleRenderProperties.PromptColor
 - uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.RightBoundary
   name: RightBoundary
   href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_RightBoundary
@@ -15798,6 +15824,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.SecondaryTextColor
   nameWithType: ConsoleRenderProperties.SecondaryTextColor
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.ShowPrompt
+  name: ShowPrompt
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_ShowPrompt
+  commentId: P:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.ShowPrompt
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.ShowPrompt
+  nameWithType: ConsoleRenderProperties.ShowPrompt
+- uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.ShowPrompt*
+  name: ShowPrompt
+  href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_ShowPrompt_
+  commentId: Overload:NetAF.Targets.Console.Rendering.ConsoleRenderProperties.ShowPrompt
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.ShowPrompt
+  nameWithType: ConsoleRenderProperties.ShowPrompt
 - uid: NetAF.Targets.Console.Rendering.ConsoleRenderProperties.TitleColor
   name: TitleColor
   href: api/NetAF.Targets.Console.Rendering.ConsoleRenderProperties.html#NetAF_Targets_Console_Rendering_ConsoleRenderProperties_TitleColor
@@ -15918,12 +15957,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.BuildRoomMap
   nameWithType: ConsoleHighDetailRoomMapBuilder.BuildRoomMap
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.MaximumKeySize
-  name: MaximumKeySize
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Common_ConsoleHighDetailRoomMapBuilder_MaximumKeySize
-  commentId: F:NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.MaximumKeySize
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.MaximumKeySize
-  nameWithType: ConsoleHighDetailRoomMapBuilder.MaximumKeySize
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.Measure(NetAF.Assets.Locations.Room,NetAF.Assets.Locations.ViewPoint,NetAF.Rendering.RoomMapRenderOptions)
   name: Measure(Room, ViewPoint, RoomMapRenderOptions)
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Common.ConsoleHighDetailRoomMapBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Common_ConsoleHighDetailRoomMapBuilder_Measure_NetAF_Assets_Locations_Room_NetAF_Assets_Locations_ViewPoint_NetAF_Rendering_RoomMapRenderOptions_
@@ -16275,15 +16308,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder
   nameWithType: ConsoleLegacyConversationFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,System.Boolean)
-  name: ConsoleLegacyConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, bool)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyConversationFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_System_Boolean_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,System.Boolean)
-  name.vb: New(GridStringBuilder, ConsoleRenderProperties, Boolean)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.ConsoleLegacyConversationFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, bool)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, Boolean)
-  nameWithType: ConsoleLegacyConversationFrameBuilder.ConsoleLegacyConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, bool)
-  nameWithType.vb: ConsoleLegacyConversationFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, Boolean)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  name: ConsoleLegacyConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyConversationFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.ConsoleLegacyConversationFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  nameWithType: ConsoleLegacyConversationFrameBuilder.ConsoleLegacyConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties)
+  nameWithType.vb: ConsoleLegacyConversationFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.#ctor*
   name: ConsoleLegacyConversationFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyConversationFrameBuilder__ctor_
@@ -16620,15 +16653,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder
   nameWithType: ConsoleLegacyRegionMapFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder,System.Boolean)
-  name: ConsoleLegacyRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, bool)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_System_Boolean_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder,System.Boolean)
-  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, Boolean)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.ConsoleLegacyRegionMapFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder, bool)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder, Boolean)
-  nameWithType: ConsoleLegacyRegionMapFrameBuilder.ConsoleLegacyRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, bool)
-  nameWithType.vb: ConsoleLegacyRegionMapFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, Boolean)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  name: ConsoleLegacyRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.ConsoleLegacyRegionMapFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  nameWithType: ConsoleLegacyRegionMapFrameBuilder.ConsoleLegacyRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
+  nameWithType.vb: ConsoleLegacyRegionMapFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.#ctor*
   name: ConsoleLegacyRegionMapFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyRegionMapFrameBuilder__ctor_
@@ -16700,15 +16733,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder
   nameWithType: ConsoleLegacySceneFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder,System.Boolean)
-  name: ConsoleLegacySceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, bool)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacySceneFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRoomMapBuilder_System_Boolean_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder,System.Boolean)
-  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, Boolean)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.ConsoleLegacySceneFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder, bool)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder, Boolean)
-  nameWithType: ConsoleLegacySceneFrameBuilder.ConsoleLegacySceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, bool)
-  nameWithType.vb: ConsoleLegacySceneFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, Boolean)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  name: ConsoleLegacySceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacySceneFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRoomMapBuilder_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.ConsoleLegacySceneFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  nameWithType: ConsoleLegacySceneFrameBuilder.ConsoleLegacySceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
+  nameWithType.vb: ConsoleLegacySceneFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.#ctor*
   name: ConsoleLegacySceneFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacySceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacySceneFrameBuilder__ctor_
@@ -16988,15 +17021,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder
   nameWithType: ConsoleModernConversationFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,System.Boolean)
-  name: ConsoleModernConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, bool)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernConversationFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_System_Boolean_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,System.Boolean)
-  name.vb: New(GridStringBuilder, ConsoleRenderProperties, Boolean)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.ConsoleModernConversationFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, bool)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, Boolean)
-  nameWithType: ConsoleModernConversationFrameBuilder.ConsoleModernConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, bool)
-  nameWithType.vb: ConsoleModernConversationFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, Boolean)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  name: ConsoleModernConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernConversationFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.ConsoleModernConversationFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties)
+  nameWithType: ConsoleModernConversationFrameBuilder.ConsoleModernConversationFrameBuilder(GridStringBuilder, ConsoleRenderProperties)
+  nameWithType.vb: ConsoleModernConversationFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.#ctor*
   name: ConsoleModernConversationFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernConversationFrameBuilder__ctor_
@@ -17023,19 +17056,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Build
   nameWithType: ConsoleModernConversationFrameBuilder.Build
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Prompt
-  name: Prompt
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernConversationFrameBuilder_Prompt
-  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Prompt
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Prompt
-  nameWithType: ConsoleModernConversationFrameBuilder.Prompt
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Prompt*
-  name: Prompt
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernConversationFrameBuilder_Prompt_
-  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Prompt
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernConversationFrameBuilder.Prompt
-  nameWithType: ConsoleModernConversationFrameBuilder.Prompt
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernGameOverFrameBuilder
   name: ConsoleModernGameOverFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernGameOverFrameBuilder.html
@@ -17311,15 +17331,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder
   nameWithType: ConsoleModernRegionMapFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder,System.Boolean)
-  name: ConsoleModernRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, bool)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_System_Boolean_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder,System.Boolean)
-  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, Boolean)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.ConsoleModernRegionMapFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder, bool)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder, Boolean)
-  nameWithType: ConsoleModernRegionMapFrameBuilder.ConsoleModernRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, bool)
-  nameWithType.vb: ConsoleModernRegionMapFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder, Boolean)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  name: ConsoleModernRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernRegionMapFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRegionMapBuilder_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.ConsoleModernRegionMapFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRegionMapBuilder)
+  nameWithType: ConsoleModernRegionMapFrameBuilder.ConsoleModernRegionMapFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
+  nameWithType.vb: ConsoleModernRegionMapFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRegionMapBuilder)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.#ctor*
   name: ConsoleModernRegionMapFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernRegionMapFrameBuilder__ctor_
@@ -17346,19 +17366,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Build
   nameWithType: ConsoleModernRegionMapFrameBuilder.Build
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Prompt
-  name: Prompt
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernRegionMapFrameBuilder_Prompt
-  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Prompt
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Prompt
-  nameWithType: ConsoleModernRegionMapFrameBuilder.Prompt
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Prompt*
-  name: Prompt
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernRegionMapFrameBuilder_Prompt_
-  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Prompt
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.Prompt
-  nameWithType: ConsoleModernRegionMapFrameBuilder.Prompt
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.SupportsPan
   name: SupportsPan
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernRegionMapFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernRegionMapFrameBuilder_SupportsPan
@@ -17391,15 +17398,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder
   nameWithType: ConsoleModernSceneFrameBuilder
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder,System.Boolean)
-  name: ConsoleModernSceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, bool)
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernSceneFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRoomMapBuilder_System_Boolean_
-  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder,System.Boolean)
-  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, Boolean)
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.ConsoleModernSceneFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder, bool)
-  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder, Boolean)
-  nameWithType: ConsoleModernSceneFrameBuilder.ConsoleModernSceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, bool)
-  nameWithType.vb: ConsoleModernSceneFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder, Boolean)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  name: ConsoleModernSceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernSceneFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_FrameBuilders_IRoomMapBuilder_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.ConsoleModernSceneFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.FrameBuilders.IRoomMapBuilder)
+  nameWithType: ConsoleModernSceneFrameBuilder.ConsoleModernSceneFrameBuilder(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
+  nameWithType.vb: ConsoleModernSceneFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, IRoomMapBuilder)
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.#ctor*
   name: ConsoleModernSceneFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernSceneFrameBuilder__ctor_
@@ -17452,19 +17459,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.InventoryHint
   nameWithType: ConsoleModernSceneFrameBuilder.InventoryHint
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.Prompt
-  name: Prompt
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernSceneFrameBuilder_Prompt
-  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.Prompt
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.Prompt
-  nameWithType: ConsoleModernSceneFrameBuilder.Prompt
-- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.Prompt*
-  name: Prompt
-  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernSceneFrameBuilder_Prompt_
-  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.Prompt
-  isSpec: "True"
-  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernSceneFrameBuilder.Prompt
-  nameWithType: ConsoleModernSceneFrameBuilder.Prompt
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernTitleFrameBuilder
   name: ConsoleModernTitleFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernTitleFrameBuilder.html
@@ -17799,15 +17793,15 @@ references:
   commentId: T:NetAF.Targets.Console.Rendering.GridTextFrame
   fullName: NetAF.Targets.Console.Rendering.GridTextFrame
   nameWithType: GridTextFrame
-- uid: NetAF.Targets.Console.Rendering.GridTextFrame.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
-  name: GridTextFrame(GridStringBuilder, int, int, AnsiColor)
-  href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Int32_System_Int32_NetAF_Targets_Console_Rendering_AnsiColor_
-  commentId: M:NetAF.Targets.Console.Rendering.GridTextFrame.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Int32,System.Int32,NetAF.Targets.Console.Rendering.AnsiColor)
-  name.vb: New(GridStringBuilder, Integer, Integer, AnsiColor)
-  fullName: NetAF.Targets.Console.Rendering.GridTextFrame.GridTextFrame(NetAF.Targets.Console.Rendering.GridStringBuilder, int, int, NetAF.Targets.Console.Rendering.AnsiColor)
-  fullName.vb: NetAF.Targets.Console.Rendering.GridTextFrame.New(NetAF.Targets.Console.Rendering.GridStringBuilder, Integer, Integer, NetAF.Targets.Console.Rendering.AnsiColor)
-  nameWithType: GridTextFrame.GridTextFrame(GridStringBuilder, int, int, AnsiColor)
-  nameWithType.vb: GridTextFrame.New(GridStringBuilder, Integer, Integer, AnsiColor)
+- uid: NetAF.Targets.Console.Rendering.GridTextFrame.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Int32,System.Int32,System.Boolean,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
+  name: GridTextFrame(GridStringBuilder, int, int, bool, AnsiColor, AnsiColor)
+  href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_System_Int32_System_Int32_System_Boolean_NetAF_Targets_Console_Rendering_AnsiColor_NetAF_Targets_Console_Rendering_AnsiColor_
+  commentId: M:NetAF.Targets.Console.Rendering.GridTextFrame.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,System.Int32,System.Int32,System.Boolean,NetAF.Targets.Console.Rendering.AnsiColor,NetAF.Targets.Console.Rendering.AnsiColor)
+  name.vb: New(GridStringBuilder, Integer, Integer, Boolean, AnsiColor, AnsiColor)
+  fullName: NetAF.Targets.Console.Rendering.GridTextFrame.GridTextFrame(NetAF.Targets.Console.Rendering.GridStringBuilder, int, int, bool, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridTextFrame.New(NetAF.Targets.Console.Rendering.GridStringBuilder, Integer, Integer, Boolean, NetAF.Targets.Console.Rendering.AnsiColor, NetAF.Targets.Console.Rendering.AnsiColor)
+  nameWithType: GridTextFrame.GridTextFrame(GridStringBuilder, int, int, bool, AnsiColor, AnsiColor)
+  nameWithType.vb: GridTextFrame.New(GridStringBuilder, Integer, Integer, Boolean, AnsiColor, AnsiColor)
 - uid: NetAF.Targets.Console.Rendering.GridTextFrame.#ctor*
   name: GridTextFrame
   href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame__ctor_
@@ -17873,6 +17867,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridTextFrame.GetCell
   nameWithType: GridTextFrame.GetCell
+- uid: NetAF.Targets.Console.Rendering.GridTextFrame.InputColor
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame_InputColor
+  commentId: P:NetAF.Targets.Console.Rendering.GridTextFrame.InputColor
+  fullName: NetAF.Targets.Console.Rendering.GridTextFrame.InputColor
+  nameWithType: GridTextFrame.InputColor
+- uid: NetAF.Targets.Console.Rendering.GridTextFrame.InputColor*
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame_InputColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridTextFrame.InputColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridTextFrame.InputColor
+  nameWithType: GridTextFrame.InputColor
 - uid: NetAF.Targets.Console.Rendering.GridTextFrame.Render(NetAF.Rendering.IFramePresenter)
   name: Render(IFramePresenter)
   href: api/NetAF.Targets.Console.Rendering.GridTextFrame.html#NetAF_Targets_Console_Rendering_GridTextFrame_Render_NetAF_Rendering_IFramePresenter_
@@ -18297,6 +18304,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell
   nameWithType: GridVisualFrame.GetCell
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_InputColor
+  commentId: P:NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor
+  nameWithType: GridVisualFrame.InputColor
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor*
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_InputColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor
+  nameWithType: GridVisualFrame.InputColor
 - uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Render(NetAF.Rendering.IFramePresenter)
   name: Render(IFramePresenter)
   href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Render_NetAF_Rendering_IFramePresenter_
@@ -18377,6 +18397,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.IConsoleFrame.CursorTop
   nameWithType: IConsoleFrame.CursorTop
+- uid: NetAF.Targets.Console.Rendering.IConsoleFrame.InputColor
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.IConsoleFrame.html#NetAF_Targets_Console_Rendering_IConsoleFrame_InputColor
+  commentId: P:NetAF.Targets.Console.Rendering.IConsoleFrame.InputColor
+  fullName: NetAF.Targets.Console.Rendering.IConsoleFrame.InputColor
+  nameWithType: IConsoleFrame.InputColor
+- uid: NetAF.Targets.Console.Rendering.IConsoleFrame.InputColor*
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.IConsoleFrame.html#NetAF_Targets_Console_Rendering_IConsoleFrame_InputColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.IConsoleFrame.InputColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.IConsoleFrame.InputColor
+  nameWithType: IConsoleFrame.InputColor
 - uid: NetAF.Targets.Console.Rendering.IConsoleFrame.ShowCursor
   name: ShowCursor
   href: api/NetAF.Targets.Console.Rendering.IConsoleFrame.html#NetAF_Targets_Console_Rendering_IConsoleFrame_ShowCursor
