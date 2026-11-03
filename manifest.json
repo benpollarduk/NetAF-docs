@@ -5557,6 +5557,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.TextRenderProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.TextRenderProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.TextRenderProperties",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.TextRenderProperties.yml\" sourcestartlinenumber=\"1\">Provides options for rendering a text frame.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Text.Rendering.yml",
       "output": {
         ".html": {
@@ -5727,11 +5741,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -5930,11 +5944,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
         }
       },
       "version": ""
@@ -6073,11 +6087,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

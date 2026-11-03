@@ -11360,6 +11360,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.ReactionMode.Render
   nameWithType: ReactionMode.Render
+- uid: NetAF.Logic.Modes.ReactionMode.RenderKeywords
+  name: RenderKeywords
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_RenderKeywords
+  commentId: P:NetAF.Logic.Modes.ReactionMode.RenderKeywords
+  fullName: NetAF.Logic.Modes.ReactionMode.RenderKeywords
+  nameWithType: ReactionMode.RenderKeywords
+- uid: NetAF.Logic.Modes.ReactionMode.RenderKeywords*
+  name: RenderKeywords
+  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_RenderKeywords_
+  commentId: Overload:NetAF.Logic.Modes.ReactionMode.RenderKeywords
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.ReactionMode.RenderKeywords
+  nameWithType: ReactionMode.RenderKeywords
 - uid: NetAF.Logic.Modes.ReactionMode.Type
   name: Type
   href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Type
@@ -12082,6 +12095,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Persistence.Json.JsonSave.FromJson
   nameWithType: JsonSave.FromJson
+- uid: NetAF.Persistence.Json.JsonSave.IsJson(System.String)
+  name: IsJson(string)
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_IsJson_System_String_
+  commentId: M:NetAF.Persistence.Json.JsonSave.IsJson(System.String)
+  name.vb: IsJson(String)
+  fullName: NetAF.Persistence.Json.JsonSave.IsJson(string)
+  fullName.vb: NetAF.Persistence.Json.JsonSave.IsJson(String)
+  nameWithType: JsonSave.IsJson(string)
+  nameWithType.vb: JsonSave.IsJson(String)
+- uid: NetAF.Persistence.Json.JsonSave.IsJson*
+  name: IsJson
+  href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_IsJson_
+  commentId: Overload:NetAF.Persistence.Json.JsonSave.IsJson
+  isSpec: "True"
+  fullName: NetAF.Persistence.Json.JsonSave.IsJson
+  nameWithType: JsonSave.IsJson
 - uid: NetAF.Persistence.Json.JsonSave.ToFile(System.String,NetAF.Persistence.RestorePoint,System.String@)
   name: ToFile(string, RestorePoint, out string)
   href: api/NetAF.Persistence.Json.JsonSave.html#NetAF_Persistence_Json_JsonSave_ToFile_System_String_NetAF_Persistence_RestorePoint_System_String__
@@ -13309,6 +13338,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.RenderProperties.HighlightKeywords
   nameWithType: RenderProperties.HighlightKeywords
+- uid: NetAF.Rendering.RenderProperties.RenderConversationHistory
+  name: RenderConversationHistory
+  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_RenderConversationHistory
+  commentId: P:NetAF.Rendering.RenderProperties.RenderConversationHistory
+  fullName: NetAF.Rendering.RenderProperties.RenderConversationHistory
+  nameWithType: RenderProperties.RenderConversationHistory
+- uid: NetAF.Rendering.RenderProperties.RenderConversationHistory*
+  name: RenderConversationHistory
+  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_RenderConversationHistory_
+  commentId: Overload:NetAF.Rendering.RenderProperties.RenderConversationHistory
+  isSpec: "True"
+  fullName: NetAF.Rendering.RenderProperties.RenderConversationHistory
+  nameWithType: RenderProperties.RenderConversationHistory
 - uid: NetAF.Rendering.RoomMapRenderOptions
   name: RoomMapRenderOptions
   href: api/NetAF.Rendering.RoomMapRenderOptions.html
@@ -19246,15 +19288,15 @@ references:
   commentId: T:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder
   nameWithType: HtmlConversationFrameBuilder
-- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  name: HtmlConversationFrameBuilder(HtmlBuilder)
-  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlConversationFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_
-  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  name.vb: New(HtmlBuilder)
-  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.HtmlConversationFrameBuilder(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.New(NetAF.Targets.Html.Rendering.HtmlBuilder)
-  nameWithType: HtmlConversationFrameBuilder.HtmlConversationFrameBuilder(HtmlBuilder)
-  nameWithType.vb: HtmlConversationFrameBuilder.New(HtmlBuilder)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Targets.Html.Rendering.HtmlRenderProperties)
+  name: HtmlConversationFrameBuilder(HtmlBuilder, HtmlRenderProperties)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlConversationFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_NetAF_Targets_Html_Rendering_HtmlRenderProperties_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Targets.Html.Rendering.HtmlRenderProperties)
+  name.vb: New(HtmlBuilder, HtmlRenderProperties)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.HtmlConversationFrameBuilder(NetAF.Targets.Html.Rendering.HtmlBuilder, NetAF.Targets.Html.Rendering.HtmlRenderProperties)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.New(NetAF.Targets.Html.Rendering.HtmlBuilder, NetAF.Targets.Html.Rendering.HtmlRenderProperties)
+  nameWithType: HtmlConversationFrameBuilder.HtmlConversationFrameBuilder(HtmlBuilder, HtmlRenderProperties)
+  nameWithType.vb: HtmlConversationFrameBuilder.New(HtmlBuilder, HtmlRenderProperties)
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.#ctor*
   name: HtmlConversationFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlConversationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlConversationFrameBuilder__ctor_
@@ -20755,15 +20797,15 @@ references:
   commentId: T:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder
   fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder
   nameWithType: MarkupConversationFrameBuilder
-- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  name: MarkupConversationFrameBuilder(MarkupBuilder)
-  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupConversationFrameBuilder__ctor_NetAF_Targets_Markup_Rendering_MarkupBuilder_
-  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  name.vb: New(MarkupBuilder)
-  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.MarkupConversationFrameBuilder(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.New(NetAF.Targets.Markup.Rendering.MarkupBuilder)
-  nameWithType: MarkupConversationFrameBuilder.MarkupConversationFrameBuilder(MarkupBuilder)
-  nameWithType.vb: MarkupConversationFrameBuilder.New(MarkupBuilder)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder,NetAF.Targets.Markup.Rendering.MarkupRenderProperties)
+  name: MarkupConversationFrameBuilder(MarkupBuilder, MarkupRenderProperties)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupConversationFrameBuilder__ctor_NetAF_Targets_Markup_Rendering_MarkupBuilder_NetAF_Targets_Markup_Rendering_MarkupRenderProperties_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder,NetAF.Targets.Markup.Rendering.MarkupRenderProperties)
+  name.vb: New(MarkupBuilder, MarkupRenderProperties)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.MarkupConversationFrameBuilder(NetAF.Targets.Markup.Rendering.MarkupBuilder, NetAF.Targets.Markup.Rendering.MarkupRenderProperties)
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.New(NetAF.Targets.Markup.Rendering.MarkupBuilder, NetAF.Targets.Markup.Rendering.MarkupRenderProperties)
+  nameWithType: MarkupConversationFrameBuilder.MarkupConversationFrameBuilder(MarkupBuilder, MarkupRenderProperties)
+  nameWithType.vb: MarkupConversationFrameBuilder.New(MarkupBuilder, MarkupRenderProperties)
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.#ctor*
   name: MarkupConversationFrameBuilder
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupConversationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupConversationFrameBuilder__ctor_
@@ -21932,15 +21974,15 @@ references:
   commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder
   fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder
   nameWithType: TextConversationFrameBuilder
-- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor(System.Text.StringBuilder)
-  name: TextConversationFrameBuilder(StringBuilder)
-  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder__ctor_System_Text_StringBuilder_
-  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor(System.Text.StringBuilder)
-  name.vb: New(StringBuilder)
-  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.TextConversationFrameBuilder(System.Text.StringBuilder)
-  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.New(System.Text.StringBuilder)
-  nameWithType: TextConversationFrameBuilder.TextConversationFrameBuilder(StringBuilder)
-  nameWithType.vb: TextConversationFrameBuilder.New(StringBuilder)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Targets.Text.Rendering.TextRenderProperties)
+  name: TextConversationFrameBuilder(StringBuilder, TextRenderProperties)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Targets_Text_Rendering_TextRenderProperties_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Targets.Text.Rendering.TextRenderProperties)
+  name.vb: New(StringBuilder, TextRenderProperties)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.TextConversationFrameBuilder(System.Text.StringBuilder, NetAF.Targets.Text.Rendering.TextRenderProperties)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.New(System.Text.StringBuilder, NetAF.Targets.Text.Rendering.TextRenderProperties)
+  nameWithType: TextConversationFrameBuilder.TextConversationFrameBuilder(StringBuilder, TextRenderProperties)
+  nameWithType.vb: TextConversationFrameBuilder.New(StringBuilder, TextRenderProperties)
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.#ctor*
   name: TextConversationFrameBuilder
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextConversationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextConversationFrameBuilder__ctor_
@@ -22615,6 +22657,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Text.Rendering.TextFrame.ToString
   nameWithType: TextFrame.ToString
+- uid: NetAF.Targets.Text.Rendering.TextRenderProperties
+  name: TextRenderProperties
+  href: api/NetAF.Targets.Text.Rendering.TextRenderProperties.html
+  commentId: T:NetAF.Targets.Text.Rendering.TextRenderProperties
+  fullName: NetAF.Targets.Text.Rendering.TextRenderProperties
+  nameWithType: TextRenderProperties
+- uid: NetAF.Targets.Text.Rendering.TextRenderProperties.Default
+  name: Default
+  href: api/NetAF.Targets.Text.Rendering.TextRenderProperties.html#NetAF_Targets_Text_Rendering_TextRenderProperties_Default
+  commentId: P:NetAF.Targets.Text.Rendering.TextRenderProperties.Default
+  fullName: NetAF.Targets.Text.Rendering.TextRenderProperties.Default
+  nameWithType: TextRenderProperties.Default
+- uid: NetAF.Targets.Text.Rendering.TextRenderProperties.Default*
+  name: Default
+  href: api/NetAF.Targets.Text.Rendering.TextRenderProperties.html#NetAF_Targets_Text_Rendering_TextRenderProperties_Default_
+  commentId: Overload:NetAF.Targets.Text.Rendering.TextRenderProperties.Default
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.TextRenderProperties.Default
+  nameWithType: TextRenderProperties.Default
 - uid: NetAF.Targets.Text.TextAdapter
   name: TextAdapter
   href: api/NetAF.Targets.Text.TextAdapter.html
