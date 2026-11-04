@@ -11360,19 +11360,6 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.ReactionMode.Render
   nameWithType: ReactionMode.Render
-- uid: NetAF.Logic.Modes.ReactionMode.RenderKeywords
-  name: RenderKeywords
-  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_RenderKeywords
-  commentId: P:NetAF.Logic.Modes.ReactionMode.RenderKeywords
-  fullName: NetAF.Logic.Modes.ReactionMode.RenderKeywords
-  nameWithType: ReactionMode.RenderKeywords
-- uid: NetAF.Logic.Modes.ReactionMode.RenderKeywords*
-  name: RenderKeywords
-  href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_RenderKeywords_
-  commentId: Overload:NetAF.Logic.Modes.ReactionMode.RenderKeywords
-  isSpec: "True"
-  fullName: NetAF.Logic.Modes.ReactionMode.RenderKeywords
-  nameWithType: ReactionMode.RenderKeywords
 - uid: NetAF.Logic.Modes.ReactionMode.Type
   name: Type
   href: api/NetAF.Logic.Modes.ReactionMode.html#NetAF_Logic_Modes_ReactionMode_Type
@@ -13325,19 +13312,32 @@ references:
   commentId: T:NetAF.Rendering.RenderProperties
   fullName: NetAF.Rendering.RenderProperties
   nameWithType: RenderProperties
-- uid: NetAF.Rendering.RenderProperties.HighlightKeywords
-  name: HighlightKeywords
-  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_HighlightKeywords
-  commentId: P:NetAF.Rendering.RenderProperties.HighlightKeywords
-  fullName: NetAF.Rendering.RenderProperties.HighlightKeywords
-  nameWithType: RenderProperties.HighlightKeywords
-- uid: NetAF.Rendering.RenderProperties.HighlightKeywords*
-  name: HighlightKeywords
-  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_HighlightKeywords_
-  commentId: Overload:NetAF.Rendering.RenderProperties.HighlightKeywords
+- uid: NetAF.Rendering.RenderProperties.HighlightReactionKeywords
+  name: HighlightReactionKeywords
+  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_HighlightReactionKeywords
+  commentId: P:NetAF.Rendering.RenderProperties.HighlightReactionKeywords
+  fullName: NetAF.Rendering.RenderProperties.HighlightReactionKeywords
+  nameWithType: RenderProperties.HighlightReactionKeywords
+- uid: NetAF.Rendering.RenderProperties.HighlightReactionKeywords*
+  name: HighlightReactionKeywords
+  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_HighlightReactionKeywords_
+  commentId: Overload:NetAF.Rendering.RenderProperties.HighlightReactionKeywords
   isSpec: "True"
-  fullName: NetAF.Rendering.RenderProperties.HighlightKeywords
-  nameWithType: RenderProperties.HighlightKeywords
+  fullName: NetAF.Rendering.RenderProperties.HighlightReactionKeywords
+  nameWithType: RenderProperties.HighlightReactionKeywords
+- uid: NetAF.Rendering.RenderProperties.HighlightSceneKeywords
+  name: HighlightSceneKeywords
+  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_HighlightSceneKeywords
+  commentId: P:NetAF.Rendering.RenderProperties.HighlightSceneKeywords
+  fullName: NetAF.Rendering.RenderProperties.HighlightSceneKeywords
+  nameWithType: RenderProperties.HighlightSceneKeywords
+- uid: NetAF.Rendering.RenderProperties.HighlightSceneKeywords*
+  name: HighlightSceneKeywords
+  href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_HighlightSceneKeywords_
+  commentId: Overload:NetAF.Rendering.RenderProperties.HighlightSceneKeywords
+  isSpec: "True"
+  fullName: NetAF.Rendering.RenderProperties.HighlightSceneKeywords
+  nameWithType: RenderProperties.HighlightSceneKeywords
 - uid: NetAF.Rendering.RenderProperties.RenderConversationHistory
   name: RenderConversationHistory
   href: api/NetAF.Rendering.RenderProperties.html#NetAF_Rendering_RenderProperties_RenderConversationHistory
