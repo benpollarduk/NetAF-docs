@@ -616,7 +616,12 @@
   </div>
   <a id="NetAF_Targets_Console_Rendering_GridVisualBuilder_FromString_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString*"></a>
   <h4 id="NetAF_Targets_Console_Rendering_GridVisualBuilder_FromString_System_String_" data-uid="NetAF.Targets.Console.Rendering.GridVisualBuilder.FromString(System.String)">FromString(string)</h4>
-  <div class="markdown level1 summary"><p>Creates a GridVisualBuilder from its string representation.</p>
+  <div class="markdown level1 summary"><p>Creates a GridVisualBuilder from its string representation.
+Each cell is represented in hex as RRGGBBRRGGBBCC where
+RRGGBB is the background color,
+RRGGBB is the foreground color and
+CC is the character.
+Each line is terminated with StringUtilities.Newline.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
