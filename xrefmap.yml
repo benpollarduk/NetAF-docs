@@ -10715,6 +10715,70 @@ references:
   isSpec: "True"
   fullName: NetAF.Logic.Modes.AboutMode.Type
   nameWithType: AboutMode.Type
+- uid: NetAF.Logic.Modes.AnimationMode
+  name: AnimationMode
+  href: api/NetAF.Logic.Modes.AnimationMode.html
+  commentId: T:NetAF.Logic.Modes.AnimationMode
+  fullName: NetAF.Logic.Modes.AnimationMode
+  nameWithType: AnimationMode
+- uid: NetAF.Logic.Modes.AnimationMode.#ctor(NetAF.Rendering.Animation)
+  name: AnimationMode(Animation)
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode__ctor_NetAF_Rendering_Animation_
+  commentId: M:NetAF.Logic.Modes.AnimationMode.#ctor(NetAF.Rendering.Animation)
+  name.vb: New(Animation)
+  fullName: NetAF.Logic.Modes.AnimationMode.AnimationMode(NetAF.Rendering.Animation)
+  fullName.vb: NetAF.Logic.Modes.AnimationMode.New(NetAF.Rendering.Animation)
+  nameWithType: AnimationMode.AnimationMode(Animation)
+  nameWithType.vb: AnimationMode.New(Animation)
+- uid: NetAF.Logic.Modes.AnimationMode.#ctor*
+  name: AnimationMode
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode__ctor_
+  commentId: Overload:NetAF.Logic.Modes.AnimationMode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Logic.Modes.AnimationMode.AnimationMode
+  fullName.vb: NetAF.Logic.Modes.AnimationMode.New
+  nameWithType: AnimationMode.AnimationMode
+  nameWithType.vb: AnimationMode.New
+- uid: NetAF.Logic.Modes.AnimationMode.Interpreter
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode_Interpreter
+  commentId: P:NetAF.Logic.Modes.AnimationMode.Interpreter
+  fullName: NetAF.Logic.Modes.AnimationMode.Interpreter
+  nameWithType: AnimationMode.Interpreter
+- uid: NetAF.Logic.Modes.AnimationMode.Interpreter*
+  name: Interpreter
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode_Interpreter_
+  commentId: Overload:NetAF.Logic.Modes.AnimationMode.Interpreter
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.AnimationMode.Interpreter
+  nameWithType: AnimationMode.Interpreter
+- uid: NetAF.Logic.Modes.AnimationMode.Render(NetAF.Logic.Game)
+  name: Render(Game)
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode_Render_NetAF_Logic_Game_
+  commentId: M:NetAF.Logic.Modes.AnimationMode.Render(NetAF.Logic.Game)
+  fullName: NetAF.Logic.Modes.AnimationMode.Render(NetAF.Logic.Game)
+  nameWithType: AnimationMode.Render(Game)
+- uid: NetAF.Logic.Modes.AnimationMode.Render*
+  name: Render
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode_Render_
+  commentId: Overload:NetAF.Logic.Modes.AnimationMode.Render
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.AnimationMode.Render
+  nameWithType: AnimationMode.Render
+- uid: NetAF.Logic.Modes.AnimationMode.Type
+  name: Type
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode_Type
+  commentId: P:NetAF.Logic.Modes.AnimationMode.Type
+  fullName: NetAF.Logic.Modes.AnimationMode.Type
+  nameWithType: AnimationMode.Type
+- uid: NetAF.Logic.Modes.AnimationMode.Type*
+  name: Type
+  href: api/NetAF.Logic.Modes.AnimationMode.html#NetAF_Logic_Modes_AnimationMode_Type_
+  commentId: Overload:NetAF.Logic.Modes.AnimationMode.Type
+  isSpec: "True"
+  fullName: NetAF.Logic.Modes.AnimationMode.Type
+  nameWithType: AnimationMode.Type
 - uid: NetAF.Logic.Modes.CommandListMode
   name: CommandListMode
   href: api/NetAF.Logic.Modes.CommandListMode.html
@@ -12431,6 +12495,218 @@ references:
   commentId: N:NetAF.Rendering
   fullName: NetAF.Rendering
   nameWithType: NetAF.Rendering
+- uid: NetAF.Rendering.Animation
+  name: Animation
+  href: api/NetAF.Rendering.Animation.html
+  commentId: T:NetAF.Rendering.Animation
+  fullName: NetAF.Rendering.Animation
+  nameWithType: Animation
+- uid: NetAF.Rendering.Animation.#ctor(System.String,System.String,NetAF.Targets.Console.Rendering.GridVisualBuilder[],NetAF.Rendering.AnimationOptions)
+  name: Animation(string, string, GridVisualBuilder[], AnimationOptions)
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation__ctor_System_String_System_String_NetAF_Targets_Console_Rendering_GridVisualBuilder___NetAF_Rendering_AnimationOptions_
+  commentId: M:NetAF.Rendering.Animation.#ctor(System.String,System.String,NetAF.Targets.Console.Rendering.GridVisualBuilder[],NetAF.Rendering.AnimationOptions)
+  name.vb: New(String, String, GridVisualBuilder(), AnimationOptions)
+  fullName: NetAF.Rendering.Animation.Animation(string, string, NetAF.Targets.Console.Rendering.GridVisualBuilder[], NetAF.Rendering.AnimationOptions)
+  fullName.vb: NetAF.Rendering.Animation.New(String, String, NetAF.Targets.Console.Rendering.GridVisualBuilder(), NetAF.Rendering.AnimationOptions)
+  nameWithType: Animation.Animation(string, string, GridVisualBuilder[], AnimationOptions)
+  nameWithType.vb: Animation.New(String, String, GridVisualBuilder(), AnimationOptions)
+- uid: NetAF.Rendering.Animation.#ctor*
+  name: Animation
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation__ctor_
+  commentId: Overload:NetAF.Rendering.Animation.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Rendering.Animation.Animation
+  fullName.vb: NetAF.Rendering.Animation.New
+  nameWithType: Animation.Animation
+  nameWithType.vb: Animation.New
+- uid: NetAF.Rendering.Animation.Crop(NetAF.Assets.Size)
+  name: Crop(Size)
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Crop_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.Animation.Crop(NetAF.Assets.Size)
+  fullName: NetAF.Rendering.Animation.Crop(NetAF.Assets.Size)
+  nameWithType: Animation.Crop(Size)
+- uid: NetAF.Rendering.Animation.Crop*
+  name: Crop
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Crop_
+  commentId: Overload:NetAF.Rendering.Animation.Crop
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Crop
+  nameWithType: Animation.Crop
+- uid: NetAF.Rendering.Animation.Description
+  name: Description
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Description
+  commentId: P:NetAF.Rendering.Animation.Description
+  fullName: NetAF.Rendering.Animation.Description
+  nameWithType: Animation.Description
+- uid: NetAF.Rendering.Animation.Description*
+  name: Description
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Description_
+  commentId: Overload:NetAF.Rendering.Animation.Description
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Description
+  nameWithType: Animation.Description
+- uid: NetAF.Rendering.Animation.Height
+  name: Height
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Height
+  commentId: P:NetAF.Rendering.Animation.Height
+  fullName: NetAF.Rendering.Animation.Height
+  nameWithType: Animation.Height
+- uid: NetAF.Rendering.Animation.Height*
+  name: Height
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Height_
+  commentId: Overload:NetAF.Rendering.Animation.Height
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Height
+  nameWithType: Animation.Height
+- uid: NetAF.Rendering.Animation.Name
+  name: Name
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Name
+  commentId: P:NetAF.Rendering.Animation.Name
+  fullName: NetAF.Rendering.Animation.Name
+  nameWithType: Animation.Name
+- uid: NetAF.Rendering.Animation.Name*
+  name: Name
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Name_
+  commentId: Overload:NetAF.Rendering.Animation.Name
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Name
+  nameWithType: Animation.Name
+- uid: NetAF.Rendering.Animation.Options
+  name: Options
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Options
+  commentId: P:NetAF.Rendering.Animation.Options
+  fullName: NetAF.Rendering.Animation.Options
+  nameWithType: Animation.Options
+- uid: NetAF.Rendering.Animation.Options*
+  name: Options
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Options_
+  commentId: Overload:NetAF.Rendering.Animation.Options
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Options
+  nameWithType: Animation.Options
+- uid: NetAF.Rendering.Animation.ResizeIfNeeded(NetAF.Assets.Size,NetAF.Rendering.VisualResizeMode)
+  name: ResizeIfNeeded(Size, VisualResizeMode)
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_ResizeIfNeeded_NetAF_Assets_Size_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Rendering.Animation.ResizeIfNeeded(NetAF.Assets.Size,NetAF.Rendering.VisualResizeMode)
+  fullName: NetAF.Rendering.Animation.ResizeIfNeeded(NetAF.Assets.Size, NetAF.Rendering.VisualResizeMode)
+  nameWithType: Animation.ResizeIfNeeded(Size, VisualResizeMode)
+- uid: NetAF.Rendering.Animation.ResizeIfNeeded*
+  name: ResizeIfNeeded
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_ResizeIfNeeded_
+  commentId: Overload:NetAF.Rendering.Animation.ResizeIfNeeded
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.ResizeIfNeeded
+  nameWithType: Animation.ResizeIfNeeded
+- uid: NetAF.Rendering.Animation.Scale(NetAF.Assets.Size)
+  name: Scale(Size)
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Scale_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.Animation.Scale(NetAF.Assets.Size)
+  fullName: NetAF.Rendering.Animation.Scale(NetAF.Assets.Size)
+  nameWithType: Animation.Scale(Size)
+- uid: NetAF.Rendering.Animation.Scale*
+  name: Scale
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Scale_
+  commentId: Overload:NetAF.Rendering.Animation.Scale
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Scale
+  nameWithType: Animation.Scale
+- uid: NetAF.Rendering.Animation.VisualBuilders
+  name: VisualBuilders
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_VisualBuilders
+  commentId: P:NetAF.Rendering.Animation.VisualBuilders
+  fullName: NetAF.Rendering.Animation.VisualBuilders
+  nameWithType: Animation.VisualBuilders
+- uid: NetAF.Rendering.Animation.VisualBuilders*
+  name: VisualBuilders
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_VisualBuilders_
+  commentId: Overload:NetAF.Rendering.Animation.VisualBuilders
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.VisualBuilders
+  nameWithType: Animation.VisualBuilders
+- uid: NetAF.Rendering.Animation.Width
+  name: Width
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Width
+  commentId: P:NetAF.Rendering.Animation.Width
+  fullName: NetAF.Rendering.Animation.Width
+  nameWithType: Animation.Width
+- uid: NetAF.Rendering.Animation.Width*
+  name: Width
+  href: api/NetAF.Rendering.Animation.html#NetAF_Rendering_Animation_Width_
+  commentId: Overload:NetAF.Rendering.Animation.Width
+  isSpec: "True"
+  fullName: NetAF.Rendering.Animation.Width
+  nameWithType: Animation.Width
+- uid: NetAF.Rendering.AnimationOptions
+  name: AnimationOptions
+  href: api/NetAF.Rendering.AnimationOptions.html
+  commentId: T:NetAF.Rendering.AnimationOptions
+  fullName: NetAF.Rendering.AnimationOptions
+  nameWithType: AnimationOptions
+- uid: NetAF.Rendering.AnimationOptions.#ctor(System.Int32,System.Int32)
+  name: AnimationOptions(int, int)
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions__ctor_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.AnimationOptions.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: NetAF.Rendering.AnimationOptions.AnimationOptions(int, int)
+  fullName.vb: NetAF.Rendering.AnimationOptions.New(Integer, Integer)
+  nameWithType: AnimationOptions.AnimationOptions(int, int)
+  nameWithType.vb: AnimationOptions.New(Integer, Integer)
+- uid: NetAF.Rendering.AnimationOptions.#ctor*
+  name: AnimationOptions
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions__ctor_
+  commentId: Overload:NetAF.Rendering.AnimationOptions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Rendering.AnimationOptions.AnimationOptions
+  fullName.vb: NetAF.Rendering.AnimationOptions.New
+  nameWithType: AnimationOptions.AnimationOptions
+  nameWithType.vb: AnimationOptions.New
+- uid: NetAF.Rendering.AnimationOptions.Cycles
+  name: Cycles
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_Cycles
+  commentId: P:NetAF.Rendering.AnimationOptions.Cycles
+  fullName: NetAF.Rendering.AnimationOptions.Cycles
+  nameWithType: AnimationOptions.Cycles
+- uid: NetAF.Rendering.AnimationOptions.Cycles*
+  name: Cycles
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_Cycles_
+  commentId: Overload:NetAF.Rendering.AnimationOptions.Cycles
+  isSpec: "True"
+  fullName: NetAF.Rendering.AnimationOptions.Cycles
+  nameWithType: AnimationOptions.Cycles
+- uid: NetAF.Rendering.AnimationOptions.Forever
+  name: Forever
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_Forever
+  commentId: F:NetAF.Rendering.AnimationOptions.Forever
+  fullName: NetAF.Rendering.AnimationOptions.Forever
+  nameWithType: AnimationOptions.Forever
+- uid: NetAF.Rendering.AnimationOptions.FramesPerSecond
+  name: FramesPerSecond
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_FramesPerSecond
+  commentId: P:NetAF.Rendering.AnimationOptions.FramesPerSecond
+  fullName: NetAF.Rendering.AnimationOptions.FramesPerSecond
+  nameWithType: AnimationOptions.FramesPerSecond
+- uid: NetAF.Rendering.AnimationOptions.FramesPerSecond*
+  name: FramesPerSecond
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_FramesPerSecond_
+  commentId: Overload:NetAF.Rendering.AnimationOptions.FramesPerSecond
+  isSpec: "True"
+  fullName: NetAF.Rendering.AnimationOptions.FramesPerSecond
+  nameWithType: AnimationOptions.FramesPerSecond
+- uid: NetAF.Rendering.AnimationOptions.Single
+  name: Single
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_Single
+  commentId: P:NetAF.Rendering.AnimationOptions.Single
+  fullName: NetAF.Rendering.AnimationOptions.Single
+  nameWithType: AnimationOptions.Single
+- uid: NetAF.Rendering.AnimationOptions.Single*
+  name: Single
+  href: api/NetAF.Rendering.AnimationOptions.html#NetAF_Rendering_AnimationOptions_Single_
+  commentId: Overload:NetAF.Rendering.AnimationOptions.Single
+  isSpec: "True"
+  fullName: NetAF.Rendering.AnimationOptions.Single
+  nameWithType: AnimationOptions.Single
 - uid: NetAF.Rendering.CommandListType
   name: CommandListType
   href: api/NetAF.Rendering.CommandListType.html
@@ -12455,6 +12731,141 @@ references:
   commentId: F:NetAF.Rendering.CommandListType.None
   fullName: NetAF.Rendering.CommandListType.None
   nameWithType: CommandListType.None
+- uid: NetAF.Rendering.FixedRateUpdatableFrame
+  name: FixedRateUpdatableFrame
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html
+  commentId: T:NetAF.Rendering.FixedRateUpdatableFrame
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame
+  nameWithType: FixedRateUpdatableFrame
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.#ctor(System.String[],NetAF.Assets.Size,System.Int32,System.Int32)
+  name: FixedRateUpdatableFrame(string[], Size, int, int)
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame__ctor_System_String___NetAF_Assets_Size_System_Int32_System_Int32_
+  commentId: M:NetAF.Rendering.FixedRateUpdatableFrame.#ctor(System.String[],NetAF.Assets.Size,System.Int32,System.Int32)
+  name.vb: New(String(), Size, Integer, Integer)
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.FixedRateUpdatableFrame(string[], NetAF.Assets.Size, int, int)
+  fullName.vb: NetAF.Rendering.FixedRateUpdatableFrame.New(String(), NetAF.Assets.Size, Integer, Integer)
+  nameWithType: FixedRateUpdatableFrame.FixedRateUpdatableFrame(string[], Size, int, int)
+  nameWithType.vb: FixedRateUpdatableFrame.New(String(), Size, Integer, Integer)
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.#ctor*
+  name: FixedRateUpdatableFrame
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame__ctor_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.FixedRateUpdatableFrame
+  fullName.vb: NetAF.Rendering.FixedRateUpdatableFrame.New
+  nameWithType: FixedRateUpdatableFrame.FixedRateUpdatableFrame
+  nameWithType.vb: FixedRateUpdatableFrame.New
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.CurrentFrame
+  name: CurrentFrame
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_CurrentFrame
+  commentId: P:NetAF.Rendering.FixedRateUpdatableFrame.CurrentFrame
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.CurrentFrame
+  nameWithType: FixedRateUpdatableFrame.CurrentFrame
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.CurrentFrame*
+  name: CurrentFrame
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_CurrentFrame_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.CurrentFrame
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.CurrentFrame
+  nameWithType: FixedRateUpdatableFrame.CurrentFrame
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Frames
+  name: Frames
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Frames
+  commentId: P:NetAF.Rendering.FixedRateUpdatableFrame.Frames
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Frames
+  nameWithType: FixedRateUpdatableFrame.Frames
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Frames*
+  name: Frames
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Frames_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.Frames
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Frames
+  nameWithType: FixedRateUpdatableFrame.Frames
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Height
+  name: Height
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Height
+  commentId: P:NetAF.Rendering.FixedRateUpdatableFrame.Height
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Height
+  nameWithType: FixedRateUpdatableFrame.Height
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Height*
+  name: Height
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Height_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.Height
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Height
+  nameWithType: FixedRateUpdatableFrame.Height
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Render(NetAF.Rendering.IFramePresenter)
+  name: Render(IFramePresenter)
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Render_NetAF_Rendering_IFramePresenter_
+  commentId: M:NetAF.Rendering.FixedRateUpdatableFrame.Render(NetAF.Rendering.IFramePresenter)
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Render(NetAF.Rendering.IFramePresenter)
+  nameWithType: FixedRateUpdatableFrame.Render(IFramePresenter)
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Render*
+  name: Render
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Render_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.Render
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Render
+  nameWithType: FixedRateUpdatableFrame.Render
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Start
+  name: Start()
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Start
+  commentId: M:NetAF.Rendering.FixedRateUpdatableFrame.Start
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Start()
+  nameWithType: FixedRateUpdatableFrame.Start()
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Start*
+  name: Start
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Start_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.Start
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Start
+  nameWithType: FixedRateUpdatableFrame.Start
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Stop
+  name: Stop()
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Stop
+  commentId: M:NetAF.Rendering.FixedRateUpdatableFrame.Stop
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Stop()
+  nameWithType: FixedRateUpdatableFrame.Stop()
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Stop*
+  name: Stop
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Stop_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.Stop
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Stop
+  nameWithType: FixedRateUpdatableFrame.Stop
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.ToString
+  name: ToString()
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_ToString
+  commentId: M:NetAF.Rendering.FixedRateUpdatableFrame.ToString
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.ToString()
+  nameWithType: FixedRateUpdatableFrame.ToString()
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.ToString*
+  name: ToString
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_ToString_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.ToString
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.ToString
+  nameWithType: FixedRateUpdatableFrame.ToString
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Updated
+  name: Updated
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Updated
+  commentId: E:NetAF.Rendering.FixedRateUpdatableFrame.Updated
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Updated
+  nameWithType: FixedRateUpdatableFrame.Updated
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Width
+  name: Width
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Width
+  commentId: P:NetAF.Rendering.FixedRateUpdatableFrame.Width
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Width
+  nameWithType: FixedRateUpdatableFrame.Width
+- uid: NetAF.Rendering.FixedRateUpdatableFrame.Width*
+  name: Width
+  href: api/NetAF.Rendering.FixedRateUpdatableFrame.html#NetAF_Rendering_FixedRateUpdatableFrame_Width_
+  commentId: Overload:NetAF.Rendering.FixedRateUpdatableFrame.Width
+  isSpec: "True"
+  fullName: NetAF.Rendering.FixedRateUpdatableFrame.Width
+  nameWithType: FixedRateUpdatableFrame.Width
 - uid: NetAF.Rendering.FrameBuilders
   name: NetAF.Rendering.FrameBuilders
   href: api/NetAF.Rendering.FrameBuilders.html
@@ -12624,6 +13035,25 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.Build
   nameWithType: IAboutFrameBuilder.Build
+- uid: NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder
+  name: IAnimationFrameBuilder
+  href: api/NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.html
+  commentId: T:NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder
+  fullName: NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder
+  nameWithType: IAnimationFrameBuilder
+- uid: NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  name: Build(Animation, Size)
+  href: api/NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IAnimationFrameBuilder_Build_NetAF_Rendering_Animation_NetAF_Assets_Size_
+  commentId: M:NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  fullName: NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.Build(NetAF.Rendering.Animation, NetAF.Assets.Size)
+  nameWithType: IAnimationFrameBuilder.Build(Animation, Size)
+- uid: NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.html#NetAF_Rendering_FrameBuilders_IAnimationFrameBuilder_Build_
+  commentId: Overload:NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.Build
+  nameWithType: IAnimationFrameBuilder.Build
 - uid: NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder
   name: ICommandListFrameBuilder
   href: api/NetAF.Rendering.FrameBuilders.ICommandListFrameBuilder.html
@@ -13518,6 +13948,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.Visual.Description
   nameWithType: Visual.Description
+- uid: NetAF.Rendering.Visual.Height
+  name: Height
+  href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_Height
+  commentId: P:NetAF.Rendering.Visual.Height
+  fullName: NetAF.Rendering.Visual.Height
+  nameWithType: Visual.Height
+- uid: NetAF.Rendering.Visual.Height*
+  name: Height
+  href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_Height_
+  commentId: Overload:NetAF.Rendering.Visual.Height
+  isSpec: "True"
+  fullName: NetAF.Rendering.Visual.Height
+  nameWithType: Visual.Height
 - uid: NetAF.Rendering.Visual.Name
   name: Name
   href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_Name
@@ -13570,6 +14013,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Rendering.Visual.VisualBuilder
   nameWithType: Visual.VisualBuilder
+- uid: NetAF.Rendering.Visual.Width
+  name: Width
+  href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_Width
+  commentId: P:NetAF.Rendering.Visual.Width
+  fullName: NetAF.Rendering.Visual.Width
+  nameWithType: Visual.Width
+- uid: NetAF.Rendering.Visual.Width*
+  name: Width
+  href: api/NetAF.Rendering.Visual.html#NetAF_Rendering_Visual_Width_
+  commentId: Overload:NetAF.Rendering.Visual.Width
+  isSpec: "True"
+  fullName: NetAF.Rendering.Visual.Width
+  nameWithType: Visual.Width
 - uid: NetAF.Rendering.VisualResizeMode
   name: VisualResizeMode
   href: api/NetAF.Rendering.VisualResizeMode.html
@@ -14700,6 +15156,22 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.Ansi.GetAnsiBackgroundEscapeSequence
   nameWithType: Ansi.GetAnsiBackgroundEscapeSequence
+- uid: NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence(System.Int32,System.Int32)
+  name: GetAnsiCursorPositionEscapeSequence(int, int)
+  href: api/NetAF.Targets.Console.Rendering.Ansi.html#NetAF_Targets_Console_Rendering_Ansi_GetAnsiCursorPositionEscapeSequence_System_Int32_System_Int32_
+  commentId: M:NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence(System.Int32,System.Int32)
+  name.vb: GetAnsiCursorPositionEscapeSequence(Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence(int, int)
+  fullName.vb: NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence(Integer, Integer)
+  nameWithType: Ansi.GetAnsiCursorPositionEscapeSequence(int, int)
+  nameWithType.vb: Ansi.GetAnsiCursorPositionEscapeSequence(Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence*
+  name: GetAnsiCursorPositionEscapeSequence
+  href: api/NetAF.Targets.Console.Rendering.Ansi.html#NetAF_Targets_Console_Rendering_Ansi_GetAnsiCursorPositionEscapeSequence_
+  commentId: Overload:NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.Ansi.GetAnsiCursorPositionEscapeSequence
+  nameWithType: Ansi.GetAnsiCursorPositionEscapeSequence
 - uid: NetAF.Targets.Console.Rendering.Ansi.GetAnsiForegroundEscapeSequence(NetAF.Targets.Console.Rendering.AnsiColor)
   name: GetAnsiForegroundEscapeSequence(AnsiColor)
   href: api/NetAF.Targets.Console.Rendering.Ansi.html#NetAF_Targets_Console_Rendering_Ansi_GetAnsiForegroundEscapeSequence_NetAF_Targets_Console_Rendering_AnsiColor_
@@ -16262,6 +16734,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAboutFrameBuilder.Build
   nameWithType: ConsoleLegacyAboutFrameBuilder.Build
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder
+  name: ConsoleLegacyAnimationFrameBuilder
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html
+  commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder
+  nameWithType: ConsoleLegacyAnimationFrameBuilder
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.VisualResizeMode)
+  name: ConsoleLegacyAnimationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyAnimationFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ConsoleLegacyAnimationFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.VisualResizeMode)
+  nameWithType: ConsoleLegacyAnimationFrameBuilder.ConsoleLegacyAnimationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+  nameWithType.vb: ConsoleLegacyAnimationFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.#ctor*
+  name: ConsoleLegacyAnimationFrameBuilder
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyAnimationFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ConsoleLegacyAnimationFrameBuilder
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.New
+  nameWithType: ConsoleLegacyAnimationFrameBuilder.ConsoleLegacyAnimationFrameBuilder
+  nameWithType.vb: ConsoleLegacyAnimationFrameBuilder.New
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  name: Build(Animation, Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyAnimationFrameBuilder_Build_NetAF_Rendering_Animation_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.Build(NetAF.Rendering.Animation, NetAF.Assets.Size)
+  nameWithType: ConsoleLegacyAnimationFrameBuilder.Build(Animation, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyAnimationFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.Build
+  nameWithType: ConsoleLegacyAnimationFrameBuilder.Build
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyAnimationFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ResizeMode
+  nameWithType: ConsoleLegacyAnimationFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Legacy_ConsoleLegacyAnimationFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.ResizeMode
+  nameWithType: ConsoleLegacyAnimationFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyCommandListFrameBuilder
   name: ConsoleLegacyCommandListFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyCommandListFrameBuilder.html
@@ -16975,6 +17498,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAboutFrameBuilder.Build
   nameWithType: ConsoleModernAboutFrameBuilder.Build
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder
+  name: ConsoleModernAnimationFrameBuilder
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html
+  commentId: T:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder
+  nameWithType: ConsoleModernAnimationFrameBuilder
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.VisualResizeMode)
+  name: ConsoleModernAnimationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernAnimationFrameBuilder__ctor_NetAF_Targets_Console_Rendering_GridStringBuilder_NetAF_Targets_Console_Rendering_ConsoleRenderProperties_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.#ctor(NetAF.Targets.Console.Rendering.GridStringBuilder,NetAF.Targets.Console.Rendering.ConsoleRenderProperties,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ConsoleModernAnimationFrameBuilder(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.New(NetAF.Targets.Console.Rendering.GridStringBuilder, NetAF.Targets.Console.Rendering.ConsoleRenderProperties, NetAF.Rendering.VisualResizeMode)
+  nameWithType: ConsoleModernAnimationFrameBuilder.ConsoleModernAnimationFrameBuilder(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+  nameWithType.vb: ConsoleModernAnimationFrameBuilder.New(GridStringBuilder, ConsoleRenderProperties, VisualResizeMode)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.#ctor*
+  name: ConsoleModernAnimationFrameBuilder
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernAnimationFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ConsoleModernAnimationFrameBuilder
+  fullName.vb: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.New
+  nameWithType: ConsoleModernAnimationFrameBuilder.ConsoleModernAnimationFrameBuilder
+  nameWithType.vb: ConsoleModernAnimationFrameBuilder.New
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  name: Build(Animation, Size)
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernAnimationFrameBuilder_Build_NetAF_Rendering_Animation_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.Build(NetAF.Rendering.Animation, NetAF.Assets.Size)
+  nameWithType: ConsoleModernAnimationFrameBuilder.Build(Animation, Size)
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernAnimationFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.Build
+  nameWithType: ConsoleModernAnimationFrameBuilder.Build
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernAnimationFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ResizeMode
+  nameWithType: ConsoleModernAnimationFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html#NetAF_Targets_Console_Rendering_FrameBuilders_Modern_ConsoleModernAnimationFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.ResizeMode
+  nameWithType: ConsoleModernAnimationFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernCommandListFrameBuilder
   name: ConsoleModernCommandListFrameBuilder
   href: api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernCommandListFrameBuilder.html
@@ -17593,6 +18167,209 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernVisualFrameBuilder.ResizeMode
   nameWithType: ConsoleModernVisualFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame
+  name: GridAnimatedVisualFrame
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html
+  commentId: T:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame
+  nameWithType: GridAnimatedVisualFrame
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualFrame[],NetAF.Rendering.AnimationOptions)
+  name: GridAnimatedVisualFrame(GridVisualFrame[], AnimationOptions)
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame__ctor_NetAF_Targets_Console_Rendering_GridVisualFrame___NetAF_Rendering_AnimationOptions_
+  commentId: M:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.#ctor(NetAF.Targets.Console.Rendering.GridVisualFrame[],NetAF.Rendering.AnimationOptions)
+  name.vb: New(GridVisualFrame(), AnimationOptions)
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GridAnimatedVisualFrame(NetAF.Targets.Console.Rendering.GridVisualFrame[], NetAF.Rendering.AnimationOptions)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.New(NetAF.Targets.Console.Rendering.GridVisualFrame(), NetAF.Rendering.AnimationOptions)
+  nameWithType: GridAnimatedVisualFrame.GridAnimatedVisualFrame(GridVisualFrame[], AnimationOptions)
+  nameWithType.vb: GridAnimatedVisualFrame.New(GridVisualFrame(), AnimationOptions)
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.#ctor*
+  name: GridAnimatedVisualFrame
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame__ctor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GridAnimatedVisualFrame
+  fullName.vb: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.New
+  nameWithType: GridAnimatedVisualFrame.GridAnimatedVisualFrame
+  nameWithType.vb: GridAnimatedVisualFrame.New
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CurrentFrame
+  name: CurrentFrame
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_CurrentFrame
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CurrentFrame
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CurrentFrame
+  nameWithType: GridAnimatedVisualFrame.CurrentFrame
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CurrentFrame*
+  name: CurrentFrame
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_CurrentFrame_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CurrentFrame
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CurrentFrame
+  nameWithType: GridAnimatedVisualFrame.CurrentFrame
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorLeft
+  name: CursorLeft
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_CursorLeft
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorLeft
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorLeft
+  nameWithType: GridAnimatedVisualFrame.CursorLeft
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorLeft*
+  name: CursorLeft
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_CursorLeft_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorLeft
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorLeft
+  nameWithType: GridAnimatedVisualFrame.CursorLeft
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorTop
+  name: CursorTop
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_CursorTop
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorTop
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorTop
+  nameWithType: GridAnimatedVisualFrame.CursorTop
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorTop*
+  name: CursorTop
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_CursorTop_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorTop
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.CursorTop
+  nameWithType: GridAnimatedVisualFrame.CursorTop
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Frames
+  name: Frames
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Frames
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Frames
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Frames
+  nameWithType: GridAnimatedVisualFrame.Frames
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Frames*
+  name: Frames
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Frames_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Frames
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Frames
+  nameWithType: GridAnimatedVisualFrame.Frames
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell(System.Int32,System.Int32)
+  name: GetCell(int, int)
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_GetCell_System_Int32_System_Int32_
+  commentId: M:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell(System.Int32,System.Int32)
+  name.vb: GetCell(Integer, Integer)
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell(int, int)
+  fullName.vb: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell(Integer, Integer)
+  nameWithType: GridAnimatedVisualFrame.GetCell(int, int)
+  nameWithType.vb: GridAnimatedVisualFrame.GetCell(Integer, Integer)
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell*
+  name: GetCell
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_GetCell_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.GetCell
+  nameWithType: GridAnimatedVisualFrame.GetCell
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Height
+  name: Height
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Height
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Height
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Height
+  nameWithType: GridAnimatedVisualFrame.Height
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Height*
+  name: Height
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Height_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Height
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Height
+  nameWithType: GridAnimatedVisualFrame.Height
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.InputColor
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_InputColor
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.InputColor
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.InputColor
+  nameWithType: GridAnimatedVisualFrame.InputColor
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.InputColor*
+  name: InputColor
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_InputColor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.InputColor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.InputColor
+  nameWithType: GridAnimatedVisualFrame.InputColor
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Options
+  name: Options
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Options
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Options
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Options
+  nameWithType: GridAnimatedVisualFrame.Options
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Options*
+  name: Options
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Options_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Options
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Options
+  nameWithType: GridAnimatedVisualFrame.Options
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Render(NetAF.Rendering.IFramePresenter)
+  name: Render(IFramePresenter)
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Render_NetAF_Rendering_IFramePresenter_
+  commentId: M:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Render(NetAF.Rendering.IFramePresenter)
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Render(NetAF.Rendering.IFramePresenter)
+  nameWithType: GridAnimatedVisualFrame.Render(IFramePresenter)
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Render*
+  name: Render
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Render_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Render
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Render
+  nameWithType: GridAnimatedVisualFrame.Render
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ShowCursor
+  name: ShowCursor
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_ShowCursor
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ShowCursor
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ShowCursor
+  nameWithType: GridAnimatedVisualFrame.ShowCursor
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ShowCursor*
+  name: ShowCursor
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_ShowCursor_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ShowCursor
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ShowCursor
+  nameWithType: GridAnimatedVisualFrame.ShowCursor
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Start
+  name: Start()
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Start
+  commentId: M:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Start
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Start()
+  nameWithType: GridAnimatedVisualFrame.Start()
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Start*
+  name: Start
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Start_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Start
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Start
+  nameWithType: GridAnimatedVisualFrame.Start
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop
+  name: Stop()
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Stop
+  commentId: M:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop()
+  nameWithType: GridAnimatedVisualFrame.Stop()
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop*
+  name: Stop
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Stop_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop
+  nameWithType: GridAnimatedVisualFrame.Stop
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Updated
+  name: Updated
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Updated
+  commentId: E:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Updated
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Updated
+  nameWithType: GridAnimatedVisualFrame.Updated
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Width
+  name: Width
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Width
+  commentId: P:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Width
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Width
+  nameWithType: GridAnimatedVisualFrame.Width
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Width*
+  name: Width
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Width_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Width
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Width
+  nameWithType: GridAnimatedVisualFrame.Width
 - uid: NetAF.Targets.Console.Rendering.GridStringBuilder
   name: GridStringBuilder
   href: api/NetAF.Targets.Console.Rendering.GridStringBuilder.html
@@ -18346,6 +19123,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.GetCell
   nameWithType: GridVisualFrame.GetCell
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Height
+  name: Height
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Height
+  commentId: P:NetAF.Targets.Console.Rendering.GridVisualFrame.Height
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.Height
+  nameWithType: GridVisualFrame.Height
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Height*
+  name: Height
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Height_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualFrame.Height
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.Height
+  nameWithType: GridVisualFrame.Height
 - uid: NetAF.Targets.Console.Rendering.GridVisualFrame.InputColor
   name: InputColor
   href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_InputColor
@@ -18385,6 +19175,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.ShowCursor
   nameWithType: GridVisualFrame.ShowCursor
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Width
+  name: Width
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Width
+  commentId: P:NetAF.Targets.Console.Rendering.GridVisualFrame.Width
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.Width
+  nameWithType: GridVisualFrame.Width
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Width*
+  name: Width
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Width_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualFrame.Width
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.Width
+  nameWithType: GridVisualFrame.Width
 - uid: NetAF.Targets.Console.Rendering.IAnsiGridFrame
   name: IAnsiGridFrame
   href: api/NetAF.Targets.Console.Rendering.IAnsiGridFrame.html
@@ -19200,6 +20003,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder.Build
   nameWithType: HtmlAboutFrameBuilder.Build
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder
+  name: HtmlAnimationFrameBuilder
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html
+  commentId: T:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder
+  nameWithType: HtmlAnimationFrameBuilder
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Rendering.VisualResizeMode)
+  name: HtmlAnimationFrameBuilder(HtmlBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlAnimationFrameBuilder__ctor_NetAF_Targets_Html_Rendering_HtmlBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.#ctor(NetAF.Targets.Html.Rendering.HtmlBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(HtmlBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.HtmlAnimationFrameBuilder(NetAF.Targets.Html.Rendering.HtmlBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.New(NetAF.Targets.Html.Rendering.HtmlBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: HtmlAnimationFrameBuilder.HtmlAnimationFrameBuilder(HtmlBuilder, VisualResizeMode)
+  nameWithType.vb: HtmlAnimationFrameBuilder.New(HtmlBuilder, VisualResizeMode)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.#ctor*
+  name: HtmlAnimationFrameBuilder
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlAnimationFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.HtmlAnimationFrameBuilder
+  fullName.vb: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.New
+  nameWithType: HtmlAnimationFrameBuilder.HtmlAnimationFrameBuilder
+  nameWithType.vb: HtmlAnimationFrameBuilder.New
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  name: Build(Animation, Size)
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlAnimationFrameBuilder_Build_NetAF_Rendering_Animation_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.Build(NetAF.Rendering.Animation, NetAF.Assets.Size)
+  nameWithType: HtmlAnimationFrameBuilder.Build(Animation, Size)
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlAnimationFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.Build
+  nameWithType: HtmlAnimationFrameBuilder.Build
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlAnimationFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.ResizeMode
+  nameWithType: HtmlAnimationFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html#NetAF_Targets_Html_Rendering_FrameBuilders_HtmlAnimationFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.ResizeMode
+  nameWithType: HtmlAnimationFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCommandListFrameBuilder
   name: HtmlCommandListFrameBuilder
   href: api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlCommandListFrameBuilder.html
@@ -20709,6 +21563,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAboutFrameBuilder.Build
   nameWithType: MarkupAboutFrameBuilder.Build
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder
+  name: MarkupAnimationFrameBuilder
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html
+  commentId: T:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder
+  nameWithType: MarkupAnimationFrameBuilder
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder,NetAF.Rendering.VisualResizeMode)
+  name: MarkupAnimationFrameBuilder(MarkupBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupAnimationFrameBuilder__ctor_NetAF_Targets_Markup_Rendering_MarkupBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.#ctor(NetAF.Targets.Markup.Rendering.MarkupBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(MarkupBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.MarkupAnimationFrameBuilder(NetAF.Targets.Markup.Rendering.MarkupBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.New(NetAF.Targets.Markup.Rendering.MarkupBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: MarkupAnimationFrameBuilder.MarkupAnimationFrameBuilder(MarkupBuilder, VisualResizeMode)
+  nameWithType.vb: MarkupAnimationFrameBuilder.New(MarkupBuilder, VisualResizeMode)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.#ctor*
+  name: MarkupAnimationFrameBuilder
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupAnimationFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.MarkupAnimationFrameBuilder
+  fullName.vb: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.New
+  nameWithType: MarkupAnimationFrameBuilder.MarkupAnimationFrameBuilder
+  nameWithType.vb: MarkupAnimationFrameBuilder.New
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  name: Build(Animation, Size)
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupAnimationFrameBuilder_Build_NetAF_Rendering_Animation_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.Build(NetAF.Rendering.Animation, NetAF.Assets.Size)
+  nameWithType: MarkupAnimationFrameBuilder.Build(Animation, Size)
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupAnimationFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.Build
+  nameWithType: MarkupAnimationFrameBuilder.Build
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupAnimationFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.ResizeMode
+  nameWithType: MarkupAnimationFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html#NetAF_Targets_Markup_Rendering_FrameBuilders_MarkupAnimationFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.ResizeMode
+  nameWithType: MarkupAnimationFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder
   name: MarkupCommandListFrameBuilder
   href: api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder.html
@@ -21886,6 +22791,57 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.Build
   nameWithType: TextAboutFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder
+  name: TextAnimationFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html
+  commentId: T:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder
+  nameWithType: TextAnimationFrameBuilder
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.VisualResizeMode)
+  name: TextAnimationFrameBuilder(StringBuilder, VisualResizeMode)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAnimationFrameBuilder__ctor_System_Text_StringBuilder_NetAF_Rendering_VisualResizeMode_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.#ctor(System.Text.StringBuilder,NetAF.Rendering.VisualResizeMode)
+  name.vb: New(StringBuilder, VisualResizeMode)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.TextAnimationFrameBuilder(System.Text.StringBuilder, NetAF.Rendering.VisualResizeMode)
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.New(System.Text.StringBuilder, NetAF.Rendering.VisualResizeMode)
+  nameWithType: TextAnimationFrameBuilder.TextAnimationFrameBuilder(StringBuilder, VisualResizeMode)
+  nameWithType.vb: TextAnimationFrameBuilder.New(StringBuilder, VisualResizeMode)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.#ctor*
+  name: TextAnimationFrameBuilder
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAnimationFrameBuilder__ctor_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.TextAnimationFrameBuilder
+  fullName.vb: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.New
+  nameWithType: TextAnimationFrameBuilder.TextAnimationFrameBuilder
+  nameWithType.vb: TextAnimationFrameBuilder.New
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  name: Build(Animation, Size)
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAnimationFrameBuilder_Build_NetAF_Rendering_Animation_NetAF_Assets_Size_
+  commentId: M:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.Build(NetAF.Rendering.Animation,NetAF.Assets.Size)
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.Build(NetAF.Rendering.Animation, NetAF.Assets.Size)
+  nameWithType: TextAnimationFrameBuilder.Build(Animation, Size)
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.Build*
+  name: Build
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAnimationFrameBuilder_Build_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.Build
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.Build
+  nameWithType: TextAnimationFrameBuilder.Build
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.ResizeMode
+  name: ResizeMode
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAnimationFrameBuilder_ResizeMode
+  commentId: P:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.ResizeMode
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.ResizeMode
+  nameWithType: TextAnimationFrameBuilder.ResizeMode
+- uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.ResizeMode*
+  name: ResizeMode
+  href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html#NetAF_Targets_Text_Rendering_FrameBuilders_TextAnimationFrameBuilder_ResizeMode_
+  commentId: Overload:NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.ResizeMode
+  isSpec: "True"
+  fullName: NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.ResizeMode
+  nameWithType: TextAnimationFrameBuilder.ResizeMode
 - uid: NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder
   name: TextCommandListFrameBuilder
   href: api/NetAF.Targets.Text.Rendering.FrameBuilders.TextCommandListFrameBuilder.html

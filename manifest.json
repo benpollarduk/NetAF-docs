@@ -2393,6 +2393,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Logic.Modes.AnimationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Logic.Modes.AnimationMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Logic.Modes.AnimationMode",
+      "Summary": "<p sourcefile=\"api/NetAF.Logic.Modes.AnimationMode.yml\" sourcestartlinenumber=\"1\">Provides a mode for displaying an animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Logic.Modes.CommandListMode.yml",
       "output": {
         ".html": {
@@ -2785,6 +2799,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.Animation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.Animation",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.Animation.yml\" sourcestartlinenumber=\"1\">Represents an animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.AnimationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.AnimationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.AnimationOptions",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.AnimationOptions.yml\" sourcestartlinenumber=\"1\">Provides options for an animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Rendering.CommandListType.yml",
       "output": {
         ".html": {
@@ -2796,6 +2838,20 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.CommandListType",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.CommandListType.yml\" sourcestartlinenumber=\"1\">Enumeration of types of command list.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FixedRateUpdatableFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FixedRateUpdatableFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FixedRateUpdatableFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FixedRateUpdatableFrame.yml\" sourcestartlinenumber=\"1\">Represents a frame that updates at a fixed rate.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2838,6 +2894,20 @@
       "IsMRef": true,
       "Title": "NetAF.Rendering.FrameBuilders.IAboutFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Rendering.FrameBuilders.IAnimationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Represents any object that can build animation frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3793,6 +3863,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyAnimationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of animation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.Legacy.ConsoleLegacyCommandListFrameBuilder.yml",
       "output": {
         ".html": {
@@ -4017,6 +4101,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernAnimationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of animation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Console.Rendering.FrameBuilders.Modern.ConsoleModernCommandListFrameBuilder.yml",
       "output": {
         ".html": {
@@ -4210,6 +4308,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Console.Rendering.FrameBuilders.Modern",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.yml\" sourcestartlinenumber=\"1\">Provides a grid based frame for displaying an animated visual.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4490,6 +4602,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Html.Rendering.FrameBuilders.HtmlAnimationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of animation frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4997,6 +5123,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupAnimationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of animation frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetAF.Targets.Markup.Rendering.FrameBuilders.MarkupCommandListFrameBuilder.yml",
       "output": {
         ".html": {
@@ -5316,6 +5456,20 @@
       "IsMRef": true,
       "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder",
       "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAboutFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of about frames.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder",
+      "Summary": "<p sourcefile=\"api/NetAF.Targets.Text.Rendering.FrameBuilders.TextAnimationFrameBuilder.yml\" sourcestartlinenumber=\"1\">Provides a builder of animation frames.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class Animation | NetAF </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class Animation | NetAF ">
+    
+    <meta name="description" content="Represents an animation.">
+      <link rel="shortcut icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="NetAF">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetAF.Rendering.Animation">
+
+
+
+  <h1 id="NetAF_Rendering_Animation" data-uid="NetAF.Rendering.Animation" class="text-break">Class Animation</h1>
+  <div class="markdown level0 summary"><p>Represents an animation.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">Animation</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NetAF.Rendering.Animation.html">Animation</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">NetAF</span>.<a class="xref" href="NetAF.Rendering.html">Rendering</a></h6>
+  <h6><strong>Assembly</strong>: NetAF.dll</h6>
+  <h5 id="NetAF_Rendering_Animation_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public record Animation : IEquatable&lt;Animation&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <a id="NetAF_Rendering_Animation__ctor_" data-uid="NetAF.Rendering.Animation.#ctor*"></a>
+  <h4 id="NetAF_Rendering_Animation__ctor_System_String_System_String_NetAF_Targets_Console_Rendering_GridVisualBuilder___NetAF_Rendering_AnimationOptions_" data-uid="NetAF.Rendering.Animation.#ctor(System.String,System.String,NetAF.Targets.Console.Rendering.GridVisualBuilder[],NetAF.Rendering.AnimationOptions)">Animation(string, string, GridVisualBuilder[], AnimationOptions)</h4>
+  <div class="markdown level1 summary"><p>Represents an animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation(string Name, string Description, GridVisualBuilder[] VisualBuilders, AnimationOptions Options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">Name</span></td>
+        <td><p>The name of the animation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">Description</span></td>
+        <td><p>A description of the animation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualBuilder.html">GridVisualBuilder</a>[]</td>
+        <td><span class="parametername">VisualBuilders</span></td>
+        <td><p>The visual builders that create the animation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.AnimationOptions.html">AnimationOptions</a></td>
+        <td><span class="parametername">Options</span></td>
+        <td><p>The animation options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <a id="NetAF_Rendering_Animation_Description_" data-uid="NetAF.Rendering.Animation.Description*"></a>
+  <h4 id="NetAF_Rendering_Animation_Description" data-uid="NetAF.Rendering.Animation.Description">Description</h4>
+  <div class="markdown level1 summary"><p>A description of the animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_Height_" data-uid="NetAF.Rendering.Animation.Height*"></a>
+  <h4 id="NetAF_Rendering_Animation_Height" data-uid="NetAF.Rendering.Animation.Height">Height</h4>
+  <div class="markdown level1 summary"><p>Get the height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_Name_" data-uid="NetAF.Rendering.Animation.Name*"></a>
+  <h4 id="NetAF_Rendering_Animation_Name" data-uid="NetAF.Rendering.Animation.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The name of the animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_Options_" data-uid="NetAF.Rendering.Animation.Options*"></a>
+  <h4 id="NetAF_Rendering_Animation_Options" data-uid="NetAF.Rendering.Animation.Options">Options</h4>
+  <div class="markdown level1 summary"><p>The animation options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationOptions Options { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.AnimationOptions.html">AnimationOptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_VisualBuilders_" data-uid="NetAF.Rendering.Animation.VisualBuilders*"></a>
+  <h4 id="NetAF_Rendering_Animation_VisualBuilders" data-uid="NetAF.Rendering.Animation.VisualBuilders">VisualBuilders</h4>
+  <div class="markdown level1 summary"><p>The visual builders that create the animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GridVisualBuilder[] VisualBuilders { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Targets.Console.Rendering.GridVisualBuilder.html">GridVisualBuilder</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_Width_" data-uid="NetAF.Rendering.Animation.Width*"></a>
+  <h4 id="NetAF_Rendering_Animation_Width" data-uid="NetAF.Rendering.Animation.Width">Width</h4>
+  <div class="markdown level1 summary"><p>Get the width.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="NetAF_Rendering_Animation_Crop_" data-uid="NetAF.Rendering.Animation.Crop*"></a>
+  <h4 id="NetAF_Rendering_Animation_Crop_NetAF_Assets_Size_" data-uid="NetAF.Rendering.Animation.Crop(NetAF.Assets.Size)">Crop(Size)</h4>
+  <div class="markdown level1 summary"><p>Crop this animation to a new size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation Crop(Size newSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td><p>The new size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.Animation.html">Animation</a></td>
+        <td><p>The cropped animation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_ResizeIfNeeded_" data-uid="NetAF.Rendering.Animation.ResizeIfNeeded*"></a>
+  <h4 id="NetAF_Rendering_Animation_ResizeIfNeeded_NetAF_Assets_Size_NetAF_Rendering_VisualResizeMode_" data-uid="NetAF.Rendering.Animation.ResizeIfNeeded(NetAF.Assets.Size,NetAF.Rendering.VisualResizeMode)">ResizeIfNeeded(Size, VisualResizeMode)</h4>
+  <div class="markdown level1 summary"><p>Resize this animation if needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation ResizeIfNeeded(Size newSize, VisualResizeMode resizeMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td><p>The new size.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.VisualResizeMode.html">VisualResizeMode</a></td>
+        <td><span class="parametername">resizeMode</span></td>
+        <td><p>The mode to use when resizing the visual.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.Animation.html">Animation</a></td>
+        <td><p>The resized animation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="NetAF_Rendering_Animation_Scale_" data-uid="NetAF.Rendering.Animation.Scale*"></a>
+  <h4 id="NetAF_Rendering_Animation_Scale_NetAF_Assets_Size_" data-uid="NetAF.Rendering.Animation.Scale(NetAF.Assets.Size)">Scale(Size)</h4>
+  <div class="markdown level1 summary"><p>Scale this animation to a new size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation Scale(Size newSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Assets.Size.html">Size</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td><p>The new size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetAF.Rendering.Animation.html">Animation</a></td>
+        <td><p>The scaled animation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

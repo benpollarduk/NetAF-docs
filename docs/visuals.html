@@ -143,6 +143,25 @@ game.ChangeMode(new VisualMode(frame));
 </code></pre>
 <p>The texturized image looks like this:</p>
 <p><img src="../images/visuals-tree-with-texture.png" alt="Tree-With-Texture"></p>
+<h2 id="converting-images-online">Converting Images Online</h2>
+<p>The <a href="https://benpollarduk.github.io/NetAF.Imaging/">online tool</a> can be used to create and serialize images. These can then be directly loaded into code:</p>
+<pre><code class="lang-csharp">var frame = new GridVisualFrame(GridVisualBuilder.FromString(&quot;serialised-image&quot;));
+</code></pre>
+<h2 id="animations">Animations</h2>
+<p>Multiple images can be converted into an animation:</p>
+<pre><code class="lang-csharp">var size = new Size(10, 10);
+
+var image1 = new GridVisualBuilder(AnsiColor.Black, AnsiColor.BrightWhite);
+var image2 = new GridVisualBuilder(AnsiColor.BrightWhite, AnsiColor.Black);
+
+builder1.Resize(size);
+builder1.Resize(size);
+
+var animation = new Animation(Name, string.Empty, [image1, image2], AnimationOptions.Forever);
+</code></pre>
+<p>This can then be displayed in a game by changing to the animation mode:</p>
+<pre><code class="lang-csharp">game.ChangeMode(new AnimationMode(animation));
+</code></pre>
 
 </article>
           </div>
