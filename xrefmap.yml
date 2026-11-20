@@ -18351,6 +18351,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Stop
   nameWithType: GridAnimatedVisualFrame.Stop
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ToString
+  name: ToString()
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_ToString
+  commentId: M:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ToString
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ToString()
+  nameWithType: GridAnimatedVisualFrame.ToString()
+- uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ToString*
+  name: ToString
+  href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_ToString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.ToString
+  nameWithType: GridAnimatedVisualFrame.ToString
 - uid: NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.Updated
   name: Updated
   href: api/NetAF.Targets.Console.Rendering.GridAnimatedVisualFrame.html#NetAF_Targets_Console_Rendering_GridAnimatedVisualFrame_Updated
@@ -19175,6 +19188,19 @@ references:
   isSpec: "True"
   fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.ShowCursor
   nameWithType: GridVisualFrame.ShowCursor
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.ToString
+  name: ToString()
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_ToString
+  commentId: M:NetAF.Targets.Console.Rendering.GridVisualFrame.ToString
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.ToString()
+  nameWithType: GridVisualFrame.ToString()
+- uid: NetAF.Targets.Console.Rendering.GridVisualFrame.ToString*
+  name: ToString
+  href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_ToString_
+  commentId: Overload:NetAF.Targets.Console.Rendering.GridVisualFrame.ToString
+  isSpec: "True"
+  fullName: NetAF.Targets.Console.Rendering.GridVisualFrame.ToString
+  nameWithType: GridVisualFrame.ToString
 - uid: NetAF.Targets.Console.Rendering.GridVisualFrame.Width
   name: Width
   href: api/NetAF.Targets.Console.Rendering.GridVisualFrame.html#NetAF_Targets_Console_Rendering_GridVisualFrame_Width
